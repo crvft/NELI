@@ -191,4 +191,6 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 - 2026-11-18: Python confirmed for Anyanwụ. Accuracy page deferred. V1 scope: presidential + governorship. Model name: **Anyanwụ**. Combine techniques from The Economist, NYT, finance risk models and spatial "neighbours vote alike" models into one model.
 - 2026-11-18: Social media is a low-weight input; free sources only (Google Trends, Wikipedia page views); paid APIs possibly later.
 - 2026-11-18: Data pipeline started (Python, `pipeline/`). Presidential by state done for 1999, 2003, 2015, 2019, 2023; 2007/2011 are gaps (see §6.1).
-- Next: registered voters by state; governorship results (incl. off-cycle); 2007/2011 presidential from another source; then load into Supabase and start Anyanwụ.
+- 2026-11-18: 2007/2011 presidential gap: **option 3 now** (proceed without them; backtest folds 1999→2003→2015→2019→2023), **option 2 later** (when convenient, the user attaches their own computer via Remote Control so the Internet Archive copy of the African Elections Database can be fetched from there). The user has no INEC PDFs.
+  - Plug-in path: add an extractor for the archived page, add 2007/2011 to `YEARS` in `build_presidential.py`, rebuild. The tests and validation report cover them automatically, and Anyanwụ's backtest picks up whatever years exist in `data/processed` (no code change), adding the 2003→2007, 2007→2011 and 2011→2015 folds.
+- Next: registered voters by state; governorship results (incl. off-cycle); then load into Supabase and start Anyanwụ.
