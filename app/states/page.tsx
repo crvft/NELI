@@ -51,17 +51,24 @@ export default async function StatesPage() {
               >
                 <div className='min-w-0'>
                   <h2 className='text-label-md text-text-strong-950'>{z.name}</h2>
-                  <p className='mt-0.5 text-paragraph-xs text-text-sub-600'>
-                    {states.length} states
-                    {lead && latest && (
-                      <>
-                        {' · '}
-                        <span style={{ color: PARTIES[lead.party].text }}>{lead.party}</span> {pct(lead.share)} in {latest.year} · {pct(latest.turnout)} turnout
-                      </>
+                  <div className='mt-1 flex flex-col gap-1 text-paragraph-xs text-text-sub-600'>
+                    <span>
+                      {states.length} states
+                      {lead && (
+                        <>
+                          {' · '}
+                          <span style={{ color: PARTIES[lead.party].text }}>{lead.party}</span> led with {pct(lead.share)}
+                        </>
+                      )}
+                    </span>
+                    {latest && (
+                      <span>
+                        {latest.year} presidential · {pct(latest.turnout)} turnout
+                      </span>
                     )}
-                  </p>
+                  </div>
                 </div>
-                <span className='inline-flex shrink-0 items-center gap-1 rounded-lg px-2 py-1 text-label-xs text-text-sub-600 transition-colors duration-[80ms] group-hover:text-text-strong-950'>
+                <span className='inline-flex shrink-0 items-center gap-1 text-label-xs text-text-sub-600 transition-colors duration-[80ms] group-hover:text-text-strong-950'>
                   <IconAnalytics className='size-4' />
                   Zone analytics
                   <IconChevronRight className='size-3.5 transition-transform duration-[80ms] group-hover:translate-x-0.5' />
@@ -69,7 +76,11 @@ export default async function StatesPage() {
               </Link>
               <FluidHover as='ul' className='p-1' radius={10} gapClick={4}>
                 {states.map((s) => {
-                  const gov = people.find((p) => currentRole(p)?.office === 'governor' && currentRole(p)?.stateCode === s.code);
+                  // Every state lists its sitting governor (the FCT is run by a minister).
+                  const gov = people.find((p) => {
+                    const r = currentRole(p);
+                    return r?.stateCode === s.code && (r.office === 'governor' || (s.code === 'FC' && r.office === 'minister'));
+                  });
                   const l = areaLeader(pres, s.code);
                   return (
                     <li key={s.code} data-fluid-item className='relative'>
@@ -77,7 +88,7 @@ export default async function StatesPage() {
                         <span className='grid size-8 shrink-0 place-items-center rounded-lg bg-hover text-label-xs text-text-sub-600'>{s.code}</span>
                         <div className='min-w-0 flex-1'>
                           <div className='truncate text-label-sm text-text-strong-950'>{s.name}</div>
-                          <div className='truncate text-paragraph-xs text-text-sub-600'>{gov ? `Gov. ${gov.name}` : `Capital: ${s.capital}`}</div>
+                          <div className='truncate text-paragraph-xs text-text-sub-600'>{gov ? `${s.code === 'FC' ? 'Minister' : 'Gov.'} ${gov.name}` : 'Governor not on NELI yet'}</div>
                         </div>
                         {l && <PartyTag code={l.party} />}
                       </Link>

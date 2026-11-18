@@ -989,3 +989,34 @@
     animation-duration: 120ms;
   }
 }
+
+/* Menus: scale + fade from their origin on the moderate spring; exit one tier faster */
+@keyframes menu-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+@keyframes menu-out {
+  to {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
+.menu-surface {
+  transform-origin: var(--radix-dropdown-menu-content-transform-origin);
+}
+.menu-surface[data-state='open'] {
+  animation: menu-in var(--dur-moderate) var(--ease-moderate);
+}
+.menu-surface[data-state='closed'] {
+  animation: menu-out 120ms ease-in forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  .menu-surface[data-state='open'] {
+    animation-name: reveal-fade;
+  }
+  .menu-surface[data-state='closed'] {
+    animation: none;
+  }
+}

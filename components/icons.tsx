@@ -26,6 +26,8 @@ import {
   Search01Icon,
   Sun03Icon,
   UserStar01Icon,
+  Sorting01Icon,
+  Tick02Icon,
 } from '@hugeicons/core-free-icons';
 
 export type IconProps = { className?: string; strokeWidth?: number; 'aria-hidden'?: boolean };
@@ -61,3 +63,5 @@ export const IconLost = make(CancelCircleIcon, 'IconLost');
 export const IconUpcoming = make(Clock01Icon, 'IconUpcoming');
 export const IconCursor = make(Cursor01Icon, 'IconCursor');
 export const IconScale = make(BalanceScaleIcon, 'IconScale');
+export const IconSort = make(Sorting01Icon, 'IconSort');
+export const IconCheck = make(Tick02Icon, 'IconCheck');

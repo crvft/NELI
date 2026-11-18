@@ -16,6 +16,7 @@ import {
   type LgaShapes,
 } from '@/lib/lga';
 import { cn } from '@/utils/cn';
+import { SortMenu, useSorted, type SortOption } from './sort-menu';
 
 type Shapes = {
   width: number;
@@ -959,6 +960,22 @@ function LgaTooltip({ l, stateName }: { l: LgaResult; stateName: string }) {
   );
 }
 
+type LgaSort = 'votes' | 'name' | 'share' | 'margin';
+const EMPTY_LGAS: LgaResult[] = [];
+const LGA_SORT_OPTIONS: SortOption<LgaSort>[] = [
+  { value: 'votes', label: 'Votes' },
+  { value: 'name', label: 'Alphabetical' },
+  { value: 'share', label: 'Leader’s share' },
+  { value: 'margin', label: 'Closest race' },
+];
+const LGA_SORTERS: Record<LgaSort, (a: LgaResult, b: LgaResult) => number> = {
+  votes: (a, b) => b.votes - a.votes,
+  name: (a, b) => a.name.localeCompare(b.name),
+  share: (a, b) =>
+    (b.candidates[0]?.share ?? 0) - (a.candidates[0]?.share ?? 0),
+  margin: (a, b) => a.margin - b.margin,
+};
+
 function StatePanel({
   s,
   live,
@@ -978,6 +995,8 @@ function StatePanel({
   const backRef = React.useRef<HTMLButtonElement>(null);
   // Move keyboard focus to Back once the panel opens, so Enter/Esc return immediately.
   React.useEffect(() => backRef.current?.focus({ preventScroll: true }), []);
+  const [lgaSort, setLgaSort] = React.useState<LgaSort>('votes');
+  const sortedLgas = useSorted(lgas ?? EMPTY_LGAS, lgaSort, LGA_SORTERS);
   const lgasWon: Partial<Record<PartyCode, number>> = {};
   for (const l of lgas ?? [])
     if (l.candidates[0])
@@ -1081,40 +1100,47 @@ function StatePanel({
                   </span>
                 ))}
             </p>
+            <div className='mt-3 flex items-center justify-between gap-2'>
+              <span className='text-paragraph-xs text-text-sub-600'>
+                Hover a row to find it on the map
+              </span>
+              <SortMenu
+                value={lgaSort}
+                onChange={setLgaSort}
+                options={LGA_SORT_OPTIONS}
+              />
+            </div>
             <ul
-              className='mt-3 flex max-h-[320px] flex-col overflow-y-auto pr-1'
+              className='mt-2 flex max-h-[320px] flex-col overflow-y-auto pr-1'
               onPointerLeave={() => onHoverLga(null)}
             >
-              {lgas
-                .slice()
-                .sort((a, b) => b.votes - a.votes)
-                .map((l) => {
-                  const w = l.candidates[0];
-                  return (
-                    <li
-                      key={l.id}
-                      onPointerEnter={() => onHoverLga(l.id)}
-                      className='border-stroke-soft-200 grid grid-cols-[minmax(0,1fr)_auto_3.5rem] items-center gap-2 border-b py-2 last:border-b-0'
-                    >
-                      <span className='text-paragraph-sm text-text-strong-950 truncate'>
-                        {l.name}
-                      </span>
-                      <span className='text-label-xs text-text-sub-600 inline-flex items-center gap-1.5'>
-                        {w && (
-                          <span
-                            className='size-2 rounded-full'
-                            style={{ background: PARTIES[w.party].color }}
-                            aria-hidden
-                          />
-                        )}
-                        {w?.party ?? '—'}
-                      </span>
-                      <span className='tabular text-paragraph-xs text-text-sub-600 text-right'>
-                        {w ? pct(w.share, 0) : '—'}
-                      </span>
-                    </li>
-                  );
-                })}
+              {sortedLgas.map((l) => {
+                const w = l.candidates[0];
+                return (
+                  <li
+                    key={l.id}
+                    onPointerEnter={() => onHoverLga(l.id)}
+                    className='border-stroke-soft-200 grid grid-cols-[minmax(0,1fr)_auto_3.5rem] items-center gap-2 border-b py-2 last:border-b-0'
+                  >
+                    <span className='text-paragraph-sm text-text-strong-950 truncate'>
+                      {l.name}
+                    </span>
+                    <span className='text-label-xs text-text-sub-600 inline-flex items-center gap-1.5'>
+                      {w && (
+                        <span
+                          className='size-2 rounded-full'
+                          style={{ background: PARTIES[w.party].color }}
+                          aria-hidden
+                        />
+                      )}
+                      {w?.party ?? '—'}
+                    </span>
+                    <span className='tabular text-paragraph-xs text-text-sub-600 text-right'>
+                      {w ? pct(w.share, 0) : '—'}
+                    </span>
+                  </li>
+                );
+              })}
             </ul>
             <p className='text-paragraph-xs text-text-sub-600 mt-2'>
               Sample LGA figures, derived from the state result.

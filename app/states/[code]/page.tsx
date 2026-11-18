@@ -35,7 +35,7 @@ export default async function StatePage({ params }: { params: Promise<{ code: st
           {zoneName(s.zone)}
         </Link>
       </nav>
-      <PageHeader title={`${s.name}${s.code === 'FC' ? '' : ' State'}`} badges={<SampleBadge />} description={`${zoneName(s.zone)} · Capital: ${s.capital}`} />
+      <PageHeader title={`${s.name}${s.code === 'FC' ? '' : ' State'}`} badges={<SampleBadge />} description={`Capital: ${s.capital} · ${zoneName(s.zone)} zone`} />
       <RegionDashboard overview={overview}>
         <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
           <OfficeHolders people={people} stateCodes={[s.code]} title='Current office holders' empty={`No office holders from ${s.name} in the sample data yet.`} />

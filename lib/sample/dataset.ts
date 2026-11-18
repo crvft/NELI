@@ -7,6 +7,7 @@
  */
 import { STATES, stateByCode, type State, type ZoneCode } from '@/lib/geo';
 import type { Area, Election, Person } from '@/lib/domain';
+import type { PartyCode } from '@/lib/parties';
 
 export const IS_SAMPLE_DATA = true;
 
@@ -31,6 +32,73 @@ function hash(s: string) {
 // People (fictional)
 // ---------------------------------------------------------------------------
 const P = (p: Person) => p;
+
+/**
+ * Sitting governors for states without a detailed profile above (all fictional),
+ * plus the FCT, which is run by an appointed minister rather than a governor.
+ */
+const GOVERNORS: [string, string, 'M' | 'F', PartyCode][] = [
+  ['SO', 'Bello Isa Wurno', 'M', 'APC'],
+  ['KT', 'Lawal Sani Funtua', 'M', 'APC'],
+  ['JI', 'Hadiza Musa Ringim', 'F', 'APC'],
+  ['YO', 'Modu Kolo Machina', 'M', 'APC'],
+  ['BO', 'Zarah Bulama Kukawa', 'F', 'APC'],
+  ['KE', 'Aliyu Bunza Argungu', 'M', 'APC'],
+  ['ZA', 'Sadiq Maru Anka', 'M', 'PDP'],
+  ['BA', 'Yakubu Dass Misau', 'M', 'PDP'],
+  ['GO', 'Hassan Kumo Dukku', 'M', 'APC'],
+  ['AD', 'Joel Ngwa Mubi', 'M', 'PDP'],
+  ['NI', 'Musa Kontagora Wushishi', 'M', 'APC'],
+  ['NA', 'Joseph Agyo Keffi', 'M', 'APC'],
+  ['PL', 'Daniel Dalyop Pankshin', 'M', 'PDP'],
+  ['TA', 'Grace Ashu Wukari', 'F', 'PDP'],
+  ['OY', 'Adekunle Ladipo Ogbomoso', 'M', 'PDP'],
+  ['KW', 'Yusuf Alabi Offa', 'M', 'APC'],
+  ['KO', 'Salihu Ojo Ankpa', 'M', 'APC'],
+  ['BE', 'Terna Agber Gboko', 'M', 'APC'],
+  ['OG', 'Olumide Adeyinka Ijebu', 'M', 'APC'],
+  ['OS', 'Kolawole Aina Ilesa', 'M', 'PDP'],
+  ['EK', 'Funmilayo Ojo Ikere', 'F', 'APC'],
+  ['ON', 'Oluwole Akin Owo', 'M', 'APC'],
+  ['EN', 'Chijioke Eze Nsukka', 'M', 'PDP'],
+  ['EB', 'Nnenna Ogbu Afikpo', 'F', 'APC'],
+  ['AN', 'Chukwuma Obi Nnewi', 'M', 'APGA'],
+  ['AB', 'Ikenna Kalu Aba', 'M', 'LP'],
+  ['IM', 'Chidi Nwankwo Orlu', 'M', 'APC'],
+  ['CR', 'Effiong Bassey Ikom', 'M', 'APC'],
+  ['AK', 'Ime Udo Eket', 'M', 'PDP'],
+  ['DE', 'Ejiro Okoro Warri', 'M', 'PDP'],
+  ['BY', 'Tari Ebiye Sagbama', 'M', 'PDP'],
+  ['ED', 'Osaro Ehigie Ekpoma', 'M', 'APC'],
+];
+
+const slug = (name: string) => name.toLowerCase().replace(/[^a-z]+/g, '-');
+
+const GOVERNOR_PEOPLE: Person[] = [
+  ...GOVERNORS.map(([code, name, gender, party], i): Person => {
+    const state = stateByCode(code).name;
+    return {
+      id: slug(name),
+      name,
+      gender,
+      born: 1962 + ((i * 7) % 16),
+      origin: code,
+      bio: `Governor of ${state} State since 2023.`,
+      roles: [{ office: 'governor', title: `Governor of ${state} State`, stateCode: code, from: 2023, party }],
+      partyHistory: [{ party, from: 2010 + (i % 8) }],
+    };
+  }),
+  {
+    id: 'emmanuel-bwari-kuje',
+    name: 'Emmanuel Bwari Kuje',
+    gender: 'M',
+    born: 1968,
+    origin: 'FC',
+    bio: 'Lawyer and former senator, appointed Minister of the Federal Capital Territory in 2023. The FCT has no governor; its minister administers it.',
+    roles: [{ office: 'minister', title: 'Minister of the Federal Capital Territory', stateCode: 'FC', from: 2023, appointed: true }],
+    partyHistory: [{ party: 'APC', from: 2014 }],
+  },
+];
 
 export const PEOPLE: Person[] = [
   P({
@@ -752,6 +820,8 @@ for (const e of ELECTIONS) {
   if (b) e.results = localResults(e.id, e.areas, b[0], b[1]);
 }
 
+
+PEOPLE.push(...GOVERNOR_PEOPLE);
 
 // Denormalise candidate names onto each election, as the database will.
 const NAMES = new Map(PEOPLE.map((p) => [p.id, p.name]));

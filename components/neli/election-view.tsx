@@ -37,7 +37,7 @@ import { ZoneBars } from './zone-bars';
 import { ShareBar, MeterBar } from './share-bar';
 import { PartyTag } from './party';
 import { PersonAvatar } from './avatar';
-import { ExpandableCard } from './expandable-card';
+import { ResultsTable, type ResultRow } from './results-table';
 
 function formatDate(d: string) {
   return new Date(d).toLocaleDateString('en-NG', {
@@ -377,124 +377,23 @@ export function ElectionView({
 }
 
 function AreaTable({ e }: { e: Election }) {
-  const t = tally(e);
-  const name = (id: string) => t.find((x) => x.personId === id)!.name;
-  const rows = e.areas
-    .map((a) => {
-      const v = countedVotes(e, a.code);
-      const sum = Object.values(v).reduce((x, y) => x + y, 0);
-      const sorted = Object.entries(v).sort((x, y) => y[1] - x[1]);
-      const lead = sorted[0];
-      const second = sorted[1];
-      return {
-        a,
-        sum,
-        lead: sum
-          ? {
-              id: lead[0],
-              party: e.candidates.find((c) => c.personId === lead[0])!.party,
-              share: lead[1] / sum,
-            }
-          : null,
-        margin: sum && second ? (lead[1] - second[1]) / sum : 0,
-        reported: e.status === 'live' ? (e.reported?.[a.code] ?? 0) : 1,
-      };
-    })
-    .sort((x, y) => y.sum - x.sum);
-  return (
-    <ExpandableCard
-      total={rows.length}
-      limit={10}
-      noun={e.areaLabel.toLowerCase()}
-    >
-      <CardHeader
-        title={`Results by ${e.areaLabel.toLowerCase()}`}
-        description={`${e.areas.length} ${e.areaLabel.toLowerCase()}s, sorted by votes counted`}
-      />
-      <div className='overflow-x-auto'>
-        <table className='w-full min-w-[640px] text-left'>
-          <thead>
-            <tr className='text-label-xs text-text-sub-600'>
-              <th className='bg-bg-weak-50 px-4 py-2 font-[550] sm:px-5'>
-                {e.areaLabel}
-              </th>
-              {e.status === 'live' && (
-                <th className='bg-bg-weak-50 px-3 py-2 font-[550]'>Reported</th>
-              )}
-              <th className='bg-bg-weak-50 px-3 py-2 font-[550]'>Leading</th>
-              <th className='bg-bg-weak-50 px-3 py-2 text-right font-[550]'>
-                Share
-              </th>
-              <th className='bg-bg-weak-50 px-3 py-2 text-right font-[550]'>
-                Margin
-              </th>
-              <th className='bg-bg-weak-50 px-4 py-2 text-right font-[550] sm:px-5'>
-                Votes
-              </th>
-            </tr>
-          </thead>
-          <tbody className='divide-stroke-soft-200 divide-y'>
-            {rows.map((r, i) => (
-              <tr
-                key={r.a.code}
-                className={`${i >= 10 ? 'group-data-[collapsed=true]/tbl:hidden' : ''} text-paragraph-sm text-text-strong-950 hover:bg-hover transition-colors duration-[80ms]`}
-              >
-                <td className='px-4 py-2.5 sm:px-5'>
-                  {e.level === 'national' ? (
-                    <Link
-                      href={`/states/${r.a.code}`}
-                      className='hover:underline'
-                    >
-                      {r.a.name}
-                    </Link>
-                  ) : (
-                    r.a.name
-                  )}
-                </td>
-                {e.status === 'live' && (
-                  <td className='px-3 py-2.5'>
-                    <div className='flex items-center gap-2'>
-                      <MeterBar
-                        value={r.reported}
-                        color='var(--text-sub-600)'
-                        className='w-14'
-                      />
-                      <span className='tabular text-paragraph-xs text-text-sub-600'>
-                        {Math.round(r.reported * 100)}%
-                      </span>
-                    </div>
-                  </td>
-                )}
-                <td className='px-3 py-2.5'>
-                  {r.lead ? (
-                    <span className='flex items-center gap-2'>
-                      <PartyTag code={r.lead.party} />
-                      <span className='text-paragraph-xs text-text-sub-600 hidden truncate md:inline'>
-                        {name(r.lead.id)}
-                      </span>
-                    </span>
-                  ) : (
-                    <span className='text-paragraph-xs text-text-sub-600'>
-                      Awaiting
-                    </span>
-                  )}
-                </td>
-                <td className='tabular px-3 py-2.5 text-right'>
-                  {r.lead ? pct(r.lead.share) : '—'}
-                </td>
-                <td className='tabular text-text-sub-600 px-3 py-2.5 text-right'>
-                  {r.lead ? `+${pct(r.margin)}` : '—'}
-                </td>
-                <td className='tabular px-4 py-2.5 text-right sm:px-5'>
-                  {r.sum ? fmt(r.sum) : '—'}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </ExpandableCard>
-  );
+  const live = e.status === 'live';
+  const rows: ResultRow[] = e.areas.map((a) => {
+    const v = countedVotes(e, a.code);
+    const sum = Object.values(v).reduce((x, y) => x + y, 0);
+    const [lead, second] = Object.entries(v).sort((x, y) => y[1] - x[1]);
+    const c = lead && e.candidates.find((x) => x.personId === lead[0]);
+    return {
+      code: a.code,
+      name: a.name,
+      href: e.level === 'national' ? `/states/${a.code}` : undefined,
+      votes: sum,
+      reported: live ? (e.reported?.[a.code] ?? 0) : 1,
+      margin: sum && second ? (lead[1] - second[1]) / sum : 0,
+      lead: sum && c ? { name: c.name ?? c.personId, party: c.party, share: lead[1] / sum } : null,
+    };
+  });
+  return <ResultsTable rows={rows} areaLabel={e.areaLabel} live={live} />;
 }
 
 function UpcomingView({
