@@ -64,3 +64,19 @@ def test_state_and_party_normalisation():
     assert normalise_party("Bola Tinubu APC") == "APC"
     assert normalise_party("AD–APP") == "AD-APP"
     assert lineage("ANPP") == lineage("CPC") == lineage("ACN") == "APC"
+
+
+REG = pd.read_csv(PROCESSED / "registered_voters.csv", keep_default_na=False)
+REG_NAT = pd.read_csv(PROCESSED / "registered_voters_national.csv")
+
+
+@pytest.mark.parametrize("year", [2003, 2023])
+def test_state_registers_reconcile_with_national(year):
+    got = REG[REG.year == year]
+    assert set(got.state_code) == set(STATES)
+    assert got.registered.sum() == REG_NAT.set_index("year").registered[year]
+
+
+def test_derived_figures_are_flagged():
+    an = REG[(REG.year == 2023) & (REG.state_code == "AN")].iloc[0]
+    assert an.registered == 2_656_437 and an.note.startswith("derived:")

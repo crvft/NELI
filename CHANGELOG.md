@@ -11,7 +11,8 @@ Dates are 2026-11-18 unless stated. Every entry so far uses **fictional sample d
 - New Python project `pipeline/` (uv, pandas, ruff, pytest) with a provenance manifest (`data/sources/manifest.json`).
 - Presidential results by state for 1999, 2003, 2015, 2019 and 2023, extracted from Wikipedia's cited transcriptions of INEC's declared results. Validated against INEC's national totals: exact for four years, within 0.12% (main candidates) for 2023. Report in `data/processed/VALIDATION_presidential.md`.
 - Party lineage mapping (AD/APP/ANPP/AC/ACN/CPC → APC) for modelling continuity; ballot labels kept.
-- 2007 and 2011 by-state results not yet available from any reachable source (recorded as gaps).
+- 2007 and 2011 by-state results not yet available from any reachable source (recorded as gaps). Plan: proceed without them; fetch later via the user's own computer, where they slot in with no model changes.
+- Registered voters: national registers 1999–2023, plus by-state registers for 2003 and 2023, reconciled with the national figures (Anambra 2023 derived, and flagged).
 - CI: a new `pipeline` job (ruff lint + format check + pytest).
 
 - Data import (Supabase), in the order the forecasting model needs it: presidential results 1999–2023, then governorship (including off-cycle races).

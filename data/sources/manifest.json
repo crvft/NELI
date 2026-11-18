@@ -43,5 +43,338 @@
     "retrieved_at": "2026-11-18T13:58:24Z",
     "sha256": "727353740b22c7e4f5621bbea9dc383630bac06320e3805bc4dc799cc811d4e4",
     "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:AB": {
+    "key": "wikipedia:presidential:2023:AB",
+    "title": "2023_Nigerian_presidential_election_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Abia_State&oldid=1345344602",
+    "revision": "1345344602",
+    "retrieved_at": "2026-11-18T14:10:45Z",
+    "sha256": "a6eb854e116760eceb6df033bc22d91dbbb65fb9434e0053163738044b7c8021",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:AD": {
+    "key": "wikipedia:presidential:2023:AD",
+    "title": "2023_Nigerian_presidential_election_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Adamawa_State&oldid=1344627074",
+    "revision": "1344627074",
+    "retrieved_at": "2026-11-18T14:10:47Z",
+    "sha256": "6f13ae34548d28be3f88de69b0191c7d9c48c33e15531f4a0253ce215fec2cf7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:AK": {
+    "key": "wikipedia:presidential:2023:AK",
+    "title": "2023_Nigerian_presidential_election_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Akwa_Ibom_State&oldid=1344618821",
+    "revision": "1344618821",
+    "retrieved_at": "2026-11-18T14:10:50Z",
+    "sha256": "ffe2aff7da0ba9fbefbe365f98285f04e555ec78a34eae5977cc65519c775746",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:AN": {
+    "key": "wikipedia:presidential:2023:AN",
+    "title": "2023_Nigerian_presidential_election_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Anambra_State&oldid=1361442585",
+    "revision": "1361442585",
+    "retrieved_at": "2026-11-18T14:10:53Z",
+    "sha256": "1a0fed3dcea6487bfe0a23f024ce515f233307f21965bd49fad911df9b0328f8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:BA": {
+    "key": "wikipedia:presidential:2023:BA",
+    "title": "2023_Nigerian_presidential_election_in_Bauchi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Bauchi_State&oldid=1344912865",
+    "revision": "1344912865",
+    "retrieved_at": "2026-11-18T14:10:55Z",
+    "sha256": "637a8546f8e0e4f5c58058e2dc67434c51d94bd34533be5c0e10de74043b69ff",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:BE": {
+    "key": "wikipedia:presidential:2023:BE",
+    "title": "2023_Nigerian_presidential_election_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Benue_State&oldid=1344616800",
+    "revision": "1344616800",
+    "retrieved_at": "2026-11-18T14:11:00Z",
+    "sha256": "2de1ec096bb64c230429ab3d4187dbacc525912873138b412283360566f90b16",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:BO": {
+    "key": "wikipedia:presidential:2023:BO",
+    "title": "2023_Nigerian_presidential_election_in_Borno_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Borno_State&oldid=1344612791",
+    "revision": "1344612791",
+    "retrieved_at": "2026-11-18T14:11:03Z",
+    "sha256": "f2fc3185bc508279f1af56303b6c924000e155523a9ed86dc5a7d8bafc087558",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:BY": {
+    "key": "wikipedia:presidential:2023:BY",
+    "title": "2023_Nigerian_presidential_election_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Bayelsa_State&oldid=1344632537",
+    "revision": "1344632537",
+    "retrieved_at": "2026-11-18T14:10:58Z",
+    "sha256": "d12c59c419f430db24d3e7d3174040e0998617123c8eb02bb44ebd66aea0046c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:CR": {
+    "key": "wikipedia:presidential:2023:CR",
+    "title": "2023_Nigerian_presidential_election_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Cross_River_State&oldid=1344629653",
+    "revision": "1344629653",
+    "retrieved_at": "2026-11-18T14:11:05Z",
+    "sha256": "5e0fc24be82df6001b5a4e191d8781dc9854b50d55569465144df128f3524b59",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:DE": {
+    "key": "wikipedia:presidential:2023:DE",
+    "title": "2023_Nigerian_presidential_election_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Delta_State&oldid=1344644025",
+    "revision": "1344644025",
+    "retrieved_at": "2026-11-18T14:11:08Z",
+    "sha256": "35c460d6333ec9bd8aaefa609679b2f83935bbc0be55dfba0399f779d1f39f8b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:EB": {
+    "key": "wikipedia:presidential:2023:EB",
+    "title": "2023_Nigerian_presidential_election_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Ebonyi_State&oldid=1344630560",
+    "revision": "1344630560",
+    "retrieved_at": "2026-11-18T14:11:11Z",
+    "sha256": "f7753c00d1824cab0273c90b747f38b1e0a58a7d27005e03b48d2ba5ec81dca5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:ED": {
+    "key": "wikipedia:presidential:2023:ED",
+    "title": "2023_Nigerian_presidential_election_in_Edo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Edo_State&oldid=1377214152",
+    "revision": "1377214152",
+    "retrieved_at": "2026-11-18T14:11:13Z",
+    "sha256": "feb7bd4133f221e808d50143a04fd9eb0a371873dbb17d96c858ef01f72ed087",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:EK": {
+    "key": "wikipedia:presidential:2023:EK",
+    "title": "2023_Nigerian_presidential_election_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Ekiti_State&oldid=1345363202",
+    "revision": "1345363202",
+    "retrieved_at": "2026-11-18T14:11:15Z",
+    "sha256": "96d6289bdbf436c0c6fffb15874e8ad7e1447a02cf88230edcc450d1952ad5de",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:EN": {
+    "key": "wikipedia:presidential:2023:EN",
+    "title": "2023_Nigerian_presidential_election_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Enugu_State&oldid=1344631547",
+    "revision": "1344631547",
+    "retrieved_at": "2026-11-18T14:11:18Z",
+    "sha256": "9a2df086d0231947dd7e89b2ee74a54a61e9747e2df7774fdb67da25f5722df1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:FC": {
+    "key": "wikipedia:presidential:2023:FC",
+    "title": "2023_Nigerian_presidential_election_in_the_Federal_Capital_Territory",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_the_Federal_Capital_Territory&oldid=1344613926",
+    "revision": "1344613926",
+    "retrieved_at": "2026-11-18T14:11:20Z",
+    "sha256": "a3c46802625068fcd1f47c9935d5a83797db2f7074161e97e03684a8337796e4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:GO": {
+    "key": "wikipedia:presidential:2023:GO",
+    "title": "2023_Nigerian_presidential_election_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Gombe_State&oldid=1344615672",
+    "revision": "1344615672",
+    "retrieved_at": "2026-11-18T14:11:23Z",
+    "sha256": "6c8d843a0418dc509c87dcb0e125def9530826c7211d495a5b9365336852ea1e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:IM": {
+    "key": "wikipedia:presidential:2023:IM",
+    "title": "2023_Nigerian_presidential_election_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Imo_State&oldid=1344623567",
+    "revision": "1344623567",
+    "retrieved_at": "2026-11-18T14:11:29Z",
+    "sha256": "dc9ef4c921411ddacf663be39aaf991a8dfe8d504276b02db5877e6986632214",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:JI": {
+    "key": "wikipedia:presidential:2023:JI",
+    "title": "2023_Nigerian_presidential_election_in_Jigawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Jigawa_State&oldid=1344636094",
+    "revision": "1344636094",
+    "retrieved_at": "2026-11-18T14:11:31Z",
+    "sha256": "55559c8681288cfe7b3d139ade0c74850dc90b58ef00d48f2503660e72316d89",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:KD": {
+    "key": "wikipedia:presidential:2023:KD",
+    "title": "2023_Nigerian_presidential_election_in_Kaduna_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Kaduna_State&oldid=1344613024",
+    "revision": "1344613024",
+    "retrieved_at": "2026-11-18T14:11:34Z",
+    "sha256": "7026fe723c002c426e593b3693e8f36f0b9ab0b87025a5da9046dee5945be6ba",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:KE": {
+    "key": "wikipedia:presidential:2023:KE",
+    "title": "2023_Nigerian_presidential_election_in_Kebbi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Kebbi_State&oldid=1344634743",
+    "revision": "1344634743",
+    "retrieved_at": "2026-11-18T14:11:42Z",
+    "sha256": "4ff09d208561560d22bee633ff593b27d76a9694c7d8eaab4f947f54ff1c94c2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:KN": {
+    "key": "wikipedia:presidential:2023:KN",
+    "title": "2023_Nigerian_presidential_election_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Kano_State&oldid=1344612199",
+    "revision": "1344612199",
+    "retrieved_at": "2026-11-18T14:11:36Z",
+    "sha256": "649fe0ae072507f7443e9eef3c7996397c82e54cfabb15802675fa59d6fe852d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:KO": {
+    "key": "wikipedia:presidential:2023:KO",
+    "title": "2023_Nigerian_presidential_election_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Kogi_State&oldid=1344622964",
+    "revision": "1344622964",
+    "retrieved_at": "2026-11-18T14:11:44Z",
+    "sha256": "2f7b9f67529bac60677da81fcf04dbed13e18b2abb99a959cc7b04befba2a64e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:KT": {
+    "key": "wikipedia:presidential:2023:KT",
+    "title": "2023_Nigerian_presidential_election_in_Katsina_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Katsina_State&oldid=1344611205",
+    "revision": "1344611205",
+    "retrieved_at": "2026-11-18T14:11:39Z",
+    "sha256": "1536cbf0a429fd03ff3cd0ecd5d8c6fa0445ced6205a7d7403f0f4ca430f037e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:KW": {
+    "key": "wikipedia:presidential:2023:KW",
+    "title": "2023_Nigerian_presidential_election_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Kwara_State&oldid=1344633066",
+    "revision": "1344633066",
+    "retrieved_at": "2026-11-18T14:11:47Z",
+    "sha256": "6344ae2604cc32570791b29934656b1d57a08492ac353e0369f1286a8200dd9c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:LA": {
+    "key": "wikipedia:presidential:2023:LA",
+    "title": "2023_Nigerian_presidential_election_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Lagos_State&oldid=1344601586",
+    "revision": "1344601586",
+    "retrieved_at": "2026-11-18T14:11:49Z",
+    "sha256": "3886a834f57ef0667981b0cd9e1c73d724dc544e3f08f4e9eeaff30f7f4bf3fc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:NA": {
+    "key": "wikipedia:presidential:2023:NA",
+    "title": "2023_Nigerian_presidential_election_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Nasarawa_State&oldid=1344636191",
+    "revision": "1344636191",
+    "retrieved_at": "2026-11-18T14:11:51Z",
+    "sha256": "7dd36a94157f5e0622eea4449d81cc72d5ced474d21fb2b0e6d7afb8e19362bb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:NI": {
+    "key": "wikipedia:presidential:2023:NI",
+    "title": "2023_Nigerian_presidential_election_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Niger_State&oldid=1346674653",
+    "revision": "1346674653",
+    "retrieved_at": "2026-11-18T14:11:54Z",
+    "sha256": "1c51878434504161a4e264d21cc74b63121ca41b3adb7c5f293cc8a45cc91621",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:OG": {
+    "key": "wikipedia:presidential:2023:OG",
+    "title": "2023_Nigerian_presidential_election_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Ogun_State&oldid=1344487354",
+    "revision": "1344487354",
+    "retrieved_at": "2026-11-18T14:11:56Z",
+    "sha256": "0db0d9e8f38648d72fe4fe52cdaf190eef50a607c6d5953b728c9428b0431bf1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:ON": {
+    "key": "wikipedia:presidential:2023:ON",
+    "title": "2023_Nigerian_presidential_election_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Ondo_State&oldid=1344619656",
+    "revision": "1344619656",
+    "retrieved_at": "2026-11-18T14:11:59Z",
+    "sha256": "313506fcea1cee8e0c51d7fad8bc88318393a0cd63a3bb8cb5a58b4733bb19f5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:OS": {
+    "key": "wikipedia:presidential:2023:OS",
+    "title": "2023_Nigerian_presidential_election_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Osun_State&oldid=1344619036",
+    "revision": "1344619036",
+    "retrieved_at": "2026-11-18T14:12:02Z",
+    "sha256": "e75a917158adec0b751d3dce14279851be46f219e3f6894bfbfdf3f2a3ac3ffa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:OY": {
+    "key": "wikipedia:presidential:2023:OY",
+    "title": "2023_Nigerian_presidential_election_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Oyo_State&oldid=1344487149",
+    "revision": "1344487149",
+    "retrieved_at": "2026-11-18T14:12:05Z",
+    "sha256": "11ee20ef4caa4b2f594fce14809f8a7c9d713a5de0d82b42b9d5b193ccca4c74",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:PL": {
+    "key": "wikipedia:presidential:2023:PL",
+    "title": "2023_Nigerian_presidential_election_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Plateau_State&oldid=1344483647",
+    "revision": "1344483647",
+    "retrieved_at": "2026-11-18T14:12:07Z",
+    "sha256": "8146adfb40ee9469f66aa9463ff521af6f952040e64bf5fe664656617f185480",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:RI": {
+    "key": "wikipedia:presidential:2023:RI",
+    "title": "2023_Nigerian_presidential_election_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Rivers_State&oldid=1344713761",
+    "revision": "1344713761",
+    "retrieved_at": "2026-11-18T14:12:10Z",
+    "sha256": "847fd39949dfc66052d7a7554c3f932816a7c1ca138c2d228fafa7d9e5b8b471",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:SO": {
+    "key": "wikipedia:presidential:2023:SO",
+    "title": "2023_Nigerian_presidential_election_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Sokoto_State&oldid=1344484352",
+    "revision": "1344484352",
+    "retrieved_at": "2026-11-18T14:12:12Z",
+    "sha256": "c70f1b4d3be2e1efd38f9f2abd882a9ffbb63d559306d0ef48a1cfd649605fb3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:TA": {
+    "key": "wikipedia:presidential:2023:TA",
+    "title": "2023_Nigerian_presidential_election_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Taraba_State&oldid=1344484461",
+    "revision": "1344484461",
+    "retrieved_at": "2026-11-18T14:12:15Z",
+    "sha256": "fbe8c84323f087f378ed5f3c4e9501c876587c904830b91b560df4c6f2b1531e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:YO": {
+    "key": "wikipedia:presidential:2023:YO",
+    "title": "2023_Nigerian_presidential_election_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Yobe_State&oldid=1344484659",
+    "revision": "1344484659",
+    "retrieved_at": "2026-11-18T14:12:18Z",
+    "sha256": "193d8deafe1a81e1a6ffa7863cb765bac0b764b8765ed6afae79451168ebcd85",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023:ZA": {
+    "key": "wikipedia:presidential:2023:ZA",
+    "title": "2023_Nigerian_presidential_election_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election_in_Zamfara_State&oldid=1344485270",
+    "revision": "1344485270",
+    "retrieved_at": "2026-11-18T14:12:20Z",
+    "sha256": "51cf15c4da93c368e7dda35212a3a85b3afd9750e99d21be88240e590062fee4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
   }
 }

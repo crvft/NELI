@@ -116,6 +116,13 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
   - **2007 and 2011** state-level presidential results: there is no by-state table on English, French or German Wikipedia; the African Elections Database is offline; the Internet Archive drops connections from the cloud environment.
   - Options: INEC's official result sheets (if the user has PDFs), fetching from a machine where archive.org works, or another public dataset.
   - **Registered voters by state:** not in these tables; needed for turnout and for the live model's estimate of votes still to come. Source from INEC registers.
+- **Registered voters** (`uv run python -m neli_pipeline.build_registers`):
+  - National registers for 1999, 2003, 2015, 2019 and 2023 come from each national article's infobox → `registered_voters_national.csv`.
+  - By state for **2003** (national table) and **2023** (37 per-state articles) → `registered_voters.csv`. Both reconcile exactly with the national figure.
+  - **Anambra 2023** is *derived*: the national register minus the other 36 states (2,656,437). Its article says 2,536,156, which doesn't reconcile. This is flagged in the `note` column.
+  - 2019 national register per Wikipedia is 82,344,107, versus the ~84.0M INEC figure commonly quoted. Recorded as sourced; verify against INEC when possible.
+  - **Gap:** by-state registers for 1999, 2015 and 2019 (the 2019 per-state article series doesn't exist).
+  - Useful later: HDX has UNFPA population by state and LGA (`cod-ps-nga`), for model inputs such as youth share.
 - **Gotcha:** the state code `NA` (Nasarawa) is read as "missing" by pandas; always `keep_default_na=False`.
 - IReV (inecelectionresults.ng) is an Angular app over an API. Its result data is polling-unit **sheet images** (EC8A), for live and polling-unit-level work later. Its backend host refused connections from this environment.
 - Wikipedia's REST API rate-limits shared cloud egress heavily; the regular `/wiki/<title>` page works and embeds the revision ID (`wgRevisionId`). 2007/2015/2019 presidential titles redirect to the "general election" articles.
