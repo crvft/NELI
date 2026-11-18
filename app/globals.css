@@ -245,14 +245,32 @@
     --primary-alpha-10: #0024001a;
     --primary-lighter: var(--brand-50);
 
-    --party-apc: #2a78d6;
-    --party-pdp: #e34948;
-    --party-lp: #1baf7a;
-    --party-nnpp: #eda100;
-    --party-apga: #6250d6;
-    --party-adc: #eb6834;
-    --party-sdp: #e87ba4;
-    --party-oth: #8a8a8a;
+    --party-apc: #2563eb;
+    --party-pdp: #dc2626;
+    --party-lp: #0d9488;
+    --party-nnpp: #f59e0b;
+    --party-apga: #8b5cf6;
+    --party-adc: #64748b;
+    --party-sdp: #db2777;
+    --party-oth: #a8a29e;
+    /* text-safe variants for party names set in colour (>= 4.5:1 on white) */
+    --party-apc-text: #1d4ed8;
+    --party-pdp-text: #b91c1c;
+    --party-lp-text: #0f766e;
+    --party-nnpp-text: #b45309;
+    --party-apga-text: #6d28d9;
+    --party-adc-text: #475569;
+    --party-sdp-text: #be185d;
+    --party-oth-text: #57534e;
+
+    --map-neighbour: #fbfbfb;
+    --map-neighbour-stroke: #e4e4e4;
+    --map-sea: transparent;
+    --map-state-empty: #ececec;
+    --map-state-stroke: #ffffff;
+    --chart-grid: #d4d4d4;
+    --chart-axis: #a3a3a3;
+    --chart-glow: 0;
 
     --static-black: var(--neutral-950);
     --static-white: var(--neutral-0);
@@ -327,14 +345,31 @@
   }
 
   .dark {
-    --party-apc: #3987e5;
-    --party-pdp: #e66767;
-    --party-lp: #199e70;
-    --party-nnpp: #c98500;
-    --party-apga: #9085e9;
-    --party-adc: #d95926;
-    --party-sdp: #d55181;
-    --party-oth: #7b7b7b;
+    --party-apc: #3b82f6;
+    --party-pdp: #ef4444;
+    --party-lp: #14b8a6;
+    --party-nnpp: #f59e0b;
+    --party-apga: #a78bfa;
+    --party-adc: #94a3b8;
+    --party-sdp: #f472b6;
+    --party-oth: #78716c;
+    --party-apc-text: #60a5fa;
+    --party-pdp-text: #f87171;
+    --party-lp-text: #2dd4bf;
+    --party-nnpp-text: #fbbf24;
+    --party-apga-text: #c4b5fd;
+    --party-adc-text: #cbd5e1;
+    --party-sdp-text: #f9a8d4;
+    --party-oth-text: #d6d3d1;
+
+    --map-neighbour: #0b0b0b;
+    --map-neighbour-stroke: #2a2a2a;
+    --map-sea: transparent;
+    --map-state-empty: #262626;
+    --map-state-stroke: #171717;
+    --chart-grid: #3a3a3a;
+    --chart-axis: #5c5c5c;
+    --chart-glow: 1;
     --primary-dark: var(--brand-300);
     --primary-darker: var(--brand-400);
     --primary-base: var(--brand-500);
@@ -436,8 +471,15 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  font-size: 15px;
+  line-height: 22px;
   font-feature-settings: 'ss01', 'cv11';
 }
 .tabular {
   font-variant-numeric: tabular-nums;
+}
+
+/* Chart glow — only in dark mode, matching the terminal-style reference charts */
+.dark .neli-glow path {
+  filter: drop-shadow(0 0 4px currentColor) drop-shadow(0 0 10px color-mix(in oklab, currentColor 45%, transparent));
 }

@@ -1,4 +1,4 @@
-# NELI — Nigerian Elections, Live
+# NELI — National Electoral Interface
 
 One place to follow Nigerian elections live, look back at past results, and see the track record of everyone elected or appointed, from LGA chairmen to the president.
 
@@ -10,14 +10,15 @@ One place to follow Nigerian elections live, look back at past results, and see 
 - Tailwind CSS with the [AlignUI](https://alignui.com) free starter tokens and components (MIT, see `LICENSE-alignui`)
 - Geist Sans / Geist Mono
 - Brand colour `#002400` (`--brand-*` / `--primary-*` in `app/globals.css`)
-- Recharts for charts
-- Type scale: 12px minimum, even steps only (12, 14, 16, 18, 20, 24, 32…)
+- Custom SVG line charts (dotted grid, glowing lines in dark mode, projection fans)
+- Nigeria map: GRID3 state boundaries via geoBoundaries (CC BY 4.0) + Natural Earth neighbours; rebuild with `node scripts/build-map.mjs`
+- Type scale: 12px minimum, even steps (12, 14, 16, 18, 20, 24, 32…); body text is 15px
 
 ## Pages
 
 | Route | What it shows |
 |---|---|
-| `/` | Live election: leaders, win probability, 25% rule tracker, state map, zones, state table |
+| `/` | Live election: heat map of Nigeria (hover for details, click for a state breakdown), leaders, win probability, vote-share timeline, zones, state table |
 | `/elections`, `/elections/[id]` | All elections (live / past / upcoming) and their full results or forecast |
 | `/politicians`, `/politicians/[id]` | Directory and profiles: party history, offices, votes per election, where votes came from |
 | `/forecasts` | Upcoming elections with win probabilities and the factors behind them |

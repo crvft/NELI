@@ -9,7 +9,7 @@ import { Card, CardHeader, Stat } from '@/components/neli/card';
 import { PageContainer, SampleBadge } from '@/components/neli/page-header';
 import { PersonAvatar } from '@/components/neli/avatar';
 import { PartyTag } from '@/components/neli/party';
-import { CareerVotesChart } from '@/components/neli/charts';
+import { LineChart } from '@/components/neli/line-chart';
 import { SourceBars } from '@/components/neli/zone-bars';
 import { LiveDot } from '@/components/neli/live-dot';
 
@@ -82,9 +82,18 @@ export default function PersonPage({ params }: { params: { id: string } }) {
         <div className='flex min-w-0 flex-col gap-6'>
           {chart.length > 0 && (
             <Card>
-              <CardHeader title='Votes per election' description='Solid bars are wins, faded bars are losses' />
+              <CardHeader title='Votes per election' description='Filled dots are wins, hollow dots are losses' />
               <div className='p-4 sm:p-5'>
-                <CareerVotesChart data={chart} />
+                <LineChart
+                  ariaLabel={`Votes per election for ${p.name}`}
+                  data={chart.map((c) => ({ label: c.label, votes: c.votes, lost: c.won ? 0 : 1 }))}
+                  series={[{ key: 'votes', label: 'Votes', party }]}
+                  valueFormat='compact'
+                  markers
+                  fadedKey='lost'
+                  fillBetween
+                  height={240}
+                />
               </div>
             </Card>
           )}

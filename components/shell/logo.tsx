@@ -11,7 +11,7 @@ export function Logo({ compact = false }: { compact?: boolean }) {
       {!compact && (
         <span className='flex flex-col leading-none'>
           <span className='text-label-md tracking-tight text-text-strong-950'>NELI</span>
-          <span className='mt-0.5 text-paragraph-xs text-text-soft-400'>Nigerian Elections, Live</span>
+          <span className='mt-0.5 text-paragraph-xs text-text-soft-400'>National Electoral Interface</span>
         </span>
       )}
     </Link>

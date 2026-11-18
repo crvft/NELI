@@ -116,9 +116,9 @@ export const texts = {
     },
   ],
   'paragraph-sm': [
-    '.875rem',
+    '.9375rem',
     {
-      lineHeight: '1.25rem',
+      lineHeight: '1.375rem',
       letterSpacing: '-0.006em',
       fontWeight: '400',
     },

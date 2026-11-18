@@ -9,7 +9,7 @@ import { Sidebar } from '@/components/shell/sidebar';
 import { MobileHeader, MobileTabBar } from '@/components/shell/mobile-nav';
 
 export const metadata: Metadata = {
-  title: { default: 'NELI — Nigerian Elections, Live', template: '%s · NELI' },
+  title: { default: 'NELI — National Electoral Interface', template: '%s · NELI' },
   description:
     'Live election results, historical trends and track records for every elected and appointed official in Nigeria.',
 };

@@ -173,21 +173,71 @@ export function liveProbabilities(e: Election, reportedOverride?: Record<string,
     .sort((a, b) => b.prob - a.prob);
 }
 
-/** Probability path as results come in (snapshots at increasing reporting levels). */
-export function probabilityTimeline(e: Election) {
-  const steps = [0, 0.1, 0.2, 0.35, 0.5, 0.65, 0.8, 1];
-  const start = new Date(e.updatedAt ?? e.date).getTime() - 16 * 3600_000;
-  return steps.map((k, i) => {
+/**
+ * Reporting snapshots through election night. Each area starts reporting at its own
+ * (deterministic) time and climbs to its current level, so early leads can shift.
+ */
+export function reportingSnapshots(e: Election, steps = 12) {
+  const r = rng(7);
+  const plan = e.areas.map((a) => {
+    const start = r() * 0.55;
+    return { code: a.code, start, dur: 0.25 + r() * 0.45, final: e.reported?.[a.code] ?? 1 };
+  });
+  const base = new Date(e.updatedAt ?? e.date).getTime() - 16 * 3600_000;
+  return Array.from({ length: steps }, (_, i) => {
+    const t = 0.18 + (0.82 * (i + 1)) / steps;
     const rep: Record<string, number> = {};
-    for (const a of e.areas) rep[a.code] = (e.reported?.[a.code] ?? 0) * k;
-    const probs = liveProbabilities(e, rep, 600);
-    const t = new Date(start + (16 * 3600_000 * i) / (steps.length - 1));
-    const row: Record<string, number | string> = {
-      label: t.toLocaleTimeString('en-NG', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Africa/Lagos' }),
+    for (const p of plan) rep[p.code] = p.final * Math.max(0, Math.min(1, (t - p.start) / p.dur));
+    const time = new Date(base + 16 * 3600_000 * t);
+    return {
+      rep,
+      label: time.toLocaleTimeString('en-NG', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Africa/Lagos' }),
     };
+  });
+}
+
+/** Win probability at each snapshot (percent, 0-100). */
+export function probabilityTimeline(e: Election) {
+  return reportingSnapshots(e, 10).map(({ rep, label }) => {
+    const probs = liveProbabilities(e, rep, 500);
+    const row: Record<string, number | string> = { label };
     for (const p of probs) row[p.personId] = Math.round(p.prob * 1000) / 10;
     return row;
   });
+}
+
+/** Vote share of counted votes at each snapshot (percent). */
+export function shareTimeline(e: Election) {
+  return reportingSnapshots(e, 12).map(({ rep, label }) => {
+    const totals: Record<string, number> = {};
+    for (const a of e.areas) {
+      const full = e.results[a.code] ?? {};
+      for (const [k, v] of Object.entries(full)) totals[k] = (totals[k] ?? 0) + v * (rep[a.code] ?? 0);
+    }
+    const sum = Object.values(totals).reduce((x, y) => x + y, 0) || 1;
+    const row: Record<string, number | string> = { label };
+    for (const c of e.candidates) row[c.personId] = Math.round(((totals[c.personId] ?? 0) / sum) * 1000) / 10;
+    return row;
+  });
+}
+
+/** Per-area summary used by the map tooltip and state panel. */
+export function areaSummary(e: Election, areaCode: string) {
+  const t = tally(e, [areaCode]);
+  const total = totalVotes(t);
+  const area = e.areas.find((a) => a.code === areaCode)!;
+  const reported = e.status === 'live' ? (e.reported?.[areaCode] ?? 0) : 1;
+  return {
+    code: areaCode,
+    name: area.name,
+    zone: area.zone,
+    registered: area.registered,
+    reported,
+    total,
+    turnout: reported > 0 ? total / (area.registered * reported) : 0,
+    margin: t.length > 1 && total ? t[0].share - t[1].share : 0,
+    tally: t,
+  };
 }
 
 /** States where each candidate has at least 25% (counted so far). */
