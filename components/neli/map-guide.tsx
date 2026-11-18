@@ -100,7 +100,7 @@ export function MapGuide({
           <li>Percentages are shares of valid votes counted, not of registered voters.</li>
         </ul>
       </Section>
-      <p className='px-4 pb-5 text-paragraph-xs text-text-sub-600 sm:px-5'>Boundaries: GRID3 Nigeria (CC BY 4.0), Natural Earth.</p>
+      <p className='px-4 py-4 text-center text-paragraph-xs text-text-sub-600 sm:px-5'>Boundaries: GRID3 Nigeria (CC BY 4.0), Natural Earth.</p>
     </div>
   );
 }

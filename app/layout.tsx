@@ -8,9 +8,13 @@ import { Provider as TooltipProvider } from '@/components/ui/tooltip';
 import { Sidebar } from '@/components/shell/sidebar';
 import { MobileHeader, MobileTabBar } from '@/components/shell/mobile-nav';
 import { MotionProvider } from '@/components/motion/motion-provider';
+import { SiteFooter } from '@/components/shell/site-footer';
 
 export const metadata: Metadata = {
-  title: { default: 'NELI — National Electoral Interface', template: '%s · NELI' },
+  title: {
+    default: 'NELI — National Electoral Interface',
+    template: '%s · NELI',
+  },
   description:
     'Live election results, historical trends and track records for every elected and appointed official in Nigeria.',
 };
@@ -24,22 +28,31 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang='en' suppressHydrationWarning className={cn(GeistSans.variable, GeistMono.variable, 'antialiased')}>
-      <body className='bg-surface-1 font-sans text-text-strong-950'>
+    <html
+      lang='en'
+      suppressHydrationWarning
+      className={cn(GeistSans.variable, GeistMono.variable, 'antialiased')}
+    >
+      <body className='bg-surface-1 text-text-strong-950 font-sans'>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           <MotionProvider>
-          <TooltipProvider>
-            <div className='flex min-h-dvh'>
-              <Sidebar />
-              <div className='flex min-w-0 flex-1 flex-col'>
-                <MobileHeader />
-                <main className='flex-1 pb-24 lg:pb-0'>{children}</main>
+            <TooltipProvider>
+              <div className='flex min-h-dvh'>
+                <Sidebar />
+                <div className='flex min-w-0 flex-1 flex-col'>
+                  <MobileHeader />
+                  <main className='flex flex-1 flex-col pb-24 lg:pb-0'>
+                    <div className='flex-1'>{children}</div>
+                    <SiteFooter />
+                  </main>
+                </div>
               </div>
-            </div>
-            <MobileTabBar />
-          </TooltipProvider>
+              <MobileTabBar />
+            </TooltipProvider>
           </MotionProvider>
         </ThemeProvider>
       </body>

@@ -79,6 +79,12 @@ export const PEOPLE: Person[] = [
     partyHistory: [{ party: 'APC', from: 2014, to: 2025 }, { party: 'ADC', from: 2025 }],
   }),
   P({
+    id: 'fatima-yahaya-musa', name: 'Fatima Yahaya Musa', gender: 'F', born: 1979, origin: 'NI',
+    bio: 'Development economist and former commissioner for planning in Niger State, running on the SDP platform.',
+    roles: [],
+    partyHistory: [{ party: 'PDP', from: 2011, to: 2022 }, { party: 'SDP', from: 2022 }],
+  }),
+  P({
     id: 'garba-musa-tanko', name: 'Garba Musa Tanko', gender: 'M', born: 1946, origin: 'KT',
     bio: 'Retired general who served two terms as president from 2015 to 2023.',
     roles: [{ office: 'president', title: 'President of the Federal Republic', from: 2015, to: 2023, party: 'APC' }],
@@ -325,11 +331,12 @@ function liveReporting(seed: string): Record<string, number> {
 // Elections
 // ---------------------------------------------------------------------------
 const pres2027Strengths = {
-  'babatunde-adeyemi-cole': { NW: 0.37, NE: 0.36, NC: 0.33, SW: 0.47, SE: 0.08, SS: 0.23 },
+  'babatunde-adeyemi-cole': { NW: 0.33, NE: 0.36, NC: 0.33, SW: 0.43, SE: 0.08, SS: 0.23 },
   'aminu-bello-sarki': { NW: 0.36, NE: 0.45, NC: 0.32, SW: 0.18, SE: 0.08, SS: 0.29 },
   'ngozi-okafor-eze': { NW: 0.05, NE: 0.05, NC: 0.24, SW: 0.2, SE: 0.8, SS: 0.42 },
   'yusuf-danjuma': { NW: 0.17, NE: 0.08, NC: 0.04, SW: 0.01, SE: 0.01, SS: 0.01 },
   'halima-abdullahi': { NW: 0.03, NE: 0.04, NC: 0.07, SW: 0.06, SE: 0.02, SS: 0.03 },
+  'fatima-yahaya-musa': { NW: 0.02, NE: 0.03, NC: 0.05, SW: 0.02, SE: 0.01, SS: 0.02 },
 };
 
 export const ELECTIONS: Election[] = [
@@ -349,6 +356,7 @@ export const ELECTIONS: Election[] = [
       { personId: 'ngozi-okafor-eze', party: 'LP' },
       { personId: 'yusuf-danjuma', party: 'NNPP' },
       { personId: 'halima-abdullahi', party: 'ADC' },
+      { personId: 'fatima-yahaya-musa', party: 'SDP' },
     ],
     results: nationalResults(2027, 'pres-2027', 0.29, pres2027Strengths, {
       'babatunde-adeyemi-cole': 'LA',
@@ -356,6 +364,7 @@ export const ELECTIONS: Election[] = [
       'ngozi-okafor-eze': 'AN',
       'yusuf-danjuma': 'KN',
       'halima-abdullahi': 'KW',
+      'fatima-yahaya-musa': 'NI',
     }),
     reported: liveReporting('pres-2027-live'),
     updatedAt: '2027-02-21T14:32:00+01:00',
