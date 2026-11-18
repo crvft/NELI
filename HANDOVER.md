@@ -305,6 +305,11 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
   - Plug-in path: add an extractor for the archived page, add 2007/2011 to `YEARS` in `build_presidential.py`, rebuild. The tests and validation report cover them automatically, and Anyanwụ's backtest picks up whatever years exist in `data/processed` (no code change), adding the 2003→2007, 2007→2011 and 2011→2015 folds.
 - 2026-11-18: Registered voters done (national 1999–2023; by state 2003, 2023). Governorship results done (249 of 252 held elections, 1999–2026, with coverage labels).
 - 2026-11-18: Real data loaded into Supabase and the site switched to it (see §6.2). Sample badges removed.
+- 2026-11-18: **2007/2011 by-state search** (files the user saved via their browser are in `data/raw/aed/`, git-ignored):
+  - **2007: no official state breakdown exists.** The Iwu-led INEC never published one, and INEC told a 2019 freedom-of-information request it doesn't hold the full results (TheCable). The African Elections Database pages and INEC's archived 2007 results page have national totals only: Iwu's announcement 24,638,063 vs the website's 24,784,227 for Yar'Adua; register 61,567,036. Treat 2007 by state as a permanent gap.
+  - **2011: official state results are in INEC's "Report on the 2011 General Elections"**, Annexure VIII(a). Its old URL (`inecnigeria.org/wp-content/uploads/2019/02/REPORT-ON-THE-2011-GENERAL-ELECTIONS.pdf`) now returns 404.
+  - **Fallback:** NDI's final report (Part 2, pp. 99–100) has 2011 state percentages for the main parties in 32 states. No counts; Cross River, Ekiti, Enugu, Ondo and Plateau are missing.
+  - **Sahara Reporters' live 2011 table is unusable:** rounded, incomplete, and sums to 22.20M vs INEC's 22.50M.
 - 2026-11-18: Politician bios from Wikipedia (age, birthplace, offices, summary) on profile pages. **Anyanwụ V1 built and published** (§7.0); 2027 forecasts live on the site.
 - Next:
   - re-run Anyanwụ as 2027 governorship nominees appear
