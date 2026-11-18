@@ -2,7 +2,9 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import type { OfficeType } from '@/lib/data';
+import type { Route } from 'next';
+import { FluidHover } from '@/components/motion/fluid-hover';
+import type { OfficeType } from '@/lib/domain';
 import type { PartyCode } from '@/lib/parties';
 import { Card } from './card';
 import { PersonAvatar } from './avatar';
@@ -60,13 +62,13 @@ export function PeopleBrowser({ items }: { items: PersonSummary[] }) {
         </label>
       </div>
       <FilterChips options={GROUPS as unknown as { value: Group; label: string }[]} value={group} onChange={setGroup} />
-      <p className='text-paragraph-xs text-text-soft-400'>
+      <p className='text-paragraph-xs text-text-sub-600'>
         {list.length} {list.length === 1 ? 'person' : 'people'}
       </p>
-      <div className='grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3'>
+      <FluidHover layer='over' radius={16} gapClick={16} className='reveal-items grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3'>
         {list.map((p) => (
-          <Link key={p.id} href={`/politicians/${p.id}`} className='group'>
-            <Card className='flex h-full flex-col gap-4 p-4 transition group-hover:ring-stroke-sub-300'>
+          <Link key={p.id} href={`/politicians/${p.id}` as Route} data-fluid-item className='relative block'>
+            <Card className='flex h-full flex-col gap-4 p-4'>
               <div className='flex items-start gap-3'>
                 <PersonAvatar name={p.name} party={p.party} size='lg' />
                 <div className='min-w-0 flex-1'>
@@ -79,7 +81,7 @@ export function PeopleBrowser({ items }: { items: PersonSummary[] }) {
                 <span className='inline-flex h-6 items-center rounded-md bg-bg-weak-50 px-2 text-label-xs text-text-sub-600'>{p.state}</span>
                 {p.appointed && <span className='inline-flex h-6 items-center rounded-md bg-feature-lighter px-2 text-label-xs text-feature-dark'>Appointed</span>}
                 {!p.appointed && p.contests > 0 && (
-                  <span className='tabular ml-auto text-paragraph-xs text-text-soft-400'>
+                  <span className='tabular ml-auto text-paragraph-xs text-text-sub-600'>
                     {p.wins}/{p.contests} won
                   </span>
                 )}
@@ -87,7 +89,7 @@ export function PeopleBrowser({ items }: { items: PersonSummary[] }) {
             </Card>
           </Link>
         ))}
-      </div>
+      </FluidHover>
     </div>
   );
 }

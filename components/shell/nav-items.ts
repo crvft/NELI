@@ -1,20 +1,15 @@
-import {
-  RiLiveLine,
-  RiBarChartBoxLine,
-  RiUserStarLine,
-  RiLineChartLine,
-  RiMap2Line,
-  type RemixiconComponentType,
-} from '@remixicon/react';
+import { IconElections, IconForecast, IconLive, IconMap, IconPeople, type IconComponent } from '@/components/icons';
 
-export type NavItem = { href: string; label: string; short: string; icon: RemixiconComponentType; live?: boolean };
+import type { Route } from 'next';
+
+export type NavItem = { href: Route; label: string; short: string; icon: IconComponent; live?: boolean };
 
 export const NAV: NavItem[] = [
-  { href: '/', label: 'Live results', short: 'Live', icon: RiLiveLine, live: true },
-  { href: '/elections', label: 'Elections', short: 'Elections', icon: RiBarChartBoxLine },
-  { href: '/politicians', label: 'Politicians', short: 'People', icon: RiUserStarLine },
-  { href: '/forecasts', label: 'Forecasts', short: 'Forecasts', icon: RiLineChartLine },
-  { href: '/states', label: 'States', short: 'States', icon: RiMap2Line },
+  { href: '/', label: 'Live results', short: 'Live', icon: IconLive, live: true },
+  { href: '/elections', label: 'Elections', short: 'Elections', icon: IconElections },
+  { href: '/politicians', label: 'Politicians', short: 'People', icon: IconPeople },
+  { href: '/forecasts', label: 'Forecasts', short: 'Forecasts', icon: IconForecast },
+  { href: '/states', label: 'States', short: 'States', icon: IconMap },
 ];
 
 export function isActive(pathname: string, href: string) {

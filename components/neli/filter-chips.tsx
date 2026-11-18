@@ -12,10 +12,10 @@ export function FilterChips<T extends string>({ options, value, onChange }: { op
           aria-pressed={value === o.value}
           onClick={() => onChange(o.value)}
           className={cn(
-            'h-8 shrink-0 whitespace-nowrap rounded-full px-3 text-label-sm transition',
+            'hit h-9 shrink-0 whitespace-nowrap rounded-full px-3.5 text-label-sm transition-colors duration-[80ms]',
             value === o.value
               ? 'bg-primary-base text-static-white'
-              : 'bg-bg-white-0 text-text-sub-600 ring-1 ring-inset ring-stroke-soft-200 hover:bg-bg-weak-50 hover:text-text-strong-950',
+              : 'bg-surface-2 text-text-sub-600 shadow-surface-2 hover:bg-hover hover:text-text-strong-950',
           )}
         >
           {o.label}

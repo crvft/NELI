@@ -7,7 +7,10 @@ import { cn } from '@/utils/cn';
 export type LineSeries = {
   key: string;
   label: string;
-  party: PartyCode;
+  /** Party colours the line; or pass `color`/`textColor` for non-party measures */
+  party?: PartyCode;
+  color?: string;
+  textColor?: string;
   /** Optional projected final value, drawn as a dotted line into the projection zone */
   projected?: number;
 };
@@ -37,6 +40,9 @@ type Props = {
 };
 
 const M = { top: 16, right: 72, bottom: 32, left: 48 };
+
+const colorOf = (s: LineSeries) => s.color ?? (s.party ? PARTIES[s.party].color : 'var(--primary-base)');
+const textOf = (s: LineSeries) => s.textColor ?? (s.party ? PARTIES[s.party].text : 'var(--text-strong-950)');
 
 function useWidth<T extends HTMLElement>() {
   const ref = React.useRef<T>(null);
@@ -95,6 +101,13 @@ export function LineChart({
   const x = (i: number) => M.left + (slots > 0 ? (i / slots) * innerW : innerW / 2);
   const y = (v: number) => M.top + innerH - ((v - yMin) / (yMax - yMin || 1)) * innerH;
   const nowX = x(data.length - 1);
+  // X labels: first and last always; others only if they keep ~80px from both neighbours shown
+  const tickStep = Math.max(1, Math.ceil(data.length / Math.max(2, Math.floor(innerW / 90))));
+  const showTick = (i: number) => {
+    if (i === 0 || i === data.length - 1) return true;
+    if (i % tickStep !== 0) return false;
+    return x(data.length - 1) - x(i) >= 80 && x(i) - x(0) >= 60;
+  };
   const endX = x(slots);
 
   const last = data[data.length - 1] ?? {};
@@ -126,8 +139,8 @@ export function LineChart({
             </pattern>
             {lead && (
               <linearGradient id={`fill-${uid}`} x1='0' x2='0' y1='0' y2='1'>
-                <stop offset='0%' stopColor={PARTIES[lead.party].color} stopOpacity='0.22' />
-                <stop offset='100%' stopColor={PARTIES[lead.party].color} stopOpacity='0.03' />
+                <stop offset='0%' stopColor={colorOf(lead)} stopOpacity='0.22' />
+                <stop offset='100%' stopColor={colorOf(lead)} stopOpacity='0.03' />
               </linearGradient>
             )}
             <linearGradient id={`proj-${uid}`} x1='0' x2='1' y1='0' y2='0'>
@@ -141,16 +154,16 @@ export function LineChart({
           {ticks.map((t) => (
             <g key={t}>
               <line x1={M.left} x2={M.left + innerW} y1={y(t)} y2={y(t)} stroke='var(--chart-grid)' strokeDasharray='1 5' strokeLinecap='round' />
-              <text x={M.left - 12} y={y(t)} dy='0.35em' textAnchor='end' className='tabular fill-[var(--text-soft-400)] text-[12px]'>
+              <text x={M.left - 12} y={y(t)} dy='0.35em' textAnchor='end' className='tabular fill-[var(--text-sub-600)] text-[12px]'>
                 {format(t)}
               </text>
             </g>
           ))}
           {data.map((r, i) =>
-            i % Math.max(1, Math.ceil(data.length / Math.max(2, Math.floor(innerW / 90)))) === 0 || i === data.length - 1 ? (
+            showTick(i) ? (
               <g key={i}>
                 <line x1={x(i)} x2={x(i)} y1={M.top} y2={M.top + innerH} stroke='var(--chart-grid)' strokeDasharray='1 5' strokeLinecap='round' opacity='0.6' />
-                <text x={x(i)} y={height - 8} textAnchor={i === 0 ? 'start' : i === data.length - 1 && !hasProj ? 'end' : 'middle'} className='fill-[var(--text-soft-400)] text-[12px]'>
+                <text x={x(i)} y={height - 8} textAnchor={i === 0 ? 'start' : i === data.length - 1 && !hasProj ? 'end' : 'middle'} className='fill-[var(--text-sub-600)] text-[12px]'>
                   {String(r[xKey])}
                 </text>
               </g>
@@ -168,7 +181,7 @@ export function LineChart({
               <text x={nowX + 6} y={M.top + 12} className='fill-[var(--text-sub-600)] text-[12px]'>
                 Now
               </text>
-              <text x={endX} y={height - 8} textAnchor='end' className='fill-[var(--text-soft-400)] text-[12px]'>
+              <text x={endX} y={height - 8} textAnchor='end' className='fill-[var(--text-sub-600)] text-[12px]'>
                 {projectionLabel}
               </text>
             </g>
@@ -194,7 +207,7 @@ export function LineChart({
           {hasProj &&
             series.map((s) =>
               s.projected === undefined ? null : (
-                <g key={`p-${s.key}`} style={{ color: PARTIES[s.party].color }}>
+                <g key={`p-${s.key}`} style={{ color: colorOf(s) }}>
                   <path
                     d={`M${nowX},${y(Number(last[s.key]) || 0)} C${(nowX + endX) / 2},${y(Number(last[s.key]) || 0)} ${(nowX + endX) / 2},${y(s.projected)} ${endX},${y(s.projected)}`}
                     fill='none'
@@ -213,7 +226,7 @@ export function LineChart({
             .slice()
             .reverse()
             .map((s) => (
-              <g key={s.key} className='neli-glow' style={{ color: PARTIES[s.party].color }}>
+              <g key={s.key} className='neli-glow' style={{ color: colorOf(s) }}>
                 <path d={linePath(pts(s))} fill='none' stroke='currentColor' strokeWidth='2' strokeLinejoin='round' strokeLinecap='round' />
                 {markers &&
                   pts(s).map((p, i) => (
@@ -225,7 +238,7 @@ export function LineChart({
 
           {/* end-of-line value labels */}
           {endLabels.map(({ s, v, y: ly }) => (
-            <text key={`l-${s.key}`} x={(hasProj ? endX : x(data.length - 1)) + 10} y={ly} dy='0.35em' className='tabular text-[12px] font-medium' style={{ fill: PARTIES[s.party].text }}>
+            <text key={`l-${s.key}`} x={(hasProj ? endX : x(data.length - 1)) + 10} y={ly} dy='0.35em' className='tabular text-[12px] font-[550]' style={{ fill: textOf(s) }}>
               {format(v)}
             </text>
           ))}
@@ -235,7 +248,7 @@ export function LineChart({
             <g pointerEvents='none'>
               <line x1={x(hover)} x2={x(hover)} y1={M.top} y2={M.top + innerH} stroke='var(--text-sub-600)' strokeDasharray='2 3' />
               {series.map((s) => (
-                <circle key={s.key} cx={x(hover)} cy={y(Number(data[hover][s.key]) || 0)} r='4.5' fill={PARTIES[s.party].color} stroke='var(--bg-white-0)' strokeWidth='2' />
+                <circle key={s.key} cx={x(hover)} cy={y(Number(data[hover][s.key]) || 0)} r='4.5' fill={colorOf(s)} stroke='var(--bg-white-0)' strokeWidth='2' />
               ))}
             </g>
           )}
@@ -253,7 +266,7 @@ export function LineChart({
       )}
       {hover !== null && width > 0 && (
         <div
-          className='pointer-events-none absolute z-10 min-w-48 rounded-xl bg-bg-white-0 p-3 shadow-regular-md ring-1 ring-stroke-soft-200'
+          className='pointer-events-none absolute z-10 min-w-48 rounded-xl bg-surface-4 p-3 shadow-surface-4'
           style={{
             top: M.top,
             left: Math.min(Math.max(x(hover) + 12, 0), width - 200),
@@ -266,7 +279,7 @@ export function LineChart({
               .sort((a, b) => Number(data[hover][b.key]) - Number(data[hover][a.key]))
               .map((s) => (
                 <li key={s.key} className='flex items-center gap-2 text-paragraph-xs text-text-sub-600'>
-                  <span className='size-2 rounded-full' style={{ background: PARTIES[s.party].color }} />
+                  <span className='size-2 rounded-full' style={{ background: colorOf(s) }} />
                   <span className='flex-1 truncate'>{s.label}</span>
                   <span className='tabular text-label-xs text-text-strong-950'>{format(Number(data[hover][s.key]))}</span>
                 </li>
@@ -289,14 +302,14 @@ export function VersusTitle({ title, a, b }: { title: string; a: { label: string
   return (
     <div>
       <h3 className='text-label-lg tracking-tight text-text-strong-950'>{title}</h3>
-      <p className='mt-0.5 text-paragraph-sm text-text-soft-400'>
-        <span className='font-medium' style={{ color: PARTIES[a.party].text }}>
+      <p className='mt-0.5 text-paragraph-sm text-text-sub-600'>
+        <span className='font-[550]' style={{ color: PARTIES[a.party].text }}>
           {a.label}
         </span>
         {b && (
           <>
             {' '}vs{' '}
-            <span className='font-medium' style={{ color: PARTIES[b.party].text }}>
+            <span className='font-[550]' style={{ color: PARTIES[b.party].text }}>
               {b.label}
             </span>
           </>

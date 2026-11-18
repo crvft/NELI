@@ -1,4 +1,4 @@
-import { ELECTIONS, PEOPLE, personById, type Election, type Person } from './data';
+import type { Election, Person } from './domain';
 import { STATES, ZONES, type ZoneCode } from './geo';
 import type { PartyCode } from './parties';
 
@@ -31,7 +31,7 @@ export function tally(e: Election, areaCodes?: string[]): Tally[] {
     .map((c) => ({
       personId: c.personId,
       party: c.party,
-      name: personById(c.personId)?.name ?? c.personId,
+      name: c.name ?? c.personId,
       votes: totals[c.personId] ?? 0,
       share: (totals[c.personId] ?? 0) / sum,
     }))
@@ -106,9 +106,9 @@ export type Probability = { personId: string; party: PartyCode; prob: number; pr
  * state using prior strength (previous comparable election) blended with the
  * already-counted share, with uncertainty that shrinks as reporting rises.
  */
-export function liveProbabilities(e: Election, reportedOverride?: Record<string, number>, sims = 1500): Probability[] {
+export function liveProbabilities(e: Election, all: Election[], reportedOverride?: Record<string, number>, sims = 1500): Probability[] {
   const reported = reportedOverride ?? e.reported ?? {};
-  const prior = previousComparable(e);
+  const prior = previousComparable(e, all);
   const ids = e.candidates.map((c) => c.personId);
   const wins: Record<string, number> = Object.fromEntries(ids.map((i) => [i, 0]));
   const projected: Record<string, number> = Object.fromEntries(ids.map((i) => [i, 0]));
@@ -197,9 +197,9 @@ export function reportingSnapshots(e: Election, steps = 12) {
 }
 
 /** Win probability at each snapshot (percent, 0-100). */
-export function probabilityTimeline(e: Election) {
+export function probabilityTimeline(e: Election, all: Election[]) {
   return reportingSnapshots(e, 10).map(({ rep, label }) => {
-    const probs = liveProbabilities(e, rep, 500);
+    const probs = liveProbabilities(e, all, rep, 500);
     const row: Record<string, number | string> = { label };
     for (const p of probs) row[p.personId] = Math.round(p.prob * 1000) / 10;
     return row;
@@ -256,19 +256,19 @@ export function spreadCount(e: Election) {
 // ---------------------------------------------------------------------------
 // Forecasts for upcoming elections
 // ---------------------------------------------------------------------------
-export function previousComparable(e: Election) {
-  return ELECTIONS.filter(
+export function previousComparable(e: Election, all: Election[]) {
+  return all.filter(
     (x) => x.id !== e.id && x.type === e.type && x.stateCode === e.stateCode && x.constituency === e.constituency && x.year < e.year && x.status === 'concluded',
   ).sort((a, b) => b.year - a.year)[0];
 }
 
 export type ForecastRow = { personId: string; party: PartyCode; prob: number; share: number; factors: string[] };
 
-export function forecast(e: Election): ForecastRow[] {
-  const prev = previousComparable(e);
+export function forecast(e: Election, all: Election[], people: Person[]): ForecastRow[] {
+  const prev = previousComparable(e, all);
   const prevTally = prev ? tally(prev) : [];
   const raw = e.candidates.map((c) => {
-    const person = personById(c.personId)!;
+    const person = people.find((p) => p.id === c.personId)!;
     const sameParty = prevTally.find((t) => t.party === c.party);
     let base = sameParty?.share ?? 0.25;
     const factors: string[] = [];
@@ -301,14 +301,14 @@ function officeFor(t: Election['type']) {
 // ---------------------------------------------------------------------------
 // People helpers
 // ---------------------------------------------------------------------------
-export function electionsFor(personId: string) {
-  return ELECTIONS.filter((e) => e.candidates.some((c) => c.personId === personId))
+export function electionsFor(personId: string, all: Election[]) {
+  return all.filter((e) => e.candidates.some((c) => c.personId === personId))
     .filter((e) => e.status !== 'upcoming' || true)
     .sort((a, b) => b.year - a.year || b.date.localeCompare(a.date));
 }
 
-export function personRecord(personId: string) {
-  return electionsFor(personId).map((e) => {
+export function personRecord(personId: string, all: Election[]) {
+  return electionsFor(personId, all).map((e) => {
     const t = e.status === 'upcoming' ? [] : tally(e);
     const idx = t.findIndex((x) => x.personId === personId);
     const me = t[idx];
@@ -330,8 +330,8 @@ export function currentParty(p: Person) {
   return p.partyHistory[p.partyHistory.length - 1].party;
 }
 
-export function officeHolders() {
-  return PEOPLE.filter((p) => currentRole(p));
+export function officeHolders(people: Person[]) {
+  return people.filter((p) => currentRole(p));
 }
 
 export function zoneOfState(code: string): ZoneCode | undefined {

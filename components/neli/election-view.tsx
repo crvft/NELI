@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { RiArrowRightSLine, RiCalendarLine, RiInformationLine, RiScales3Line } from '@remixicon/react';
-import { ELECTION_TYPE_LABEL, personById, type Election } from '@/lib/data';
+import { IconCalendar, IconChevronRight, IconInfo, IconScale } from '@/components/icons';
+import { ELECTION_TYPE_LABEL, type Election, type Person } from '@/lib/domain';
 import { stateByCode } from '@/lib/geo';
 import { PARTIES } from '@/lib/parties';
 import {
@@ -38,21 +38,22 @@ function formatDate(d: string) {
   return new Date(d).toLocaleDateString('en-NG', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
-export function ElectionView({ e }: { e: Election }) {
-  if (e.status === 'upcoming') return <UpcomingView e={e} />;
+/** Election page body. `all` and `people` are passed in by the page (from the data layer). */
+export function ElectionView({ e, all, people }: { e: Election; all: Election[]; people: Person[] }) {
+  if (e.status === 'upcoming') return <UpcomingView e={e} all={all} people={people} />;
   const live = e.status === 'live';
   const t = tally(e);
   const total = totalVotes(t);
   const reg = registeredTotal(e);
   const progress = reportingProgress(e);
-  const probs = live ? liveProbabilities(e) : undefined;
+  const probs = live ? liveProbabilities(e, all) : undefined;
   const national = e.level === 'national';
   const spread = national ? spreadCount(e) : undefined;
   const leader = t[0];
   const runnerUp = t[1];
   const declared = live ? e.areas.filter((a) => (e.reported?.[a.code] ?? 0) >= 1).length : e.areas.length;
   const winnerId = live ? undefined : leader.personId;
-  const timeline = live ? probabilityTimeline(e) : undefined;
+  const timeline = live ? probabilityTimeline(e, all) : undefined;
   const series = e.candidates.map((c) => ({ key: c.personId, label: t.find((x) => x.personId === c.personId)!.name, party: c.party }));
   const topProb = probs?.[0];
   const topProbName = topProb ? t.find((x) => x.personId === topProb.personId)!.name : '';
@@ -63,10 +64,10 @@ export function ElectionView({ e }: { e: Election }) {
   return (
     <PageContainer className='flex flex-col gap-6'>
       <PageHeader
-        eyebrow={
+        badges={
           <>
-            {live ? <LiveDot label /> : <span className='text-label-xs uppercase tracking-wide text-text-soft-400'>Final result</span>}
-            <span className='text-paragraph-xs text-text-soft-400'>·</span>
+            {live ? <LiveDot label /> : <span className='text-label-xs text-text-sub-600'>Final result</span>}
+            <span className='text-paragraph-xs text-text-sub-600'>·</span>
             <span className='text-paragraph-xs text-text-sub-600'>{ELECTION_TYPE_LABEL[e.type]}</span>
             <SampleBadge />
           </>
@@ -86,9 +87,8 @@ export function ElectionView({ e }: { e: Election }) {
             title={
               <div className='mb-2 flex flex-wrap items-end justify-between gap-3'>
                 <div>
-                  <div className='text-subheading-xs uppercase tracking-[0.1em] text-text-soft-400'>{live ? 'Live map' : 'Result map'} · {e.year}</div>
-                  <h2 className='mt-1 text-title-h6 tracking-tight text-text-strong-950 sm:text-title-h5'>Who is leading where</h2>
-                  <p className='mt-1 text-paragraph-sm text-text-sub-600'>Each state is coloured by its leading party. Stronger colour means a bigger lead.</p>
+                  <h2 className='text-title-h6 tracking-tight text-text-strong-950 sm:text-title-h5'>{live ? 'Who is leading where' : 'Who won where'}</h2>
+                  <p className='mt-1 text-paragraph-sm text-text-sub-600'>Each state is coloured by its {live ? 'leading' : 'winning'} party. Stronger colour means a bigger lead.</p>
                 </div>
               </div>
             }
@@ -166,7 +166,7 @@ export function ElectionView({ e }: { e: Election }) {
         <div className='contents min-w-0 flex-col gap-6 lg:flex'>
           {live && probs && timeline && topProb && (
             <Card className='order-2'>
-              <CardHeader title='Chance of winning' description='Simulated from counted votes and past results' icon={<RiScales3Line className='size-5' />} />
+              <CardHeader title='Chance of winning' description='Simulated from counted votes and past results' icon={<IconScale className='size-5' />} />
               <div className='p-4 sm:p-5'>
                 <div className='flex items-center gap-3'>
                   <PersonAvatar name={topProbName} party={topProb.party} size='lg' />
@@ -190,7 +190,7 @@ export function ElectionView({ e }: { e: Election }) {
                 />
               </div>
               <div className='flex flex-col gap-2 border-t border-stroke-soft-200 p-4 sm:p-5'>
-                <div className='text-subheading-xs uppercase tracking-[0.1em] text-text-soft-400'>Projected final share</div>
+                <h3 className='text-label-sm text-text-strong-950'>Projected final share</h3>
                 {probs.map((p) => (
                   <div key={p.personId} className='flex items-center justify-between text-paragraph-xs text-text-sub-600'>
                     <span className='flex items-center gap-1.5'>
@@ -244,17 +244,17 @@ function AreaTable({ e }: { e: Election }) {
         <table className='w-full min-w-[560px] text-left'>
           <thead>
             <tr className='text-label-xs text-text-sub-600'>
-              <th className='bg-bg-weak-50 px-4 py-2 font-medium sm:px-5'>{e.areaLabel}</th>
-              {e.status === 'live' && <th className='bg-bg-weak-50 px-3 py-2 font-medium'>Reported</th>}
-              <th className='bg-bg-weak-50 px-3 py-2 font-medium'>Leading</th>
-              <th className='bg-bg-weak-50 px-3 py-2 text-right font-medium'>Share</th>
-              <th className='bg-bg-weak-50 px-3 py-2 text-right font-medium'>Margin</th>
-              <th className='bg-bg-weak-50 px-4 py-2 text-right font-medium sm:px-5'>Votes</th>
+              <th className='bg-bg-weak-50 px-4 py-2 font-[550] sm:px-5'>{e.areaLabel}</th>
+              {e.status === 'live' && <th className='bg-bg-weak-50 px-3 py-2 font-[550]'>Reported</th>}
+              <th className='bg-bg-weak-50 px-3 py-2 font-[550]'>Leading</th>
+              <th className='bg-bg-weak-50 px-3 py-2 text-right font-[550]'>Share</th>
+              <th className='bg-bg-weak-50 px-3 py-2 text-right font-[550]'>Margin</th>
+              <th className='bg-bg-weak-50 px-4 py-2 text-right font-[550] sm:px-5'>Votes</th>
             </tr>
           </thead>
           <tbody className='divide-y divide-stroke-soft-200'>
             {rows.map((r, i) => (
-              <tr key={r.a.code} className={`${i >= 10 ? 'group-data-[collapsed=true]/tbl:hidden' : ''} text-paragraph-sm text-text-strong-950 transition hover:bg-bg-weak-50`}>
+              <tr key={r.a.code} className={`${i >= 10 ? 'group-data-[collapsed=true]/tbl:hidden' : ''} text-paragraph-sm text-text-strong-950 transition-colors duration-[80ms] hover:bg-hover`}>
                 <td className='px-4 py-2.5 sm:px-5'>
                   {e.level === 'national' ? (
                     <Link href={`/states/${r.a.code}`} className='hover:underline'>
@@ -279,7 +279,7 @@ function AreaTable({ e }: { e: Election }) {
                       <span className='hidden truncate text-paragraph-xs text-text-sub-600 md:inline'>{name(r.lead.id)}</span>
                     </span>
                   ) : (
-                    <span className='text-paragraph-xs text-text-soft-400'>Awaiting</span>
+                    <span className='text-paragraph-xs text-text-sub-600'>Awaiting</span>
                   )}
                 </td>
                 <td className='tabular px-3 py-2.5 text-right'>{r.lead ? pct(r.lead.share) : '—'}</td>
@@ -294,17 +294,17 @@ function AreaTable({ e }: { e: Election }) {
   );
 }
 
-function UpcomingView({ e }: { e: Election }) {
-  const f = forecast(e);
-  const prev = previousComparable(e);
+function UpcomingView({ e, all, people }: { e: Election; all: Election[]; people: Person[] }) {
+  const f = forecast(e, all, people);
+  const prev = previousComparable(e, all);
   const days = Math.ceil((new Date(e.date).getTime() - new Date('2026-11-18').getTime()) / 86400000);
   return (
     <PageContainer className='flex flex-col gap-6'>
       <PageHeader
-        eyebrow={
+        badges={
           <>
             <span className='inline-flex h-6 items-center gap-1.5 rounded-md bg-information-lighter px-2 text-label-xs text-information-dark'>
-              <RiCalendarLine className='size-3.5' /> Upcoming · in {days} days
+              <IconCalendar className='size-3.5' /> Upcoming · in {days} days
             </span>
             <SampleBadge />
           </>
@@ -335,14 +335,14 @@ function UpcomingView({ e }: { e: Election }) {
                   ))}
                 </ul>
                 <Link href={`/elections/${prev.id}`} className='mt-4 inline-flex items-center gap-1 text-label-sm text-primary-base hover:underline'>
-                  See full {prev.year} results <RiArrowRightSLine className='size-4' />
+                  See full {prev.year} results <IconChevronRight className='size-4' />
                 </Link>
               </div>
             </Card>
           )}
           <Card className='p-4 sm:p-5'>
             <div className='flex items-start gap-2.5'>
-              <RiInformationLine className='mt-0.5 size-5 shrink-0 text-text-soft-400' />
+              <IconInfo className='mt-0.5 size-5 shrink-0 text-text-sub-600' />
               <p className='text-paragraph-xs text-text-sub-600'>
                 Forecasts are probabilities, not predictions. A 70% chance still loses 3 times in 10. Once voting starts, this page switches to live results.
               </p>
@@ -358,7 +358,7 @@ export function ForecastList({ e, rows }: { e: Election; rows: ReturnType<typeof
   return (
     <ul className='divide-y divide-stroke-soft-200'>
       {rows.map((r) => {
-        const name = e.candidates.find((c) => c.personId === r.personId) && personName(r.personId);
+        const name = e.candidates.find((c) => c.personId === r.personId)?.name ?? r.personId;
         return (
           <li key={r.personId} className='flex flex-col gap-3 px-4 py-4 sm:px-5'>
             <div className='flex items-center gap-3'>
@@ -374,7 +374,7 @@ export function ForecastList({ e, rows }: { e: Election; rows: ReturnType<typeof
               </div>
               <div className='text-right'>
                 <div className='tabular text-label-lg text-text-strong-950'>{pct(r.prob, 0)}</div>
-                <div className='text-paragraph-xs text-text-soft-400'>to win</div>
+                <div className='text-paragraph-xs text-text-sub-600'>to win</div>
               </div>
             </div>
             <MeterBar value={r.prob} color={PARTIES[r.party].color} />
@@ -392,8 +392,4 @@ export function ForecastList({ e, rows }: { e: Election; rows: ReturnType<typeof
       })}
     </ul>
   );
-}
-
-function personName(id: string) {
-  return personById(id)?.name ?? id;
 }

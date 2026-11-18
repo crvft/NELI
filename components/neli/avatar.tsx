@@ -20,7 +20,7 @@ export function PersonAvatar({ name, party, size = 'md', className }: { name: st
   return (
     <span
       aria-hidden
-      className={cn('relative grid shrink-0 place-items-center rounded-full font-medium text-text-strong-950', SIZES[size], className)}
+      className={cn('relative grid shrink-0 place-items-center rounded-full font-[550] text-text-strong-950', SIZES[size], className)}
       style={{ background: `color-mix(in oklab, ${c} 18%, var(--bg-white-0))`, boxShadow: `inset 0 0 0 1.5px color-mix(in oklab, ${c} 55%, transparent)` }}
     >
       {initials}

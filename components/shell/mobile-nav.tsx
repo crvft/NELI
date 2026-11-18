@@ -9,7 +9,7 @@ import { ThemeIconButton } from './theme-toggle';
 
 export function MobileHeader() {
   return (
-    <header className='sticky top-0 z-30 flex h-16 items-center justify-between border-b border-stroke-soft-200 bg-bg-white-0 px-4 backdrop-blur lg:hidden'>
+    <header className='sticky top-0 z-30 flex h-16 items-center justify-between border-b border-stroke-soft-200 bg-surface-1/85 px-4 backdrop-blur-md lg:hidden'>
       <Logo />
       <ThemeIconButton />
     </header>
@@ -21,7 +21,7 @@ export function MobileTabBar() {
   return (
     <nav
       aria-label='Main'
-      className='fixed inset-x-0 bottom-0 z-30 border-t border-stroke-soft-200 bg-bg-white-0 pb-[env(safe-area-inset-bottom)] backdrop-blur lg:hidden'
+      className='fixed inset-x-0 bottom-0 z-30 border-t border-stroke-soft-200 bg-surface-1/90 pb-[env(safe-area-inset-bottom)] backdrop-blur-md lg:hidden'
     >
       <ul className='mx-auto grid max-w-lg grid-cols-5'>
         {NAV.map((item) => {
@@ -34,7 +34,7 @@ export function MobileTabBar() {
                 aria-current={active ? 'page' : undefined}
                 className={cn(
                   'flex h-16 flex-col items-center justify-center gap-1 text-label-xs transition',
-                  active ? 'text-primary-base' : 'text-text-soft-400',
+                  active ? 'text-primary-base' : 'text-text-sub-600',
                 )}
               >
                 <span className='relative'>

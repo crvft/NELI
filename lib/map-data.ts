@@ -1,4 +1,4 @@
-import type { Election } from './data';
+import type { Election } from './domain';
 import { ZONES, stateByCode, type ZoneCode } from './geo';
 import type { PartyCode } from './parties';
 import { areaSummary, zoneBreakdown } from './analytics';

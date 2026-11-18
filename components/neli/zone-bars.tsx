@@ -18,10 +18,10 @@ export function ZoneBars({ rows }: { rows: { zone: (typeof ZONES)[number]; tally
                 <span className='tabular flex items-center gap-1.5 text-paragraph-xs text-text-sub-600'>
                   <span className='size-2 rounded-full' style={{ background: PARTIES[lead.party].color }} />
                   {lead.party} {pct(lead.share)}
-                  <span className='text-text-soft-400'>· {fmtCompact(total)} votes</span>
+                  <span className='text-text-sub-600'>· {fmtCompact(total)} votes</span>
                 </span>
               ) : (
-                <span className='text-paragraph-xs text-text-soft-400'>No results yet</span>
+                <span className='text-paragraph-xs text-text-sub-600'>No results yet</span>
               )}
             </div>
             <ShareBar tally={tally} height='h-2.5' />

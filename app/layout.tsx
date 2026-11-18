@@ -7,6 +7,7 @@ import { cn } from '@/utils/cn';
 import { Provider as TooltipProvider } from '@/components/ui/tooltip';
 import { Sidebar } from '@/components/shell/sidebar';
 import { MobileHeader, MobileTabBar } from '@/components/shell/mobile-nav';
+import { MotionProvider } from '@/components/motion/motion-provider';
 
 export const metadata: Metadata = {
   title: { default: 'NELI — National Electoral Interface', template: '%s · NELI' },
@@ -26,8 +27,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang='en' suppressHydrationWarning className={cn(GeistSans.variable, GeistMono.variable, 'antialiased')}>
-      <body className='bg-bg-weak-50 font-sans text-text-strong-950'>
+      <body className='bg-surface-1 font-sans text-text-strong-950'>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+          <MotionProvider>
           <TooltipProvider>
             <div className='flex min-h-dvh'>
               <Sidebar />
@@ -38,6 +40,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             </div>
             <MobileTabBar />
           </TooltipProvider>
+          </MotionProvider>
         </ThemeProvider>
       </body>
     </html>

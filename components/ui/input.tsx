@@ -42,14 +42,14 @@ export const inputVariants = tv({
     ],
     input: [
       // base
-      'w-full bg-transparent bg-none text-paragraph-sm text-text-strong-950 outline-none',
+      'w-full bg-transparent bg-none text-paragraph-sm text-text-strong-950 outline-hidden',
       'transition duration-200 ease-out',
       // placeholder
-      'placeholder:select-none placeholder:text-text-soft-400 placeholder:transition placeholder:duration-200 placeholder:ease-out',
+      'placeholder:select-none placeholder:text-text-sub-600 placeholder:transition placeholder:duration-200 placeholder:ease-out',
       // hover placeholder
       'group-hover/input-wrapper:placeholder:text-text-sub-600',
       // focus
-      'focus:outline-none',
+      'focus:outline-hidden',
       // focus placeholder
       'group-has-[input:focus]:placeholder:text-text-sub-600',
       // disabled
@@ -60,7 +60,7 @@ export const inputVariants = tv({
       'flex size-5 shrink-0 select-none items-center justify-center',
       'transition duration-200 ease-out',
       // placeholder state
-      'group-has-[:placeholder-shown]:text-text-soft-400',
+      'group-has-[:placeholder-shown]:text-text-sub-600',
       // filled state
       'text-text-sub-600',
       // hover
@@ -76,7 +76,7 @@ export const inputVariants = tv({
       'flex items-center justify-center truncate',
       'transition duration-200 ease-out',
       // placeholder state
-      'group-has-[:placeholder-shown]:text-text-soft-400',
+      'group-has-[:placeholder-shown]:text-text-sub-600',
       // focus state
       'group-has-[:placeholder-shown]:group-has-[input:focus]:text-text-sub-600',
     ],
@@ -84,7 +84,7 @@ export const inputVariants = tv({
       // base
       'text-paragraph-sm text-text-sub-600',
       // placeholder state
-      'group-has-[:placeholder-shown]:text-text-soft-400',
+      'group-has-[:placeholder-shown]:text-text-sub-600',
       // focus state
       'group-has-[:placeholder-shown]:group-has-[input:focus]:text-text-sub-600',
     ],

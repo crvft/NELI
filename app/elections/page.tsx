@@ -1,4 +1,5 @@
-import { ELECTIONS, ELECTION_TYPE_LABEL } from '@/lib/data';
+import { ELECTION_TYPE_LABEL } from '@/lib/domain';
+import { listElections, listPeople } from '@/lib/repo';
 import { stateByCode } from '@/lib/geo';
 import { forecast, tally, totalVotes } from '@/lib/analytics';
 import { PageContainer, PageHeader, SampleBadge } from '@/components/neli/page-header';
@@ -6,10 +7,11 @@ import { ElectionBrowser, type ElectionSummary } from '@/components/neli/electio
 
 export const metadata = { title: 'Elections' };
 
-export default function ElectionsPage() {
-  const items: ElectionSummary[] = ELECTIONS.map((e) => {
+export default async function ElectionsPage() {
+  const [all, people] = await Promise.all([listElections(), listPeople()]);
+  const items: ElectionSummary[] = all.map((e) => {
     const t = e.status === 'upcoming' ? [] : tally(e);
-    const f = e.status === 'upcoming' ? forecast(e) : [];
+    const f = e.status === 'upcoming' ? forecast(e, all, people) : [];
     const top = e.status === 'upcoming' ? f[0] : t[0];
     return {
       id: e.id,
@@ -29,7 +31,7 @@ export default function ElectionsPage() {
   return (
     <PageContainer className='flex flex-col gap-6'>
       <PageHeader
-        eyebrow={<SampleBadge />}
+        badges={<SampleBadge />}
         title='Elections'
         description='Every election from local government to the presidency: live, past and upcoming.'
       />

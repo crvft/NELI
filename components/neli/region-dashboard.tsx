@@ -1,0 +1,330 @@
+'use client';
+
+import * as React from 'react';
+import Link from 'next/link';
+import type { Route } from 'next';
+import * as SegmentedControl from '@/components/ui/segmented-control';
+import { AnimatedNumber, AnimatedText } from '@/components/motion/animated-number';
+import { FluidHover } from '@/components/motion/fluid-hover';
+import { IconChevronRight } from '@/components/icons';
+import { PARTIES, type PartyCode } from '@/lib/parties';
+import type { CycleSummary, RegionOverview } from '@/lib/region';
+import { cn } from '@/utils/cn';
+import { Card, CardHeader } from './card';
+import { LineChart } from './line-chart';
+import { LiveDot } from './live-dot';
+import { PartyTag } from './party';
+
+const pct = (x: number, d = 1) => `${(x * 100).toFixed(d)}%`;
+const compact = (n: number) => (n >= 1e6 ? `${(n / 1e6).toFixed(2)}M` : n >= 1e3 ? `${Math.round(n / 1e3)}K` : String(n));
+const fmt = (n: number) => n.toLocaleString('en-NG');
+
+type Cycle = 'all' | string; // 'all' or an election id
+
+const subscribeNoop = () => () => {};
+const readCycleParam = () => new URLSearchParams(window.location.search).get('cycle');
+
+/**
+ * Analytics for a geopolitical zone or a state across election cycles.
+ * "All cycles" shows trends; picking a cycle shows that election in detail.
+ * The selection lives in the URL (?cycle=2023) so a view can be shared.
+ */
+export function RegionDashboard({ overview, children }: { overview: RegionOverview; children?: React.ReactNode }) {
+  const cycles = overview.cycles;
+  // The URL (?cycle=2023) seeds the view; after that the user's pick wins.
+  const urlYear = React.useSyncExternalStore(subscribeNoop, readCycleParam, () => null);
+  const [picked, setPicked] = React.useState<Cycle | null>(null);
+  const cycle: Cycle = picked ?? cycles.find((c) => String(c.year) === urlYear)?.electionId ?? 'all';
+
+  function choose(v: string) {
+    setPicked(v);
+    const url = new URL(window.location.href);
+    const c = cycles.find((x) => x.electionId === v);
+    if (c) url.searchParams.set('cycle', String(c.year));
+    else url.searchParams.delete('cycle');
+    window.history.replaceState(null, '', url);
+  }
+
+  const selected = cycles.find((c) => c.electionId === cycle);
+  const topParties = overview.parties.slice(0, 4);
+  const isZone = overview.kind === 'zone';
+
+  const shareData = cycles.map((c) => ({
+    label: c.live ? `${c.year} (live)` : String(c.year),
+    ...Object.fromEntries(topParties.map((p) => [p, Math.round((c.parties.find((x) => x.party === p)?.share ?? 0) * 1000) / 10])),
+  }));
+  const turnoutData = cycles.map((c) => ({ label: c.live ? `${c.year} (live)` : String(c.year), turnout: Math.round(c.turnout * 1000) / 10 }));
+  const registerData = cycles.map((c) => ({ label: String(c.year), registered: c.registered }));
+
+  return (
+    <div className='flex flex-col gap-6'>
+      <div className='flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between'>
+        <p className='text-paragraph-sm text-text-sub-600'>
+          {selected ? `${selected.title}${selected.live ? ', results so far' : ''}.` : `Presidential elections ${cycles[0]?.year}–${cycles[cycles.length - 1]?.year}.`}
+        </p>
+        <SegmentedControl.Root value={cycle} onValueChange={choose} className='sm:w-auto'>
+          <SegmentedControl.List className='sm:w-[420px]' aria-label='Election cycle'>
+            <SegmentedControl.Trigger value='all' className='px-2'>
+              All cycles
+            </SegmentedControl.Trigger>
+            {cycles.map((c) => (
+              <SegmentedControl.Trigger key={c.electionId} value={c.electionId} className='gap-1 px-2'>
+                {c.year}
+                {c.live && <LiveDot />}
+              </SegmentedControl.Trigger>
+            ))}
+          </SegmentedControl.List>
+        </SegmentedControl.Root>
+      </div>
+
+      <Card className='grid grid-cols-2 gap-x-4 gap-y-5 p-4 sm:p-5 md:grid-cols-4'>
+        {(selected ? cycleKpis(selected, isZone) : overallKpis(overview)).map((k, i) => (
+          // Stable slots so values roll (Calligraph) instead of remounting on a filter change
+          <Kpi key={i} {...k} />
+        ))}
+      </Card>
+
+      <div className='grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_360px]'>
+        <Card>
+          <CardHeader title='Party vote share by cycle' description={`Share of valid votes in ${overview.name}, presidential elections`} />
+          <div className='px-2 pb-3 pt-3 sm:px-3'>
+            <LineChart
+              ariaLabel={`Party vote share in ${overview.name} by election cycle`}
+              data={shareData}
+              series={topParties.map((p) => ({ key: p, label: p, party: p }))}
+              markers
+              fillBetween
+              height={260}
+            />
+          </div>
+        </Card>
+        <Card>
+          <CardHeader title={selected ? `Result in ${selected.year}` : 'Who led each cycle'} description={selected ? 'Share of valid votes' : 'Leading party and its share'} />
+          {selected ? <PartyBars c={selected} /> : <LeadersByCycle cycles={cycles} />}
+        </Card>
+      </div>
+
+      <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
+        <Card>
+          <CardHeader title='Turnout' description='Votes cast as a share of registered voters' />
+          <div className='px-2 pb-3 pt-3 sm:px-3'>
+            <LineChart
+              ariaLabel={`Turnout in ${overview.name} by cycle`}
+              data={turnoutData}
+              series={[{ key: 'turnout', label: 'Turnout', color: 'var(--primary-base)', textColor: 'var(--text-strong-950)' }]}
+              yDomain={[0, 60]}
+              yTicks={[0, 20, 40, 60]}
+              markers
+              fillBetween
+              height={200}
+            />
+          </div>
+        </Card>
+        <Card>
+          <CardHeader title='Registered voters' description='Size of the voter register at each election' />
+          <div className='px-2 pb-3 pt-3 sm:px-3'>
+            <LineChart
+              ariaLabel={`Registered voters in ${overview.name} by cycle`}
+              data={registerData}
+              series={[{ key: 'registered', label: 'Registered', color: 'var(--information-base)', textColor: 'var(--text-strong-950)' }]}
+              valueFormat='compact'
+              markers
+              fillBetween
+              height={200}
+            />
+          </div>
+        </Card>
+      </div>
+
+      {isZone && (selected ? <StatesTable c={selected} name={overview.name} /> : <StatesMatrix o={overview} />)}
+
+      {children}
+    </div>
+  );
+}
+
+type KpiData = { label: string; value: string; sub?: string; party?: PartyCode };
+
+function overallKpis(o: RegionOverview): KpiData[] {
+  const latest = o.cycles[o.cycles.length - 1];
+  const led = Object.entries(o.overall.cyclesLedBy).sort((a, b) => b[1] - a[1])[0] as [PartyCode, number] | undefined;
+  const concluded = o.cycles.filter((c) => !c.live).length;
+  const sw = o.overall.swingLatest;
+  return [
+    { label: 'Most often ahead', value: led ? led[0] : '—', sub: led ? `Led ${led[1]} of ${concluded} elections` : undefined, party: led?.[0] },
+    { label: 'Registered voters', value: compact(latest.registered), sub: `${o.overall.registeredGrowth >= 0 ? '+' : ''}${pct(o.overall.registeredGrowth, 0)} since ${o.cycles[0].year}` },
+    { label: 'Average turnout', value: pct(o.overall.averageTurnout), sub: `Across ${concluded} completed elections` },
+    { label: 'Biggest swing', value: sw ? `${sw.change >= 0 ? '+' : ''}${(sw.change * 100).toFixed(1)} pts` : '—', sub: sw ? `${sw.party}, last two completed elections` : undefined },
+  ];
+}
+
+function cycleKpis(c: CycleSummary, isZone: boolean): KpiData[] {
+  const lead = c.parties[0];
+  const second = c.parties[1];
+  return [
+    { label: c.live ? 'Leading' : 'Won by', value: lead?.party ?? '—', sub: lead ? `${pct(lead.share)}${second ? `, +${((lead.share - second.share) * 100).toFixed(1)} pts` : ''}` : undefined, party: lead?.party },
+    { label: c.live ? 'Votes counted' : 'Votes cast', value: compact(c.votes), sub: `${compact(c.registered)} registered` },
+    { label: c.live ? 'Turnout so far' : 'Turnout', value: pct(c.turnout), sub: c.live ? `${pct(c.reported, 0)} of units reported` : `${fmt(c.votes)} votes` },
+    isZone
+      ? {
+          label: 'States led',
+          value: lead ? `${c.areasLed[lead.party] ?? 0}/${c.areas.length}` : '—',
+          sub: Object.entries(c.areasLed)
+            .sort((a, b) => b[1] - a[1])
+            .map(([p, n]) => `${p} ${n}`)
+            .join(' · '),
+        }
+      : { label: 'Margin', value: lead && second ? `${((lead.share - second.share) * 100).toFixed(1)} pts` : '—', sub: second ? `Over ${second.party}` : undefined },
+  ];
+}
+
+function Kpi({ label, value, sub, party }: KpiData) {
+  return (
+    <div className='flex min-w-0 flex-col gap-1'>
+      <span className='text-paragraph-xs text-text-sub-600'>{label}</span>
+      <span className='flex items-center gap-2 text-title-h6 text-text-strong-950'>
+        {party && <span className='size-2.5 shrink-0 rounded-full' style={{ background: PARTIES[party].color }} aria-hidden />}
+        {/^[A-Z]+$/.test(value) ? <AnimatedText value={value} /> : <AnimatedNumber value={value} />}
+      </span>
+      {sub && <span className='truncate text-paragraph-xs text-text-sub-600'>{sub}</span>}
+    </div>
+  );
+}
+
+function PartyBars({ c }: { c: CycleSummary }) {
+  return (
+    <ul className='reveal-items flex flex-col gap-3.5 p-4 sm:p-5' key={c.electionId}>
+      {c.parties.map((p) => (
+        <li key={p.party}>
+          <div className='flex items-baseline justify-between gap-2'>
+            <span className='flex items-center gap-2 text-label-sm text-text-strong-950'>
+              <span className='size-2.5 rounded-full' style={{ background: PARTIES[p.party].color }} aria-hidden />
+              {p.party}
+              <span className='text-paragraph-xs font-normal text-text-sub-600'>{PARTIES[p.party].name}</span>
+            </span>
+            <AnimatedNumber value={pct(p.share)} className='text-label-sm text-text-strong-950' />
+          </div>
+          <div className='mt-1.5 h-1.5 overflow-hidden rounded-full bg-hover'>
+            <div className='h-full rounded-full transition-[width] duration-[240ms]' style={{ width: `${p.share * 100}%`, background: PARTIES[p.party].color, transitionTimingFunction: 'var(--ease-slow)' }} />
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function LeadersByCycle({ cycles }: { cycles: CycleSummary[] }) {
+  return (
+    <ul className='divide-y divide-stroke-soft-200'>
+      {cycles
+        .slice()
+        .reverse()
+        .map((c) => {
+          const lead = c.parties[0];
+          return (
+            <li key={c.electionId} className='flex items-center gap-3 px-4 py-3 sm:px-5'>
+              <span className='tabular w-12 text-label-sm text-text-strong-950'>{c.year}</span>
+              {lead && <PartyTag code={lead.party} />}
+              <span className='flex-1 text-paragraph-xs text-text-sub-600'>{c.live ? 'leading so far' : 'won'}</span>
+              <span className='tabular text-label-sm text-text-strong-950'>{lead ? pct(lead.share) : '—'}</span>
+            </li>
+          );
+        })}
+    </ul>
+  );
+}
+
+function StatesTable({ c, name }: { c: CycleSummary; name: string }) {
+  return (
+    <Card>
+      <CardHeader title={`States in ${name}, ${c.year}`} description='Click a state for its own analytics' />
+      <div className='overflow-x-auto'>
+        <div className='min-w-[640px]'>
+          <div className='grid grid-cols-[minmax(0,1.4fr)_1fr_0.8fr_0.8fr_0.9fr_1fr_20px] gap-3 bg-hover px-4 py-2 text-label-xs text-text-sub-600 sm:px-5'>
+            <span>State</span>
+            <span>{c.live ? 'Leading' : 'Won by'}</span>
+            <span className='text-right'>Share</span>
+            <span className='text-right'>Margin</span>
+            <span className='text-right'>Turnout</span>
+            <span className='text-right'>Votes</span>
+            <span />
+          </div>
+          <FluidHover as='ul' className='reveal-items p-1' radius={10} gapClick={4} key={c.electionId}>
+            {c.areas.map((a) => (
+              <li key={a.code} data-fluid-item className='relative'>
+                <Link
+                  href={`/states/${a.code}?cycle=${c.year}` as Route}
+                  className='grid grid-cols-[minmax(0,1.4fr)_1fr_0.8fr_0.8fr_0.9fr_1fr_20px] items-center gap-3 rounded-[10px] px-3 py-2.5 text-paragraph-sm text-text-strong-950 sm:px-4'
+                >
+                  <span className='truncate'>{a.name}</span>
+                  <span>{a.lead ? <PartyTag code={a.lead.party} /> : <span className='text-paragraph-xs text-text-sub-600'>Awaiting</span>}</span>
+                  <span className='tabular text-right'>{a.lead ? pct(a.lead.share) : '—'}</span>
+                  <span className='tabular text-right text-text-sub-600'>{a.lead ? `+${(a.margin * 100).toFixed(1)}` : '—'}</span>
+                  <span className='tabular text-right text-text-sub-600'>{a.votes ? pct(a.turnout) : '—'}</span>
+                  <span className='tabular text-right'>{a.votes ? compact(a.votes) : '—'}</span>
+                  <IconChevronRight className='size-4 text-text-sub-600' />
+                </Link>
+              </li>
+            ))}
+          </FluidHover>
+        </div>
+      </div>
+    </Card>
+  );
+}
+
+/** All cycles: one row per state, one column per cycle, leading party in each cell. */
+function StatesMatrix({ o }: { o: RegionOverview }) {
+  return (
+    <Card>
+      <CardHeader title={`States in ${o.name}, every cycle`} description='Leading party and share in each state. Click a state for its own analytics.' />
+      <div className='overflow-x-auto'>
+        <div className='min-w-[560px]'>
+          <div className='grid gap-3 bg-hover px-4 py-2 text-label-xs text-text-sub-600 sm:px-5' style={{ gridTemplateColumns: `minmax(0,1.3fr) repeat(${o.cycles.length}, minmax(0,1fr)) 20px` }}>
+            <span>State</span>
+            {o.cycles.map((c) => (
+              <span key={c.electionId} className='flex items-center gap-1.5'>
+                {c.year}
+                {c.live && <LiveDot />}
+              </span>
+            ))}
+            <span />
+          </div>
+          <FluidHover as='ul' className='p-1' radius={10} gapClick={4}>
+            {o.areaCodes.map((code) => {
+              const name = o.cycles[0].areas.find((a) => a.code === code)!.name;
+              return (
+                <li key={code} data-fluid-item className='relative'>
+                  <Link
+                    href={`/states/${code}` as Route}
+                    className='grid items-center gap-3 rounded-[10px] px-3 py-2.5 text-paragraph-sm text-text-strong-950 sm:px-4'
+                    style={{ gridTemplateColumns: `minmax(0,1.3fr) repeat(${o.cycles.length}, minmax(0,1fr)) 20px` }}
+                  >
+                    <span className='truncate'>{name}</span>
+                    {o.cycles.map((c) => {
+                      const a = c.areas.find((x) => x.code === code)!;
+                      return (
+                        <span key={c.electionId} className={cn('flex items-center gap-1.5', !a.lead && 'text-text-sub-600')}>
+                          {a.lead ? (
+                            <>
+                              <span className='size-2 shrink-0 rounded-full' style={{ background: PARTIES[a.lead.party].color }} aria-hidden />
+                              <span className='text-label-xs'>{a.lead.party}</span>
+                              <span className='tabular text-paragraph-xs text-text-sub-600'>{pct(a.lead.share, 0)}</span>
+                            </>
+                          ) : (
+                            <span className='text-paragraph-xs'>—</span>
+                          )}
+                        </span>
+                      );
+                    })}
+                    <IconChevronRight className='size-4 text-text-sub-600' />
+                  </Link>
+                </li>
+              );
+            })}
+          </FluidHover>
+        </div>
+      </div>
+    </Card>
+  );
+}

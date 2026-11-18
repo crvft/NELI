@@ -5,7 +5,7 @@ export function LiveDot({ label = false }: { label?: boolean }) {
         <span className='absolute inline-flex size-full animate-ping rounded-full bg-error-base opacity-60 motion-reduce:hidden' />
         <span className='relative inline-flex size-2 rounded-full bg-error-base' />
       </span>
-      {label && <span className='text-label-xs uppercase tracking-wide text-error-base'>Live</span>}
+      {label && <span className='text-label-xs text-error-base'>Live</span>}
     </span>
   );
 }

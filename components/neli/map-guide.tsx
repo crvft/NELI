@@ -1,8 +1,6 @@
 import { PARTIES, type PartyCode } from '@/lib/parties';
 import type { MapPayload } from '@/lib/map-data';
 
-const pct = (x: number, d = 1) => `${(x * 100).toFixed(d)}%`;
-
 /**
  * Right-hand column beside the map, in the spirit of an atlas "How to use" page:
  * short ruled sections that decode the map and the rules behind it.
@@ -25,7 +23,7 @@ export function MapGuide({
 
   return (
     <div className='flex flex-col'>
-      <Section eyebrow='How to read'>
+      <Section title='How to read'>
         <ul className='flex flex-col gap-3'>
           <Item swatch='strong' title='Solid colour' body='A strong lead of 20 points or more.' />
           <Item swatch='clear' title='Tinted colour' body='A clear lead of 8 to 20 points.' />
@@ -34,7 +32,7 @@ export function MapGuide({
         </ul>
       </Section>
 
-      <Section eyebrow='States led'>
+      <Section title='States led'>
         <ul className='flex flex-col gap-2'>
           {(Object.entries(led) as [PartyCode, number][])
             .sort((a, b) => b[1] - a[1])
@@ -42,7 +40,7 @@ export function MapGuide({
               <li key={p} className='flex items-center gap-2.5'>
                 <span className='size-3 rounded-sm' style={{ background: PARTIES[p].color }} />
                 <span className='text-label-sm text-text-strong-950'>{p}</span>
-                <span className='truncate text-paragraph-xs text-text-soft-400'>{PARTIES[p].name}</span>
+                <span className='truncate text-paragraph-xs text-text-sub-600'>{PARTIES[p].name}</span>
                 <span className='tabular ml-auto text-label-sm text-text-strong-950'>{n}</span>
               </li>
             ))}
@@ -67,7 +65,7 @@ export function MapGuide({
       </Section>
 
       {isPresidential && spread && (
-        <Section eyebrow='The 25% rule'>
+        <Section title='The 25% rule'>
           <p className='text-paragraph-sm text-text-sub-600'>
             To win outright, a candidate needs the most votes <span className='text-text-strong-950'>and</span> at least 25% of the vote in 24 of the 37
             states (two-thirds, counting the FCT). If nobody manages both, there is a run-off.
@@ -77,7 +75,7 @@ export function MapGuide({
               <li key={c.personId}>
                 <div className='mb-1.5 flex justify-between gap-2 text-paragraph-xs text-text-sub-600'>
                   <span className='truncate'>
-                    {c.name} <span className='text-text-soft-400'>· {c.party}</span>
+                    {c.name} <span className='text-text-sub-600'>· {c.party}</span>
                   </span>
                   <span className={`tabular text-label-xs ${spread[c.personId] >= 24 ? 'text-success-base' : 'text-text-strong-950'}`}>
                     {spread[c.personId]}/24
@@ -90,27 +88,27 @@ export function MapGuide({
               </li>
             ))}
           </ul>
-          <p className='mt-2 text-paragraph-xs text-text-soft-400'>The tick marks 24 states.</p>
+          <p className='mt-2 text-paragraph-xs text-text-sub-600'>The tick marks 24 states.</p>
         </Section>
       )}
 
-      <Section eyebrow='Good to know'>
-        <ul className='flex list-disc flex-col gap-2 pl-4 text-paragraph-xs text-text-sub-600 marker:text-text-soft-400'>
+      <Section title='Good to know'>
+        <ul className='flex list-disc flex-col gap-2 pl-4 text-paragraph-xs text-text-sub-600 marker:text-text-sub-600'>
           {data.live && <li>Figures come from polling-unit result sheets (Form EC8A) as they are uploaded to INEC&apos;s result viewing portal.</li>}
           {data.live && <li>An early lead can flip. States report at different speeds, and big cities often come in late.</li>}
           <li>Zone labels around the map show the leading party and votes counted in each geopolitical zone.</li>
           <li>Percentages are shares of valid votes counted, not of registered voters.</li>
         </ul>
       </Section>
-      <p className='px-4 pb-5 text-paragraph-xs text-text-soft-400 sm:px-5'>Boundaries: GRID3 Nigeria (CC BY 4.0), Natural Earth.</p>
+      <p className='px-4 pb-5 text-paragraph-xs text-text-sub-600 sm:px-5'>Boundaries: GRID3 Nigeria (CC BY 4.0), Natural Earth.</p>
     </div>
   );
 }
 
-function Section({ eyebrow, children }: { eyebrow: string; children: React.ReactNode }) {
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className='border-b border-stroke-soft-200 px-4 py-5 sm:px-5'>
-      <h3 className='mb-3 text-subheading-xs uppercase tracking-[0.1em] text-text-soft-400'>{eyebrow}</h3>
+      <h3 className='mb-3 text-label-sm text-text-strong-950'>{title}</h3>
       {children}
     </section>
   );

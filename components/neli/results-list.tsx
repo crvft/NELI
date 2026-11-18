@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { RiCheckboxCircleFill } from '@remixicon/react';
+import { IconWon } from '@/components/icons';
 import { PARTIES } from '@/lib/parties';
 import { fmt, pct, type Probability, type Tally } from '@/lib/analytics';
 import { PersonAvatar } from './avatar';
@@ -13,7 +13,7 @@ export function ResultsList({ tally, probs, winnerId, spread }: { tally: Tally[]
         const prob = probs?.find((p) => p.personId === t.personId);
         return (
           <li key={t.personId} className='flex items-center gap-3 px-4 py-3.5 sm:px-5'>
-            <span className='tabular hidden w-4 text-label-sm text-text-soft-400 sm:inline'>{i + 1}</span>
+            <span className='tabular hidden w-4 text-label-sm text-text-sub-600 sm:inline'>{i + 1}</span>
             <PersonAvatar name={t.name} party={t.party} />
             <div className='min-w-0 flex-1'>
               <div className='flex flex-wrap items-center gap-x-2 gap-y-1'>
@@ -23,7 +23,7 @@ export function ResultsList({ tally, probs, winnerId, spread }: { tally: Tally[]
                 <PartyTag code={t.party} />
                 {winnerId === t.personId && (
                   <span className='inline-flex items-center gap-1 text-label-xs text-success-base'>
-                    <RiCheckboxCircleFill className='size-4' /> Winner
+                    <IconWon className='size-4' /> Winner
                   </span>
                 )}
               </div>
@@ -32,7 +32,7 @@ export function ResultsList({ tally, probs, winnerId, spread }: { tally: Tally[]
                 <span className='tabular hidden whitespace-nowrap text-paragraph-xs text-text-sub-600 sm:inline'>{fmt(t.votes)} votes</span>
               </div>
               {spread && (
-                <div className='mt-1 text-paragraph-xs text-text-soft-400'>
+                <div className='mt-1 text-paragraph-xs text-text-sub-600'>
                   25%+ in <span className='tabular text-text-sub-600'>{spread[t.personId]}</span>/37 states
                   <span className='sm:hidden'> · {fmt(t.votes)} votes</span>
                 </div>

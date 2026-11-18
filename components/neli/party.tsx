@@ -11,7 +11,7 @@ export function PartyTag({ code, full = false, className }: { code: PartyCode; f
     <span
       title={p.name}
       className={cn(
-        'inline-flex h-6 items-center gap-1.5 whitespace-nowrap rounded-md bg-bg-white-0 px-2 text-label-xs text-text-sub-600 ring-1 ring-inset ring-stroke-soft-200',
+        'inline-flex h-6 items-center gap-1.5 whitespace-nowrap rounded-md bg-surface-2 px-2 text-label-xs text-text-sub-600 shadow-surface-2',
         className,
       )}
     >

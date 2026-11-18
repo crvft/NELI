@@ -1,0 +1,4 @@
+/** Custom Tailwind token names, so tailwind-merge groups them correctly. Mirrors @theme in app/globals.css. */
+export const TEXT_STYLES = ['title-h1','title-h2','title-h3','title-h4','title-h5','title-h6','label-xl','label-lg','label-md','label-sm','label-xs','paragraph-xl','paragraph-lg','paragraph-md','paragraph-sm','paragraph-xs','subheading-md','subheading-sm','subheading-xs','subheading-2xs','doc-label','doc-paragraph'] as const;
+export const SHADOWS = ['regular-xs','regular-sm','regular-md','button-primary-focus','button-important-focus','button-error-focus','fancy-buttons-neutral','fancy-buttons-primary','fancy-buttons-error','fancy-buttons-stroke','toggle-switch','switch-thumb','tooltip','custom-xs','custom-sm','custom-md','custom-lg', 'surface-2', 'surface-3', 'surface-4', 'surface-6'] as const;
+export const RADII = ['10', '20'] as const;

@@ -1,4 +1,5 @@
-import { PEOPLE, OFFICE_LABEL } from '@/lib/data';
+import { OFFICE_LABEL } from '@/lib/domain';
+import { listElections, listPeople } from '@/lib/repo';
 import { stateByCode } from '@/lib/geo';
 import { currentParty, currentRole, personRecord } from '@/lib/analytics';
 import { PageContainer, PageHeader, SampleBadge } from '@/components/neli/page-header';
@@ -6,10 +7,11 @@ import { PeopleBrowser, type PersonSummary } from '@/components/neli/people-brow
 
 export const metadata = { title: 'Politicians' };
 
-export default function PoliticiansPage() {
-  const items: PersonSummary[] = PEOPLE.map((p) => {
+export default async function PoliticiansPage() {
+  const [all, people] = await Promise.all([listElections(), listPeople()]);
+  const items: PersonSummary[] = people.map((p) => {
     const role = currentRole(p) ?? p.roles[0];
-    const rec = personRecord(p.id).filter((r) => r.election.status === 'concluded');
+    const rec = personRecord(p.id, all).filter((r) => r.election.status === 'concluded');
     return {
       id: p.id,
       name: p.name,
@@ -28,7 +30,7 @@ export default function PoliticiansPage() {
   return (
     <PageContainer className='flex flex-col gap-6'>
       <PageHeader
-        eyebrow={<SampleBadge />}
+        badges={<SampleBadge />}
         title='Politicians'
         description='Profiles and track records for everyone elected or appointed, from LGA chairmen to the president.'
       />

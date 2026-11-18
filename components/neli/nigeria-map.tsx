@@ -2,7 +2,8 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import { RiArrowLeftLine, RiArrowRightUpLine, RiCursorLine } from '@remixicon/react';
+import type { Route } from 'next';
+import { IconBack, IconCursor, IconExternal } from '@/components/icons';
 import shapes from '@/lib/map-shapes.json';
 import { PARTIES, type PartyCode } from '@/lib/parties';
 import type { MapPayload, MapState } from '@/lib/map-data';
@@ -144,7 +145,7 @@ export function NigeriaMap({ data, overview, title, footer }: { data: MapPayload
                     aria-pressed={selected === s.code}
                     aria-label={`${s.name}: ${s.total ? `${lead.party} leading with ${pct(lead.share)}, ${pct(s.margin)} ahead` : 'awaiting results'}`}
                     className={cn(
-                      'cursor-pointer outline-none transition-opacity duration-150',
+                      'cursor-pointer outline-hidden transition-opacity duration-150',
                       hover && hover.code !== s.code && 'opacity-55',
                       selected && selected !== s.code && !hover && 'opacity-70',
                     )}
@@ -198,32 +199,38 @@ export function NigeriaMap({ data, overview, title, footer }: { data: MapPayload
           </svg>
 
           {/* HTML overlays keep text at real pixel sizes (12px+) at any map width */}
-          <div className='pointer-events-none absolute inset-0 hidden md:block' aria-hidden>
+          <div className='pointer-events-none absolute inset-0 hidden md:block'>
             {Object.entries(NEIGHBOUR_LABELS).map(([n, [x, y]]) => (
               <span
                 key={n}
-                className='absolute -translate-x-1/2 -translate-y-1/2 text-[12px] uppercase tracking-[0.18em] text-text-soft-400'
+                aria-hidden
+                className='absolute -translate-x-1/2 -translate-y-1/2 text-[12px] text-text-sub-600'
                 style={{ left: `${(x / S.width) * 100}%`, top: `${(y / S.height) * 100}%` }}
               >
                 {n}
               </span>
             ))}
-            <span className='absolute text-[12px] italic tracking-wide text-text-soft-400' style={{ left: '34%', top: '94%' }}>
+            <span aria-hidden className='absolute text-[12px] italic text-text-sub-600' style={{ left: '34%', top: '94%' }}>
               Gulf of Guinea
             </span>
             {data.zones.map((z) => {
               const c = CALLOUTS[z.code];
               return (
-                <div
+                <Link
                   key={z.code}
-                  className={cn('absolute w-[15%] min-w-[128px] -translate-y-full pb-1', c.align === 'right' && '-translate-x-full text-right')}
+                  href={`/zones/${z.code.toLowerCase()}` as Route}
+                  aria-label={`${z.name} zone analytics`}
+                  className={cn(
+                    'pointer-events-auto absolute w-[15%] min-w-[128px] -translate-y-full rounded-md pb-1 transition-opacity duration-[80ms] hover:opacity-70',
+                    c.align === 'right' && '-translate-x-full text-right',
+                  )}
                   style={{ left: `${(c.lx / S.width) * 100}%`, top: `${(c.ly / S.height) * 100}%` }}
                 >
-                  <div className='text-[12px] font-semibold uppercase leading-4 tracking-[0.08em]' style={{ color: z.lead ? PARTIES[z.lead.party].text : 'var(--text-soft-400)' }}>
+                  <div className='text-[12px] font-[550] leading-4' style={{ color: z.lead ? PARTIES[z.lead.party].text : 'var(--text-sub-600)' }}>
                     {z.name}
                   </div>
                   <div className='tabular text-[12px] leading-4 text-text-sub-600'>{z.lead ? `${z.lead.party} ${pct(z.lead.share)} · ${compact(z.total)}` : 'Awaiting results'}</div>
-                </div>
+                </Link>
               );
             })}
           </div>
@@ -231,9 +238,10 @@ export function NigeriaMap({ data, overview, title, footer }: { data: MapPayload
           {/* tooltip */}
           {hs && hover && (
             <div
-              className='pointer-events-none absolute z-20 w-64 rounded-xl bg-bg-white-0 p-3.5 shadow-regular-md ring-1 ring-stroke-soft-200'
+              className='pointer-events-none absolute z-20 w-64 rounded-xl bg-surface-4 p-3.5 shadow-surface-4'
               style={{
-                left: Math.min(hover.x + 16, (wrapRef.current?.clientWidth ?? 0) - 264),
+                // keep the 256px tooltip inside the map without reading layout during render
+                left: `min(${hover.x + 16}px, calc(100% - 16.5rem))`,
                 top: Math.max(0, hover.y - 20),
               }}
               role='tooltip'
@@ -264,8 +272,8 @@ export function NigeriaMap({ data, overview, title, footer }: { data: MapPayload
             )}
           </div>
         </div>
-        <p className='mt-3 flex items-center gap-1.5 text-paragraph-xs text-text-soft-400'>
-          <RiCursorLine className='size-4' /> Hover a state for a quick look. Click or tap it for the full breakdown.
+        <p className='mt-3 flex items-center gap-1.5 text-paragraph-xs text-text-sub-600'>
+          <IconCursor className='size-4' /> Hover a state for a quick look. Click or tap it for the full breakdown.
         </p>
         {footer}
       </div>
@@ -302,7 +310,7 @@ function StateTooltip({ s, live }: { s: MapState; live: boolean }) {
     <>
       <div className='flex items-baseline justify-between gap-2'>
         <span className='text-label-sm text-text-strong-950'>{s.name}</span>
-        <span className='text-paragraph-xs text-text-soft-400'>{s.zoneName}</span>
+        <span className='text-paragraph-xs text-text-sub-600'>{s.zoneName}</span>
       </div>
       {s.total ? (
         <>
@@ -343,19 +351,20 @@ function StatePanel({ s, live, onBack }: { s: MapState; live: boolean; onBack: (
     <div className='flex flex-col'>
       <div className='flex items-center justify-between gap-2 border-b border-stroke-soft-200 px-4 py-3 sm:px-5'>
         <button type='button' onClick={onBack} className='inline-flex items-center gap-1.5 rounded-lg py-1 text-label-sm text-text-sub-600 hover:text-text-strong-950'>
-          <RiArrowLeftLine className='size-4' /> All of Nigeria
+          <IconBack className='size-4' /> All of Nigeria
         </button>
-        <Link href={`/states/${s.code}`} className='inline-flex items-center gap-1 text-label-sm text-text-sub-600 hover:text-text-strong-950'>
-          State page <RiArrowRightUpLine className='size-4' />
+        <Link href={`/states/${s.code}` as Route} className='inline-flex items-center gap-1 text-label-sm text-text-sub-600 hover:text-text-strong-950'>
+          State page <IconExternal className='size-4' />
         </Link>
       </div>
       <div className='px-4 py-5 sm:px-5'>
-        <div className='text-subheading-xs uppercase tracking-[0.08em] text-text-soft-400'>{s.zoneName}</div>
-        <h3 className='mt-1 text-title-h5 tracking-tight text-text-strong-950'>{s.name}</h3>
-        <p className='text-paragraph-sm text-text-sub-600'>Capital: {s.capital}</p>
+        <h3 className='text-title-h5 tracking-tight text-text-strong-950'>{s.name}</h3>
+        <p className='text-paragraph-sm text-text-sub-600'>
+          {s.zoneName} · Capital: {s.capital}
+        </p>
 
         {s.total ? (
-          <div className='mt-4 rounded-xl p-3.5 ring-1 ring-inset ring-stroke-soft-200' style={{ background: `color-mix(in oklab, ${PARTIES[lead.party].color} 8%, var(--bg-white-0))` }}>
+          <div className='mt-4 rounded-xl p-3.5 shadow-surface-2' style={{ background: `color-mix(in oklab, ${PARTIES[lead.party].color} 8%, var(--bg-white-0))` }}>
             <div className='text-paragraph-xs text-text-sub-600'>{live ? 'Leading' : 'Won'}</div>
             <div className='mt-0.5 text-label-md text-text-strong-950'>{lead.name}</div>
             <div className='tabular mt-0.5 text-paragraph-sm' style={{ color: PARTIES[lead.party].text }}>
@@ -376,7 +385,7 @@ function StatePanel({ s, live, onBack }: { s: MapState; live: boolean; onBack: (
 
       {s.total > 0 && (
         <div className='border-t border-stroke-soft-200 px-4 py-5 sm:px-5'>
-          <div className='mb-3 text-subheading-xs uppercase tracking-[0.08em] text-text-soft-400'>All candidates in {s.name}</div>
+          <h4 className='mb-3 text-label-sm text-text-strong-950'>All candidates in {s.name}</h4>
           <ul className='flex flex-col gap-3.5'>
             {s.candidates.map((c) => (
               <li key={c.personId}>
@@ -391,7 +400,7 @@ function StatePanel({ s, live, onBack }: { s: MapState; live: boolean; onBack: (
                   <span className='h-1.5 flex-1 overflow-hidden rounded-full bg-bg-soft-200'>
                     <span className='block h-full rounded-full' style={{ width: `${c.share * 100}%`, background: PARTIES[c.party].color }} />
                   </span>
-                  <span className='tabular w-16 text-right text-paragraph-xs text-text-soft-400'>{compact(c.votes)}</span>
+                  <span className='tabular w-16 text-right text-paragraph-xs text-text-sub-600'>{compact(c.votes)}</span>
                 </div>
                 {c.share >= 0.25 && <div className='mt-1 text-paragraph-xs text-success-base'>Meets 25% here</div>}
               </li>
@@ -406,7 +415,7 @@ function StatePanel({ s, live, onBack }: { s: MapState; live: boolean; onBack: (
 function Fact({ label, value }: { label: string; value: string }) {
   return (
     <div>
-      <dt className='text-paragraph-xs text-text-soft-400'>{label}</dt>
+      <dt className='text-paragraph-xs text-text-sub-600'>{label}</dt>
       <dd className='tabular mt-0.5 text-label-md text-text-strong-950'>{value}</dd>
     </div>
   );

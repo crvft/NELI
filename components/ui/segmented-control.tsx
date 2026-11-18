@@ -31,7 +31,7 @@ const SegmentedControlList = React.forwardRef<
     <TabsPrimitive.List
       ref={mergeRefs(forwardedRef, listRef)}
       className={cn(
-        'relative isolate grid w-full auto-cols-fr grid-flow-col gap-1 rounded-10 bg-bg-weak-50 p-1',
+        'relative isolate grid h-9 w-full auto-cols-fr grid-flow-col gap-1 rounded-10 bg-hover p-1',
         className,
       )}
       {...rest}
@@ -41,7 +41,7 @@ const SegmentedControlList = React.forwardRef<
       {/* floating bg */}
       <div
         className={cn(
-          'absolute inset-y-1 left-0 -z-10 rounded-md bg-bg-white-0 shadow-toggle-switch transition-transform duration-300',
+          'absolute inset-y-1 left-0 -z-10 rounded-md bg-surface-3 shadow-surface-3 transition-[transform,width] duration-[160ms] motion-reduce:transition-none',
           {
             hidden: !mounted,
           },
@@ -50,7 +50,8 @@ const SegmentedControlList = React.forwardRef<
         style={{
           transform: `translate3d(${lineStyle.left}px, 0, 0)`,
           width: `${lineStyle.width}px`,
-          transitionTimingFunction: 'cubic-bezier(0.65, 0, 0.35, 1)',
+          // spring.moderate: critically damped, lands exactly (tabs)
+          transitionTimingFunction: 'var(--ease-moderate)',
         }}
         aria-hidden='true'
       />
@@ -69,13 +70,13 @@ const SegmentedControlTrigger = React.forwardRef<
       className={cn(
         // base
         'peer',
-        'relative z-10 h-7 whitespace-nowrap rounded-md px-1 text-label-sm text-text-soft-400 outline-none',
+        'relative z-10 h-7 whitespace-nowrap rounded-md px-1 text-label-sm text-text-sub-600 outline-hidden',
         'flex items-center justify-center gap-1.5',
-        'transition duration-300 ease-out',
+        'hit transition-colors duration-[80ms]',
         // focus
-        'focus:outline-none',
+        'focus-visible:shadow-[0_0_0_2px_var(--primary-alpha-24)]',
         // active
-        'data-[state=active]:text-text-strong-950',
+        'hover:text-text-strong-950 data-[state=active]:text-text-strong-950',
         className,
       )}
       {...rest}

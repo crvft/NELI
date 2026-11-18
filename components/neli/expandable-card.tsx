@@ -1,7 +1,7 @@
 'use client';
 
 import * as React from 'react';
-import { RiArrowDownSLine } from '@remixicon/react';
+import { IconChevronDown } from '@/components/icons';
 import { Card } from './card';
 
 export function ExpandableCard({ children, total, limit, noun }: { children: React.ReactNode; total: number; limit: number; noun: string }) {
@@ -14,10 +14,10 @@ export function ExpandableCard({ children, total, limit, noun }: { children: Rea
           type='button'
           onClick={() => setOpen((o) => !o)}
           aria-expanded={open}
-          className='flex w-full items-center justify-center gap-1 border-t border-stroke-soft-200 py-3 text-label-sm text-text-sub-600 transition hover:bg-bg-weak-50 hover:text-text-strong-950'
+          className='flex w-full items-center justify-center gap-1 border-t border-stroke-soft-200 py-3 text-label-sm text-text-sub-600 transition-colors duration-[80ms] hover:bg-hover hover:text-text-strong-950'
         >
           {open ? 'Show fewer' : `Show all ${total} ${noun}s`}
-          <RiArrowDownSLine className={`size-4 transition ${open ? 'rotate-180' : ''}`} />
+          <IconChevronDown className={`size-4 transition ${open ? 'rotate-180' : ''}`} />
         </button>
       )}
     </Card>

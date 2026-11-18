@@ -1,13 +1,14 @@
 // AlignUI useTabObserver v0.0.0
 
 import * as React from 'react';
+import { useMounted } from './use-mounted';
 
 interface TabObserverOptions {
   onActiveTabChange?: (index: number, element: HTMLElement) => void;
 }
 
 export function useTabObserver({ onActiveTabChange }: TabObserverOptions = {}) {
-  const [mounted, setMounted] = React.useState(false);
+  const mounted = useMounted();
   const listRef = React.useRef<HTMLDivElement>(null);
   const onActiveTabChangeRef = React.useRef(onActiveTabChange);
 
@@ -27,8 +28,6 @@ export function useTabObserver({ onActiveTabChange }: TabObserverOptions = {}) {
   }, []);
 
   React.useEffect(() => {
-    setMounted(true);
-
     const resizeObserver = new ResizeObserver(handleUpdate);
     const mutationObserver = new MutationObserver(handleUpdate);
 
@@ -47,7 +46,7 @@ export function useTabObserver({ onActiveTabChange }: TabObserverOptions = {}) {
       resizeObserver.disconnect();
       mutationObserver.disconnect();
     };
-  }, []);
+  }, [handleUpdate]);
 
   return { mounted, listRef };
 }

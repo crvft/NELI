@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { RiArrowLeftSLine, RiCheckboxCircleFill, RiCloseCircleLine, RiTimeLine } from '@remixicon/react';
-import { PEOPLE, personById, OFFICE_LABEL, ELECTION_TYPE_LABEL } from '@/lib/data';
+import { IconChevronLeft, IconLost, IconUpcoming, IconWon } from '@/components/icons';
+import { OFFICE_LABEL, ELECTION_TYPE_LABEL } from '@/lib/domain';
+import { getPerson, listElections, listPeople } from '@/lib/repo';
 import { stateByCode } from '@/lib/geo';
 import { PARTIES } from '@/lib/parties';
 import { currentParty, currentRole, fmt, fmtCompact, pct, personRecord, voteSources } from '@/lib/analytics';
@@ -13,22 +14,22 @@ import { LineChart } from '@/components/neli/line-chart';
 import { SourceBars } from '@/components/neli/zone-bars';
 import { LiveDot } from '@/components/neli/live-dot';
 
-export function generateStaticParams() {
-  return PEOPLE.map((p) => ({ id: p.id }));
+export async function generateStaticParams() {
+  return (await listPeople()).map((p) => ({ id: p.id }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  return { title: personById(id)?.name ?? 'Politician' };
+  return { title: (await getPerson(id))?.name ?? 'Politician' };
 }
 
 export default async function PersonPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const p = personById(id);
+  const [p, all] = await Promise.all([getPerson(id), listElections()]);
   if (!p) notFound();
   const role = currentRole(p);
   const party = currentParty(p);
-  const record = personRecord(p.id);
+  const record = personRecord(p.id, all);
   const past = record.filter((r) => r.election.status !== 'upcoming');
   const concluded = record.filter((r) => r.election.status === 'concluded');
   const wins = concluded.filter((r) => r.won).length;
@@ -43,7 +44,7 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
   return (
     <PageContainer className='flex flex-col gap-6'>
       <Link href='/politicians' className='inline-flex w-fit items-center gap-0.5 text-label-sm text-text-sub-600 hover:text-text-strong-950'>
-        <RiArrowLeftSLine className='size-5' /> Politicians
+        <IconChevronLeft className='size-5' /> Politicians
       </Link>
 
       <Card className='p-4 sm:p-6'>
@@ -108,25 +109,25 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
               <ul className='divide-y divide-stroke-soft-200'>
                 {record.map((r) => (
                   <li key={r.election.id}>
-                    <Link href={r.election.status === 'live' ? '/' : `/elections/${r.election.id}`} className='flex items-center gap-3 px-4 py-3.5 transition hover:bg-bg-weak-50 sm:px-5'>
+                    <Link href={r.election.status === 'live' ? '/' : `/elections/${r.election.id}`} className='flex items-center gap-3 px-4 py-3.5 transition-colors duration-[80ms] hover:bg-hover sm:px-5'>
                       <span className='grid size-9 shrink-0 place-items-center rounded-full bg-bg-weak-50'>
                         {r.election.status === 'concluded' ? (
                           r.won ? (
-                            <RiCheckboxCircleFill className='size-5 text-success-base' />
+                            <IconWon className='size-5 text-success-base' />
                           ) : (
-                            <RiCloseCircleLine className='size-5 text-text-soft-400' />
+                            <IconLost className='size-5 text-text-sub-600' />
                           )
                         ) : r.election.status === 'live' ? (
                           <LiveDot />
                         ) : (
-                          <RiTimeLine className='size-5 text-information-base' />
+                          <IconUpcoming className='size-5 text-information-base' />
                         )}
                       </span>
                       <div className='min-w-0 flex-1'>
                         <div className='truncate text-label-sm text-text-strong-950'>{r.election.title}</div>
                         <div className='mt-0.5 flex flex-wrap items-center gap-x-2 text-paragraph-xs text-text-sub-600'>
                           <span>{r.party}</span>
-                          <span className='text-text-soft-400'>·</span>
+                          <span className='text-text-sub-600'>·</span>
                           <span>
                             {r.election.status === 'concluded'
                               ? r.won

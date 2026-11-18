@@ -2,9 +2,11 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import { RiArrowRightSLine, RiSearch2Line } from '@remixicon/react';
+import type { Route } from 'next';
+import { FluidHover } from '@/components/motion/fluid-hover';
+import { IconChevronRight, IconSearch } from '@/components/icons';
 import * as SegmentedControl from '@/components/ui/segmented-control';
-import type { ElectionType } from '@/lib/data';
+import type { ElectionType } from '@/lib/domain';
 import type { PartyCode } from '@/lib/parties';
 import { PARTIES } from '@/lib/parties';
 import type { Tally } from '@/lib/analytics';
@@ -75,14 +77,14 @@ export function ElectionBrowser({ items }: { items: ElectionSummary[] }) {
 
       {years.map((y) => (
         <section key={y} className='flex flex-col gap-3'>
-          <h2 className='text-subheading-xs uppercase text-text-soft-400'>{y}</h2>
-          <div className='grid grid-cols-1 gap-3 md:grid-cols-2'>
+          <h2 className='text-label-md text-text-strong-950'>{y}</h2>
+          <FluidHover layer='over' radius={16} gapClick={16} className='grid grid-cols-1 gap-3 md:grid-cols-2'>
             {filtered
               .filter((i) => i.year === y)
               .map((i) => (
                 <ElectionCard key={i.id} i={i} />
               ))}
-          </div>
+          </FluidHover>
         </section>
       ))}
     </div>
@@ -91,20 +93,20 @@ export function ElectionBrowser({ items }: { items: ElectionSummary[] }) {
 
 function ElectionCard({ i }: { i: ElectionSummary }) {
   return (
-    <Link href={i.id === 'pres-2027' ? '/' : `/elections/${i.id}`} className='group'>
-      <Card className='flex h-full flex-col gap-3 p-4 transition group-hover:ring-stroke-sub-300 sm:p-5'>
+    <Link href={(i.status === 'live' ? '/' : `/elections/${i.id}`) as Route} data-fluid-item className='group relative block'>
+      <Card className='flex h-full flex-col gap-3 p-4 sm:p-5'>
         <div className='flex items-start justify-between gap-3'>
           <div className='min-w-0'>
             <div className='flex items-center gap-2 text-paragraph-xs text-text-sub-600'>
               {i.status === 'live' && <LiveDot label />}
               {i.status === 'upcoming' && <span className='text-label-xs text-information-base'>Upcoming</span>}
               <span>{i.typeLabel}</span>
-              <span className='text-text-soft-400'>·</span>
+              <span className='text-text-sub-600'>·</span>
               <span>{i.place}</span>
             </div>
             <h3 className='mt-1 text-label-md text-text-strong-950'>{i.title}</h3>
           </div>
-          <RiArrowRightSLine className='size-5 shrink-0 text-text-soft-400 transition group-hover:translate-x-0.5 group-hover:text-text-strong-950' />
+          <IconChevronRight className='size-5 shrink-0 text-text-sub-600 transition group-hover:translate-x-0.5 duration-[80ms] group-hover:text-text-strong-950' />
         </div>
         {i.status === 'upcoming' ? (
           i.top && (
@@ -136,14 +138,14 @@ function ElectionCard({ i }: { i: ElectionSummary }) {
 
 export function SearchField({ value, onChange, placeholder, className }: { value: string; onChange: (v: string) => void; placeholder: string; className?: string }) {
   return (
-    <label className={cn('flex h-10 items-center gap-2 rounded-10 bg-bg-white-0 px-3 shadow-regular-xs ring-1 ring-inset ring-stroke-soft-200 transition focus-within:ring-stroke-strong-950', className)}>
-      <RiSearch2Line className='size-5 shrink-0 text-text-soft-400' />
+    <label className={cn('flex h-9 items-center gap-2 rounded-10 bg-surface-2 px-3 shadow-surface-2 transition-shadow duration-[80ms] focus-within:shadow-[0_0_0_2px_var(--primary-alpha-24)]', className)}>
+      <IconSearch className='size-4 shrink-0 text-text-sub-600' />
       <input
         type='search'
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className='w-full bg-transparent text-paragraph-sm text-text-strong-950 outline-none placeholder:text-text-soft-400'
+        className='w-full bg-transparent text-paragraph-sm text-text-strong-950 outline-hidden placeholder:text-text-sub-600 pointer-coarse:text-[16px]'
       />
     </label>
   );

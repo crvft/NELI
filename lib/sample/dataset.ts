@@ -5,8 +5,8 @@
  * design the interface. Parties, states and zones are real. Real 2023 data will
  * replace this layer (see README → Data roadmap).
  */
-import { STATES, stateByCode, type State, type ZoneCode } from './geo';
-import type { PartyCode } from './parties';
+import { STATES, stateByCode, type State, type ZoneCode } from '@/lib/geo';
+import type { Area, Election, Person } from '@/lib/domain';
 
 export const IS_SAMPLE_DATA = true;
 
@@ -26,86 +26,6 @@ function hash(s: string) {
   for (let i = 0; i < s.length; i++) h = Math.imul(h ^ s.charCodeAt(i), 16777619);
   return h >>> 0;
 }
-
-// ---------------------------------------------------------------------------
-// Types
-// ---------------------------------------------------------------------------
-export type OfficeType =
-  | 'president'
-  | 'vice-president'
-  | 'governor'
-  | 'senator'
-  | 'rep'
-  | 'assembly'
-  | 'lga-chair'
-  | 'minister';
-
-export const OFFICE_LABEL: Record<OfficeType, string> = {
-  president: 'President',
-  'vice-president': 'Vice President',
-  governor: 'Governor',
-  senator: 'Senator',
-  rep: 'House of Reps',
-  assembly: 'State Assembly',
-  'lga-chair': 'LGA Chairman',
-  minister: 'Minister',
-};
-
-export type Role = {
-  office: OfficeType;
-  title: string;
-  stateCode?: string;
-  constituency?: string;
-  from: number;
-  to?: number;
-  party?: PartyCode;
-  appointed?: boolean;
-};
-
-export type Person = {
-  id: string;
-  name: string;
-  gender: 'F' | 'M';
-  born: number;
-  origin: string; // state code
-  bio: string;
-  roles: Role[]; // most recent first
-  partyHistory: { party: PartyCode; from: number; to?: number }[]; // oldest first
-};
-
-export type ElectionType = 'presidential' | 'governorship' | 'senate' | 'reps' | 'assembly' | 'lga';
-export const ELECTION_TYPE_LABEL: Record<ElectionType, string> = {
-  presidential: 'Presidential',
-  governorship: 'Governorship',
-  senate: 'Senate',
-  reps: 'House of Reps',
-  assembly: 'State Assembly',
-  lga: 'Local Government',
-};
-
-export type Area = { code: string; name: string; zone?: ZoneCode; registered: number };
-
-export type Candidate = { personId: string; party: PartyCode };
-
-export type Election = {
-  id: string;
-  title: string;
-  type: ElectionType;
-  year: number;
-  date: string; // ISO
-  status: 'live' | 'concluded' | 'upcoming';
-  level: 'national' | 'state' | 'constituency';
-  stateCode?: string;
-  constituency?: string;
-  areaLabel: string; // "State", "District", "LGA"
-  areas: Area[];
-  candidates: Candidate[];
-  /** Final (or expected-final for live) votes per area per candidate */
-  results: Record<string, Record<string, number>>;
-  /** Fraction of polling units reported per area (live only) */
-  reported?: Record<string, number>;
-  updatedAt?: string;
-};
 
 // ---------------------------------------------------------------------------
 // People (fictional)
@@ -313,7 +233,6 @@ export const PEOPLE: Person[] = [
   }),
 ];
 
-export const personById = (id: string) => PEOPLE.find((p) => p.id === id);
 
 // ---------------------------------------------------------------------------
 // Result generation
@@ -322,6 +241,7 @@ type ZoneStrength = Partial<Record<ZoneCode, number>>;
 
 /** Build per-state votes for a national election from zone-level strengths. */
 function nationalResults(
+  year: number,
   seed: string,
   turnout: number,
   strengths: Record<string, ZoneStrength>,
@@ -338,7 +258,8 @@ function nationalResults(
       weights[pid] = w;
       sum += w;
     }
-    const cast = Math.round(s.registered * turnout * (0.8 + rnd() * 0.4));
+    const reg = nationalAreas(year).find((a) => a.code === s.code)!.registered;
+    const cast = Math.round(reg * turnout * (0.8 + rnd() * 0.4));
     results[s.code] = {};
     for (const pid of Object.keys(weights)) {
       results[s.code][pid] = Math.round((weights[pid] / sum) * cast);
@@ -372,7 +293,16 @@ function localResults(seed: string, areas: Area[], turnout: number, base: Record
   return results;
 }
 
-const nationalAreas: Area[] = STATES.map((s) => ({ code: s.code, name: s.name, zone: s.zone, registered: s.registered }));
+/** Register size grows cycle to cycle (sample growth curve). */
+const REGISTER_GROWTH: Record<number, number> = { 2015: 0.72, 2019: 0.87, 2023: 1, 2027: 1.09 };
+const nationalAreas = (year: number): Area[] =>
+  STATES.map((s, i) => ({
+    code: s.code,
+    name: s.name,
+    zone: s.zone,
+    // small per-state variation so registers don't all grow in lockstep
+    registered: Math.round(s.registered * REGISTER_GROWTH[year] * (1 + (((i * 37) % 11) - 5) / 400)),
+  }));
 
 const SENATORIAL = (st: string) => {
   const s = stateByCode(st);
@@ -412,7 +342,7 @@ export const ELECTIONS: Election[] = [
     status: 'live',
     level: 'national',
     areaLabel: 'State',
-    areas: nationalAreas,
+    areas: nationalAreas(2027),
     candidates: [
       { personId: 'babatunde-adeyemi-cole', party: 'APC' },
       { personId: 'aminu-bello-sarki', party: 'PDP' },
@@ -420,7 +350,7 @@ export const ELECTIONS: Election[] = [
       { personId: 'yusuf-danjuma', party: 'NNPP' },
       { personId: 'halima-abdullahi', party: 'ADC' },
     ],
-    results: nationalResults('pres-2027', 0.29, pres2027Strengths, {
+    results: nationalResults(2027, 'pres-2027', 0.29, pres2027Strengths, {
       'babatunde-adeyemi-cole': 'LA',
       'aminu-bello-sarki': 'AD',
       'ngozi-okafor-eze': 'AN',
@@ -439,7 +369,7 @@ export const ELECTIONS: Election[] = [
     status: 'concluded',
     level: 'national',
     areaLabel: 'State',
-    areas: nationalAreas,
+    areas: nationalAreas(2023),
     candidates: [
       { personId: 'babatunde-adeyemi-cole', party: 'APC' },
       { personId: 'aminu-bello-sarki', party: 'PDP' },
@@ -447,6 +377,7 @@ export const ELECTIONS: Election[] = [
       { personId: 'yusuf-danjuma', party: 'NNPP' },
     ],
     results: nationalResults(
+      2023,
       'pres-2023',
       0.27,
       {
@@ -467,12 +398,12 @@ export const ELECTIONS: Election[] = [
     status: 'concluded',
     level: 'national',
     areaLabel: 'State',
-    areas: nationalAreas,
+    areas: nationalAreas(2019),
     candidates: [
       { personId: 'garba-musa-tanko', party: 'APC' },
       { personId: 'aminu-bello-sarki', party: 'PDP' },
     ],
-    results: nationalResults('pres-2019', 0.35, {
+    results: nationalResults(2019, 'pres-2019', 0.35, {
       'garba-musa-tanko': { NW: 0.7, NE: 0.68, NC: 0.5, SW: 0.52, SE: 0.2, SS: 0.3 },
       'aminu-bello-sarki': { NW: 0.28, NE: 0.3, NC: 0.48, SW: 0.45, SE: 0.78, SS: 0.68 },
     }),
@@ -486,12 +417,13 @@ export const ELECTIONS: Election[] = [
     status: 'concluded',
     level: 'national',
     areaLabel: 'State',
-    areas: nationalAreas,
+    areas: nationalAreas(2015),
     candidates: [
       { personId: 'garba-musa-tanko', party: 'APC' },
       { personId: 'ebiere-alagoa', party: 'PDP' },
     ],
     results: nationalResults(
+      2015,
       'pres-2015',
       0.44,
       {
@@ -811,4 +743,7 @@ for (const e of ELECTIONS) {
   if (b) e.results = localResults(e.id, e.areas, b[0], b[1]);
 }
 
-export const electionById = (id: string) => ELECTIONS.find((e) => e.id === id);
+
+// Denormalise candidate names onto each election, as the database will.
+const NAMES = new Map(PEOPLE.map((p) => [p.id, p.name]));
+for (const e of ELECTIONS) for (const c of e.candidates) c.name = NAMES.get(c.personId) ?? c.personId;
