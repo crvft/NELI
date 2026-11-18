@@ -135,13 +135,17 @@ def _parse_infobox(soup: BeautifulSoup) -> ResultsTable | None:
         label = _text(th).lower() if th else (_text(tds[0]).lower() if tds else "")
         if th is None and tds:
             tds = tds[1:]
-        for key in ("nominee", "candidate", "party", "popular vote", "electoral vote", "votes"):
+        for key in ("nominee", "candidate", "party", "popular vote", "electoral vote", "votes", "percentage"):
             if label == key and key not in rows:
                 rows[key] = [_text(td) for td in tds]
     parties = rows.get("party")
     votes = rows.get("popular vote") or rows.get("electoral vote") or rows.get("votes")
     if not (parties and votes):
         return None
+    # Some infoboxes swap the labels: "Popular vote" holds percentages and "Percentage" the votes
+    pct = rows.get("percentage")
+    if pct and all("%" in v for v in votes if v) and any(_int(v) for v in pct):
+        votes = pct
     names = rows.get("nominee") or rows.get("candidate") or [""] * len(parties)  # some infoboxes list parties only
     out = []
     for name, party_label, v in zip(names, parties, votes, strict=False):

@@ -5,6 +5,32 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 
 ---
 
+## Anyanwụ V1 and politician bios
+
+- **Anyanwụ** (`pipeline/anyanwu/`), NELI's forecasting model, with forecasts for the 2027 elections on the site.
+  - **Presidential, 16 Jan 2027:**
+    - Vote pools follow candidates, parties and running mates.
+    - Home-region effects.
+    - National, zonal and state uncertainty.
+    - The 25%-in-24-states rule, including the chance of a run-off.
+    - A projected map.
+  - **Governorship, 6 Feb 2027:** 28 states. Nominees where Wikipedia has them, otherwise by party, with the assumptions stated on the page.
+  - **Walk-forward backtests** on every past election. Report: `data/model/BACKTEST.md`.
+    - Presidential Brier 0.49 vs 0.74 for the "same party as last time" baseline.
+    - Governorship Brier 0.37 vs ~0.52.
+  - **Live model** that updates from declared states, tested by replaying 2023.
+  - **Online attention** (Wikipedia page views) shown separately. The backtests gave it no weight.
+- **Politician profiles from Wikipedia:**
+  - opening summary with attribution
+  - age, birth date and place, state of birth
+  - every office with its term
+  - current party, education, occupation
+- Candidates are linked through the election articles' own links, so spelling variants merge into one person.
+- **Fixes:**
+  - Delta 2023 governorship result: the infobox's vote and percentage labels were swapped.
+  - Year-aware party families in the model (the 2018 "APP" is not the 1999 APP).
+- New party colours for ADC and NDC.
+
 ## Real data on the site
 
 - **Supabase**:
@@ -33,7 +59,6 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 - Governorship results, 1999–2026: 249 of 252 held elections across all 36 states, including off-cycle races. Each election carries a coverage label: all candidates (174), top candidates only (59), winner only (16). The extractor rejects party primaries, merges joint tickets and reads nested infoboxes; it is spot-checked against known results.
 - CI: a new `pipeline` job (ruff lint + format check + pytest).
 
-- **Anyanwụ**, NELI's forecasting model (Python): pre-election forecast + live model, tuned and tested by walk-forward backtesting. Design in `HANDOVER.md`.
 - Later: a public "How accurate is NELI?" page, once Anyanwụ is working (deliberately deferred).
 
 ## b5b8844 — Sort dropdowns, governors for every state, zone card spacing

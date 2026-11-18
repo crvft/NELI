@@ -400,6 +400,12 @@ function UpcomingView({
 }) {
   const f = forecast(e, all, people);
   const prev = previousComparable(e, all);
+  const model = e.forecast;
+  const proj = model?.projection;
+  const projMap = proj ? mapPayload(proj) : undefined;
+  const leader = f[0];
+  const leaderName = e.candidates.find((c) => c.personId === leader?.personId)?.name ?? '';
+  const attention = model?.rows.filter((r) => r.attention != null).sort((a, b) => (b.attention ?? 0) - (a.attention ?? 0)) ?? [];
   return (
     <PageContainer className='flex flex-col gap-6'>
       <PageHeader
@@ -411,17 +417,78 @@ function UpcomingView({
           </>
         }
         title={e.title}
-        description={`Scheduled for ${electionWhen(e)}. The forecast is based on past results for this seat, incumbency and each candidate's track record.`}
+        description={
+          model
+            ? `Scheduled for ${electionWhen(e)}. Forecast by Anyanwụ, NELI's election model, updated ${new Date(model.generatedAt).toLocaleDateString('en-NG', { day: 'numeric', month: 'long', year: 'numeric' })}.`
+            : `Scheduled for ${electionWhen(e)}. The forecast is based on past results for this seat, incumbency and each candidate's track record.`
+        }
       />
+
+      {projMap && proj && (
+        <Card className='overflow-hidden'>
+          <NigeriaMap
+            data={projMap}
+            title={
+              <div className='mb-2'>
+                <h2 className='text-title-h6 text-text-strong-950 sm:text-title-h5 tracking-tight'>Where each ticket is favoured</h2>
+                <p className='text-paragraph-sm text-text-sub-600 mt-1'>
+                  Projected: each state is coloured by the ticket expected to lead there. Figures are expected votes at 2023 turnout, not results.
+                </p>
+              </div>
+            }
+            footer={
+              <div className='border-stroke-soft-200 mt-5 grid grid-cols-2 gap-x-4 gap-y-5 border-t pt-5 md:grid-cols-4'>
+                <Stat label='Favourite' value={<span className='text-label-lg'>{leaderName}</span>} sub={`${leader.party} · ${pct(leader.prob, 0)} to finish first`} />
+                <Stat label='Wins in the first round' value={pct(leader.outright ?? 0, 0)} sub='Most votes and 25% in 24 states' />
+                <Stat label='Run-off' value={pct(model.runoffProb ?? 0, 0)} sub='No one meets both conditions' />
+                <Stat label='Projected share' value={pct(leader.share, 0)} sub={`Likely range ${pct(leader.lo ?? 0, 0)}–${pct(leader.hi ?? 0, 0)}`} />
+              </div>
+            }
+            overview={<MapGuide data={projMap} spread={spreadCount(proj)} names={tally(proj)} isPresidential />}
+          />
+        </Card>
+      )}
       <div className='grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_380px]'>
         <Card>
           <CardHeader
             title='Forecast'
             description='Chance of winning and projected vote share'
           />
-          <ForecastList e={e} rows={f} />
+          <ForecastList e={e} rows={f} people={people} />
         </Card>
         <div className='flex flex-col gap-6'>
+          {model && model.notes.length > 0 && (
+            <Card>
+              <CardHeader title='About this forecast' />
+              <ul className='flex flex-col gap-2.5 p-4 sm:p-5'>
+                {model.notes.map((n) => (
+                  <li key={n} className='text-paragraph-xs text-text-sub-600 flex gap-2'>
+                    <span className='bg-text-soft-400 mt-1.5 size-1 shrink-0 rounded-full' />
+                    {n}
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          )}
+          {attention.length > 0 && (
+            <Card>
+              <CardHeader title='Online attention' description='Share of Wikipedia page views, last 60 days' />
+              <ul className='flex flex-col gap-3 p-4 sm:p-5'>
+                {attention.map((r) => (
+                  <li key={r.personId} className='flex flex-col gap-1.5'>
+                    <div className='text-paragraph-xs text-text-sub-600 flex items-center justify-between gap-2'>
+                      <span className='truncate'>{e.candidates.find((c) => c.personId === r.personId)?.name}</span>
+                      <span className='tabular text-label-xs text-text-strong-950'>{pct(r.attention ?? 0, 0)}</span>
+                    </div>
+                    <MeterBar value={r.attention ?? 0} color={PARTIES[r.party].color} />
+                  </li>
+                ))}
+              </ul>
+              <p className='border-stroke-soft-200 text-paragraph-xs text-text-sub-600 border-t px-4 py-3 sm:px-5'>
+                Attention, not support. In 2023 Peter Obi drew the most views and finished third, so Anyanwụ gives this signal no weight for now.
+              </p>
+            </Card>
+          )}
           {prev && (
             <Card>
               <CardHeader
@@ -478,10 +545,13 @@ function UpcomingView({
 export function ForecastList({
   e,
   rows,
+  people,
 }: {
   e: Election;
   rows: ReturnType<typeof forecast>;
+  people?: Person[];
 }) {
+  const hasPage = (id: string) => !people || people.some((p) => p.id === id);
   return (
     <ul className='divide-stroke-soft-200 divide-y'>
       {rows.map((r) => {
@@ -497,16 +567,21 @@ export function ForecastList({
               <PersonAvatar name={name ?? ''} party={r.party} />
               <div className='min-w-0 flex-1'>
                 <div className='flex flex-wrap items-center gap-2'>
-                  <Link
-                    href={`/politicians/${r.personId}`}
-                    className='text-label-sm text-text-strong-950 hover:underline'
-                  >
-                    {name}
-                  </Link>
+                  {hasPage(r.personId) ? (
+                    <Link
+                      href={`/politicians/${r.personId}`}
+                      className='text-label-sm text-text-strong-950 hover:underline'
+                    >
+                      {name}
+                    </Link>
+                  ) : (
+                    <span className='text-label-sm text-text-strong-950'>{name}</span>
+                  )}
                   <PartyTag code={r.party} />
                 </div>
                 <div className='tabular text-paragraph-xs text-text-sub-600 mt-0.5'>
-                  Projected share {pct(r.share)}
+                  Projected share {pct(r.share, 0)}
+                  {r.lo != null && r.hi != null && ` (likely ${pct(r.lo, 0)}–${pct(r.hi, 0)})`}
                 </div>
               </div>
               <div className='text-right'>

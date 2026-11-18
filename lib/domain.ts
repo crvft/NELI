@@ -47,6 +47,50 @@ export type Person = {
   bio: string;
   roles: Role[]; // most recent first
   partyHistory: { party: PartyCode; from: number; to?: number }[]; // oldest first
+  /** Biographical details from the person's Wikipedia article (CC BY-SA 4.0) */
+  profile?: Profile;
+};
+
+export type Profile = {
+  summary: string;
+  wikiTitle: string;
+  sourceUrl?: string;
+  born?: string; // ISO date, or a year
+  died?: string;
+  birthPlace?: string;
+  birthState?: string; // state code
+  party?: string; // current party, as Wikipedia names it
+  education?: string;
+  occupation?: string;
+  offices: { title: string; term: string }[];
+  /** Age in whole years today (or at death), computed in the cached data layer */
+  age?: number;
+};
+
+/** One contestant in an Anyanwụ forecast. Shares and probabilities are 0–1. */
+export type ForecastEntry = {
+  personId: string;
+  party: PartyCode;
+  share: number;
+  lo: number; // 10th percentile of projected share
+  hi: number; // 90th percentile
+  prob: number; // chance of winning (presidential: finishing first)
+  outright?: number; // presidential: first and 25% in 24 states
+  attention?: number | null; // share of Wikipedia page views (shown separately; not a poll)
+  factors: string[];
+};
+
+export type ModelForecast = {
+  model: string;
+  version: string;
+  generatedAt: string;
+  rows: ForecastEntry[];
+  runoffProb?: number;
+  candidatesConfirmed: boolean;
+  openSeat?: boolean;
+  notes: string[];
+  /** Presidential: expected state results, for a projected map */
+  projection?: Election;
 };
 
 export type ElectionType = 'presidential' | 'governorship' | 'senate' | 'reps' | 'assembly' | 'lga';
@@ -89,6 +133,8 @@ export type Election = {
   offCycle?: boolean;
   /** Link to the exact source revision */
   sourceUrl?: string;
+  /** Anyanwụ's forecast (upcoming elections) */
+  forecast?: ModelForecast;
 };
 
 

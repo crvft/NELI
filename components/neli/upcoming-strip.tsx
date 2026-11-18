@@ -9,7 +9,11 @@ import { PageContainer } from './page-header';
 import { Card } from './card';
 
 export function UpcomingStrip({ all, people }: { all: Election[]; people: Person[] }) {
-  const up = all.filter((e) => e.status === 'upcoming');
+  // The presidential race first, then the governorship races where the favourite is least certain
+  const up = all
+    .filter((e) => e.status === 'upcoming')
+    .sort((a, b) => (a.type === 'presidential' ? -1 : b.type === 'presidential' ? 1 : (forecast(a, all, people)[0]?.prob ?? 1) - (forecast(b, all, people)[0]?.prob ?? 1)))
+    .slice(0, 4);
   if (!up.length) return null;
   return (
     <PageContainer className='pt-0 lg:pt-0'>

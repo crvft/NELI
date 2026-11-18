@@ -146,7 +146,61 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 - IReV (inecelectionresults.ng) is an Angular app over an API. Its result data is polling-unit **sheet images** (EC8A), for live and polling-unit-level work later. Its backend host refused connections from this environment.
 - Wikipedia's REST API rate-limits shared cloud egress heavily; the regular `/wiki/<title>` page works and embeds the revision ID (`wgRevisionId`). 2007/2015/2019 presidential titles redirect to the "general election" articles.
 
-## 7. Anyanwụ: the forecasting model (design agreed, not built)
+## 7. Anyanwụ: the forecasting model (V1 built; see 7.0)
+
+### 7.0 What V1 is (built 2026-11-18)
+- **Code:** `pipeline/anyanwu/` (Python, numpy/scipy).
+- **Rebuild everything:** `cd pipeline && uv run python -m anyanwu.run`, then `SUPABASE_SECRET_KEY=proxy-injected uv run python -m anyanwu.publish`.
+- **Outputs:**
+  - `data/model/anyanwu.json`: forecasts, parameters and backtests. Published to `model_runs`, where history is kept and the site reads the newest run.
+  - `data/model/BACKTEST.md`: the out-of-sample report.
+- **Presidential** (`presidential.py`):
+  - **Vote pools.** Each state's last result is split into one pool per ticket. Each pool flows to the new tickets by link:
+    - same candidate (w_c)
+    - same party family (1, the reference)
+    - running-mate link (w_r)
+    - a leak to minor candidates (w_0)
+    - orphaned pools spread over the field
+  - This is how realignments are handled: Obi LP→NDC, Atiku PDP→ADC, Kwankwaso as Obi's running mate.
+  - **Home effects** for state and zone, for candidate and running mate. A pool sheds its old candidate's home effect when it moves.
+  - **Error model:** national, zone and state factors in centred log-ratio space. Sigmas are estimated from out-of-sample residuals and shrunk to a prior.
+  - **Simulation** applies the 25%-in-24-states rule, with turnout noise.
+  - **Tickets** (home states, running mates): `data/model/presidential_tickets.csv`, a reviewed reference table.
+- **Governorship** (`governorship.py`):
+  - Inputs:
+    - previous governorship result carried by candidate and family
+    - same-cycle presidential result (for 2027: Anyanwụ's own January forecast)
+    - candidate's best previous share in the state
+    - incumbent running; governor's party
+    - president's party, including off-cycle
+    - no-base indicator; minor candidates grouped as Others
+  - Two fits: a conditional logit on the winner (win probabilities) and a share likelihood with log features (projected shares and bands).
+  - Year-aware party families: AD/APP/ANPP/AC/ACN/CPC count as APC only up to 2013, because the codes were reused later.
+- **Live model** (`live.py`): Gaussian posterior on national and zone factors from declared states (weighted by fraction counted), then re-simulation of undeclared states. A 2023 replay is in the report. **Not wired to a live feed yet**; the site's live view still uses the old TypeScript `liveProbabilities`.
+- **Online attention** (`attention.py`): Wikipedia page views over the 60 days before each election, cached in `data/raw/pageviews`. The API rate-limits (429) intermittently, so it retries.
+  - The weight tuned on 2019/2023 came out at **0**.
+  - Attention is shown separately on the presidential forecast page. Google Trends is not used yet: there's no official free API.
+- **Backtest results (out of sample):**
+
+  | Race | Metric | Anyanwụ | Baseline |
+  |---|---|---|---|
+  | Presidential, state level | Brier | **0.49** | 0.74 |
+  | | Log loss | **0.90** | 1.71 |
+  | | Winner accuracy | **67%** | 63% |
+  | Governorship (177 races) | Brier | **0.37** | ~0.52 |
+  | | Winner accuracy | 71% | 73–74% (incumbent party / last result) |
+
+  - Projected governorship shares are deliberately conservative: winner-share error is 12–21 pp, because strong candidates on new platforms are common upsets.
+  - Known misses: 2015 presidential (the APC merger is invisible without 2007/2011) and Obi's 2023 surge.
+- **2027 inputs** come from Wikipedia: the 2027 presidential article, and per-state governorship articles (only Lagos and Oyo existed on 2026-11-18).
+  - States without nominees are forecast **by party**, assuming eligible governors run again under their current party (from people.csv).
+  - Re-run `anyanwu.run` as articles appear. **After 16 January 2027, replace the presidential stand-in with the actual results before the 6 February governorship forecasts.**
+- **Not in V1 yet** (from the design below):
+  - LGA-level modelling and the governorship 25%-of-LGAs rule (governorship win = plurality)
+  - zoning and religion terms; LGA adjacency (zones stand in for "neighbours")
+  - polls; Bayesian (PyMC) version
+  - Kogi, Bayelsa and Imo November 2027 (no articles yet)
+
 
 **Name:** Anyanwụ. **Language:** Python (decided). **Version 1 scope:** presidential and governorship races.
 
@@ -204,6 +258,14 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 ### 7.6 Deferred
 - Public **"How accurate is NELI?"** page with backtest results and the calibration chart. Agreed for later, once Anyanwụ works.
 
+### 6.1b Politician profiles (`uv run python -m neli_pipeline.build_people [--offline]`)
+- Each candidate is linked to their Wikipedia article **through the link in the election article itself**, never by guessing from a name.
+- Spelling variants resolve to one person id ("Sanwoolu"/"Sanwo-Olu"): `data/processed/candidate_people.csv`.
+- Profiles are in `data/processed/people.csv`, from the article's opening paragraph and infobox: born, died, birthplace and state, offices with terms, current party, education, occupation, gender (from pronouns). 263 profiles; 215 have a birth date.
+- Most minor candidates have no article: 426 of 1,099 named candidate entries are linked.
+- Text is CC BY-SA 4.0. The site shows "From Wikipedia" with a link to the exact revision.
+- Ages are computed in the cached data layer: a page can't read the date while prerendering.
+
 ### 6.2 Supabase (loaded)
 - Schema: `supabase/migrations/20261118150000_core_schema.sql` (zones, states, parties, sources, elections, results, area_totals, registered_voters; view `election_tallies`). Row-level security allows **public SELECT only**.
 - Loading: `supabase/migrations/20261118151000_reload_function.sql` defines `neli_reload(payload jsonb)`. It replaces all data in one transaction and only `service_role` can run it.
@@ -217,6 +279,14 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 - Unknown registers are stored as 0/null and shown as "—". Turnout is never estimated, and charts skip years without a register. Zone charts group parties by **family** (lineage), so APC's line continues through AD-APP and ANPP, and the description names the merged codes.
 - Presidential polling dates are hard-coded in `lib/repo/supabase.ts` (INEC). Governorship pages show the year only, until dates are sourced.
 - Gap worth closing: 149 of 249 governorship elections lack a register figure (e.g. Anambra 2021).
+- Migration `20261118180000_people_and_model.sql` adds:
+  - `people`
+  - `results.person_id`
+  - `model_runs` and `anyanwu_publish(payload)` (service role only)
+  - `neli_reload` now also loads people
+- Security advisor: no lints.
+- Site party colours are keyed by party code alone, so the reused post-2013 codes "APP"/"AD" still show in APC's family colour. Minor; fix by giving those rows distinct codes if it matters.
+- New colours: ADC olive (#65a30d) and NDC cyan (#0891b2), with dark-mode variants. ADC was slate when it was a minor party.
 
 ## 8. Working agreements with the user
 
@@ -235,4 +305,9 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
   - Plug-in path: add an extractor for the archived page, add 2007/2011 to `YEARS` in `build_presidential.py`, rebuild. The tests and validation report cover them automatically, and Anyanwụ's backtest picks up whatever years exist in `data/processed` (no code change), adding the 2003→2007, 2007→2011 and 2011→2015 folds.
 - 2026-11-18: Registered voters done (national 1999–2023; by state 2003, 2023). Governorship results done (249 of 252 held elections, 1999–2026, with coverage labels).
 - 2026-11-18: Real data loaded into Supabase and the site switched to it (see §6.2). Sample badges removed.
-- Next: build **Anyanwụ** (Python): baseline + walk-forward backtests, correlated factors, spatial term, then the live model; Google Trends / Wikipedia page views as low-weight features.
+- 2026-11-18: Politician bios from Wikipedia (age, birthplace, offices, summary) on profile pages. **Anyanwụ V1 built and published** (§7.0); 2027 forecasts live on the site.
+- Next:
+  - re-run Anyanwụ as 2027 governorship nominees appear
+  - feed actual presidential results into the governorship forecasts after 16 Jan 2027
+  - wire the live model to a results feed
+  - LGA-level data

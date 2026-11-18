@@ -1,0 +1,427 @@
+election_id,candidate,person_id
+gov-ab-1999,Orji Uzor Kalu,orji-uzor-kalu
+gov-ab-2003,Orji Uzor Kalu,orji-uzor-kalu
+gov-ab-2011,Theodore Orji,theodore-orji
+gov-ab-2015,Alex Otti,alex-otti
+gov-ab-2015,Okezie Ikpeazu,okezie-ikpeazu
+gov-ab-2019,Alex Otti,alex-otti
+gov-ab-2019,Hon. (Mrs) Blessing Nwagba,blessing-nwagba
+gov-ab-2019,Okezie Victor Ikpeazu,okezie-ikpeazu
+gov-ab-2019,Uchechukwu Sampson Ogah,uche-ogah
+gov-ab-2023,Alex Otti,alex-otti
+gov-ab-2023,Gregory Ibe,gregory-ibe
+gov-ab-2023,Sunday Onuoha,sunday-onuoha
+gov-ad-1999,Boni Haruna,boni-haruna
+gov-ad-2003,Boni Haruna,boni-haruna
+gov-ad-2007,Murtala Nyako,murtala-nyako
+gov-ad-2012,Murtala Nyako,murtala-nyako
+gov-ad-2015,Bindo Jibrilla,bindow-jibrilla
+gov-ad-2015,Nuhu Ribadu,nuhu-ribadu
+gov-ad-2019,Ahmadu Umaru Fintiri,ahmadu-fintiri
+gov-ad-2019,Bindo Jibrilla,bindow-jibrilla
+gov-ad-2023,Ahmadu Umaru Fintiri,ahmadu-fintiri
+gov-ad-2023,Aishatu Dahiru Ahmed,aishatu-dahiru-ahmed
+gov-ak-1999,Obong Victor Attah,victor-attah
+gov-ak-2003,Obong Victor Attah,victor-attah
+gov-ak-2007,Godswill Akpabio,godswill-akpabio
+gov-ak-2011,Godswill Akpabio,godswill-akpabio
+gov-ak-2011,John James Akpan Udo-Edehe,john-james-akpan-udo-edehe
+gov-ak-2015,Udom Gabriel Emmanuel,udom-gabriel-emmanuel
+gov-ak-2019,Udom Gabriel Emmanuel,udom-gabriel-emmanuel
+gov-ak-2023,Bassey Albert Akpan,bassey-albert-akpan
+gov-ak-2023,Umo Eno,umo-eno
+gov-an-1999,Chinwoke Mbadinuju,chinwoke-mbadinuju
+gov-an-2003,Chris Ngige,chris-ngige
+gov-an-2007,Emmanuel Nnamdi Uba,andy-uba
+gov-an-2007,Virginia Etiaba,virginia-etiaba
+gov-an-2010,Andy Uba,andy-uba
+gov-an-2010,Charles Chukwuma Soludo,charles-soludo
+gov-an-2010,Chris Ngige,chris-ngige
+gov-an-2010,Peter Obi,peter-obi
+gov-an-2010,Uche Ekwunife,uche-ekwunife
+gov-an-2013,Chris Ngige,chris-ngige
+gov-an-2013,Godwin Ezeemo,godwin-ezeemo
+gov-an-2013,Ifeanyi Ubah,ifeanyi-ubah
+gov-an-2013,Tony Nwoye,tony-nwoye
+gov-an-2013,Willie Obiano,willie-obiano
+gov-an-2017,Tony Nwoye,tony-nwoye
+gov-an-2017,Willie Obiano,willie-obiano
+gov-an-2021,Akachukwu Sullivan Nwankpo,akachukwu-sullivan-nwankpo
+gov-an-2021,Andy Uba,andy-uba
+gov-an-2021,Charles Chukwuma Soludo,charles-soludo
+gov-an-2021,Godwin Maduka,godwin-maduka
+gov-an-2021,Ifeanyi Ubah,ifeanyi-ubah
+gov-an-2021,Valentine Ozigbo,valentine-ozigbo
+gov-ba-2007,Isa Yuguda,isa-yuguda
+gov-ba-2011,Isa Yuguda,isa-yuguda
+gov-ba-2011,Yusuf Tuggar,yusuf-tuggar
+gov-ba-2015,Mohammed Abdullahi Abubakar,mohammed-abdullahi-abubakar
+gov-ba-2023,Bala Mohammed,bala-mohammed
+gov-ba-2023,Halliru Dauda Jika,halliru-dauda-jika
+gov-ba-2023,Sadique Abubakar,sadique-abubakar
+gov-be-1999,George Akume,george-akume
+gov-be-2003,George Akume,george-akume
+gov-be-2007,Gabriel Suswam,gabriel-suswam
+gov-be-2011,Gabriel Suswam,gabriel-suswam
+gov-be-2015,Samuel Ortom,samuel-ortom
+gov-be-2015,Terhemen Tarzoor,terhemen-tarzoor
+gov-be-2019,Samuel Ortom,samuel-ortom
+gov-be-2023,Herman Hembe,herman-hembe
+gov-be-2023,Hyacinth Alia,hyacinth-alia
+gov-be-2023,Titus Uba,titus-uba
+gov-bo-2003,Ali Modu Sheriff,ali-modu-sheriff
+gov-bo-2007,Ali Modu Sheriff,ali-modu-sheriff
+gov-bo-2007,Kashim Ibrahim-Imam,kashim-ibrahim-imam
+gov-bo-2011,Kashim Shettima,kashim-shettima
+gov-bo-2011,Mohammed Goni,mohammed-goni
+gov-bo-2015,Kashim Shettima,kashim-shettima
+gov-bo-2019,Babagana Umara Zulum,babagana-zulum
+gov-bo-2023,Babagana Umara Zulum,babagana-zulum
+gov-by-1999,Diepreye Solomon Peter Alamieyeseigha,diepreye-alamieyeseigha
+gov-by-2003,Diepreye S. P. Alamieyesiegha,diepreye-alamieyeseigha
+gov-by-2007,Timipre Sylva,timipre-sylva
+gov-by-2012,Seriake Dickson,henry-seriake-dickson
+gov-by-2015,Henry Seriake Dickson,henry-seriake-dickson
+gov-by-2015,Timipre Sylva,timipre-sylva
+gov-by-2019,David Lyon,david-lyon
+gov-by-2019,Douye Diri,douye-diri
+gov-by-2023,Douye Diri,douye-diri
+gov-by-2023,Timipre Sylva,timipre-sylva
+gov-cr-1999,Donald Duke,donald-duke
+gov-cr-2003,Donald Duke,donald-duke
+gov-cr-2007,Liyel Imoke,liyel-imoke
+gov-cr-2012,Liyel Imoke,liyel-imoke
+gov-cr-2012,Usani Uguru Usani,usani-uguru-usani
+gov-cr-2015,Benedict Ayade,ben-ayade
+gov-cr-2019,Ayade Benedict Bengiousuye,ben-ayade
+gov-cr-2019,John Owan Enoh,john-owan-enoh
+gov-cr-2023,Bassey Otu,bassey-otu
+gov-cr-2023,Sandy Ojang Onor,sandy-ojang-onor
+gov-de-1999,James Ibori,james-ibori
+gov-de-2003,James Ibori,james-ibori
+gov-de-2007,Emmanuel Uduaghan,emmanuel-uduaghan
+gov-de-2007,Great Ogboru,great-ogboru
+gov-de-2011,Emmanuel Uduaghan,emmanuel-uduaghan
+gov-de-2011,Great Ogboru,great-ogboru
+gov-de-2015,Great Ogboru,great-ogboru
+gov-de-2015,Ifeanyi Okowa,ifeanyi-okowa
+gov-de-2019,Great Ovedje Ogboru,great-ogboru
+gov-de-2019,Ifeanyi Arthur Okowa,ifeanyi-okowa
+gov-de-2023,Ovie Omo-Agege,ovie-omo-agege
+gov-eb-1999,Sam Egwu,sam-egwu
+gov-eb-2003,Sam Egwu,sam-egwu
+gov-eb-2007,Martin Elechi,martin-elechi
+gov-eb-2007,Ogbonnaya Onu,ogbonnaya-onu
+gov-eb-2011,Julius Ucha,julius-ucha
+gov-eb-2011,Martin Elechi,martin-elechi
+gov-eb-2015,Dave Umahi,david-umahi
+gov-eb-2019,Dave Umahi,david-umahi
+gov-eb-2019,Sonni Ogbuoji,sonni-ogbuoji
+gov-eb-2023,Bernard Odoh,benard-odoh
+gov-eb-2023,Francis Nwifuru,francis-nwifuru
+gov-eb-2023,Ifeanyi Odii,ifeanyi-odii
+gov-ed-1999,Lucky Igbinedion,lucky-igbinedion
+gov-ed-1999,Lucky Imasuen,lucky-imasuen
+gov-ed-2003,Lucky Igbinedion,lucky-igbinedion
+gov-ed-2007,Adams Oshiomole,adams-oshiomhole
+gov-ed-2007,Oserheimen Osunbor,oserheimen-osunbor
+gov-ed-2012,Adams Oshiomhole,adams-oshiomhole
+gov-ed-2016,Godwin Obaseki,godwin-obaseki
+gov-ed-2016,Osagie Ize-Iyamu,osagie-ize-iyamu
+gov-ed-2016,Osaro Onaiwu,osaro-onaiwu
+gov-ed-2020,Godwin Obaseki,godwin-obaseki
+gov-ed-2020,Osagie Ize-Iyamu,osagie-ize-iyamu
+gov-ed-2024,Asue Ighodalo,asue-ighodalo
+gov-ed-2024,Monday Okpebholo,monday-okpebholo
+gov-ed-2024,Olumide Akpata,olumide-akpata
+gov-ek-1999,Niyi Adebayo,niyi-adebayo
+gov-ek-2003,Ayo Fayose,ayo-fayose
+gov-ek-2003,Niyi Adebayo,niyi-adebayo
+gov-ek-2007,Kayode Fayemi,kayode-fayemi
+gov-ek-2007,Olusegun Oni,olusegun-oni
+gov-ek-2014,Ayo Fayose,ayo-fayose
+gov-ek-2014,Kayode Fayemi,kayode-fayemi
+gov-ek-2018,Kayode Fayemi,kayode-fayemi
+gov-ek-2018,Kolapo Olushola,kolapo-olushola
+gov-ek-2022,Abiodun Oyebanji,biodun-oyebanji
+gov-ek-2022,Olusegun Oni,olusegun-oni
+gov-en-2003,Chimaroke Nnamani,chimaroke-nnamani
+gov-en-2007,Sullivan Chime,sullivan-chime
+gov-en-2011,Sullivan Chime,sullivan-chime
+gov-en-2015,Ifeanyi Ugwuanyi,ifeanyi-ugwuanyi
+gov-en-2019,Ayogu Eze,ayogu-eze
+gov-en-2019,Ifeanyi Ugwuanyi,ifeanyi-ugwuanyi
+gov-en-2023,Peter Mbah,peter-mbah
+gov-go-1999,Abubakar Habu Hashidu,abubakar-habu-hashidu
+gov-go-2003,Abubakar Habu Hashidu,abubakar-habu-hashidu
+gov-go-2003,Mohammed Danjuma Goje,mohammed-danjuma-goje
+gov-go-2007,Abubakar Habu Hashidu,abubakar-habu-hashidu
+gov-go-2007,Mohammed Danjuma Goje,mohammed-danjuma-goje
+gov-go-2011,Ibrahim Hassan Dankwambo,ibrahim-hassan-dankwambo
+gov-go-2015,Ibrahim Hassan Dankwambo,ibrahim-hassan-dankwambo
+gov-go-2015,Muhammad Inuwa Yahaya,muhammad-inuwa-yahaya
+gov-go-2019,Muhammad Inuwa Yahaya,muhammad-inuwa-yahaya
+gov-go-2019,Usman Bayero Nafada,usman-bayero-nafada
+gov-go-2023,Muhammad Inuwa Yahaya,muhammad-inuwa-yahaya
+gov-im-1999,Achike Udenwa,achike-udenwa
+gov-im-2003,Achike Udenwa,achike-udenwa
+gov-im-2007,Ifeanyi Ararume,ifeanyi-ararume
+gov-im-2007,Ikedi Ohakim,ikedi-ohakim
+gov-im-2011,Ikedi Ohakim,ikedi-ohakim
+gov-im-2011,Rochas Okorocha,rochas-okorocha
+gov-im-2015,Emeka Ihedioha,emeka-ihedioha
+gov-im-2015,Rochas Okorocha,rochas-okorocha
+gov-im-2019,Emeka Ihedioha,emeka-ihedioha
+gov-im-2019,Hope Odidika Uzodinma,hope-uzodimma
+gov-im-2019,Ifeanyi Godwin Araraume,ifeanyi-ararume
+gov-im-2019,Ikedi Godson Ohakim,ikedi-ohakim
+gov-im-2019,Okorie Linus Chinedu,linus-okorie
+gov-im-2019,Uche Nwosu,uche-nwosu
+gov-im-2023,Hope Uzodinma,hope-uzodimma
+gov-im-2023,Samuel Anyanwu,samuel-anyanwu
+gov-ji-1999,Ibrahim Saminu Turaki,ibrahim-saminu-turaki
+gov-ji-1999,Sule Lamido,sule-lamido
+gov-ji-2003,Ibrahim Saminu Turaki,ibrahim-saminu-turaki
+gov-ji-2003,Mohammed Alkali,mohammed-alkali
+gov-ji-2007,Sule Lamido,sule-lamido
+gov-ji-2011,Mohammed Badaru Abubakar,mohammed-badaru-abubakar
+gov-ji-2011,Sule Lamido,sule-lamido
+gov-ji-2015,Mohammed Badaru Abubakar,mohammed-badaru-abubakar
+gov-ji-2019,Mohammed Badaru Abubakar,mohammed-badaru-abubakar
+gov-ji-2023,Umar Namadi,umar-namadi
+gov-kd-1999,Ahmed Makarfi,ahmed-makarfi
+gov-kd-2003,Ahmed Makarfi,ahmed-makarfi
+gov-kd-2003,Suleiman Hunkuyi,suleiman-othman-hunkuyi
+gov-kd-2007,Mohammed Namadi Sambo,namadi-sambo
+gov-kd-2007,Sani Muhammed Sha'aban,sani-sha-aban
+gov-kd-2011,Abdulkadir Balarabe Musa,abdulkadir-balarabe-musa
+gov-kd-2011,Patrick Ibrahim Yakowa,patrick-yakowa
+gov-kd-2011,Sani Mohammed Sha'aban,sani-sha-aban
+gov-kd-2015,Mukhtar Ramalan Yero,mukhtar-yero
+gov-kd-2015,Nasir el-Rufai,nasir-el-rufai
+gov-kd-2019,Nasir Ahmad el-Rufai,nasir-el-rufai
+gov-kd-2023,Isa Ashiru,isa-ashiru-kudan
+gov-kd-2023,Jonathan Asake,jonathan-asake
+gov-kd-2023,Uba Sani,uba-sani
+gov-ke-1999,Adamu Aliero,adamu-aliero
+gov-ke-1999,Mohammed Kaliel,mohammed-kaliel
+gov-ke-2003,Adamu Aliero,adamu-aliero
+gov-ke-2003,Saidu Samaila Sambawa,saidu-samaila-sambawa
+gov-ke-2007,Usman Saidu Nasamu Dakingari,usman-sa-idu-nasamu-dakingari
+gov-ke-2011,Usman Saidu Nasamu Dakingari,usman-sa-idu-nasamu-dakingari
+gov-ke-2015,Abubakar Atiku Bagudu,abubakar-atiku-bagudu
+gov-ke-2019,Abubakar Atiku Bagudu,abubakar-atiku-bagudu
+gov-ke-2023,Nasir Idris,nasir-idris
+gov-kn-1999,Magaji Abdullahi,magaji-abdullahi
+gov-kn-1999,Rabiu Kwankwaso,rabiu-kwankwaso
+gov-kn-2003,Ibrahim Shekarau,ibrahim-shekarau
+gov-kn-2003,Rabiu Kwankwaso,rabiu-kwankwaso
+gov-kn-2007,Ibrahim Shekarau,ibrahim-shekarau
+gov-kn-2011,Rabiu Kwankwaso,rabiu-kwankwaso
+gov-kn-2011,Salihu Sagir Takai,salihu-sagir-takai
+gov-kn-2015,Abdullahi Umar Ganduje,abdullahi-umar-ganduje
+gov-kn-2015,Salihu Sagir Takai,salihu-sagir-takai
+gov-kn-2019,Abba Kabir Yusuf,abba-kabir-yusuf
+gov-kn-2019,Abdullahi Umar Ganduje,abdullahi-umar-ganduje
+gov-kn-2023,Abba Kabir Yusuf,abba-kabir-yusuf
+gov-kn-2023,Nasir Yusuf Gawuna,nasir-yusuf-gawuna
+gov-kn-2023,Sadiq Wali,sadiq-wali
+gov-kn-2023,Salihu Tanko Yakasai,tanko-yakasai
+gov-kn-2023,Sha'aban Ibrahim Sharada,sha-aban-ibrahim-sharada
+gov-ko-1999,Abubakar Audu,abubakar-audu
+gov-ko-2003,Abubakar Audu,abubakar-audu
+gov-ko-2003,Ibrahim Idris,ibrahim-idris
+gov-ko-2007,Ibrahim Idris,ibrahim-idris
+gov-ko-2011,Abubakar Audu,abubakar-audu
+gov-ko-2011,Idris Wada,idris-wada
+gov-ko-2015,Idris Wada,idris-wada
+gov-ko-2015,Prince Abubakar Audu,abubakar-audu
+gov-ko-2019,Yahaya Bello,yahaya-bello
+gov-ko-2023,Ahmed Usman Ododo,ahmed-usman-ododo
+gov-ko-2023,Dino Melaye,dino-melaye
+gov-kt-1999,Umaru Musa Yar'Adua,umaru-musa-yar-adua
+gov-kt-2003,Umaru Musa Yar'Adua,umaru-musa-yar-adua
+gov-kt-2007,Abu Ibrahim,abu-ibrahim
+gov-kt-2007,Ibrahim Shema,ibrahim-shema
+gov-kt-2011,Aminu Bello Masari,aminu-bello-masari
+gov-kt-2011,Ibrahim Shema,ibrahim-shema
+gov-kt-2015,Aminu Bello Masari,aminu-bello-masari
+gov-kt-2019,Aminu Bello Masari,aminu-bello-masari
+gov-kt-2019,Garba Yakubu Lado,garba-yakubu-lado
+gov-kt-2023,Dikko Umaru Radda,dikko-umar-radda
+gov-kt-2023,Garba Yakubu Lado,garba-yakubu-lado
+gov-kw-1999,Mohammed Lawal,mohammed-lawal
+gov-kw-2003,Bukola Saraki,bukola-saraki
+gov-kw-2003,Mohammed Lawal,mohammed-lawal
+gov-kw-2007,Bukola Saraki,bukola-saraki
+gov-kw-2007,Gbenga Olawepo-Hashim,gbenga-olawepo-hashim
+gov-kw-2011,Abdulfatah Ahmed,abdulfatah-ahmed
+gov-kw-2015,Abdulfatah Ahmed,abdulfatah-ahmed
+gov-kw-2019,AbdulRahman AbdulRazaq,abdulrahman-abdulrazaq
+gov-kw-2019,Issa Aremu Obalowu,issa-aremu
+gov-kw-2023,AbdulRahman AbdulRazaq,abdulrahman-abdulrazaq
+gov-la-1999,Bola Tinubu,bola-tinubu
+gov-la-1999,Dapo Sarumi,dapo-sarumi
+gov-la-2003,Bola Tinubu,bola-tinubu
+gov-la-2003,Funsho Williams,funsho-williams
+gov-la-2007,Babatunde Raji Fashola,babatunde-fashola
+gov-la-2007,Jimi Agbaje,jimi-agbaje
+gov-la-2007,Musiliu Olatunde Obanikoro,musiliu-obanikoro
+gov-la-2007,Tokunbo Afikuyomi,tokunbo-afikuyomi
+gov-la-2011,Babatunde Fashola,babatunde-fashola
+gov-la-2015,Akinwunmi Ambode,akinwunmi-ambode
+gov-la-2015,Jimi Agbaje,jimi-agbaje
+gov-la-2019,Babajide Sanwoolu,babajide-sanwo-olu
+gov-la-2019,Jimi Agbaje,jimi-agbaje
+gov-la-2023,Abdul-Azeez Olajide Adediran,abdul-azeez-olajide-adediran
+gov-la-2023,Babajide Sanwo-Olu,babajide-sanwo-olu
+gov-la-2023,Gbadebo Rhodes-Vivour,gbadebo-rhodes-vivour
+gov-na-1999,Abdullahi Adamu,abdullahi-adamu
+gov-na-2003,Abdullahi Adamu,abdullahi-adamu
+gov-na-2003,Aliyu Doma,aliyu-doma
+gov-na-2007,Aliyu Doma,aliyu-doma
+gov-na-2011,Aliyu Doma,aliyu-doma
+gov-na-2011,Umaru Tanko Al-Makura,umaru-tanko-al-makura
+gov-na-2015,Labaran Maku,labaran-maku
+gov-na-2015,Umaru Tanko Al-Makura,umaru-tanko-al-makura
+gov-na-2019,Abdullahi Sule,abdullahi-sule
+gov-na-2019,David Ombugadu,david-ombugadu
+gov-na-2019,Labaran Maku,labaran-maku
+gov-na-2023,Abdullahi Sule,abdullahi-sule
+gov-na-2023,David Ombugadu,david-ombugadu
+gov-ni-1999,Abdulkadir Kure,abdulkadir-kure
+gov-ni-2003,Abdulkadir Kure,abdulkadir-kure
+gov-ni-2003,Mustafa Bello,mustafa-bello
+gov-ni-2007,David Umaru,david-umaru
+gov-ni-2015,Abubakar Sani Bello,abubakar-sani-bello
+gov-ni-2019,Abubakar Sani Bello,abubakar-sani-bello
+gov-ni-2023,Mohammed Umar Bago,mohammed-umar-bago
+gov-og-1999,Olusegun Osoba,olusegun-osoba
+gov-og-2003,Gbenga Daniel,gbenga-daniel
+gov-og-2003,Olusegun Osoba,olusegun-osoba
+gov-og-2007,Gbenga Daniel,gbenga-daniel
+gov-og-2007,Ibikunle Amosun,ibikunle-amosun
+gov-og-2011,Ibikunle Amosun,ibikunle-amosun
+gov-og-2011,Tunji Olurin,tunji-olurin
+gov-og-2015,Ibikunle Amosun,ibikunle-amosun
+gov-og-2019,Adekunle Akinlade,adekunle-akinlade
+gov-og-2019,Buruji Kashamu,buruji-kashamu
+gov-og-2019,Dapo Abiodun,dapo-abiodun
+gov-og-2019,Dimeji Bankole,dimeji-bankole
+gov-og-2019,Gboyega Nasir Isiaka,gboyega-nasir-isiaka
+gov-og-2023,Dapo Abiodun,dapo-abiodun
+gov-og-2023,Ladi Adebutu,oladipupo-olatunde-adebutu
+gov-on-1999,Adebayo Adefarati,adebayo-adefarati
+gov-on-2003,Adebayo Adefarati,adebayo-adefarati
+gov-on-2003,Olusegun Agagu,olusegun-agagu
+gov-on-2007,Olusegun Agagu,olusegun-agagu
+gov-on-2007,Olusegun Mimiko,olusegun-mimiko
+gov-on-2012,Olusegun Rahman Mimiko,olusegun-mimiko
+gov-on-2012,Oluwarotimi Odunayo Akeredolu,rotimi-akeredolu
+gov-on-2016,Eyitayo Jegede,eyitayo-jegede
+gov-on-2016,Rotimi Akeredolu,rotimi-akeredolu
+gov-on-2020,Agboola Ajayi,agboola-ajayi
+gov-on-2020,Eyitayo Jegede,eyitayo-jegede
+gov-on-2020,Rotimi Akeredolu,rotimi-akeredolu
+gov-on-2024,Agboola Ajayi,agboola-ajayi
+gov-on-2024,Lucky Aiyedatiwa,lucky-aiyedatiwa
+gov-os-1999,Adebisi Akande,adebisi-akande
+gov-os-2003,Adebisi Akande,adebisi-akande
+gov-os-2003,Olagunsoye Oyinlola,olagunsoye-oyinlola
+gov-os-2007,Olagunsoye Oyinlola,olagunsoye-oyinlola
+gov-os-2007,Rauf Aregbesola,rauf-aregbesola
+gov-os-2014,Iyiola Omisore,iyiola-omisore
+gov-os-2014,Rauf Aregbesola,rauf-aregbesola
+gov-os-2018,Ademola Adeleke,ademola-adeleke
+gov-os-2018,Fatai Akinade Akinbade,fatai-akinade-akinbade
+gov-os-2018,Gboyega Oyetola,gboyega-oyetola
+gov-os-2018,Iyiola Omisore,iyiola-omisore
+gov-os-2022,Ademola Adeleke,ademola-adeleke
+gov-os-2022,Gboyega Oyetola,gboyega-oyetola
+gov-os-2022,Yusuf Sulaimon Lasun,yusuf-sulaimon-lasun
+gov-os-2026,Ademola Adeleke,ademola-adeleke
+gov-os-2026,Bola Oyebamiji,bola-oyebamiji
+gov-os-2026,Najeem Salaam,najeem-salaam
+gov-oy-1999,Lam Adesina,lam-adesina
+gov-oy-2003,Lam Adesina,lam-adesina
+gov-oy-2003,Rashidi Ladoja,adewolu-ladoja
+gov-oy-2007,Abiola Ajimobi,abiola-ajimobi
+gov-oy-2007,Christopher Alao-Akala,adebayo-alao-akala
+gov-oy-2011,Abiola Ajimobi,abiola-ajimobi
+gov-oy-2011,Christopher Alao-Akala,adebayo-alao-akala
+gov-oy-2015,Abiola Ajimobi,abiola-ajimobi
+gov-oy-2015,Adebayo Alao-Akala,adebayo-alao-akala
+gov-oy-2015,Rasheed Ladoja,adewolu-ladoja
+gov-oy-2015,Seyi Makinde,seyi-makinde
+gov-oy-2015,Teslim Folarin,teslim-folarin
+gov-oy-2019,Adebayo Adelabu,adebayo-adelabu
+gov-oy-2019,Christopher Alao-Akala,adebayo-alao-akala
+gov-oy-2019,Seyi Makinde,seyi-makinde
+gov-oy-2023,Adebayo Adelabu,adebayo-adelabu
+gov-oy-2023,Seyi Makinde,seyi-makinde
+gov-oy-2023,Teslim Folarin,teslim-folarin
+gov-pl-1999,Joshua Dariye,joshua-dariye
+gov-pl-2003,Joshua Dariye,joshua-dariye
+gov-pl-2007,Jonah David Jang,jonah-david-jang
+gov-pl-2011,Jonah David Jang,jonah-david-jang
+gov-pl-2011,Pauline Tallen,pauline-tallen
+gov-pl-2015,Gyang Pwajok,gyang-pwajok
+gov-pl-2015,Simon Lalong,simon-lalong
+gov-pl-2019,Jerry Useni,jeremiah-useni
+gov-pl-2019,Simon Lalong,simon-lalong
+gov-pl-2023,Caleb Mutfwang,caleb-mutfwang
+gov-ri-1999,Peter Odili,peter-odili
+gov-ri-2003,Peter Odili,peter-odili
+gov-ri-2007,Celestine Omehia,celestine-omehia
+gov-ri-2011,Celestine Omehia,celestine-omehia
+gov-ri-2011,Rotimi Amaechi,rotimi-amaechi
+gov-ri-2015,Dakuku Peterside,dakuku-peterside
+gov-ri-2015,Ezenwo Wike,nyesom-wike
+gov-ri-2015,Tonye Princewill,tonye-princewill
+gov-ri-2019,Ezenwo Nyesom Wike,nyesom-wike
+gov-ri-2023,Siminalayi Fubara,siminalayi-fubara
+gov-ri-2023,Tonye Cole,tonye-cole
+gov-so-1999,Attahiru Bafarawa,attahiru-bafarawa
+gov-so-2003,Attahiru Bafarawa,attahiru-bafarawa
+gov-so-2007,Aliyu Magatakarda Wamakko,aliyu-magatakarda-wamakko
+gov-so-2012,Aliyu Magatakarda Wamakko,aliyu-magatakarda-wamakko
+gov-so-2015,Aminu Tambuwal,aminu-tambuwal
+gov-so-2019,Aminu Tambuwal,aminu-tambuwal
+gov-so-2023,Ahmad Aliyu,ahmad-aliyu
+gov-ta-1999,Jolly Nyame,jolly-nyame
+gov-ta-2003,Jolly Nyame,jolly-nyame
+gov-ta-2007,Danbaba Suntai,danbaba-suntai
+gov-ta-2011,Danbaba Suntai,danbaba-suntai
+gov-ta-2015,Aisha Alhassan,aisha-alhassan
+gov-ta-2015,Darius Ishaku,darius-ishaku
+gov-ta-2019,Darius Dickson Ishaku,darius-ishaku
+gov-ta-2023,Emmanuel Bwacha,emmanuel-bwacha
+gov-ta-2023,Kefas Agbu,agbu-kefas
+gov-yo-1999,Bukar Ibrahim,bukar-ibrahim
+gov-yo-2003,Adamu Waziri,adamu-waziri
+gov-yo-2003,Bukar Ibrahim,bukar-ibrahim
+gov-yo-2007,Adamu Waziri,adamu-waziri
+gov-yo-2007,Mamman Bello Ali,mamman-bello-ali
+gov-yo-2011,Ibrahim Gaidam,ibrahim-gaidam
+gov-yo-2011,Usman Albishir,usman-albishir
+gov-yo-2019,Mai Mala Buni,mai-mala-buni
+gov-yo-2023,Mai Mala Buni,mai-mala-buni
+gov-za-1999,Ahmad Sani Yerima,ahmad-sani-yerima
+gov-za-2003,Ahmad Sani Yerima,ahmad-sani-yerima
+gov-za-2003,Bala Mande,bala-mande
+gov-za-2007,Mahmud Shinkafi,mahmud-shinkafi
+gov-za-2007,Yahaya Abdulkarim,yahaya-abdulkarim
+gov-za-2011,Abdul'aziz Abubakar Yari,abdul-aziz-abubakar-yari
+gov-za-2011,Mahmud Shinkafi,mahmud-shinkafi
+gov-za-2015,Abdul'aziz Abubakar Yari,abdul-aziz-abubakar-yari
+gov-za-2015,Mamuda Aliyu Shinkafi,mahmud-shinkafi
+gov-za-2019,Bello Matawalle,bello-matawalle
+gov-za-2019,Mukhtar Shehu Idris,mukhtar-shehu-idris
+gov-za-2023,Bello Matawalle,bello-matawalle
+gov-za-2023,Dauda Lawal,dauda-lawal
+pres-2015,Goodluck Jonathan,goodluck-jonathan
+pres-2015,Muhammadu Buhari,muhammadu-buhari
+pres-2015,Remi Sonaiya,remi-sonaiya
+pres-2019,Atiku Abubakar,atiku-abubakar
+pres-2019,Muhammadu Buhari,muhammadu-buhari
+pres-2019,Obadiah Mailafia,obadiah-mailafia

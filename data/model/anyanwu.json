@@ -1,0 +1,4740 @@
+{
+ "model": "Anyanwụ",
+ "version": "1.0.0",
+ "generated_at": "2026-11-18T17:30:06Z",
+ "presidential": {
+  "contestants": [
+   {
+    "candidate": "Bola Tinubu",
+    "party": "APC",
+    "running_mate": "Kashim Shettima",
+    "home_state": "LA",
+    "first_prob": 0.5841,
+    "outright_prob": 0.3563,
+    "share_mean": 0.3549943824489409,
+    "share_lo": 0.18854614183722337,
+    "share_hi": 0.5319751354381892,
+    "states_25_mean": 20.1415,
+    "attention_share": 0.5873001263460879
+   },
+   {
+    "candidate": "Atiku Abubakar",
+    "party": "ADC",
+    "running_mate": "Rotimi Amaechi",
+    "home_state": "AD",
+    "first_prob": 0.1884,
+    "outright_prob": 0.0771,
+    "share_mean": 0.224458857371895,
+    "share_lo": 0.09942229913416772,
+    "share_hi": 0.36913343104421964,
+    "states_25_mean": 12.6408,
+    "attention_share": 0.1537322299666145
+   },
+   {
+    "candidate": "Peter Obi",
+    "party": "NDC",
+    "running_mate": "Rabiu Kwankwaso",
+    "home_state": "AN",
+    "first_prob": 0.215,
+    "outright_prob": 0.0453,
+    "share_mean": 0.256510459009049,
+    "share_lo": 0.14636752141646678,
+    "share_hi": 0.3799286910117534,
+    "states_25_mean": 14.251,
+    "attention_share": 0.17478433308510372
+   },
+   {
+    "candidate": "Seyi Makinde",
+    "party": "APM",
+    "running_mate": "Musa Lawal Daura",
+    "home_state": "OY",
+    "first_prob": 0.0,
+    "outright_prob": 0.0,
+    "share_mean": 0.009910826532291386,
+    "share_lo": 0.0026537715459418335,
+    "share_hi": 0.02030056021642751,
+    "states_25_mean": 0.0293,
+    "attention_share": 0.05171822312217081
+   },
+   {
+    "candidate": "Sandy Onor",
+    "party": "PDP",
+    "running_mate": "Emana Amawhe",
+    "home_state": "CR",
+    "first_prob": 0.011,
+    "outright_prob": 0.0014,
+    "share_mean": 0.09607136925544998,
+    "share_lo": 0.034547412302589176,
+    "share_hi": 0.17749916251203124,
+    "states_25_mean": 4.2611,
+    "attention_share": 0.032465087480023094
+   },
+   {
+    "candidate": "Others",
+    "party": "OTH",
+    "running_mate": null,
+    "home_state": null,
+    "first_prob": 0.0015,
+    "outright_prob": 0.0002,
+    "share_mean": 0.058054105382373725,
+    "share_lo": 0.01823342890003392,
+    "share_hi": 0.11068499405559003,
+    "states_25_mean": 1.2685,
+    "attention_share": null
+   }
+  ],
+  "runoff_prob": 0.5197,
+  "states": [
+   {
+    "code": "AB",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.04227641736442467,
+      "share_lo": 0.003724626735886254,
+      "share_hi": 0.10518848912372084,
+      "win_prob": 0.0056
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.07601867951454815,
+      "share_lo": 0.006771052004319254,
+      "share_hi": 0.19027152832306538,
+      "win_prob": 0.0208
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.7725447986769017,
+      "share_lo": 0.49891905606668907,
+      "share_hi": 0.9559558541954399,
+      "win_prob": 0.9531
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.007678038113149499,
+      "share_lo": 0.0005884267959154955,
+      "share_hi": 0.01842273818189736,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.028868010510812746,
+      "share_lo": 0.002389854087095556,
+      "share_hi": 0.07009168805827799,
+      "win_prob": 0.0026
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.07261405582016328,
+      "share_lo": 0.006614155097669052,
+      "share_hi": 0.18019153083826311,
+      "win_prob": 0.0179
+     }
+    ]
+   },
+   {
+    "code": "AD",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.29021019424485295,
+      "share_lo": 0.05457239769404683,
+      "share_hi": 0.6225994440814533,
+      "win_prob": 0.2993
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.4266026820486105,
+      "share_lo": 0.11514075169405547,
+      "share_hi": 0.7733801412760265,
+      "win_prob": 0.5316
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.196084063366984,
+      "share_lo": 0.029149834618591042,
+      "share_hi": 0.4577838788802228,
+      "win_prob": 0.1552
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.006735005062151879,
+      "share_lo": 0.0006830575638431558,
+      "share_hi": 0.015455912278489563,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.024211655954841895,
+      "share_lo": 0.002529217756449951,
+      "share_hi": 0.05811204989148398,
+      "win_prob": 0.0013
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.05615639932255879,
+      "share_lo": 0.006358205632864849,
+      "share_hi": 0.13776389968926162,
+      "win_prob": 0.0126
+     }
+    ]
+   },
+   {
+    "code": "AK",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.22886387474518347,
+      "share_lo": 0.04185450718788824,
+      "share_hi": 0.5019695795965132,
+      "win_prob": 0.2412
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.22358725659179057,
+      "share_lo": 0.041491396087078754,
+      "share_hi": 0.4966053884146803,
+      "win_prob": 0.2357
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.2053402639743729,
+      "share_lo": 0.035247563689528395,
+      "share_hi": 0.4622956560984755,
+      "win_prob": 0.2001
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.004304268149877553,
+      "share_lo": 0.0004675305638530931,
+      "share_hi": 0.00980398521926153,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.2552501249400793,
+      "share_lo": 0.05031357283867338,
+      "share_hi": 0.5469675877419113,
+      "win_prob": 0.2852
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.08265421159869618,
+      "share_lo": 0.010680782530880327,
+      "share_hi": 0.19792712194297388,
+      "win_prob": 0.0378
+     }
+    ]
+   },
+   {
+    "code": "AN",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.017496088649068462,
+      "share_lo": 0.0012138743377445693,
+      "share_hi": 0.04156282528458788,
+      "win_prob": 0.0002
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.02296530743050881,
+      "share_lo": 0.0015307076644572365,
+      "share_hi": 0.05600546541081745,
+      "win_prob": 0.0016
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.8708676069952092,
+      "share_lo": 0.6981992094265832,
+      "share_hi": 0.9812611806070056,
+      "win_prob": 0.9843
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.008657532717151,
+      "share_lo": 0.0005878697122992309,
+      "share_hi": 0.020247627150300238,
+      "win_prob": 0.0001
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.00864488230186768,
+      "share_lo": 0.0005662961893437439,
+      "share_hi": 0.020323272608856247,
+      "win_prob": 0.0002
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.07136858190619502,
+      "share_lo": 0.005679471593457566,
+      "share_hi": 0.18359532367096898,
+      "win_prob": 0.0136
+     }
+    ]
+   },
+   {
+    "code": "BA",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.37709451593123594,
+      "share_lo": 0.08647292864475209,
+      "share_hi": 0.7267150344091997,
+      "win_prob": 0.446
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.37350765606776626,
+      "share_lo": 0.08633352328069592,
+      "share_hi": 0.7231947391750153,
+      "win_prob": 0.4436
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.14729722002192866,
+      "share_lo": 0.02061187995519177,
+      "share_hi": 0.34807546430735775,
+      "win_prob": 0.0922
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.006457072858747537,
+      "share_lo": 0.0006527182643650012,
+      "share_hi": 0.015217948122184357,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.056530839288857555,
+      "share_lo": 0.006461531402783445,
+      "share_hi": 0.13409757127984517,
+      "win_prob": 0.0124
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.039112695831464026,
+      "share_lo": 0.004246590737664727,
+      "share_hi": 0.09341211486180209,
+      "win_prob": 0.0058
+     }
+    ]
+   },
+   {
+    "code": "BE",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.37108620082694416,
+      "share_lo": 0.08773332250736773,
+      "share_hi": 0.7212085334389294,
+      "win_prob": 0.4436
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.14537633265843727,
+      "share_lo": 0.01998064017193413,
+      "share_hi": 0.3453682826350501,
+      "win_prob": 0.0917
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.3721130778524518,
+      "share_lo": 0.08827654881243502,
+      "share_hi": 0.7239314281619837,
+      "win_prob": 0.4405
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.005715399550499328,
+      "share_lo": 0.0006080284865589226,
+      "share_hi": 0.013012150358574191,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.0571921757970927,
+      "share_lo": 0.006574782899281725,
+      "share_hi": 0.13341572729227888,
+      "win_prob": 0.015
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.0485168133145747,
+      "share_lo": 0.005301547304681466,
+      "share_hi": 0.11604844157532626,
+      "win_prob": 0.0092
+     }
+    ]
+   },
+   {
+    "code": "BO",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.5156071046919903,
+      "share_lo": 0.16657452019097754,
+      "share_hi": 0.8501832480689024,
+      "win_prob": 0.6362
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.3338776082147615,
+      "share_lo": 0.062153469127598865,
+      "share_hi": 0.6855503765538307,
+      "win_prob": 0.3403
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.03956992467513299,
+      "share_lo": 0.00405400953312631,
+      "share_hi": 0.09703506780871765,
+      "win_prob": 0.0033
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.007017755717231333,
+      "share_lo": 0.0006266560911985717,
+      "share_hi": 0.016373030613078588,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.04936578230616108,
+      "share_lo": 0.005055988641136049,
+      "share_hi": 0.11859983870294871,
+      "win_prob": 0.0088
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.054561824394722784,
+      "share_lo": 0.005617578834934981,
+      "share_hi": 0.13374076310398642,
+      "win_prob": 0.0114
+     }
+    ]
+   },
+   {
+    "code": "BY",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.20981374579819262,
+      "share_lo": 0.036287372218915835,
+      "share_hi": 0.4704211337379846,
+      "win_prob": 0.2018
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.2381308164147899,
+      "share_lo": 0.04553733780848636,
+      "share_hi": 0.5219257645115171,
+      "win_prob": 0.2443
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.23948948622919053,
+      "share_lo": 0.044813028066178075,
+      "share_hi": 0.5222901688199313,
+      "win_prob": 0.2455
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.0042740060576716655,
+      "share_lo": 0.0004782907884059887,
+      "share_hi": 0.00980460483872211,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.2714551168489945,
+      "share_lo": 0.05524314082363581,
+      "share_hi": 0.5723899134068453,
+      "win_prob": 0.3018
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.03683682865116079,
+      "share_lo": 0.004097226964648445,
+      "share_hi": 0.0872037800061869,
+      "win_prob": 0.0066
+     }
+    ]
+   },
+   {
+    "code": "CR",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.2110240608527127,
+      "share_lo": 0.03602051317739987,
+      "share_hi": 0.4753572483892912,
+      "win_prob": 0.1932
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.12562078837800814,
+      "share_lo": 0.017707109043701562,
+      "share_hi": 0.30063869206036037,
+      "win_prob": 0.0764
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.27603004697852623,
+      "share_lo": 0.05554627868265055,
+      "share_hi": 0.5802886739625891,
+      "win_prob": 0.2964
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.0036625807623290284,
+      "share_lo": 0.0003702323714419842,
+      "share_hi": 0.008319644362605082,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.3506132600856838,
+      "share_lo": 0.0841137474319311,
+      "share_hi": 0.6917709967325449,
+      "win_prob": 0.4304
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.033049262942740146,
+      "share_lo": 0.0036017977530268014,
+      "share_hi": 0.07878893409927491,
+      "win_prob": 0.0036
+     }
+    ]
+   },
+   {
+    "code": "DE",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.14277942053600448,
+      "share_lo": 0.0202038209415345,
+      "share_hi": 0.3407423035505752,
+      "win_prob": 0.0993
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.1774284428825489,
+      "share_lo": 0.0282561508657915,
+      "share_hi": 0.40793166866815067,
+      "win_prob": 0.144
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.417118906863675,
+      "share_lo": 0.11620066522382302,
+      "share_hi": 0.7519623698632325,
+      "win_prob": 0.5597
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.0047041502984248975,
+      "share_lo": 0.0004918792664346131,
+      "share_hi": 0.010797239428685707,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.20694895728966697,
+      "share_lo": 0.03440170385772111,
+      "share_hi": 0.4693774635116202,
+      "win_prob": 0.1852
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.051020122129679796,
+      "share_lo": 0.005838053566546761,
+      "share_hi": 0.12062857987793915,
+      "win_prob": 0.0118
+     }
+    ]
+   },
+   {
+    "code": "EB",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.1744792085862525,
+      "share_lo": 0.021160146579932676,
+      "share_hi": 0.42090401763100943,
+      "win_prob": 0.1031
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.049451587297704075,
+      "share_lo": 0.004527290436715589,
+      "share_hi": 0.12139272891633486,
+      "win_prob": 0.0092
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.6878582624864925,
+      "share_lo": 0.36016163221961456,
+      "share_hi": 0.931424008389813,
+      "win_prob": 0.8732
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.0069342674916991155,
+      "share_lo": 0.0005618546050074365,
+      "share_hi": 0.016593023895235922,
+      "win_prob": 0.0001
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.01821768063208429,
+      "share_lo": 0.0015964062452417493,
+      "share_hi": 0.04261105851906837,
+      "win_prob": 0.0008
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.06305899350576746,
+      "share_lo": 0.006219149960019202,
+      "share_hi": 0.1566963867809097,
+      "win_prob": 0.0136
+     }
+    ]
+   },
+   {
+    "code": "ED",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.23595474466939023,
+      "share_lo": 0.041069751355969485,
+      "share_hi": 0.5249975631819114,
+      "win_prob": 0.2239
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.12275724408233264,
+      "share_lo": 0.016259106869160402,
+      "share_hi": 0.2950941105523683,
+      "win_prob": 0.0743
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.44752160247176087,
+      "share_lo": 0.13776070234635132,
+      "share_hi": 0.7779720397119763,
+      "win_prob": 0.5997
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.005230433020830163,
+      "share_lo": 0.0005293066577084664,
+      "share_hi": 0.012033865104599164,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.14109013990080513,
+      "share_lo": 0.01964144077126467,
+      "share_hi": 0.3349819448482282,
+      "win_prob": 0.0909
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.04744583585488093,
+      "share_lo": 0.005161785126580405,
+      "share_hi": 0.11321714467229177,
+      "win_prob": 0.0112
+     }
+    ]
+   },
+   {
+    "code": "EK",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.5486678743076493,
+      "share_lo": 0.20638572820227716,
+      "share_hi": 0.8610488692614725,
+      "win_prob": 0.7328
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.23521094393633965,
+      "share_lo": 0.03775170116969206,
+      "share_hi": 0.5334665245773347,
+      "win_prob": 0.2024
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.053874314367182125,
+      "share_lo": 0.005585844307786762,
+      "share_hi": 0.129742626142473,
+      "win_prob": 0.0126
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.019957932665151952,
+      "share_lo": 0.001938134432073012,
+      "share_hi": 0.04720394525017126,
+      "win_prob": 0.001
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.09855417857069733,
+      "share_lo": 0.011988482992809376,
+      "share_hi": 0.23919536767668328,
+      "win_prob": 0.0439
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.04373475615297966,
+      "share_lo": 0.0047291457014847415,
+      "share_hi": 0.10432824031544681,
+      "win_prob": 0.0073
+     }
+    ]
+   },
+   {
+    "code": "EN",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.021610038773819226,
+      "share_lo": 0.0015752905490373464,
+      "share_hi": 0.05181928357191061,
+      "win_prob": 0.0006
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.04934129255795055,
+      "share_lo": 0.0037188973091355024,
+      "share_hi": 0.1265228802784485,
+      "win_prob": 0.0074
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.8471659296392725,
+      "share_lo": 0.6485856813018308,
+      "share_hi": 0.9750400291520968,
+      "win_prob": 0.9823
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.008421469205280533,
+      "share_lo": 0.0005977773462118174,
+      "share_hi": 0.019864258799542168,
+      "win_prob": 0.0001
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.018033639156855633,
+      "share_lo": 0.0013366327457191077,
+      "share_hi": 0.04211739863670554,
+      "win_prob": 0.0007
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.055427630666821576,
+      "share_lo": 0.004338121930700337,
+      "share_hi": 0.1409850051848688,
+      "win_prob": 0.0089
+     }
+    ]
+   },
+   {
+    "code": "FC",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.21921977486019545,
+      "share_lo": 0.03476977874678327,
+      "share_hi": 0.499403768525725,
+      "win_prob": 0.1885
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.14408394284309115,
+      "share_lo": 0.019457890724994542,
+      "share_hi": 0.3402457123768259,
+      "win_prob": 0.0873
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.5244748737436229,
+      "share_lo": 0.1932201105507694,
+      "share_hi": 0.8493137292155969,
+      "win_prob": 0.6993
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.006048378121258115,
+      "share_lo": 0.0005981694438883653,
+      "share_hi": 0.014194437183221347,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.057147457998871685,
+      "share_lo": 0.006111550929548745,
+      "share_hi": 0.1376236896528867,
+      "win_prob": 0.0145
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.04902557243296069,
+      "share_lo": 0.005065304217281812,
+      "share_hi": 0.11795982082466992,
+      "win_prob": 0.0104
+     }
+    ]
+   },
+   {
+    "code": "GO",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.32166748622098634,
+      "share_lo": 0.06456106040317702,
+      "share_hi": 0.6653334885482154,
+      "win_prob": 0.3417
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.44957789026167266,
+      "share_lo": 0.12973941695932925,
+      "share_hi": 0.7923257854782092,
+      "win_prob": 0.5775
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.10190056416464315,
+      "share_lo": 0.012426200469097277,
+      "share_hi": 0.2476818347622277,
+      "win_prob": 0.0483
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.006839450656138749,
+      "share_lo": 0.0006829472391194709,
+      "share_hi": 0.01596439758938032,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.07152025816505152,
+      "share_lo": 0.008428702072015088,
+      "share_hi": 0.17101801850095782,
+      "win_prob": 0.0235
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.04849435053150764,
+      "share_lo": 0.005379153806877317,
+      "share_hi": 0.11660436516020652,
+      "win_prob": 0.009
+     }
+    ]
+   },
+   {
+    "code": "IM",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.18539208104768046,
+      "share_lo": 0.024469381140012212,
+      "share_hi": 0.43648009073415056,
+      "win_prob": 0.1182
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.07249173736285378,
+      "share_lo": 0.007182354817423786,
+      "share_hi": 0.18120781929583998,
+      "win_prob": 0.0195
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.6546645008201056,
+      "share_lo": 0.3168317375423171,
+      "share_hi": 0.9163761351727416,
+      "win_prob": 0.8506
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.006641439085631637,
+      "share_lo": 0.000575995712266401,
+      "share_hi": 0.015936565543769977,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.027084231954210964,
+      "share_lo": 0.002544539298648131,
+      "share_hi": 0.06464282748624159,
+      "win_prob": 0.0014
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.05372600972951755,
+      "share_lo": 0.00526916701615816,
+      "share_hi": 0.13139339428590488,
+      "win_prob": 0.0103
+     }
+    ]
+   },
+   {
+    "code": "JI",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4367062873515467,
+      "share_lo": 0.12571179833821405,
+      "share_hi": 0.7793203550540295,
+      "win_prob": 0.5502
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.32604904028164533,
+      "share_lo": 0.06943108579161955,
+      "share_hi": 0.6609484229517907,
+      "win_prob": 0.3491
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.049313183095108785,
+      "share_lo": 0.005448710493747679,
+      "share_hi": 0.11837425272185448,
+      "win_prob": 0.0101
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.0064371011809407136,
+      "share_lo": 0.0006262380289988205,
+      "share_hi": 0.014564856225212476,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.141703603130112,
+      "share_lo": 0.019652068453099827,
+      "share_hi": 0.3372881098948035,
+      "win_prob": 0.0852
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.03979078496064653,
+      "share_lo": 0.00420935540487968,
+      "share_hi": 0.0943369809281273,
+      "win_prob": 0.0054
+     }
+    ]
+   },
+   {
+    "code": "KD",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.2923855479990538,
+      "share_lo": 0.0603315740862508,
+      "share_hi": 0.6087789490664681,
+      "win_prob": 0.3328
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.29583497008803195,
+      "share_lo": 0.06296730313005626,
+      "share_hi": 0.6113546557512193,
+      "win_prob": 0.3395
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.24097453921620468,
+      "share_lo": 0.04372899324435998,
+      "share_hi": 0.5290814778972104,
+      "win_prob": 0.244
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.005865896892957937,
+      "share_lo": 0.0006167510764245435,
+      "share_hi": 0.013517278476635296,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.12654629933284153,
+      "share_lo": 0.018417539924518056,
+      "share_hi": 0.3005474274741269,
+      "win_prob": 0.0777
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.03839274647090999,
+      "share_lo": 0.004352657318375437,
+      "share_hi": 0.08833942287898389,
+      "win_prob": 0.006
+     }
+    ]
+   },
+   {
+    "code": "KE",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4053548711127562,
+      "share_lo": 0.103661586882739,
+      "share_hi": 0.7570901101684729,
+      "win_prob": 0.4847
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.35782755234257463,
+      "share_lo": 0.07882677851078208,
+      "share_hi": 0.7005807451540168,
+      "win_prob": 0.4015
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.030260369269356074,
+      "share_lo": 0.0032156098973383355,
+      "share_hi": 0.07264218442494078,
+      "win_prob": 0.0029
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.005921740227980398,
+      "share_lo": 0.0005850315508027516,
+      "share_hi": 0.01382655413041503,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.1568715230623179,
+      "share_lo": 0.021848923259433873,
+      "share_hi": 0.3726383975972111,
+      "win_prob": 0.1038
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.04376394398501473,
+      "share_lo": 0.004671842684772347,
+      "share_hi": 0.10581169320393793,
+      "win_prob": 0.0071
+     }
+    ]
+   },
+   {
+    "code": "KN",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.5262844059690553,
+      "share_lo": 0.1918815060902027,
+      "share_hi": 0.8484444939090205,
+      "win_prob": 0.7234
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.14144742853272238,
+      "share_lo": 0.018917493302896018,
+      "share_hi": 0.3358339046970042,
+      "win_prob": 0.087
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.17853531615085416,
+      "share_lo": 0.02507379584351585,
+      "share_hi": 0.41742524999532926,
+      "win_prob": 0.139
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.01227567427313379,
+      "share_lo": 0.0012036984061506546,
+      "share_hi": 0.0290390730373247,
+      "win_prob": 0.0001
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.05731493486591846,
+      "share_lo": 0.006391407292671559,
+      "share_hi": 0.13881051492752253,
+      "win_prob": 0.0158
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.08414224020831595,
+      "share_lo": 0.009408696097246285,
+      "share_hi": 0.20402553109736082,
+      "win_prob": 0.0347
+     }
+    ]
+   },
+   {
+    "code": "KO",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4496067294503755,
+      "share_lo": 0.1383323667331632,
+      "share_hi": 0.782581752090324,
+      "win_prob": 0.5969
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.24218158900276895,
+      "share_lo": 0.04403186193560166,
+      "share_hi": 0.5264225075103596,
+      "win_prob": 0.2348
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.1524806711526661,
+      "share_lo": 0.0218700703739886,
+      "share_hi": 0.36617590305143033,
+      "win_prob": 0.1086
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.0057608040620868795,
+      "share_lo": 0.0005887095371688153,
+      "share_hi": 0.013302784159718497,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.10100001803207617,
+      "share_lo": 0.012926274715392802,
+      "share_hi": 0.24383835547467167,
+      "win_prob": 0.0495
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.04897018830002644,
+      "share_lo": 0.005470855272902905,
+      "share_hi": 0.11606636797186473,
+      "win_prob": 0.0102
+     }
+    ]
+   },
+   {
+    "code": "KT",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4304062669357185,
+      "share_lo": 0.11715480839550829,
+      "share_hi": 0.7793010895590909,
+      "win_prob": 0.5246
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.34071664819314895,
+      "share_lo": 0.07242634222666104,
+      "share_hi": 0.6813651975833588,
+      "win_prob": 0.369
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.03695252592333521,
+      "share_lo": 0.004033047857546151,
+      "share_hi": 0.08712924163378573,
+      "win_prob": 0.0044
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.006340270196499571,
+      "share_lo": 0.0006136069107128379,
+      "share_hi": 0.014807155811452513,
+      "win_prob": 0.0001
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.15039749680833528,
+      "share_lo": 0.020588304566793097,
+      "share_hi": 0.3640921135893865,
+      "win_prob": 0.0971
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.035186791942962425,
+      "share_lo": 0.003539166911784576,
+      "share_hi": 0.08331560038100431,
+      "win_prob": 0.0048
+     }
+    ]
+   },
+   {
+    "code": "KW",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4737216763607319,
+      "share_lo": 0.15213200162500617,
+      "share_hi": 0.8059694416048369,
+      "win_prob": 0.6465
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.22748977575046297,
+      "share_lo": 0.039310220378223334,
+      "share_hi": 0.5018900010507104,
+      "win_prob": 0.2135
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.0910471098537011,
+      "share_lo": 0.011484534145059769,
+      "share_hi": 0.22043328867360001,
+      "win_prob": 0.0392
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.005781593457791711,
+      "share_lo": 0.0005975086738054177,
+      "share_hi": 0.013399498947645317,
+      "win_prob": 0.0001
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.09306691626704285,
+      "share_lo": 0.011684959787149386,
+      "share_hi": 0.22407112710439525,
+      "win_prob": 0.0419
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.10889292831026942,
+      "share_lo": 0.013474528312177264,
+      "share_hi": 0.26438883315328726,
+      "win_prob": 0.0588
+     }
+    ]
+   },
+   {
+    "code": "LA",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.41673212552447747,
+      "share_lo": 0.10481260498902298,
+      "share_hi": 0.7704827898955292,
+      "win_prob": 0.4857
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.05975119665502485,
+      "share_lo": 0.006579244726395744,
+      "share_hi": 0.14387359662787394,
+      "win_prob": 0.0141
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.42490300657724744,
+      "share_lo": 0.11101374101901407,
+      "share_hi": 0.7789522188240209,
+      "win_prob": 0.4872
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.020092137851818605,
+      "share_lo": 0.0019863025305956617,
+      "share_hi": 0.0487753248535252,
+      "win_prob": 0.0005
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.022634166245774877,
+      "share_lo": 0.0023019120352795962,
+      "share_hi": 0.05342688085988599,
+      "win_prob": 0.0009
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.055887367145656765,
+      "share_lo": 0.005902970095147264,
+      "share_hi": 0.13522373481535546,
+      "win_prob": 0.0116
+     }
+    ]
+   },
+   {
+    "code": "NA",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.30188985095309606,
+      "share_lo": 0.06181629094960089,
+      "share_hi": 0.62762733363391,
+      "win_prob": 0.3449
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.20872948535460437,
+      "share_lo": 0.03516790999616089,
+      "share_hi": 0.4678441377793274,
+      "win_prob": 0.1913
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.3422592601947057,
+      "share_lo": 0.07847746243575683,
+      "share_hi": 0.6804344755985188,
+      "win_prob": 0.4141
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.005582281369873013,
+      "share_lo": 0.0005932772941614203,
+      "share_hi": 0.012834658373584723,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.08402094639796279,
+      "share_lo": 0.010788782205160732,
+      "share_hi": 0.19912380925547982,
+      "win_prob": 0.0338
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.057518175729758085,
+      "share_lo": 0.006643321703569711,
+      "share_hi": 0.13901811923230542,
+      "win_prob": 0.0159
+     }
+    ]
+   },
+   {
+    "code": "NI",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.41664880552040795,
+      "share_lo": 0.11934892607498125,
+      "share_hi": 0.7602982000290667,
+      "win_prob": 0.5418
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.2698455168515659,
+      "share_lo": 0.050445262922155544,
+      "share_hi": 0.5724116606924357,
+      "win_prob": 0.2844
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.15100253803802793,
+      "share_lo": 0.02206006190432116,
+      "share_hi": 0.35799580319715096,
+      "win_prob": 0.1074
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.005695760153083661,
+      "share_lo": 0.0006054225225903508,
+      "share_hi": 0.013025026177972165,
+      "win_prob": 0.0001
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.11038124362926678,
+      "share_lo": 0.01457966632885678,
+      "share_hi": 0.2619641137838556,
+      "win_prob": 0.057
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.046426135807647734,
+      "share_lo": 0.005112293264801156,
+      "share_hi": 0.11378022796159618,
+      "win_prob": 0.0093
+     }
+    ]
+   },
+   {
+    "code": "OG",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4870856629804937,
+      "share_lo": 0.163333138745863,
+      "share_hi": 0.8165816454832376,
+      "win_prob": 0.6786
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.17647633629970533,
+      "share_lo": 0.02636965090551111,
+      "share_hi": 0.4084071496854902,
+      "win_prob": 0.1392
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.17082446286131325,
+      "share_lo": 0.024833669117449376,
+      "share_hi": 0.3977355305013028,
+      "win_prob": 0.1293
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.018542891175872787,
+      "share_lo": 0.0019097203614930277,
+      "share_hi": 0.04414458839725557,
+      "win_prob": 0.0008
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.07122875452255026,
+      "share_lo": 0.008476916167580237,
+      "share_hi": 0.17043358534389982,
+      "win_prob": 0.0251
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.07584189216006472,
+      "share_lo": 0.009128601898876976,
+      "share_hi": 0.18379720181378878,
+      "win_prob": 0.027
+     }
+    ]
+   },
+   {
+    "code": "ON",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.5558181795846926,
+      "share_lo": 0.21973758755416772,
+      "share_hi": 0.8632143626399691,
+      "win_prob": 0.7716
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.1785671460653248,
+      "share_lo": 0.02477982451762324,
+      "share_hi": 0.4175542179300085,
+      "win_prob": 0.1344
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.10505749149420071,
+      "share_lo": 0.012790311369952935,
+      "share_hi": 0.2523777981863673,
+      "win_prob": 0.0501
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.01957240037603214,
+      "share_lo": 0.001984929497848901,
+      "share_hi": 0.04775068894239171,
+      "win_prob": 0.0004
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.07294799162787527,
+      "share_lo": 0.008300171313858126,
+      "share_hi": 0.17847035147172846,
+      "win_prob": 0.0237
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.06803679085187453,
+      "share_lo": 0.007487397508006105,
+      "share_hi": 0.165355813764706,
+      "win_prob": 0.0198
+     }
+    ]
+   },
+   {
+    "code": "OS",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.41341463432398484,
+      "share_lo": 0.10742602174569157,
+      "share_hi": 0.760178278014894,
+      "win_prob": 0.5102
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.33801060179968573,
+      "share_lo": 0.0739202355110926,
+      "share_hi": 0.6719743141311816,
+      "win_prob": 0.3795
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.04426736904543749,
+      "share_lo": 0.004802541839750807,
+      "share_hi": 0.10648096407207855,
+      "win_prob": 0.0081
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.019141151289374977,
+      "share_lo": 0.0019875978507053753,
+      "share_hi": 0.04645923671006833,
+      "win_prob": 0.0004
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.14734956202289437,
+      "share_lo": 0.0204071367721383,
+      "share_hi": 0.35892291527627146,
+      "win_prob": 0.0965
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.03781668151862258,
+      "share_lo": 0.0041198655684832625,
+      "share_hi": 0.08853281432864933,
+      "win_prob": 0.0053
+     }
+    ]
+   },
+   {
+    "code": "OY",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4482957292599753,
+      "share_lo": 0.1408042363088971,
+      "share_hi": 0.7755078147782206,
+      "win_prob": 0.6418
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.17379643884391488,
+      "share_lo": 0.026844149817620122,
+      "share_hi": 0.39997384019899335,
+      "win_prob": 0.1475
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.1393873550623789,
+      "share_lo": 0.019959771387191384,
+      "share_hi": 0.32522811461313145,
+      "win_prob": 0.0983
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.049333353073034776,
+      "share_lo": 0.005669685945554586,
+      "share_hi": 0.11711062316148792,
+      "win_prob": 0.0115
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.07034200693008949,
+      "share_lo": 0.008772235499156662,
+      "share_hi": 0.16742307577485674,
+      "win_prob": 0.0236
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.11884511683060675,
+      "share_lo": 0.01587595059840086,
+      "share_hi": 0.2842850168680819,
+      "win_prob": 0.0773
+     }
+    ]
+   },
+   {
+    "code": "PL",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.276918169424463,
+      "share_lo": 0.05254350718830743,
+      "share_hi": 0.5857658322764068,
+      "win_prob": 0.307
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.17781459476248646,
+      "share_lo": 0.028510003136063874,
+      "share_hi": 0.40242387343926084,
+      "win_prob": 0.1404
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.3807851796640899,
+      "share_lo": 0.09861332680497198,
+      "share_hi": 0.7210172166261225,
+      "win_prob": 0.49
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.005598509503102202,
+      "share_lo": 0.0006172860787084375,
+      "share_hi": 0.01296405921444739,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.07122001216015082,
+      "share_lo": 0.008613567277494953,
+      "share_hi": 0.168188017918845,
+      "win_prob": 0.0239
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.08766353448570757,
+      "share_lo": 0.010873110112189284,
+      "share_hi": 0.21083629752241576,
+      "win_prob": 0.0387
+     }
+    ]
+   },
+   {
+    "code": "RI",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.3572383964859223,
+      "share_lo": 0.08551929949789892,
+      "share_hi": 0.6912303003762537,
+      "win_prob": 0.4574
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.1260970381249472,
+      "share_lo": 0.01799440528739551,
+      "share_hi": 0.2977172150223515,
+      "win_prob": 0.0769
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.28923452400529837,
+      "share_lo": 0.06253538500134123,
+      "share_hi": 0.5970125649744066,
+      "win_prob": 0.3268
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.004999324724135991,
+      "share_lo": 0.0005272100224243052,
+      "share_hi": 0.01132038135587658,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.1469875319892609,
+      "share_lo": 0.022010597764672502,
+      "share_hi": 0.3470017649861015,
+      "win_prob": 0.1085
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.0754431846704352,
+      "share_lo": 0.009137206581247887,
+      "share_hi": 0.1811941952407904,
+      "win_prob": 0.0304
+     }
+    ]
+   },
+   {
+    "code": "SO",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4405344011347921,
+      "share_lo": 0.12139373872663976,
+      "share_hi": 0.7935863496471796,
+      "win_prob": 0.5239
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.35170635044103354,
+      "share_lo": 0.07459724157379559,
+      "share_hi": 0.6949422175200797,
+      "win_prob": 0.3795
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.01705929074310372,
+      "share_lo": 0.0016786031723706725,
+      "share_hi": 0.04053195861986648,
+      "win_prob": 0.0005
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.00612175057029118,
+      "share_lo": 0.0005794546242894573,
+      "share_hi": 0.014128067330390022,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.15441675799909668,
+      "share_lo": 0.021129526184504855,
+      "share_hi": 0.3682933532354968,
+      "win_prob": 0.093
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.030161449111682795,
+      "share_lo": 0.0029992501769069368,
+      "share_hi": 0.07092155854517755,
+      "win_prob": 0.0031
+     }
+    ]
+   },
+   {
+    "code": "TA",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.2821469450310724,
+      "share_lo": 0.05597185487382201,
+      "share_hi": 0.5974120570667985,
+      "win_prob": 0.3003
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.2866543955609602,
+      "share_lo": 0.057160849637850196,
+      "share_hi": 0.6035456665510537,
+      "win_prob": 0.3083
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.32090140002747786,
+      "share_lo": 0.06906036168059718,
+      "share_hi": 0.6572224218840043,
+      "win_prob": 0.3666
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.006099870997089941,
+      "share_lo": 0.0006391571408564259,
+      "share_hi": 0.013817145107558491,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.04121061626154938,
+      "share_lo": 0.004618076304421751,
+      "share_hi": 0.0984074875374779,
+      "win_prob": 0.0071
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.06298677212185025,
+      "share_lo": 0.007408998859630908,
+      "share_hi": 0.15313520034899916,
+      "win_prob": 0.0177
+     }
+    ]
+   },
+   {
+    "code": "YO",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.4092544462088301,
+      "share_lo": 0.10329657970853631,
+      "share_hi": 0.7667203073267559,
+      "win_prob": 0.4862
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.39200008701638533,
+      "share_lo": 0.09154483390044162,
+      "share_hi": 0.746226836321352,
+      "win_prob": 0.4617
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.08006385506823241,
+      "share_lo": 0.009218004804321545,
+      "share_hi": 0.19641135106853824,
+      "win_prob": 0.0275
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.006692995043148691,
+      "share_lo": 0.0006464525371037675,
+      "share_hi": 0.015675226042477675,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.06108804297040181,
+      "share_lo": 0.006866692585624689,
+      "share_hi": 0.14743125125775133,
+      "win_prob": 0.0156
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.05090057369300163,
+      "share_lo": 0.005547494636653818,
+      "share_hi": 0.12559190214379107,
+      "win_prob": 0.009
+     }
+    ]
+   },
+   {
+    "code": "ZA",
+    "contestants": [
+     {
+      "party": "APC",
+      "candidate": "Bola Tinubu",
+      "share_mean": 0.5222678217481803,
+      "share_lo": 0.1782694189625895,
+      "share_hi": 0.8514401100872963,
+      "win_prob": 0.6526
+     },
+     {
+      "party": "ADC",
+      "candidate": "Atiku Abubakar",
+      "share_mean": 0.30011305881097383,
+      "share_lo": 0.054701072005715265,
+      "share_hi": 0.6369620984910702,
+      "win_prob": 0.2786
+     },
+     {
+      "party": "NDC",
+      "candidate": "Peter Obi",
+      "share_mean": 0.008838660991746784,
+      "share_lo": 0.0008001358804426969,
+      "share_hi": 0.020529919003583464,
+      "win_prob": 0.0
+     },
+     {
+      "party": "APM",
+      "candidate": "Seyi Makinde",
+      "share_mean": 0.00634454979349107,
+      "share_lo": 0.0005901982817422983,
+      "share_hi": 0.015093219126425883,
+      "win_prob": 0.0
+     },
+     {
+      "party": "PDP",
+      "candidate": "Sandy Onor",
+      "share_mean": 0.12902919100717522,
+      "share_lo": 0.0160415599463674,
+      "share_hi": 0.30995109738920784,
+      "win_prob": 0.0652
+     },
+     {
+      "party": "OTH",
+      "candidate": "Others",
+      "share_mean": 0.033406717648432775,
+      "share_lo": 0.003317560595345163,
+      "share_hi": 0.07875286362442104,
+      "win_prob": 0.0036
+     }
+    ]
+   }
+  ],
+  "key": "pres-2027",
+  "title": "2027 Presidential Election",
+  "date": "2027-01-16",
+  "source_key": "wikipedia:presidential:2027"
+ },
+ "governorship": [
+  {
+   "key": "gov-ab-2027",
+   "state": "AB",
+   "title": "Abia Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Alex Otti",
+   "incumbent_party": "LP",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Alex Otti",
+     "party": "LP",
+     "win_prob": 0.3801239921492808,
+     "share_mean": 0.21085875175142318,
+     "share_lo": 0.09657551915247657,
+     "share_hi": 0.3415254599307922
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.35461220807861815,
+     "share_mean": 0.21846724782002155,
+     "share_lo": 0.10344467786924988,
+     "share_hi": 0.35777772828431115
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.09729071849028191,
+     "share_mean": 0.1813505213861983,
+     "share_lo": 0.08306670373574504,
+     "share_hi": 0.29931160854561134
+    },
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.08060351314018858,
+     "share_mean": 0.17486427474555932,
+     "share_lo": 0.0814889381486096,
+     "share_hi": 0.2878835899876843
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.0687305796215917,
+     "share_mean": 0.15015841985217723,
+     "share_lo": 0.06708864679940503,
+     "share_hi": 0.2552066039224177
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.018638988520038768,
+     "share_mean": 0.0643007844446205,
+     "share_lo": 0.027532532470885846,
+     "share_hi": 0.12161568633987936
+    }
+   ]
+  },
+  {
+   "key": "gov-ad-2027",
+   "state": "AD",
+   "title": "Adamawa Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Ahmadu Umaru Fintiri",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.3746604162858618,
+     "share_mean": 0.3265737007422976,
+     "share_lo": 0.16664641013218762,
+     "share_hi": 0.4979501243566851
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.2544472877287436,
+     "share_mean": 0.20231386332891343,
+     "share_lo": 0.09314459652760779,
+     "share_hi": 0.345334986414635
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.202692331566296,
+     "share_mean": 0.2284819862219577,
+     "share_lo": 0.10612287189336989,
+     "share_hi": 0.37089467131391646
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.1388170800731136,
+     "share_mean": 0.1709856430056815,
+     "share_lo": 0.07636251903871732,
+     "share_hi": 0.293589191524839
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.029382884345985058,
+     "share_mean": 0.07164480670114977,
+     "share_lo": 0.029556116354259386,
+     "share_hi": 0.13224866083526693
+    }
+   ]
+  },
+  {
+   "key": "gov-ak-2027",
+   "state": "AK",
+   "title": "Akwa Ibom Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Umo Eno",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Umo Eno",
+     "party": "APC",
+     "win_prob": 0.5951226860675073,
+     "share_mean": 0.35984179967579255,
+     "share_lo": 0.18545639757370572,
+     "share_hi": 0.5297992111018535
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.13570451657412055,
+     "share_mean": 0.21841670643296793,
+     "share_lo": 0.10120942402333212,
+     "share_hi": 0.3565845819859355
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.09029346634366266,
+     "share_mean": 0.13474190486860843,
+     "share_lo": 0.05781639173054737,
+     "share_hi": 0.2397689614652582
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.08548839608175682,
+     "share_mean": 0.1319741494505837,
+     "share_lo": 0.05907660688275744,
+     "share_hi": 0.22994230735294582
+    },
+    {
+     "candidate": "YPP candidate",
+     "party": "YPP",
+     "win_prob": 0.07640952878193841,
+     "share_mean": 0.10114867619150439,
+     "share_lo": 0.04315565790914004,
+     "share_hi": 0.18244411243265618
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.016981406151014223,
+     "share_mean": 0.053876763380542814,
+     "share_lo": 0.022443967443025015,
+     "share_hi": 0.10142373701579184
+    }
+   ]
+  },
+  {
+   "key": "gov-ba-2027",
+   "state": "BA",
+   "title": "Bauchi Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Bala Mohammed",
+   "incumbent_party": "APM",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.32172537868911627,
+     "share_mean": 0.2825466491397497,
+     "share_lo": 0.1397382942619925,
+     "share_hi": 0.4405870988022876
+    },
+    {
+     "candidate": "Bala Mohammed",
+     "party": "APM",
+     "win_prob": 0.30196254342276924,
+     "share_mean": 0.1923250174714581,
+     "share_lo": 0.08762791623958255,
+     "share_hi": 0.3190767512459644
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.15669854576272982,
+     "share_mean": 0.16196605014004886,
+     "share_lo": 0.07327480970716219,
+     "share_hi": 0.27271158775740534
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.10669625750433194,
+     "share_mean": 0.17526495543985038,
+     "share_lo": 0.07916738934256007,
+     "share_hi": 0.3002043976255389
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.09150673388131347,
+     "share_mean": 0.13345680737627974,
+     "share_lo": 0.05756167653138629,
+     "share_hi": 0.2313738983740045
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.02141054073973922,
+     "share_mean": 0.05444052043261321,
+     "share_lo": 0.022826134339898194,
+     "share_hi": 0.10378691909760294
+    }
+   ]
+  },
+  {
+   "key": "gov-be-2027",
+   "state": "BE",
+   "title": "Benue Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Hyacinth Alia",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Hyacinth Alia",
+     "party": "APC",
+     "win_prob": 0.7291475175454343,
+     "share_mean": 0.4172908650176779,
+     "share_lo": 0.22435441467870426,
+     "share_hi": 0.5847503383261347
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.0917467052748995,
+     "share_mean": 0.15044136099406022,
+     "share_lo": 0.06666263701233628,
+     "share_hi": 0.26183713680043297
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.06847556300607971,
+     "share_mean": 0.16836701988128186,
+     "share_lo": 0.07447538710215433,
+     "share_hi": 0.28950883583213644
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.0531463477608052,
+     "share_mean": 0.12361934040667066,
+     "share_lo": 0.054424996530579244,
+     "share_hi": 0.22089676909883713
+    },
+    {
+     "candidate": "LP candidate",
+     "party": "LP",
+     "win_prob": 0.04502073964921934,
+     "share_mean": 0.0897447286475773,
+     "share_lo": 0.038700648347677495,
+     "share_hi": 0.15945220198722124
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.012463126763561982,
+     "share_mean": 0.050536685052731956,
+     "share_lo": 0.021108157917119872,
+     "share_hi": 0.09633856615741528
+    }
+   ]
+  },
+  {
+   "key": "gov-bo-2027",
+   "state": "BO",
+   "title": "Borno Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Babagana Umara Zulum",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.7155128808197958,
+     "share_mean": 0.4359662978750397,
+     "share_lo": 0.24088508404939232,
+     "share_hi": 0.610822734220409
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.11902264372604963,
+     "share_mean": 0.18564870905926714,
+     "share_lo": 0.08194921824250913,
+     "share_hi": 0.3191460388959956
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.08059367704909425,
+     "share_mean": 0.19037174911270258,
+     "share_lo": 0.08448912010905084,
+     "share_hi": 0.3283742093481992
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.06611495115988461,
+     "share_mean": 0.12342044736689181,
+     "share_lo": 0.052957901161662484,
+     "share_hi": 0.21917547570442394
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.018755847245175566,
+     "share_mean": 0.06459279658609882,
+     "share_lo": 0.02660765066126435,
+     "share_hi": 0.12467651158705226
+    }
+   ]
+  },
+  {
+   "key": "gov-cr-2027",
+   "state": "CR",
+   "title": "Cross River Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Bassey Otu",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Bassey Otu",
+     "party": "APC",
+     "win_prob": 0.6040384184905979,
+     "share_mean": 0.39052122899636815,
+     "share_lo": 0.20421553491351538,
+     "share_hi": 0.5647309213847981
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.20964382416640026,
+     "share_mean": 0.2676935262708022,
+     "share_lo": 0.12923062472625724,
+     "share_hi": 0.43326174907880044
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.09865004084612636,
+     "share_mean": 0.15240610315271963,
+     "share_lo": 0.06746385073229491,
+     "share_hi": 0.2666103579031415
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.07056785335046153,
+     "share_mean": 0.13029943966215066,
+     "share_lo": 0.056066970609185925,
+     "share_hi": 0.23852093503958524
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.017099863146413843,
+     "share_mean": 0.059079701917959346,
+     "share_lo": 0.023544538620288057,
+     "share_hi": 0.11108557631692545
+    }
+   ]
+  },
+  {
+   "key": "gov-de-2027",
+   "state": "DE",
+   "title": "Delta Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Sheriff Oborevwori",
+   "incumbent_party": "PDP",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Sheriff Oborevwori",
+     "party": "PDP",
+     "win_prob": 0.5327098638106049,
+     "share_mean": 0.34829881305786603,
+     "share_lo": 0.17921601691955258,
+     "share_hi": 0.5186921939457635
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.15577547417555984,
+     "share_mean": 0.1578739954479743,
+     "share_lo": 0.06911830946368475,
+     "share_hi": 0.27250914110344737
+    },
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.142203420144655,
+     "share_mean": 0.21608015995733595,
+     "share_lo": 0.10194300358480406,
+     "share_hi": 0.35435961824159173
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.08413072106964163,
+     "share_mean": 0.13230755415597184,
+     "share_lo": 0.05713116489798838,
+     "share_hi": 0.23442927408164774
+    },
+    {
+     "candidate": "LP candidate",
+     "party": "LP",
+     "win_prob": 0.06706119216890759,
+     "share_mean": 0.09396997882906562,
+     "share_lo": 0.04141642898554163,
+     "share_hi": 0.16881348782133762
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.018119328630630968,
+     "share_mean": 0.05146949855178622,
+     "share_lo": 0.02177257680572239,
+     "share_hi": 0.09894666291028167
+    }
+   ]
+  },
+  {
+   "key": "gov-eb-2027",
+   "state": "EB",
+   "title": "Ebonyi Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Francis Nwifuru",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Francis Nwifuru",
+     "party": "APC",
+     "win_prob": 0.5153950934688122,
+     "share_mean": 0.37898618462338896,
+     "share_lo": 0.19800703743556677,
+     "share_hi": 0.5424784505453284
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.26400437109877334,
+     "share_mean": 0.18924483081877244,
+     "share_lo": 0.08551378516190507,
+     "share_hi": 0.3236835218080572
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.07783737970899146,
+     "share_mean": 0.14835585267356216,
+     "share_lo": 0.06417783824890647,
+     "share_hi": 0.26233094120193906
+    },
+    {
+     "candidate": "APGA candidate",
+     "party": "APGA",
+     "win_prob": 0.06806830740828866,
+     "share_mean": 0.11177148117427263,
+     "share_lo": 0.0475538743949156,
+     "share_hi": 0.20266750349401697
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.05821680893001248,
+     "share_mean": 0.1100511960441261,
+     "share_lo": 0.0480161325207693,
+     "share_hi": 0.2006029022402921
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.01647803938512188,
+     "share_mean": 0.06159045466587783,
+     "share_lo": 0.025322214075688278,
+     "share_hi": 0.11380927513604723
+    }
+   ]
+  },
+  {
+   "key": "gov-en-2027",
+   "state": "EN",
+   "title": "Enugu Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Peter Mbah",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.401542863299538,
+     "share_mean": 0.22687641911584142,
+     "share_lo": 0.10711974950407169,
+     "share_hi": 0.3598344434051767
+    },
+    {
+     "candidate": "Peter Mbah",
+     "party": "APC",
+     "win_prob": 0.2933749626179313,
+     "share_mean": 0.2679629680028035,
+     "share_lo": 0.12887477067908687,
+     "share_hi": 0.4208158609367771
+    },
+    {
+     "candidate": "LP candidate",
+     "party": "LP",
+     "win_prob": 0.12857260454014582,
+     "share_mean": 0.14730999865085298,
+     "share_lo": 0.06538966242305057,
+     "share_hi": 0.2563739102458223
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.08869210174610853,
+     "share_mean": 0.16678325675182273,
+     "share_lo": 0.07493205851143085,
+     "share_hi": 0.2839298513790096
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.06834282124758927,
+     "share_mean": 0.12485981773262105,
+     "share_lo": 0.05363443188291379,
+     "share_hi": 0.21750255716855113
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.019474646548687295,
+     "share_mean": 0.06620753974605827,
+     "share_lo": 0.02775344125204322,
+     "share_hi": 0.12367339387549699
+    }
+   ]
+  },
+  {
+   "key": "gov-go-2027",
+   "state": "GO",
+   "title": "Gombe Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Muhammad Inuwa Yahaya",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.39922722187776605,
+     "share_mean": 0.3585770779982185,
+     "share_lo": 0.1861480007221813,
+     "share_hi": 0.5288856382240732
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.23808379720027997,
+     "share_mean": 0.2520239110552481,
+     "share_lo": 0.12031289779308942,
+     "share_hi": 0.4077827722197758
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.2363013546794374,
+     "share_mean": 0.18943572715129287,
+     "share_lo": 0.08507436085796614,
+     "share_hi": 0.32581826670067504
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.10065091087766566,
+     "share_mean": 0.13890562186379626,
+     "share_lo": 0.062044610911541315,
+     "share_hi": 0.25040982337053247
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.025736715364851004,
+     "share_mean": 0.06105766193144432,
+     "share_lo": 0.02564501365350146,
+     "share_hi": 0.11764498852062441
+    }
+   ]
+  },
+  {
+   "key": "gov-ji-2027",
+   "state": "JI",
+   "title": "Jigawa Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Umar Namadi",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Umar Namadi",
+     "party": "APC",
+     "win_prob": 0.7890050017528595,
+     "share_mean": 0.45949524499821276,
+     "share_lo": 0.2574323976288659,
+     "share_hi": 0.6329570255026421
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.08194375849454809,
+     "share_mean": 0.216885030326254,
+     "share_lo": 0.10108400171624078,
+     "share_hi": 0.36705003794482033
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.07513209673844416,
+     "share_mean": 0.15623542857277345,
+     "share_lo": 0.06803018869964764,
+     "share_hi": 0.27478917506757033
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.042133514759758815,
+     "share_mean": 0.10846184765855207,
+     "share_lo": 0.0467246295808421,
+     "share_hi": 0.20417987312745128
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.011785628254389321,
+     "share_mean": 0.05892244844420771,
+     "share_lo": 0.024229964307069106,
+     "share_hi": 0.11370404778575785
+    }
+   ]
+  },
+  {
+   "key": "gov-kd-2027",
+   "state": "KD",
+   "title": "Kaduna Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Uba Sani",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Uba Sani",
+     "party": "APC",
+     "win_prob": 0.5879897736491118,
+     "share_mean": 0.37016386992057876,
+     "share_lo": 0.1950666133068093,
+     "share_hi": 0.537622189615622
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.13657877925100442,
+     "share_mean": 0.20710718689397603,
+     "share_lo": 0.0940050602154009,
+     "share_hi": 0.34598258934570586
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.10557598679323804,
+     "share_mean": 0.1453091736838407,
+     "share_lo": 0.06551415216565591,
+     "share_hi": 0.2540531265721327
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.09240771401743553,
+     "share_mean": 0.13947135106983088,
+     "share_lo": 0.061055177149718524,
+     "share_hi": 0.24446408873258013
+    },
+    {
+     "candidate": "LP candidate",
+     "party": "LP",
+     "win_prob": 0.06033774573263167,
+     "share_mean": 0.08704089275061054,
+     "share_lo": 0.03766219382239603,
+     "share_hi": 0.16099717536096073
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.01711000055657853,
+     "share_mean": 0.05090752568116304,
+     "share_lo": 0.02130448359746744,
+     "share_hi": 0.09844325125849551
+    }
+   ]
+  },
+  {
+   "key": "gov-kn-2027",
+   "state": "KN",
+   "title": "Kano Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Abba Kabir Yusuf",
+   "incumbent_party": "NNPP",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.43328299786453034,
+     "share_mean": 0.3230241193779127,
+     "share_lo": 0.16685295113233714,
+     "share_hi": 0.48085310655429536
+    },
+    {
+     "candidate": "Abba Kabir Yusuf",
+     "party": "NNPP",
+     "win_prob": 0.32889674297460414,
+     "share_mean": 0.18862365500920042,
+     "share_lo": 0.08547938217064177,
+     "share_hi": 0.31854024212452314
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.08064299974759229,
+     "share_mean": 0.1462850549682011,
+     "share_lo": 0.06279657582538233,
+     "share_hi": 0.2474927435683689
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.0750245638720653,
+     "share_mean": 0.15159871435736658,
+     "share_lo": 0.06849278764880284,
+     "share_hi": 0.26227311330578995
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.06455858450722418,
+     "share_mean": 0.13307344537138896,
+     "share_lo": 0.05777203733879705,
+     "share_hi": 0.2358843501197318
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.017594111033983704,
+     "share_mean": 0.05739501091593019,
+     "share_lo": 0.024647611209627947,
+     "share_hi": 0.106193274870854
+    }
+   ]
+  },
+  {
+   "key": "gov-kt-2027",
+   "state": "KT",
+   "title": "Katsina Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Dikko Umaru Radda",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Dikko Umaru Radda",
+     "party": "APC",
+     "win_prob": 0.7859180969808823,
+     "share_mean": 0.46262110721703026,
+     "share_lo": 0.25419805253211425,
+     "share_hi": 0.6349932867698518
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.08213720769166856,
+     "share_mean": 0.21992769812095384,
+     "share_lo": 0.09957277294675587,
+     "share_hi": 0.3793143364949929
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.07866302878593703,
+     "share_mean": 0.15898876898758715,
+     "share_lo": 0.0699164877322313,
+     "share_hi": 0.2783414316498636
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.041492638338142686,
+     "share_mean": 0.10388265511804338,
+     "share_lo": 0.04410276379043551,
+     "share_hi": 0.19320433622050326
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.011789028203369427,
+     "share_mean": 0.05457977055638544,
+     "share_lo": 0.022535631217407037,
+     "share_hi": 0.10682785849569569
+    }
+   ]
+  },
+  {
+   "key": "gov-ke-2027",
+   "state": "KE",
+   "title": "Kebbi Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Nasir Idris",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Nasir Idris",
+     "party": "APC",
+     "win_prob": 0.7171668558054705,
+     "share_mean": 0.4432181616623827,
+     "share_lo": 0.2435933476452927,
+     "share_hi": 0.6206424395962805
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.11811355715062714,
+     "share_mean": 0.2336759073948897,
+     "share_lo": 0.10578408850086564,
+     "share_hi": 0.38755611914403465
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.10033408949269358,
+     "share_mean": 0.16433925993283638,
+     "share_lo": 0.0723927582518238,
+     "share_hi": 0.28922517281372684
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.05003465578030249,
+     "share_mean": 0.10294216933096347,
+     "share_lo": 0.04340997098998968,
+     "share_hi": 0.1921554659078393
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.014350841770906373,
+     "share_mean": 0.05582450167892769,
+     "share_lo": 0.023615782727273656,
+     "share_hi": 0.10860978520144082
+    }
+   ]
+  },
+  {
+   "key": "gov-kw-2027",
+   "state": "KW",
+   "title": "Kwara Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "AbdulRahman AbdulRazaq",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.5955763245866235,
+     "share_mean": 0.3899440553091424,
+     "share_lo": 0.2028001945637702,
+     "share_hi": 0.563314890050855
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.18816928783312975,
+     "share_mean": 0.25414040065164406,
+     "share_lo": 0.12065245530281883,
+     "share_hi": 0.40798320267749993
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.1116654929159382,
+     "share_mean": 0.1613351037175159,
+     "share_lo": 0.07389052138527769,
+     "share_hi": 0.2915553661895084
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.0831649796040318,
+     "share_mean": 0.13470119467745145,
+     "share_lo": 0.058093401327619025,
+     "share_hi": 0.2388818891872607
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.021423915060276882,
+     "share_mean": 0.05987924564424616,
+     "share_lo": 0.024653249970029305,
+     "share_hi": 0.11254829344340551
+    }
+   ]
+  },
+  {
+   "key": "gov-la-2027",
+   "state": "LA",
+   "title": "Lagos Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": true,
+   "incumbent": "Babajide Sanwo-Olu",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": "wikipedia:governorship:2027:LA",
+   "contestants": [
+    {
+     "candidate": "Kadri Obafemi Hamzat",
+     "party": "APC",
+     "win_prob": 0.7509063219458677,
+     "share_mean": 0.42137287028446174,
+     "share_lo": 0.2248648631716526,
+     "share_hi": 0.5970945586408752
+    },
+    {
+     "candidate": "Gbadebo Rhodes-Vivour",
+     "party": "ADC",
+     "win_prob": 0.11583097931640055,
+     "share_mean": 0.24333135570954828,
+     "share_lo": 0.11332745784933683,
+     "share_hi": 0.40138696452617056
+    },
+    {
+     "candidate": "Adedeji Doherty",
+     "party": "PDP",
+     "win_prob": 0.06104378147219483,
+     "share_mean": 0.15809705993960954,
+     "share_lo": 0.07114532473702992,
+     "share_hi": 0.281432942694864
+    },
+    {
+     "candidate": "Prince Laja Adeoye",
+     "party": "APM",
+     "win_prob": 0.05617890289844188,
+     "share_mean": 0.1138765466159061,
+     "share_lo": 0.04974429483053941,
+     "share_hi": 0.20677693618664186
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.01604001436709498,
+     "share_mean": 0.06332216745047438,
+     "share_lo": 0.02652069253958726,
+     "share_hi": 0.12126454111486445
+    }
+   ]
+  },
+  {
+   "key": "gov-na-2027",
+   "state": "NA",
+   "title": "Nasarawa Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Abdullahi Sule",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.4179197518793336,
+     "share_mean": 0.35766140118305156,
+     "share_lo": 0.18594089725795318,
+     "share_hi": 0.530162197497433
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.208367395731989,
+     "share_mean": 0.23149250654845904,
+     "share_lo": 0.10660918478990714,
+     "share_hi": 0.3828943692195986
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.20174207613497974,
+     "share_mean": 0.18094988456434977,
+     "share_lo": 0.08258728252262934,
+     "share_hi": 0.3100117043890416
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.1430618936966613,
+     "share_mean": 0.16299194115467022,
+     "share_lo": 0.07110315354470263,
+     "share_hi": 0.2867011078927431
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.028908882557036476,
+     "share_mean": 0.06690426654946934,
+     "share_lo": 0.028381791643631048,
+     "share_hi": 0.12772161756088554
+    }
+   ]
+  },
+  {
+   "key": "gov-ni-2027",
+   "state": "NI",
+   "title": "Niger Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Mohammed Umar Bago",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Mohammed Umar Bago",
+     "party": "APC",
+     "win_prob": 0.7509238291226208,
+     "share_mean": 0.44121016911912636,
+     "share_lo": 0.24068611045460414,
+     "share_hi": 0.606369257621085
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.10078048532909008,
+     "share_mean": 0.21439909966964132,
+     "share_lo": 0.10015138449762154,
+     "share_hi": 0.368488187532626
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.07649256516304584,
+     "share_mean": 0.15128311428483193,
+     "share_lo": 0.06614239549351357,
+     "share_hi": 0.2664429824611731
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.0582433345384719,
+     "share_mean": 0.13399235337486953,
+     "share_lo": 0.05797073603297155,
+     "share_hi": 0.24238395269808996
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.013559785846771543,
+     "share_mean": 0.05911526355153079,
+     "share_lo": 0.025204285244195043,
+     "share_hi": 0.10908253596647434
+    }
+   ]
+  },
+  {
+   "key": "gov-og-2027",
+   "state": "OG",
+   "title": "Ogun Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Dapo Abiodun",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.5179314342831274,
+     "share_mean": 0.3543690810177923,
+     "share_lo": 0.1828024712256865,
+     "share_hi": 0.5217209855414283
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.21078633307163247,
+     "share_mean": 0.22591773797926104,
+     "share_lo": 0.10524541043981239,
+     "share_hi": 0.3711508490132801
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.13721833953808343,
+     "share_mean": 0.21603053212969686,
+     "share_lo": 0.10045484943214027,
+     "share_hi": 0.3562722006389513
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.10969839346397982,
+     "share_mean": 0.14238655209622147,
+     "share_lo": 0.06315511527632757,
+     "share_hi": 0.2523193771867266
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.024365499643176834,
+     "share_mean": 0.061296096777028256,
+     "share_lo": 0.025986946961344695,
+     "share_hi": 0.11849270537236202
+    }
+   ]
+  },
+  {
+   "key": "gov-oy-2027",
+   "state": "OY",
+   "title": "Oyo Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Seyi Makinde",
+   "incumbent_party": "APM",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": "wikipedia:governorship:2027:OY",
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.4030165792019612,
+     "share_mean": 0.28947351424989165,
+     "share_lo": 0.13941649471132586,
+     "share_hi": 0.44627619839490984
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.283463363056882,
+     "share_mean": 0.26442371802558357,
+     "share_lo": 0.12637083963102058,
+     "share_hi": 0.41460081820018063
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.10768971058987543,
+     "share_mean": 0.14073633950197983,
+     "share_lo": 0.0630205181081266,
+     "share_hi": 0.24514572713837668
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.09931152727750622,
+     "share_mean": 0.13442095054592515,
+     "share_lo": 0.05855189099207938,
+     "share_hi": 0.2348199902646156
+    },
+    {
+     "candidate": "APM candidate",
+     "party": "APM",
+     "win_prob": 0.08339277126737168,
+     "share_mean": 0.11121329866968627,
+     "share_lo": 0.04738791510920341,
+     "share_hi": 0.19696341978624374
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.02312604860640353,
+     "share_mean": 0.05973217900693362,
+     "share_lo": 0.026321167991547344,
+     "share_hi": 0.11194391076007076
+    }
+   ]
+  },
+  {
+   "key": "gov-pl-2027",
+   "state": "PL",
+   "title": "Plateau Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Caleb Mutfwang",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Caleb Mutfwang",
+     "party": "APC",
+     "win_prob": 0.6806781314883903,
+     "share_mean": 0.39060632732516304,
+     "share_lo": 0.20719898283713575,
+     "share_hi": 0.5627329326547468
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.11515235711807817,
+     "share_mean": 0.15694904238253196,
+     "share_lo": 0.06978163283183758,
+     "share_hi": 0.27222098342282186
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.07144463687438742,
+     "share_mean": 0.1748132709439051,
+     "share_lo": 0.07712817385833869,
+     "share_hi": 0.29606086189640557
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.06679212138758656,
+     "share_mean": 0.1335578495279603,
+     "share_lo": 0.05918773647628786,
+     "share_hi": 0.2404837872775625
+    },
+    {
+     "candidate": "LP candidate",
+     "party": "LP",
+     "win_prob": 0.05164339961474724,
+     "share_mean": 0.0921829417807072,
+     "share_lo": 0.04041309098212646,
+     "share_hi": 0.16732188850789492
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.014289353516810148,
+     "share_mean": 0.05189056803973249,
+     "share_lo": 0.021360546479438417,
+     "share_hi": 0.09534583953347701
+    }
+   ]
+  },
+  {
+   "key": "gov-ri-2027",
+   "state": "RI",
+   "title": "Rivers Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Siminalayi Fubara",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Siminalayi Fubara",
+     "party": "APC",
+     "win_prob": 0.747278327601636,
+     "share_mean": 0.4141246055358415,
+     "share_lo": 0.2206083480643895,
+     "share_hi": 0.5855361108995278
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.0772964551766287,
+     "share_mean": 0.19511337095627124,
+     "share_lo": 0.08730268055207133,
+     "share_hi": 0.33576300004701626
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.07220972276443717,
+     "share_mean": 0.1386146638698825,
+     "share_lo": 0.059891455897960806,
+     "share_hi": 0.2446008737149319
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.04926303186726967,
+     "share_mean": 0.11757083061780094,
+     "share_lo": 0.050079372166851086,
+     "share_hi": 0.21030549934438947
+    },
+    {
+     "candidate": "LP candidate",
+     "party": "LP",
+     "win_prob": 0.042205578938326195,
+     "share_mean": 0.08587134902663701,
+     "share_lo": 0.035499668666635086,
+     "share_hi": 0.15918599649253076
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.011746883651702344,
+     "share_mean": 0.04870517999356696,
+     "share_lo": 0.019878721853683903,
+     "share_hi": 0.08892424218117292
+    }
+   ]
+  },
+  {
+   "key": "gov-so-2027",
+   "state": "SO",
+   "title": "Sokoto Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Ahmad Aliyu",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Ahmad Aliyu",
+     "party": "APC",
+     "win_prob": 0.7338012957699703,
+     "share_mean": 0.4516498615654414,
+     "share_lo": 0.25643636969741734,
+     "share_hi": 0.6228421468866553
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.11242024966776268,
+     "share_mean": 0.23356913048990915,
+     "share_lo": 0.10928194300482696,
+     "share_hi": 0.39042377209822127
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.09288244511523039,
+     "share_mean": 0.16414680933229883,
+     "share_lo": 0.07171669889705734,
+     "share_hi": 0.290138599334316
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.047113815681907416,
+     "share_mean": 0.09443297974809926,
+     "share_lo": 0.03920733348713395,
+     "share_hi": 0.17436478908510372
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.013782193765129081,
+     "share_mean": 0.05620121886425144,
+     "share_lo": 0.02348681520520119,
+     "share_hi": 0.1088764413799229
+    }
+   ]
+  },
+  {
+   "key": "gov-ta-2027",
+   "state": "TA",
+   "title": "Taraba Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Kefas Agbu",
+   "incumbent_party": "PDP",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Kefas Agbu",
+     "party": "PDP",
+     "win_prob": 0.3888550960499482,
+     "share_mean": 0.2618683176132047,
+     "share_lo": 0.12602751307757115,
+     "share_hi": 0.4096880637867754
+    },
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.1961045019479232,
+     "share_mean": 0.24975001449027598,
+     "share_lo": 0.11964445428958023,
+     "share_hi": 0.39824074868150616
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.14499969653791264,
+     "share_mean": 0.15819010849466558,
+     "share_lo": 0.07032472785385166,
+     "share_hi": 0.2759367762355328
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.13399676859364154,
+     "share_mean": 0.1549168126005928,
+     "share_lo": 0.06971035316267231,
+     "share_hi": 0.26628472467417863
+    },
+    {
+     "candidate": "NNPP candidate",
+     "party": "NNPP",
+     "win_prob": 0.11381962509638871,
+     "share_mean": 0.11584901172917497,
+     "share_lo": 0.049967333020732856,
+     "share_hi": 0.20529852527694667
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.022224311774185518,
+     "share_mean": 0.059425735072086025,
+     "share_lo": 0.024573675439267705,
+     "share_hi": 0.10784531819333162
+    }
+   ]
+  },
+  {
+   "key": "gov-yo-2027",
+   "state": "YO",
+   "title": "Yobe Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Mai Mala Buni",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": true,
+   "open_seat": true,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.5664625864454959,
+     "share_mean": 0.3992261343063694,
+     "share_lo": 0.2099657308354412,
+     "share_hi": 0.5774439588226988
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.1865077820844917,
+     "share_mean": 0.18987466904584793,
+     "share_lo": 0.08339102686210968,
+     "share_hi": 0.33199639659724905
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.13160391336393895,
+     "share_mean": 0.2104942101043936,
+     "share_lo": 0.09629204790466331,
+     "share_hi": 0.35764370071609786
+    },
+    {
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.09117748815379334,
+     "share_mean": 0.1371878821109883,
+     "share_lo": 0.06087969604710223,
+     "share_hi": 0.2465120569488544
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.02424822995228021,
+     "share_mean": 0.0632171044324007,
+     "share_lo": 0.02580510108136705,
+     "share_hi": 0.12190446869901538
+    }
+   ]
+  },
+  {
+   "key": "gov-za-2027",
+   "state": "ZA",
+   "title": "Zamfara Governorship 2027",
+   "date": "2027-02-06",
+   "candidates_confirmed": false,
+   "incumbent": "Dauda Lawal",
+   "incumbent_party": "APC",
+   "incumbent_term_limited": false,
+   "open_seat": false,
+   "source_key": null,
+   "contestants": [
+    {
+     "candidate": "Dauda Lawal",
+     "party": "APC",
+     "win_prob": 0.8823429641702298,
+     "share_mean": 0.5287109704620314,
+     "share_lo": 0.30951281954230864,
+     "share_hi": 0.700752413649752
+    },
+    {
+     "candidate": "ADC candidate",
+     "party": "ADC",
+     "win_prob": 0.05516475769093739,
+     "share_mean": 0.17074789892048076,
+     "share_lo": 0.0770773173969891,
+     "share_hi": 0.31154408109850795
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.052876742194686605,
+     "share_mean": 0.22563911208673834,
+     "share_lo": 0.10100110687475151,
+     "share_hi": 0.3830717594171462
+    },
+    {
+     "candidate": "Others",
+     "party": "OTH",
+     "win_prob": 0.009615535944146159,
+     "share_mean": 0.07490201853074943,
+     "share_lo": 0.03219871400196353,
+     "share_hi": 0.14694112413624008
+    }
+   ]
+  }
+ ],
+ "params": {
+  "presidential": {
+   "w_c": 2.8455257509517367,
+   "w_r": 2.964015481936734,
+   "w_0": 0.04858722773161334,
+   "b_s": 1.0893429408046449,
+   "b_z": 1.2,
+   "b_rs": 0.0,
+   "b_rz": 0.0,
+   "gamma": 0.0
+  },
+  "sigma": {
+   "national": 0.5904536262156934,
+   "zone": 0.7093177842310594,
+   "state": 0.5037707714654801
+  },
+  "governorship_tau": 0.5494956299849666
+ },
+ "backtest": {
+  "presidential": {
+   "folds": [
+    {
+     "train_until": 1999,
+     "test": 2003,
+     "params": {
+      "w_c": 1.5,
+      "w_r": 0.5,
+      "w_0": 0.1,
+      "b_s": 0.6,
+      "b_z": 0.3,
+      "b_rs": 0.2,
+      "b_rz": 0.1,
+      "gamma": 0.0
+     },
+     "sigma": {
+      "national": 0.35,
+      "zone": 0.2,
+      "state": 0.25
+     },
+     "anyanwu": {
+      "winner_accuracy": 0.6486486486486487,
+      "brier": 0.541598331081081,
+      "log_loss": 0.8195742726167904,
+      "share_mae_pp": 3.033111122769834,
+      "national_winner_prob": 0.9165
+     },
+     "baseline": {
+      "winner_accuracy": 0.6486486486486487,
+      "brier": 0.7027027027027027,
+      "log_loss": 1.6180327680498698,
+      "share_mae_pp": 2.108781673754809,
+      "national_winner_prob": 1.0
+     },
+     "forecast": [
+      {
+       "candidate": "Olusegun Obasanjo",
+       "party": "PDP",
+       "share": 0.5866704998795371,
+       "first_prob": 0.9165
+      },
+      {
+       "candidate": "Muhammadu Buhari",
+       "party": "ANPP",
+       "share": 0.34065826224934076,
+       "first_prob": 0.0835
+      },
+      {
+       "candidate": "Chukwuemeka Odumegwu Ojukwu",
+       "party": "APGA",
+       "share": 0.0049789802886076534,
+       "first_prob": 0.0
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.06769225758251454,
+       "first_prob": 0.0
+      }
+     ],
+     "actual": [
+      {
+       "candidate": "Olusegun Obasanjo",
+       "party": "PDP",
+       "share": 0.6194487611336322
+      },
+      {
+       "candidate": "Muhammadu Buhari",
+       "party": "ANPP",
+       "share": 0.3219317268334746
+      },
+      {
+       "candidate": "Chukwuemeka Odumegwu Ojukwu",
+       "party": "APGA",
+       "share": 0.032862941489909106
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.0257565705429839
+      }
+     ]
+    },
+    {
+     "train_until": 2003,
+     "test": 2015,
+     "params": {
+      "w_c": 4.846886432533841,
+      "w_r": 0.5,
+      "w_0": 0.05897726412137904,
+      "b_s": 1.5,
+      "b_z": 1.2,
+      "b_rs": 0.15006084006882928,
+      "b_rz": 0.0,
+      "gamma": 0.0
+     },
+     "sigma": {
+      "national": 0.4242885215253979,
+      "zone": 0.8130771490828749,
+      "state": 0.4363546910956206
+     },
+     "anyanwu": {
+      "winner_accuracy": 0.7027027027027027,
+      "brier": 0.39385151013513514,
+      "log_loss": 0.7669009379733419,
+      "share_mae_pp": 14.565202531902917,
+      "national_winner_prob": 0.0995
+     },
+     "baseline": {
+      "winner_accuracy": 0.7027027027027027,
+      "brier": 0.5945945945945946,
+      "log_loss": 1.3691046498883515,
+      "share_mae_pp": 13.88965525000054,
+      "national_winner_prob": 0.0
+     },
+     "forecast": [
+      {
+       "candidate": "Muhammadu Buhari",
+       "party": "APC",
+       "share": 0.3210894816604153,
+       "first_prob": 0.0995
+      },
+      {
+       "candidate": "Goodluck Jonathan",
+       "party": "PDP",
+       "share": 0.5672079213403378,
+       "first_prob": 0.9
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.11170259699924694,
+       "first_prob": 0.0005
+      }
+     ],
+     "actual": [
+      {
+       "candidate": "Muhammadu Buhari",
+       "party": "APC",
+       "share": 0.5395675196389591
+      },
+      {
+       "candidate": "Goodluck Jonathan",
+       "party": "PDP",
+       "share": 0.44960675907887787
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.010825721282163109
+      }
+     ]
+    },
+    {
+     "train_until": 2015,
+     "test": 2019,
+     "params": {
+      "w_c": 6.0,
+      "w_r": 0.5,
+      "w_0": 0.04733943418109239,
+      "b_s": 1.5,
+      "b_z": 1.2,
+      "b_rs": 0.14588062192708834,
+      "b_rz": 0.0,
+      "gamma": 0.0
+     },
+     "sigma": {
+      "national": 0.5735354902944689,
+      "zone": 0.7481308423464357,
+      "state": 0.43589504205180524
+     },
+     "anyanwu": {
+      "winner_accuracy": 0.8378378378378378,
+      "brier": 0.22309079729729728,
+      "log_loss": 0.37295339623446483,
+      "share_mae_pp": 3.7121599106495826,
+      "national_winner_prob": 0.63575
+     },
+     "baseline": {
+      "winner_accuracy": 0.8378378378378378,
+      "brier": 0.32432432432432434,
+      "log_loss": 0.7467843544845554,
+      "share_mae_pp": 2.0342369008186423,
+      "national_winner_prob": 1.0
+     },
+     "forecast": [
+      {
+       "candidate": "Muhammadu Buhari",
+       "party": "APC",
+       "share": 0.5002948691360721,
+       "first_prob": 0.63575
+      },
+      {
+       "candidate": "Atiku Abubakar",
+       "party": "PDP",
+       "share": 0.4251932846393128,
+       "first_prob": 0.3635
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.07451184622461503,
+       "first_prob": 0.00075
+      }
+     ],
+     "actual": [
+      {
+       "candidate": "Muhammadu Buhari",
+       "party": "APC",
+       "share": 0.5559772677958158
+      },
+      {
+       "candidate": "Atiku Abubakar",
+       "party": "PDP",
+       "share": 0.41219212750657525
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.03183060469760874
+      }
+     ]
+    },
+    {
+     "train_until": 2019,
+     "test": 2023,
+     "params": {
+      "w_c": 4.8512860668898705,
+      "w_r": 0.5,
+      "w_0": 0.0413414753402855,
+      "b_s": 1.3087937425121186,
+      "b_z": 1.2,
+      "b_rs": 0.0,
+      "b_rz": 0.0,
+      "gamma": 0.0
+     },
+     "sigma": {
+      "national": 0.5212147440276034,
+      "zone": 0.7087108586214828,
+      "state": 0.4162632960779882
+     },
+     "anyanwu": {
+      "winner_accuracy": 0.4864864864864865,
+      "brier": 0.8018750337837837,
+      "log_loss": 1.6599505537134327,
+      "share_mae_pp": 9.418496994795929,
+      "national_winner_prob": 0.612
+     },
+     "baseline": {
+      "winner_accuracy": 0.32432432432432434,
+      "brier": 1.3513513513513513,
+      "log_loss": 3.11160147701898,
+      "share_mae_pp": 12.314617372678956,
+      "national_winner_prob": 1.0
+     },
+     "forecast": [
+      {
+       "candidate": "Bola Tinubu",
+       "party": "APC",
+       "share": 0.45397316681411076,
+       "first_prob": 0.612
+      },
+      {
+       "candidate": "Atiku Abubakar",
+       "party": "PDP",
+       "share": 0.3844588355236126,
+       "first_prob": 0.386
+      },
+      {
+       "candidate": "Peter Obi",
+       "party": "LP",
+       "share": 0.06003637346862948,
+       "first_prob": 0.00025
+      },
+      {
+       "candidate": "Rabiu Kwankwaso",
+       "party": "NNPP",
+       "share": 0.020303143914954164,
+       "first_prob": 0.0
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.08122848027869295,
+       "first_prob": 0.00175
+      }
+     ],
+     "actual": [
+      {
+       "candidate": "Bola Tinubu",
+       "party": "APC",
+       "share": 0.3664843280796013
+      },
+      {
+       "candidate": "Atiku Abubakar",
+       "party": "PDP",
+       "share": 0.2905218479585029
+      },
+      {
+       "candidate": "Peter Obi",
+       "party": "LP",
+       "share": 0.2535100282060855
+      },
+      {
+       "candidate": "Rabiu Kwankwaso",
+       "party": "NNPP",
+       "share": 0.06229191404739638
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.027191881708413915
+      }
+     ]
+    }
+   ],
+   "final_params": {
+    "w_c": 2.8455257509517367,
+    "w_r": 2.964015481936734,
+    "w_0": 0.04858722773161334,
+    "b_s": 1.0893429408046449,
+    "b_z": 1.2,
+    "b_rs": 0.0,
+    "b_rz": 0.0,
+    "gamma": 0.0
+   },
+   "final_sigma": {
+    "national": 0.5904536262156934,
+    "zone": 0.7093177842310594,
+    "state": 0.5037707714654801
+   },
+   "summary": {
+    "anyanwu": {
+     "winner_accuracy": 0.6689189189189189,
+     "brier": 0.4901039180743243,
+     "log_loss": 0.9048447901345075,
+     "share_mae_pp": 7.682242640029566,
+     "national_winner_prob": 0.5659375
+    },
+    "baseline": {
+     "winner_accuracy": 0.6283783783783783,
+     "brier": 0.7432432432432432,
+     "log_loss": 1.7113808123604393,
+     "share_mae_pp": 7.586822799313237,
+     "national_winner_prob": 0.75
+    }
+   },
+   "attention": {
+    "gamma": 0.0,
+    "grid": {
+     "0.0": 0.08930249674754509,
+     "0.05": 0.0897019987184419,
+     "0.1": 0.09012747328873483,
+     "0.15": 0.09057831628226486
+    }
+   },
+   "live_replay_2023": {
+    "winner": "Bola Tinubu",
+    "checkpoints": [
+     0,
+     6,
+     12,
+     18,
+     24,
+     30,
+     37
+    ],
+    "mean_winner_prob": [
+     0.605,
+     0.5108666666666666,
+     0.5926,
+     0.8290666666666666,
+     0.9099999999999999,
+     0.9501333333333333,
+     1.0
+    ],
+    "min_winner_prob": [
+     0.605,
+     0.18266666666666667,
+     0.08666666666666667,
+     0.611,
+     0.7403333333333333,
+     0.893,
+     1.0
+    ]
+   }
+  },
+  "governorship": {
+   "folds": [
+    {
+     "test": 2007,
+     "races": 35,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": 0.22515837440988198,
+      "governors_party": -0.042849286119948815,
+      "presidents_party": 0.18940541436581185,
+      "presidents_party_offcycle": 0.2,
+      "no_base": -0.7691071913539104,
+      "log_last_gov": -0.010571192608873521,
+      "log_last_pres": 0.26880538149934635,
+      "personal_best": 0.6964976496768864
+     },
+     "theta_winner": {
+      "last_gov": 1.7476381446618605,
+      "last_pres": 2.617492535269199,
+      "incumbent_running": 0.2159677403921679,
+      "governors_party": -0.08147007306126222,
+      "presidents_party": 0.6925278290111873,
+      "presidents_party_offcycle": 0.2,
+      "no_base": -1.0036881464032275,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.7738723921495617
+     },
+     "tau": 0.38592094617378275,
+     "anyanwu": {
+      "winner_accuracy": 0.8285714285714286,
+      "brier": 0.24966523397044846,
+      "log_loss": 0.4352597718941194,
+      "winner_share_mae_pp": 17.59936997897961
+     },
+     "baseline_governors_party": 0.8857142857142857,
+     "baseline_last_result": 0.8571428571428571
+    },
+    {
+     "test": 2010,
+     "races": 1,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.018754962725776158,
+      "governors_party": 0.26540751322551465,
+      "presidents_party": 0.3139652205881811,
+      "presidents_party_offcycle": 0.2,
+      "no_base": -0.24490727318930508,
+      "log_last_gov": 0.027568101753177227,
+      "log_last_pres": 0.1350033048060386,
+      "personal_best": 0.41531262019447246
+     },
+     "theta_winner": {
+      "last_gov": 0.7427984387381741,
+      "last_pres": 1.9540369269096247,
+      "incumbent_running": 0.18039512323920937,
+      "governors_party": 0.20574440729350119,
+      "presidents_party": 0.6800140272098265,
+      "presidents_party_offcycle": 0.2,
+      "no_base": -0.2447473607924912,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.8889308259563168
+     },
+     "tau": 0.6295173227104321,
+     "anyanwu": {
+      "winner_accuracy": 0.0,
+      "brier": 1.173746312232629,
+      "log_loss": 2.376177410289583,
+      "winner_share_mae_pp": 18.654868162843453
+     },
+     "baseline_governors_party": 0.0,
+     "baseline_last_result": 0.0
+    },
+    {
+     "test": 2011,
+     "races": 27,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.01480317381991397,
+      "governors_party": 0.2515033717778792,
+      "presidents_party": 0.29667741263478564,
+      "presidents_party_offcycle": 0.03998564769716397,
+      "no_base": -0.22879857478296373,
+      "log_last_gov": 0.026833104855608542,
+      "log_last_pres": 0.14126452447796997,
+      "personal_best": 0.4116601365507353
+     },
+     "theta_winner": {
+      "last_gov": 0.7237902208842111,
+      "last_pres": 1.9538577350090922,
+      "incumbent_running": 0.22052337342449,
+      "governors_party": 0.17194266034820552,
+      "presidents_party": 0.5998498579682163,
+      "presidents_party_offcycle": -0.23233205431674805,
+      "no_base": -0.3088081834213055,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.7127746263965535
+     },
+     "tau": 0.6291856164204104,
+     "anyanwu": {
+      "winner_accuracy": 0.7407407407407407,
+      "brier": 0.4218775746917018,
+      "log_loss": 0.6916565947285498,
+      "winner_share_mae_pp": 14.960392525406311
+     },
+     "baseline_governors_party": 0.7777777777777778,
+     "baseline_last_result": 0.7407407407407407
+    },
+    {
+     "test": 2012,
+     "races": 6,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.11643943443378045,
+      "governors_party": 0.33835349152058675,
+      "presidents_party": 0.24960024471324802,
+      "presidents_party_offcycle": 0.030156704320187414,
+      "no_base": -0.3717809956240285,
+      "log_last_gov": 0.04379864382346625,
+      "log_last_pres": 0.07720523924849305,
+      "personal_best": 0.24480375264259419
+     },
+     "theta_winner": {
+      "last_gov": 0.7401353362888747,
+      "last_pres": 1.2214555855152673,
+      "incumbent_running": -0.3595248628407219,
+      "governors_party": 0.5126657105264953,
+      "presidents_party": 0.4238440827263305,
+      "presidents_party_offcycle": -0.23434031150102771,
+      "no_base": -0.5400075068428727,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.7940475898224367
+     },
+     "tau": 0.5999456883201351,
+     "anyanwu": {
+      "winner_accuracy": 0.6666666666666666,
+      "brier": 0.43947494807852605,
+      "log_loss": 0.7863032669447098,
+      "winner_share_mae_pp": 24.74465296402851
+     },
+     "baseline_governors_party": 0.6666666666666666,
+     "baseline_last_result": 0.6666666666666666
+    },
+    {
+     "test": 2013,
+     "races": 1,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.17653506145042996,
+      "governors_party": 0.3069706036292228,
+      "presidents_party": 0.2321721654416693,
+      "presidents_party_offcycle": -0.10232915250091887,
+      "no_base": -0.4472392615628385,
+      "log_last_gov": 0.0599428425776362,
+      "log_last_pres": 0.06584632178579887,
+      "personal_best": 0.35339038614419066
+     },
+     "theta_winner": {
+      "last_gov": 0.8949294487301146,
+      "last_pres": 1.0958404917857503,
+      "incumbent_running": -0.44286582450665274,
+      "governors_party": 0.41356604838400424,
+      "presidents_party": 0.3857990112087465,
+      "presidents_party_offcycle": -0.6199965926469204,
+      "no_base": -0.6505434981781368,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 1.0331247842068472
+     },
+     "tau": 0.6033471229103423,
+     "anyanwu": {
+      "winner_accuracy": 0.0,
+      "brier": 0.6893802806412586,
+      "log_loss": 1.2654710586698699,
+      "winner_share_mae_pp": 16.620785840090065
+     },
+     "baseline_governors_party": 1.0,
+     "baseline_last_result": 1.0
+    },
+    {
+     "test": 2014,
+     "races": 2,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.18054125448403288,
+      "governors_party": 0.3129311033405407,
+      "presidents_party": 0.2226147447556573,
+      "presidents_party_offcycle": -0.10296463863215709,
+      "no_base": -0.42308960475275853,
+      "log_last_gov": 0.06063416387549174,
+      "log_last_pres": 0.07287764727941633,
+      "personal_best": 0.35276740182475125
+     },
+     "theta_winner": {
+      "last_gov": 0.9026756420109301,
+      "last_pres": 1.0750131364130635,
+      "incumbent_running": -0.41079833541309496,
+      "governors_party": 0.4924925057058785,
+      "presidents_party": 0.38006928232089665,
+      "presidents_party_offcycle": -0.7307363439685084,
+      "no_base": -0.6522276700549737,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.8761464247144953
+     },
+     "tau": 0.599593449434432,
+     "anyanwu": {
+      "winner_accuracy": 0.5,
+      "brier": 0.576043627497423,
+      "log_loss": 0.840510280631019,
+      "winner_share_mae_pp": 13.500928074425737
+     },
+     "baseline_governors_party": 0.5,
+     "baseline_last_result": 0.5
+    },
+    {
+     "test": 2015,
+     "races": 30,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.19141765559597138,
+      "governors_party": 0.2951584811402951,
+      "presidents_party": 0.21244500290944757,
+      "presidents_party_offcycle": -0.15785868559564442,
+      "no_base": -0.47627725079638616,
+      "log_last_gov": 0.06752611652157002,
+      "log_last_pres": 0.0696875203952668,
+      "personal_best": 0.37723326044827865
+     },
+     "theta_winner": {
+      "last_gov": 0.9256067951974254,
+      "last_pres": 1.0453891213670867,
+      "incumbent_running": -0.46329886928380487,
+      "governors_party": 0.4683618438693371,
+      "presidents_party": 0.36593442851875874,
+      "presidents_party_offcycle": -0.8876980194971443,
+      "no_base": -0.7403053247976866,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.9847736889442328
+     },
+     "tau": 0.5943762012578713,
+     "anyanwu": {
+      "winner_accuracy": 0.6,
+      "brier": 0.4523588697856625,
+      "log_loss": 0.6622625126555169,
+      "winner_share_mae_pp": 20.8347989730574
+     },
+     "baseline_governors_party": 0.5666666666666667,
+     "baseline_last_result": 0.6
+    },
+    {
+     "test": 2016,
+     "races": 2,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.04463404643962587,
+      "governors_party": 0.13466366357032225,
+      "presidents_party": 0.0045154303029863955,
+      "presidents_party_offcycle": -0.1319778732965774,
+      "no_base": -0.30463196967190387,
+      "log_last_gov": 0.07725370304934621,
+      "log_last_pres": 0.16639553630867662,
+      "personal_best": 0.41542676332918155
+     },
+     "theta_winner": {
+      "last_gov": 1.1482360123829696,
+      "last_pres": 1.9122468887256558,
+      "incumbent_running": 0.12738843062963356,
+      "governors_party": 0.005219114929945577,
+      "presidents_party": -0.12461666277811709,
+      "presidents_party_offcycle": -0.7900625530809461,
+      "no_base": -0.8892118749359026,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.9785148122565318
+     },
+     "tau": 0.593077062681293,
+     "anyanwu": {
+      "winner_accuracy": 0.0,
+      "brier": 0.7396363922550586,
+      "log_loss": 1.0892401888883891,
+      "winner_share_mae_pp": 6.341056999749872
+     },
+     "baseline_governors_party": 1.0,
+     "baseline_last_result": 1.0
+    },
+    {
+     "test": 2017,
+     "races": 1,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.050844198848147996,
+      "governors_party": 0.1356640542985349,
+      "presidents_party": 0.004933560453675397,
+      "presidents_party_offcycle": -0.09467610525905633,
+      "no_base": -0.32828211957051395,
+      "log_last_gov": 0.0780982722889477,
+      "log_last_pres": 0.16423215054508652,
+      "personal_best": 0.41896475586179105
+     },
+     "theta_winner": {
+      "last_gov": 1.1729654724187686,
+      "last_pres": 1.8679861279221972,
+      "incumbent_running": 0.0826209299651144,
+      "governors_party": -3.979552780523263e-05,
+      "presidents_party": -0.10015777183872722,
+      "presidents_party_offcycle": -0.3473672365103818,
+      "no_base": -0.8935149506533394,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 1.015621689889045
+     },
+     "tau": 0.58945756289673,
+     "anyanwu": {
+      "winner_accuracy": 0.0,
+      "brier": 0.9032850349961608,
+      "log_loss": 1.4512438537638481,
+      "winner_share_mae_pp": 35.734632775702714
+     },
+     "baseline_governors_party": 1.0,
+     "baseline_last_result": 1.0
+    },
+    {
+     "test": 2018,
+     "races": 2,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.018141134676644223,
+      "governors_party": 0.14187208398296924,
+      "presidents_party": 0.006216303393248423,
+      "presidents_party_offcycle": -0.0920462167475358,
+      "no_base": -0.35915424246189814,
+      "log_last_gov": 0.08188371335528578,
+      "log_last_pres": 0.15410081435171846,
+      "personal_best": 0.3878692042387275
+     },
+     "theta_winner": {
+      "last_gov": 1.1613678605932591,
+      "last_pres": 1.8028839852449017,
+      "incumbent_running": 0.1607167777240821,
+      "governors_party": 0.030895659826852002,
+      "presidents_party": -0.10080606256905154,
+      "presidents_party_offcycle": -0.38423528527526635,
+      "no_base": -0.9250778257089114,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.9563627601287461
+     },
+     "tau": 0.5903902786304003,
+     "anyanwu": {
+      "winner_accuracy": 0.5,
+      "brier": 0.7031080305458066,
+      "log_loss": 1.0023940303945018,
+      "winner_share_mae_pp": 5.354922452448893
+     },
+     "baseline_governors_party": 0.5,
+     "baseline_last_result": 0.5
+    },
+    {
+     "test": 2019,
+     "races": 30,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": -0.01720769835862278,
+      "governors_party": 0.13480913784277654,
+      "presidents_party": 0.008461973824180333,
+      "presidents_party_offcycle": -0.08320150407530796,
+      "no_base": -0.3589283238106786,
+      "log_last_gov": 0.08186221043376479,
+      "log_last_pres": 0.15436538386312842,
+      "personal_best": 0.3946695384592964
+     },
+     "theta_winner": {
+      "last_gov": 1.109212275241576,
+      "last_pres": 1.7900117088429166,
+      "incumbent_running": 0.15913003157178807,
+      "governors_party": -0.0001735258263440135,
+      "presidents_party": -0.060648126177331445,
+      "presidents_party_offcycle": -0.027056816576188625,
+      "no_base": -0.9354754415719949,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 1.0196729908089535
+     },
+     "tau": 0.5867460548966034,
+     "anyanwu": {
+      "winner_accuracy": 0.8666666666666667,
+      "brier": 0.2059880548301998,
+      "log_loss": 0.3810440952181916,
+      "winner_share_mae_pp": 14.961446880067681
+     },
+     "baseline_governors_party": 0.8,
+     "baseline_last_result": 0.8333333333333334
+    },
+    {
+     "test": 2020,
+     "races": 2,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": 0.02299953103493732,
+      "governors_party": 0.16210178421004742,
+      "presidents_party": 0.017977915933453423,
+      "presidents_party_offcycle": -0.13151033346007382,
+      "no_base": -0.3721114975264561,
+      "log_last_gov": 0.07315033983009822,
+      "log_last_pres": 0.17889643705526426,
+      "personal_best": 0.39906484967469097
+     },
+     "theta_winner": {
+      "last_gov": 1.0050075376837428,
+      "last_pres": 2.0314388222597706,
+      "incumbent_running": 0.32369933950878355,
+      "governors_party": 0.033366013102531684,
+      "presidents_party": 0.06617499572617673,
+      "presidents_party_offcycle": -0.1707768007480867,
+      "no_base": -1.1049546138533657,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 1.0829415941724143
+     },
+     "tau": 0.5759549324926205,
+     "anyanwu": {
+      "winner_accuracy": 1.0,
+      "brier": 0.2813306836531112,
+      "log_loss": 0.48575109015473056,
+      "winner_share_mae_pp": 7.760445195156349
+     },
+     "baseline_governors_party": 0.5,
+     "baseline_last_result": 1.0
+    },
+    {
+     "test": 2021,
+     "races": 1,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": 0.0429932933720991,
+      "governors_party": 0.15500814478366806,
+      "presidents_party": 0.018770553237775992,
+      "presidents_party_offcycle": -0.128458264787883,
+      "no_base": -0.3819797214227099,
+      "log_last_gov": 0.07352538015344012,
+      "log_last_pres": 0.17892221634899977,
+      "personal_best": 0.3855373804999912
+     },
+     "theta_winner": {
+      "last_gov": 1.0060774308016638,
+      "last_pres": 2.035635733632269,
+      "incumbent_running": 0.46894829447899333,
+      "governors_party": -0.005572492492604686,
+      "presidents_party": 0.07806338025279459,
+      "presidents_party_offcycle": -0.15905053380046974,
+      "no_base": -1.1223376945947325,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.9820708280970407
+     },
+     "tau": 0.5733322768106712,
+     "anyanwu": {
+      "winner_accuracy": 0.0,
+      "brier": 1.0779669950882051,
+      "log_loss": 1.8543863576240827,
+      "winner_share_mae_pp": 28.46317340200893
+     },
+     "baseline_governors_party": 1.0,
+     "baseline_last_result": 1.0
+    },
+    {
+     "test": 2022,
+     "races": 2,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": 0.03837156901858337,
+      "governors_party": 0.17382216947242915,
+      "presidents_party": 0.016277825294564355,
+      "presidents_party_offcycle": -0.15119099744044825,
+      "no_base": -0.4069829627926288,
+      "log_last_gov": 0.07534758832411417,
+      "log_last_pres": 0.17056586267234586,
+      "personal_best": 0.36822109600553665
+     },
+     "theta_winner": {
+      "last_gov": 1.0510250835868302,
+      "last_pres": 1.9514368590166946,
+      "incumbent_running": 0.42255226595223144,
+      "governors_party": 0.05018916310863264,
+      "presidents_party": 0.055879815738932824,
+      "presidents_party_offcycle": -0.21955524158142534,
+      "no_base": -1.1587035903711738,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.9448038518772548
+     },
+     "tau": 0.5735867236138781,
+     "anyanwu": {
+      "winner_accuracy": 0.5,
+      "brier": 0.5341911865788677,
+      "log_loss": 0.8634505942082737,
+      "winner_share_mae_pp": 14.130120751277335
+     },
+     "baseline_governors_party": 0.5,
+     "baseline_last_result": 0.5
+    },
+    {
+     "test": 2023,
+     "races": 31,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": 0.019312303552568813,
+      "governors_party": 0.18092938843946182,
+      "presidents_party": 0.016505131299276787,
+      "presidents_party_offcycle": -0.11280951674387797,
+      "no_base": -0.39482711772066975,
+      "log_last_gov": 0.0704587152793582,
+      "log_last_pres": 0.17549364794000144,
+      "personal_best": 0.41124730156421
+     },
+     "theta_winner": {
+      "last_gov": 1.0867748342117174,
+      "last_pres": 1.974872592537666,
+      "incumbent_running": 0.31554832474975464,
+      "governors_party": 0.06393996955321213,
+      "presidents_party": 0.04257602849299524,
+      "presidents_party_offcycle": -0.22144642735978085,
+      "no_base": -1.200492081876724,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 1.0368430099304573
+     },
+     "tau": 0.5737414468754699,
+     "anyanwu": {
+      "winner_accuracy": 0.7419354838709677,
+      "brier": 0.38056584380939656,
+      "log_loss": 0.6172081355739816,
+      "winner_share_mae_pp": 12.571072098344123
+     },
+     "baseline_governors_party": 0.6774193548387096,
+     "baseline_last_result": 0.6774193548387096
+    },
+    {
+     "test": 2024,
+     "races": 2,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": 0.05529416508825066,
+      "governors_party": 0.1273974512143891,
+      "presidents_party": 0.0335811174775307,
+      "presidents_party_offcycle": -0.12613524884317204,
+      "no_base": -0.2623335408444768,
+      "log_last_gov": 0.0995662623218477,
+      "log_last_pres": 0.17500775890163967,
+      "personal_best": 0.37395907324012134
+     },
+     "theta_winner": {
+      "last_gov": 1.3830684565109594,
+      "last_pres": 1.9707441768755156,
+      "incumbent_running": 0.4990129131438593,
+      "governors_party": 0.0006172182101803885,
+      "presidents_party": 0.08534681894207234,
+      "presidents_party_offcycle": -0.29072494235529356,
+      "no_base": -1.2005893276445034,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.8458939607036462
+     },
+     "tau": 0.5477749986549045,
+     "anyanwu": {
+      "winner_accuracy": 0.5,
+      "brier": 0.4872268227377772,
+      "log_loss": 0.8251015085232223,
+      "winner_share_mae_pp": 19.408067729450472
+     },
+     "baseline_governors_party": 0.5,
+     "baseline_last_result": 0.5
+    },
+    {
+     "test": 2026,
+     "races": 2,
+     "theta": {
+      "last_gov": 0.0,
+      "last_pres": 0.0,
+      "incumbent_running": 0.05675859310770548,
+      "governors_party": 0.12613495496831534,
+      "presidents_party": 0.034982858245563485,
+      "presidents_party_offcycle": -0.0584951391252523,
+      "no_base": -0.25270775546390906,
+      "log_last_gov": 0.1034041510320357,
+      "log_last_pres": 0.17241779120022896,
+      "personal_best": 0.3619491173858122
+     },
+     "theta_winner": {
+      "last_gov": 1.4087594572032298,
+      "last_pres": 1.9592805434467422,
+      "incumbent_running": 0.5176028743297054,
+      "governors_party": -0.03369549183435149,
+      "presidents_party": 0.09996578397298964,
+      "presidents_party_offcycle": -0.07763592616454308,
+      "no_base": -1.1864624154315817,
+      "log_last_gov": 0.0,
+      "log_last_pres": 0.0,
+      "personal_best": 0.8259451038135666
+     },
+     "tau": 0.5466621339188513,
+     "anyanwu": {
+      "winner_accuracy": 0.5,
+      "brier": 0.5860766711372309,
+      "log_loss": 0.8202958131457719,
+      "winner_share_mae_pp": 29.32901286887253
+     },
+     "baseline_governors_party": 1.0,
+     "baseline_last_result": 1.0
+    }
+   ],
+   "summary": {
+    "races": 177,
+    "anyanwu": {
+     "winner_accuracy": 0.7175141242937854,
+     "brier": 0.37273097029632063,
+     "log_loss": 0.6093788463665377
+    },
+    "baseline_governors_party": 0.7344632768361582,
+    "baseline_last_result": 0.7401129943502824
+   },
+   "final_theta": {
+    "last_gov": 0.0,
+    "last_pres": 0.0,
+    "incumbent_running": 0.07805144915832629,
+    "governors_party": 0.12727709520179661,
+    "presidents_party": 0.03545020308369081,
+    "presidents_party_offcycle": -0.020826921206280262,
+    "no_base": -0.2672100177239263,
+    "log_last_gov": 0.10532524063237782,
+    "log_last_pres": 0.16862995153101992,
+    "personal_best": 0.3357165824397968
+   },
+   "final_theta_winner": {
+    "last_gov": 1.4196726644710835,
+    "last_pres": 1.9104089563327677,
+    "incumbent_running": 0.5884464721956876,
+    "governors_party": -0.03789576295950713,
+    "presidents_party": 0.09931473954853336,
+    "presidents_party_offcycle": -0.14912686566071265,
+    "no_base": -1.2085836189229893,
+    "log_last_gov": 0.0,
+    "log_last_pres": 0.0,
+    "personal_best": 0.784969355582364
+   },
+   "final_tau": 0.5494956299849666
+  }
+ }
+}

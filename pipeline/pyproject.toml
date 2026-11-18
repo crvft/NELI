@@ -10,6 +10,8 @@ dependencies = [
   "beautifulsoup4>=4.12",
   "requests>=2.32",
   "tabulate>=0.10.0",
+  "numpy>=2.5.5",
+  "scipy>=1.18.1",
 ]
 
 [dependency-groups]

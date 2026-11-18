@@ -267,9 +267,11 @@ export function previousComparable(e: Election, all: Election[]) {
   ).sort((a, b) => b.year - a.year)[0];
 }
 
-export type ForecastRow = { personId: string; party: PartyCode; prob: number; share: number; factors: string[] };
+export type ForecastRow = { personId: string; party: PartyCode; prob: number; share: number; factors: string[]; lo?: number; hi?: number; outright?: number };
 
 export function forecast(e: Election, all: Election[], people: Person[]): ForecastRow[] {
+  // Anyanwụ's published forecast when there is one
+  if (e.forecast) return [...e.forecast.rows].sort((a, b) => b.prob - a.prob);
   const prev = previousComparable(e, all);
   const prevTally = prev ? tally(prev) : [];
   const raw = e.candidates.map((c) => {

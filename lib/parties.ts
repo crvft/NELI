@@ -1,7 +1,7 @@
 import registry from './party-registry.json';
 
 /** The parties with their own colour; any other code (100+ minor and historical parties) is valid too. */
-export type MajorParty = 'APC' | 'PDP' | 'LP' | 'NNPP' | 'APGA' | 'ADC' | 'SDP' | 'A' | 'OTH';
+export type MajorParty = 'APC' | 'PDP' | 'LP' | 'NNPP' | 'APGA' | 'ADC' | 'NDC' | 'SDP' | 'A' | 'OTH';
 export type PartyCode = MajorParty | (string & {});
 
 export type Party = {
@@ -22,6 +22,7 @@ const STYLE: Record<string, { color: string; text: string }> = {
   NNPP: { color: 'var(--party-nnpp)', text: 'var(--party-nnpp-text)' },
   APGA: { color: 'var(--party-apga)', text: 'var(--party-apga-text)' },
   ADC: { color: 'var(--party-adc)', text: 'var(--party-adc-text)' },
+  NDC: { color: 'var(--party-ndc)', text: 'var(--party-ndc-text)' },
   SDP: { color: 'var(--party-sdp)', text: 'var(--party-sdp-text)' },
   OTH: { color: 'var(--party-oth)', text: 'var(--party-oth-text)' },
 };
@@ -35,6 +36,8 @@ const NAMES: Record<string, string> = {
   ADC: 'African Democratic Congress',
   SDP: 'Social Democratic Party',
   A: 'Accord',
+  NDC: 'Nigeria Democratic Congress',
+  APM: 'Allied Peoples Movement',
   OTH: 'Other parties',
   'AD-APP': 'Alliance for Democracy / All People’s Party (joint ticket)',
 };

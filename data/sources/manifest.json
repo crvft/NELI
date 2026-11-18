@@ -2267,6 +2267,2391 @@
     "sha256": "73776c7e708d4584eaff0c371a20327c97e68295b8d4644437af76924296b7c2",
     "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
   },
+  "wikipedia:governorship:2027:LA": {
+    "key": "wikipedia:governorship:2027:LA",
+    "title": "2027_Lagos_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2027_Lagos_State_gubernatorial_election&oldid=1385019987",
+    "revision": "1385019987",
+    "retrieved_at": "2026-11-18T17:19:59Z",
+    "sha256": "48dad475842d7c622bcb45879c2de19f90847e6992fb08c7fd69827fda6297d3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2027:OY": {
+    "key": "wikipedia:governorship:2027:OY",
+    "title": "2027_Oyo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2027_Oyo_State_gubernatorial_election&oldid=1376658400",
+    "revision": "1376658400",
+    "retrieved_at": "2026-11-18T17:20:02Z",
+    "sha256": "9037c128ed36ecfdc09a6660f2d2d12c9dbdcb2cb836ed1d5f3da547c89c78e7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abba_Kabir_Yusuf": {
+    "key": "wikipedia:person:Abba_Kabir_Yusuf",
+    "title": "Abba_Kabir_Yusuf",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abba_Kabir_Yusuf&oldid=1382000715",
+    "revision": "1382000715",
+    "retrieved_at": "2026-11-18T17:08:32Z",
+    "sha256": "011526a66f9a44a577e2830285091d0bac7ed042ff5c86ffb4c93f385896b4ff",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abdul'aziz_Abubakar_Yari": {
+    "key": "wikipedia:person:Abdul'aziz_Abubakar_Yari",
+    "title": "Abdul'aziz_Abubakar_Yari",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdul'aziz_Abubakar_Yari&oldid=1382139244",
+    "revision": "1382139244",
+    "retrieved_at": "2026-11-18T17:08:34Z",
+    "sha256": "f85428cc362d83f83612603f3fa732e1b5f6ce78952dafe4c4096257708b5f4d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abdul-Azeez_Olajide_Adediran": {
+    "key": "wikipedia:person:Abdul-Azeez_Olajide_Adediran",
+    "title": "Abdul-Azeez_Olajide_Adediran",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdul-Azeez_Olajide_Adediran&oldid=1382139365",
+    "revision": "1382139365",
+    "retrieved_at": "2026-11-18T17:08:35Z",
+    "sha256": "319291ed2a1fb393e7c551bfb3ce44f29f321d2400de094a69641351d43af6fe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:AbdulRahman_AbdulRazaq": {
+    "key": "wikipedia:person:AbdulRahman_AbdulRazaq",
+    "title": "AbdulRahman_AbdulRazaq",
+    "url": "https://en.wikipedia.org/w/index.php?title=AbdulRahman_AbdulRazaq&oldid=1384406530",
+    "revision": "1384406530",
+    "retrieved_at": "2026-11-18T17:08:36Z",
+    "sha256": "56cdb5bc8a3f8061df7ddc7d1b640ae0ce980b0f7269237e6e18f567b415f7bd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abdulfatah_Ahmed": {
+    "key": "wikipedia:person:Abdulfatah_Ahmed",
+    "title": "Abdulfatah_Ahmed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdulfatah_Ahmed&oldid=1381567714",
+    "revision": "1381567714",
+    "retrieved_at": "2026-11-18T17:08:37Z",
+    "sha256": "fa453ebecc8b13af32d17d189aa3fa8265d724c967b1b15552e24fe13720a9c7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abdulkadir_Balarabe_Musa": {
+    "key": "wikipedia:person:Abdulkadir_Balarabe_Musa",
+    "title": "Abdulkadir_Balarabe_Musa",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdulkadir_Balarabe_Musa&oldid=1362095783",
+    "revision": "1362095783",
+    "retrieved_at": "2026-11-18T17:08:38Z",
+    "sha256": "c1fc7a2e8ad97699bb2a041df5dd1f6668a2a1f232905f39d852cd2cf7663951",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abdulkadir_Kure": {
+    "key": "wikipedia:person:Abdulkadir_Kure",
+    "title": "Abdulkadir_Kure",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdulkadir_Kure&oldid=1370250294",
+    "revision": "1370250294",
+    "retrieved_at": "2026-11-18T17:08:39Z",
+    "sha256": "0bfa172798572ac5df4088052a0ae6bd80a4015d69bde69cfdb8f8d71970e95b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abdullahi_Adamu": {
+    "key": "wikipedia:person:Abdullahi_Adamu",
+    "title": "Abdullahi_Adamu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdullahi_Adamu&oldid=1373131213",
+    "revision": "1373131213",
+    "retrieved_at": "2026-11-18T17:08:40Z",
+    "sha256": "fd6cdbe4d245a1b6d5c2dadbe7b1ed6c2d0dee6a610f9b01476f1c0be2aec02a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abdullahi_Sule": {
+    "key": "wikipedia:person:Abdullahi_Sule",
+    "title": "Abdullahi_Sule",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdullahi_Sule&oldid=1385879330",
+    "revision": "1385879330",
+    "retrieved_at": "2026-11-18T17:08:41Z",
+    "sha256": "8586896621a47a3b4f8e7178a22b1164f7b833524f91ebc46e8995f670ded596",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abdullahi_Umar_Ganduje": {
+    "key": "wikipedia:person:Abdullahi_Umar_Ganduje",
+    "title": "Abdullahi_Umar_Ganduje",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abdullahi_Umar_Ganduje&oldid=1359264481",
+    "revision": "1359264481",
+    "retrieved_at": "2026-11-18T17:08:42Z",
+    "sha256": "3e4f79e177cef5d39a85c9a76b4f9300f66be5a1cea1f97c94024cde37e776be",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abiola_Ajimobi": {
+    "key": "wikipedia:person:Abiola_Ajimobi",
+    "title": "Abiola_Ajimobi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abiola_Ajimobi&oldid=1373135584",
+    "revision": "1373135584",
+    "retrieved_at": "2026-11-18T17:08:44Z",
+    "sha256": "ff19e7124ef1edd6b137d1ffbd2d3ba7ae75f58d470444609fff648efd57d0e7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abu_Ibrahim_(Nigerian_politician)": {
+    "key": "wikipedia:person:Abu_Ibrahim_(Nigerian_politician)",
+    "title": "Abu_Ibrahim_(Nigerian_politician)",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abu_Ibrahim_(Nigerian_politician)&oldid=1346488767",
+    "revision": "1346488767",
+    "retrieved_at": "2026-11-18T17:08:45Z",
+    "sha256": "6c494d5425c9c7222aed22d73fcd6c54889615bfc2e1405d359a9a6ed907b634",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abubakar_Atiku_Bagudu": {
+    "key": "wikipedia:person:Abubakar_Atiku_Bagudu",
+    "title": "Abubakar_Atiku_Bagudu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abubakar_Atiku_Bagudu&oldid=1382963785",
+    "revision": "1382963785",
+    "retrieved_at": "2026-11-18T17:08:46Z",
+    "sha256": "f3fb35eb00d51ea8ded7f5765bc1274164785db8d0f8f3b1ab4986409569383f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abubakar_Audu": {
+    "key": "wikipedia:person:Abubakar_Audu",
+    "title": "Abubakar_Audu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abubakar_Audu&oldid=1379767767",
+    "revision": "1379767767",
+    "retrieved_at": "2026-11-18T17:08:47Z",
+    "sha256": "8e5fd98a4b031c3742881f4345262abf24a3ddc4239de633fcf222e776a66f6c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abubakar_Habu_Hashidu": {
+    "key": "wikipedia:person:Abubakar_Habu_Hashidu",
+    "title": "Abubakar_Habu_Hashidu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abubakar_Habu_Hashidu&oldid=1368914363",
+    "revision": "1368914363",
+    "retrieved_at": "2026-11-18T17:08:48Z",
+    "sha256": "2a8468070e5e2a82bdf0f427ecff2b21922668eceaa6d92027dbfae026ec146e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Abubakar_Sani_Bello": {
+    "key": "wikipedia:person:Abubakar_Sani_Bello",
+    "title": "Abubakar_Sani_Bello",
+    "url": "https://en.wikipedia.org/w/index.php?title=Abubakar_Sani_Bello&oldid=1386225362",
+    "revision": "1386225362",
+    "retrieved_at": "2026-11-18T17:08:49Z",
+    "sha256": "0586e6fffc2d32ef524748e05d447c4672bae440de82a5ca3b4afbb460b7b309",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Achike_Udenwa": {
+    "key": "wikipedia:person:Achike_Udenwa",
+    "title": "Achike_Udenwa",
+    "url": "https://en.wikipedia.org/w/index.php?title=Achike_Udenwa&oldid=1359312328",
+    "revision": "1359312328",
+    "retrieved_at": "2026-11-18T17:08:49Z",
+    "sha256": "2cb4bc6ee55ef384fcd7135141f6580d1882089183951c6300cfe1d8de7265a7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adams_Oshiomhole": {
+    "key": "wikipedia:person:Adams_Oshiomhole",
+    "title": "Adams_Oshiomhole",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adams_Oshiomhole&oldid=1383786682",
+    "revision": "1383786682",
+    "retrieved_at": "2026-11-18T17:08:51Z",
+    "sha256": "76219e13c198256ec51faf10a45f3cbed40d1bd7efa46b71dcdd91254f7f7870",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adamu_Aliero": {
+    "key": "wikipedia:person:Adamu_Aliero",
+    "title": "Adamu_Aliero",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adamu_Aliero&oldid=1373137653",
+    "revision": "1373137653",
+    "retrieved_at": "2026-11-18T17:08:52Z",
+    "sha256": "328b333b8c499e3e2dd54dd6b16f204386085d9c044df0fbbaf80173af1422dc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adamu_Waziri": {
+    "key": "wikipedia:person:Adamu_Waziri",
+    "title": "Adamu_Waziri",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adamu_Waziri&oldid=1361120795",
+    "revision": "1361120795",
+    "retrieved_at": "2026-11-18T17:08:54Z",
+    "sha256": "ec13de7fa0afef7e191250d0d7f1cd41455a8cd50e00e6f78823776ba98a3736",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adebayo_Adefarati": {
+    "key": "wikipedia:person:Adebayo_Adefarati",
+    "title": "Adebayo_Adefarati",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adebayo_Adefarati&oldid=1344492163",
+    "revision": "1344492163",
+    "retrieved_at": "2026-11-18T17:08:54Z",
+    "sha256": "534b06be713dbfe4ce774e8853ca5460001eba6e29960f7a5e3d5b201a092085",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adebayo_Adelabu": {
+    "key": "wikipedia:person:Adebayo_Adelabu",
+    "title": "Adebayo_Adelabu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adebayo_Adelabu&oldid=1383874593",
+    "revision": "1383874593",
+    "retrieved_at": "2026-11-18T17:08:55Z",
+    "sha256": "cdb0d4d34deb0005768ead6e29c46bf4186a2c89a851820987bec592554b14b9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adebayo_Alao-Akala": {
+    "key": "wikipedia:person:Adebayo_Alao-Akala",
+    "title": "Adebayo_Alao-Akala",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adebayo_Alao-Akala&oldid=1373136684",
+    "revision": "1373136684",
+    "retrieved_at": "2026-11-18T17:08:56Z",
+    "sha256": "93bcb971473d12d2a3bd5829135a9dd975b3cd593b6ecec3c3946913cbdca3a5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adebisi_Akande": {
+    "key": "wikipedia:person:Adebisi_Akande",
+    "title": "Adebisi_Akande",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adebisi_Akande&oldid=1376648292",
+    "revision": "1376648292",
+    "retrieved_at": "2026-11-18T17:08:57Z",
+    "sha256": "c1ef9af1670008ac35f2aba1c77eca100fd5442933e92ac2776d59df54d936d0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adekunle_Akinlade": {
+    "key": "wikipedia:person:Adekunle_Akinlade",
+    "title": "Adekunle_Akinlade",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adekunle_Akinlade&oldid=1383636997",
+    "revision": "1383636997",
+    "retrieved_at": "2026-11-18T17:08:58Z",
+    "sha256": "5ec480ab1baabc9ed54a2a577d5d2fda92cda45fe2167936180a27f54e9a64ef",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ademola_Adeleke": {
+    "key": "wikipedia:person:Ademola_Adeleke",
+    "title": "Ademola_Adeleke",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ademola_Adeleke&oldid=1383711139",
+    "revision": "1383711139",
+    "retrieved_at": "2026-11-18T17:08:59Z",
+    "sha256": "d99e57ad07b6485da3fea1a315f72b9b98b42095fd3b7d832f1f848c5c520704",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Adewolu_Ladoja": {
+    "key": "wikipedia:person:Adewolu_Ladoja",
+    "title": "Adewolu_Ladoja",
+    "url": "https://en.wikipedia.org/w/index.php?title=Adewolu_Ladoja&oldid=1385791929",
+    "revision": "1385791929",
+    "retrieved_at": "2026-11-18T17:12:09Z",
+    "sha256": "412574c6fc148c0bce1896c5e2b167b60c83dde45b3e6baf1e4922259fdbeb6a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Agboola_Ajayi": {
+    "key": "wikipedia:person:Agboola_Ajayi",
+    "title": "Agboola_Ajayi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Agboola_Ajayi&oldid=1382569654",
+    "revision": "1382569654",
+    "retrieved_at": "2026-11-18T17:09:00Z",
+    "sha256": "fe97c9c6d8edba2954f37804b3ff35a90901cccc6f7ac00e5ab3c5aa21e3154f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Agbu_Kefas": {
+    "key": "wikipedia:person:Agbu_Kefas",
+    "title": "Agbu_Kefas",
+    "url": "https://en.wikipedia.org/w/index.php?title=Agbu_Kefas&oldid=1379777427",
+    "revision": "1379777427",
+    "retrieved_at": "2026-11-18T17:09:01Z",
+    "sha256": "6d79883a724b62c33420e9faf57f236f42e44ce35f5ec4b93c232fecb5f140ef",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ahmad_Aliyu": {
+    "key": "wikipedia:person:Ahmad_Aliyu",
+    "title": "Ahmad_Aliyu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ahmad_Aliyu&oldid=1386219105",
+    "revision": "1386219105",
+    "retrieved_at": "2026-11-18T17:09:02Z",
+    "sha256": "3983a1082bee4491ca07667f6fcce0466b947c872eaea47defa1c481b6cdd0de",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ahmad_Sani_Yerima": {
+    "key": "wikipedia:person:Ahmad_Sani_Yerima",
+    "title": "Ahmad_Sani_Yerima",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ahmad_Sani_Yerima&oldid=1384848904",
+    "revision": "1384848904",
+    "retrieved_at": "2026-11-18T17:09:03Z",
+    "sha256": "0312f6025fce20ee90e667bf0671797dfbbeb77917ab6b111c9dd3f3e73c8f5a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ahmadu_Fintiri": {
+    "key": "wikipedia:person:Ahmadu_Fintiri",
+    "title": "Ahmadu_Fintiri",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ahmadu_Fintiri&oldid=1378156729",
+    "revision": "1378156729",
+    "retrieved_at": "2026-11-18T17:09:04Z",
+    "sha256": "432a6ac3ed73e25dee7dd701282f15cf2136c55fb409e26e40c9f4ef316f09be",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ahmed_Makarfi": {
+    "key": "wikipedia:person:Ahmed_Makarfi",
+    "title": "Ahmed_Makarfi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ahmed_Makarfi&oldid=1346668458",
+    "revision": "1346668458",
+    "retrieved_at": "2026-11-18T17:09:05Z",
+    "sha256": "d1dcf72e250ce5bff2844d1326f090cb5ce9e9a6c8080727a6a9e4c47096a956",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ahmed_Usman_Ododo": {
+    "key": "wikipedia:person:Ahmed_Usman_Ododo",
+    "title": "Ahmed_Usman_Ododo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ahmed_Usman_Ododo&oldid=1378415568",
+    "revision": "1378415568",
+    "retrieved_at": "2026-11-18T17:09:06Z",
+    "sha256": "7fe72d206ce682753ed83deceeb6ff6070b6c6718975a1565df1952cafec7bf7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Aisha_Alhassan": {
+    "key": "wikipedia:person:Aisha_Alhassan",
+    "title": "Aisha_Alhassan",
+    "url": "https://en.wikipedia.org/w/index.php?title=Aisha_Alhassan&oldid=1385221033",
+    "revision": "1385221033",
+    "retrieved_at": "2026-11-18T17:09:07Z",
+    "sha256": "3e9dfb5a12f78fdab95b7fd1d1afbce33590d5f0f68700b2da141ac5fef9a43f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Aishatu_Dahiru_Ahmed": {
+    "key": "wikipedia:person:Aishatu_Dahiru_Ahmed",
+    "title": "Aishatu_Dahiru_Ahmed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Aishatu_Dahiru_Ahmed&oldid=1373134452",
+    "revision": "1373134452",
+    "retrieved_at": "2026-11-18T17:09:08Z",
+    "sha256": "53aa52d7df9f009bd1ac9c07fe6d26cea800fe35c8fd15f14ef257c71aa58204",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Akachukwu_Sullivan_Nwankpo": {
+    "key": "wikipedia:person:Akachukwu_Sullivan_Nwankpo",
+    "title": "Akachukwu_Sullivan_Nwankpo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Akachukwu_Sullivan_Nwankpo&oldid=1385340202",
+    "revision": "1385340202",
+    "retrieved_at": "2026-11-18T17:09:11Z",
+    "sha256": "f6a60bebf2377ad97ece44edd99a1027b231358990c0e797ddd98a8be5bbe873",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Akinwunmi_Ambode": {
+    "key": "wikipedia:person:Akinwunmi_Ambode",
+    "title": "Akinwunmi_Ambode",
+    "url": "https://en.wikipedia.org/w/index.php?title=Akinwunmi_Ambode&oldid=1373139177",
+    "revision": "1373139177",
+    "retrieved_at": "2026-11-18T17:09:12Z",
+    "sha256": "2acc19bbecd74400e8a4bd7f85f5d4834bc2b38902adb53c46c9c2ed21f8643f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Alex_Otti": {
+    "key": "wikipedia:person:Alex_Otti",
+    "title": "Alex_Otti",
+    "url": "https://en.wikipedia.org/w/index.php?title=Alex_Otti&oldid=1385634752",
+    "revision": "1385634752",
+    "retrieved_at": "2026-11-18T17:09:13Z",
+    "sha256": "efb87f743746714d21ae1519e28188709cced25cc86b58b8416d8858918ec434",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ali_Modu_Sheriff": {
+    "key": "wikipedia:person:Ali_Modu_Sheriff",
+    "title": "Ali_Modu_Sheriff",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ali_Modu_Sheriff&oldid=1379960258",
+    "revision": "1379960258",
+    "retrieved_at": "2026-11-18T17:09:14Z",
+    "sha256": "7addeb6bedf1cc7f0a520e3b061b29c1bd70c4ad0e6138cdefb9bd3f6c1bbb71",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Aliyu_Doma": {
+    "key": "wikipedia:person:Aliyu_Doma",
+    "title": "Aliyu_Doma",
+    "url": "https://en.wikipedia.org/w/index.php?title=Aliyu_Doma&oldid=1355291913",
+    "revision": "1355291913",
+    "retrieved_at": "2026-11-18T17:09:15Z",
+    "sha256": "f4804b854bfa9cd81c89ec9dcbd53283a920cd0b105b62346340f90f0c6ee8db",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Aliyu_Magatakarda_Wamakko": {
+    "key": "wikipedia:person:Aliyu_Magatakarda_Wamakko",
+    "title": "Aliyu_Magatakarda_Wamakko",
+    "url": "https://en.wikipedia.org/w/index.php?title=Aliyu_Magatakarda_Wamakko&oldid=1362095952",
+    "revision": "1362095952",
+    "retrieved_at": "2026-11-18T17:09:16Z",
+    "sha256": "c365e80a202272b03a8a8bb17c5576cb9ac6d958e1f9d2f05bb851d2b27c63b4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Aminu_Bello_Masari": {
+    "key": "wikipedia:person:Aminu_Bello_Masari",
+    "title": "Aminu_Bello_Masari",
+    "url": "https://en.wikipedia.org/w/index.php?title=Aminu_Bello_Masari&oldid=1377531868",
+    "revision": "1377531868",
+    "retrieved_at": "2026-11-18T17:09:17Z",
+    "sha256": "9ad8ab13fb9370cf86e1d2feb15b49e5670542f4f3eedef62ecd0d97a2cef5f6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Aminu_Tambuwal": {
+    "key": "wikipedia:person:Aminu_Tambuwal",
+    "title": "Aminu_Tambuwal",
+    "url": "https://en.wikipedia.org/w/index.php?title=Aminu_Tambuwal&oldid=1377780696",
+    "revision": "1377780696",
+    "retrieved_at": "2026-11-18T17:09:18Z",
+    "sha256": "d23bf184a43db9953856f30a3ba8b350201fcd393346acc97f427ad54c17a59d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Andy_Uba": {
+    "key": "wikipedia:person:Andy_Uba",
+    "title": "Andy_Uba",
+    "url": "https://en.wikipedia.org/w/index.php?title=Andy_Uba&oldid=1359503157",
+    "revision": "1359503157",
+    "retrieved_at": "2026-11-18T17:09:19Z",
+    "sha256": "1376e31e47031e6e692dcca19b98fa56ea8fd1153ad4a38a0bfb1849645a0646",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Asue_Ighodalo": {
+    "key": "wikipedia:person:Asue_Ighodalo",
+    "title": "Asue_Ighodalo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Asue_Ighodalo&oldid=1371991286",
+    "revision": "1371991286",
+    "retrieved_at": "2026-11-18T17:09:20Z",
+    "sha256": "358d94f14b716be3d8bd7be6777a7920fad6dfbee2b136ff74c24b3f95c259ab",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Atiku_Abubakar": {
+    "key": "wikipedia:person:Atiku_Abubakar",
+    "title": "Atiku_Abubakar",
+    "url": "https://en.wikipedia.org/w/index.php?title=Atiku_Abubakar&oldid=1376644386",
+    "revision": "1376644386",
+    "retrieved_at": "2026-11-18T17:09:21Z",
+    "sha256": "671cce104a4e2972ab90d3b17fa4ad4a97cd37e122c6f8bb364b63a3a6454e98",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Attahiru_Bafarawa": {
+    "key": "wikipedia:person:Attahiru_Bafarawa",
+    "title": "Attahiru_Bafarawa",
+    "url": "https://en.wikipedia.org/w/index.php?title=Attahiru_Bafarawa&oldid=1351329513",
+    "revision": "1351329513",
+    "retrieved_at": "2026-11-18T17:09:22Z",
+    "sha256": "de8426edf22c114602bfc5669f24df589f7f3afabeddb8cf6a31022ba55ae533",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ayo_Fayose": {
+    "key": "wikipedia:person:Ayo_Fayose",
+    "title": "Ayo_Fayose",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ayo_Fayose&oldid=1360847742",
+    "revision": "1360847742",
+    "retrieved_at": "2026-11-18T17:09:23Z",
+    "sha256": "85600ecf6b5bae258d7dd44b5c5dd47dc9cd3f842cfd468ca7d40354508a608a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ayogu_Eze": {
+    "key": "wikipedia:person:Ayogu_Eze",
+    "title": "Ayogu_Eze",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ayogu_Eze&oldid=1372527502",
+    "revision": "1372527502",
+    "retrieved_at": "2026-11-18T17:09:24Z",
+    "sha256": "b01458660c24478c54bec3bf2e03f0fe225841910a21b2f124e21b13c403178a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Babagana_Zulum": {
+    "key": "wikipedia:person:Babagana_Zulum",
+    "title": "Babagana_Zulum",
+    "url": "https://en.wikipedia.org/w/index.php?title=Babagana_Zulum&oldid=1383459245",
+    "revision": "1383459245",
+    "retrieved_at": "2026-11-18T17:09:25Z",
+    "sha256": "954d7469109277b1dd0870bcd8597a1eea7722cd5774b06791fd0d18fcf3a9f2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Babajide_Sanwo-Olu": {
+    "key": "wikipedia:person:Babajide_Sanwo-Olu",
+    "title": "Babajide_Sanwo-Olu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Babajide_Sanwo-Olu&oldid=1378321316",
+    "revision": "1378321316",
+    "retrieved_at": "2026-11-18T17:09:26Z",
+    "sha256": "13ac789ccab6c372dd958f9e6c5b0f408a59844f0b968ec9c20828876891ee4f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Babatunde_Fashola": {
+    "key": "wikipedia:person:Babatunde_Fashola",
+    "title": "Babatunde_Fashola",
+    "url": "https://en.wikipedia.org/w/index.php?title=Babatunde_Fashola&oldid=1376645917",
+    "revision": "1376645917",
+    "retrieved_at": "2026-11-18T17:09:27Z",
+    "sha256": "e3acb399921b50ad47065e27b107bda5aba4646e965e1023e46c23e1c9d57444",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bala_Mande": {
+    "key": "wikipedia:person:Bala_Mande",
+    "title": "Bala_Mande",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bala_Mande&oldid=1375623321",
+    "revision": "1375623321",
+    "retrieved_at": "2026-11-18T17:09:28Z",
+    "sha256": "45cad10a6288e575db57e15819c042d821baa7c84be4d14a4f717126a0b7d57a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bala_Mohammed": {
+    "key": "wikipedia:person:Bala_Mohammed",
+    "title": "Bala_Mohammed",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bala_Mohammed&oldid=1380880582",
+    "revision": "1380880582",
+    "retrieved_at": "2026-11-18T17:09:29Z",
+    "sha256": "d0a33dd105f664eabcba88ddfe6169829c5cceb1ab7572ffe158b226aed929d6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bassey_Albert_Akpan": {
+    "key": "wikipedia:person:Bassey_Albert_Akpan",
+    "title": "Bassey_Albert_Akpan",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bassey_Albert_Akpan&oldid=1360829193",
+    "revision": "1360829193",
+    "retrieved_at": "2026-11-18T17:09:30Z",
+    "sha256": "c0bc3acb1cb87a25617ec7d7ff56acf2b363a95218c115f86f102e79d15c45ed",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bassey_Otu": {
+    "key": "wikipedia:person:Bassey_Otu",
+    "title": "Bassey_Otu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bassey_Otu&oldid=1347053874",
+    "revision": "1347053874",
+    "retrieved_at": "2026-11-18T17:09:31Z",
+    "sha256": "1fee6d240c7795b1502b095b922e86cfb0771d5629b6b29178e30527361a8ef9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bello_Matawalle": {
+    "key": "wikipedia:person:Bello_Matawalle",
+    "title": "Bello_Matawalle",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bello_Matawalle&oldid=1381835642",
+    "revision": "1381835642",
+    "retrieved_at": "2026-11-18T17:09:32Z",
+    "sha256": "a388c3dc2ce5146ed84f659e5fc3fa80cd25ac00f5bf41652578ddaf50e98fc4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ben_Ayade": {
+    "key": "wikipedia:person:Ben_Ayade",
+    "title": "Ben_Ayade",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ben_Ayade&oldid=1368322043",
+    "revision": "1368322043",
+    "retrieved_at": "2026-11-18T17:09:33Z",
+    "sha256": "077f47ddf0be08ca293b8b9a590ae0bc113ae2bd07f78133353a1d210d3cb81b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Benard_Odoh": {
+    "key": "wikipedia:person:Benard_Odoh",
+    "title": "Benard_Odoh",
+    "url": "https://en.wikipedia.org/w/index.php?title=Benard_Odoh&oldid=1381071050",
+    "revision": "1381071050",
+    "retrieved_at": "2026-11-18T17:09:34Z",
+    "sha256": "ed3c977ec8762bb506170137a5aa438fd65a812f54dc98033f0a053f5ee80b13",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bindow_Jibrilla": {
+    "key": "wikipedia:person:Bindow_Jibrilla",
+    "title": "Bindow_Jibrilla",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bindow_Jibrilla&oldid=1363203979",
+    "revision": "1363203979",
+    "retrieved_at": "2026-11-18T17:09:35Z",
+    "sha256": "af8100c76ca81a8e7d38efe1e74e4fe6f4d6e1f912e03c6db9b681254d04faaf",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Biodun_Oyebanji": {
+    "key": "wikipedia:person:Biodun_Oyebanji",
+    "title": "Biodun_Oyebanji",
+    "url": "https://en.wikipedia.org/w/index.php?title=Biodun_Oyebanji&oldid=1364773028",
+    "revision": "1364773028",
+    "retrieved_at": "2026-11-18T17:08:43Z",
+    "sha256": "7c03308d87bac70530a7c61c8fddabc915f1287e1559a04786390e13a0369576",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Blessing_Nwagba": {
+    "key": "wikipedia:person:Blessing_Nwagba",
+    "title": "Blessing_Nwagba",
+    "url": "https://en.wikipedia.org/w/index.php?title=Blessing_Nwagba&oldid=1369749558",
+    "revision": "1369749558",
+    "retrieved_at": "2026-11-18T17:09:36Z",
+    "sha256": "792437b50d48ea63a55733ae285638182a2b338bed62a1e5664dce22c4114ef3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bola_Oyebamiji": {
+    "key": "wikipedia:person:Bola_Oyebamiji",
+    "title": "Bola_Oyebamiji",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bola_Oyebamiji&oldid=1377251646",
+    "revision": "1377251646",
+    "retrieved_at": "2026-11-18T17:09:37Z",
+    "sha256": "5d08198f606b37fa38f71a2a3ffd36459d4bc2bcdbda82b4c2e7aa306efe3049",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bola_Tinubu": {
+    "key": "wikipedia:person:Bola_Tinubu",
+    "title": "Bola_Tinubu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bola_Tinubu&oldid=1382289130",
+    "revision": "1382289130",
+    "retrieved_at": "2026-11-18T17:09:37Z",
+    "sha256": "e2714eeb96d173213b1ff793223d6a7245dbc8cfab37c080d7294575f2cf3254",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Boni_Haruna": {
+    "key": "wikipedia:person:Boni_Haruna",
+    "title": "Boni_Haruna",
+    "url": "https://en.wikipedia.org/w/index.php?title=Boni_Haruna&oldid=1347281659",
+    "revision": "1347281659",
+    "retrieved_at": "2026-11-18T17:09:38Z",
+    "sha256": "6a019965e980c26c4ba280eff58058e643ab44074b40139ac07df783a0829628",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bukar_Ibrahim": {
+    "key": "wikipedia:person:Bukar_Ibrahim",
+    "title": "Bukar_Ibrahim",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bukar_Ibrahim&oldid=1381090453",
+    "revision": "1381090453",
+    "retrieved_at": "2026-11-18T17:09:39Z",
+    "sha256": "4720da3cfc4428e68fd77cf2eae4a84756edb4628a47562c7fdb3db2921c72f0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Bukola_Saraki": {
+    "key": "wikipedia:person:Bukola_Saraki",
+    "title": "Bukola_Saraki",
+    "url": "https://en.wikipedia.org/w/index.php?title=Bukola_Saraki&oldid=1384554923",
+    "revision": "1384554923",
+    "retrieved_at": "2026-11-18T17:09:40Z",
+    "sha256": "4ff4b2d0501bb3b98d6d0eadea0cbadfa59ef06a22f92c66d346450ee76c311c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Buruji_Kashamu": {
+    "key": "wikipedia:person:Buruji_Kashamu",
+    "title": "Buruji_Kashamu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Buruji_Kashamu&oldid=1378302506",
+    "revision": "1378302506",
+    "retrieved_at": "2026-11-18T17:09:41Z",
+    "sha256": "2e91380ed0cda98e37ed7341ce65142e69f074a76f7a0f64deca0abbd3fa49c5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Caleb_Mutfwang": {
+    "key": "wikipedia:person:Caleb_Mutfwang",
+    "title": "Caleb_Mutfwang",
+    "url": "https://en.wikipedia.org/w/index.php?title=Caleb_Mutfwang&oldid=1383899588",
+    "revision": "1383899588",
+    "retrieved_at": "2026-11-18T17:09:42Z",
+    "sha256": "7c9d77b4e84bbded439f5fba3c5359d9b067bf32be12b2a36f882147c9216090",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Celestine_Omehia": {
+    "key": "wikipedia:person:Celestine_Omehia",
+    "title": "Celestine_Omehia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Celestine_Omehia&oldid=1355294189",
+    "revision": "1355294189",
+    "retrieved_at": "2026-11-18T17:09:43Z",
+    "sha256": "61fcd82099b6d70c332d75117efbac9317c03001628fe87b479e238c8e1b3f8f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Charles_Soludo": {
+    "key": "wikipedia:person:Charles_Soludo",
+    "title": "Charles_Soludo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Charles_Soludo&oldid=1378008146",
+    "revision": "1378008146",
+    "retrieved_at": "2026-11-18T17:09:43Z",
+    "sha256": "9e35c8d95cc7349cea10ffb9f271dfaab7fd958551a5647ddf62251bbe4f615b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Chimaroke_Nnamani": {
+    "key": "wikipedia:person:Chimaroke_Nnamani",
+    "title": "Chimaroke_Nnamani",
+    "url": "https://en.wikipedia.org/w/index.php?title=Chimaroke_Nnamani&oldid=1373023382",
+    "revision": "1373023382",
+    "retrieved_at": "2026-11-18T17:09:44Z",
+    "sha256": "2b2f5e2f19bc0475c9f2b4c11d731e82c3a2d5007016699823c81eea2453b5fb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Chinwoke_Mbadinuju": {
+    "key": "wikipedia:person:Chinwoke_Mbadinuju",
+    "title": "Chinwoke_Mbadinuju",
+    "url": "https://en.wikipedia.org/w/index.php?title=Chinwoke_Mbadinuju&oldid=1358293691",
+    "revision": "1358293691",
+    "retrieved_at": "2026-11-18T17:09:45Z",
+    "sha256": "b975cc67691965812775a4a194471752424c8f200f8dedf499933b95a10e1d2b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Chris_Ngige": {
+    "key": "wikipedia:person:Chris_Ngige",
+    "title": "Chris_Ngige",
+    "url": "https://en.wikipedia.org/w/index.php?title=Chris_Ngige&oldid=1378259960",
+    "revision": "1378259960",
+    "retrieved_at": "2026-11-18T17:09:46Z",
+    "sha256": "8bafea7847cc79094c0fe32a0e92269083c4a4bfe06eba9bdb21a869e473b7e8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Dakuku_Peterside": {
+    "key": "wikipedia:person:Dakuku_Peterside",
+    "title": "Dakuku_Peterside",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dakuku_Peterside&oldid=1380211186",
+    "revision": "1380211186",
+    "retrieved_at": "2026-11-18T17:09:48Z",
+    "sha256": "7e103c4647ea9490d974dfe140b460d41cea908d19a1dd5ea2e2597824ff56fd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Danbaba_Suntai": {
+    "key": "wikipedia:person:Danbaba_Suntai",
+    "title": "Danbaba_Suntai",
+    "url": "https://en.wikipedia.org/w/index.php?title=Danbaba_Suntai&oldid=1349842034",
+    "revision": "1349842034",
+    "retrieved_at": "2026-11-18T17:09:49Z",
+    "sha256": "e2842eec7726981e2297850a0b4178dc22edf42125f6d56e0ec8d88289142643",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Dapo_Abiodun": {
+    "key": "wikipedia:person:Dapo_Abiodun",
+    "title": "Dapo_Abiodun",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dapo_Abiodun&oldid=1376489838",
+    "revision": "1376489838",
+    "retrieved_at": "2026-11-18T17:09:51Z",
+    "sha256": "48801c28042f76383ff97ab14a8d4387374e45c851b54abf6c3c8a27f757ccb7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Dapo_Sarumi": {
+    "key": "wikipedia:person:Dapo_Sarumi",
+    "title": "Dapo_Sarumi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dapo_Sarumi&oldid=1381209120",
+    "revision": "1381209120",
+    "retrieved_at": "2026-11-18T17:09:51Z",
+    "sha256": "6aeeca3e7275eabfc1e61c4a7564808e6b1abf26f9e6212de1a363529c190503",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Darius_Ishaku": {
+    "key": "wikipedia:person:Darius_Ishaku",
+    "title": "Darius_Ishaku",
+    "url": "https://en.wikipedia.org/w/index.php?title=Darius_Ishaku&oldid=1381673562",
+    "revision": "1381673562",
+    "retrieved_at": "2026-11-18T17:09:53Z",
+    "sha256": "c59087454cfd103fa356a127215a8c363cff71081ce05de1a9876c8432bbbc36",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Dauda_Lawal": {
+    "key": "wikipedia:person:Dauda_Lawal",
+    "title": "Dauda_Lawal",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dauda_Lawal&oldid=1352982761",
+    "revision": "1352982761",
+    "retrieved_at": "2026-11-18T17:09:54Z",
+    "sha256": "e5a483c4e9981a1a00999330f34b32a06bd78f6b75bd2359d21decb5ab9c7c3a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:David_Lyon_(Nigerian_politician)": {
+    "key": "wikipedia:person:David_Lyon_(Nigerian_politician)",
+    "title": "David_Lyon_(Nigerian_politician)",
+    "url": "https://en.wikipedia.org/w/index.php?title=David_Lyon_(Nigerian_politician)&oldid=1355519783",
+    "revision": "1355519783",
+    "retrieved_at": "2026-11-18T17:09:57Z",
+    "sha256": "75d89afabb4e93aaa3a103ebb087df0d9ca5b002b7d65dfe4857b20fc6c498ca",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:David_Ombugadu": {
+    "key": "wikipedia:person:David_Ombugadu",
+    "title": "David_Ombugadu",
+    "url": "https://en.wikipedia.org/w/index.php?title=David_Ombugadu&oldid=1360838361",
+    "revision": "1360838361",
+    "retrieved_at": "2026-11-18T17:09:57Z",
+    "sha256": "9e0d0cdedb18f377e076a088b8fe4550a9643d4b9438c88a415ad0a905f95dcc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:David_Umahi": {
+    "key": "wikipedia:person:David_Umahi",
+    "title": "David_Umahi",
+    "url": "https://en.wikipedia.org/w/index.php?title=David_Umahi&oldid=1378271582",
+    "revision": "1378271582",
+    "retrieved_at": "2026-11-18T17:09:56Z",
+    "sha256": "768011dd2e6fce8a44f6483f3a213e7c9a66200b57dd65ac5f832d5033280e7f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:David_Umaru": {
+    "key": "wikipedia:person:David_Umaru",
+    "title": "David_Umaru",
+    "url": "https://en.wikipedia.org/w/index.php?title=David_Umaru&oldid=1378357140",
+    "revision": "1378357140",
+    "retrieved_at": "2026-11-18T17:09:58Z",
+    "sha256": "35f37c18de66fcdab64682c9307bc7d15c03b2cbccf69d982646a3bd203c7e7c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Diepreye_Alamieyeseigha": {
+    "key": "wikipedia:person:Diepreye_Alamieyeseigha",
+    "title": "Diepreye_Alamieyeseigha",
+    "url": "https://en.wikipedia.org/w/index.php?title=Diepreye_Alamieyeseigha&oldid=1379192978",
+    "revision": "1379192978",
+    "retrieved_at": "2026-11-18T17:09:59Z",
+    "sha256": "d4d72046a473f6281e265b280e96c4cddddf35d993972e04b225b38cbf00058f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Dikko_Umar_Radda": {
+    "key": "wikipedia:person:Dikko_Umar_Radda",
+    "title": "Dikko_Umar_Radda",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dikko_Umar_Radda&oldid=1384853173",
+    "revision": "1384853173",
+    "retrieved_at": "2026-11-18T17:10:00Z",
+    "sha256": "128f0fff6257d7d80abc27bfaeaf8a9f8694db5cb75defef8d4e2d88ea9936d5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Dimeji_Bankole": {
+    "key": "wikipedia:person:Dimeji_Bankole",
+    "title": "Dimeji_Bankole",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dimeji_Bankole&oldid=1373149102",
+    "revision": "1373149102",
+    "retrieved_at": "2026-11-18T17:10:01Z",
+    "sha256": "bc6cff89a06a627d715b081f6f2104ae1b09f266d6dd2f337dce98f6cf8a557f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Dino_Melaye": {
+    "key": "wikipedia:person:Dino_Melaye",
+    "title": "Dino_Melaye",
+    "url": "https://en.wikipedia.org/w/index.php?title=Dino_Melaye&oldid=1377138121",
+    "revision": "1377138121",
+    "retrieved_at": "2026-11-18T17:10:02Z",
+    "sha256": "0cfb2609c9a877861bc2f13834c6f4477dede1b71e57859d52b5937cbcd2a16a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Donald_Duke": {
+    "key": "wikipedia:person:Donald_Duke",
+    "title": "Donald_Duke",
+    "url": "https://en.wikipedia.org/w/index.php?title=Donald_Duke&oldid=1378133091",
+    "revision": "1378133091",
+    "retrieved_at": "2026-11-18T17:10:03Z",
+    "sha256": "5ec52ad40eb7e864ff46280806f6391c3c8e3652b30e753020804780fd064f4a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Douye_Diri": {
+    "key": "wikipedia:person:Douye_Diri",
+    "title": "Douye_Diri",
+    "url": "https://en.wikipedia.org/w/index.php?title=Douye_Diri&oldid=1379582965",
+    "revision": "1379582965",
+    "retrieved_at": "2026-11-18T17:10:04Z",
+    "sha256": "d950893b46774c03c1d20dfcda1772e040184fc9a77bce8826a63be3ca6c6e13",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Emeka_Ihedioha": {
+    "key": "wikipedia:person:Emeka_Ihedioha",
+    "title": "Emeka_Ihedioha",
+    "url": "https://en.wikipedia.org/w/index.php?title=Emeka_Ihedioha&oldid=1379568843",
+    "revision": "1379568843",
+    "retrieved_at": "2026-11-18T17:10:05Z",
+    "sha256": "b8a0a6bd24203c7adaf8884205bec0d855e9ff686beacf0a116a8aaf590597cf",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Emmanuel_Bwacha": {
+    "key": "wikipedia:person:Emmanuel_Bwacha",
+    "title": "Emmanuel_Bwacha",
+    "url": "https://en.wikipedia.org/w/index.php?title=Emmanuel_Bwacha&oldid=1359942532",
+    "revision": "1359942532",
+    "retrieved_at": "2026-11-18T17:10:06Z",
+    "sha256": "c357938dfa1a391a885598e19b77e1534b52964011686ead4dfb1d939f904727",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Emmanuel_Uduaghan": {
+    "key": "wikipedia:person:Emmanuel_Uduaghan",
+    "title": "Emmanuel_Uduaghan",
+    "url": "https://en.wikipedia.org/w/index.php?title=Emmanuel_Uduaghan&oldid=1382094099",
+    "revision": "1382094099",
+    "retrieved_at": "2026-11-18T17:10:08Z",
+    "sha256": "a0aa62f22ae0f49104e9d35804d7955aaa94b184136859117dd2e09108c00270",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Eyitayo_Jegede": {
+    "key": "wikipedia:person:Eyitayo_Jegede",
+    "title": "Eyitayo_Jegede",
+    "url": "https://en.wikipedia.org/w/index.php?title=Eyitayo_Jegede&oldid=1367178365",
+    "revision": "1367178365",
+    "retrieved_at": "2026-11-18T17:10:09Z",
+    "sha256": "0fe8ec55003d9364344eedda244ea22178bd69d335f43c4a54901de13bc74641",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Fatai_Akinade_Akinbade": {
+    "key": "wikipedia:person:Fatai_Akinade_Akinbade",
+    "title": "Fatai_Akinade_Akinbade",
+    "url": "https://en.wikipedia.org/w/index.php?title=Fatai_Akinade_Akinbade&oldid=1343093178",
+    "revision": "1343093178",
+    "retrieved_at": "2026-11-18T17:10:12Z",
+    "sha256": "e6faeeebd009f3f5b18988dda6778238de381aa7e46d878e3d6657d4eb2d111b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Francis_Nwifuru": {
+    "key": "wikipedia:person:Francis_Nwifuru",
+    "title": "Francis_Nwifuru",
+    "url": "https://en.wikipedia.org/w/index.php?title=Francis_Nwifuru&oldid=1364067719",
+    "revision": "1364067719",
+    "retrieved_at": "2026-11-18T17:10:13Z",
+    "sha256": "34b5971e23c7bc24eb75103b26d20f9889237999bbfbfa9a21545b99af520874",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Funsho_Williams": {
+    "key": "wikipedia:person:Funsho_Williams",
+    "title": "Funsho_Williams",
+    "url": "https://en.wikipedia.org/w/index.php?title=Funsho_Williams&oldid=1378307974",
+    "revision": "1378307974",
+    "retrieved_at": "2026-11-18T17:10:14Z",
+    "sha256": "3c2d14e14820604f8443aadbe11376832c6b7abc63c29a1bb4ece4840fd5faca",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Gabriel_Suswam": {
+    "key": "wikipedia:person:Gabriel_Suswam",
+    "title": "Gabriel_Suswam",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gabriel_Suswam&oldid=1379103058",
+    "revision": "1379103058",
+    "retrieved_at": "2026-11-18T17:10:15Z",
+    "sha256": "0e73b6dcae8fa0827d87a94d4f2b1daa1be37973d2058348fc481322ce762e60",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Garba_Yakubu_Lado": {
+    "key": "wikipedia:person:Garba_Yakubu_Lado",
+    "title": "Garba_Yakubu_Lado",
+    "url": "https://en.wikipedia.org/w/index.php?title=Garba_Yakubu_Lado&oldid=1347064576",
+    "revision": "1347064576",
+    "retrieved_at": "2026-11-18T17:10:16Z",
+    "sha256": "5644291406207a93e05be2f5fdddd072cd10b010bd597fa61c78d2683223e07c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Gbadebo_Rhodes-Vivour": {
+    "key": "wikipedia:person:Gbadebo_Rhodes-Vivour",
+    "title": "Gbadebo_Rhodes-Vivour",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gbadebo_Rhodes-Vivour&oldid=1379890292",
+    "revision": "1379890292",
+    "retrieved_at": "2026-11-18T17:10:16Z",
+    "sha256": "8bb9b3851d738405adaa18c3670b4b1ef1059c37b275c0f232b035aff91ff1e4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Gbenga_Daniel": {
+    "key": "wikipedia:person:Gbenga_Daniel",
+    "title": "Gbenga_Daniel",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gbenga_Daniel&oldid=1380925029",
+    "revision": "1380925029",
+    "retrieved_at": "2026-11-18T17:10:17Z",
+    "sha256": "6d78df313f0a89e66184864c9ae29334b0bb06356fc28561becac6e790ac15dd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Gbenga_Olawepo-Hashim": {
+    "key": "wikipedia:person:Gbenga_Olawepo-Hashim",
+    "title": "Gbenga_Olawepo-Hashim",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gbenga_Olawepo-Hashim&oldid=1365408719",
+    "revision": "1365408719",
+    "retrieved_at": "2026-11-18T17:10:18Z",
+    "sha256": "16b997d4b154f3dbcd8e568b94292a357af593070eda1c291ce9e06259723bca",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Gboyega_Nasir_Isiaka": {
+    "key": "wikipedia:person:Gboyega_Nasir_Isiaka",
+    "title": "Gboyega_Nasir_Isiaka",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gboyega_Nasir_Isiaka&oldid=1347912034",
+    "revision": "1347912034",
+    "retrieved_at": "2026-11-18T17:10:19Z",
+    "sha256": "6081cf01a834e4e0feca3c62fbf2abfe624bb33f12fd1f04a97375debb2eb009",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Gboyega_Oyetola": {
+    "key": "wikipedia:person:Gboyega_Oyetola",
+    "title": "Gboyega_Oyetola",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gboyega_Oyetola&oldid=1379381811",
+    "revision": "1379381811",
+    "retrieved_at": "2026-11-18T17:10:20Z",
+    "sha256": "1974caf2dddf963fd3ca1f32d13384fe0e781b520bbd34e5e1de3288b327af78",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:George_Akume": {
+    "key": "wikipedia:person:George_Akume",
+    "title": "George_Akume",
+    "url": "https://en.wikipedia.org/w/index.php?title=George_Akume&oldid=1373136402",
+    "revision": "1373136402",
+    "retrieved_at": "2026-11-18T17:10:21Z",
+    "sha256": "1354511a799fd12dea3ccda6faca54cd410506dc3c4aec37187bb6a2830d88af",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Godswill_Akpabio": {
+    "key": "wikipedia:person:Godswill_Akpabio",
+    "title": "Godswill_Akpabio",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godswill_Akpabio&oldid=1378467991",
+    "revision": "1378467991",
+    "retrieved_at": "2026-11-18T17:10:22Z",
+    "sha256": "671058ec8292862a92355d7e21003e95f25d05835a1a7dcbf9f9d2588b8c7f5c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Godwin_Ezeemo": {
+    "key": "wikipedia:person:Godwin_Ezeemo",
+    "title": "Godwin_Ezeemo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godwin_Ezeemo&oldid=1374618232",
+    "revision": "1374618232",
+    "retrieved_at": "2026-11-18T17:10:23Z",
+    "sha256": "9f397c6e9f314f74b405e5726cf3cc014dcdf3334afd9c411ffe280888611681",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Godwin_Maduka": {
+    "key": "wikipedia:person:Godwin_Maduka",
+    "title": "Godwin_Maduka",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godwin_Maduka&oldid=1375135509",
+    "revision": "1375135509",
+    "retrieved_at": "2026-11-18T17:10:24Z",
+    "sha256": "90de568a85297611b0fb3918e6c53f25dfddbf4415d2ba8f4e4664338a5c6597",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Godwin_Obaseki": {
+    "key": "wikipedia:person:Godwin_Obaseki",
+    "title": "Godwin_Obaseki",
+    "url": "https://en.wikipedia.org/w/index.php?title=Godwin_Obaseki&oldid=1382633837",
+    "revision": "1382633837",
+    "retrieved_at": "2026-11-18T17:10:25Z",
+    "sha256": "b38fc871edbbdee426674ac69ef7adabca514b324ae71d53ea013c214383a77e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Goodluck_Jonathan": {
+    "key": "wikipedia:person:Goodluck_Jonathan",
+    "title": "Goodluck_Jonathan",
+    "url": "https://en.wikipedia.org/w/index.php?title=Goodluck_Jonathan&oldid=1378280337",
+    "revision": "1378280337",
+    "retrieved_at": "2026-11-18T17:10:26Z",
+    "sha256": "55ea297f395d9583755b5a9360d4af0ee15a0434421dc850c9e3cc2fb5a77943",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Great_Ogboru": {
+    "key": "wikipedia:person:Great_Ogboru",
+    "title": "Great_Ogboru",
+    "url": "https://en.wikipedia.org/w/index.php?title=Great_Ogboru&oldid=1376516569",
+    "revision": "1376516569",
+    "retrieved_at": "2026-11-18T17:10:27Z",
+    "sha256": "6a515823c05c100bceaf3d02eace002193e882dcb3908215fe4fbfa9419caf4a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Gregory_Ibe": {
+    "key": "wikipedia:person:Gregory_Ibe",
+    "title": "Gregory_Ibe",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gregory_Ibe&oldid=1382199868",
+    "revision": "1382199868",
+    "retrieved_at": "2026-11-18T17:10:28Z",
+    "sha256": "cad6938276dd6fb7748f03a0093ddf519415cd68a157ddeb79bf215f302a3a64",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Gyang_Pwajok": {
+    "key": "wikipedia:person:Gyang_Pwajok",
+    "title": "Gyang_Pwajok",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gyang_Pwajok&oldid=1344549535",
+    "revision": "1344549535",
+    "retrieved_at": "2026-11-18T17:10:29Z",
+    "sha256": "55df57ff8a12b539163ae75fa39eb32b0489ba30b005676da96c0c7b1c933700",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Halliru_Dauda_Jika": {
+    "key": "wikipedia:person:Halliru_Dauda_Jika",
+    "title": "Halliru_Dauda_Jika",
+    "url": "https://en.wikipedia.org/w/index.php?title=Halliru_Dauda_Jika&oldid=1374840895",
+    "revision": "1374840895",
+    "retrieved_at": "2026-11-18T17:10:31Z",
+    "sha256": "48fc01723a335faec1848622954d0bc7cdba19ecd7047ea2209b69b61a9dc151",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Henry_Seriake_Dickson": {
+    "key": "wikipedia:person:Henry_Seriake_Dickson",
+    "title": "Henry_Seriake_Dickson",
+    "url": "https://en.wikipedia.org/w/index.php?title=Henry_Seriake_Dickson&oldid=1376498482",
+    "revision": "1376498482",
+    "retrieved_at": "2026-11-18T17:10:32Z",
+    "sha256": "e89e58961959429a43fb833d11f65efb5f5e7d7d52e37da326132c8f8872d770",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Herman_Hembe": {
+    "key": "wikipedia:person:Herman_Hembe",
+    "title": "Herman_Hembe",
+    "url": "https://en.wikipedia.org/w/index.php?title=Herman_Hembe&oldid=1379953177",
+    "revision": "1379953177",
+    "retrieved_at": "2026-11-18T17:10:33Z",
+    "sha256": "bc7b87014bb2072633e7ab5d6db605214f325108789a2dd25a6279dcf949d6f5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Hope_Uzodimma": {
+    "key": "wikipedia:person:Hope_Uzodimma",
+    "title": "Hope_Uzodimma",
+    "url": "https://en.wikipedia.org/w/index.php?title=Hope_Uzodimma&oldid=1380527585",
+    "revision": "1380527585",
+    "retrieved_at": "2026-11-18T17:10:34Z",
+    "sha256": "e06c5003ad29c30b8adc23e0777834558473a96362785be6c2e1c2b80d9dd040",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Hyacinth_Alia": {
+    "key": "wikipedia:person:Hyacinth_Alia",
+    "title": "Hyacinth_Alia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Hyacinth_Alia&oldid=1376488056",
+    "revision": "1376488056",
+    "retrieved_at": "2026-11-18T17:10:35Z",
+    "sha256": "1f7e8a57a3a9c0a300be5d4899748972c91b2c72fba523e384d3d55d4eaa9e61",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ibikunle_Amosun": {
+    "key": "wikipedia:person:Ibikunle_Amosun",
+    "title": "Ibikunle_Amosun",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ibikunle_Amosun&oldid=1376175740",
+    "revision": "1376175740",
+    "retrieved_at": "2026-11-18T17:10:36Z",
+    "sha256": "e3ac28eed14ce55b6340f6c86b99580ad655239e3787951a74ef67f93125eae2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ibrahim_Gaidam": {
+    "key": "wikipedia:person:Ibrahim_Gaidam",
+    "title": "Ibrahim_Gaidam",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ibrahim_Gaidam&oldid=1381154212",
+    "revision": "1381154212",
+    "retrieved_at": "2026-11-18T17:10:37Z",
+    "sha256": "bbd67c46eec0f9c29b2f449031adba403a31131d98bdeded653c89293e72397c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ibrahim_Hassan_Dankwambo": {
+    "key": "wikipedia:person:Ibrahim_Hassan_Dankwambo",
+    "title": "Ibrahim_Hassan_Dankwambo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ibrahim_Hassan_Dankwambo&oldid=1376875030",
+    "revision": "1376875030",
+    "retrieved_at": "2026-11-18T17:10:38Z",
+    "sha256": "d94cbfabc55a7a90e60f8fadf3bb78fea84655302cc894c24c341cafdbf90295",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ibrahim_Idris": {
+    "key": "wikipedia:person:Ibrahim_Idris",
+    "title": "Ibrahim_Idris",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ibrahim_Idris&oldid=1378013573",
+    "revision": "1378013573",
+    "retrieved_at": "2026-11-18T17:10:39Z",
+    "sha256": "467df710d914d7d968a89d01bad57c153d7e8805c2797f102753286a453d39e3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ibrahim_Saminu_Turaki": {
+    "key": "wikipedia:person:Ibrahim_Saminu_Turaki",
+    "title": "Ibrahim_Saminu_Turaki",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ibrahim_Saminu_Turaki&oldid=1378277492",
+    "revision": "1378277492",
+    "retrieved_at": "2026-11-18T17:10:41Z",
+    "sha256": "353ddc753041a01666188f26ac03e9d17ece6849882195647ac9491ece63ee6f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ibrahim_Shekarau": {
+    "key": "wikipedia:person:Ibrahim_Shekarau",
+    "title": "Ibrahim_Shekarau",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ibrahim_Shekarau&oldid=1378277465",
+    "revision": "1378277465",
+    "retrieved_at": "2026-11-18T17:10:42Z",
+    "sha256": "8bb338bc2850b085dfeec13a55ee5f0a7e4a2b3d01979e0c97f4da23557647ad",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ibrahim_Shema": {
+    "key": "wikipedia:person:Ibrahim_Shema",
+    "title": "Ibrahim_Shema",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ibrahim_Shema&oldid=1377902374",
+    "revision": "1377902374",
+    "retrieved_at": "2026-11-18T17:10:42Z",
+    "sha256": "3bd89349ee9756399b63d1930091aa127f38a13ad3ccd7623966d479eff29e18",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Idris_Wada": {
+    "key": "wikipedia:person:Idris_Wada",
+    "title": "Idris_Wada",
+    "url": "https://en.wikipedia.org/w/index.php?title=Idris_Wada&oldid=1375979197",
+    "revision": "1375979197",
+    "retrieved_at": "2026-11-18T17:10:44Z",
+    "sha256": "7d00fbda7e73a2b18d658f581f067a517c365c7a6e25111320de764cfa0c63f8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ifeanyi_Ararume": {
+    "key": "wikipedia:person:Ifeanyi_Ararume",
+    "title": "Ifeanyi_Ararume",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ifeanyi_Ararume&oldid=1350633026",
+    "revision": "1350633026",
+    "retrieved_at": "2026-11-18T17:10:45Z",
+    "sha256": "01b046fd24828e005c82f65777cc4044d05aa6fbf05e99c6d04197da597b5c23",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ifeanyi_Odii": {
+    "key": "wikipedia:person:Ifeanyi_Odii",
+    "title": "Ifeanyi_Odii",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ifeanyi_Odii&oldid=1372544297",
+    "revision": "1372544297",
+    "retrieved_at": "2026-11-18T17:10:47Z",
+    "sha256": "ae1853d23d48fe6f5bf026c82c571e6d86ac1b25b3d1ecd96115f2e88861c430",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ifeanyi_Okowa": {
+    "key": "wikipedia:person:Ifeanyi_Okowa",
+    "title": "Ifeanyi_Okowa",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ifeanyi_Okowa&oldid=1381238822",
+    "revision": "1381238822",
+    "retrieved_at": "2026-11-18T17:10:48Z",
+    "sha256": "6b93618ac308fb18c823f75871da2b47bab7725683e230dfe10065a6994fb553",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ifeanyi_Ubah": {
+    "key": "wikipedia:person:Ifeanyi_Ubah",
+    "title": "Ifeanyi_Ubah",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ifeanyi_Ubah&oldid=1365670909",
+    "revision": "1365670909",
+    "retrieved_at": "2026-11-18T17:10:49Z",
+    "sha256": "f735878034c06d62386a35f85769df4f95cb89c2a3ba201aaad986da54fec864",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ifeanyi_Ugwuanyi": {
+    "key": "wikipedia:person:Ifeanyi_Ugwuanyi",
+    "title": "Ifeanyi_Ugwuanyi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ifeanyi_Ugwuanyi&oldid=1378270035",
+    "revision": "1378270035",
+    "retrieved_at": "2026-11-18T17:10:50Z",
+    "sha256": "127ddb74dc65988a6c703f0b33470514e022fb375b9bb5cf08e8e46b2bff7088",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ikedi_Ohakim": {
+    "key": "wikipedia:person:Ikedi_Ohakim",
+    "title": "Ikedi_Ohakim",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ikedi_Ohakim&oldid=1371500589",
+    "revision": "1371500589",
+    "retrieved_at": "2026-11-18T17:10:51Z",
+    "sha256": "3d2966c3e92ecd43a142950fc41c946b2d1e4ee7e17b2068da7d3cdfeda69b8d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Isa_Ashiru_Kudan": {
+    "key": "wikipedia:person:Isa_Ashiru_Kudan",
+    "title": "Isa_Ashiru_Kudan",
+    "url": "https://en.wikipedia.org/w/index.php?title=Isa_Ashiru_Kudan&oldid=1382528912",
+    "revision": "1382528912",
+    "retrieved_at": "2026-11-18T17:10:52Z",
+    "sha256": "b85dff42838df89b9c9f19a85d6dc4333b362fd5b4c9f0bbf639fbbd20d6947e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Isa_Yuguda": {
+    "key": "wikipedia:person:Isa_Yuguda",
+    "title": "Isa_Yuguda",
+    "url": "https://en.wikipedia.org/w/index.php?title=Isa_Yuguda&oldid=1377527975",
+    "revision": "1377527975",
+    "retrieved_at": "2026-11-18T17:10:53Z",
+    "sha256": "4f5af1d7678be6f3c80ba20be7391cdd6200f69f4b254ab9bb0e44a82739afa8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Issa_Aremu": {
+    "key": "wikipedia:person:Issa_Aremu",
+    "title": "Issa_Aremu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Issa_Aremu&oldid=1369795935",
+    "revision": "1369795935",
+    "retrieved_at": "2026-11-18T17:10:54Z",
+    "sha256": "a9451e5b85e96a188db893d6c6b946fc935ee15f47870df2064e1f4e2324d5e3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Iyiola_Omisore": {
+    "key": "wikipedia:person:Iyiola_Omisore",
+    "title": "Iyiola_Omisore",
+    "url": "https://en.wikipedia.org/w/index.php?title=Iyiola_Omisore&oldid=1360411113",
+    "revision": "1360411113",
+    "retrieved_at": "2026-11-18T17:10:55Z",
+    "sha256": "f718370b24b8a15cde7f37bcd1fe6020876eb85deab3a6dee48f361aa571f5ca",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:James_Ibori": {
+    "key": "wikipedia:person:James_Ibori",
+    "title": "James_Ibori",
+    "url": "https://en.wikipedia.org/w/index.php?title=James_Ibori&oldid=1383661787",
+    "revision": "1383661787",
+    "retrieved_at": "2026-11-18T17:10:56Z",
+    "sha256": "8cc97a6d6b28e0ebf0a19bef1f97cb547043984645d196cf1fd5597b5779797d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Jeremiah_Useni": {
+    "key": "wikipedia:person:Jeremiah_Useni",
+    "title": "Jeremiah_Useni",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jeremiah_Useni&oldid=1375355922",
+    "revision": "1375355922",
+    "retrieved_at": "2026-11-18T17:10:57Z",
+    "sha256": "0556add1734ade26353c2af2981fa3630eae7a26a5fc024953a93e5ac4dc08cc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Jimi_Agbaje": {
+    "key": "wikipedia:person:Jimi_Agbaje",
+    "title": "Jimi_Agbaje",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jimi_Agbaje&oldid=1373132851",
+    "revision": "1373132851",
+    "retrieved_at": "2026-11-18T17:10:58Z",
+    "sha256": "c2c65017bd2c3b7d0cf367dca4ca418ed9f83f7518fd213dfcc9d36a1420cebb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:John_James_Akpan_Udo-Edehe": {
+    "key": "wikipedia:person:John_James_Akpan_Udo-Edehe",
+    "title": "John_James_Akpan_Udo-Edehe",
+    "url": "https://en.wikipedia.org/w/index.php?title=John_James_Akpan_Udo-Edehe&oldid=1350946023",
+    "revision": "1350946023",
+    "retrieved_at": "2026-11-18T17:10:59Z",
+    "sha256": "0cd0c256b8cf0acb84d3e9d2823177852c3dc96850dec63940519a8db2ba2097",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:John_Owan_Enoh": {
+    "key": "wikipedia:person:John_Owan_Enoh",
+    "title": "John_Owan_Enoh",
+    "url": "https://en.wikipedia.org/w/index.php?title=John_Owan_Enoh&oldid=1378144489",
+    "revision": "1378144489",
+    "retrieved_at": "2026-11-18T17:11:00Z",
+    "sha256": "4f620d504f292308b17e235c0bc5a59b0ab0f09c049b4b7938ff087a3be25465",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Jolly_Nyame": {
+    "key": "wikipedia:person:Jolly_Nyame",
+    "title": "Jolly_Nyame",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jolly_Nyame&oldid=1347327654",
+    "revision": "1347327654",
+    "retrieved_at": "2026-11-18T17:11:01Z",
+    "sha256": "0c1f23e432eb31e9c60540993ffa6252b1edae3972c284cf5318a92511100088",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Jonah_David_Jang": {
+    "key": "wikipedia:person:Jonah_David_Jang",
+    "title": "Jonah_David_Jang",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jonah_David_Jang&oldid=1378396953",
+    "revision": "1378396953",
+    "retrieved_at": "2026-11-18T17:11:02Z",
+    "sha256": "02144540f5a20cc6a352a127c6d0715b9c5c490e5b1b69860e859ce30104b1b3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Jonathan_Asake": {
+    "key": "wikipedia:person:Jonathan_Asake",
+    "title": "Jonathan_Asake",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jonathan_Asake&oldid=1359942364",
+    "revision": "1359942364",
+    "retrieved_at": "2026-11-18T17:11:03Z",
+    "sha256": "b6c34686b33eb69952da3b32fd9b6dad4a5d391b08f6f2d5db587241877569f7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Joshua_Dariye": {
+    "key": "wikipedia:person:Joshua_Dariye",
+    "title": "Joshua_Dariye",
+    "url": "https://en.wikipedia.org/w/index.php?title=Joshua_Dariye&oldid=1366837459",
+    "revision": "1366837459",
+    "retrieved_at": "2026-11-18T17:11:04Z",
+    "sha256": "52773d25458da93edf7851b08a4737d3a9dc17aa5004b65e71a639e388376b40",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Julius_Ucha": {
+    "key": "wikipedia:person:Julius_Ucha",
+    "title": "Julius_Ucha",
+    "url": "https://en.wikipedia.org/w/index.php?title=Julius_Ucha&oldid=1350632442",
+    "revision": "1350632442",
+    "retrieved_at": "2026-11-18T17:11:05Z",
+    "sha256": "8bff67a7a0c8cd565cbcf5d509ede0e53d0ae88c1c2975cf3e26e061a4244019",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Kashim_Ibrahim-Imam": {
+    "key": "wikipedia:person:Kashim_Ibrahim-Imam",
+    "title": "Kashim_Ibrahim-Imam",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kashim_Ibrahim-Imam&oldid=1345932847",
+    "revision": "1345932847",
+    "retrieved_at": "2026-11-18T17:11:06Z",
+    "sha256": "3950ba17e0eb91a4f611bb5c9a8b8a39e7b805c8779b7c97b768753d92e95139",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Kashim_Shettima": {
+    "key": "wikipedia:person:Kashim_Shettima",
+    "title": "Kashim_Shettima",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kashim_Shettima&oldid=1379585793",
+    "revision": "1379585793",
+    "retrieved_at": "2026-11-18T17:11:07Z",
+    "sha256": "420d68b86e837941056b55ecd7c4aa2a1351f1896ff039755db4ab47df4f570f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Kayode_Fayemi": {
+    "key": "wikipedia:person:Kayode_Fayemi",
+    "title": "Kayode_Fayemi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kayode_Fayemi&oldid=1347348985",
+    "revision": "1347348985",
+    "retrieved_at": "2026-11-18T17:11:08Z",
+    "sha256": "d3dab5f369f18a94ca3c75287f864e68a046059162ed2c30e32bd23f586449d0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Kolapo_Olushola": {
+    "key": "wikipedia:person:Kolapo_Olushola",
+    "title": "Kolapo_Olushola",
+    "url": "https://en.wikipedia.org/w/index.php?title=Kolapo_Olushola&oldid=1378330036",
+    "revision": "1378330036",
+    "retrieved_at": "2026-11-18T17:11:09Z",
+    "sha256": "23b49b19a36fef51f4df073971f7b5c9117ac4c16d0458427b07dfb2e221c2bc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Labaran_Maku": {
+    "key": "wikipedia:person:Labaran_Maku",
+    "title": "Labaran_Maku",
+    "url": "https://en.wikipedia.org/w/index.php?title=Labaran_Maku&oldid=1373612580",
+    "revision": "1373612580",
+    "retrieved_at": "2026-11-18T17:11:10Z",
+    "sha256": "53e8762b2160e09b09cef9ee2be7c86240663fc346a42845865ff8ebd4a3b89e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Lam_Adesina": {
+    "key": "wikipedia:person:Lam_Adesina",
+    "title": "Lam_Adesina",
+    "url": "https://en.wikipedia.org/w/index.php?title=Lam_Adesina&oldid=1376499326",
+    "revision": "1376499326",
+    "retrieved_at": "2026-11-18T17:11:11Z",
+    "sha256": "afabee3f28b4428aa37e0a7443889f40fb548a409b2e42cf9d9faef76a82949e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Linus_Okorie": {
+    "key": "wikipedia:person:Linus_Okorie",
+    "title": "Linus_Okorie",
+    "url": "https://en.wikipedia.org/w/index.php?title=Linus_Okorie&oldid=1373468434",
+    "revision": "1373468434",
+    "retrieved_at": "2026-11-18T17:11:12Z",
+    "sha256": "d173f08edaeb9e7e8c2039a86410d1b89596957c3b80e398ffcd0d418464496c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Liyel_Imoke": {
+    "key": "wikipedia:person:Liyel_Imoke",
+    "title": "Liyel_Imoke",
+    "url": "https://en.wikipedia.org/w/index.php?title=Liyel_Imoke&oldid=1375812470",
+    "revision": "1375812470",
+    "retrieved_at": "2026-11-18T17:11:12Z",
+    "sha256": "3c212560fd150045ed14ca352e8611b7f9510b968585926c0b4db6ae7ff360a4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Lucky_Aiyedatiwa": {
+    "key": "wikipedia:person:Lucky_Aiyedatiwa",
+    "title": "Lucky_Aiyedatiwa",
+    "url": "https://en.wikipedia.org/w/index.php?title=Lucky_Aiyedatiwa&oldid=1370165893",
+    "revision": "1370165893",
+    "retrieved_at": "2026-11-18T17:11:13Z",
+    "sha256": "0abb9136464a094e8f90855938ffce1ea37bd130eeafc30e361b9743347fe3fd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Lucky_Igbinedion": {
+    "key": "wikipedia:person:Lucky_Igbinedion",
+    "title": "Lucky_Igbinedion",
+    "url": "https://en.wikipedia.org/w/index.php?title=Lucky_Igbinedion&oldid=1366730255",
+    "revision": "1366730255",
+    "retrieved_at": "2026-11-18T17:11:14Z",
+    "sha256": "b73ec6e7372d0cbc6577fc26c38ce3b93840e787bf86b25e8a6f7d067deda2e9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Lucky_Imasuen": {
+    "key": "wikipedia:person:Lucky_Imasuen",
+    "title": "Lucky_Imasuen",
+    "url": "https://en.wikipedia.org/w/index.php?title=Lucky_Imasuen&oldid=1368919807",
+    "revision": "1368919807",
+    "retrieved_at": "2026-11-18T17:11:15Z",
+    "sha256": "6dfdcba8b99c35c9912e28430da8abb96860251477c89e88193b725b133987a4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Magaji_Abdullahi": {
+    "key": "wikipedia:person:Magaji_Abdullahi",
+    "title": "Magaji_Abdullahi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Magaji_Abdullahi&oldid=1375623002",
+    "revision": "1375623002",
+    "retrieved_at": "2026-11-18T17:11:16Z",
+    "sha256": "9e0e31988212d5139b1542b9132e01622225786c4cc8d438afb8da8f811e1924",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mahmud_Shinkafi": {
+    "key": "wikipedia:person:Mahmud_Shinkafi",
+    "title": "Mahmud_Shinkafi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mahmud_Shinkafi&oldid=1376647589",
+    "revision": "1376647589",
+    "retrieved_at": "2026-11-18T17:11:17Z",
+    "sha256": "b9d6020d8af884673c2c8eeef9afd8ab714ac1948e465b1d018af4ad75c4de79",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mai_Mala_Buni": {
+    "key": "wikipedia:person:Mai_Mala_Buni",
+    "title": "Mai_Mala_Buni",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mai_Mala_Buni&oldid=1373166581",
+    "revision": "1373166581",
+    "retrieved_at": "2026-11-18T17:11:18Z",
+    "sha256": "c115b6fc9d6ad23f62591f2913136eb8c2f776cb31e344521d1120622f8a03a8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mamman_Bello_Ali": {
+    "key": "wikipedia:person:Mamman_Bello_Ali",
+    "title": "Mamman_Bello_Ali",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mamman_Bello_Ali&oldid=1360624778",
+    "revision": "1360624778",
+    "retrieved_at": "2026-11-18T17:11:20Z",
+    "sha256": "a6ecb3ea8507c73cb7031bdf5508ac8815a0012ef555e782bb8e51e7334a00e9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Martin_Elechi": {
+    "key": "wikipedia:person:Martin_Elechi",
+    "title": "Martin_Elechi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Martin_Elechi&oldid=1377253152",
+    "revision": "1377253152",
+    "retrieved_at": "2026-11-18T17:11:21Z",
+    "sha256": "b7975a443269a72dc25a6efd310ff7813329e3db28c7df5b529a6dfc9df421d0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mohammed_Abdullahi_Abubakar": {
+    "key": "wikipedia:person:Mohammed_Abdullahi_Abubakar",
+    "title": "Mohammed_Abdullahi_Abubakar",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mohammed_Abdullahi_Abubakar&oldid=1373130068",
+    "revision": "1373130068",
+    "retrieved_at": "2026-11-18T17:11:22Z",
+    "sha256": "5d252f7194fcf47d50e13fe96cf0da18de9f2f18d8a6fb4da583fd3f01898b55",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mohammed_Alkali": {
+    "key": "wikipedia:person:Mohammed_Alkali",
+    "title": "Mohammed_Alkali",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mohammed_Alkali&oldid=1362097323",
+    "revision": "1362097323",
+    "retrieved_at": "2026-11-18T17:11:23Z",
+    "sha256": "c7662cf0b6025ede60f51e3a40002aedc34c2f0ace4314dfc9da29723762bb01",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mohammed_Badaru_Abubakar": {
+    "key": "wikipedia:person:Mohammed_Badaru_Abubakar",
+    "title": "Mohammed_Badaru_Abubakar",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mohammed_Badaru_Abubakar&oldid=1366699332",
+    "revision": "1366699332",
+    "retrieved_at": "2026-11-18T17:11:24Z",
+    "sha256": "dbd5744f579398723df1263fc3c5127670d44f11192b8d872d6cfe0ff3329c9e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mohammed_Danjuma_Goje": {
+    "key": "wikipedia:person:Mohammed_Danjuma_Goje",
+    "title": "Mohammed_Danjuma_Goje",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mohammed_Danjuma_Goje&oldid=1378175406",
+    "revision": "1378175406",
+    "retrieved_at": "2026-11-18T17:11:25Z",
+    "sha256": "18ee092032eec64d4313e626affa1f46d7ed13dc73b745b760bdefc9f5da2fd7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mohammed_Goni": {
+    "key": "wikipedia:person:Mohammed_Goni",
+    "title": "Mohammed_Goni",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mohammed_Goni&oldid=1376484876",
+    "revision": "1376484876",
+    "retrieved_at": "2026-11-18T17:11:26Z",
+    "sha256": "085f7d621f98d269d537b542b821aebfbcb615ea83f6ede39159ff8b5431e486",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mohammed_Kaliel": {
+    "key": "wikipedia:person:Mohammed_Kaliel",
+    "title": "Mohammed_Kaliel",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mohammed_Kaliel&oldid=1372659885",
+    "revision": "1372659885",
+    "retrieved_at": "2026-11-18T17:11:27Z",
+    "sha256": "09ef37709e46ef2068b034f79b3353d5b582748d37d531d0917e092ddcd742e3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mohammed_Lawal": {
+    "key": "wikipedia:person:Mohammed_Lawal",
+    "title": "Mohammed_Lawal",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mohammed_Lawal&oldid=1364464193",
+    "revision": "1364464193",
+    "retrieved_at": "2026-11-18T17:11:28Z",
+    "sha256": "6f38b04513ef7fe5d5b00eb664f4b3c56fc00aadfe289ccf566493b6b7bea04c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mohammed_Umar_Bago": {
+    "key": "wikipedia:person:Mohammed_Umar_Bago",
+    "title": "Mohammed_Umar_Bago",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mohammed_Umar_Bago&oldid=1383712062",
+    "revision": "1383712062",
+    "retrieved_at": "2026-11-18T17:11:30Z",
+    "sha256": "2e4488430de5883c181c7f82d9a442023decf7d80304afc8f0372cc4b864aeb9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Monday_Okpebholo": {
+    "key": "wikipedia:person:Monday_Okpebholo",
+    "title": "Monday_Okpebholo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Monday_Okpebholo&oldid=1379773576",
+    "revision": "1379773576",
+    "retrieved_at": "2026-11-18T17:11:31Z",
+    "sha256": "870ec84527c5ba32eb373c88c0c6568c7630d4f5b3991cb51fdd51fedb978436",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Muhammad_Inuwa_Yahaya": {
+    "key": "wikipedia:person:Muhammad_Inuwa_Yahaya",
+    "title": "Muhammad_Inuwa_Yahaya",
+    "url": "https://en.wikipedia.org/w/index.php?title=Muhammad_Inuwa_Yahaya&oldid=1378327709",
+    "revision": "1378327709",
+    "retrieved_at": "2026-11-18T17:11:33Z",
+    "sha256": "b64525276fb5aa31d11ffb9505213f90af619cf0c3ae24b998307231fa1ab96a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Muhammadu_Buhari": {
+    "key": "wikipedia:person:Muhammadu_Buhari",
+    "title": "Muhammadu_Buhari",
+    "url": "https://en.wikipedia.org/w/index.php?title=Muhammadu_Buhari&oldid=1383246156",
+    "revision": "1383246156",
+    "retrieved_at": "2026-11-18T17:11:34Z",
+    "sha256": "c0788ca879965c0221dffd81522905f7e7caf332fadc5812cd457fe985882e32",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mukhtar_Shehu_Idris": {
+    "key": "wikipedia:person:Mukhtar_Shehu_Idris",
+    "title": "Mukhtar_Shehu_Idris",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mukhtar_Shehu_Idris&oldid=1385073761",
+    "revision": "1385073761",
+    "retrieved_at": "2026-11-18T17:11:36Z",
+    "sha256": "620c7da716bb53d04511deddba6bc52da0e6ec1073eb9ce88c548c2115752044",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mukhtar_Yero": {
+    "key": "wikipedia:person:Mukhtar_Yero",
+    "title": "Mukhtar_Yero",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mukhtar_Yero&oldid=1385537591",
+    "revision": "1385537591",
+    "retrieved_at": "2026-11-18T17:11:35Z",
+    "sha256": "9cfe26cdb4c78e588ac2232a8e3794c8c1606b37d6399463d3d1e2af572500f8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Murtala_Nyako": {
+    "key": "wikipedia:person:Murtala_Nyako",
+    "title": "Murtala_Nyako",
+    "url": "https://en.wikipedia.org/w/index.php?title=Murtala_Nyako&oldid=1378394074",
+    "revision": "1378394074",
+    "retrieved_at": "2026-11-18T17:11:37Z",
+    "sha256": "b29e96fc22d3586a34415d659af31e9fe854135ee7978784a006fd4ffe1c5c97",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Musiliu_Obanikoro": {
+    "key": "wikipedia:person:Musiliu_Obanikoro",
+    "title": "Musiliu_Obanikoro",
+    "url": "https://en.wikipedia.org/w/index.php?title=Musiliu_Obanikoro&oldid=1378329677",
+    "revision": "1378329677",
+    "retrieved_at": "2026-11-18T17:11:38Z",
+    "sha256": "eb6f62b748ff47469e663134b04753cdfceb90847dd7e052d46cbee061d75045",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Mustafa_Bello": {
+    "key": "wikipedia:person:Mustafa_Bello",
+    "title": "Mustafa_Bello",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mustafa_Bello&oldid=1379720506",
+    "revision": "1379720506",
+    "retrieved_at": "2026-11-18T17:11:39Z",
+    "sha256": "704fb63a11b36f12acf487f8931751a0f7dedee45e2388efc60f3fdc6f0c0df9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Najeem_Salaam": {
+    "key": "wikipedia:person:Najeem_Salaam",
+    "title": "Najeem_Salaam",
+    "url": "https://en.wikipedia.org/w/index.php?title=Najeem_Salaam&oldid=1371624710",
+    "revision": "1371624710",
+    "retrieved_at": "2026-11-18T17:11:39Z",
+    "sha256": "70421175ad04f8738c5f542374611020dd82f9cbecb259c98c0b42f827a31a73",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Namadi_Sambo": {
+    "key": "wikipedia:person:Namadi_Sambo",
+    "title": "Namadi_Sambo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Namadi_Sambo&oldid=1383734458",
+    "revision": "1383734458",
+    "retrieved_at": "2026-11-18T17:11:29Z",
+    "sha256": "336fcd299492b610f463981bd48941878f788b9afc14340a3c66a1d43bcbd57c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Nasir_El-Rufai": {
+    "key": "wikipedia:person:Nasir_El-Rufai",
+    "title": "Nasir_El-Rufai",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nasir_El-Rufai&oldid=1378275520",
+    "revision": "1378275520",
+    "retrieved_at": "2026-11-18T17:11:40Z",
+    "sha256": "5984a98e56ce0002fee6b11a5e24561b3c42d4d178d84bda4876952c7c90dcee",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Nasir_Idris": {
+    "key": "wikipedia:person:Nasir_Idris",
+    "title": "Nasir_Idris",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nasir_Idris&oldid=1376659251",
+    "revision": "1376659251",
+    "retrieved_at": "2026-11-18T17:11:41Z",
+    "sha256": "ba8ff68a23821289d51b736de5bbd88d937e1e609908bfec079d0c938206f072",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Nasir_Yusuf_Gawuna": {
+    "key": "wikipedia:person:Nasir_Yusuf_Gawuna",
+    "title": "Nasir_Yusuf_Gawuna",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nasir_Yusuf_Gawuna&oldid=1377461165",
+    "revision": "1377461165",
+    "retrieved_at": "2026-11-18T17:11:42Z",
+    "sha256": "dffdd366ff6cdf183af36c7e03b63117a104249b056b9b2804fe8ff7f8d33dbe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Niyi_Adebayo": {
+    "key": "wikipedia:person:Niyi_Adebayo",
+    "title": "Niyi_Adebayo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Niyi_Adebayo&oldid=1375789451",
+    "revision": "1375789451",
+    "retrieved_at": "2026-11-18T17:11:43Z",
+    "sha256": "29bd12846445edcc6d30822aa042a0d0d450950e3de6de15d7a4ffffcf5887e5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Nuhu_Ribadu": {
+    "key": "wikipedia:person:Nuhu_Ribadu",
+    "title": "Nuhu_Ribadu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nuhu_Ribadu&oldid=1375910472",
+    "revision": "1375910472",
+    "retrieved_at": "2026-11-18T17:11:45Z",
+    "sha256": "3f8953ca528a86a4dcf6493a8ca4be5ed276bc7c3002bae28ea876fc8791ab16",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Nyesom_Wike": {
+    "key": "wikipedia:person:Nyesom_Wike",
+    "title": "Nyesom_Wike",
+    "url": "https://en.wikipedia.org/w/index.php?title=Nyesom_Wike&oldid=1382622246",
+    "revision": "1382622246",
+    "retrieved_at": "2026-11-18T17:10:10Z",
+    "sha256": "f8c38c224ba6cf8a86f59f74b51799114c194b058231b4fa56d39dd0283b9f91",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Obadiah_Mailafia": {
+    "key": "wikipedia:person:Obadiah_Mailafia",
+    "title": "Obadiah_Mailafia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Obadiah_Mailafia&oldid=1359833574",
+    "revision": "1359833574",
+    "retrieved_at": "2026-11-18T17:11:46Z",
+    "sha256": "4aa13a7e0b107b3544e91ca67f34ec2817b4fba04f44428391bcd1b78b9b69e2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ogbonnaya_Onu": {
+    "key": "wikipedia:person:Ogbonnaya_Onu",
+    "title": "Ogbonnaya_Onu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ogbonnaya_Onu&oldid=1377459120",
+    "revision": "1377459120",
+    "retrieved_at": "2026-11-18T17:11:48Z",
+    "sha256": "db9cdee4dbf64b6714a507d040fb6d2d8aaaa22e4e4337665b8245fc52765484",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Okezie_Ikpeazu": {
+    "key": "wikipedia:person:Okezie_Ikpeazu",
+    "title": "Okezie_Ikpeazu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Okezie_Ikpeazu&oldid=1374912395",
+    "revision": "1374912395",
+    "retrieved_at": "2026-11-18T17:11:49Z",
+    "sha256": "a18890f9df18e991a8d71b7b0334939235c4ca187f1e29b47275b22bc6f2e184",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Oladipupo_Olatunde_Adebutu": {
+    "key": "wikipedia:person:Oladipupo_Olatunde_Adebutu",
+    "title": "Oladipupo_Olatunde_Adebutu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Oladipupo_Olatunde_Adebutu&oldid=1373131530",
+    "revision": "1373131530",
+    "retrieved_at": "2026-11-18T17:11:50Z",
+    "sha256": "cac2c2e8f88eaa7b33197bc9ec2d9c5615921588fd64bc52cdaf5912ba343e4d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Olagunsoye_Oyinlola": {
+    "key": "wikipedia:person:Olagunsoye_Oyinlola",
+    "title": "Olagunsoye_Oyinlola",
+    "url": "https://en.wikipedia.org/w/index.php?title=Olagunsoye_Oyinlola&oldid=1376498259",
+    "revision": "1376498259",
+    "retrieved_at": "2026-11-18T17:11:51Z",
+    "sha256": "4627689c8407c9b410c82c57e65b771e1671be2fe2ac4048d6d7bb6d6070138d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Olumide_Akpata": {
+    "key": "wikipedia:person:Olumide_Akpata",
+    "title": "Olumide_Akpata",
+    "url": "https://en.wikipedia.org/w/index.php?title=Olumide_Akpata&oldid=1365097380",
+    "revision": "1365097380",
+    "retrieved_at": "2026-11-18T17:11:52Z",
+    "sha256": "5ebc166b0ab98797f94dc81dc4fa2bfe07f7ac243fb59ddb082e6a373b458e4e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Olusegun_Agagu": {
+    "key": "wikipedia:person:Olusegun_Agagu",
+    "title": "Olusegun_Agagu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Olusegun_Agagu&oldid=1372770948",
+    "revision": "1372770948",
+    "retrieved_at": "2026-11-18T17:11:53Z",
+    "sha256": "d496f068fd816d7845d3d415bd8f94eb8dfe457df7bdf6c3b52196d4b9d439f6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Olusegun_Mimiko": {
+    "key": "wikipedia:person:Olusegun_Mimiko",
+    "title": "Olusegun_Mimiko",
+    "url": "https://en.wikipedia.org/w/index.php?title=Olusegun_Mimiko&oldid=1379439279",
+    "revision": "1379439279",
+    "retrieved_at": "2026-11-18T17:11:54Z",
+    "sha256": "1f004456b88514df221cdbafe0da396c397da0b841bbdf36abec63b4ae7e851d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Olusegun_Oni": {
+    "key": "wikipedia:person:Olusegun_Oni",
+    "title": "Olusegun_Oni",
+    "url": "https://en.wikipedia.org/w/index.php?title=Olusegun_Oni&oldid=1377878485",
+    "revision": "1377878485",
+    "retrieved_at": "2026-11-18T17:11:55Z",
+    "sha256": "03a147e1bf4498a613335d000029bda75cc58cf78e396b785846e61ee75435e6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Olusegun_Osoba": {
+    "key": "wikipedia:person:Olusegun_Osoba",
+    "title": "Olusegun_Osoba",
+    "url": "https://en.wikipedia.org/w/index.php?title=Olusegun_Osoba&oldid=1378397380",
+    "revision": "1378397380",
+    "retrieved_at": "2026-11-18T17:11:56Z",
+    "sha256": "2fac76c1fb48d7a9df88ebb8228a6ca1f1aead3f55c002dcfeaddb82521606ab",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Orji_Uzor_Kalu": {
+    "key": "wikipedia:person:Orji_Uzor_Kalu",
+    "title": "Orji_Uzor_Kalu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Orji_Uzor_Kalu&oldid=1346700188",
+    "revision": "1346700188",
+    "retrieved_at": "2026-11-18T17:11:56Z",
+    "sha256": "2139bc513a3dc1b03e9ac724df0f7e6918cf3fa0b9af44bbf5ad38a2ec881801",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Osagie_Ize-Iyamu": {
+    "key": "wikipedia:person:Osagie_Ize-Iyamu",
+    "title": "Osagie_Ize-Iyamu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Osagie_Ize-Iyamu&oldid=1379616448",
+    "revision": "1379616448",
+    "retrieved_at": "2026-11-18T17:11:57Z",
+    "sha256": "10c529897a7c4b8b60bf49be53f297d7c3c49c5de56ea471f1eebe29c0a4f769",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Osaro_Onaiwu": {
+    "key": "wikipedia:person:Osaro_Onaiwu",
+    "title": "Osaro_Onaiwu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Osaro_Onaiwu&oldid=1382134697",
+    "revision": "1382134697",
+    "retrieved_at": "2026-11-18T17:11:59Z",
+    "sha256": "92f00e1dbb2c4bd5af7af52d2ef19fe3f2fe85451bbcf7da266064b9fdac98a7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Oserheimen_Osunbor": {
+    "key": "wikipedia:person:Oserheimen_Osunbor",
+    "title": "Oserheimen_Osunbor",
+    "url": "https://en.wikipedia.org/w/index.php?title=Oserheimen_Osunbor&oldid=1376646069",
+    "revision": "1376646069",
+    "retrieved_at": "2026-11-18T17:12:00Z",
+    "sha256": "3e5216b726c604c9a670f084222a1b4ca68c2f6b603f34401a94a73d6e678c00",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Ovie_Omo-Agege": {
+    "key": "wikipedia:person:Ovie_Omo-Agege",
+    "title": "Ovie_Omo-Agege",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ovie_Omo-Agege&oldid=1378317643",
+    "revision": "1378317643",
+    "retrieved_at": "2026-11-18T17:12:01Z",
+    "sha256": "16aa905059cc2efe93ec35a9bbbc5e9a705572bd4301989b221ae749c63e5295",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Patrick_Yakowa": {
+    "key": "wikipedia:person:Patrick_Yakowa",
+    "title": "Patrick_Yakowa",
+    "url": "https://en.wikipedia.org/w/index.php?title=Patrick_Yakowa&oldid=1385536752",
+    "revision": "1385536752",
+    "retrieved_at": "2026-11-18T17:12:02Z",
+    "sha256": "a862f39ffc1b2f6ed0b08d901754cc7447c4118ab95ceeed3dbc711aa6d5e86a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Pauline_Tallen": {
+    "key": "wikipedia:person:Pauline_Tallen",
+    "title": "Pauline_Tallen",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pauline_Tallen&oldid=1378299669",
+    "revision": "1378299669",
+    "retrieved_at": "2026-11-18T17:12:03Z",
+    "sha256": "a390fcfaa832376d428e813ae2342e33f5937af4c924d35206f39b8f8081b845",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Peter_Mbah": {
+    "key": "wikipedia:person:Peter_Mbah",
+    "title": "Peter_Mbah",
+    "url": "https://en.wikipedia.org/w/index.php?title=Peter_Mbah&oldid=1378398889",
+    "revision": "1378398889",
+    "retrieved_at": "2026-11-18T17:12:04Z",
+    "sha256": "957df48b33211e2ffe9cacabe4eab0f91323d98c5bfc897cf00705ad2edaf518",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Peter_Obi": {
+    "key": "wikipedia:person:Peter_Obi",
+    "title": "Peter_Obi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Peter_Obi&oldid=1385549269",
+    "revision": "1385549269",
+    "retrieved_at": "2026-11-18T17:12:05Z",
+    "sha256": "fd0d2d751f58a028a829bc04c5824dedafa2afc32338ceaa4a940e701ae8d0dc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Peter_Odili": {
+    "key": "wikipedia:person:Peter_Odili",
+    "title": "Peter_Odili",
+    "url": "https://en.wikipedia.org/w/index.php?title=Peter_Odili&oldid=1382718142",
+    "revision": "1382718142",
+    "retrieved_at": "2026-11-18T17:12:06Z",
+    "sha256": "fffde15cecce7b1f148655a74e12bfb7346e3d2210845b352dd3248406549998",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Rabiu_Kwankwaso": {
+    "key": "wikipedia:person:Rabiu_Kwankwaso",
+    "title": "Rabiu_Kwankwaso",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rabiu_Kwankwaso&oldid=1383412981",
+    "revision": "1383412981",
+    "retrieved_at": "2026-11-18T17:12:08Z",
+    "sha256": "e6930a6ad572812030b68e746c3ed8ace2765453bab20cbe6d1652d9a585cd51",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Rauf_Aregbesola": {
+    "key": "wikipedia:person:Rauf_Aregbesola",
+    "title": "Rauf_Aregbesola",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rauf_Aregbesola&oldid=1373142597",
+    "revision": "1373142597",
+    "retrieved_at": "2026-11-18T17:12:11Z",
+    "sha256": "52d8e10babdcf498938a3dd58edc3b019eb81dc15df05458f37794d29301e619",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Remi_Sonaiya": {
+    "key": "wikipedia:person:Remi_Sonaiya",
+    "title": "Remi_Sonaiya",
+    "url": "https://en.wikipedia.org/w/index.php?title=Remi_Sonaiya&oldid=1372626109",
+    "revision": "1372626109",
+    "retrieved_at": "2026-11-18T17:12:12Z",
+    "sha256": "09d71218cbbcbaee74f2ed0c2449fa8ab74a9154c81c546592daa4b859f56179",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Rochas_Okorocha": {
+    "key": "wikipedia:person:Rochas_Okorocha",
+    "title": "Rochas_Okorocha",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rochas_Okorocha&oldid=1382229243",
+    "revision": "1382229243",
+    "retrieved_at": "2026-11-18T17:12:13Z",
+    "sha256": "068b7eed526360281db3c0c64ef4f0d10baa5364689b1106255fc68d445d5047",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Rotimi_Akeredolu": {
+    "key": "wikipedia:person:Rotimi_Akeredolu",
+    "title": "Rotimi_Akeredolu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rotimi_Akeredolu&oldid=1373135925",
+    "revision": "1373135925",
+    "retrieved_at": "2026-11-18T17:12:13Z",
+    "sha256": "49d08bb974534bcd7039a79fa2d2b7189e51b382a6a4caaff9928cadb57e42b7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Rotimi_Amaechi": {
+    "key": "wikipedia:person:Rotimi_Amaechi",
+    "title": "Rotimi_Amaechi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Rotimi_Amaechi&oldid=1380537432",
+    "revision": "1380537432",
+    "retrieved_at": "2026-11-18T17:12:14Z",
+    "sha256": "55924e00850b64853506ede28c8b4a7bb76bbf708f1f5c111b93a5ed303c905c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sadiq_Wali": {
+    "key": "wikipedia:person:Sadiq_Wali",
+    "title": "Sadiq_Wali",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sadiq_Wali&oldid=1377710713",
+    "revision": "1377710713",
+    "retrieved_at": "2026-11-18T17:12:16Z",
+    "sha256": "d8171353c324e864a33355ec182a9aa2c88626b84a07592c995109f3cb2a52f2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sadique_Abubakar": {
+    "key": "wikipedia:person:Sadique_Abubakar",
+    "title": "Sadique_Abubakar",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sadique_Abubakar&oldid=1350840325",
+    "revision": "1350840325",
+    "retrieved_at": "2026-11-18T17:12:17Z",
+    "sha256": "83fc33d00a86c6aab8baf157e0b2061568f31f1cf2a907e5fb9c7d4583b046f1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Saidu_Samaila_Sambawa": {
+    "key": "wikipedia:person:Saidu_Samaila_Sambawa",
+    "title": "Saidu_Samaila_Sambawa",
+    "url": "https://en.wikipedia.org/w/index.php?title=Saidu_Samaila_Sambawa&oldid=1308550181",
+    "revision": "1308550181",
+    "retrieved_at": "2026-11-18T17:12:17Z",
+    "sha256": "fb25531907327786dbe878c299f247a76eb8ead0914bcf935fee8afcdad9b2d2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Salihu_Sagir_Takai": {
+    "key": "wikipedia:person:Salihu_Sagir_Takai",
+    "title": "Salihu_Sagir_Takai",
+    "url": "https://en.wikipedia.org/w/index.php?title=Salihu_Sagir_Takai&oldid=1380598179",
+    "revision": "1380598179",
+    "retrieved_at": "2026-11-18T17:12:19Z",
+    "sha256": "4c8dc65687d7cb293f17c09f999e4eced354f9e4321ba37072ebbf4fa30187c3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sam_Egwu": {
+    "key": "wikipedia:person:Sam_Egwu",
+    "title": "Sam_Egwu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sam_Egwu&oldid=1377751948",
+    "revision": "1377751948",
+    "retrieved_at": "2026-11-18T17:12:21Z",
+    "sha256": "7054399b5db3882e9d18ff601d368a91ad6a4fcc87e6ca9f3f19ad62c709e1a5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Samuel_Anyanwu": {
+    "key": "wikipedia:person:Samuel_Anyanwu",
+    "title": "Samuel_Anyanwu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Samuel_Anyanwu&oldid=1378303316",
+    "revision": "1378303316",
+    "retrieved_at": "2026-11-18T17:12:22Z",
+    "sha256": "1ed6e6ee66a1b24d6f7613a5f8416ded7b7816f164408122911187560129fb5f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Samuel_Ortom": {
+    "key": "wikipedia:person:Samuel_Ortom",
+    "title": "Samuel_Ortom",
+    "url": "https://en.wikipedia.org/w/index.php?title=Samuel_Ortom&oldid=1379768186",
+    "revision": "1379768186",
+    "retrieved_at": "2026-11-18T17:12:23Z",
+    "sha256": "595b0ef084d52a29beda8f915fe455f776bfee126956be796f72f8543d5a034c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sandy_Ojang_Onor": {
+    "key": "wikipedia:person:Sandy_Ojang_Onor",
+    "title": "Sandy_Ojang_Onor",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sandy_Ojang_Onor&oldid=1378329300",
+    "revision": "1378329300",
+    "retrieved_at": "2026-11-18T17:12:23Z",
+    "sha256": "65240fbc2a4408f4bdac0c454e4f4fc7d48a2bf53d218be90e7824d8f185844e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sani_Sha'aban": {
+    "key": "wikipedia:person:Sani_Sha'aban",
+    "title": "Sani_Sha'aban",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sani_Sha'aban&oldid=1361495884",
+    "revision": "1361495884",
+    "retrieved_at": "2026-11-18T17:12:24Z",
+    "sha256": "151393438c2c67fc561c15b6599b4741e17d4f688fef424e325b66f504217906",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Seyi_Makinde": {
+    "key": "wikipedia:person:Seyi_Makinde",
+    "title": "Seyi_Makinde",
+    "url": "https://en.wikipedia.org/w/index.php?title=Seyi_Makinde&oldid=1376175553",
+    "revision": "1376175553",
+    "retrieved_at": "2026-11-18T17:12:26Z",
+    "sha256": "1cdff17b2df9e411b99652af0e68b0d1b2fe1fc3d6c4972b39c18f40fa223ef6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sha'aban_Ibrahim_Sharada": {
+    "key": "wikipedia:person:Sha'aban_Ibrahim_Sharada",
+    "title": "Sha'aban_Ibrahim_Sharada",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sha'aban_Ibrahim_Sharada&oldid=1378373625",
+    "revision": "1378373625",
+    "retrieved_at": "2026-11-18T17:12:27Z",
+    "sha256": "b79dcf5a003f6831304fff15d45d8aeb352f730c341d96beb8d9e42dc187e831",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Siminalayi_Fubara": {
+    "key": "wikipedia:person:Siminalayi_Fubara",
+    "title": "Siminalayi_Fubara",
+    "url": "https://en.wikipedia.org/w/index.php?title=Siminalayi_Fubara&oldid=1378163370",
+    "revision": "1378163370",
+    "retrieved_at": "2026-11-18T17:12:28Z",
+    "sha256": "b8b963f14e527f2a18ddee74f7bb6d22b75e9624be5ac6e30473791e91f62b21",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Simon_Lalong": {
+    "key": "wikipedia:person:Simon_Lalong",
+    "title": "Simon_Lalong",
+    "url": "https://en.wikipedia.org/w/index.php?title=Simon_Lalong&oldid=1378289789",
+    "revision": "1378289789",
+    "retrieved_at": "2026-11-18T17:12:30Z",
+    "sha256": "95a296a044ad1198105ba1e905344a029735270ffe4c5e21f88f2562c33fd3bd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sonni_Ogbuoji": {
+    "key": "wikipedia:person:Sonni_Ogbuoji",
+    "title": "Sonni_Ogbuoji",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sonni_Ogbuoji&oldid=1373023057",
+    "revision": "1373023057",
+    "retrieved_at": "2026-11-18T17:12:31Z",
+    "sha256": "5f8566e4ffb4904c5551d2d70ab3e4e9b49511ea20bb3e97d6e68e0ca8708e0e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sule_Lamido": {
+    "key": "wikipedia:person:Sule_Lamido",
+    "title": "Sule_Lamido",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sule_Lamido&oldid=1376712200",
+    "revision": "1376712200",
+    "retrieved_at": "2026-11-18T17:12:32Z",
+    "sha256": "68952ae279c51dce09dcc39308ee6175b446fb59fbe4453205833702db949350",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Suleiman_Othman_Hunkuyi": {
+    "key": "wikipedia:person:Suleiman_Othman_Hunkuyi",
+    "title": "Suleiman_Othman_Hunkuyi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Suleiman_Othman_Hunkuyi&oldid=1377088784",
+    "revision": "1377088784",
+    "retrieved_at": "2026-11-18T17:12:33Z",
+    "sha256": "54e0a6667cdb939387f7624e9edacd2ba8d86275c5541ce0e8c31a20944986aa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sullivan_Chime": {
+    "key": "wikipedia:person:Sullivan_Chime",
+    "title": "Sullivan_Chime",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sullivan_Chime&oldid=1380524965",
+    "revision": "1380524965",
+    "retrieved_at": "2026-11-18T17:12:34Z",
+    "sha256": "9b1be278cd3b85a416ade1662e5591ada44a83d53b8f42671fb701832fff36fe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Sunday_Onuoha": {
+    "key": "wikipedia:person:Sunday_Onuoha",
+    "title": "Sunday_Onuoha",
+    "url": "https://en.wikipedia.org/w/index.php?title=Sunday_Onuoha&oldid=1354435125",
+    "revision": "1354435125",
+    "retrieved_at": "2026-11-18T17:12:35Z",
+    "sha256": "b4962c095a1ee1abfbc9137152d091fb161d0a004bb65f80cbee223a7f6c99fb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Tanko_Yakasai": {
+    "key": "wikipedia:person:Tanko_Yakasai",
+    "title": "Tanko_Yakasai",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tanko_Yakasai&oldid=1360634363",
+    "revision": "1360634363",
+    "retrieved_at": "2026-11-18T17:12:19Z",
+    "sha256": "8fd7416a25b74ae303457030ce6e311a9b5642a5d4f5d2a504d1b2b2adc855a8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Terhemen_Tarzoor": {
+    "key": "wikipedia:person:Terhemen_Tarzoor",
+    "title": "Terhemen_Tarzoor",
+    "url": "https://en.wikipedia.org/w/index.php?title=Terhemen_Tarzoor&oldid=1353916380",
+    "revision": "1353916380",
+    "retrieved_at": "2026-11-18T17:12:36Z",
+    "sha256": "4bc847193253e7b6595fa6b347ef1afe85f359953f7493bb77486f719ed63f13",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Teslim_Folarin": {
+    "key": "wikipedia:person:Teslim_Folarin",
+    "title": "Teslim_Folarin",
+    "url": "https://en.wikipedia.org/w/index.php?title=Teslim_Folarin&oldid=1376645954",
+    "revision": "1376645954",
+    "retrieved_at": "2026-11-18T17:12:38Z",
+    "sha256": "4a7cf56c19183d1d15b0a2a0383b63a11d39c4eb054e112decada5b6204c7841",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Theodore_Orji": {
+    "key": "wikipedia:person:Theodore_Orji",
+    "title": "Theodore_Orji",
+    "url": "https://en.wikipedia.org/w/index.php?title=Theodore_Orji&oldid=1347751799",
+    "revision": "1347751799",
+    "retrieved_at": "2026-11-18T17:12:40Z",
+    "sha256": "6eb4a2d88e84e540e015ed2ee8730632c1ec6b646236474d5df914c8d788e26c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Timipre_Sylva": {
+    "key": "wikipedia:person:Timipre_Sylva",
+    "title": "Timipre_Sylva",
+    "url": "https://en.wikipedia.org/w/index.php?title=Timipre_Sylva&oldid=1379623759",
+    "revision": "1379623759",
+    "retrieved_at": "2026-11-18T17:12:41Z",
+    "sha256": "c4ea4aee763491627966e82957b3bbc339554f302b4f26e6066fc76beee8324c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Titus_Uba": {
+    "key": "wikipedia:person:Titus_Uba",
+    "title": "Titus_Uba",
+    "url": "https://en.wikipedia.org/w/index.php?title=Titus_Uba&oldid=1348425047",
+    "revision": "1348425047",
+    "retrieved_at": "2026-11-18T17:12:42Z",
+    "sha256": "14e08fedb4ab20a9148e88b37045c317213ffd979655e20fbbbbb0215b0d89fa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Tokunbo_Afikuyomi": {
+    "key": "wikipedia:person:Tokunbo_Afikuyomi",
+    "title": "Tokunbo_Afikuyomi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tokunbo_Afikuyomi&oldid=1360625626",
+    "revision": "1360625626",
+    "retrieved_at": "2026-11-18T17:12:43Z",
+    "sha256": "286ec400d9aff55dcea3b4a8ceef8a056dd9bc6b214d8375669d4b8b5ccdbcee",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Tony_Nwoye": {
+    "key": "wikipedia:person:Tony_Nwoye",
+    "title": "Tony_Nwoye",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tony_Nwoye&oldid=1375131965",
+    "revision": "1375131965",
+    "retrieved_at": "2026-11-18T17:12:44Z",
+    "sha256": "53a1fa57ae39c82a6c0ffeda8693fae03bf4f92f5aa360c4664916ed04c0f797",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Tonye_Cole": {
+    "key": "wikipedia:person:Tonye_Cole",
+    "title": "Tonye_Cole",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tonye_Cole&oldid=1360837478",
+    "revision": "1360837478",
+    "retrieved_at": "2026-11-18T17:12:45Z",
+    "sha256": "c1460c50b5f08d23b3dda2cc384f54eb7c6c4420915c5f487a014d3a33b74160",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Tonye_Princewill": {
+    "key": "wikipedia:person:Tonye_Princewill",
+    "title": "Tonye_Princewill",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tonye_Princewill&oldid=1376514347",
+    "revision": "1376514347",
+    "retrieved_at": "2026-11-18T17:12:45Z",
+    "sha256": "e4648214629dcf05684ad5b3f7a2ed283ba44bfb64b2a49da2733bb42f633561",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Tunji_Olurin": {
+    "key": "wikipedia:person:Tunji_Olurin",
+    "title": "Tunji_Olurin",
+    "url": "https://en.wikipedia.org/w/index.php?title=Tunji_Olurin&oldid=1350845726",
+    "revision": "1350845726",
+    "retrieved_at": "2026-11-18T17:12:46Z",
+    "sha256": "bc7776813c843c02395177697503dd31063b8ed47818d478c4358dab03eda41c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Uba_Sani": {
+    "key": "wikipedia:person:Uba_Sani",
+    "title": "Uba_Sani",
+    "url": "https://en.wikipedia.org/w/index.php?title=Uba_Sani&oldid=1381357333",
+    "revision": "1381357333",
+    "retrieved_at": "2026-11-18T17:12:47Z",
+    "sha256": "c025fa173493f209e24259134c4df5406934acef8cfd5779b05e656ab9f4ef2d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Uche_Ekwunife": {
+    "key": "wikipedia:person:Uche_Ekwunife",
+    "title": "Uche_Ekwunife",
+    "url": "https://en.wikipedia.org/w/index.php?title=Uche_Ekwunife&oldid=1378858028",
+    "revision": "1378858028",
+    "retrieved_at": "2026-11-18T17:12:48Z",
+    "sha256": "6415161aa62fcef496856b28a5b9f829c3047434aab80e0361a1858285b7193a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Uche_Nwosu": {
+    "key": "wikipedia:person:Uche_Nwosu",
+    "title": "Uche_Nwosu",
+    "url": "https://en.wikipedia.org/w/index.php?title=Uche_Nwosu&oldid=1354436774",
+    "revision": "1354436774",
+    "retrieved_at": "2026-11-18T17:12:49Z",
+    "sha256": "4072ba2b22437a462b19256fa9d4ea152ba87233bf70c6598f45b78bccfb0eff",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Uche_Ogah": {
+    "key": "wikipedia:person:Uche_Ogah",
+    "title": "Uche_Ogah",
+    "url": "https://en.wikipedia.org/w/index.php?title=Uche_Ogah&oldid=1378320005",
+    "revision": "1378320005",
+    "retrieved_at": "2026-11-18T17:12:50Z",
+    "sha256": "806718f8b379cdab27250e5e9e0502e66cacb2f256280d5f58f47d8617967d70",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Udom_Gabriel_Emmanuel": {
+    "key": "wikipedia:person:Udom_Gabriel_Emmanuel",
+    "title": "Udom_Gabriel_Emmanuel",
+    "url": "https://en.wikipedia.org/w/index.php?title=Udom_Gabriel_Emmanuel&oldid=1378143464",
+    "revision": "1378143464",
+    "retrieved_at": "2026-11-18T17:12:51Z",
+    "sha256": "21e038b4dae8ff0549ee3a8502944d922958abee41d12e4fc68a38e35e699f3a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Umar_Namadi": {
+    "key": "wikipedia:person:Umar_Namadi",
+    "title": "Umar_Namadi",
+    "url": "https://en.wikipedia.org/w/index.php?title=Umar_Namadi&oldid=1378373642",
+    "revision": "1378373642",
+    "retrieved_at": "2026-11-18T17:12:52Z",
+    "sha256": "9c10aeeab275f0c1138886c5268cf8a46703b3dca8bc2029e13ac5e61a363041",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Umaru_Musa_Yar'Adua": {
+    "key": "wikipedia:person:Umaru_Musa_Yar'Adua",
+    "title": "Umaru_Musa_Yar'Adua",
+    "url": "https://en.wikipedia.org/w/index.php?title=Umaru_Musa_Yar'Adua&oldid=1378276154",
+    "revision": "1378276154",
+    "retrieved_at": "2026-11-18T17:12:53Z",
+    "sha256": "061793acefbbb7411d9510cdebb30253e641e968afa9b8834f4a910911a9d4a3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Umaru_Tanko_Al-Makura": {
+    "key": "wikipedia:person:Umaru_Tanko_Al-Makura",
+    "title": "Umaru_Tanko_Al-Makura",
+    "url": "https://en.wikipedia.org/w/index.php?title=Umaru_Tanko_Al-Makura&oldid=1355291945",
+    "revision": "1355291945",
+    "retrieved_at": "2026-11-18T17:12:54Z",
+    "sha256": "97c26b17138735a55f99bef1b7183678133a03798060b20599fdaa87a9537d00",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Umo_Eno": {
+    "key": "wikipedia:person:Umo_Eno",
+    "title": "Umo_Eno",
+    "url": "https://en.wikipedia.org/w/index.php?title=Umo_Eno&oldid=1378144457",
+    "revision": "1378144457",
+    "retrieved_at": "2026-11-18T17:12:55Z",
+    "sha256": "e1c86caa5c806669ab3b6aadea75d2f965b9939384a8ff80a35124826265bb13",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Usani_Uguru_Usani": {
+    "key": "wikipedia:person:Usani_Uguru_Usani",
+    "title": "Usani_Uguru_Usani",
+    "url": "https://en.wikipedia.org/w/index.php?title=Usani_Uguru_Usani&oldid=1379569997",
+    "revision": "1379569997",
+    "retrieved_at": "2026-11-18T17:12:56Z",
+    "sha256": "2f4406aa54a0fc53b8e2319a83b8e393abfe724ba38586be0b665d5fa42c347c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Usman_Albishir": {
+    "key": "wikipedia:person:Usman_Albishir",
+    "title": "Usman_Albishir",
+    "url": "https://en.wikipedia.org/w/index.php?title=Usman_Albishir&oldid=1348493269",
+    "revision": "1348493269",
+    "retrieved_at": "2026-11-18T17:12:57Z",
+    "sha256": "314e5af54f7af36005dedcfd457d2def1f4d06e77519ab928402e081309fc534",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Usman_Bayero_Nafada": {
+    "key": "wikipedia:person:Usman_Bayero_Nafada",
+    "title": "Usman_Bayero_Nafada",
+    "url": "https://en.wikipedia.org/w/index.php?title=Usman_Bayero_Nafada&oldid=1360491670",
+    "revision": "1360491670",
+    "retrieved_at": "2026-11-18T17:12:58Z",
+    "sha256": "4f1bb22cb9cfcb6d2b33b872882bed569c9fee114b12ca4d090f8ef6146c278a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Usman_Sa'idu_Nasamu_Dakingari": {
+    "key": "wikipedia:person:Usman_Sa'idu_Nasamu_Dakingari",
+    "title": "Usman_Sa'idu_Nasamu_Dakingari",
+    "url": "https://en.wikipedia.org/w/index.php?title=Usman_Sa'idu_Nasamu_Dakingari&oldid=1383896646",
+    "revision": "1383896646",
+    "retrieved_at": "2026-11-18T17:12:59Z",
+    "sha256": "f3ff0b3d5a11927ada24e3c17a25c1fa1fa81afc40443fa718d5a526f21c6079",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Valentine_Ozigbo": {
+    "key": "wikipedia:person:Valentine_Ozigbo",
+    "title": "Valentine_Ozigbo",
+    "url": "https://en.wikipedia.org/w/index.php?title=Valentine_Ozigbo&oldid=1385551425",
+    "revision": "1385551425",
+    "retrieved_at": "2026-11-18T17:12:59Z",
+    "sha256": "3f642241ace46172813cb0e179d6b985f221bce024511d94bb14a8c23eb3d0e0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Victor_Attah": {
+    "key": "wikipedia:person:Victor_Attah",
+    "title": "Victor_Attah",
+    "url": "https://en.wikipedia.org/w/index.php?title=Victor_Attah&oldid=1372027027",
+    "revision": "1372027027",
+    "retrieved_at": "2026-11-18T17:11:47Z",
+    "sha256": "95ca6bac8eeab16483904a260ffeeb3acb9cd55d2924db0af2d139c470cdebee",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Virginia_Etiaba": {
+    "key": "wikipedia:person:Virginia_Etiaba",
+    "title": "Virginia_Etiaba",
+    "url": "https://en.wikipedia.org/w/index.php?title=Virginia_Etiaba&oldid=1378051976",
+    "revision": "1378051976",
+    "retrieved_at": "2026-11-18T17:13:00Z",
+    "sha256": "4b18b1c4c96a9f937b9f990fff3752d4f71669de53a48a21a0f3ca1facf1a7cd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Willie_Obiano": {
+    "key": "wikipedia:person:Willie_Obiano",
+    "title": "Willie_Obiano",
+    "url": "https://en.wikipedia.org/w/index.php?title=Willie_Obiano&oldid=1379213306",
+    "revision": "1379213306",
+    "retrieved_at": "2026-11-18T17:13:00Z",
+    "sha256": "02d6e4d37c771bcc50b108096f79a62f059f7ffdf428929e81b6a30823e82976",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Yahaya_Abdulkarim": {
+    "key": "wikipedia:person:Yahaya_Abdulkarim",
+    "title": "Yahaya_Abdulkarim",
+    "url": "https://en.wikipedia.org/w/index.php?title=Yahaya_Abdulkarim&oldid=1362099053",
+    "revision": "1362099053",
+    "retrieved_at": "2026-11-18T17:13:01Z",
+    "sha256": "dc6b50d21ecf39dd9c6a77f0739b7dfeb00226bc1e4a473409df5abe276f795b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Yahaya_Bello": {
+    "key": "wikipedia:person:Yahaya_Bello",
+    "title": "Yahaya_Bello",
+    "url": "https://en.wikipedia.org/w/index.php?title=Yahaya_Bello&oldid=1362559977",
+    "revision": "1362559977",
+    "retrieved_at": "2026-11-18T17:13:02Z",
+    "sha256": "0285040c3af64e1d817572bcfb5e3a37b3e93739b87ab4ec82b2d84e6b366844",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Yusuf_Sulaimon_Lasun": {
+    "key": "wikipedia:person:Yusuf_Sulaimon_Lasun",
+    "title": "Yusuf_Sulaimon_Lasun",
+    "url": "https://en.wikipedia.org/w/index.php?title=Yusuf_Sulaimon_Lasun&oldid=1378287843",
+    "revision": "1378287843",
+    "retrieved_at": "2026-11-18T17:13:04Z",
+    "sha256": "5225ca7514f36248f445034cab6e358e576a8784872ee642208eb099130141d3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:person:Yusuf_Tuggar": {
+    "key": "wikipedia:person:Yusuf_Tuggar",
+    "title": "Yusuf_Tuggar",
+    "url": "https://en.wikipedia.org/w/index.php?title=Yusuf_Tuggar&oldid=1378331486",
+    "revision": "1378331486",
+    "retrieved_at": "2026-11-18T17:13:05Z",
+    "sha256": "351e92a19ef0ee7e733d2285cba9eae8c2c99482848dd243158e42ae4f236e36",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
   "wikipedia:presidential:1999": {
     "key": "wikipedia:presidential:1999",
     "title": "1999_Nigerian_presidential_election",
@@ -2643,6 +5028,15 @@
     "revision": "1344485270",
     "retrieved_at": "2026-11-18T14:12:20Z",
     "sha256": "51cf15c4da93c368e7dda35212a3a85b3afd9750e99d21be88240e590062fee4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2027": {
+    "key": "wikipedia:presidential:2027",
+    "title": "2027_Nigerian_presidential_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2027_Nigerian_presidential_election&oldid=1386040502",
+    "revision": "1386040502",
+    "retrieved_at": "2026-11-18T17:28:19Z",
+    "sha256": "eda9552e870f92988b6dff020f20fa5ffe38b7294e7fdf3c21c1563bc6a06f27",
     "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
   }
 }

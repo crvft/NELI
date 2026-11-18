@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { IconChevronLeft, IconLost, IconUpcoming, IconWon } from '@/components/icons';
-import { OFFICE_LABEL, ELECTION_TYPE_LABEL } from '@/lib/domain';
+import { OFFICE_LABEL, ELECTION_TYPE_LABEL, type Person } from '@/lib/domain';
 import { getPerson, listElections, listPeople } from '@/lib/repo';
 import { stateByCode } from '@/lib/geo';
 import { PARTIES } from '@/lib/parties';
@@ -66,12 +66,32 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
             </p>
             <div className='mt-3 flex flex-wrap items-center gap-2'>
               <PartyTag code={party} full />
-              {p.origin && <span className='inline-flex h-6 items-center rounded-md bg-hover px-2 text-label-xs text-text-sub-600'>From {stateByCode(p.origin).name}</span>}
-              {p.born && <span className='inline-flex h-6 items-center rounded-md bg-hover px-2 text-label-xs text-text-sub-600'>Age {new Date().getFullYear() - p.born}</span>}
+              {ageLabel(p.profile) && (
+                <span className='inline-flex h-6 items-center rounded-md bg-hover px-2 text-label-xs text-text-sub-600'>{ageLabel(p.profile)}</span>
+              )}
+              {p.origin && (
+                <Link href={`/states/${p.origin}`} className='inline-flex h-6 items-center rounded-md bg-hover px-2 text-label-xs text-text-sub-600 hover:text-text-strong-950'>
+                  Born in {stateByCode(p.origin).name}
+                  {p.origin === 'FC' ? '' : ' State'}
+                </Link>
+              )}
             </div>
           </div>
         </div>
-        <p className='mt-5 max-w-3xl text-paragraph-sm text-text-sub-600'>{p.bio}</p>
+        {p.profile?.summary ? (
+          <div className='mt-5 max-w-3xl'>
+            <p className='text-paragraph-sm text-text-strong-950'>{p.profile.summary}</p>
+            <p className='mt-2 text-paragraph-xs text-text-sub-600'>
+              From{' '}
+              <a href={p.profile.sourceUrl ?? `https://en.wikipedia.org/wiki/${p.profile.wikiTitle}`} target='_blank' rel='noreferrer' className='underline hover:text-text-strong-950'>
+                Wikipedia
+              </a>{' '}
+              (CC BY-SA 4.0). {p.bio}
+            </p>
+          </div>
+        ) : (
+          <p className='mt-5 max-w-3xl text-paragraph-sm text-text-sub-600'>{p.bio}</p>
+        )}
         <div className='mt-5 grid grid-cols-2 gap-x-4 gap-y-5 border-t border-stroke-soft-200 pt-5 md:grid-cols-4'>
           <Stat label='Elections contested' value={concluded.length} sub={record.length > concluded.length ? `+${record.length - concluded.length} ongoing or upcoming` : undefined} />
           <Stat label='Won' value={concluded.length ? `${wins}/${concluded.length}` : '—'} sub={concluded.length ? `${pct(wins / concluded.length, 0)} win rate` : 'No elections yet'} />
@@ -165,8 +185,22 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
             </Card>
           )}
 
+          {p.profile && details(p.profile).length > 0 && (
+            <Card>
+              <CardHeader title='Details' />
+              <dl className='flex flex-col divide-y divide-stroke-soft-200'>
+                {details(p.profile).map(([k, v]) => (
+                  <div key={k} className='grid grid-cols-[112px_minmax(0,1fr)] gap-3 px-4 py-3 sm:px-5'>
+                    <dt className='text-paragraph-xs text-text-sub-600'>{k}</dt>
+                    <dd className='text-paragraph-sm text-text-strong-950'>{v}</dd>
+                  </div>
+                ))}
+              </dl>
+            </Card>
+          )}
+
           <Card>
-            <CardHeader title='Party history' />
+            <CardHeader title='Party history' description='From the tickets they ran on' />
             <ol className='relative flex flex-col gap-4 p-4 sm:p-5'>
               {p.partyHistory
                 .slice()
@@ -186,8 +220,20 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
           </Card>
 
           <Card>
-            <CardHeader title='Offices held' />
-            {p.roles.length === 0 ? (
+            <CardHeader title='Offices held' description={p.profile?.offices.length ? 'From Wikipedia' : undefined} />
+            {p.profile?.offices.length ? (
+              <ol className='flex flex-col gap-4 p-4 sm:p-5'>
+                {p.profile.offices.map((o, i) => (
+                  <li key={i} className='flex items-start gap-3'>
+                    <span className={`mt-1 size-2.5 shrink-0 rounded-full ${o.term.startsWith('Since') ? 'bg-primary-base' : 'bg-text-soft-400'}`} />
+                    <div>
+                      <div className='text-label-sm text-text-strong-950'>{o.title}</div>
+                      <div className='tabular text-paragraph-xs text-text-sub-600'>{o.term}</div>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+            ) : p.roles.length === 0 ? (
               <p className='p-5 text-paragraph-sm text-text-sub-600'>Has not held public office.</p>
             ) : (
               <ol className='flex flex-col gap-4 p-4 sm:p-5'>
@@ -209,6 +255,25 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
       </div>
     </PageContainer>
   );
+}
+
+const longDate = (iso: string) =>
+  /^\d{4}-\d{2}-\d{2}$/.test(iso) ? new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-NG', { day: 'numeric', month: 'long', year: 'numeric' }) : iso;
+
+function ageLabel(pr?: Person['profile']) {
+  if (!pr?.born || pr.age == null) return null;
+  return pr.died ? `Died ${pr.died.slice(0, 4)}, aged ${pr.age}` : `Age ${pr.age}`;
+}
+
+function details(pr: NonNullable<Person['profile']>): [string, React.ReactNode][] {
+  const rows: [string, React.ReactNode][] = [];
+  if (pr.born) rows.push(['Born', [longDate(pr.born), pr.birthPlace].filter(Boolean).join(', ')]);
+  else if (pr.birthPlace) rows.push(['Birthplace', pr.birthPlace]);
+  if (pr.died) rows.push(['Died', longDate(pr.died)]);
+  if (pr.party) rows.push(['Party now', pr.party]);
+  if (pr.occupation) rows.push(['Occupation', pr.occupation]);
+  if (pr.education) rows.push(['Education', pr.education]);
+  return rows;
 }
 
 function ordinal(n: number) {
