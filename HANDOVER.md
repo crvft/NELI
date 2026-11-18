@@ -310,6 +310,9 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
   - **2011: official state results are in INEC's "Report on the 2011 General Elections"**, Annexure VIII(a). Its old URL (`inecnigeria.org/wp-content/uploads/2019/02/REPORT-ON-THE-2011-GENERAL-ELECTIONS.pdf`) now returns 404.
   - **Fallback:** NDI's final report (Part 2, pp. 99–100) has 2011 state percentages for the main parties in 32 states. No counts; Cross River, Ekiti, Enugu, Ondo and Plateau are missing.
   - **Sahara Reporters' live 2011 table is unusable:** rounded, incomplete, and sums to 22.20M vs INEC's 22.50M.
+- 2026-11-18: INEC's 2011 report (August 2026 archive capture) has only an empty "Annexure" title page. **Fallback adopted:** NDI's 2011 state percentages are in `data/model/presidential_2011_ndi.csv`, **for the model only, never shown as results**.
+  - Missing states (Cross River, Ekiti, Enugu, Ondo, Plateau) take their zone's average; state totals are 2015's, scaled to the 2011 national valid vote.
+  - Presidential backtest (5 folds): Brier 0.42 vs 0.70 for the baseline; winner accuracy 72% vs 68%. P(actual national winner) went from 57% to 67%; for 2015 it rose from 10% to 24%.
 - 2026-11-18: Politician bios from Wikipedia (age, birthplace, offices, summary) on profile pages. **Anyanwụ V1 built and published** (§7.0); 2027 forecasts live on the site.
 - Next:
   - re-run Anyanwụ as 2027 governorship nominees appear

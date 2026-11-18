@@ -1,7 +1,7 @@
 {
  "model": "Anyanwụ",
  "version": "1.0.0",
- "generated_at": "2026-11-18T17:30:06Z",
+ "generated_at": "2026-11-18T20:59:12Z",
  "presidential": {
   "contestants": [
    {
@@ -9,12 +9,12 @@
     "party": "APC",
     "running_mate": "Kashim Shettima",
     "home_state": "LA",
-    "first_prob": 0.5841,
-    "outright_prob": 0.3563,
-    "share_mean": 0.3549943824489409,
-    "share_lo": 0.18854614183722337,
-    "share_hi": 0.5319751354381892,
-    "states_25_mean": 20.1415,
+    "first_prob": 0.5551,
+    "outright_prob": 0.3106,
+    "share_mean": 0.3535342114606218,
+    "share_lo": 0.18922800280751498,
+    "share_hi": 0.5274271316456748,
+    "states_25_mean": 19.5431,
     "attention_share": 0.5873001263460879
    },
    {
@@ -22,12 +22,12 @@
     "party": "ADC",
     "running_mate": "Rotimi Amaechi",
     "home_state": "AD",
-    "first_prob": 0.1884,
-    "outright_prob": 0.0771,
-    "share_mean": 0.224458857371895,
-    "share_lo": 0.09942229913416772,
-    "share_hi": 0.36913343104421964,
-    "states_25_mean": 12.6408,
+    "first_prob": 0.2282,
+    "outright_prob": 0.0891,
+    "share_mean": 0.24655454805911795,
+    "share_lo": 0.11430935065416399,
+    "share_hi": 0.3962451562064335,
+    "states_25_mean": 13.876,
     "attention_share": 0.1537322299666145
    },
    {
@@ -35,12 +35,12 @@
     "party": "NDC",
     "running_mate": "Rabiu Kwankwaso",
     "home_state": "AN",
-    "first_prob": 0.215,
-    "outright_prob": 0.0453,
-    "share_mean": 0.256510459009049,
-    "share_lo": 0.14636752141646678,
-    "share_hi": 0.3799286910117534,
-    "states_25_mean": 14.251,
+    "first_prob": 0.2119,
+    "outright_prob": 0.0434,
+    "share_mean": 0.26059101886643443,
+    "share_lo": 0.14940296015941154,
+    "share_hi": 0.3849170326393987,
+    "states_25_mean": 14.3302,
     "attention_share": 0.17478433308510372
    },
    {
@@ -50,10 +50,10 @@
     "home_state": "OY",
     "first_prob": 0.0,
     "outright_prob": 0.0,
-    "share_mean": 0.009910826532291386,
-    "share_lo": 0.0026537715459418335,
-    "share_hi": 0.02030056021642751,
-    "states_25_mean": 0.0293,
+    "share_mean": 0.01084689883815129,
+    "share_lo": 0.0027227209561688863,
+    "share_hi": 0.022555665829126815,
+    "states_25_mean": 0.053,
     "attention_share": 0.05171822312217081
    },
    {
@@ -61,12 +61,12 @@
     "party": "PDP",
     "running_mate": "Emana Amawhe",
     "home_state": "CR",
-    "first_prob": 0.011,
-    "outright_prob": 0.0014,
-    "share_mean": 0.09607136925544998,
-    "share_lo": 0.034547412302589176,
-    "share_hi": 0.17749916251203124,
-    "states_25_mean": 4.2611,
+    "first_prob": 0.0039,
+    "outright_prob": 0.0003,
+    "share_mean": 0.07491310082505287,
+    "share_lo": 0.02454829985207772,
+    "share_hi": 0.1424928935440823,
+    "states_25_mean": 3.0615,
     "attention_share": 0.032465087480023094
    },
    {
@@ -74,16 +74,16 @@
     "party": "OTH",
     "running_mate": null,
     "home_state": null,
-    "first_prob": 0.0015,
-    "outright_prob": 0.0002,
-    "share_mean": 0.058054105382373725,
-    "share_lo": 0.01823342890003392,
-    "share_hi": 0.11068499405559003,
-    "states_25_mean": 1.2685,
+    "first_prob": 0.0009,
+    "outright_prob": 0.0,
+    "share_mean": 0.0535602219506216,
+    "share_lo": 0.0162731053597177,
+    "share_hi": 0.10369436599529815,
+    "states_25_mean": 1.3603,
     "attention_share": null
    }
   ],
-  "runoff_prob": 0.5197,
+  "runoff_prob": 0.5566,
   "states": [
    {
     "code": "AB",
@@ -91,50 +91,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.04227641736442467,
-      "share_lo": 0.003724626735886254,
-      "share_hi": 0.10518848912372084,
-      "win_prob": 0.0056
+      "share_mean": 0.04795485827730195,
+      "share_lo": 0.002891228410524992,
+      "share_hi": 0.12402049617285296,
+      "win_prob": 0.0111
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.07601867951454815,
-      "share_lo": 0.006771052004319254,
-      "share_hi": 0.19027152832306538,
-      "win_prob": 0.0208
+      "share_mean": 0.09206807314876161,
+      "share_lo": 0.005836099577153647,
+      "share_hi": 0.24190161273797253,
+      "win_prob": 0.0393
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.7725447986769017,
-      "share_lo": 0.49891905606668907,
-      "share_hi": 0.9559558541954399,
-      "win_prob": 0.9531
+      "share_mean": 0.7602894228217728,
+      "share_lo": 0.4434520861448773,
+      "share_hi": 0.963682506487513,
+      "win_prob": 0.9259
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.007678038113149499,
-      "share_lo": 0.0005884267959154955,
-      "share_hi": 0.01842273818189736,
-      "win_prob": 0.0
+      "share_mean": 0.009097456459752724,
+      "share_lo": 0.0004538091331483463,
+      "share_hi": 0.02207167513927814,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.028868010510812746,
-      "share_lo": 0.002389854087095556,
-      "share_hi": 0.07009168805827799,
-      "win_prob": 0.0026
+      "share_mean": 0.02369450954687864,
+      "share_lo": 0.0012925604421199152,
+      "share_hi": 0.05858571930764636,
+      "win_prob": 0.0029
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.07261405582016328,
-      "share_lo": 0.006614155097669052,
-      "share_hi": 0.18019153083826311,
-      "win_prob": 0.0179
+      "share_mean": 0.06689567974553218,
+      "share_lo": 0.0040317241994183095,
+      "share_hi": 0.17345494683099075,
+      "win_prob": 0.0207
      }
     ]
    },
@@ -144,50 +144,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.29021019424485295,
-      "share_lo": 0.05457239769404683,
-      "share_hi": 0.6225994440814533,
-      "win_prob": 0.2993
+      "share_mean": 0.28466708266966373,
+      "share_lo": 0.039082783697366404,
+      "share_hi": 0.6466900348431339,
+      "win_prob": 0.2895
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.4266026820486105,
-      "share_lo": 0.11514075169405547,
-      "share_hi": 0.7733801412760265,
-      "win_prob": 0.5316
+      "share_mean": 0.44053540882711134,
+      "share_lo": 0.09992717110682789,
+      "share_hi": 0.8181686277105708,
+      "win_prob": 0.531
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.196084063366984,
-      "share_lo": 0.029149834618591042,
-      "share_hi": 0.4577838788802228,
-      "win_prob": 0.1552
+      "share_mean": 0.19606364626564063,
+      "share_lo": 0.020844498581673494,
+      "share_hi": 0.4896672442924689,
+      "win_prob": 0.1635
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.006735005062151879,
-      "share_lo": 0.0006830575638431558,
-      "share_hi": 0.015455912278489563,
+      "share_mean": 0.007337787191604099,
+      "share_lo": 0.0004874665981800865,
+      "share_hi": 0.01716749130729611,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.024211655954841895,
-      "share_lo": 0.002529217756449951,
-      "share_hi": 0.05811204989148398,
-      "win_prob": 0.0013
+      "share_mean": 0.021886154300970663,
+      "share_lo": 0.0015438421539410558,
+      "share_hi": 0.05366326896252827,
+      "win_prob": 0.0018
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.05615639932255879,
-      "share_lo": 0.006358205632864849,
-      "share_hi": 0.13776389968926162,
-      "win_prob": 0.0126
+      "share_mean": 0.04950992074500949,
+      "share_lo": 0.0037465913215327584,
+      "share_hi": 0.12516418978386987,
+      "win_prob": 0.0142
      }
     ]
    },
@@ -197,50 +197,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.22886387474518347,
-      "share_lo": 0.04185450718788824,
-      "share_hi": 0.5019695795965132,
-      "win_prob": 0.2412
+      "share_mean": 0.23940214144470046,
+      "share_lo": 0.034239649123087676,
+      "share_hi": 0.5507047823233447,
+      "win_prob": 0.2572
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.22358725659179057,
-      "share_lo": 0.041491396087078754,
-      "share_hi": 0.4966053884146803,
-      "win_prob": 0.2357
+      "share_mean": 0.25329699962357916,
+      "share_lo": 0.03892382392900111,
+      "share_hi": 0.5805057230621286,
+      "win_prob": 0.282
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.2053402639743729,
-      "share_lo": 0.035247563689528395,
-      "share_hi": 0.4622956560984755,
-      "win_prob": 0.2001
+      "share_mean": 0.21680408763717005,
+      "share_lo": 0.028650442444386186,
+      "share_hi": 0.5115413842115217,
+      "win_prob": 0.2208
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.004304268149877553,
-      "share_lo": 0.0004675305638530931,
-      "share_hi": 0.00980398521926153,
+      "share_mean": 0.005008067390521855,
+      "share_lo": 0.0003683759107710505,
+      "share_hi": 0.011420618991853952,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.2552501249400793,
-      "share_lo": 0.05031357283867338,
-      "share_hi": 0.5469675877419113,
-      "win_prob": 0.2852
+      "share_mean": 0.20064307139942097,
+      "share_lo": 0.025615862407093987,
+      "share_hi": 0.48077739032974903,
+      "win_prob": 0.1948
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.08265421159869618,
-      "share_lo": 0.010680782530880327,
-      "share_hi": 0.19792712194297388,
-      "win_prob": 0.0378
+      "share_mean": 0.08484563250460751,
+      "share_lo": 0.00784350074484537,
+      "share_hi": 0.21484095284337368,
+      "win_prob": 0.0452
      }
     ]
    },
@@ -250,50 +250,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.017496088649068462,
-      "share_lo": 0.0012138743377445693,
-      "share_hi": 0.04156282528458788,
-      "win_prob": 0.0002
+      "share_mean": 0.021063792811146374,
+      "share_lo": 0.0009712923962194015,
+      "share_hi": 0.05152230952402148,
+      "win_prob": 0.0009
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.02296530743050881,
-      "share_lo": 0.0015307076644572365,
-      "share_hi": 0.05600546541081745,
-      "win_prob": 0.0016
+      "share_mean": 0.030148426589932234,
+      "share_lo": 0.001337224050633122,
+      "share_hi": 0.0758478788361057,
+      "win_prob": 0.0039
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.8708676069952092,
-      "share_lo": 0.6981992094265832,
-      "share_hi": 0.9812611806070056,
-      "win_prob": 0.9843
+      "share_mean": 0.8624184992129201,
+      "share_lo": 0.6575644364871177,
+      "share_hi": 0.9845722106241475,
+      "win_prob": 0.9779
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.008657532717151,
-      "share_lo": 0.0005878697122992309,
-      "share_hi": 0.020247627150300238,
-      "win_prob": 0.0001
+      "share_mean": 0.01061524247890765,
+      "share_lo": 0.00045029690489328583,
+      "share_hi": 0.02481728421717415,
+      "win_prob": 0.0002
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.00864488230186768,
-      "share_lo": 0.0005662961893437439,
-      "share_hi": 0.020323272608856247,
+      "share_mean": 0.010476635379685371,
+      "share_lo": 0.0004380502535404939,
+      "share_hi": 0.024570387191786947,
       "win_prob": 0.0002
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.07136858190619502,
-      "share_lo": 0.005679471593457566,
-      "share_hi": 0.18359532367096898,
-      "win_prob": 0.0136
+      "share_mean": 0.06527740352740823,
+      "share_lo": 0.0033820562835283363,
+      "share_hi": 0.17544183712160563,
+      "win_prob": 0.0169
      }
     ]
    },
@@ -303,50 +303,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.37709451593123594,
-      "share_lo": 0.08647292864475209,
-      "share_hi": 0.7267150344091997,
-      "win_prob": 0.446
+      "share_mean": 0.3706623744278395,
+      "share_lo": 0.0637185315124762,
+      "share_hi": 0.755088277081025,
+      "win_prob": 0.4219
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.37350765606776626,
-      "share_lo": 0.08633352328069592,
-      "share_hi": 0.7231947391750153,
-      "win_prob": 0.4436
+      "share_mean": 0.3946349979555949,
+      "share_lo": 0.07469513152562317,
+      "share_hi": 0.7827902788352481,
+      "win_prob": 0.4603
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.14729722002192866,
-      "share_lo": 0.02061187995519177,
-      "share_hi": 0.34807546430735775,
-      "win_prob": 0.0922
+      "share_mean": 0.15109768525313944,
+      "share_lo": 0.015157034493721657,
+      "share_hi": 0.38099851206486157,
+      "win_prob": 0.1032
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.006457072858747537,
-      "share_lo": 0.0006527182643650012,
-      "share_hi": 0.015217948122184357,
-      "win_prob": 0.0
+      "share_mean": 0.007194840400079359,
+      "share_lo": 0.00047159194562661243,
+      "share_hi": 0.016944006093714756,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.056530839288857555,
-      "share_lo": 0.006461531402783445,
-      "share_hi": 0.13409757127984517,
-      "win_prob": 0.0124
+      "share_mean": 0.04319925901117402,
+      "share_lo": 0.003227021455686211,
+      "share_hi": 0.10669892811745497,
+      "win_prob": 0.0089
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.039112695831464026,
-      "share_lo": 0.004246590737664727,
-      "share_hi": 0.09341211486180209,
-      "win_prob": 0.0058
+      "share_mean": 0.03321084295217276,
+      "share_lo": 0.0024150090027183434,
+      "share_hi": 0.08182201217697914,
+      "win_prob": 0.0056
      }
     ]
    },
@@ -356,50 +356,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.37108620082694416,
-      "share_lo": 0.08773332250736773,
-      "share_hi": 0.7212085334389294,
-      "win_prob": 0.4436
+      "share_mean": 0.3692569247430989,
+      "share_lo": 0.0683139886261496,
+      "share_hi": 0.7529135189322108,
+      "win_prob": 0.4275
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.14537633265843727,
-      "share_lo": 0.01998064017193413,
-      "share_hi": 0.3453682826350501,
-      "win_prob": 0.0917
+      "share_mean": 0.16509583080079518,
+      "share_lo": 0.01701537015799127,
+      "share_hi": 0.41574242915634835,
+      "win_prob": 0.1235
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.3721130778524518,
-      "share_lo": 0.08827654881243502,
-      "share_hi": 0.7239314281619837,
-      "win_prob": 0.4405
+      "share_mean": 0.3714440846356949,
+      "share_lo": 0.06872229737192605,
+      "share_hi": 0.7557189109686802,
+      "win_prob": 0.428
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.005715399550499328,
-      "share_lo": 0.0006080284865589226,
-      "share_hi": 0.013012150358574191,
+      "share_mean": 0.0064638326857445975,
+      "share_lo": 0.0004609222880266363,
+      "share_hi": 0.014974309427806603,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.0571921757970927,
-      "share_lo": 0.006574782899281725,
-      "share_hi": 0.13341572729227888,
-      "win_prob": 0.015
+      "share_mean": 0.04458240148172286,
+      "share_lo": 0.0033645871608484032,
+      "share_hi": 0.10719751844513853,
+      "win_prob": 0.0113
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.0485168133145747,
-      "share_lo": 0.005301547304681466,
-      "share_hi": 0.11604844157532626,
-      "win_prob": 0.0092
+      "share_mean": 0.04315692565294359,
+      "share_lo": 0.003183104148017139,
+      "share_hi": 0.10846358101246058,
+      "win_prob": 0.0097
      }
     ]
    },
@@ -409,50 +409,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.5156071046919903,
-      "share_lo": 0.16657452019097754,
-      "share_hi": 0.8501832480689024,
-      "win_prob": 0.6362
+      "share_mean": 0.5025115154413654,
+      "share_lo": 0.12770099880823774,
+      "share_hi": 0.8722253342666988,
+      "win_prob": 0.5955
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.3338776082147615,
-      "share_lo": 0.062153469127598865,
-      "share_hi": 0.6855503765538307,
-      "win_prob": 0.3403
+      "share_mean": 0.35842217025472,
+      "share_lo": 0.05455484179455935,
+      "share_hi": 0.7488833789965661,
+      "win_prob": 0.3755
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.03956992467513299,
-      "share_lo": 0.00405400953312631,
-      "share_hi": 0.09703506780871765,
-      "win_prob": 0.0033
+      "share_mean": 0.043150737643018945,
+      "share_lo": 0.003012067179274505,
+      "share_hi": 0.1106256264291715,
+      "win_prob": 0.0086
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.007017755717231333,
-      "share_lo": 0.0006266560911985717,
-      "share_hi": 0.016373030613078588,
-      "win_prob": 0.0
+      "share_mean": 0.007959757950672738,
+      "share_lo": 0.00046375083521262906,
+      "share_hi": 0.018677031728283316,
+      "win_prob": 0.0002
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.04936578230616108,
-      "share_lo": 0.005055988641136049,
-      "share_hi": 0.11859983870294871,
-      "win_prob": 0.0088
+      "share_mean": 0.038170402253665775,
+      "share_lo": 0.0025913272271242916,
+      "share_hi": 0.09396145600602611,
+      "win_prob": 0.0078
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.054561824394722784,
-      "share_lo": 0.005617578834934981,
-      "share_hi": 0.13374076310398642,
-      "win_prob": 0.0114
+      "share_mean": 0.04978541645655719,
+      "share_lo": 0.0034539863088079385,
+      "share_hi": 0.12692745875290132,
+      "win_prob": 0.0124
      }
     ]
    },
@@ -462,50 +462,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.20981374579819262,
-      "share_lo": 0.036287372218915835,
-      "share_hi": 0.4704211337379846,
-      "win_prob": 0.2018
+      "share_mean": 0.22231127377758297,
+      "share_lo": 0.030149082094880437,
+      "share_hi": 0.522496781089594,
+      "win_prob": 0.22
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.2381308164147899,
-      "share_lo": 0.04553733780848636,
-      "share_hi": 0.5219257645115171,
-      "win_prob": 0.2443
+      "share_mean": 0.2707784297554593,
+      "share_lo": 0.04271853272217575,
+      "share_hi": 0.6107765795139705,
+      "win_prob": 0.2972
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.23948948622919053,
-      "share_lo": 0.044813028066178075,
-      "share_hi": 0.5222901688199313,
-      "win_prob": 0.2455
+      "share_mean": 0.2528847046462274,
+      "share_lo": 0.03673961503936371,
+      "share_hi": 0.5782840051507048,
+      "win_prob": 0.2665
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.0042740060576716655,
-      "share_lo": 0.0004782907884059887,
-      "share_hi": 0.00980460483872211,
+      "share_mean": 0.005010120525871099,
+      "share_lo": 0.00038112057709607246,
+      "share_hi": 0.011706291420152075,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.2714551168489945,
-      "share_lo": 0.05524314082363581,
-      "share_hi": 0.5723899134068453,
-      "win_prob": 0.3018
+      "share_mean": 0.2144531906873207,
+      "share_lo": 0.02846871015898078,
+      "share_hi": 0.5114165372495391,
+      "win_prob": 0.2078
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.03683682865116079,
-      "share_lo": 0.004097226964648445,
-      "share_hi": 0.0872037800061869,
-      "win_prob": 0.0066
+      "share_mean": 0.03456228060753841,
+      "share_lo": 0.0025681758049765366,
+      "share_hi": 0.08451761397446723,
+      "win_prob": 0.0085
      }
     ]
    },
@@ -515,50 +515,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.2110240608527127,
-      "share_lo": 0.03602051317739987,
-      "share_hi": 0.4753572483892912,
-      "win_prob": 0.1932
+      "share_mean": 0.23839742284087706,
+      "share_lo": 0.033181143537513585,
+      "share_hi": 0.5541046555498558,
+      "win_prob": 0.2443
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.12562078837800814,
-      "share_lo": 0.017707109043701562,
-      "share_hi": 0.30063869206036037,
-      "win_prob": 0.0764
+      "share_mean": 0.1593402635282784,
+      "share_lo": 0.017970089285480138,
+      "share_hi": 0.3994177735490895,
+      "win_prob": 0.1291
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.27603004697852623,
-      "share_lo": 0.05554627868265055,
-      "share_hi": 0.5802886739625891,
-      "win_prob": 0.2964
+      "share_mean": 0.30854295707234514,
+      "share_lo": 0.053772531282337686,
+      "share_hi": 0.6649515439294522,
+      "win_prob": 0.3568
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.0036625807623290284,
-      "share_lo": 0.0003702323714419842,
-      "share_hi": 0.008319644362605082,
+      "share_mean": 0.0047217622846140155,
+      "share_lo": 0.00032244484134480575,
+      "share_hi": 0.010935896156014152,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.3506132600856838,
-      "share_lo": 0.0841137474319311,
-      "share_hi": 0.6917709967325449,
-      "win_prob": 0.4304
+      "share_mean": 0.2554105347546577,
+      "share_lo": 0.03718417722591424,
+      "share_hi": 0.5937057532134811,
+      "win_prob": 0.2638
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.033049262942740146,
-      "share_lo": 0.0036017977530268014,
-      "share_hi": 0.07878893409927491,
-      "win_prob": 0.0036
+      "share_mean": 0.03358705951922769,
+      "share_lo": 0.0025429659523299956,
+      "share_hi": 0.08242014216255224,
+      "win_prob": 0.006
      }
     ]
    },
@@ -568,50 +568,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.14277942053600448,
-      "share_lo": 0.0202038209415345,
-      "share_hi": 0.3407423035505752,
-      "win_prob": 0.0993
+      "share_mean": 0.15312223618540938,
+      "share_lo": 0.01590602007072911,
+      "share_hi": 0.3884359449453242,
+      "win_prob": 0.1184
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.1774284428825489,
-      "share_lo": 0.0282561508657915,
-      "share_hi": 0.40793166866815067,
-      "win_prob": 0.144
+      "share_mean": 0.20405014873168303,
+      "share_lo": 0.025603810888783735,
+      "share_hi": 0.49064101232289764,
+      "win_prob": 0.1882
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.417118906863675,
-      "share_lo": 0.11620066522382302,
-      "share_hi": 0.7519623698632325,
-      "win_prob": 0.5597
+      "share_mean": 0.424827354093752,
+      "share_lo": 0.09798270397455666,
+      "share_hi": 0.7948228697490074,
+      "win_prob": 0.546
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.0047041502984248975,
-      "share_lo": 0.0004918792664346131,
-      "share_hi": 0.010797239428685707,
+      "share_mean": 0.005476573272237827,
+      "share_lo": 0.00038683119795250126,
+      "share_hi": 0.012862193084057002,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.20694895728966697,
-      "share_lo": 0.03440170385772111,
-      "share_hi": 0.4693774635116202,
-      "win_prob": 0.1852
+      "share_mean": 0.16397284853980348,
+      "share_lo": 0.017791705227817846,
+      "share_hi": 0.41022369921363727,
+      "win_prob": 0.1337
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.051020122129679796,
-      "share_lo": 0.005838053566546761,
-      "share_hi": 0.12062857987793915,
-      "win_prob": 0.0118
+      "share_mean": 0.04855083917711423,
+      "share_lo": 0.0037632734699347458,
+      "share_hi": 0.11947245302123542,
+      "win_prob": 0.0137
      }
     ]
    },
@@ -621,50 +621,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.1744792085862525,
-      "share_lo": 0.021160146579932676,
-      "share_hi": 0.42090401763100943,
-      "win_prob": 0.1031
+      "share_mean": 0.1844453343130212,
+      "share_lo": 0.01636836741617776,
+      "share_hi": 0.4715303331226586,
+      "win_prob": 0.1261
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.049451587297704075,
-      "share_lo": 0.004527290436715589,
-      "share_hi": 0.12139272891633486,
-      "win_prob": 0.0092
+      "share_mean": 0.06041243347240591,
+      "share_lo": 0.003882332956251616,
+      "share_hi": 0.15786718051215617,
+      "win_prob": 0.0192
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.6878582624864925,
-      "share_lo": 0.36016163221961456,
-      "share_hi": 0.931424008389813,
-      "win_prob": 0.8732
+      "share_mean": 0.6753081257153308,
+      "share_lo": 0.30573947456340506,
+      "share_hi": 0.9425172946434905,
+      "win_prob": 0.837
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.0069342674916991155,
-      "share_lo": 0.0005618546050074365,
-      "share_hi": 0.016593023895235922,
-      "win_prob": 0.0001
+      "share_mean": 0.008075082872671672,
+      "share_lo": 0.000422049601947736,
+      "share_hi": 0.019491099718141277,
+      "win_prob": 0.0003
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.01821768063208429,
-      "share_lo": 0.0015964062452417493,
-      "share_hi": 0.04261105851906837,
-      "win_prob": 0.0008
+      "share_mean": 0.014741012267877678,
+      "share_lo": 0.00085682805799878,
+      "share_hi": 0.03511075058267573,
+      "win_prob": 0.0009
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.06305899350576746,
-      "share_lo": 0.006219149960019202,
-      "share_hi": 0.1566963867809097,
-      "win_prob": 0.0136
+      "share_mean": 0.05701801135869275,
+      "share_lo": 0.0038174146323360436,
+      "share_hi": 0.14507586047200952,
+      "win_prob": 0.0165
      }
     ]
    },
@@ -674,50 +674,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.23595474466939023,
-      "share_lo": 0.041069751355969485,
-      "share_hi": 0.5249975631819114,
-      "win_prob": 0.2239
+      "share_mean": 0.24494488993937702,
+      "share_lo": 0.032229039907080655,
+      "share_hi": 0.574228249834966,
+      "win_prob": 0.2375
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.12275724408233264,
-      "share_lo": 0.016259106869160402,
-      "share_hi": 0.2950941105523683,
-      "win_prob": 0.0743
+      "share_mean": 0.1433964779447238,
+      "share_lo": 0.014227886032404167,
+      "share_hi": 0.3648070387807703,
+      "win_prob": 0.1031
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.44752160247176087,
-      "share_lo": 0.13776070234635132,
-      "share_hi": 0.7779720397119763,
-      "win_prob": 0.5997
+      "share_mean": 0.4505073264782154,
+      "share_lo": 0.11454190400651315,
+      "share_hi": 0.8145293620043975,
+      "win_prob": 0.5806
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.005230433020830163,
-      "share_lo": 0.0005293066577084664,
-      "share_hi": 0.012033865104599164,
-      "win_prob": 0.0
+      "share_mean": 0.00605111124399214,
+      "share_lo": 0.0004020930415342754,
+      "share_hi": 0.014337835513204035,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.14109013990080513,
-      "share_lo": 0.01964144077126467,
-      "share_hi": 0.3349819448482282,
-      "win_prob": 0.0909
+      "share_mean": 0.11157610401039783,
+      "share_lo": 0.010184716104010257,
+      "share_hi": 0.28694459295291025,
+      "win_prob": 0.066
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.04744583585488093,
-      "share_lo": 0.005161785126580405,
-      "share_hi": 0.11321714467229177,
-      "win_prob": 0.0112
+      "share_mean": 0.043524090383293745,
+      "share_lo": 0.0031929204705871844,
+      "share_hi": 0.10740530406905048,
+      "win_prob": 0.0127
      }
     ]
    },
@@ -727,50 +727,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.5486678743076493,
-      "share_lo": 0.20638572820227716,
-      "share_hi": 0.8610488692614725,
-      "win_prob": 0.7328
+      "share_mean": 0.539713523346718,
+      "share_lo": 0.16667044538196135,
+      "share_hi": 0.881339242857265,
+      "win_prob": 0.6872
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.23521094393633965,
-      "share_lo": 0.03775170116969206,
-      "share_hi": 0.5334665245773347,
-      "win_prob": 0.2024
+      "share_mean": 0.2616205863879353,
+      "share_lo": 0.03315630087687139,
+      "share_hi": 0.6062053730930549,
+      "win_prob": 0.2471
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.053874314367182125,
-      "share_lo": 0.005585844307786762,
-      "share_hi": 0.129742626142473,
-      "win_prob": 0.0126
+      "share_mean": 0.05952751263700243,
+      "share_lo": 0.004254764284836739,
+      "share_hi": 0.1508845365634822,
+      "win_prob": 0.0206
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.019957932665151952,
-      "share_lo": 0.001938134432073012,
-      "share_hi": 0.04720394525017126,
-      "win_prob": 0.001
+      "share_mean": 0.022405712623272445,
+      "share_lo": 0.0014767749299262163,
+      "share_hi": 0.05365619813040124,
+      "win_prob": 0.0021
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.09855417857069733,
-      "share_lo": 0.011988482992809376,
-      "share_hi": 0.23919536767668328,
-      "win_prob": 0.0439
+      "share_mean": 0.0773023736723144,
+      "share_lo": 0.006246636847499478,
+      "share_hi": 0.19586289222336378,
+      "win_prob": 0.034
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.04373475615297966,
-      "share_lo": 0.0047291457014847415,
-      "share_hi": 0.10432824031544681,
-      "win_prob": 0.0073
+      "share_mean": 0.03943029133275743,
+      "share_lo": 0.002849699322123448,
+      "share_hi": 0.09756415130397192,
+      "win_prob": 0.009
      }
     ]
    },
@@ -780,50 +780,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.021610038773819226,
-      "share_lo": 0.0015752905490373464,
-      "share_hi": 0.05181928357191061,
-      "win_prob": 0.0006
+      "share_mean": 0.025764311053127695,
+      "share_lo": 0.0012351620060031816,
+      "share_hi": 0.06384945301634128,
+      "win_prob": 0.0029
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.04934129255795055,
-      "share_lo": 0.0037188973091355024,
-      "share_hi": 0.1265228802784485,
-      "win_prob": 0.0074
+      "share_mean": 0.06239773712040522,
+      "share_lo": 0.0032606437801827467,
+      "share_hi": 0.16920756271977708,
+      "win_prob": 0.0167
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.8471659296392725,
-      "share_lo": 0.6485856813018308,
-      "share_hi": 0.9750400291520968,
-      "win_prob": 0.9823
+      "share_mean": 0.8399935309634365,
+      "share_lo": 0.6112307623421841,
+      "share_hi": 0.9804476695890896,
+      "win_prob": 0.9702
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.008421469205280533,
-      "share_lo": 0.0005977773462118174,
-      "share_hi": 0.019864258799542168,
-      "win_prob": 0.0001
+      "share_mean": 0.01022284737744736,
+      "share_lo": 0.00045545202840641195,
+      "share_hi": 0.024409512219585768,
+      "win_prob": 0.0006
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.018033639156855633,
-      "share_lo": 0.0013366327457191077,
-      "share_hi": 0.04211739863670554,
-      "win_prob": 0.0007
+      "share_mean": 0.015179402971852921,
+      "share_lo": 0.0007135381690693527,
+      "share_hi": 0.03590870354220069,
+      "win_prob": 0.0009
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.055427630666821576,
-      "share_lo": 0.004338121930700337,
-      "share_hi": 0.1409850051848688,
-      "win_prob": 0.0089
+      "share_mean": 0.04644217051373025,
+      "share_lo": 0.002307997653801942,
+      "share_hi": 0.12216466245710215,
+      "win_prob": 0.0087
      }
     ]
    },
@@ -833,50 +833,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.21921977486019545,
-      "share_lo": 0.03476977874678327,
-      "share_hi": 0.499403768525725,
-      "win_prob": 0.1885
+      "share_mean": 0.22505777305208613,
+      "share_lo": 0.027168468403042045,
+      "share_hi": 0.5383161421546091,
+      "win_prob": 0.2038
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.14408394284309115,
-      "share_lo": 0.019457890724994542,
-      "share_hi": 0.3402457123768259,
-      "win_prob": 0.0873
+      "share_mean": 0.16436107167179426,
+      "share_lo": 0.01669038335463307,
+      "share_hi": 0.4102867392100332,
+      "win_prob": 0.1192
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.5244748737436229,
-      "share_lo": 0.1932201105507694,
-      "share_hi": 0.8493137292155969,
-      "win_prob": 0.6993
+      "share_mean": 0.516080635232712,
+      "share_lo": 0.1552787484491399,
+      "share_hi": 0.8707594167634816,
+      "win_prob": 0.6548
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.006048378121258115,
-      "share_lo": 0.0005981694438883653,
-      "share_hi": 0.014194437183221347,
-      "win_prob": 0.0
+      "share_mean": 0.006904457123865464,
+      "share_lo": 0.0004580893703120474,
+      "share_hi": 0.016710843081076586,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.057147457998871685,
-      "share_lo": 0.006111550929548745,
-      "share_hi": 0.1376236896528867,
-      "win_prob": 0.0145
+      "share_mean": 0.04483343732749108,
+      "share_lo": 0.0031906358325919978,
+      "share_hi": 0.11279956381186265,
+      "win_prob": 0.0122
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.04902557243296069,
-      "share_lo": 0.005065304217281812,
-      "share_hi": 0.11795982082466992,
-      "win_prob": 0.0104
+      "share_mean": 0.04276262559205118,
+      "share_lo": 0.0028980662797165914,
+      "share_hi": 0.10558317347086102,
+      "win_prob": 0.0099
      }
     ]
    },
@@ -886,50 +886,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.32166748622098634,
-      "share_lo": 0.06456106040317702,
-      "share_hi": 0.6653334885482154,
-      "win_prob": 0.3417
+      "share_mean": 0.31883672296476817,
+      "share_lo": 0.04858298091924642,
+      "share_hi": 0.6991318964000828,
+      "win_prob": 0.33
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.44957789026167266,
-      "share_lo": 0.12973941695932925,
-      "share_hi": 0.7923257854782092,
-      "win_prob": 0.5775
+      "share_mean": 0.46953823732124184,
+      "share_lo": 0.1164514454918241,
+      "share_hi": 0.8383798068794412,
+      "win_prob": 0.5818
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.10190056416464315,
-      "share_lo": 0.012426200469097277,
-      "share_hi": 0.2476818347622277,
-      "win_prob": 0.0483
+      "share_mean": 0.10670272666249286,
+      "share_lo": 0.009124509006352421,
+      "share_hi": 0.2765333067935319,
+      "win_prob": 0.0601
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.006839450656138749,
-      "share_lo": 0.0006829472391194709,
-      "share_hi": 0.01596439758938032,
-      "win_prob": 0.0
+      "share_mean": 0.007632980149119807,
+      "share_lo": 0.0004903207336901423,
+      "share_hi": 0.01807434483493332,
+      "win_prob": 0.0003
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.07152025816505152,
-      "share_lo": 0.008428702072015088,
-      "share_hi": 0.17101801850095782,
-      "win_prob": 0.0235
+      "share_mean": 0.05461761465849927,
+      "share_lo": 0.004249539658439056,
+      "share_hi": 0.1362539852464454,
+      "win_prob": 0.0181
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.04849435053150764,
-      "share_lo": 0.005379153806877317,
-      "share_hi": 0.11660436516020652,
-      "win_prob": 0.009
+      "share_mean": 0.04267171824387802,
+      "share_lo": 0.003174758539444083,
+      "share_hi": 0.10517016333370022,
+      "win_prob": 0.0097
      }
     ]
    },
@@ -939,50 +939,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.18539208104768046,
-      "share_lo": 0.024469381140012212,
-      "share_hi": 0.43648009073415056,
-      "win_prob": 0.1182
+      "share_mean": 0.19475523022647723,
+      "share_lo": 0.019271788687111453,
+      "share_hi": 0.48527689300740084,
+      "win_prob": 0.141
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.07249173736285378,
-      "share_lo": 0.007182354817423786,
-      "share_hi": 0.18120781929583998,
-      "win_prob": 0.0195
+      "share_mean": 0.08676005067231525,
+      "share_lo": 0.0062284527259256275,
+      "share_hi": 0.22803074500437157,
+      "win_prob": 0.0378
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.6546645008201056,
-      "share_lo": 0.3168317375423171,
-      "share_hi": 0.9163761351727416,
-      "win_prob": 0.8506
+      "share_mean": 0.6425178662863931,
+      "share_lo": 0.2637089169425333,
+      "share_hi": 0.9288809995482826,
+      "win_prob": 0.8095
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.006641439085631637,
-      "share_lo": 0.000575995712266401,
-      "share_hi": 0.015936565543769977,
+      "share_mean": 0.007641243448864353,
+      "share_lo": 0.0004374218405327216,
+      "share_hi": 0.018318077273004028,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.027084231954210964,
-      "share_lo": 0.002544539298648131,
-      "share_hi": 0.06464282748624159,
-      "win_prob": 0.0014
+      "share_mean": 0.021622675044019275,
+      "share_lo": 0.0013283087823769701,
+      "share_hi": 0.05301429257496794,
+      "win_prob": 0.0015
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.05372600972951755,
-      "share_lo": 0.00526916701615816,
-      "share_hi": 0.13139339428590488,
-      "win_prob": 0.0103
+      "share_mean": 0.046702934321930754,
+      "share_lo": 0.003084164132684042,
+      "share_hi": 0.11717857489939788,
+      "win_prob": 0.0102
      }
     ]
    },
@@ -992,50 +992,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4367062873515467,
-      "share_lo": 0.12571179833821405,
-      "share_hi": 0.7793203550540295,
-      "win_prob": 0.5502
+      "share_mean": 0.4355737465250191,
+      "share_lo": 0.10018130922593886,
+      "share_hi": 0.8092374424528715,
+      "win_prob": 0.5255
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.32604904028164533,
-      "share_lo": 0.06943108579161955,
-      "share_hi": 0.6609484229517907,
-      "win_prob": 0.3491
+      "share_mean": 0.3563302078862183,
+      "share_lo": 0.0634476954208729,
+      "share_hi": 0.7347230869999808,
+      "win_prob": 0.3894
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.049313183095108785,
-      "share_lo": 0.005448710493747679,
-      "share_hi": 0.11837425272185448,
-      "win_prob": 0.0101
+      "share_mean": 0.05427448797706533,
+      "share_lo": 0.00410436673465291,
+      "share_hi": 0.1380716776601368,
+      "win_prob": 0.0168
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.0064371011809407136,
-      "share_lo": 0.0006262380289988205,
-      "share_hi": 0.014564856225212476,
-      "win_prob": 0.0
+      "share_mean": 0.007397598015216863,
+      "share_lo": 0.0004761121141947399,
+      "share_hi": 0.017056954877293435,
+      "win_prob": 0.0002
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.141703603130112,
-      "share_lo": 0.019652068453099827,
-      "share_hi": 0.3372881098948035,
-      "win_prob": 0.0852
+      "share_mean": 0.1111276069644244,
+      "share_lo": 0.01011498702958744,
+      "share_hi": 0.28623961584887925,
+      "win_prob": 0.0616
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.03979078496064653,
-      "share_lo": 0.00420935540487968,
-      "share_hi": 0.0943369809281273,
-      "win_prob": 0.0054
+      "share_mean": 0.03529635263205597,
+      "share_lo": 0.0025383593011888968,
+      "share_hi": 0.08617926596601298,
+      "win_prob": 0.0065
      }
     ]
    },
@@ -1045,50 +1045,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.2923855479990538,
-      "share_lo": 0.0603315740862508,
-      "share_hi": 0.6087789490664681,
-      "win_prob": 0.3328
+      "share_mean": 0.29519885908135596,
+      "share_lo": 0.04590661335424283,
+      "share_hi": 0.6484810757401142,
+      "win_prob": 0.3248
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.29583497008803195,
-      "share_lo": 0.06296730313005626,
-      "share_hi": 0.6113546557512193,
-      "win_prob": 0.3395
+      "share_mean": 0.32179899032655723,
+      "share_lo": 0.05631899865011384,
+      "share_hi": 0.6830462530961463,
+      "win_prob": 0.3686
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.24097453921620468,
-      "share_lo": 0.04372899324435998,
-      "share_hi": 0.5290814778972104,
-      "win_prob": 0.244
+      "share_mean": 0.24545637082703833,
+      "share_lo": 0.03323514960854091,
+      "share_hi": 0.57027279761292,
+      "win_prob": 0.2481
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.005865896892957937,
-      "share_lo": 0.0006167510764245435,
-      "share_hi": 0.013517278476635296,
-      "win_prob": 0.0
+      "share_mean": 0.006626176013050767,
+      "share_lo": 0.0004673673512211089,
+      "share_hi": 0.01564456523015627,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.12654629933284153,
-      "share_lo": 0.018417539924518056,
-      "share_hi": 0.3005474274741269,
-      "win_prob": 0.0777
+      "share_mean": 0.09778985418785077,
+      "share_lo": 0.00927872938904676,
+      "share_hi": 0.25006454804287054,
+      "win_prob": 0.0519
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.03839274647090999,
-      "share_lo": 0.004352657318375437,
-      "share_hi": 0.08833942287898389,
-      "win_prob": 0.006
+      "share_mean": 0.03312974956414698,
+      "share_lo": 0.0024848295641439456,
+      "share_hi": 0.07998904411396779,
+      "win_prob": 0.0065
      }
     ]
    },
@@ -1098,50 +1098,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4053548711127562,
-      "share_lo": 0.103661586882739,
-      "share_hi": 0.7570901101684729,
-      "win_prob": 0.4847
+      "share_mean": 0.40686585607774994,
+      "share_lo": 0.08224792823885504,
+      "share_hi": 0.7889177475776558,
+      "win_prob": 0.4729
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.35782755234257463,
-      "share_lo": 0.07882677851078208,
-      "share_hi": 0.7005807451540168,
-      "win_prob": 0.4015
+      "share_mean": 0.3891808114613271,
+      "share_lo": 0.07251975190685649,
+      "share_hi": 0.7721841656873438,
+      "win_prob": 0.4417
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.030260369269356074,
-      "share_lo": 0.0032156098973383355,
-      "share_hi": 0.07264218442494078,
-      "win_prob": 0.0029
+      "share_mean": 0.03405849704026201,
+      "share_lo": 0.002432516033567137,
+      "share_hi": 0.08517883558522663,
+      "win_prob": 0.0054
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.005921740227980398,
-      "share_lo": 0.0005850315508027516,
-      "share_hi": 0.01382655413041503,
+      "share_mean": 0.0068076654960105,
+      "share_lo": 0.00044069452748967455,
+      "share_hi": 0.016056690666115418,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.1568715230623179,
-      "share_lo": 0.021848923259433873,
-      "share_hi": 0.3726383975972111,
-      "win_prob": 0.1038
+      "share_mean": 0.12304867279109094,
+      "share_lo": 0.011262958732204292,
+      "share_hi": 0.31737448693658227,
+      "win_prob": 0.0725
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.04376394398501473,
-      "share_lo": 0.004671842684772347,
-      "share_hi": 0.10581169320393793,
-      "win_prob": 0.0071
+      "share_mean": 0.04003849713355952,
+      "share_lo": 0.0028736485963598854,
+      "share_hi": 0.10134840518422744,
+      "win_prob": 0.0075
      }
     ]
    },
@@ -1151,50 +1151,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.5262844059690553,
-      "share_lo": 0.1918815060902027,
-      "share_hi": 0.8484444939090205,
-      "win_prob": 0.7234
+      "share_mean": 0.5063321403444571,
+      "share_lo": 0.14498155388945014,
+      "share_hi": 0.8637951324892865,
+      "win_prob": 0.6564
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.14144742853272238,
-      "share_lo": 0.018917493302896018,
-      "share_hi": 0.3358339046970042,
-      "win_prob": 0.087
+      "share_mean": 0.15707689958390939,
+      "share_lo": 0.015984886585362616,
+      "share_hi": 0.3954262580417092,
+      "win_prob": 0.1156
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.17853531615085416,
-      "share_lo": 0.02507379584351585,
-      "share_hi": 0.41742524999532926,
-      "win_prob": 0.139
+      "share_mean": 0.20373329726009234,
+      "share_lo": 0.02223211603425629,
+      "share_hi": 0.49613236258350946,
+      "win_prob": 0.1825
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.01227567427313379,
-      "share_lo": 0.0012036984061506546,
-      "share_hi": 0.0290390730373247,
-      "win_prob": 0.0001
+      "share_mean": 0.013405418877826373,
+      "share_lo": 0.0008807577031720587,
+      "share_hi": 0.03272872701188126,
+      "win_prob": 0.0005
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.05731493486591846,
-      "share_lo": 0.006391407292671559,
-      "share_hi": 0.13881051492752253,
-      "win_prob": 0.0158
+      "share_mean": 0.04380940581437481,
+      "share_lo": 0.0032470656818095077,
+      "share_hi": 0.10851706370538919,
+      "win_prob": 0.012
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.08414224020831595,
-      "share_lo": 0.009408696097246285,
-      "share_hi": 0.20402553109736082,
-      "win_prob": 0.0347
+      "share_mean": 0.07564283811933999,
+      "share_lo": 0.005761971715050887,
+      "share_hi": 0.1946415277012577,
+      "win_prob": 0.033
      }
     ]
    },
@@ -1204,50 +1204,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4496067294503755,
-      "share_lo": 0.1383323667331632,
-      "share_hi": 0.782581752090324,
-      "win_prob": 0.5969
+      "share_mean": 0.4433405646352453,
+      "share_lo": 0.10889386073765099,
+      "share_hi": 0.811941873782571,
+      "win_prob": 0.555
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.24218158900276895,
-      "share_lo": 0.04403186193560166,
-      "share_hi": 0.5264225075103596,
-      "win_prob": 0.2348
+      "share_mean": 0.26708626525939916,
+      "share_lo": 0.03862738519843887,
+      "share_hi": 0.6029917953789434,
+      "win_prob": 0.274
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.1524806711526661,
-      "share_lo": 0.0218700703739886,
-      "share_hi": 0.36617590305143033,
-      "win_prob": 0.1086
+      "share_mean": 0.15958559470657402,
+      "share_lo": 0.0169297587612378,
+      "share_hi": 0.40365579126697626,
+      "win_prob": 0.1224
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.0057608040620868795,
-      "share_lo": 0.0005887095371688153,
-      "share_hi": 0.013302784159718497,
+      "share_mean": 0.006547714115781018,
+      "share_lo": 0.0004413743862399312,
+      "share_hi": 0.01548548406432703,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.10100001803207617,
-      "share_lo": 0.012926274715392802,
-      "share_hi": 0.24383835547467167,
-      "win_prob": 0.0495
+      "share_mean": 0.07850129275979381,
+      "share_lo": 0.006658849908344424,
+      "share_hi": 0.19937060308400306,
+      "win_prob": 0.0377
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.04897018830002644,
-      "share_lo": 0.005470855272902905,
-      "share_hi": 0.11606636797186473,
-      "win_prob": 0.0102
+      "share_mean": 0.04493856852320664,
+      "share_lo": 0.003372971810499575,
+      "share_hi": 0.11158944771047435,
+      "win_prob": 0.0109
      }
     ]
    },
@@ -1257,50 +1257,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4304062669357185,
-      "share_lo": 0.11715480839550829,
-      "share_hi": 0.7793010895590909,
-      "win_prob": 0.5246
+      "share_mean": 0.43127761501283474,
+      "share_lo": 0.09239864093816817,
+      "share_hi": 0.813545028988325,
+      "win_prob": 0.5023
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.34071664819314895,
-      "share_lo": 0.07242634222666104,
-      "share_hi": 0.6813651975833588,
-      "win_prob": 0.369
+      "share_mean": 0.37139845762714624,
+      "share_lo": 0.06577180292655985,
+      "share_hi": 0.7534965873362656,
+      "win_prob": 0.4108
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.03695252592333521,
-      "share_lo": 0.004033047857546151,
-      "share_hi": 0.08712924163378573,
-      "win_prob": 0.0044
+      "share_mean": 0.04122395005214041,
+      "share_lo": 0.0030319974613202028,
+      "share_hi": 0.10102649301115565,
+      "win_prob": 0.0099
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.006340270196499571,
-      "share_lo": 0.0006136069107128379,
-      "share_hi": 0.014807155811452513,
-      "win_prob": 0.0001
+      "share_mean": 0.0073175420490662205,
+      "share_lo": 0.00047044287733751357,
+      "share_hi": 0.017331019308160285,
+      "win_prob": 0.0002
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.15039749680833528,
-      "share_lo": 0.020588304566793097,
-      "share_hi": 0.3640921135893865,
-      "win_prob": 0.0971
+      "share_mean": 0.11841320857083329,
+      "share_lo": 0.010594187845213678,
+      "share_hi": 0.309172154893234,
+      "win_prob": 0.0715
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.035186791942962425,
-      "share_lo": 0.003539166911784576,
-      "share_hi": 0.08331560038100431,
-      "win_prob": 0.0048
+      "share_mean": 0.03036922668797908,
+      "share_lo": 0.0019861886709782264,
+      "share_hi": 0.07334293181071919,
+      "win_prob": 0.0053
      }
     ]
    },
@@ -1310,50 +1310,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4737216763607319,
-      "share_lo": 0.15213200162500617,
-      "share_hi": 0.8059694416048369,
-      "win_prob": 0.6465
+      "share_mean": 0.46501910695752424,
+      "share_lo": 0.12053483483840102,
+      "share_hi": 0.8297333599251693,
+      "win_prob": 0.597
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.22748977575046297,
-      "share_lo": 0.039310220378223334,
-      "share_hi": 0.5018900010507104,
-      "win_prob": 0.2135
+      "share_mean": 0.2513417830259204,
+      "share_lo": 0.03399299155090028,
+      "share_hi": 0.574570805994167,
+      "win_prob": 0.2528
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.0910471098537011,
-      "share_lo": 0.011484534145059769,
-      "share_hi": 0.22043328867360001,
-      "win_prob": 0.0392
+      "share_mean": 0.09692231809656116,
+      "share_lo": 0.00867560250052527,
+      "share_hi": 0.24816703609689608,
+      "win_prob": 0.0533
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.005781593457791711,
-      "share_lo": 0.0005975086738054177,
-      "share_hi": 0.013399498947645317,
+      "share_mean": 0.0065197326719370185,
+      "share_lo": 0.00044749800278967404,
+      "share_hi": 0.01538826385886283,
       "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.09306691626704285,
-      "share_lo": 0.011684959787149386,
-      "share_hi": 0.22407112710439525,
-      "win_prob": 0.0419
+      "share_mean": 0.07198011358211308,
+      "share_lo": 0.005950642320016951,
+      "share_hi": 0.18321853942779526,
+      "win_prob": 0.0297
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.10889292831026942,
-      "share_lo": 0.013474528312177264,
-      "share_hi": 0.26438883315328726,
-      "win_prob": 0.0588
+      "share_mean": 0.1082169456659441,
+      "share_lo": 0.009432636539843412,
+      "share_hi": 0.27788026136503646,
+      "win_prob": 0.0671
      }
     ]
    },
@@ -1363,50 +1363,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.41673212552447747,
-      "share_lo": 0.10481260498902298,
-      "share_hi": 0.7704827898955292,
-      "win_prob": 0.4857
+      "share_mean": 0.4145003727488013,
+      "share_lo": 0.08198599824327718,
+      "share_hi": 0.8001990964974319,
+      "win_prob": 0.4774
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.05975119665502485,
-      "share_lo": 0.006579244726395744,
-      "share_hi": 0.14387359662787394,
-      "win_prob": 0.0141
+      "share_mean": 0.07100696963636859,
+      "share_lo": 0.00554359873049169,
+      "share_hi": 0.17956463584691193,
+      "win_prob": 0.0256
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.42490300657724744,
-      "share_lo": 0.11101374101901407,
-      "share_hi": 0.7789522188240209,
-      "win_prob": 0.4872
+      "share_mean": 0.42312975598908126,
+      "share_lo": 0.08789299005462746,
+      "share_hi": 0.8117696213327953,
+      "win_prob": 0.4801
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.020092137851818605,
-      "share_lo": 0.0019863025305956617,
-      "share_hi": 0.0487753248535252,
-      "win_prob": 0.0005
+      "share_mean": 0.022601532457571467,
+      "share_lo": 0.0015095873999265254,
+      "share_hi": 0.05676342031153202,
+      "win_prob": 0.0018
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.022634166245774877,
-      "share_lo": 0.0023019120352795962,
-      "share_hi": 0.05342688085988599,
-      "win_prob": 0.0009
+      "share_mean": 0.017867959179869455,
+      "share_lo": 0.0012143857565185658,
+      "share_hi": 0.04284698841360958,
+      "win_prob": 0.0007
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.055887367145656765,
-      "share_lo": 0.005902970095147264,
-      "share_hi": 0.13522373481535546,
-      "win_prob": 0.0116
+      "share_mean": 0.05089340998830791,
+      "share_lo": 0.003615178739142777,
+      "share_hi": 0.12821892646335775,
+      "win_prob": 0.0144
      }
     ]
    },
@@ -1416,50 +1416,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.30188985095309606,
-      "share_lo": 0.06181629094960089,
-      "share_hi": 0.62762733363391,
-      "win_prob": 0.3449
+      "share_mean": 0.30249692085566143,
+      "share_lo": 0.0478379009754939,
+      "share_hi": 0.6681650858515449,
+      "win_prob": 0.3339
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.20872948535460437,
-      "share_lo": 0.03516790999616089,
-      "share_hi": 0.4678441377793274,
-      "win_prob": 0.1913
+      "share_mean": 0.231146135645468,
+      "share_lo": 0.030659378666250098,
+      "share_hi": 0.5467096289332088,
+      "win_prob": 0.2267
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.3422592601947057,
-      "share_lo": 0.07847746243575683,
-      "share_hi": 0.6804344755985188,
-      "win_prob": 0.4141
+      "share_mean": 0.3419194722226671,
+      "share_lo": 0.0606176979312942,
+      "share_hi": 0.7166826833695841,
+      "win_prob": 0.3976
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.005582281369873013,
-      "share_lo": 0.0005932772941614203,
-      "share_hi": 0.012834658373584723,
-      "win_prob": 0.0
+      "share_mean": 0.00629925415564027,
+      "share_lo": 0.00043935506002971335,
+      "share_hi": 0.014572238849618177,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.08402094639796279,
-      "share_lo": 0.010788782205160732,
-      "share_hi": 0.19912380925547982,
-      "win_prob": 0.0338
+      "share_mean": 0.06477718186718327,
+      "share_lo": 0.005531389652904344,
+      "share_hi": 0.16212396538335422,
+      "win_prob": 0.025
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.057518175729758085,
-      "share_lo": 0.006643321703569711,
-      "share_hi": 0.13901811923230542,
-      "win_prob": 0.0159
+      "share_mean": 0.053361035253379985,
+      "share_lo": 0.004178737307919666,
+      "share_hi": 0.1354364508616366,
+      "win_prob": 0.0167
      }
     ]
    },
@@ -1469,50 +1469,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.41664880552040795,
-      "share_lo": 0.11934892607498125,
-      "share_hi": 0.7602982000290667,
-      "win_prob": 0.5418
+      "share_mean": 0.4121277208188923,
+      "share_lo": 0.09347283961576605,
+      "share_hi": 0.7895598991118702,
+      "win_prob": 0.5054
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.2698455168515659,
-      "share_lo": 0.050445262922155544,
-      "share_hi": 0.5724116606924357,
-      "win_prob": 0.2844
+      "share_mean": 0.2958571944482125,
+      "share_lo": 0.04433207334163113,
+      "share_hi": 0.6496710917906076,
+      "win_prob": 0.3204
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.15100253803802793,
-      "share_lo": 0.02206006190432116,
-      "share_hi": 0.35799580319715096,
-      "win_prob": 0.1074
+      "share_mean": 0.1580300741933153,
+      "share_lo": 0.016862750330021856,
+      "share_hi": 0.39890476878833286,
+      "win_prob": 0.1207
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.005695760153083661,
-      "share_lo": 0.0006054225225903508,
-      "share_hi": 0.013025026177972165,
-      "win_prob": 0.0001
+      "share_mean": 0.006440005697556843,
+      "share_lo": 0.00045531185105721853,
+      "share_hi": 0.015058213853373052,
+      "win_prob": 0.0002
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.11038124362926678,
-      "share_lo": 0.01457966632885678,
-      "share_hi": 0.2619641137838556,
-      "win_prob": 0.057
+      "share_mean": 0.08514316391464043,
+      "share_lo": 0.007431538180435867,
+      "share_hi": 0.21128667042416557,
+      "win_prob": 0.0422
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.046426135807647734,
-      "share_lo": 0.005112293264801156,
-      "share_hi": 0.11378022796159618,
-      "win_prob": 0.0093
+      "share_mean": 0.04240184092738261,
+      "share_lo": 0.0031333502802102105,
+      "share_hi": 0.10746367655103435,
+      "win_prob": 0.0111
      }
     ]
    },
@@ -1522,50 +1522,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4870856629804937,
-      "share_lo": 0.163333138745863,
-      "share_hi": 0.8165816454832376,
-      "win_prob": 0.6786
+      "share_mean": 0.47633992465171265,
+      "share_lo": 0.12799170721898304,
+      "share_hi": 0.8392275826820736,
+      "win_prob": 0.6244
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.17647633629970533,
-      "share_lo": 0.02636965090551111,
-      "share_hi": 0.4084071496854902,
-      "win_prob": 0.1392
+      "share_mean": 0.19758186892587,
+      "share_lo": 0.023099174633156694,
+      "share_hi": 0.4813299597946787,
+      "win_prob": 0.1754
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.17082446286131325,
-      "share_lo": 0.024833669117449376,
-      "share_hi": 0.3977355305013028,
-      "win_prob": 0.1293
+      "share_mean": 0.17704927948444907,
+      "share_lo": 0.01912296826722613,
+      "share_hi": 0.43912444578323084,
+      "win_prob": 0.1477
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.018542891175872787,
-      "share_lo": 0.0019097203614930277,
-      "share_hi": 0.04414458839725557,
-      "win_prob": 0.0008
+      "share_mean": 0.02049252425075409,
+      "share_lo": 0.0014436064575549744,
+      "share_hi": 0.05006686105811856,
+      "win_prob": 0.0017
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.07122875452255026,
-      "share_lo": 0.008476916167580237,
-      "share_hi": 0.17043358534389982,
-      "win_prob": 0.0251
+      "share_mean": 0.05528622876987027,
+      "share_lo": 0.004368465461238018,
+      "share_hi": 0.13907157533368336,
+      "win_prob": 0.0198
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.07584189216006472,
-      "share_lo": 0.009128601898876976,
-      "share_hi": 0.18379720181378878,
-      "win_prob": 0.027
+      "share_mean": 0.07325017391734391,
+      "share_lo": 0.006160225732294766,
+      "share_hi": 0.1876260513638768,
+      "win_prob": 0.031
      }
     ]
    },
@@ -1575,50 +1575,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.5558181795846926,
-      "share_lo": 0.21973758755416772,
-      "share_hi": 0.8632143626399691,
-      "win_prob": 0.7716
+      "share_mean": 0.5436220265734282,
+      "share_lo": 0.17322333323103745,
+      "share_hi": 0.8801316802957831,
+      "win_prob": 0.7151
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.1785671460653248,
-      "share_lo": 0.02477982451762324,
-      "share_hi": 0.4175542179300085,
-      "win_prob": 0.1344
+      "share_mean": 0.20057019115141755,
+      "share_lo": 0.021553285164698798,
+      "share_hi": 0.490646590688118,
+      "win_prob": 0.174
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.10505749149420071,
-      "share_lo": 0.012790311369952935,
-      "share_hi": 0.2523777981863673,
-      "win_prob": 0.0501
+      "share_mean": 0.11176218569932726,
+      "share_lo": 0.01005190427399702,
+      "share_hi": 0.28280251635628956,
+      "win_prob": 0.0657
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.01957240037603214,
-      "share_lo": 0.001984929497848901,
-      "share_hi": 0.04775068894239171,
-      "win_prob": 0.0004
+      "share_mean": 0.02177665335223599,
+      "share_lo": 0.0015073227181345362,
+      "share_hi": 0.05415892872515595,
+      "win_prob": 0.0015
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.07294799162787527,
-      "share_lo": 0.008300171313858126,
-      "share_hi": 0.17847035147172846,
-      "win_prob": 0.0237
+      "share_mean": 0.05687986360433338,
+      "share_lo": 0.00430887105321696,
+      "share_hi": 0.14503164380877923,
+      "win_prob": 0.0198
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.06803679085187453,
-      "share_lo": 0.007487397508006105,
-      "share_hi": 0.165355813764706,
-      "win_prob": 0.0198
+      "share_mean": 0.06538907961925759,
+      "share_lo": 0.004912362280376915,
+      "share_hi": 0.16457274292271948,
+      "win_prob": 0.0239
      }
     ]
    },
@@ -1628,50 +1628,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.41341463432398484,
-      "share_lo": 0.10742602174569157,
-      "share_hi": 0.760178278014894,
-      "win_prob": 0.5102
+      "share_mean": 0.41247674083490365,
+      "share_lo": 0.0856092917181538,
+      "share_hi": 0.7941682576733626,
+      "win_prob": 0.4873
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.33801060179968573,
-      "share_lo": 0.0739202355110926,
-      "share_hi": 0.6719743141311816,
-      "win_prob": 0.3795
+      "share_mean": 0.3681215759102528,
+      "share_lo": 0.06677192911377941,
+      "share_hi": 0.7460521462049947,
+      "win_prob": 0.4198
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.04426736904543749,
-      "share_lo": 0.004802541839750807,
-      "share_hi": 0.10648096407207855,
-      "win_prob": 0.0081
+      "share_mean": 0.04914662641318117,
+      "share_lo": 0.0036074065445436676,
+      "share_hi": 0.12363349229462547,
+      "win_prob": 0.0145
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.019141151289374977,
-      "share_lo": 0.0019875978507053753,
-      "share_hi": 0.04645923671006833,
-      "win_prob": 0.0004
+      "share_mean": 0.02162194776608706,
+      "share_lo": 0.0014906058048121979,
+      "share_hi": 0.054498144303042784,
+      "win_prob": 0.002
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.14734956202289437,
-      "share_lo": 0.0204071367721383,
-      "share_hi": 0.35892291527627146,
-      "win_prob": 0.0965
+      "share_mean": 0.11523742352522,
+      "share_lo": 0.010488098020467698,
+      "share_hi": 0.30255381637482714,
+      "win_prob": 0.0699
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.03781668151862258,
-      "share_lo": 0.0041198655684832625,
-      "share_hi": 0.08853281432864933,
-      "win_prob": 0.0053
+      "share_mean": 0.0333956855503553,
+      "share_lo": 0.0024335810437868836,
+      "share_hi": 0.08153377065131483,
+      "win_prob": 0.0065
      }
     ]
    },
@@ -1681,50 +1681,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4482957292599753,
-      "share_lo": 0.1408042363088971,
-      "share_hi": 0.7755078147782206,
-      "win_prob": 0.6418
+      "share_mean": 0.4416669334537197,
+      "share_lo": 0.11079132263453681,
+      "share_hi": 0.8025921619136501,
+      "win_prob": 0.5945
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.17379643884391488,
-      "share_lo": 0.026844149817620122,
-      "share_hi": 0.39997384019899335,
-      "win_prob": 0.1475
+      "share_mean": 0.19455787349533027,
+      "share_lo": 0.023116882674438972,
+      "share_hi": 0.46767134371285274,
+      "win_prob": 0.1806
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.1393873550623789,
-      "share_lo": 0.019959771387191384,
-      "share_hi": 0.32522811461313145,
-      "win_prob": 0.0983
+      "share_mean": 0.1459873809362597,
+      "share_lo": 0.01520070455582187,
+      "share_hi": 0.3626306359757542,
+      "win_prob": 0.1115
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.049333353073034776,
-      "share_lo": 0.005669685945554586,
-      "share_hi": 0.11711062316148792,
-      "win_prob": 0.0115
+      "share_mean": 0.04473980892749446,
+      "share_lo": 0.003443773495412498,
+      "share_hi": 0.1102135041476424,
+      "win_prob": 0.0128
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.07034200693008949,
-      "share_lo": 0.008772235499156662,
-      "share_hi": 0.16742307577485674,
-      "win_prob": 0.0236
+      "share_mean": 0.0544115564755152,
+      "share_lo": 0.004506549705340671,
+      "share_hi": 0.13444174986768204,
+      "win_prob": 0.0179
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.11884511683060675,
-      "share_lo": 0.01587595059840086,
-      "share_hi": 0.2842850168680819,
-      "win_prob": 0.0773
+      "share_mean": 0.11863644671168072,
+      "share_lo": 0.011142921590231296,
+      "share_hi": 0.30121753701757875,
+      "win_prob": 0.0827
      }
     ]
    },
@@ -1734,50 +1734,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.276918169424463,
-      "share_lo": 0.05254350718830743,
-      "share_hi": 0.5857658322764068,
-      "win_prob": 0.307
+      "share_mean": 0.27873965689021757,
+      "share_lo": 0.04058876447699203,
+      "share_hi": 0.6221289627862694,
+      "win_prob": 0.3033
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.17781459476248646,
-      "share_lo": 0.028510003136063874,
-      "share_hi": 0.40242387343926084,
-      "win_prob": 0.1404
+      "share_mean": 0.19818793155238673,
+      "share_lo": 0.024492339181042152,
+      "share_hi": 0.4710940509058988,
+      "win_prob": 0.1728
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.3807851796640899,
-      "share_lo": 0.09861332680497198,
-      "share_hi": 0.7210172166261225,
-      "win_prob": 0.49
+      "share_mean": 0.3771428025627454,
+      "share_lo": 0.07812836487331289,
+      "share_hi": 0.7509288807448881,
+      "win_prob": 0.4628
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.005598509503102202,
-      "share_lo": 0.0006172860787084375,
-      "share_hi": 0.01296405921444739,
-      "win_prob": 0.0
+      "share_mean": 0.0062913764627576625,
+      "share_lo": 0.0004619363453040027,
+      "share_hi": 0.014755699075253379,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.07122001216015082,
-      "share_lo": 0.008613567277494953,
-      "share_hi": 0.168188017918845,
-      "win_prob": 0.0239
+      "share_mean": 0.054878876058336974,
+      "share_lo": 0.0043698658647171726,
+      "share_hi": 0.1353571023682975,
+      "win_prob": 0.0183
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.08766353448570757,
-      "share_lo": 0.010873110112189284,
-      "share_hi": 0.21083629752241576,
-      "win_prob": 0.0387
+      "share_mean": 0.08475935647355569,
+      "share_lo": 0.007361872231189801,
+      "share_hi": 0.2149787448681919,
+      "win_prob": 0.0427
      }
     ]
    },
@@ -1787,50 +1787,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.3572383964859223,
-      "share_lo": 0.08551929949789892,
-      "share_hi": 0.6912303003762537,
-      "win_prob": 0.4574
+      "share_mean": 0.3613891042083415,
+      "share_lo": 0.06839186473644654,
+      "share_hi": 0.7285287598061864,
+      "win_prob": 0.4414
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.1260970381249472,
-      "share_lo": 0.01799440528739551,
-      "share_hi": 0.2977172150223515,
-      "win_prob": 0.0769
+      "share_mean": 0.14582487676307945,
+      "share_lo": 0.015733855812520115,
+      "share_hi": 0.362963006432431,
+      "win_prob": 0.1128
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.28923452400529837,
-      "share_lo": 0.06253538500134123,
-      "share_hi": 0.5970125649744066,
-      "win_prob": 0.3268
+      "share_mean": 0.2966657855726212,
+      "share_lo": 0.05047987730456963,
+      "share_hi": 0.6429363151690525,
+      "win_prob": 0.3346
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.004999324724135991,
-      "share_lo": 0.0005272100224243052,
-      "share_hi": 0.01132038135587658,
-      "win_prob": 0.0
+      "share_mean": 0.005781274226404061,
+      "share_lo": 0.00040764218621461046,
+      "share_hi": 0.013181799682279784,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.1469875319892609,
-      "share_lo": 0.022010597764672502,
-      "share_hi": 0.3470017649861015,
-      "win_prob": 0.1085
+      "share_mean": 0.11529889575440347,
+      "share_lo": 0.011282526815529862,
+      "share_hi": 0.29663806944404153,
+      "win_prob": 0.0738
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.0754431846704352,
-      "share_lo": 0.009137206581247887,
-      "share_hi": 0.1811941952407904,
-      "win_prob": 0.0304
+      "share_mean": 0.0750400634751503,
+      "share_lo": 0.00629562997595107,
+      "share_hi": 0.1890963254274305,
+      "win_prob": 0.0373
      }
     ]
    },
@@ -1840,50 +1840,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4405344011347921,
-      "share_lo": 0.12139373872663976,
-      "share_hi": 0.7935863496471796,
-      "win_prob": 0.5239
+      "share_mean": 0.4421709057292801,
+      "share_lo": 0.09759469233717313,
+      "share_hi": 0.8284225547572118,
+      "win_prob": 0.5018
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.35170635044103354,
-      "share_lo": 0.07459724157379559,
-      "share_hi": 0.6949422175200797,
-      "win_prob": 0.3795
+      "share_mean": 0.3844643400064524,
+      "share_lo": 0.06873174458783217,
+      "share_hi": 0.7703149739018031,
+      "win_prob": 0.4248
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.01705929074310372,
-      "share_lo": 0.0016786031723706725,
-      "share_hi": 0.04053195861986648,
-      "win_prob": 0.0005
+      "share_mean": 0.019561087080940506,
+      "share_lo": 0.0012606088832040172,
+      "share_hi": 0.048127273285879534,
+      "win_prob": 0.002
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.00612175057029118,
-      "share_lo": 0.0005794546242894573,
-      "share_hi": 0.014128067330390022,
-      "win_prob": 0.0
+      "share_mean": 0.007088154714501312,
+      "share_lo": 0.00044303964550611704,
+      "share_hi": 0.016642221229124097,
+      "win_prob": 0.0002
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.15441675799909668,
-      "share_lo": 0.021129526184504855,
-      "share_hi": 0.3682933532354968,
-      "win_prob": 0.093
+      "share_mean": 0.12186725993941261,
+      "share_lo": 0.010966440066719279,
+      "share_hi": 0.3145043729742483,
+      "win_prob": 0.0683
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.030161449111682795,
-      "share_lo": 0.0029992501769069368,
-      "share_hi": 0.07092155854517755,
-      "win_prob": 0.0031
+      "share_mean": 0.024848252529413067,
+      "share_lo": 0.0016147242222452063,
+      "share_hi": 0.0596791030588324,
+      "win_prob": 0.0029
      }
     ]
    },
@@ -1893,50 +1893,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.2821469450310724,
-      "share_lo": 0.05597185487382201,
-      "share_hi": 0.5974120570667985,
-      "win_prob": 0.3003
+      "share_mean": 0.2801502022017114,
+      "share_lo": 0.042118688886172165,
+      "share_hi": 0.6336938115845432,
+      "win_prob": 0.2937
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.2866543955609602,
-      "share_lo": 0.057160849637850196,
-      "share_hi": 0.6035456665510537,
-      "win_prob": 0.3083
+      "share_mean": 0.30640220289998477,
+      "share_lo": 0.04917818049679769,
+      "share_hi": 0.6664987215764814,
+      "win_prob": 0.3346
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.32090140002747786,
-      "share_lo": 0.06906036168059718,
-      "share_hi": 0.6572224218840043,
-      "win_prob": 0.3666
+      "share_mean": 0.3174620312503509,
+      "share_lo": 0.05292543914895107,
+      "share_hi": 0.6909888326342584,
+      "win_prob": 0.3475
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.006099870997089941,
-      "share_lo": 0.0006391571408564259,
-      "share_hi": 0.013817145107558491,
-      "win_prob": 0.0
+      "share_mean": 0.006757235588477378,
+      "share_lo": 0.00046995438377074345,
+      "share_hi": 0.015288506678995801,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.04121061626154938,
-      "share_lo": 0.004618076304421751,
-      "share_hi": 0.0984074875374779,
-      "win_prob": 0.0071
+      "share_mean": 0.031413048755934925,
+      "share_lo": 0.002316026810961627,
+      "share_hi": 0.07868243613801376,
+      "win_prob": 0.0053
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.06298677212185025,
-      "share_lo": 0.007408998859630908,
-      "share_hi": 0.15313520034899916,
-      "win_prob": 0.0177
+      "share_mean": 0.057815279303540704,
+      "share_lo": 0.004604746994770415,
+      "share_hi": 0.1465886336529438,
+      "win_prob": 0.0188
      }
     ]
    },
@@ -1946,50 +1946,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.4092544462088301,
-      "share_lo": 0.10329657970853631,
-      "share_hi": 0.7667203073267559,
-      "win_prob": 0.4862
+      "share_mean": 0.4015039128228639,
+      "share_lo": 0.0768946576742779,
+      "share_hi": 0.7922006584946844,
+      "win_prob": 0.4598
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.39200008701638533,
-      "share_lo": 0.09154483390044162,
-      "share_hi": 0.746226836321352,
-      "win_prob": 0.4617
+      "share_mean": 0.4134372631463332,
+      "share_lo": 0.08250794483028133,
+      "share_hi": 0.8015599563075236,
+      "win_prob": 0.4806
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.08006385506823241,
-      "share_lo": 0.009218004804321545,
-      "share_hi": 0.19641135106853824,
-      "win_prob": 0.0275
+      "share_mean": 0.08477174943721591,
+      "share_lo": 0.0067904971146438555,
+      "share_hi": 0.21908349187370155,
+      "win_prob": 0.0384
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.006692995043148691,
-      "share_lo": 0.0006464525371037675,
-      "share_hi": 0.015675226042477675,
+      "share_mean": 0.007482010810963712,
+      "share_lo": 0.00048009217568889296,
+      "share_hi": 0.017511862020340677,
       "win_prob": 0.0
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.06108804297040181,
-      "share_lo": 0.006866692585624689,
-      "share_hi": 0.14743125125775133,
-      "win_prob": 0.0156
+      "share_mean": 0.04702483407116886,
+      "share_lo": 0.0034490539895467402,
+      "share_hi": 0.11897675282350327,
+      "win_prob": 0.0114
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.05090057369300163,
-      "share_lo": 0.005547494636653818,
-      "share_hi": 0.12559190214379107,
-      "win_prob": 0.009
+      "share_mean": 0.04578022971145437,
+      "share_lo": 0.0033604230220932326,
+      "share_hi": 0.11821863388704697,
+      "win_prob": 0.0098
      }
     ]
    },
@@ -1999,50 +1999,50 @@
      {
       "party": "APC",
       "candidate": "Bola Tinubu",
-      "share_mean": 0.5222678217481803,
-      "share_lo": 0.1782694189625895,
-      "share_hi": 0.8514401100872963,
-      "win_prob": 0.6526
+      "share_mean": 0.5198107207778067,
+      "share_lo": 0.14408439319465005,
+      "share_hi": 0.8778908953644473,
+      "win_prob": 0.6175
      },
      {
       "party": "ADC",
       "candidate": "Atiku Abubakar",
-      "share_mean": 0.30011305881097383,
-      "share_lo": 0.054701072005715265,
-      "share_hi": 0.6369620984910702,
-      "win_prob": 0.2786
+      "share_mean": 0.3319035745836173,
+      "share_lo": 0.04865726548686148,
+      "share_hi": 0.7172017800106704,
+      "win_prob": 0.3285
      },
      {
       "party": "NDC",
       "candidate": "Peter Obi",
-      "share_mean": 0.008838660991746784,
-      "share_lo": 0.0008001358804426969,
-      "share_hi": 0.020529919003583464,
-      "win_prob": 0.0
+      "share_mean": 0.010290087199291215,
+      "share_lo": 0.0005992495441403864,
+      "share_hi": 0.024093174930763715,
+      "win_prob": 0.0005
      },
      {
       "party": "APM",
       "candidate": "Seyi Makinde",
-      "share_mean": 0.00634454979349107,
-      "share_lo": 0.0005901982817422983,
-      "share_hi": 0.015093219126425883,
-      "win_prob": 0.0
+      "share_mean": 0.007354524499725767,
+      "share_lo": 0.00043787278004290143,
+      "share_hi": 0.01756881067236553,
+      "win_prob": 0.0001
      },
      {
       "party": "PDP",
       "candidate": "Sandy Onor",
-      "share_mean": 0.12902919100717522,
-      "share_lo": 0.0160415599463674,
-      "share_hi": 0.30995109738920784,
-      "win_prob": 0.0652
+      "share_mean": 0.10234975736113272,
+      "share_lo": 0.008277979921032675,
+      "share_hi": 0.25974034404805263,
+      "win_prob": 0.0493
      },
      {
       "party": "OTH",
       "candidate": "Others",
-      "share_mean": 0.033406717648432775,
-      "share_lo": 0.003317560595345163,
-      "share_hi": 0.07875286362442104,
-      "win_prob": 0.0036
+      "share_mean": 0.028291335578426374,
+      "share_lo": 0.0018493707792268635,
+      "share_hi": 0.06944303310244535,
+      "win_prob": 0.0041
      }
     ]
    }
@@ -2050,7 +2050,7 @@
   "key": "pres-2027",
   "title": "2027 Presidential Election",
   "date": "2027-01-16",
-  "source_key": "wikipedia:presidential:2027"
+  "source_key": null
  },
  "governorship": [
   {
@@ -2066,52 +2066,52 @@
    "source_key": null,
    "contestants": [
     {
-     "candidate": "Alex Otti",
-     "party": "LP",
-     "win_prob": 0.3801239921492808,
-     "share_mean": 0.21085875175142318,
-     "share_lo": 0.09657551915247657,
-     "share_hi": 0.3415254599307922
-    },
-    {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.35461220807861815,
-     "share_mean": 0.21846724782002155,
-     "share_lo": 0.10344467786924988,
-     "share_hi": 0.35777772828431115
+     "win_prob": 0.39535957036489977,
+     "share_mean": 0.22688572253052766,
+     "share_lo": 0.10944873089170613,
+     "share_hi": 0.364455689803689
+    },
+    {
+     "candidate": "Alex Otti",
+     "party": "LP",
+     "win_prob": 0.35420461552886545,
+     "share_mean": 0.20586574827148704,
+     "share_lo": 0.09627505960523623,
+     "share_hi": 0.33309982651853476
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.09729071849028191,
-     "share_mean": 0.1813505213861983,
-     "share_lo": 0.08306670373574504,
-     "share_hi": 0.29931160854561134
+     "win_prob": 0.0868819111568874,
+     "share_mean": 0.16928455201620418,
+     "share_lo": 0.07664974750465393,
+     "share_hi": 0.2836485154347727
     },
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.08060351314018858,
-     "share_mean": 0.17486427474555932,
-     "share_lo": 0.0814889381486096,
-     "share_hi": 0.2878835899876843
+     "win_prob": 0.0739369581194364,
+     "share_mean": 0.1743278915411872,
+     "share_lo": 0.08083908220492837,
+     "share_hi": 0.2927779370336698
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.0687305796215917,
-     "share_mean": 0.15015841985217723,
-     "share_lo": 0.06708864679940503,
-     "share_hi": 0.2552066039224177
+     "win_prob": 0.062024591508404406,
+     "share_mean": 0.1537719981024747,
+     "share_lo": 0.06976662560628726,
+     "share_hi": 0.26123566823086547
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.018638988520038768,
-     "share_mean": 0.0643007844446205,
-     "share_lo": 0.027532532470885846,
-     "share_hi": 0.12161568633987936
+     "win_prob": 0.027592353321506734,
+     "share_mean": 0.06986408753811926,
+     "share_lo": 0.029008833161648515,
+     "share_hi": 0.12763091804252116
     }
    ]
   },
@@ -2130,42 +2130,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.3746604162858618,
-     "share_mean": 0.3265737007422976,
-     "share_lo": 0.16664641013218762,
-     "share_hi": 0.4979501243566851
+     "win_prob": 0.3704961547528318,
+     "share_mean": 0.3248158854841245,
+     "share_lo": 0.16281290408927118,
+     "share_hi": 0.48472498877600706
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.2544472877287436,
-     "share_mean": 0.20231386332891343,
-     "share_lo": 0.09314459652760779,
-     "share_hi": 0.345334986414635
+     "win_prob": 0.273348739715597,
+     "share_mean": 0.20832014631021653,
+     "share_lo": 0.09641704016473239,
+     "share_hi": 0.3432976934498026
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.202692331566296,
-     "share_mean": 0.2284819862219577,
-     "share_lo": 0.10612287189336989,
-     "share_hi": 0.37089467131391646
+     "win_prob": 0.18483903776941862,
+     "share_mean": 0.2184754248712426,
+     "share_lo": 0.10296347649514492,
+     "share_hi": 0.36369306049204725
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.1388170800731136,
-     "share_mean": 0.1709856430056815,
-     "share_lo": 0.07636251903871732,
-     "share_hi": 0.293589191524839
+     "win_prob": 0.1273338481387179,
+     "share_mean": 0.17133522066873044,
+     "share_lo": 0.0781772584786537,
+     "share_hi": 0.29487418027489604
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.029382884345985058,
-     "share_mean": 0.07164480670114977,
-     "share_lo": 0.029556116354259386,
-     "share_hi": 0.13224866083526693
+     "win_prob": 0.043982219623434654,
+     "share_mean": 0.07705332266568585,
+     "share_lo": 0.032849539189083725,
+     "share_hi": 0.14392060988764196
     }
    ]
   },
@@ -2184,50 +2184,50 @@
     {
      "candidate": "Umo Eno",
      "party": "APC",
-     "win_prob": 0.5951226860675073,
-     "share_mean": 0.35984179967579255,
-     "share_lo": 0.18545639757370572,
-     "share_hi": 0.5297992111018535
+     "win_prob": 0.6236658733208081,
+     "share_mean": 0.36515154057845256,
+     "share_lo": 0.18980874812454254,
+     "share_hi": 0.5255429452273493
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.13570451657412055,
-     "share_mean": 0.21841670643296793,
-     "share_lo": 0.10120942402333212,
-     "share_hi": 0.3565845819859355
+     "win_prob": 0.11000399236002295,
+     "share_mean": 0.206432946095147,
+     "share_lo": 0.09657513001144388,
+     "share_hi": 0.3393954994377954
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.09029346634366266,
-     "share_mean": 0.13474190486860843,
-     "share_lo": 0.05781639173054737,
-     "share_hi": 0.2397689614652582
+     "win_prob": 0.09236232948871194,
+     "share_mean": 0.1397699564283785,
+     "share_lo": 0.062337213004490896,
+     "share_hi": 0.23922698311335505
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.08548839608175682,
-     "share_mean": 0.1319741494505837,
-     "share_lo": 0.05907660688275744,
-     "share_hi": 0.22994230735294582
+     "win_prob": 0.08143924802145831,
+     "share_mean": 0.13434124371162806,
+     "share_lo": 0.058891893287798876,
+     "share_hi": 0.23644216084223824
     },
     {
      "candidate": "YPP candidate",
      "party": "YPP",
-     "win_prob": 0.07640952878193841,
-     "share_mean": 0.10114867619150439,
-     "share_lo": 0.04315565790914004,
-     "share_hi": 0.18244411243265618
+     "win_prob": 0.06764086435711242,
+     "share_mean": 0.09664710540747441,
+     "share_lo": 0.041227894178362354,
+     "share_hi": 0.1787178596141257
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.016981406151014223,
-     "share_mean": 0.053876763380542814,
-     "share_lo": 0.022443967443025015,
-     "share_hi": 0.10142373701579184
+     "win_prob": 0.024887692451886222,
+     "share_mean": 0.05765720777891926,
+     "share_lo": 0.024524771779931228,
+     "share_hi": 0.10879519603962089
     }
    ]
   },
@@ -2246,50 +2246,50 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.32172537868911627,
-     "share_mean": 0.2825466491397497,
-     "share_lo": 0.1397382942619925,
-     "share_hi": 0.4405870988022876
+     "win_prob": 0.33357909625946824,
+     "share_mean": 0.28579630385231203,
+     "share_lo": 0.1403230421125856,
+     "share_hi": 0.43608133929361037
     },
     {
      "candidate": "Bala Mohammed",
      "party": "APM",
-     "win_prob": 0.30196254342276924,
-     "share_mean": 0.1923250174714581,
-     "share_lo": 0.08762791623958255,
-     "share_hi": 0.3190767512459644
+     "win_prob": 0.2843156760913222,
+     "share_mean": 0.18826808600012856,
+     "share_lo": 0.08646705885131693,
+     "share_hi": 0.3156605162824291
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.15669854576272982,
-     "share_mean": 0.16196605014004886,
-     "share_lo": 0.07327480970716219,
-     "share_hi": 0.27271158775740534
+     "win_prob": 0.16851415611596332,
+     "share_mean": 0.168712683444647,
+     "share_lo": 0.07817315108211774,
+     "share_hi": 0.28543243546439884
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.10669625750433194,
-     "share_mean": 0.17526495543985038,
-     "share_lo": 0.07916738934256007,
-     "share_hi": 0.3002043976255389
+     "win_prob": 0.09612488664359076,
+     "share_mean": 0.16318135378397144,
+     "share_lo": 0.07086537653146141,
+     "share_hi": 0.27433392962284925
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.09150673388131347,
-     "share_mean": 0.13345680737627974,
-     "share_lo": 0.05756167653138629,
-     "share_hi": 0.2313738983740045
+     "win_prob": 0.08492439807311414,
+     "share_mean": 0.13501629551643934,
+     "share_lo": 0.059797028919560166,
+     "share_hi": 0.232254836368516
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.02141054073973922,
-     "share_mean": 0.05444052043261321,
-     "share_lo": 0.022826134339898194,
-     "share_hi": 0.10378691909760294
+     "win_prob": 0.03254178681654147,
+     "share_mean": 0.05902527740250169,
+     "share_lo": 0.024634550748651004,
+     "share_hi": 0.10697145912384329
     }
    ]
   },
@@ -2308,50 +2308,50 @@
     {
      "candidate": "Hyacinth Alia",
      "party": "APC",
-     "win_prob": 0.7291475175454343,
-     "share_mean": 0.4172908650176779,
-     "share_lo": 0.22435441467870426,
-     "share_hi": 0.5847503383261347
+     "win_prob": 0.7521952964968072,
+     "share_mean": 0.42336523917961183,
+     "share_lo": 0.23233970324787387,
+     "share_hi": 0.5890874979984203
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.0917467052748995,
-     "share_mean": 0.15044136099406022,
-     "share_lo": 0.06666263701233628,
-     "share_hi": 0.26183713680043297
+     "win_prob": 0.08631028956083715,
+     "share_mean": 0.15324740418262928,
+     "share_lo": 0.0672563321469463,
+     "share_hi": 0.2656169833732859
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.06847556300607971,
-     "share_mean": 0.16836701988128186,
-     "share_lo": 0.07447538710215433,
-     "share_hi": 0.28950883583213644
+     "win_prob": 0.05787327312922728,
+     "share_mean": 0.1558869813403807,
+     "share_lo": 0.06961258741698054,
+     "share_hi": 0.26693361535526916
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.0531463477608052,
-     "share_mean": 0.12361934040667066,
-     "share_lo": 0.054424996530579244,
-     "share_hi": 0.22089676909883713
+     "win_prob": 0.04777865410146143,
+     "share_mean": 0.12673085426539576,
+     "share_lo": 0.05648791376566574,
+     "share_hi": 0.22776896451426937
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.04502073964921934,
-     "share_mean": 0.0897447286475773,
-     "share_lo": 0.038700648347677495,
-     "share_hi": 0.15945220198722124
+     "win_prob": 0.03817261759098845,
+     "share_mean": 0.08651540381507762,
+     "share_lo": 0.03697835325319659,
+     "share_hi": 0.15991709024889178
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.012463126763561982,
-     "share_mean": 0.050536685052731956,
-     "share_lo": 0.021108157917119872,
-     "share_hi": 0.09633856615741528
+     "win_prob": 0.017669869120678534,
+     "share_mean": 0.0542541172169048,
+     "share_lo": 0.022844492339036876,
+     "share_hi": 0.10482059776114659
     }
    ]
   },
@@ -2370,42 +2370,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.7155128808197958,
-     "share_mean": 0.4359662978750397,
-     "share_lo": 0.24088508404939232,
-     "share_hi": 0.610822734220409
+     "win_prob": 0.7343998831894203,
+     "share_mean": 0.4431608270815241,
+     "share_lo": 0.24750477531053497,
+     "share_hi": 0.6172764094816429
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.11902264372604963,
-     "share_mean": 0.18564870905926714,
-     "share_lo": 0.08194921824250913,
-     "share_hi": 0.3191460388959956
+     "win_prob": 0.11579673970855786,
+     "share_mean": 0.1907447451110228,
+     "share_lo": 0.08568963449758461,
+     "share_hi": 0.32990543253277693
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.08059367704909425,
-     "share_mean": 0.19037174911270258,
-     "share_lo": 0.08448912010905084,
-     "share_hi": 0.3283742093481992
+     "win_prob": 0.06733616863838017,
+     "share_mean": 0.17521483414734554,
+     "share_lo": 0.07644883479842662,
+     "share_hi": 0.29926679233753517
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.06611495115988461,
-     "share_mean": 0.12342044736689181,
-     "share_lo": 0.052957901161662484,
-     "share_hi": 0.21917547570442394
+     "win_prob": 0.055969996732210585,
+     "share_mean": 0.12173300364224911,
+     "share_lo": 0.05292605993455939,
+     "share_hi": 0.2269207115145068
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.018755847245175566,
-     "share_mean": 0.06459279658609882,
-     "share_lo": 0.02660765066126435,
-     "share_hi": 0.12467651158705226
+     "win_prob": 0.0264972117314311,
+     "share_mean": 0.06914659001785835,
+     "share_lo": 0.028814040814548324,
+     "share_hi": 0.1288948654289227
     }
    ]
   },
@@ -2424,42 +2424,42 @@
     {
      "candidate": "Bassey Otu",
      "party": "APC",
-     "win_prob": 0.6040384184905979,
-     "share_mean": 0.39052122899636815,
-     "share_lo": 0.20421553491351538,
-     "share_hi": 0.5647309213847981
+     "win_prob": 0.6499955231725018,
+     "share_mean": 0.3987314000982994,
+     "share_lo": 0.20721134793277285,
+     "share_hi": 0.5770699799718392
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.20964382416640026,
-     "share_mean": 0.2676935262708022,
-     "share_lo": 0.12923062472625724,
-     "share_hi": 0.43326174907880044
+     "win_prob": 0.15534429769577862,
+     "share_mean": 0.24675005443797177,
+     "share_lo": 0.11479764884196907,
+     "share_hi": 0.40592454075365636
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.09865004084612636,
-     "share_mean": 0.15240610315271963,
-     "share_lo": 0.06746385073229491,
-     "share_hi": 0.2666103579031415
+     "win_prob": 0.10260298416805473,
+     "share_mean": 0.1568014824389341,
+     "share_lo": 0.0691863717227355,
+     "share_hi": 0.27761217080803435
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.07056785335046153,
-     "share_mean": 0.13029943966215066,
-     "share_lo": 0.056066970609185925,
-     "share_hi": 0.23852093503958524
+     "win_prob": 0.06736974884627144,
+     "share_mean": 0.13517946628162894,
+     "share_lo": 0.05686487862370618,
+     "share_hi": 0.23911433502506613
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.017099863146413843,
-     "share_mean": 0.059079701917959346,
-     "share_lo": 0.023544538620288057,
-     "share_hi": 0.11108557631692545
+     "win_prob": 0.0246874461173935,
+     "share_mean": 0.06253759674316595,
+     "share_lo": 0.026166272171406706,
+     "share_hi": 0.12070029178825775
     }
    ]
   },
@@ -2478,50 +2478,50 @@
     {
      "candidate": "Sheriff Oborevwori",
      "party": "PDP",
-     "win_prob": 0.5327098638106049,
-     "share_mean": 0.34829881305786603,
-     "share_lo": 0.17921601691955258,
-     "share_hi": 0.5186921939457635
+     "win_prob": 0.49629176159588356,
+     "share_mean": 0.33305186288658356,
+     "share_lo": 0.17035805712794902,
+     "share_hi": 0.50204036447115
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.15577547417555984,
-     "share_mean": 0.1578739954479743,
-     "share_lo": 0.06911830946368475,
-     "share_hi": 0.27250914110344737
+     "win_prob": 0.175518866779296,
+     "share_mean": 0.16352238651030815,
+     "share_lo": 0.07166597545997583,
+     "share_hi": 0.27869007650533617
     },
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.142203420144655,
-     "share_mean": 0.21608015995733595,
-     "share_lo": 0.10194300358480406,
-     "share_hi": 0.35435961824159173
+     "win_prob": 0.14788603973535155,
+     "share_mean": 0.21849981297226326,
+     "share_lo": 0.10392822563656066,
+     "share_hi": 0.35932070305913594
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.08413072106964163,
-     "share_mean": 0.13230755415597184,
-     "share_lo": 0.05713116489798838,
-     "share_hi": 0.23442927408164774
+     "win_prob": 0.08798895906788522,
+     "share_mean": 0.13807400381302284,
+     "share_lo": 0.0615094134298866,
+     "share_hi": 0.23931893284957606
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.06706119216890759,
-     "share_mean": 0.09396997882906562,
-     "share_lo": 0.04141642898554163,
-     "share_hi": 0.16881348782133762
+     "win_prob": 0.06360870205063816,
+     "share_mean": 0.09119054083495913,
+     "share_lo": 0.03907406401868966,
+     "share_hi": 0.16387231157043736
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.018119328630630968,
-     "share_mean": 0.05146949855178622,
-     "share_lo": 0.02177257680572239,
-     "share_hi": 0.09894666291028167
+     "win_prob": 0.02870567077094548,
+     "share_mean": 0.05566139298286309,
+     "share_lo": 0.023316585797260543,
+     "share_hi": 0.10636998354817957
     }
    ]
   },
@@ -2540,50 +2540,50 @@
     {
      "candidate": "Francis Nwifuru",
      "party": "APC",
-     "win_prob": 0.5153950934688122,
-     "share_mean": 0.37898618462338896,
-     "share_lo": 0.19800703743556677,
-     "share_hi": 0.5424784505453284
+     "win_prob": 0.5097622940528359,
+     "share_mean": 0.38168544113377123,
+     "share_lo": 0.19993530195286716,
+     "share_hi": 0.5452621324074598
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.26400437109877334,
-     "share_mean": 0.18924483081877244,
-     "share_lo": 0.08551378516190507,
-     "share_hi": 0.3236835218080572
+     "win_prob": 0.28542951038649333,
+     "share_mean": 0.19477551264334722,
+     "share_lo": 0.09085934389441708,
+     "share_hi": 0.32982609025808624
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.07783737970899146,
-     "share_mean": 0.14835585267356216,
-     "share_lo": 0.06417783824890647,
-     "share_hi": 0.26233094120193906
+     "win_prob": 0.06879816107143946,
+     "share_mean": 0.13744525682430478,
+     "share_lo": 0.0614388714992813,
+     "share_hi": 0.23915711923444052
     },
     {
      "candidate": "APGA candidate",
      "party": "APGA",
-     "win_prob": 0.06806830740828866,
-     "share_mean": 0.11177148117427263,
-     "share_lo": 0.0475538743949156,
-     "share_hi": 0.20266750349401697
+     "win_prob": 0.06013114133770587,
+     "share_mean": 0.10788787303034891,
+     "share_lo": 0.04579090568220547,
+     "share_hi": 0.19138319225640585
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.05821680893001248,
-     "share_mean": 0.1100511960441261,
-     "share_lo": 0.0480161325207693,
-     "share_hi": 0.2006029022402921
+     "win_prob": 0.05168458426531669,
+     "share_mean": 0.11169637229614587,
+     "share_lo": 0.04804825093653807,
+     "share_hi": 0.20215127767160124
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.01647803938512188,
-     "share_mean": 0.06159045466587783,
-     "share_lo": 0.025322214075688278,
-     "share_hi": 0.11380927513604723
+     "win_prob": 0.024194308886208833,
+     "share_mean": 0.06650954407208207,
+     "share_lo": 0.02845797391544676,
+     "share_hi": 0.12305101175961498
     }
    ]
   },
@@ -2602,50 +2602,50 @@
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.401542863299538,
-     "share_mean": 0.22687641911584142,
-     "share_lo": 0.10711974950407169,
-     "share_hi": 0.3598344434051767
+     "win_prob": 0.4458290697640485,
+     "share_mean": 0.23570801430801375,
+     "share_lo": 0.11001402564726483,
+     "share_hi": 0.3726758992011095
     },
     {
      "candidate": "Peter Mbah",
      "party": "APC",
-     "win_prob": 0.2933749626179313,
-     "share_mean": 0.2679629680028035,
-     "share_lo": 0.12887477067908687,
-     "share_hi": 0.4208158609367771
+     "win_prob": 0.27245793762257187,
+     "share_mean": 0.2660873497801113,
+     "share_lo": 0.1299572311898902,
+     "share_hi": 0.41117161040576183
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.12857260454014582,
-     "share_mean": 0.14730999865085298,
-     "share_lo": 0.06538966242305057,
-     "share_hi": 0.2563739102458223
+     "win_prob": 0.11532858789675127,
+     "share_mean": 0.14290064004500694,
+     "share_lo": 0.06429258243470783,
+     "share_hi": 0.24981602944155404
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.08869210174610853,
-     "share_mean": 0.16678325675182273,
-     "share_lo": 0.07493205851143085,
-     "share_hi": 0.2839298513790096
+     "win_prob": 0.0778381097034626,
+     "share_mean": 0.15587842566052193,
+     "share_lo": 0.0692379531577652,
+     "share_hi": 0.2713137275801442
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.06834282124758927,
-     "share_mean": 0.12485981773262105,
-     "share_lo": 0.05363443188291379,
-     "share_hi": 0.21750255716855113
+     "win_prob": 0.06013855958743048,
+     "share_mean": 0.12749595089845142,
+     "share_lo": 0.05542354395732787,
+     "share_hi": 0.22167563391466732
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.019474646548687295,
-     "share_mean": 0.06620753974605827,
-     "share_lo": 0.02775344125204322,
-     "share_hi": 0.12367339387549699
+     "win_prob": 0.028407735425735214,
+     "share_mean": 0.07192961930789478,
+     "share_lo": 0.03096327364364286,
+     "share_hi": 0.1311857528828284
     }
    ]
   },
@@ -2664,42 +2664,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.39922722187776605,
-     "share_mean": 0.3585770779982185,
-     "share_lo": 0.1861480007221813,
-     "share_hi": 0.5288856382240732
-    },
-    {
-     "candidate": "PDP candidate",
-     "party": "PDP",
-     "win_prob": 0.23808379720027997,
-     "share_mean": 0.2520239110552481,
-     "share_lo": 0.12031289779308942,
-     "share_hi": 0.4077827722197758
+     "win_prob": 0.39656862109104096,
+     "share_mean": 0.3644719746533647,
+     "share_lo": 0.19096034333019296,
+     "share_hi": 0.5240129869225253
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.2363013546794374,
-     "share_mean": 0.18943572715129287,
-     "share_lo": 0.08507436085796614,
-     "share_hi": 0.32581826670067504
+     "win_prob": 0.2580256216782177,
+     "share_mean": 0.19637813939785315,
+     "share_lo": 0.08882843517174334,
+     "share_hi": 0.33737205732684805
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.2168764397019493,
+     "share_mean": 0.23433418709452195,
+     "share_lo": 0.1079786769812024,
+     "share_hi": 0.3907991913160354
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.10065091087766566,
-     "share_mean": 0.13890562186379626,
-     "share_lo": 0.062044610911541315,
-     "share_hi": 0.25040982337053247
+     "win_prob": 0.09032363851187229,
+     "share_mean": 0.13899217241312584,
+     "share_lo": 0.06125778297868337,
+     "share_hi": 0.25545620881701264
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.025736715364851004,
-     "share_mean": 0.06105766193144432,
-     "share_lo": 0.02564501365350146,
-     "share_hi": 0.11764498852062441
+     "win_prob": 0.038205679016919895,
+     "share_mean": 0.06582352644113426,
+     "share_lo": 0.028032700061298786,
+     "share_hi": 0.12195437695624833
     }
    ]
   },
@@ -2718,42 +2718,42 @@
     {
      "candidate": "Umar Namadi",
      "party": "APC",
-     "win_prob": 0.7890050017528595,
-     "share_mean": 0.45949524499821276,
-     "share_lo": 0.2574323976288659,
-     "share_hi": 0.6329570255026421
-    },
-    {
-     "candidate": "PDP candidate",
-     "party": "PDP",
-     "win_prob": 0.08194375849454809,
-     "share_mean": 0.216885030326254,
-     "share_lo": 0.10108400171624078,
-     "share_hi": 0.36705003794482033
+     "win_prob": 0.810057758369017,
+     "share_mean": 0.4660112173618131,
+     "share_lo": 0.2607657278878919,
+     "share_hi": 0.6379524844239277
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.07513209673844416,
-     "share_mean": 0.15623542857277345,
-     "share_lo": 0.06803018869964764,
-     "share_hi": 0.27478917506757033
+     "win_prob": 0.07300782451472078,
+     "share_mean": 0.16134620803814398,
+     "share_lo": 0.07179967870343633,
+     "share_hi": 0.28091651993281036
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.06568798970204653,
+     "share_mean": 0.20169207415348295,
+     "share_lo": 0.09016228627390797,
+     "share_hi": 0.3482131970521873
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.042133514759758815,
-     "share_mean": 0.10846184765855207,
-     "share_lo": 0.0467246295808421,
-     "share_hi": 0.20417987312745128
+     "win_prob": 0.034974810154961546,
+     "share_mean": 0.10771324519535196,
+     "share_lo": 0.045317911830404296,
+     "share_hi": 0.19966821711968824
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.011785628254389321,
-     "share_mean": 0.05892244844420771,
-     "share_lo": 0.024229964307069106,
-     "share_hi": 0.11370404778575785
+     "win_prob": 0.016271617259254023,
+     "share_mean": 0.06323725525120794,
+     "share_lo": 0.026791417665679596,
+     "share_hi": 0.12155805711537755
     }
    ]
   },
@@ -2772,50 +2772,50 @@
     {
      "candidate": "Uba Sani",
      "party": "APC",
-     "win_prob": 0.5879897736491118,
-     "share_mean": 0.37016386992057876,
-     "share_lo": 0.1950666133068093,
-     "share_hi": 0.537622189615622
+     "win_prob": 0.6061331539641622,
+     "share_mean": 0.3751136855801737,
+     "share_lo": 0.1975207599969171,
+     "share_hi": 0.5382312904267461
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.13657877925100442,
-     "share_mean": 0.20710718689397603,
-     "share_lo": 0.0940050602154009,
-     "share_hi": 0.34598258934570586
+     "win_prob": 0.11873911992339348,
+     "share_mean": 0.1933391548412559,
+     "share_lo": 0.08906874009370817,
+     "share_hi": 0.31841612790970564
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.10557598679323804,
-     "share_mean": 0.1453091736838407,
-     "share_lo": 0.06551415216565591,
-     "share_hi": 0.2540531265721327
+     "win_prob": 0.10914003771660324,
+     "share_mean": 0.15072490645872083,
+     "share_lo": 0.06673961678217373,
+     "share_hi": 0.26477245229364366
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.09240771401743553,
-     "share_mean": 0.13947135106983088,
-     "share_lo": 0.061055177149718524,
-     "share_hi": 0.24446408873258013
+     "win_prob": 0.08716996699319267,
+     "share_mean": 0.14179838628695995,
+     "share_lo": 0.06324828670946249,
+     "share_hi": 0.24801913152343424
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.06033774573263167,
-     "share_mean": 0.08704089275061054,
-     "share_lo": 0.03766219382239603,
-     "share_hi": 0.16099717536096073
+     "win_prob": 0.053446973924958646,
+     "share_mean": 0.08422067732914067,
+     "share_lo": 0.03707459853663199,
+     "share_hi": 0.1531065194402506
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.01711000055657853,
-     "share_mean": 0.05090752568116304,
-     "share_lo": 0.02130448359746744,
-     "share_hi": 0.09844325125849551
+     "win_prob": 0.02537074747768958,
+     "share_mean": 0.054803189503748816,
+     "share_lo": 0.024213425151549926,
+     "share_hi": 0.10138176019631677
     }
    ]
   },
@@ -2834,50 +2834,50 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.43328299786453034,
-     "share_mean": 0.3230241193779127,
-     "share_lo": 0.16685295113233714,
-     "share_hi": 0.48085310655429536
+     "win_prob": 0.4631311954612923,
+     "share_mean": 0.32583098916259823,
+     "share_lo": 0.16455523915980133,
+     "share_hi": 0.490315609668124
     },
     {
      "candidate": "Abba Kabir Yusuf",
      "party": "NNPP",
-     "win_prob": 0.32889674297460414,
-     "share_mean": 0.18862365500920042,
-     "share_lo": 0.08547938217064177,
-     "share_hi": 0.31854024212452314
+     "win_prob": 0.3065067657422454,
+     "share_mean": 0.18240120200244123,
+     "share_lo": 0.08346504622911548,
+     "share_hi": 0.30450569778786774
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.08064299974759229,
-     "share_mean": 0.1462850549682011,
-     "share_lo": 0.06279657582538233,
-     "share_hi": 0.2474927435683689
+     "win_prob": 0.07815002796180277,
+     "share_mean": 0.1513280802766526,
+     "share_lo": 0.06741312839725025,
+     "share_hi": 0.2639380076172878
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.0750245638720653,
-     "share_mean": 0.15159871435736658,
-     "share_lo": 0.06849278764880284,
-     "share_hi": 0.26227311330578995
+     "win_prob": 0.07004235323686724,
+     "share_mean": 0.1546808982614659,
+     "share_lo": 0.06914058156460015,
+     "share_hi": 0.26267256902968006
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.06455858450722418,
-     "share_mean": 0.13307344537138896,
-     "share_lo": 0.05777203733879705,
-     "share_hi": 0.2358843501197318
+     "win_prob": 0.05603756855711169,
+     "share_mean": 0.12402477571448708,
+     "share_lo": 0.05388999477342572,
+     "share_hi": 0.21761241588588212
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.017594111033983704,
-     "share_mean": 0.05739501091593019,
-     "share_lo": 0.024647611209627947,
-     "share_hi": 0.106193274870854
+     "win_prob": 0.026132089040680585,
+     "share_mean": 0.06173405458235503,
+     "share_lo": 0.026190364896015568,
+     "share_hi": 0.11205215761357984
     }
    ]
   },
@@ -2896,42 +2896,42 @@
     {
      "candidate": "Dikko Umaru Radda",
      "party": "APC",
-     "win_prob": 0.7859180969808823,
-     "share_mean": 0.46262110721703026,
-     "share_lo": 0.25419805253211425,
-     "share_hi": 0.6349932867698518
-    },
-    {
-     "candidate": "PDP candidate",
-     "party": "PDP",
-     "win_prob": 0.08213720769166856,
-     "share_mean": 0.21992769812095384,
-     "share_lo": 0.09957277294675587,
-     "share_hi": 0.3793143364949929
+     "win_prob": 0.8061024405717504,
+     "share_mean": 0.4693730213642451,
+     "share_lo": 0.26003716627479223,
+     "share_hi": 0.634709170150408
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.07866302878593703,
-     "share_mean": 0.15898876898758715,
-     "share_lo": 0.0699164877322313,
-     "share_hi": 0.2783414316498636
+     "win_prob": 0.0774327319635751,
+     "share_mean": 0.16439539633541947,
+     "share_lo": 0.07273920259668178,
+     "share_hi": 0.29372198637855185
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.06572780792833537,
+     "share_mean": 0.2047772545591234,
+     "share_lo": 0.09388520306377993,
+     "share_hi": 0.35334639120230904
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.041492638338142686,
-     "share_mean": 0.10388265511804338,
-     "share_lo": 0.04410276379043551,
-     "share_hi": 0.19320433622050326
+     "win_prob": 0.03443098340643804,
+     "share_mean": 0.10295505324524103,
+     "share_lo": 0.044483835314237045,
+     "share_hi": 0.19205890083693325
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.011789028203369427,
-     "share_mean": 0.05457977055638544,
-     "share_lo": 0.022535631217407037,
-     "share_hi": 0.10682785849569569
+     "win_prob": 0.01630603612990112,
+     "share_mean": 0.058499274495971094,
+     "share_lo": 0.02481845770707529,
+     "share_hi": 0.11418877143315441
     }
    ]
   },
@@ -2950,42 +2950,42 @@
     {
      "candidate": "Nasir Idris",
      "party": "APC",
-     "win_prob": 0.7171668558054705,
-     "share_mean": 0.4432181616623827,
-     "share_lo": 0.2435933476452927,
-     "share_hi": 0.6206424395962805
-    },
-    {
-     "candidate": "PDP candidate",
-     "party": "PDP",
-     "win_prob": 0.11811355715062714,
-     "share_mean": 0.2336759073948897,
-     "share_lo": 0.10578408850086564,
-     "share_hi": 0.38755611914403465
+     "win_prob": 0.7376072193101281,
+     "share_mean": 0.44975411933792675,
+     "share_lo": 0.2538258871194878,
+     "share_hi": 0.6291321131457848
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.10033408949269358,
-     "share_mean": 0.16433925993283638,
-     "share_lo": 0.0723927582518238,
-     "share_hi": 0.28922517281372684
+     "win_prob": 0.10240192440561428,
+     "share_mean": 0.17032438446872752,
+     "share_lo": 0.07488791882352372,
+     "share_hi": 0.2902826077290405
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.09716462875192759,
+     "share_mean": 0.21791581222825335,
+     "share_lo": 0.10111737411811408,
+     "share_hi": 0.36664265407830293
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.05003465578030249,
-     "share_mean": 0.10294216933096347,
-     "share_lo": 0.04340997098998968,
-     "share_hi": 0.1921554659078393
+     "win_prob": 0.0424900046452452,
+     "share_mean": 0.10206781508622315,
+     "share_lo": 0.04421052068665512,
+     "share_hi": 0.18990067768972946
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.014350841770906373,
-     "share_mean": 0.05582450167892769,
-     "share_lo": 0.023615782727273656,
-     "share_hi": 0.10860978520144082
+     "win_prob": 0.020336222887084882,
+     "share_mean": 0.059937868878869115,
+     "share_lo": 0.02475003973075891,
+     "share_hi": 0.11339098267467038
     }
    ]
   },
@@ -3004,42 +3004,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.5955763245866235,
-     "share_mean": 0.3899440553091424,
-     "share_lo": 0.2028001945637702,
-     "share_hi": 0.563314890050855
+     "win_prob": 0.6285221879703513,
+     "share_mean": 0.39851899400698126,
+     "share_lo": 0.21459251284747882,
+     "share_hi": 0.5764297594831455
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.18816928783312975,
-     "share_mean": 0.25414040065164406,
-     "share_lo": 0.12065245530281883,
-     "share_hi": 0.40798320267749993
+     "win_prob": 0.16243742467058608,
+     "share_mean": 0.2367400075484206,
+     "share_lo": 0.11085880373406376,
+     "share_hi": 0.38601511610482603
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.1116654929159382,
-     "share_mean": 0.1613351037175159,
-     "share_lo": 0.07389052138527769,
-     "share_hi": 0.2915553661895084
+     "win_prob": 0.10635490332164593,
+     "share_mean": 0.16591335809256486,
+     "share_lo": 0.07378704933834533,
+     "share_hi": 0.28777072522881786
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.0831649796040318,
-     "share_mean": 0.13470119467745145,
-     "share_lo": 0.058093401327619025,
-     "share_hi": 0.2388818891872607
+     "win_prob": 0.07213157707860603,
+     "share_mean": 0.13471032685898882,
+     "share_lo": 0.059880903355351345,
+     "share_hi": 0.2372200560381758
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.021423915060276882,
-     "share_mean": 0.05987924564424616,
-     "share_lo": 0.024653249970029305,
-     "share_hi": 0.11254829344340551
+     "win_prob": 0.0305539069588106,
+     "share_mean": 0.06411731349304466,
+     "share_lo": 0.027603568700415665,
+     "share_hi": 0.12164772627524542
     }
    ]
   },
@@ -3048,52 +3048,60 @@
    "state": "LA",
    "title": "Lagos Governorship 2027",
    "date": "2027-02-06",
-   "candidates_confirmed": true,
+   "candidates_confirmed": false,
    "incumbent": "Babajide Sanwo-Olu",
    "incumbent_party": "APC",
    "incumbent_term_limited": true,
    "open_seat": true,
-   "source_key": "wikipedia:governorship:2027:LA",
+   "source_key": null,
    "contestants": [
     {
-     "candidate": "Kadri Obafemi Hamzat",
+     "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.7509063219458677,
-     "share_mean": 0.42137287028446174,
-     "share_lo": 0.2248648631716526,
-     "share_hi": 0.5970945586408752
+     "win_prob": 0.5303483999762526,
+     "share_mean": 0.3797648540659445,
+     "share_lo": 0.1985488467019843,
+     "share_hi": 0.5507973385365994
     },
     {
-     "candidate": "Gbadebo Rhodes-Vivour",
+     "candidate": "NDC candidate",
+     "party": "NDC",
+     "win_prob": 0.18714844763086025,
+     "share_mean": 0.18366900052310123,
+     "share_lo": 0.0829848999989561,
+     "share_hi": 0.30755846995962155
+    },
+    {
+     "candidate": "LP candidate",
+     "party": "LP",
+     "win_prob": 0.10040886274995686,
+     "share_mean": 0.11903997387282785,
+     "share_lo": 0.05190975483447827,
+     "share_hi": 0.2146885401937489
+    },
+    {
+     "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.11583097931640055,
-     "share_mean": 0.24333135570954828,
-     "share_lo": 0.11332745784933683,
-     "share_hi": 0.40138696452617056
+     "win_prob": 0.07445237949405813,
+     "share_mean": 0.12374571304188522,
+     "share_lo": 0.05363687928946447,
+     "share_hi": 0.21971052637398028
     },
     {
-     "candidate": "Adedeji Doherty",
+     "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.06104378147219483,
-     "share_mean": 0.15809705993960954,
-     "share_lo": 0.07114532473702992,
-     "share_hi": 0.281432942694864
-    },
-    {
-     "candidate": "Prince Laja Adeoye",
-     "party": "APM",
-     "win_prob": 0.05617890289844188,
-     "share_mean": 0.1138765466159061,
-     "share_lo": 0.04974429483053941,
-     "share_hi": 0.20677693618664186
+     "win_prob": 0.07408591737952744,
+     "share_mean": 0.13027163921445709,
+     "share_lo": 0.05640630730228809,
+     "share_hi": 0.22633372835100865
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.01604001436709498,
-     "share_mean": 0.06332216745047438,
-     "share_lo": 0.02652069253958726,
-     "share_hi": 0.12126454111486445
+     "win_prob": 0.03355599276934473,
+     "share_mean": 0.06350881928178399,
+     "share_lo": 0.027219039635884627,
+     "share_hi": 0.11644051286358813
     }
    ]
   },
@@ -3112,42 +3120,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.4179197518793336,
-     "share_mean": 0.35766140118305156,
-     "share_lo": 0.18594089725795318,
-     "share_hi": 0.530162197497433
-    },
-    {
-     "candidate": "PDP candidate",
-     "party": "PDP",
-     "win_prob": 0.208367395731989,
-     "share_mean": 0.23149250654845904,
-     "share_lo": 0.10660918478990714,
-     "share_hi": 0.3828943692195986
+     "win_prob": 0.4295501099112138,
+     "share_mean": 0.3632953906757113,
+     "share_lo": 0.1880617587631361,
+     "share_hi": 0.5352140725130164
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.20174207613497974,
-     "share_mean": 0.18094988456434977,
-     "share_lo": 0.08258728252262934,
-     "share_hi": 0.3100117043890416
+     "win_prob": 0.1994542798109087,
+     "share_mean": 0.18358729287517733,
+     "share_lo": 0.08223237598859315,
+     "share_hi": 0.31768552855216414
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.18610003389476942,
+     "share_mean": 0.21407296605038556,
+     "share_lo": 0.0979513051289766,
+     "share_hi": 0.3558309187146511
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.1430618936966613,
-     "share_mean": 0.16299194115467022,
-     "share_lo": 0.07110315354470263,
-     "share_hi": 0.2867011078927431
+     "win_prob": 0.1415117032345164,
+     "share_mean": 0.16731752772608066,
+     "share_lo": 0.07569808447850587,
+     "share_hi": 0.2862725570465884
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.028908882557036476,
-     "share_mean": 0.06690426654946934,
-     "share_lo": 0.028381791643631048,
-     "share_hi": 0.12772161756088554
+     "win_prob": 0.04338387314859163,
+     "share_mean": 0.07172682267264509,
+     "share_lo": 0.030442100449901397,
+     "share_hi": 0.13702104189809225
     }
    ]
   },
@@ -3166,42 +3174,42 @@
     {
      "candidate": "Mohammed Umar Bago",
      "party": "APC",
-     "win_prob": 0.7509238291226208,
-     "share_mean": 0.44121016911912636,
-     "share_lo": 0.24068611045460414,
-     "share_hi": 0.606369257621085
+     "win_prob": 0.7739203856575009,
+     "share_mean": 0.4470128512681657,
+     "share_lo": 0.24819357244040438,
+     "share_hi": 0.6135618213180619
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.10078048532909008,
-     "share_mean": 0.21439909966964132,
-     "share_lo": 0.10015138449762154,
-     "share_hi": 0.368488187532626
+     "win_prob": 0.08335062299667687,
+     "share_mean": 0.19892642536614555,
+     "share_lo": 0.09172274756274894,
+     "share_hi": 0.33926545773833444
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.07649256516304584,
-     "share_mean": 0.15128311428483193,
-     "share_lo": 0.06614239549351357,
-     "share_hi": 0.2664429824611731
+     "win_prob": 0.07325063409638179,
+     "share_mean": 0.1559023294842599,
+     "share_lo": 0.07030180715912873,
+     "share_hi": 0.27615828661866854
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.0582433345384719,
-     "share_mean": 0.13399235337486953,
-     "share_lo": 0.05797073603297155,
-     "share_hi": 0.24238395269808996
+     "win_prob": 0.050436072173770004,
+     "share_mean": 0.13471606430428026,
+     "share_lo": 0.059109718082380296,
+     "share_hi": 0.2395354550734441
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.013559785846771543,
-     "share_mean": 0.05911526355153079,
-     "share_lo": 0.025204285244195043,
-     "share_hi": 0.10908253596647434
+     "win_prob": 0.0190422850756704,
+     "share_mean": 0.0634423295771487,
+     "share_lo": 0.02756924222222828,
+     "share_hi": 0.12037042000809764
     }
    ]
   },
@@ -3220,42 +3228,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.5179314342831274,
-     "share_mean": 0.3543690810177923,
-     "share_lo": 0.1828024712256865,
-     "share_hi": 0.5217209855414283
+     "win_prob": 0.5495031576244848,
+     "share_mean": 0.3623677156089882,
+     "share_lo": 0.18834364368163273,
+     "share_hi": 0.528010607350565
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.21078633307163247,
-     "share_mean": 0.22591773797926104,
-     "share_lo": 0.10524541043981239,
-     "share_hi": 0.3711508490132801
+     "win_prob": 0.18671494388249926,
+     "share_mean": 0.20959566593353424,
+     "share_lo": 0.09705901131089538,
+     "share_hi": 0.3500362663929081
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.13721833953808343,
-     "share_mean": 0.21603053212969686,
-     "share_lo": 0.10045484943214027,
-     "share_hi": 0.3562722006389513
+     "win_prob": 0.12972909060585147,
+     "share_mean": 0.21904529121259325,
+     "share_lo": 0.10087615924874163,
+     "share_hi": 0.36042315240311784
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.10969839346397982,
-     "share_mean": 0.14238655209622147,
-     "share_lo": 0.06315511527632757,
-     "share_hi": 0.2523193771867266
+     "win_prob": 0.09872725598439955,
+     "share_mean": 0.14326354215408893,
+     "share_lo": 0.06322699363822556,
+     "share_hi": 0.2535404243586284
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.024365499643176834,
-     "share_mean": 0.061296096777028256,
-     "share_lo": 0.025986946961344695,
-     "share_hi": 0.11849270537236202
+     "win_prob": 0.03532555190276507,
+     "share_mean": 0.06572778509079538,
+     "share_lo": 0.027912184337008115,
+     "share_hi": 0.12482865850865901
     }
    ]
   },
@@ -3269,55 +3277,55 @@
    "incumbent_party": "APM",
    "incumbent_term_limited": true,
    "open_seat": true,
-   "source_key": "wikipedia:governorship:2027:OY",
+   "source_key": null,
    "contestants": [
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.4030165792019612,
-     "share_mean": 0.28947351424989165,
-     "share_lo": 0.13941649471132586,
-     "share_hi": 0.44627619839490984
+     "win_prob": 0.43819502658242804,
+     "share_mean": 0.2945022097016783,
+     "share_lo": 0.14290498045523248,
+     "share_hi": 0.447308505339478
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.283463363056882,
-     "share_mean": 0.26442371802558357,
-     "share_lo": 0.12637083963102058,
-     "share_hi": 0.41460081820018063
+     "win_prob": 0.25910271577147376,
+     "share_mean": 0.2511549698446897,
+     "share_lo": 0.12080878926099319,
+     "share_hi": 0.3922043461729389
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.10768971058987543,
-     "share_mean": 0.14073633950197983,
-     "share_lo": 0.0630205181081266,
-     "share_hi": 0.24514572713837668
+     "win_prob": 0.10404041589339215,
+     "share_mean": 0.14563491854361954,
+     "share_lo": 0.06760847500021051,
+     "share_hi": 0.2625155522970154
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.09931152727750622,
-     "share_mean": 0.13442095054592515,
-     "share_lo": 0.05855189099207938,
-     "share_hi": 0.2348199902646156
+     "win_prob": 0.0910631785981324,
+     "share_mean": 0.13631733718213263,
+     "share_lo": 0.06203028965228521,
+     "share_hi": 0.24255838871902174
     },
     {
      "candidate": "APM candidate",
      "party": "APM",
-     "win_prob": 0.08339277126737168,
-     "share_mean": 0.11121329866968627,
-     "share_lo": 0.04738791510920341,
-     "share_hi": 0.19696341978624374
+     "win_prob": 0.07329307360736162,
+     "share_mean": 0.10780288189749082,
+     "share_lo": 0.047111794122226276,
+     "share_hi": 0.18811195207299178
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.02312604860640353,
-     "share_mean": 0.05973217900693362,
-     "share_lo": 0.026321167991547344,
-     "share_hi": 0.11194391076007076
+     "win_prob": 0.03430558954721211,
+     "share_mean": 0.06458768283038895,
+     "share_lo": 0.027385608744240265,
+     "share_hi": 0.11784731926153214
     }
    ]
   },
@@ -3336,50 +3344,50 @@
     {
      "candidate": "Caleb Mutfwang",
      "party": "APC",
-     "win_prob": 0.6806781314883903,
-     "share_mean": 0.39060632732516304,
-     "share_lo": 0.20719898283713575,
-     "share_hi": 0.5627329326547468
+     "win_prob": 0.6974183346432721,
+     "share_mean": 0.3947641141173088,
+     "share_lo": 0.2105093009404544,
+     "share_hi": 0.5515247468839265
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.11515235711807817,
-     "share_mean": 0.15694904238253196,
-     "share_lo": 0.06978163283183758,
-     "share_hi": 0.27222098342282186
-    },
-    {
-     "candidate": "PDP candidate",
-     "party": "PDP",
-     "win_prob": 0.07144463687438742,
-     "share_mean": 0.1748132709439051,
-     "share_lo": 0.07712817385833869,
-     "share_hi": 0.29606086189640557
+     "win_prob": 0.1125569995500069,
+     "share_mean": 0.16028324694131388,
+     "share_lo": 0.07264822616095168,
+     "share_hi": 0.2735872534044735
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.06679212138758656,
-     "share_mean": 0.1335578495279603,
-     "share_lo": 0.05918773647628786,
-     "share_hi": 0.2404837872775625
+     "win_prob": 0.06309346925230824,
+     "share_mean": 0.13755044740333,
+     "share_lo": 0.06215920733359016,
+     "share_hi": 0.2407491457425239
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.061190080283107975,
+     "share_mean": 0.16259140425877866,
+     "share_lo": 0.07465456974370974,
+     "share_hi": 0.28238081465047504
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.05164339961474724,
-     "share_mean": 0.0921829417807072,
-     "share_lo": 0.04041309098212646,
-     "share_hi": 0.16732188850789492
+     "win_prob": 0.04494650881581424,
+     "share_mean": 0.08901143663900403,
+     "share_lo": 0.038145294638294594,
+     "share_hi": 0.16089298074881694
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.014289353516810148,
-     "share_mean": 0.05189056803973249,
-     "share_lo": 0.021360546479438417,
-     "share_hi": 0.09534583953347701
+     "win_prob": 0.020794607455490367,
+     "share_mean": 0.05579935064026476,
+     "share_lo": 0.023333228485619834,
+     "share_hi": 0.10279541227649701
     }
    ]
   },
@@ -3398,50 +3406,50 @@
     {
      "candidate": "Siminalayi Fubara",
      "party": "APC",
-     "win_prob": 0.747278327601636,
-     "share_mean": 0.4141246055358415,
-     "share_lo": 0.2206083480643895,
-     "share_hi": 0.5855361108995278
-    },
-    {
-     "candidate": "PDP candidate",
-     "party": "PDP",
-     "win_prob": 0.0772964551766287,
-     "share_mean": 0.19511337095627124,
-     "share_lo": 0.08730268055207133,
-     "share_hi": 0.33576300004701626
+     "win_prob": 0.7781158936029954,
+     "share_mean": 0.4213162856276624,
+     "share_lo": 0.228480074386905,
+     "share_hi": 0.5884234208225552
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.07220972276443717,
-     "share_mean": 0.1386146638698825,
-     "share_lo": 0.059891455897960806,
-     "share_hi": 0.2446008737149319
+     "win_prob": 0.06593302302885656,
+     "share_mean": 0.14106431171483125,
+     "share_lo": 0.06152080843036141,
+     "share_hi": 0.2515226832853313
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.061590828293876965,
+     "share_mean": 0.1824085489317456,
+     "share_lo": 0.08157687262585943,
+     "share_hi": 0.3117548461983517
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.04926303186726967,
-     "share_mean": 0.11757083061780094,
-     "share_lo": 0.050079372166851086,
-     "share_hi": 0.21030549934438947
+     "win_prob": 0.043315139848326925,
+     "share_mean": 0.1206219796774183,
+     "share_lo": 0.05469130798382299,
+     "share_hi": 0.21808332545361325
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.042205578938326195,
-     "share_mean": 0.08587134902663701,
-     "share_lo": 0.035499668666635086,
-     "share_hi": 0.15918599649253076
+     "win_prob": 0.03483098891117033,
+     "share_mean": 0.08249273629409812,
+     "share_lo": 0.03517163517584584,
+     "share_hi": 0.1540360449363675
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.011746883651702344,
-     "share_mean": 0.04870517999356696,
-     "share_lo": 0.019878721853683903,
-     "share_hi": 0.08892424218117292
+     "win_prob": 0.016214126314774112,
+     "share_mean": 0.052096137754244404,
+     "share_lo": 0.022732552994344648,
+     "share_hi": 0.09856764077645544
     }
    ]
   },
@@ -3460,42 +3468,42 @@
     {
      "candidate": "Ahmad Aliyu",
      "party": "APC",
-     "win_prob": 0.7338012957699703,
-     "share_mean": 0.4516498615654414,
-     "share_lo": 0.25643636969741734,
-     "share_hi": 0.6228421468866553
-    },
-    {
-     "candidate": "PDP candidate",
-     "party": "PDP",
-     "win_prob": 0.11242024966776268,
-     "share_mean": 0.23356913048990915,
-     "share_lo": 0.10928194300482696,
-     "share_hi": 0.39042377209822127
+     "win_prob": 0.7557671281198247,
+     "share_mean": 0.45869206651120115,
+     "share_lo": 0.2548681480999349,
+     "share_hi": 0.6319839658412815
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.09288244511523039,
-     "share_mean": 0.16414680933229883,
-     "share_lo": 0.07171669889705734,
-     "share_hi": 0.290138599334316
+     "win_prob": 0.09319702204373136,
+     "share_mean": 0.17006284355091797,
+     "share_lo": 0.07517589346476612,
+     "share_hi": 0.29293751280853736
+    },
+    {
+     "candidate": "PDP candidate",
+     "party": "PDP",
+     "win_prob": 0.09205314625720461,
+     "share_mean": 0.217748133066965,
+     "share_lo": 0.10030241793808638,
+     "share_hi": 0.3705258080370523
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.047113815681907416,
-     "share_mean": 0.09443297974809926,
-     "share_lo": 0.03920733348713395,
-     "share_hi": 0.17436478908510372
+     "win_prob": 0.039600068011859293,
+     "share_mean": 0.09314925791703486,
+     "share_lo": 0.039378223036652074,
+     "share_hi": 0.17246854921907806
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.013782193765129081,
-     "share_mean": 0.05620121886425144,
-     "share_lo": 0.02348681520520119,
-     "share_hi": 0.1088764413799229
+     "win_prob": 0.019382635567379902,
+     "share_mean": 0.06034769895388098,
+     "share_lo": 0.02511476053353022,
+     "share_hi": 0.11424315862107783
     }
    ]
   },
@@ -3514,50 +3522,50 @@
     {
      "candidate": "Kefas Agbu",
      "party": "PDP",
-     "win_prob": 0.3888550960499482,
-     "share_mean": 0.2618683176132047,
-     "share_lo": 0.12602751307757115,
-     "share_hi": 0.4096880637867754
+     "win_prob": 0.37054858363492976,
+     "share_mean": 0.2454959706550855,
+     "share_lo": 0.11954136800666122,
+     "share_hi": 0.39374890615784963
     },
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.1961045019479232,
-     "share_mean": 0.24975001449027598,
-     "share_lo": 0.11964445428958023,
-     "share_hi": 0.39824074868150616
+     "win_prob": 0.20119061246218173,
+     "share_mean": 0.25331614982588213,
+     "share_lo": 0.12075137687374964,
+     "share_hi": 0.3961015118579168
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.14499969653791264,
-     "share_mean": 0.15819010849466558,
-     "share_lo": 0.07032472785385166,
-     "share_hi": 0.2759367762355328
+     "win_prob": 0.1444631467646441,
+     "share_mean": 0.16228044956659135,
+     "share_lo": 0.07272348970078002,
+     "share_hi": 0.26988502919447244
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.13399676859364154,
-     "share_mean": 0.1549168126005928,
-     "share_lo": 0.06971035316267231,
-     "share_hi": 0.26628472467417863
+     "win_prob": 0.14185134952132913,
+     "share_mean": 0.16157123153064515,
+     "share_lo": 0.07303924602619433,
+     "share_hi": 0.276478098131369
     },
     {
      "candidate": "NNPP candidate",
      "party": "NNPP",
-     "win_prob": 0.11381962509638871,
-     "share_mean": 0.11584901172917497,
-     "share_lo": 0.049967333020732856,
-     "share_hi": 0.20529852527694667
+     "win_prob": 0.10742654773846863,
+     "share_mean": 0.11260084067126519,
+     "share_lo": 0.049267786005398065,
+     "share_hi": 0.197254152938055
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.022224311774185518,
-     "share_mean": 0.059425735072086025,
-     "share_lo": 0.024573675439267705,
-     "share_hi": 0.10784531819333162
+     "win_prob": 0.03451975987844684,
+     "share_mean": 0.06473535775053067,
+     "share_lo": 0.02701275291696217,
+     "share_hi": 0.11798874250843759
     }
    ]
   },
@@ -3576,42 +3584,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.5664625864454959,
-     "share_mean": 0.3992261343063694,
-     "share_lo": 0.2099657308354412,
-     "share_hi": 0.5774439588226988
+     "win_prob": 0.5749106573785103,
+     "share_mean": 0.405705195496302,
+     "share_lo": 0.21540749697126232,
+     "share_hi": 0.5794760679614257
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.1865077820844917,
-     "share_mean": 0.18987466904584793,
-     "share_lo": 0.08339102686210968,
-     "share_hi": 0.33199639659724905
+     "win_prob": 0.1948150513076306,
+     "share_mean": 0.1959413779264182,
+     "share_lo": 0.09038562425872741,
+     "share_hi": 0.32653012332768844
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.13160391336393895,
-     "share_mean": 0.2104942101043936,
-     "share_lo": 0.09629204790466331,
-     "share_hi": 0.35764370071609786
+     "win_prob": 0.11440064315911051,
+     "share_mean": 0.19399349691536913,
+     "share_lo": 0.08955891584236969,
+     "share_hi": 0.3316221742851901
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.09117748815379334,
-     "share_mean": 0.1371878821109883,
-     "share_lo": 0.06087969604710223,
-     "share_hi": 0.2465120569488544
+     "win_prob": 0.0803954621061805,
+     "share_mean": 0.13647354542560547,
+     "share_lo": 0.059175368762799475,
+     "share_hi": 0.24358277246632526
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.02424822995228021,
-     "share_mean": 0.0632171044324007,
-     "share_lo": 0.02580510108136705,
-     "share_hi": 0.12190446869901538
+     "win_prob": 0.03547818604856816,
+     "share_mean": 0.06788638423630527,
+     "share_lo": 0.028700686101390583,
+     "share_hi": 0.12638683152341504
     }
    ]
   },
@@ -3630,55 +3638,55 @@
     {
      "candidate": "Dauda Lawal",
      "party": "APC",
-     "win_prob": 0.8823429641702298,
-     "share_mean": 0.5287109704620314,
-     "share_lo": 0.30951281954230864,
-     "share_hi": 0.700752413649752
+     "win_prob": 0.8963343805838914,
+     "share_mean": 0.5345973379928771,
+     "share_lo": 0.31530121355551133,
+     "share_hi": 0.7056731461583533
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.05516475769093739,
-     "share_mean": 0.17074789892048076,
-     "share_lo": 0.0770773173969891,
-     "share_hi": 0.31154408109850795
+     "win_prob": 0.05023653300185721,
+     "share_mean": 0.175502199742294,
+     "share_lo": 0.07922521640652037,
+     "share_hi": 0.3215223935928232
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.052876742194686605,
-     "share_mean": 0.22563911208673834,
-     "share_lo": 0.10100110687475151,
-     "share_hi": 0.3830717594171462
+     "win_prob": 0.04065896424442375,
+     "share_mean": 0.20915735359818446,
+     "share_lo": 0.09406928702541949,
+     "share_hi": 0.3631209279368167
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.009615535944146159,
-     "share_mean": 0.07490201853074943,
-     "share_lo": 0.03219871400196353,
-     "share_hi": 0.14694112413624008
+     "win_prob": 0.012770122169827723,
+     "share_mean": 0.08074310866664451,
+     "share_lo": 0.033680054211817134,
+     "share_hi": 0.1582622652730199
     }
    ]
   }
  ],
  "params": {
   "presidential": {
-   "w_c": 2.8455257509517367,
-   "w_r": 2.964015481936734,
-   "w_0": 0.04858722773161334,
-   "b_s": 1.0893429408046449,
+   "w_c": 4.55205970540499,
+   "w_r": 3.0,
+   "w_0": 0.03656766045502318,
+   "b_s": 0.89515594354623,
    "b_z": 1.2,
    "b_rs": 0.0,
    "b_rz": 0.0,
    "gamma": 0.0
   },
   "sigma": {
-   "national": 0.5904536262156934,
-   "zone": 0.7093177842310594,
-   "state": 0.5037707714654801
+   "national": 0.5698703074876217,
+   "zone": 0.8457273807039513,
+   "state": 0.6079173089782923
   },
-  "governorship_tau": 0.5494956299849666
+  "governorship_tau": 0.5453087676542142
  },
  "backtest": {
   "presidential": {
@@ -3766,7 +3774,7 @@
     },
     {
      "train_until": 2003,
-     "test": 2015,
+     "test": 2011,
      "params": {
       "w_c": 4.846886432533841,
       "w_r": 0.5,
@@ -3783,37 +3791,129 @@
       "state": 0.4363546910956206
      },
      "anyanwu": {
-      "winner_accuracy": 0.7027027027027027,
-      "brier": 0.39385151013513514,
-      "log_loss": 0.7669009379733419,
-      "share_mae_pp": 14.565202531902917,
-      "national_winner_prob": 0.0995
+      "winner_accuracy": 0.8918918918918919,
+      "brier": 0.25345604054054055,
+      "log_loss": 0.5103495796342371,
+      "share_mae_pp": 4.862065355584573,
+      "national_winner_prob": 0.97125
      },
      "baseline": {
-      "winner_accuracy": 0.7027027027027027,
-      "brier": 0.5945945945945946,
-      "log_loss": 1.3691046498883515,
-      "share_mae_pp": 13.88965525000054,
+      "winner_accuracy": 0.7837837837837838,
+      "brier": 0.7027027027027027,
+      "log_loss": 0.9957124726460738,
+      "share_mae_pp": 8.102101485259853,
+      "national_winner_prob": 1.0
+     },
+     "forecast": [
+      {
+       "candidate": "Goodluck Jonathan",
+       "party": "PDP",
+       "share": 0.5413877192876291,
+       "first_prob": 0.97125
+      },
+      {
+       "candidate": "Muhammadu Buhari",
+       "party": "CPC",
+       "share": 0.2309807990940614,
+       "first_prob": 0.02775
+      },
+      {
+       "candidate": "Nuhu Ribadu",
+       "party": "ACN",
+       "share": 0.06057607001017393,
+       "first_prob": 0.0
+      },
+      {
+       "candidate": "Ibrahim Shekarau",
+       "party": "ANPP",
+       "share": 0.063559750427616,
+       "first_prob": 0.0
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.10349566118051946,
+       "first_prob": 0.001
+      }
+     ],
+     "actual": [
+      {
+       "candidate": "Goodluck Jonathan",
+       "party": "PDP",
+       "share": 0.5701111736099655
+      },
+      {
+       "candidate": "Muhammadu Buhari",
+       "party": "CPC",
+       "share": 0.31664237334154577
+      },
+      {
+       "candidate": "Nuhu Ribadu",
+       "party": "ACN",
+       "share": 0.0677426753299675
+      },
+      {
+       "candidate": "Ibrahim Shekarau",
+       "party": "ANPP",
+       "share": 0.021451564659374266
+      },
+      {
+       "candidate": "Others",
+       "party": "OTH",
+       "share": 0.024052213059146996
+      }
+     ]
+    },
+    {
+     "train_until": 2011,
+     "test": 2015,
+     "params": {
+      "w_c": 6.0,
+      "w_r": 0.5,
+      "w_0": 0.029761867921975563,
+      "b_s": 1.2423846305480373,
+      "b_z": 1.2,
+      "b_rs": 0.0,
+      "b_rz": 0.0,
+      "gamma": 0.0
+     },
+     "sigma": {
+      "national": 0.471908080278692,
+      "zone": 1.0133234695653648,
+      "state": 0.6631083348464532
+     },
+     "anyanwu": {
+      "winner_accuracy": 0.7837837837837838,
+      "brier": 0.2935746114864865,
+      "log_loss": 0.4504506764300817,
+      "share_mae_pp": 10.548889258495404,
+      "national_winner_prob": 0.23925
+     },
+     "baseline": {
+      "winner_accuracy": 0.7837837837837838,
+      "brier": 0.43243243243243246,
+      "log_loss": 0.9957124726460738,
+      "share_mae_pp": 10.163999545604536,
       "national_winner_prob": 0.0
      },
      "forecast": [
       {
        "candidate": "Muhammadu Buhari",
        "party": "APC",
-       "share": 0.3210894816604153,
-       "first_prob": 0.0995
+       "share": 0.38133418076152803,
+       "first_prob": 0.23925
       },
       {
        "candidate": "Goodluck Jonathan",
        "party": "PDP",
-       "share": 0.5672079213403378,
-       "first_prob": 0.9
+       "share": 0.553915565935189,
+       "first_prob": 0.7605
       },
       {
        "candidate": "Others",
        "party": "OTH",
-       "share": 0.11170259699924694,
-       "first_prob": 0.0005
+       "share": 0.06475025330328307,
+       "first_prob": 0.00025
       }
      ],
      "actual": [
@@ -3840,24 +3940,24 @@
      "params": {
       "w_c": 6.0,
       "w_r": 0.5,
-      "w_0": 0.04733943418109239,
-      "b_s": 1.5,
+      "w_0": 0.025236262096918538,
+      "b_s": 1.2377820882813635,
       "b_z": 1.2,
-      "b_rs": 0.14588062192708834,
+      "b_rs": 0.006494393674003245,
       "b_rz": 0.0,
       "gamma": 0.0
      },
      "sigma": {
-      "national": 0.5735354902944689,
-      "zone": 0.7481308423464357,
-      "state": 0.43589504205180524
+      "national": 0.5221092139068789,
+      "zone": 0.9318319374894811,
+      "state": 0.6197392406749267
      },
      "anyanwu": {
       "winner_accuracy": 0.8378378378378378,
-      "brier": 0.22309079729729728,
-      "log_loss": 0.37295339623446483,
-      "share_mae_pp": 3.7121599106495826,
-      "national_winner_prob": 0.63575
+      "brier": 0.2317922060810811,
+      "log_loss": 0.39373563177631526,
+      "share_mae_pp": 3.7013291394158787,
+      "national_winner_prob": 0.61075
      },
      "baseline": {
       "winner_accuracy": 0.8378378378378378,
@@ -3870,20 +3970,20 @@
       {
        "candidate": "Muhammadu Buhari",
        "party": "APC",
-       "share": 0.5002948691360721,
-       "first_prob": 0.63575
+       "share": 0.5004573307045778,
+       "first_prob": 0.61075
       },
       {
        "candidate": "Atiku Abubakar",
        "party": "PDP",
-       "share": 0.4251932846393128,
-       "first_prob": 0.3635
+       "share": 0.4382659043145489,
+       "first_prob": 0.38925
       },
       {
        "candidate": "Others",
        "party": "OTH",
-       "share": 0.07451184622461503,
-       "first_prob": 0.00075
+       "share": 0.061276764980873366,
+       "first_prob": 0.0
       }
      ],
      "actual": [
@@ -3908,26 +4008,26 @@
      "train_until": 2019,
      "test": 2023,
      "params": {
-      "w_c": 4.8512860668898705,
+      "w_c": 6.0,
       "w_r": 0.5,
-      "w_0": 0.0413414753402855,
-      "b_s": 1.3087937425121186,
+      "w_0": 0.028405186972519317,
+      "b_s": 1.0581456108977656,
       "b_z": 1.2,
       "b_rs": 0.0,
       "b_rz": 0.0,
       "gamma": 0.0
      },
      "sigma": {
-      "national": 0.5212147440276034,
-      "zone": 0.7087108586214828,
-      "state": 0.4162632960779882
+      "national": 0.48342299877144984,
+      "zone": 0.8810682344263924,
+      "state": 0.5840459183300049
      },
      "anyanwu": {
-      "winner_accuracy": 0.4864864864864865,
-      "brier": 0.8018750337837837,
-      "log_loss": 1.6599505537134327,
-      "share_mae_pp": 9.418496994795929,
-      "national_winner_prob": 0.612
+      "winner_accuracy": 0.4594594594594595,
+      "brier": 0.7887524966216215,
+      "log_loss": 1.602843697050243,
+      "share_mae_pp": 9.522064623863207,
+      "national_winner_prob": 0.58775
      },
      "baseline": {
       "winner_accuracy": 0.32432432432432434,
@@ -3940,32 +4040,32 @@
       {
        "candidate": "Bola Tinubu",
        "party": "APC",
-       "share": 0.45397316681411076,
-       "first_prob": 0.612
+       "share": 0.44994288832495344,
+       "first_prob": 0.58775
       },
       {
        "candidate": "Atiku Abubakar",
        "party": "PDP",
-       "share": 0.3844588355236126,
-       "first_prob": 0.386
+       "share": 0.3947816583287042,
+       "first_prob": 0.411
       },
       {
        "candidate": "Peter Obi",
        "party": "LP",
-       "share": 0.06003637346862948,
-       "first_prob": 0.00025
+       "share": 0.056115729436855985,
+       "first_prob": 0.0
       },
       {
        "candidate": "Rabiu Kwankwaso",
        "party": "NNPP",
-       "share": 0.020303143914954164,
+       "share": 0.021634597220045692,
        "first_prob": 0.0
       },
       {
        "candidate": "Others",
        "party": "OTH",
-       "share": 0.08122848027869295,
-       "first_prob": 0.00175
+       "share": 0.07752512668944063,
+       "first_prob": 0.00125
       }
      ],
      "actual": [
@@ -3998,43 +4098,43 @@
     }
    ],
    "final_params": {
-    "w_c": 2.8455257509517367,
-    "w_r": 2.964015481936734,
-    "w_0": 0.04858722773161334,
-    "b_s": 1.0893429408046449,
+    "w_c": 4.55205970540499,
+    "w_r": 3.0,
+    "w_0": 0.03656766045502318,
+    "b_s": 0.89515594354623,
     "b_z": 1.2,
     "b_rs": 0.0,
     "b_rz": 0.0,
     "gamma": 0.0
    },
    "final_sigma": {
-    "national": 0.5904536262156934,
-    "zone": 0.7093177842310594,
-    "state": 0.5037707714654801
+    "national": 0.5698703074876217,
+    "zone": 0.8457273807039513,
+    "state": 0.6079173089782923
    },
    "summary": {
     "anyanwu": {
-     "winner_accuracy": 0.6689189189189189,
-     "brier": 0.4901039180743243,
-     "log_loss": 0.9048447901345075,
-     "share_mae_pp": 7.682242640029566,
-     "national_winner_prob": 0.5659375
+     "winner_accuracy": 0.7243243243243244,
+     "brier": 0.4218347371621622,
+     "log_loss": 0.7553907715015334,
+     "share_mae_pp": 6.33349190002578,
+     "national_winner_prob": 0.6651
     },
     "baseline": {
-     "winner_accuracy": 0.6283783783783783,
-     "brier": 0.7432432432432432,
-     "log_loss": 1.7113808123604393,
-     "share_mae_pp": 7.586822799313237,
-     "national_winner_prob": 0.75
+     "winner_accuracy": 0.6756756756756757,
+     "brier": 0.7027027027027027,
+     "log_loss": 1.4935687089691105,
+     "share_mae_pp": 6.944747395623358,
+     "national_winner_prob": 0.8
     }
    },
    "attention": {
     "gamma": 0.0,
     "grid": {
-     "0.0": 0.08930249674754509,
-     "0.05": 0.0897019987184419,
-     "0.1": 0.09012747328873483,
-     "0.15": 0.09057831628226486
+     "0.0": 0.09107221443679045,
+     "0.05": 0.09118848921165548,
+     "0.1": 0.09133436817200405,
+     "0.15": 0.09150947101922055
     }
    },
    "live_replay_2023": {
@@ -4049,21 +4149,21 @@
      37
     ],
     "mean_winner_prob": [
-     0.605,
-     0.5108666666666666,
-     0.5926,
-     0.8290666666666666,
-     0.9099999999999999,
-     0.9501333333333333,
+     0.595,
+     0.5227999999999999,
+     0.6023333333333334,
+     0.7833333333333334,
+     0.875,
+     0.9062666666666667,
      1.0
     ],
     "min_winner_prob": [
-     0.605,
-     0.18266666666666667,
-     0.08666666666666667,
-     0.611,
-     0.7403333333333333,
-     0.893,
+     0.595,
+     0.29,
+     0.19,
+     0.596,
+     0.706,
+     0.8276666666666667,
      1.0
     ]
    }
@@ -4174,9 +4274,9 @@
      "tau": 0.6291856164204104,
      "anyanwu": {
       "winner_accuracy": 0.7407407407407407,
-      "brier": 0.4218775746917018,
-      "log_loss": 0.6916565947285498,
-      "winner_share_mae_pp": 14.960392525406311
+      "brier": 0.3700462299294634,
+      "log_loss": 0.6094469096297728,
+      "winner_share_mae_pp": 13.599527064677906
      },
      "baseline_governors_party": 0.7777777777777778,
      "baseline_last_result": 0.7407407407407407
@@ -4187,33 +4287,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.11643943443378045,
-      "governors_party": 0.33835349152058675,
-      "presidents_party": 0.24960024471324802,
-      "presidents_party_offcycle": 0.030156704320187414,
-      "no_base": -0.3717809956240285,
-      "log_last_gov": 0.04379864382346625,
-      "log_last_pres": 0.07720523924849305,
-      "personal_best": 0.24480375264259419
+      "incumbent_running": -0.10976724734351397,
+      "governors_party": 0.3363640179428334,
+      "presidents_party": 0.2379926605997976,
+      "presidents_party_offcycle": 0.028154508055379977,
+      "no_base": -0.2318600055929555,
+      "log_last_gov": 0.03211787838290902,
+      "log_last_pres": 0.10765240781635628,
+      "personal_best": 0.2524904231256492
      },
      "theta_winner": {
-      "last_gov": 0.7401353362888747,
-      "last_pres": 1.2214555855152673,
-      "incumbent_running": -0.3595248628407219,
-      "governors_party": 0.5126657105264953,
-      "presidents_party": 0.4238440827263305,
-      "presidents_party_offcycle": -0.23434031150102771,
-      "no_base": -0.5400075068428727,
+      "last_gov": 0.780969994606098,
+      "last_pres": 1.5527391302554332,
+      "incumbent_running": -0.29701689543578513,
+      "governors_party": 0.4244462279905679,
+      "presidents_party": 0.4560821929481756,
+      "presidents_party_offcycle": -0.22716774902436476,
+      "no_base": 0.1335891483673353,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.7940475898224367
+      "personal_best": 0.8655607609098523
      },
-     "tau": 0.5999456883201351,
+     "tau": 0.5918476246307072,
      "anyanwu": {
       "winner_accuracy": 0.6666666666666666,
-      "brier": 0.43947494807852605,
-      "log_loss": 0.7863032669447098,
-      "winner_share_mae_pp": 24.74465296402851
+      "brier": 0.41231362096933033,
+      "log_loss": 0.780046189467596,
+      "winner_share_mae_pp": 26.469165955242214
      },
      "baseline_governors_party": 0.6666666666666666,
      "baseline_last_result": 0.6666666666666666
@@ -4224,33 +4324,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.17653506145042996,
-      "governors_party": 0.3069706036292228,
-      "presidents_party": 0.2321721654416693,
-      "presidents_party_offcycle": -0.10232915250091887,
-      "no_base": -0.4472392615628385,
-      "log_last_gov": 0.0599428425776362,
-      "log_last_pres": 0.06584632178579887,
-      "personal_best": 0.35339038614419066
+      "incumbent_running": -0.1760479005783389,
+      "governors_party": 0.29532287465704504,
+      "presidents_party": 0.21871835134813816,
+      "presidents_party_offcycle": -0.057680969178508776,
+      "no_base": -0.2538401162060116,
+      "log_last_gov": 0.05715480618202316,
+      "log_last_pres": 0.09399811190000801,
+      "personal_best": 0.37848341712298067
      },
      "theta_winner": {
-      "last_gov": 0.8949294487301146,
-      "last_pres": 1.0958404917857503,
-      "incumbent_running": -0.44286582450665274,
-      "governors_party": 0.41356604838400424,
-      "presidents_party": 0.3857990112087465,
-      "presidents_party_offcycle": -0.6199965926469204,
-      "no_base": -0.6505434981781368,
+      "last_gov": 0.937972530277189,
+      "last_pres": 1.4684840593109318,
+      "incumbent_running": -0.39116553946081056,
+      "governors_party": 0.3210807445153634,
+      "presidents_party": 0.40843347489746806,
+      "presidents_party_offcycle": -0.5811519756341709,
+      "no_base": 0.02200290442344755,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.0331247842068472
+      "personal_best": 1.1340760958433496
      },
-     "tau": 0.6033471229103423,
+     "tau": 0.6007510230993477,
      "anyanwu": {
       "winner_accuracy": 0.0,
-      "brier": 0.6893802806412586,
-      "log_loss": 1.2654710586698699,
-      "winner_share_mae_pp": 16.620785840090065
+      "brier": 0.9517373875487797,
+      "log_loss": 1.849633159768984,
+      "winner_share_mae_pp": 22.716971066407602
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4261,33 +4361,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.18054125448403288,
-      "governors_party": 0.3129311033405407,
-      "presidents_party": 0.2226147447556573,
-      "presidents_party_offcycle": -0.10296463863215709,
-      "no_base": -0.42308960475275853,
-      "log_last_gov": 0.06063416387549174,
-      "log_last_pres": 0.07287764727941633,
-      "personal_best": 0.35276740182475125
+      "incumbent_running": -0.19586667510152964,
+      "governors_party": 0.31954951475535287,
+      "presidents_party": 0.21764589711825602,
+      "presidents_party_offcycle": -0.08668715712822125,
+      "no_base": -0.2617862714060664,
+      "log_last_gov": 0.05871516364812153,
+      "log_last_pres": 0.08830233409984564,
+      "personal_best": 0.3805121151284869
      },
      "theta_winner": {
-      "last_gov": 0.9026756420109301,
-      "last_pres": 1.0750131364130635,
-      "incumbent_running": -0.41079833541309496,
-      "governors_party": 0.4924925057058785,
-      "presidents_party": 0.38006928232089665,
-      "presidents_party_offcycle": -0.7307363439685084,
-      "no_base": -0.6522276700549737,
+      "last_gov": 0.9480370357399559,
+      "last_pres": 1.3464788715372458,
+      "incumbent_running": -0.39127926805235175,
+      "governors_party": 0.4448574994971083,
+      "presidents_party": 0.403322758648065,
+      "presidents_party_offcycle": -0.7634003912700214,
+      "no_base": -0.007720580295579551,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.8761464247144953
+      "personal_best": 0.9559548819510888
      },
-     "tau": 0.599593449434432,
+     "tau": 0.5986761387365371,
      "anyanwu": {
-      "winner_accuracy": 0.5,
-      "brier": 0.576043627497423,
-      "log_loss": 0.840510280631019,
-      "winner_share_mae_pp": 13.500928074425737
+      "winner_accuracy": 1.0,
+      "brier": 0.3294339870407541,
+      "log_loss": 0.5910617387822579,
+      "winner_share_mae_pp": 11.109611249445738
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 0.5
@@ -4298,33 +4398,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.19141765559597138,
-      "governors_party": 0.2951584811402951,
-      "presidents_party": 0.21244500290944757,
-      "presidents_party_offcycle": -0.15785868559564442,
-      "no_base": -0.47627725079638616,
-      "log_last_gov": 0.06752611652157002,
-      "log_last_pres": 0.0696875203952668,
-      "personal_best": 0.37723326044827865
+      "incumbent_running": -0.21043777335843675,
+      "governors_party": 0.3035708973715515,
+      "presidents_party": 0.2032549624458819,
+      "presidents_party_offcycle": -0.10448658143211695,
+      "no_base": -0.28747292006322595,
+      "log_last_gov": 0.06272790011898323,
+      "log_last_pres": 0.09390804532797961,
+      "personal_best": 0.4140762124213334
      },
      "theta_winner": {
-      "last_gov": 0.9256067951974254,
-      "last_pres": 1.0453891213670867,
-      "incumbent_running": -0.46329886928380487,
-      "governors_party": 0.4683618438693371,
-      "presidents_party": 0.36593442851875874,
-      "presidents_party_offcycle": -0.8876980194971443,
-      "no_base": -0.7403053247976866,
+      "last_gov": 0.9369339555159449,
+      "last_pres": 1.4001050610022228,
+      "incumbent_running": -0.455256834798646,
+      "governors_party": 0.43948159573676143,
+      "presidents_party": 0.3959842965606298,
+      "presidents_party_offcycle": -0.7490965319165587,
+      "no_base": -0.08154734887219035,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.9847736889442328
+      "personal_best": 1.0916500992588687
      },
-     "tau": 0.5943762012578713,
+     "tau": 0.5922465885019909,
      "anyanwu": {
-      "winner_accuracy": 0.6,
-      "brier": 0.4523588697856625,
-      "log_loss": 0.6622625126555169,
-      "winner_share_mae_pp": 20.8347989730574
+      "winner_accuracy": 0.6333333333333333,
+      "brier": 0.4118307993771545,
+      "log_loss": 0.6202947837331523,
+      "winner_share_mae_pp": 20.20185053509777
      },
      "baseline_governors_party": 0.5666666666666667,
      "baseline_last_result": 0.6
@@ -4335,33 +4435,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.04463404643962587,
-      "governors_party": 0.13466366357032225,
-      "presidents_party": 0.0045154303029863955,
-      "presidents_party_offcycle": -0.1319778732965774,
-      "no_base": -0.30463196967190387,
-      "log_last_gov": 0.07725370304934621,
-      "log_last_pres": 0.16639553630867662,
-      "personal_best": 0.41542676332918155
+      "incumbent_running": -0.06878358320096892,
+      "governors_party": 0.16232271571446583,
+      "presidents_party": 0.013822221717049584,
+      "presidents_party_offcycle": -0.045195691942214185,
+      "no_base": -0.15778004720881136,
+      "log_last_gov": 0.06854388099582645,
+      "log_last_pres": 0.17972766612125776,
+      "personal_best": 0.4418738442602571
      },
      "theta_winner": {
-      "last_gov": 1.1482360123829696,
-      "last_pres": 1.9122468887256558,
-      "incumbent_running": 0.12738843062963356,
-      "governors_party": 0.005219114929945577,
-      "presidents_party": -0.12461666277811709,
-      "presidents_party_offcycle": -0.7900625530809461,
-      "no_base": -0.8892118749359026,
+      "last_gov": 1.1279755932561772,
+      "last_pres": 2.190296710876842,
+      "incumbent_running": 0.12370700625514817,
+      "governors_party": 0.01407723178053687,
+      "presidents_party": -0.05662896815331358,
+      "presidents_party_offcycle": -0.5515442179104955,
+      "no_base": -0.2870857909346347,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.9785148122565318
+      "personal_best": 1.0884730424121776
      },
-     "tau": 0.593077062681293,
+     "tau": 0.5877143407983034,
      "anyanwu": {
-      "winner_accuracy": 0.0,
-      "brier": 0.7396363922550586,
-      "log_loss": 1.0892401888883891,
-      "winner_share_mae_pp": 6.341056999749872
+      "winner_accuracy": 0.5,
+      "brier": 0.5858521298248387,
+      "log_loss": 0.9026886269224602,
+      "winner_share_mae_pp": 3.807358047894274
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4372,33 +4472,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.050844198848147996,
-      "governors_party": 0.1356640542985349,
-      "presidents_party": 0.004933560453675397,
-      "presidents_party_offcycle": -0.09467610525905633,
-      "no_base": -0.32828211957051395,
-      "log_last_gov": 0.0780982722889477,
-      "log_last_pres": 0.16423215054508652,
-      "personal_best": 0.41896475586179105
+      "incumbent_running": -0.07457811827201306,
+      "governors_party": 0.1629780614697014,
+      "presidents_party": 0.012654000598417295,
+      "presidents_party_offcycle": -0.023224997248337823,
+      "no_base": -0.18397516852037868,
+      "log_last_gov": 0.06980730679067737,
+      "log_last_pres": 0.17741298476210493,
+      "personal_best": 0.44456711390940146
      },
      "theta_winner": {
-      "last_gov": 1.1729654724187686,
-      "last_pres": 1.8679861279221972,
-      "incumbent_running": 0.0826209299651144,
-      "governors_party": -3.979552780523263e-05,
-      "presidents_party": -0.10015777183872722,
-      "presidents_party_offcycle": -0.3473672365103818,
-      "no_base": -0.8935149506533394,
+      "last_gov": 1.1577251357329421,
+      "last_pres": 2.1674706116180995,
+      "incumbent_running": 0.08035160454040943,
+      "governors_party": 0.007289138543220713,
+      "presidents_party": -0.03832429009414798,
+      "presidents_party_offcycle": -0.1817068302549375,
+      "no_base": -0.29669087559799323,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.015621689889045
+      "personal_best": 1.1339186767517622
      },
-     "tau": 0.58945756289673,
+     "tau": 0.5840023372068301,
      "anyanwu": {
       "winner_accuracy": 0.0,
-      "brier": 0.9032850349961608,
-      "log_loss": 1.4512438537638481,
-      "winner_share_mae_pp": 35.734632775702714
+      "brier": 1.0027255227465326,
+      "log_loss": 1.6272700415117174,
+      "winner_share_mae_pp": 37.06744353348411
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4409,33 +4509,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.018141134676644223,
-      "governors_party": 0.14187208398296924,
-      "presidents_party": 0.006216303393248423,
-      "presidents_party_offcycle": -0.0920462167475358,
-      "no_base": -0.35915424246189814,
-      "log_last_gov": 0.08188371335528578,
-      "log_last_pres": 0.15410081435171846,
-      "personal_best": 0.3878692042387275
+      "incumbent_running": -0.0401377189051053,
+      "governors_party": 0.16786947638229802,
+      "presidents_party": 0.012739988177022332,
+      "presidents_party_offcycle": -0.023863498192263313,
+      "no_base": -0.21858982913787917,
+      "log_last_gov": 0.07429315727749668,
+      "log_last_pres": 0.16647460728003788,
+      "personal_best": 0.4126221259497492
      },
      "theta_winner": {
-      "last_gov": 1.1613678605932591,
-      "last_pres": 1.8028839852449017,
-      "incumbent_running": 0.1607167777240821,
-      "governors_party": 0.030895659826852002,
-      "presidents_party": -0.10080606256905154,
-      "presidents_party_offcycle": -0.38423528527526635,
-      "no_base": -0.9250778257089114,
+      "last_gov": 1.144139954058215,
+      "last_pres": 2.088045849818513,
+      "incumbent_running": 0.16396642971957368,
+      "governors_party": 0.04145812686935098,
+      "presidents_party": -0.042056990121921385,
+      "presidents_party_offcycle": -0.22048549685944216,
+      "no_base": -0.3395976983001147,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.9563627601287461
+      "personal_best": 1.0657765626103168
      },
-     "tau": 0.5903902786304003,
+     "tau": 0.5855899777407825,
      "anyanwu": {
       "winner_accuracy": 0.5,
-      "brier": 0.7031080305458066,
-      "log_loss": 1.0023940303945018,
-      "winner_share_mae_pp": 5.354922452448893
+      "brier": 0.5880660489837447,
+      "log_loss": 0.8635058375261453,
+      "winner_share_mae_pp": 5.8221398799651265
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 0.5
@@ -4446,33 +4546,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.01720769835862278,
-      "governors_party": 0.13480913784277654,
-      "presidents_party": 0.008461973824180333,
-      "presidents_party_offcycle": -0.08320150407530796,
-      "no_base": -0.3589283238106786,
-      "log_last_gov": 0.08186221043376479,
-      "log_last_pres": 0.15436538386312842,
-      "personal_best": 0.3946695384592964
+      "incumbent_running": -0.03888324633213632,
+      "governors_party": 0.16050605011761587,
+      "presidents_party": 0.0142590024310932,
+      "presidents_party_offcycle": -0.024395310893350997,
+      "no_base": -0.22058465544407582,
+      "log_last_gov": 0.07476097481634052,
+      "log_last_pres": 0.1664024126761496,
+      "personal_best": 0.4186798996397031
      },
      "theta_winner": {
-      "last_gov": 1.109212275241576,
-      "last_pres": 1.7900117088429166,
-      "incumbent_running": 0.15913003157178807,
-      "governors_party": -0.0001735258263440135,
-      "presidents_party": -0.060648126177331445,
-      "presidents_party_offcycle": -0.027056816576188625,
-      "no_base": -0.9354754415719949,
+      "last_gov": 1.0986093862916888,
+      "last_pres": 2.0889996022871697,
+      "incumbent_running": 0.16181014447291206,
+      "governors_party": 0.0053267816392590685,
+      "presidents_party": -0.0052746652301334605,
+      "presidents_party_offcycle": 0.08822776310750642,
+      "no_base": -0.35357477684356964,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.0196729908089535
+      "personal_best": 1.1398675092931767
      },
-     "tau": 0.5867460548966034,
+     "tau": 0.5819945220558072,
      "anyanwu": {
       "winner_accuracy": 0.8666666666666667,
-      "brier": 0.2059880548301998,
-      "log_loss": 0.3810440952181916,
-      "winner_share_mae_pp": 14.961446880067681
+      "brier": 0.19659766050975883,
+      "log_loss": 0.3675492465188677,
+      "winner_share_mae_pp": 14.981312073361968
      },
      "baseline_governors_party": 0.8,
      "baseline_last_result": 0.8333333333333334
@@ -4483,33 +4583,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.02299953103493732,
-      "governors_party": 0.16210178421004742,
-      "presidents_party": 0.017977915933453423,
-      "presidents_party_offcycle": -0.13151033346007382,
-      "no_base": -0.3721114975264561,
-      "log_last_gov": 0.07315033983009822,
-      "log_last_pres": 0.17889643705526426,
-      "personal_best": 0.39906484967469097
+      "incumbent_running": 0.0011953259061477954,
+      "governors_party": 0.18718204080799988,
+      "presidents_party": 0.02182685194265282,
+      "presidents_party_offcycle": -0.06248464646447656,
+      "no_base": -0.2603007740876242,
+      "log_last_gov": 0.06588274936996823,
+      "log_last_pres": 0.18992144145858894,
+      "personal_best": 0.4204919446508186
      },
      "theta_winner": {
-      "last_gov": 1.0050075376837428,
-      "last_pres": 2.0314388222597706,
-      "incumbent_running": 0.32369933950878355,
-      "governors_party": 0.033366013102531684,
-      "presidents_party": 0.06617499572617673,
-      "presidents_party_offcycle": -0.1707768007480867,
-      "no_base": -1.1049546138533657,
+      "last_gov": 1.0136169977983769,
+      "last_pres": 2.3334816388964947,
+      "incumbent_running": 0.31494821934223133,
+      "governors_party": 0.02868499785140862,
+      "presidents_party": 0.11646084202922227,
+      "presidents_party_offcycle": -0.04142139287353137,
+      "no_base": -0.559032666236742,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.0829415941724143
+      "personal_best": 1.1894032054507
      },
-     "tau": 0.5759549324926205,
+     "tau": 0.5713389804523815,
      "anyanwu": {
       "winner_accuracy": 1.0,
-      "brier": 0.2813306836531112,
-      "log_loss": 0.48575109015473056,
-      "winner_share_mae_pp": 7.760445195156349
+      "brier": 0.2851687235536591,
+      "log_loss": 0.4938132976428888,
+      "winner_share_mae_pp": 8.501933800719186
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 1.0
@@ -4520,33 +4620,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.0429932933720991,
-      "governors_party": 0.15500814478366806,
-      "presidents_party": 0.018770553237775992,
-      "presidents_party_offcycle": -0.128458264787883,
-      "no_base": -0.3819797214227099,
-      "log_last_gov": 0.07352538015344012,
-      "log_last_pres": 0.17892221634899977,
-      "personal_best": 0.3855373804999912
+      "incumbent_running": 0.023332807907481316,
+      "governors_party": 0.17761069773762506,
+      "presidents_party": 0.02226481401444683,
+      "presidents_party_offcycle": -0.06729449682543473,
+      "no_base": -0.2698391115004059,
+      "log_last_gov": 0.06684180090334359,
+      "log_last_pres": 0.19013688663690964,
+      "personal_best": 0.40659915043985695
      },
      "theta_winner": {
-      "last_gov": 1.0060774308016638,
-      "last_pres": 2.035635733632269,
-      "incumbent_running": 0.46894829447899333,
-      "governors_party": -0.005572492492604686,
-      "presidents_party": 0.07806338025279459,
-      "presidents_party_offcycle": -0.15905053380046974,
-      "no_base": -1.1223376945947325,
+      "last_gov": 1.0198865743554497,
+      "last_pres": 2.3408876007377075,
+      "incumbent_running": 0.4652652778102123,
+      "governors_party": -0.015343667898967349,
+      "presidents_party": 0.1274407114724669,
+      "presidents_party_offcycle": -0.04430129449778319,
+      "no_base": -0.578189692637384,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.9820708280970407
+      "personal_best": 1.08663198539661
      },
-     "tau": 0.5733322768106712,
+     "tau": 0.5688706748329878,
      "anyanwu": {
       "winner_accuracy": 0.0,
-      "brier": 1.0779669950882051,
-      "log_loss": 1.8543863576240827,
-      "winner_share_mae_pp": 28.46317340200893
+      "brier": 1.1525390780510505,
+      "log_loss": 2.096067424853845,
+      "winner_share_mae_pp": 29.616544611049168
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4557,33 +4657,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.03837156901858337,
-      "governors_party": 0.17382216947242915,
-      "presidents_party": 0.016277825294564355,
-      "presidents_party_offcycle": -0.15119099744044825,
-      "no_base": -0.4069829627926288,
-      "log_last_gov": 0.07534758832411417,
-      "log_last_pres": 0.17056586267234586,
-      "personal_best": 0.36822109600553665
+      "incumbent_running": 0.020694727135385487,
+      "governors_party": 0.196007084865671,
+      "presidents_party": 0.01890978166282758,
+      "presidents_party_offcycle": -0.0923947991409041,
+      "no_base": -0.29824747262133766,
+      "log_last_gov": 0.06914619684486441,
+      "log_last_pres": 0.18121981205495236,
+      "personal_best": 0.38550601015377367
      },
      "theta_winner": {
-      "last_gov": 1.0510250835868302,
-      "last_pres": 1.9514368590166946,
-      "incumbent_running": 0.42255226595223144,
-      "governors_party": 0.05018916310863264,
-      "presidents_party": 0.055879815738932824,
-      "presidents_party_offcycle": -0.21955524158142534,
-      "no_base": -1.1587035903711738,
+      "last_gov": 1.0668194381461942,
+      "last_pres": 2.242232361432275,
+      "incumbent_running": 0.4158580402802684,
+      "governors_party": 0.0462408811413973,
+      "presidents_party": 0.10060054574614913,
+      "presidents_party_offcycle": -0.106936121245734,
+      "no_base": -0.6233322159171327,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.9448038518772548
+      "personal_best": 1.041588111626354
      },
-     "tau": 0.5735867236138781,
+     "tau": 0.569447050124511,
      "anyanwu": {
       "winner_accuracy": 0.5,
-      "brier": 0.5341911865788677,
-      "log_loss": 0.8634505942082737,
-      "winner_share_mae_pp": 14.130120751277335
+      "brier": 0.5390960493968807,
+      "log_loss": 0.8714238643874115,
+      "winner_share_mae_pp": 13.837595710531138
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 0.5
@@ -4594,33 +4694,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.019312303552568813,
-      "governors_party": 0.18092938843946182,
-      "presidents_party": 0.016505131299276787,
-      "presidents_party_offcycle": -0.11280951674387797,
-      "no_base": -0.39482711772066975,
-      "log_last_gov": 0.0704587152793582,
-      "log_last_pres": 0.17549364794000144,
-      "personal_best": 0.41124730156421
+      "incumbent_running": 0.0002790942411392771,
+      "governors_party": 0.20299800089901968,
+      "presidents_party": 0.018723248975975375,
+      "presidents_party_offcycle": -0.05931553765490073,
+      "no_base": -0.28909767506903933,
+      "log_last_gov": 0.06427086368922626,
+      "log_last_pres": 0.18639309800033774,
+      "personal_best": 0.4289858460848972
      },
      "theta_winner": {
-      "last_gov": 1.0867748342117174,
-      "last_pres": 1.974872592537666,
-      "incumbent_running": 0.31554832474975464,
-      "governors_party": 0.06393996955321213,
-      "presidents_party": 0.04257602849299524,
-      "presidents_party_offcycle": -0.22144642735978085,
-      "no_base": -1.200492081876724,
+      "last_gov": 1.115967528219183,
+      "last_pres": 2.265858486765306,
+      "incumbent_running": 0.3036523675463917,
+      "governors_party": 0.05596511576264157,
+      "presidents_party": 0.085885072186127,
+      "presidents_party_offcycle": -0.12274616681984776,
+      "no_base": -0.6693356361635869,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.0368430099304573
+      "personal_best": 1.1314410965235495
      },
-     "tau": 0.5737414468754699,
+     "tau": 0.5693772912147121,
      "anyanwu": {
       "winner_accuracy": 0.7419354838709677,
-      "brier": 0.38056584380939656,
-      "log_loss": 0.6172081355739816,
-      "winner_share_mae_pp": 12.571072098344123
+      "brier": 0.38174249506905317,
+      "log_loss": 0.6173281810028994,
+      "winner_share_mae_pp": 12.772185440940012
      },
      "baseline_governors_party": 0.6774193548387096,
      "baseline_last_result": 0.6774193548387096
@@ -4631,33 +4731,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.05529416508825066,
-      "governors_party": 0.1273974512143891,
-      "presidents_party": 0.0335811174775307,
-      "presidents_party_offcycle": -0.12613524884317204,
-      "no_base": -0.2623335408444768,
-      "log_last_gov": 0.0995662623218477,
-      "log_last_pres": 0.17500775890163967,
-      "personal_best": 0.37395907324012134
+      "incumbent_running": 0.038737963580478964,
+      "governors_party": 0.14394155607210984,
+      "presidents_party": 0.036164227531018306,
+      "presidents_party_offcycle": -0.07790346056227829,
+      "no_base": -0.15906738094224604,
+      "log_last_gov": 0.09657900779307294,
+      "log_last_pres": 0.184753223957078,
+      "personal_best": 0.38697220257670795
      },
      "theta_winner": {
-      "last_gov": 1.3830684565109594,
-      "last_pres": 1.9707441768755156,
-      "incumbent_running": 0.4990129131438593,
-      "governors_party": 0.0006172182101803885,
-      "presidents_party": 0.08534681894207234,
-      "presidents_party_offcycle": -0.29072494235529356,
-      "no_base": -1.2005893276445034,
+      "last_gov": 1.4503172241172397,
+      "last_pres": 2.2389856240867143,
+      "incumbent_running": 0.480988897711563,
+      "governors_party": -0.005250618818849854,
+      "presidents_party": 0.11490904392928833,
+      "presidents_party_offcycle": -0.1852521284394528,
+      "no_base": -0.6741076212253747,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.8458939607036462
+      "personal_best": 0.913047907524388
      },
-     "tau": 0.5477749986549045,
+     "tau": 0.5435938021832707,
      "anyanwu": {
       "winner_accuracy": 0.5,
-      "brier": 0.4872268227377772,
-      "log_loss": 0.8251015085232223,
-      "winner_share_mae_pp": 19.408067729450472
+      "brier": 0.4319614750031352,
+      "log_loss": 0.7470688438438922,
+      "winner_share_mae_pp": 18.066298437008726
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 0.5
@@ -4668,33 +4768,33 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.05675859310770548,
-      "governors_party": 0.12613495496831534,
-      "presidents_party": 0.034982858245563485,
-      "presidents_party_offcycle": -0.0584951391252523,
-      "no_base": -0.25270775546390906,
-      "log_last_gov": 0.1034041510320357,
-      "log_last_pres": 0.17241779120022896,
-      "personal_best": 0.3619491173858122
+      "incumbent_running": 0.039611163093380475,
+      "governors_party": 0.14232360457289261,
+      "presidents_party": 0.037072329230875195,
+      "presidents_party_offcycle": -0.017082177024791315,
+      "no_base": -0.14991306475450816,
+      "log_last_gov": 0.10054053295056761,
+      "log_last_pres": 0.18249443518097255,
+      "personal_best": 0.37619140145356733
      },
      "theta_winner": {
-      "last_gov": 1.4087594572032298,
-      "last_pres": 1.9592805434467422,
-      "incumbent_running": 0.5176028743297054,
-      "governors_party": -0.03369549183435149,
-      "presidents_party": 0.09996578397298964,
-      "presidents_party_offcycle": -0.07763592616454308,
-      "no_base": -1.1864624154315817,
+      "last_gov": 1.4815567979661226,
+      "last_pres": 2.2311388378659007,
+      "incumbent_running": 0.49975006161046487,
+      "governors_party": -0.0429528892237564,
+      "presidents_party": 0.12896455726638967,
+      "presidents_party_offcycle": 0.0045737754849846735,
+      "no_base": -0.658620510904705,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.8259451038135666
+      "personal_best": 0.8964774635876546
      },
-     "tau": 0.5466621339188513,
+     "tau": 0.5423157461487927,
      "anyanwu": {
       "winner_accuracy": 0.5,
-      "brier": 0.5860766711372309,
-      "log_loss": 0.8202958131457719,
-      "winner_share_mae_pp": 29.32901286887253
+      "brier": 0.661985738302166,
+      "log_loss": 0.924973360729965,
+      "winner_share_mae_pp": 29.588896660164426
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4703,9 +4803,9 @@
    "summary": {
     "races": 177,
     "anyanwu": {
-     "winner_accuracy": 0.7175141242937854,
-     "brier": 0.37273097029632063,
-     "log_loss": 0.6093788463665377
+     "winner_accuracy": 0.7344632768361582,
+     "brier": 0.3526223778046022,
+     "log_loss": 0.5868934994793689
     },
     "baseline_governors_party": 0.7344632768361582,
     "baseline_last_result": 0.7401129943502824
@@ -4713,28 +4813,28 @@
    "final_theta": {
     "last_gov": 0.0,
     "last_pres": 0.0,
-    "incumbent_running": 0.07805144915832629,
-    "governors_party": 0.12727709520179661,
-    "presidents_party": 0.03545020308369081,
-    "presidents_party_offcycle": -0.020826921206280262,
-    "no_base": -0.2672100177239263,
-    "log_last_gov": 0.10532524063237782,
-    "log_last_pres": 0.16862995153101992,
-    "personal_best": 0.3357165824397968
+    "incumbent_running": 0.06319097464369768,
+    "governors_party": 0.14228538599074284,
+    "presidents_party": 0.03729327861404947,
+    "presidents_party_offcycle": 0.014786616701128167,
+    "no_base": -0.1672880401972063,
+    "log_last_gov": 0.10268260231733344,
+    "log_last_pres": 0.17818263523264266,
+    "personal_best": 0.34930335252949035
    },
    "final_theta_winner": {
-    "last_gov": 1.4196726644710835,
-    "last_pres": 1.9104089563327677,
-    "incumbent_running": 0.5884464721956876,
-    "governors_party": -0.03789576295950713,
-    "presidents_party": 0.09931473954853336,
-    "presidents_party_offcycle": -0.14912686566071265,
-    "no_base": -1.2085836189229893,
+    "last_gov": 1.4852021258198365,
+    "last_pres": 2.16721425831832,
+    "incumbent_running": 0.577806590941957,
+    "governors_party": -0.04591690479527461,
+    "presidents_party": 0.12723375030714978,
+    "presidents_party_offcycle": -0.08374468155097498,
+    "no_base": -0.6909951601156437,
     "log_last_gov": 0.0,
     "log_last_pres": 0.0,
-    "personal_best": 0.784969355582364
+    "personal_best": 0.8525961704810864
    },
-   "final_tau": 0.5494956299849666
+   "final_tau": 0.5453087676542142
   }
  }
 }

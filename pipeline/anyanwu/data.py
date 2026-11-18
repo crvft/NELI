@@ -140,7 +140,32 @@ def presidential() -> dict[int, Race]:
             votes[i, k] += r.votes
         tot = votes.sum(1)
         out[int(year)] = Race(f"pres-{year}", "presidential", int(year), CODES, cons, votes / tot[:, None], tot)
-    return out
+    out[2011] = _presidential_2011(out[2015])
+    return dict(sorted(out.items()))
+
+
+def _presidential_2011(ref: Race) -> Race:
+    """2011 for the model only, from NDI's final report (state percentages for the main
+    parties; INEC's official state annex is not available anywhere). Missing states
+    (CR, EK, EN, ON, PL) take their zone's average; state vote totals are 2015's,
+    scaled to the 2011 national valid vote (38,209,978). Never shown as results."""
+    df = pd.read_csv(MODEL_DIR / "presidential_2011_ndi.csv", keep_default_na=False).set_index("state_code")
+    cols = ["PDP", "CPC", "ACN", "ANPP"]
+    cands = ["Goodluck Jonathan", "Muhammadu Buhari", "Nuhu Ribadu", "Ibrahim Shekarau"]
+    cons = [_ticket(2011, c, p) for c, p in zip(cands, cols, strict=True)] + [Contestant("Others", "OTH", year=2011)]
+    known = {c: np.r_[df.loc[c, cols].to_numpy(float) / 100, 0.0] for c in df.index}
+    for v in known.values():
+        v[-1] = max(0.0, 1 - v[:-1].sum())
+    shares = np.zeros((len(CODES), len(cons)))
+    for i, c in enumerate(CODES):
+        if c in known:
+            shares[i] = known[c]
+        else:
+            peers = [known[x] for x in known if ZONE[x] == ZONE[c]]
+            shares[i] = np.mean(peers, axis=0)
+    shares /= shares.sum(1, keepdims=True)
+    totals = ref.totals * (38_209_978 / ref.totals.sum())
+    return Race("pres-2011", "presidential", 2011, CODES, cons, shares, totals, meta={"source": "NDI final report (estimated)"})
 
 
 @cache
