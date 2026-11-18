@@ -53,7 +53,8 @@ export type RegionOverview = {
   overall: {
     cyclesLedBy: Partial<Record<PartyCode, number>>;
     averageTurnout: number;
-    registeredGrowth: number; // first → latest register, as a fraction
+    registeredGrowth: number; // first → latest known register, as a fraction (NaN if fewer than two known)
+    registeredSince?: number;
     swingLatest?: { party: PartyCode; change: number }; // biggest share gain, previous → latest concluded
   };
 };
@@ -88,14 +89,16 @@ function cycleSummary(e: Election, codes: string[]): CycleSummary {
       name: a.name,
       registered: a.registered,
       votes: total,
-      turnout: reported > 0 ? total / (a.registered * reported) : 0,
+      turnout: reported > 0 ? (a.registered > 0 ? total / (a.registered * reported) : NaN) : 0,
       reported,
       lead: total ? parties[0] : undefined,
       margin: total && parties[1] ? parties[0].share - parties[1].share : total ? 1 : 0,
       parties,
     };
   });
-  const registered = areas.reduce((s, a) => s + a.registered, 0);
+  // Register unknown for any area (e.g. 2015 by state) -> unknown for the region
+  const known = areas.every((a) => a.registered > 0);
+  const registered = known ? areas.reduce((s, a) => s + a.registered, 0) : 0;
   const votes = areas.reduce((s, a) => s + a.votes, 0);
   const reportedRegistered = areas.reduce((s, a) => s + a.registered * a.reported, 0);
   const areasLed: Partial<Record<PartyCode, number>> = {};
@@ -107,8 +110,8 @@ function cycleSummary(e: Election, codes: string[]): CycleSummary {
     live: e.status === 'live',
     registered,
     votes,
-    turnout: reportedRegistered ? votes / reportedRegistered : 0,
-    reported: registered ? reportedRegistered / registered : 0,
+    turnout: known && reportedRegistered ? votes / reportedRegistered : known ? 0 : NaN,
+    reported: e.status !== 'live' ? 1 : registered ? reportedRegistered / registered : 0,
     parties: partyShares(e, sumVotes(e, codes)),
     areasLed,
     areas: areas.sort((a, b) => b.votes - a.votes),
@@ -149,10 +152,23 @@ export function regionOverview(elections: Election[], kind: RegionKind, code: st
     parties,
     overall: {
       cyclesLedBy,
-      averageTurnout: concluded.length ? concluded.reduce((s, c) => s + c.turnout, 0) / concluded.length : 0,
-      registeredGrowth: cycles.length >= 2 ? cycles[cycles.length - 1].registered / cycles[0].registered - 1 : 0,
+      averageTurnout: mean(concluded.map((c) => c.turnout).filter(Number.isFinite)),
+      ...registerSpan(cycles),
       swingLatest,
     },
+  };
+}
+
+const mean = (xs: number[]) => (xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : NaN);
+
+/** Register growth between the first and latest cycles whose register is known. */
+function registerSpan(cycles: CycleSummary[]) {
+  const known = cycles.filter((c) => c.registered > 0);
+  const first = known[0];
+  const last = known[known.length - 1];
+  return {
+    registeredGrowth: first && last && first !== last ? last.registered / first.registered - 1 : NaN,
+    registeredSince: first && last && first !== last ? first.year : undefined,
   };
 }
 

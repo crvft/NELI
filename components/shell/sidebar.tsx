@@ -45,10 +45,10 @@ export function Sidebar() {
         <div className='mt-auto flex flex-col gap-3 p-4'>
           <div className='rounded-xl bg-surface-2 p-3.5 shadow-surface-2'>
             <div className='flex items-center gap-1.5 text-label-xs text-text-strong-950'>
-              <IconInfo className='size-4 text-away-base' />
-              Sample data
+              <IconInfo className='size-4 text-text-soft-400' />
+              About the data
             </div>
-            <p className='mt-1 text-paragraph-xs text-text-sub-600'>All names and figures are fictional, for designing the interface. Real INEC data comes next.</p>
+            <p className='mt-1 text-paragraph-xs text-text-sub-600'>INEC results from 1999, checked against declared totals. Map detail below state level is estimated.</p>
           </div>
           <ThemeToggle />
         </div>

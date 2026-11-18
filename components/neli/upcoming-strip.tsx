@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Route } from 'next';
 import { FluidHover } from '@/components/motion/fluid-hover';
 import { IconChevronRight } from '@/components/icons';
-import type { Election, Person } from '@/lib/domain';
+import { electionWhen, type Election, type Person } from '@/lib/domain';
 import { forecast } from '@/lib/analytics';
 import { PARTIES } from '@/lib/parties';
 import { PageContainer } from './page-header';
@@ -10,6 +10,7 @@ import { Card } from './card';
 
 export function UpcomingStrip({ all, people }: { all: Election[]; people: Person[] }) {
   const up = all.filter((e) => e.status === 'upcoming');
+  if (!up.length) return null;
   return (
     <PageContainer className='pt-0 lg:pt-0'>
       <div className='mb-3 flex items-center justify-between'>
@@ -25,7 +26,7 @@ export function UpcomingStrip({ all, people }: { all: Election[]; people: Person
             <Link key={e.id} href={`/elections/${e.id}` as Route} data-fluid-item className='relative block'>
               <Card className='h-full p-4'>
                 <div className='text-paragraph-xs text-text-sub-600'>
-                  {new Date(e.date).toLocaleDateString('en-NG', { day: 'numeric', month: 'short', year: 'numeric' })}
+                  {electionWhen(e, 'short')}
                 </div>
                 <div className='mt-1 text-label-sm text-text-strong-950'>{e.title}</div>
                 <div className='mt-3 flex items-center gap-2 text-paragraph-xs text-text-sub-600'>

@@ -5,7 +5,7 @@ import {
   IconInfo,
   IconScale,
 } from '@/components/icons';
-import { ELECTION_TYPE_LABEL, type Election, type Person } from '@/lib/domain';
+import { ELECTION_TYPE_LABEL, electionWhen, type Election, type Person } from '@/lib/domain';
 import { stateByCode } from '@/lib/geo';
 import { PARTIES } from '@/lib/parties';
 import {
@@ -19,6 +19,7 @@ import {
   probabilityTimeline,
   shareTimeline,
   registeredTotal,
+  turnoutOf,
   reportingProgress,
   spreadCount,
   tally,
@@ -26,7 +27,7 @@ import {
   zoneBreakdown,
 } from '@/lib/analytics';
 import { Card, CardHeader, Stat } from './card';
-import { PageContainer, PageHeader, SampleBadge } from './page-header';
+import { PageContainer, PageHeader } from './page-header';
 import { LiveDot } from './live-dot';
 import { ResultsList } from './results-list';
 import { NigeriaMap } from './nigeria-map';
@@ -39,13 +40,6 @@ import { PartyTag } from './party';
 import { PersonAvatar } from './avatar';
 import { ResultsTable, type ResultRow } from './results-table';
 
-function formatDate(d: string) {
-  return new Date(d).toLocaleDateString('en-NG', {
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  });
-}
 
 /** Election page body. `all` and `people` are passed in by the page (from the data layer). */
 export function ElectionView({
@@ -103,14 +97,13 @@ export function ElectionView({
             <span className='text-paragraph-xs text-text-sub-600'>
               {ELECTION_TYPE_LABEL[e.type]}
             </span>
-            <SampleBadge />
           </>
         }
         title={e.title}
         description={
           live
             ? `Votes counted so far, updated as INEC result sheets are uploaded. Last update ${new Date(e.updatedAt!).toLocaleTimeString('en-NG', { hour: '2-digit', minute: '2-digit', timeZone: 'Africa/Lagos' })} WAT.`
-            : `Held on ${formatDate(e.date)}${e.stateCode ? ` in ${stateByCode(e.stateCode).name} State` : ''}${e.constituency ? `, ${e.constituency}` : ''}.`
+            : `${e.date ? `Held on ${electionWhen(e)}` : `Held in ${e.year}`}${e.stateCode ? ` in ${stateByCode(e.stateCode).name} State` : ''}${e.constituency ? `, ${e.constituency}` : ''}.`
         }
       />
 
@@ -160,9 +153,9 @@ export function ElectionView({
                 <Stat
                   label={live ? 'Turnout so far' : 'Turnout'}
                   value={pct(
-                    total / reg / (live ? Math.max(progress, 0.01) : 1),
+                    turnoutOf(total, reg * (live ? Math.max(progress, 0.01) : 1)),
                   )}
-                  sub={`${fmtCompact(reg)} registered`}
+                  sub={reg ? `${fmtCompact(reg)} registered` : 'Register not on record'}
                 />
                 <Stat
                   label={
@@ -221,8 +214,8 @@ export function ElectionView({
           />
           <Stat
             label={live ? 'Turnout so far' : 'Turnout'}
-            value={pct(total / reg / (live ? Math.max(progress, 0.01) : 1))}
-            sub={`${fmtCompact(reg)} registered`}
+            value={pct(turnoutOf(total, reg * (live ? Math.max(progress, 0.01) : 1)))}
+            sub={reg ? `${fmtCompact(reg)} registered` : 'Register not on record'}
           />
           <Stat
             label={live ? `${e.areaLabel}s fully declared` : 'Winning margin'}
@@ -407,22 +400,18 @@ function UpcomingView({
 }) {
   const f = forecast(e, all, people);
   const prev = previousComparable(e, all);
-  const days = Math.ceil(
-    (new Date(e.date).getTime() - new Date('2026-11-18').getTime()) / 86400000,
-  );
   return (
     <PageContainer className='flex flex-col gap-6'>
       <PageHeader
         badges={
           <>
             <span className='bg-information-lighter text-label-xs text-information-dark inline-flex h-6 items-center gap-1.5 rounded-md px-2'>
-              <IconCalendar className='size-3.5' /> Upcoming · in {days} days
+              <IconCalendar className='size-3.5' /> Upcoming · {electionWhen(e, 'short')}
             </span>
-            <SampleBadge />
           </>
         }
         title={e.title}
-        description={`Scheduled for ${formatDate(e.date)}. The forecast is based on past results for this seat, incumbency and each candidate's track record.`}
+        description={`Scheduled for ${electionWhen(e)}. The forecast is based on past results for this seat, incumbency and each candidate's track record.`}
       />
       <div className='grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_380px]'>
         <Card>

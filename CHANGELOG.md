@@ -1,9 +1,26 @@
 # Changelog
 
 All notable changes to NELI (National Electoral Interface). Newest first.
-Dates are 2026-11-18 unless stated. Every entry so far uses **fictional sample data**; no real election data has been imported yet.
+Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used **fictional sample data**.
 
 ---
+
+## Real data on the site
+
+- **Supabase**:
+  - Schema and read-only row-level security; data loaded through one transactional `neli_reload` function (service role only).
+  - New pipeline steps: `export_sql` (SQL seed plus the party registry for the web app) and `load_supabase`.
+- **Website reads real data**:
+  - Presidential 1999–2023 (no 2007/2011 by state yet) and 249 governorship elections, 1999–2026.
+  - Politicians are derived from results. Offices come from wins and party history from tickets. Nothing biographical is invented.
+  - All 100+ parties are labelled; historical parties take their family's colour.
+- **No live election:** the home page shows the 2023 presidential result, the nav says "Latest results", the "Coming up next" strip hides itself, and Forecasts explains that forecasts arrive with Anyanwụ.
+- **Honest gaps:**
+  - Unknown voter registers show "—". Turnout is never estimated, and charts skip years without a register.
+  - LGA map figures are labelled as estimated.
+  - Governorship pages show the year where the polling date isn't on record.
+- Zone charts group parties by family (AD-APP / ANPP / ACN / CPC → APC) so lines continue through mergers.
+- Removed every "Sample data" badge and the sidebar sample-data card (now "About the data").
 
 ## [Unreleased] — Next up
 
@@ -16,7 +33,6 @@ Dates are 2026-11-18 unless stated. Every entry so far uses **fictional sample d
 - Governorship results, 1999–2026: 249 of 252 held elections across all 36 states, including off-cycle races. Each election carries a coverage label: all candidates (174), top candidates only (59), winner only (16). The extractor rejects party primaries, merges joint tickets and reads nested infoboxes; it is spot-checked against known results.
 - CI: a new `pipeline` job (ruff lint + format check + pytest).
 
-- Data import (Supabase), in the order the forecasting model needs it: presidential results 1999–2023, then governorship (including off-cycle races).
 - **Anyanwụ**, NELI's forecasting model (Python): pre-election forecast + live model, tuned and tested by walk-forward backtesting. Design in `HANDOVER.md`.
 - Later: a public "How accurate is NELI?" page, once Anyanwụ is working (deliberately deferred).
 

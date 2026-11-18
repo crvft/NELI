@@ -1,0 +1,410 @@
+{
+ "A": {
+  "name": "Accord",
+  "lineage": "OTHER"
+ },
+ "AA": {
+  "name": "Action Alliance",
+  "lineage": "OTHER"
+ },
+ "AAC": {
+  "name": "African Action Congress",
+  "lineage": "OTHER"
+ },
+ "AAP": {
+  "name": "Advanced Allied Party",
+  "lineage": "OTHER"
+ },
+ "ABN": {
+  "name": "Association for Better Nigeria",
+  "lineage": "OTHER"
+ },
+ "ABP": {
+  "name": "All Blending Party",
+  "lineage": "OTHER"
+ },
+ "AC": {
+  "name": "Action Congress",
+  "lineage": "APC"
+ },
+ "ACD": {
+  "name": "Advanced Congress of Democrats",
+  "lineage": "OTHER"
+ },
+ "ACN": {
+  "name": "Action Congress of Nigeria",
+  "lineage": "APC"
+ },
+ "ACPN": {
+  "name": "Allied Congress Party of Nigeria",
+  "lineage": "OTHER"
+ },
+ "AD": {
+  "name": "Alliance for Democracy",
+  "lineage": "APC"
+ },
+ "AD-APP": {
+  "name": "All People's Party (APP) + Alliance for Democracy (AD)",
+  "lineage": "APC"
+ },
+ "ADA": {
+  "name": "African Democratic Congress",
+  "lineage": "OTHER"
+ },
+ "ADC": {
+  "name": "African Democratic Congress",
+  "lineage": "ADC"
+ },
+ "ADP": {
+  "name": "Action Democratic Party",
+  "lineage": "OTHER"
+ },
+ "AGA": {
+  "name": "All Grassroots Alliance",
+  "lineage": "OTHER"
+ },
+ "AGAP": {
+  "name": "All Grand Alliance Party",
+  "lineage": "OTHER"
+ },
+ "ANDP": {
+  "name": "Advanced Nigeria Democratic Party",
+  "lineage": "OTHER"
+ },
+ "ANN": {
+  "name": "Alliance for New Nigeria",
+  "lineage": "OTHER"
+ },
+ "ANP": {
+  "name": "Alliance National Party",
+  "lineage": "OTHER"
+ },
+ "ANPP": {
+  "name": "All Nigeria Peoples Party",
+  "lineage": "APC"
+ },
+ "ANRP": {
+  "name": "Abundant Nigeria Renewal Party",
+  "lineage": "OTHER"
+ },
+ "APA": {
+  "name": "African Peoples Alliance",
+  "lineage": "OTHER"
+ },
+ "APC": {
+  "name": "All Progressives Congress",
+  "lineage": "APC"
+ },
+ "APDA": {
+  "name": "Advanced Peoples Democratic Alliance",
+  "lineage": "OTHER"
+ },
+ "APGA": {
+  "name": "All Progressives Grand Alliance",
+  "lineage": "APGA"
+ },
+ "APM": {
+  "name": "Allied Peoples Movement",
+  "lineage": "OTHER"
+ },
+ "APP": {
+  "name": "All People's Party",
+  "lineage": "APC"
+ },
+ "APS": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "ASD": {
+  "name": "Alliance of Social Democrats",
+  "lineage": "OTHER"
+ },
+ "AUN": {
+  "name": "Alliance for a United Nigeria",
+  "lineage": "OTHER"
+ },
+ "BNPP": {
+  "name": "Better Nigeria Progressive Party",
+  "lineage": "OTHER"
+ },
+ "BP": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "C4C": {
+  "name": "Coalition for Change",
+  "lineage": "OTHER"
+ },
+ "CAP": {
+  "name": "Change Advocacy Party",
+  "lineage": "OTHER"
+ },
+ "CC": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "CPC": {
+  "name": "Congress for Progressive Change",
+  "lineage": "APC"
+ },
+ "CPP": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "DA": {
+  "name": "Democratic Alternative",
+  "lineage": "OTHER"
+ },
+ "DPA": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "DPC": {
+  "name": "Democratic Peoples Congress",
+  "lineage": "OTHER"
+ },
+ "DPP": {
+  "name": "Democratic People's Party",
+  "lineage": "OTHER"
+ },
+ "FJP": {
+  "name": "Freedom and Justice Party",
+  "lineage": "OTHER"
+ },
+ "FRESH": {
+  "name": "Fresh Democratic Party",
+  "lineage": "OTHER"
+ },
+ "GDPN": {
+  "name": "Grassroots Development Party of Nigeria",
+  "lineage": "OTHER"
+ },
+ "GPN": {
+  "name": "Green Party of Nigeria",
+  "lineage": "OTHER"
+ },
+ "HASKE": {
+  "name": "Zayyanu Salisu",
+  "lineage": "OTHER"
+ },
+ "HDP": {
+  "name": "Hope Democratic Party",
+  "lineage": "OTHER"
+ },
+ "HP": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "ID": {
+  "name": "Independent Democrats",
+  "lineage": "OTHER"
+ },
+ "JMPP": {
+  "name": "Justice Must Prevail Party",
+  "lineage": "OTHER"
+ },
+ "KOWA": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "KP": {
+  "name": "Kowa Party",
+  "lineage": "OTHER"
+ },
+ "LM": {
+  "name": "Liberation Movement",
+  "lineage": "OTHER"
+ },
+ "LP": {
+  "name": "Labour Party",
+  "lineage": "LP"
+ },
+ "MAJA": {
+  "name": "Mass Action Joint Alliance",
+  "lineage": "OTHER"
+ },
+ "MAJAP": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "MMN": {
+  "name": "Masses Movement of Nigeria",
+  "lineage": "OTHER"
+ },
+ "MPN": {
+  "name": "Mega Party of Nigeria",
+  "lineage": "OTHER"
+ },
+ "MPPP": {
+  "name": "Mega Progressive Peoples Party",
+  "lineage": "OTHER"
+ },
+ "MRDD": {
+  "name": "Movement for the Restoration and Defence of Democracy",
+  "lineage": "OTHER"
+ },
+ "NAC": {
+  "name": "National Action Council",
+  "lineage": "OTHER"
+ },
+ "NCMP": {
+  "name": "Nigeria Community Movement Party",
+  "lineage": "OTHER"
+ },
+ "NCP": {
+  "name": "National Conscience Party",
+  "lineage": "OTHER"
+ },
+ "NDLP": {
+  "name": "National Democratic Liberty Party",
+  "lineage": "OTHER"
+ },
+ "NEPP": {
+  "name": "Nigeria Elements Progressive Party",
+  "lineage": "OTHER"
+ },
+ "NFD": {
+  "name": "Nigeria for Democracy",
+  "lineage": "OTHER"
+ },
+ "NIP": {
+  "name": "National Interest Party",
+  "lineage": "OTHER"
+ },
+ "NNPP": {
+  "name": "New Nigeria Peoples Party",
+  "lineage": "NNPP"
+ },
+ "NPC": {
+  "name": "Nigeria People's Congress",
+  "lineage": "OTHER"
+ },
+ "NPM": {
+  "name": "New Progressive Movement",
+  "lineage": "OTHER"
+ },
+ "NRM": {
+  "name": "National Rescue Movement",
+  "lineage": "OTHER"
+ },
+ "NRP": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "NSDP": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "NUP": {
+  "name": "National Unity Party",
+  "lineage": "OTHER"
+ },
+ "OTH": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "PCP": {
+  "name": "Peoples Coalition Party",
+  "lineage": "OTHER"
+ },
+ "PDC": {
+  "name": "People for Democratic Change",
+  "lineage": "OTHER"
+ },
+ "PDM": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "PDP": {
+  "name": "People's Democratic Party",
+  "lineage": "PDP"
+ },
+ "PPA": {
+  "name": "Progressive Peoples Alliance",
+  "lineage": "OTHER"
+ },
+ "PPC": {
+  "name": "Providence People's Congress",
+  "lineage": "OTHER"
+ },
+ "PPN": {
+  "name": "People's Party of Nigeria",
+  "lineage": "OTHER"
+ },
+ "PRP": {
+  "name": "People's Redemption Party",
+  "lineage": "OTHER"
+ },
+ "PT": {
+  "name": "People's Trust",
+  "lineage": "OTHER"
+ },
+ "RAP": {
+  "name": "Reformed Advanced Party",
+  "lineage": "OTHER"
+ },
+ "RBNP": {
+  "name": "Re-build Nigeria Party",
+  "lineage": "OTHER"
+ },
+ "RP": {
+  "name": "Restoration Party of Nigeria",
+  "lineage": "OTHER"
+ },
+ "SDMP": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "SDP": {
+  "name": "Social Democratic Party",
+  "lineage": "SDP"
+ },
+ "SNC": {
+  "name": "Save Nigeria Congress",
+  "lineage": "OTHER"
+ },
+ "SNP": {
+  "name": "Sustainable National Party",
+  "lineage": "OTHER"
+ },
+ "SPN": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "UDP": {
+  "name": "United Democratic Party",
+  "lineage": "OTHER"
+ },
+ "UP": {
+  "name": "United Patriots",
+  "lineage": "OTHER"
+ },
+ "UPN": {
+  "name": "Unity Party of Nigeria",
+  "lineage": "OTHER"
+ },
+ "UPP": {
+  "name": "United Progressive Party",
+  "lineage": "OTHER"
+ },
+ "WTPN": {
+  "name": "We The People Nigeria",
+  "lineage": "OTHER"
+ },
+ "YDP": {
+  "name": "Young Democratic Party",
+  "lineage": "OTHER"
+ },
+ "YES": {
+  "name": "Yes Electorates Solidarity",
+  "lineage": "OTHER"
+ },
+ "YPP": {
+  "name": "Young Progressive Party",
+  "lineage": "OTHER"
+ },
+ "ZLP": {
+  "name": "Zenith Labour Party",
+  "lineage": "OTHER"
+ }
+}

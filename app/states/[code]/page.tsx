@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation';
 import { IconChevronLeft, IconChevronRight } from '@/components/icons';
 import { STATES, zoneName } from '@/lib/geo';
 import { getRegionOverview, listElections, listPeople } from '@/lib/repo';
-import { PageContainer, PageHeader, SampleBadge } from '@/components/neli/page-header';
+import { PageContainer, PageHeader } from '@/components/neli/page-header';
 import { RegionDashboard } from '@/components/neli/region-dashboard';
 import { LocalElections, OfficeHolders } from '@/components/neli/region-extras';
 
@@ -35,10 +35,10 @@ export default async function StatePage({ params }: { params: Promise<{ code: st
           {zoneName(s.zone)}
         </Link>
       </nav>
-      <PageHeader title={`${s.name}${s.code === 'FC' ? '' : ' State'}`} badges={<SampleBadge />} description={`Capital: ${s.capital} · ${zoneName(s.zone)} zone`} />
+      <PageHeader title={`${s.name}${s.code === 'FC' ? '' : ' State'}`} description={`Capital: ${s.capital} · ${zoneName(s.zone)} zone`} />
       <RegionDashboard overview={overview}>
         <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
-          <OfficeHolders people={people} stateCodes={[s.code]} title='Current office holders' empty={`No office holders from ${s.name} in the sample data yet.`} />
+          <OfficeHolders people={people} stateCodes={[s.code]} title='Current office holders' empty={`No office holders from ${s.name} on NELI’s record yet.`} />
           <LocalElections elections={elections} stateCodes={[s.code]} title={`Elections in ${s.name}`} />
         </div>
       </RegionDashboard>

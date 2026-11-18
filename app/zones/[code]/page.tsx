@@ -5,7 +5,7 @@ import { IconChevronLeft } from '@/components/icons';
 import { STATES, ZONES } from '@/lib/geo';
 import { isZoneCode } from '@/lib/region';
 import { getRegionOverview, listElections, listPeople } from '@/lib/repo';
-import { PageContainer, PageHeader, SampleBadge } from '@/components/neli/page-header';
+import { PageContainer, PageHeader } from '@/components/neli/page-header';
 import { RegionDashboard } from '@/components/neli/region-dashboard';
 import { LocalElections, OfficeHolders } from '@/components/neli/region-extras';
 
@@ -32,12 +32,11 @@ export default async function ZonePage({ params }: { params: Promise<{ code: str
       </Link>
       <PageHeader
         title={overview.name}
-        badges={<SampleBadge />}
         description={`Geopolitical zone · ${states.length} states: ${states.map((s) => s.name).join(', ')}.`}
       />
       <RegionDashboard overview={overview}>
         <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
-          <OfficeHolders people={people} stateCodes={overview.areaCodes} title={`Office holders in ${overview.name}`} empty='No office holders from this zone in the sample data yet.' />
+          <OfficeHolders people={people} stateCodes={overview.areaCodes} title={`Office holders in ${overview.name}`} empty="No office holders from this zone on NELI’s record yet." />
           <LocalElections elections={elections} stateCodes={overview.areaCodes} title={`Other elections in ${overview.name}`} />
         </div>
       </RegionDashboard>

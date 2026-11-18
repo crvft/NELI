@@ -5,10 +5,12 @@ import { UpcomingStrip } from '@/components/neli/upcoming-strip';
 
 export default async function LivePage() {
   const [live, all, people] = await Promise.all([getLiveElection(), listElections(), listPeople()]);
-  if (!live) notFound();
+  // No count in progress: lead with the most recent presidential result
+  const shown = live ?? all.find((e) => e.type === 'presidential' && e.status === 'concluded');
+  if (!shown) notFound();
   return (
     <>
-      <ElectionView e={live} all={all} people={people} />
+      <ElectionView e={shown} all={all} people={people} />
       <UpcomingStrip all={all} people={people} />
     </>
   );

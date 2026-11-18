@@ -7,7 +7,7 @@ import { stateByCode } from '@/lib/geo';
 import { PARTIES } from '@/lib/parties';
 import { currentParty, currentRole, fmt, fmtCompact, pct, personRecord, voteSources } from '@/lib/analytics';
 import { Card, CardHeader, Stat } from '@/components/neli/card';
-import { PageContainer, SampleBadge } from '@/components/neli/page-header';
+import { PageContainer } from '@/components/neli/page-header';
 import { PersonAvatar } from '@/components/neli/avatar';
 import { PartyTag } from '@/components/neli/party';
 import { LineChart } from '@/components/neli/line-chart';
@@ -52,7 +52,6 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
           <PersonAvatar name={p.name} party={party} size='xl' />
           <div className='min-w-0 flex-1'>
             <div className='mb-2 flex flex-wrap items-center gap-2'>
-              <SampleBadge />
               {role ? (
                 <span className='inline-flex h-6 items-center gap-1.5 rounded-md bg-success-lighter px-2 text-label-xs text-success-dark'>
                   <span className='size-1.5 rounded-full bg-success-base' /> In office
@@ -67,8 +66,8 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
             </p>
             <div className='mt-3 flex flex-wrap items-center gap-2'>
               <PartyTag code={party} full />
-              <span className='inline-flex h-6 items-center rounded-md bg-bg-weak-50 px-2 text-label-xs text-text-sub-600'>From {stateByCode(p.origin).name}</span>
-              <span className='inline-flex h-6 items-center rounded-md bg-bg-weak-50 px-2 text-label-xs text-text-sub-600'>Age {2026 - p.born}</span>
+              {p.origin && <span className='inline-flex h-6 items-center rounded-md bg-hover px-2 text-label-xs text-text-sub-600'>From {stateByCode(p.origin).name}</span>}
+              {p.born && <span className='inline-flex h-6 items-center rounded-md bg-hover px-2 text-label-xs text-text-sub-600'>Age {new Date().getFullYear() - p.born}</span>}
             </div>
           </div>
         </div>

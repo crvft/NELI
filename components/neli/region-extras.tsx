@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Route } from 'next';
-import { OFFICE_LABEL, type Election, type Person } from '@/lib/domain';
+import { OFFICE_LABEL, dateKey, type Election, type Person } from '@/lib/domain';
 import { currentParty, currentRole, pct, tally } from '@/lib/analytics';
 import { FluidHover } from '@/components/motion/fluid-hover';
 import { IconChevronRight } from '@/components/icons';
@@ -51,7 +51,7 @@ const rank = (o: string) => (ORDER.indexOf(o) === -1 ? 99 : ORDER.indexOf(o));
 
 /** Governorship, legislative and LGA races in the given states. */
 export function LocalElections({ elections, stateCodes, title }: { elections: Election[]; stateCodes: string[]; title: string }) {
-  const list = elections.filter((e) => e.stateCode && stateCodes.includes(e.stateCode)).sort((a, b) => b.date.localeCompare(a.date));
+  const list = elections.filter((e) => e.stateCode && stateCodes.includes(e.stateCode)).sort((a, b) => dateKey(b).localeCompare(dateKey(a)));
   if (!list.length) return null;
   return (
     <Card>

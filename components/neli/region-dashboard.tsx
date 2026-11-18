@@ -10,7 +10,7 @@ import {
 } from '@/components/motion/animated-number';
 import { FluidHover } from '@/components/motion/fluid-hover';
 import { IconChevronRight } from '@/components/icons';
-import { PARTIES, type PartyCode } from '@/lib/parties';
+import { PARTIES, partyInfo, type PartyCode } from '@/lib/parties';
 import type { AreaRow, CycleSummary, RegionOverview } from '@/lib/region';
 import { SortMenu, useSorted, type SortOption } from './sort-menu';
 import { cn } from '@/utils/cn';
@@ -19,7 +19,7 @@ import { LineChart } from './line-chart';
 import { LiveDot } from './live-dot';
 import { PartyTag } from './party';
 
-const pct = (x: number, d = 1) => `${(x * 100).toFixed(d)}%`;
+const pct = (x: number, d = 1) => (Number.isFinite(x) ? `${(x * 100).toFixed(d)}%` : '—');
 const compact = (n: number) =>
   n >= 1e6
     ? `${(n / 1e6).toFixed(2)}M`
@@ -69,24 +69,33 @@ export function RegionDashboard({
   }
 
   const selected = cycles.find((c) => c.electionId === cycle);
-  const topParties = overview.parties.slice(0, 4);
   const isZone = overview.kind === 'zone';
 
+  // Chart by party family so a line continues through mergers
+  // (AD, APP, ANPP, ACN, CPC -> APC); minor parties are left out.
+  const familyShare = (c: CycleSummary, fam: string) =>
+    c.parties.filter((x) => partyInfo(x.party).lineage === fam).reduce((s, x) => s + x.share, 0);
+  const familyTotals = new Map<string, number>();
+  const familyMembers = new Map<string, Set<string>>();
+  for (const c of cycles)
+    for (const x of c.parties) {
+      const fam = partyInfo(x.party).lineage;
+      if (fam === 'OTHER') continue;
+      familyTotals.set(fam, (familyTotals.get(fam) ?? 0) + x.votes);
+      if (x.party !== fam && x.votes > 0) (familyMembers.get(fam) ?? familyMembers.set(fam, new Set()).get(fam)!).add(x.party);
+    }
+  const families = [...familyTotals.entries()].sort((a, b) => b[1] - a[1]).slice(0, 4).map(([f]) => f);
+  const merged = families.filter((f) => familyMembers.get(f)?.size);
   const shareData = cycles.map((c) => ({
     label: c.live ? `${c.year} (live)` : String(c.year),
-    ...Object.fromEntries(
-      topParties.map((p) => [
-        p,
-        Math.round((c.parties.find((x) => x.party === p)?.share ?? 0) * 1000) /
-          10,
-      ]),
-    ),
+    ...Object.fromEntries(families.map((f) => [f, Math.round(familyShare(c, f) * 1000) / 10])),
   }));
-  const turnoutData = cycles.map((c) => ({
+  // Years without a known register are left out rather than drawn as zero
+  const turnoutData = cycles.filter((c) => Number.isFinite(c.turnout)).map((c) => ({
     label: c.live ? `${c.year} (live)` : String(c.year),
     turnout: Math.round(c.turnout * 1000) / 10,
   }));
-  const registerData = cycles.map((c) => ({
+  const registerData = cycles.filter((c) => c.registered > 0).map((c) => ({
     label: String(c.year),
     registered: c.registered,
   }));
@@ -138,13 +147,17 @@ export function RegionDashboard({
         <Card>
           <CardHeader
             title='Party vote share by cycle'
-            description={`Share of valid votes in ${overview.name}, presidential elections`}
+            description={`Share of valid votes in ${overview.name}, presidential elections${
+              merged.length
+                ? `. ${merged.map((f) => `${f} includes ${[...familyMembers.get(f)!].join(', ')}`).join('; ')}`
+                : ''
+            }`}
           />
           <div className='px-2 pt-3 pb-3 sm:px-3'>
             <LineChart
               ariaLabel={`Party vote share in ${overview.name} by election cycle`}
               data={shareData}
-              series={topParties.map((p) => ({ key: p, label: p, party: p }))}
+              series={families.map((f) => ({ key: f, label: f, party: f }))}
               markers
               fillBetween
               height={260}
@@ -240,10 +253,10 @@ type KpiData = {
 };
 
 function overallKpis(o: RegionOverview): KpiData[] {
-  const latest = o.cycles[o.cycles.length - 1];
-  const led = Object.entries(o.overall.cyclesLedBy).sort(
-    (a, b) => b[1] - a[1],
-  )[0] as [PartyCode, number] | undefined;
+  const latestRegister = [...o.cycles].reverse().find((c) => c.registered > 0);
+  const led = (Object.entries(o.overall.cyclesLedBy) as [PartyCode, number][]).sort((a, b) => b[1] - a[1])[0] as
+    | [PartyCode, number]
+    | undefined;
   const concluded = o.cycles.filter((c) => !c.live).length;
   const sw = o.overall.swingLatest;
   return [
@@ -255,13 +268,17 @@ function overallKpis(o: RegionOverview): KpiData[] {
     },
     {
       label: 'Registered voters',
-      value: compact(latest.registered),
-      sub: `${o.overall.registeredGrowth >= 0 ? '+' : ''}${pct(o.overall.registeredGrowth, 0)} since ${o.cycles[0].year}`,
+      value: latestRegister ? compact(latestRegister.registered) : '—',
+      sub: latestRegister
+        ? Number.isFinite(o.overall.registeredGrowth)
+          ? `${o.overall.registeredGrowth >= 0 ? '+' : ''}${pct(o.overall.registeredGrowth, 0)} since ${o.overall.registeredSince}`
+          : `${latestRegister.year} register`
+        : 'Not on record by state',
     },
     {
       label: 'Average turnout',
       value: pct(o.overall.averageTurnout),
-      sub: `Across ${concluded} completed elections`,
+      sub: `Across ${o.cycles.filter((c) => !c.live && Number.isFinite(c.turnout)).length} elections with a known register`,
     },
     {
       label: 'Biggest swing',
@@ -288,7 +305,7 @@ function cycleKpis(c: CycleSummary, isZone: boolean): KpiData[] {
     {
       label: c.live ? 'Votes counted' : 'Votes cast',
       value: compact(c.votes),
-      sub: `${compact(c.registered)} registered`,
+      sub: c.registered ? `${compact(c.registered)} registered` : 'Register not on record',
     },
     {
       label: c.live ? 'Turnout so far' : 'Turnout',
@@ -303,7 +320,7 @@ function cycleKpis(c: CycleSummary, isZone: boolean): KpiData[] {
           value: lead
             ? `${c.areasLed[lead.party] ?? 0}/${c.areas.length}`
             : '—',
-          sub: Object.entries(c.areasLed)
+          sub: (Object.entries(c.areasLed) as [PartyCode, number][])
             .sort((a, b) => b[1] - a[1])
             .map(([p, n]) => `${p} ${n}`)
             .join(' · '),
@@ -422,7 +439,7 @@ const STATE_SORTERS: Record<StateSort, (a: AreaRow, b: AreaRow) => number> = {
   votes: (a, b) => b.votes - a.votes,
   reported: (a, b) => b.reported - a.reported || b.votes - a.votes,
   name: (a, b) => a.name.localeCompare(b.name),
-  turnout: (a, b) => b.turnout - a.turnout,
+  turnout: (a, b) => (Number.isFinite(b.turnout) ? b.turnout : -1) - (Number.isFinite(a.turnout) ? a.turnout : -1),
   margin: (a, b) => (a.lead ? a.margin : 2) - (b.lead ? b.margin : 2),
 };
 

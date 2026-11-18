@@ -24,14 +24,16 @@ Owner: Mico (X: [@crvft_](https://x.com/crvft_)). Footer credit on every page: "
 | Live site | **https://neli-interface.vercel.app** (Vercel project `neli`, team "Artifacts") |
 | Vercel production branch | currently `claude/confident-cray-e5t5ab`, so every push deploys to the live site. Consider switching it to `main`, with this branch getting previews. |
 | CI | GitHub Actions `.github/workflows/ci.yml`: typecheck → lint → test → build |
-| Database | **Supabase** (connected via MCP; not used yet: planned for real data) |
+| Database | **Supabase** project `neli` (ref `vlorfizyvsirjhgrrfrt`, London eu-west-2, free plan, org "Mico"). The user's other Supabase project ("E-commerce") is unrelated: never touch it. |
 
 Cloud sessions are ephemeral: the Vercel CLI login and the Vercel plugin need re-doing in a new container (`npm i -g vercel`, `vercel login`).
 
 ## 3. Status (end of last session)
 
-- The interface is built and live, running on **fictional sample data** (`lib/sample/dataset.ts`). Every page shows a "Sample data" badge. Parties, states, zones, boundaries and LGA counts are real; people and numbers are invented.
-- **Not started yet:** real data import, and the forecasting model **Anyanwụ**.
+- The site runs on **real data** from Supabase: presidential results by state (1999, 2003, 2015, 2019, 2023), 249 governorship elections (1999–2026) and the voter registers on record. The "Sample data" badges are gone. `lib/sample/dataset.ts` remains only for unit tests.
+- With no election live, the home page shows the latest presidential result. The sidebar nav reads "Latest results" (no live dot). Restore the live label once a live election feed exists.
+- Forecasts are empty ("arrive with Anyanwụ") until the model is built. LGA figures on the map are still **estimated** from the state result, and the panel says so.
+- **Not started yet:** the forecasting model **Anyanwụ**.
 - **Agreed order of work:** (1) source and import real data, presidential first, then governorship; (2) build Anyanwụ in Python and tune/test it on that history; (3) later, the public accuracy page.
 
 ## 4. Architecture
@@ -202,11 +204,25 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 ### 7.6 Deferred
 - Public **"How accurate is NELI?"** page with backtest results and the calibration chart. Agreed for later, once Anyanwụ works.
 
+### 6.2 Supabase (loaded)
+- Schema: `supabase/migrations/20261118150000_core_schema.sql` (zones, states, parties, sources, elections, results, area_totals, registered_voters; view `election_tallies`). Row-level security allows **public SELECT only**.
+- Loading: `supabase/migrations/20261118151000_reload_function.sql` defines `neli_reload(payload jsonb)`. It replaces all data in one transaction and only `service_role` can run it.
+- Both migrations are applied. Current counts: 254 elections, 2,261 result rows, 102 parties, 294 sources, 79 registers.
+- **Reload after the pipeline changes data:**
+  1. `cd pipeline && uv run python -m neli_pipeline.export_sql`. This writes `supabase/seed/real_data.sql` and `lib/party-registry.json`.
+  2. `SUPABASE_SECRET_KEY=proxy-injected uv run python -m neli_pipeline.load_supabase`.
+  3. Redeploy, or wait about an hour for the `'use cache'` lifetime.
+- **Secret key:** never in the repo or in environment variables. It is saved as a *network credential* (header `apikey`, host `vlorfizyvsirjhgrrfrt.supabase.co`) on the user's **Default** cloud environment, and the proxy injects it, hence the placeholder value above. A personal cloud environment "NELI" (limited hosts plus a setup script) also exists; this session didn't move onto it.
+- The web app reads with the **publishable** key (`lib/repo/supabase.ts`; public, safe to ship). `loadRealData()` shapes rows into the domain model. People are derived only from results: offices come from wins, party history from tickets, and the bio is a factual line. No age or origin is invented.
+- Unknown registers are stored as 0/null and shown as "—". Turnout is never estimated, and charts skip years without a register. Zone charts group parties by **family** (lineage), so APC's line continues through AD-APP and ANPP, and the description names the merged codes.
+- Presidential polling dates are hard-coded in `lib/repo/supabase.ts` (INEC). Governorship pages show the year only, until dates are sourced.
+- Gap worth closing: 149 of 249 governorship elections lack a register figure (e.g. Anambra 2021).
+
 ## 8. Working agreements with the user
 
 - Ask before choices that are genuinely the user's (e.g. Fluid Functionalism vs AlignUI conflicts). Otherwise make the sensible call and say so.
 - Verify visually in light and dark mode, desktop and mobile, before reporting done. Report honestly what was and wasn't verified.
-- Never present sample data as real: keep the badge until the real import.
+- Never present estimates as data: say so where figures are estimated (LGA map), and show "—" where something isn't on record.
 - Fictional people must not copy real politicians' names. (Some sample personas loosely echo real archetypes; they disappear with the real import.)
 - Commit with clear messages; push to the working branch; CI must pass.
 
@@ -218,4 +234,5 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 - 2026-11-18: 2007/2011 presidential gap: **option 3 now** (proceed without them; backtest folds 1999→2003→2015→2019→2023), **option 2 later** (when convenient, the user attaches their own computer via Remote Control so the Internet Archive copy of the African Elections Database can be fetched from there). The user has no INEC PDFs.
   - Plug-in path: add an extractor for the archived page, add 2007/2011 to `YEARS` in `build_presidential.py`, rebuild. The tests and validation report cover them automatically, and Anyanwụ's backtest picks up whatever years exist in `data/processed` (no code change), adding the 2003→2007, 2007→2011 and 2011→2015 folds.
 - 2026-11-18: Registered voters done (national 1999–2023; by state 2003, 2023). Governorship results done (249 of 252 held elections, 1999–2026, with coverage labels).
-- Next: load presidential + governorship + registers into Supabase (schema, generated types), switch `lib/repo` from sample data to Supabase, then start Anyanwụ.
+- 2026-11-18: Real data loaded into Supabase and the site switched to it (see §6.2). Sample badges removed.
+- Next: build **Anyanwụ** (Python): baseline + walk-forward backtests, correlated factors, spatial term, then the live model; Google Trends / Wikipedia page views as low-weight features.

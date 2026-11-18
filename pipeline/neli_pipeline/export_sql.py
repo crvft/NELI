@@ -1,0 +1,248 @@
+"""Turn the validated CSVs in data/processed into a SQL seed for Supabase.
+
+    uv run python -m neli_pipeline.export_sql
+
+Writes supabase/seed/real_data.sql: one transaction that clears and reloads every
+data table, so re-running it is safe (idempotent). Apply it with the Supabase MCP
+tool / SQL editor, or `psql "$DATABASE_URL" -f supabase/seed/real_data.sql`.
+"""
+
+from __future__ import annotations
+
+import json
+import math
+import re
+import sys
+from collections import Counter
+
+import pandas as pd
+
+from .parties import lineage
+from .paths import MANIFEST, PROCESSED, ROOT
+from .states import STATES
+
+ZONES = {
+    "NW": "North West",
+    "NE": "North East",
+    "NC": "North Central",
+    "SW": "South West",
+    "SE": "South East",
+    "SS": "South South",
+}
+SEED = ROOT / "supabase" / "seed" / "real_data.sql"
+LAST_PAYLOAD: dict = {}
+
+
+def q(v) -> str:
+    if v is None or (isinstance(v, float) and math.isnan(v)) or v == "":
+        return "null"
+    if isinstance(v, bool):
+        return "true" if v else "false"
+    if isinstance(v, int | float) and not isinstance(v, bool):
+        return str(int(v)) if float(v).is_integer() else repr(float(v))
+    return "'" + str(v).replace("'", "''") + "'"
+
+
+def insert(table: str, cols: list[str], rows: list[tuple], chunk: int = 500) -> list[str]:
+    out = []
+    for i in range(0, len(rows), chunk):
+        vals = ",\n".join("(" + ", ".join(q(v) for v in r) + ")" for r in rows[i : i + chunk])
+        out.append(f"insert into public.{table} ({', '.join(cols)}) values\n{vals};")
+    return out
+
+
+def read(name: str) -> pd.DataFrame:
+    # keep_default_na=False: "NA" is Nasarawa, not missing
+    return pd.read_csv(PROCESSED / name, keep_default_na=False, na_values=[""])
+
+
+def build() -> int:
+    pres_votes = read("presidential_state_votes.csv")
+    pres_sum = read("presidential_state_summary.csv")
+    pres_nat = read("presidential_national.csv")
+    gov_res = read("governorship_results.csv")
+    gov_res["candidate"] = gov_res["candidate"].fillna("")  # unnamed candidate (e.g. joint tickets) is '', not missing
+    gov_sum = read("governorship_summary.csv")
+    reg = read("registered_voters.csv")
+    reg["note"] = reg["note"].fillna("")
+    reg_nat = read("registered_voters_national.csv")
+    manifest = json.loads(MANIFEST.read_text())
+
+    # Parties: every code used, with the most common full name seen in labels
+    names: dict[str, Counter] = {}
+    for label, code in zip(gov_res.party_label, gov_res.party, strict=True):
+        m = re.match(r"(.+?)\s*\(([^)]+)\)\s*$", str(label))
+        if m and len(m.group(1)) > 3:
+            names.setdefault(code, Counter())[m.group(1).strip()] += 1
+    codes = sorted(set(pres_votes.party) | set(gov_res.party))
+    parties = [(c, (names[c].most_common(1)[0][0] if c in names else None), lineage(c)) for c in codes]
+
+    sources = [
+        (k, v["title"], v["url"], v["revision"], v["retrieved_at"], v["sha256"], v["license"]) for k, v in manifest.items()
+    ]
+
+    elections = []
+    nat_reg = dict(zip(reg_nat.year, reg_nat.registered, strict=True))
+    for year, g in pres_nat.groupby("year"):
+        declared = g.declared.dropna()
+        valid = int(declared.sum()) if len(declared) == len(g) else None
+        elections.append(
+            (
+                f"pres-{year}",
+                "presidential",
+                int(year),
+                None,
+                False,
+                "all candidates",
+                nat_reg.get(year),
+                valid,
+                None,
+                None,
+                None,
+                f"wikipedia:presidential:{year}",
+            )
+        )
+    for r in gov_sum.itertuples():
+        elections.append(
+            (
+                r.election_id,
+                "governorship",
+                int(r.year),
+                r.state_code,
+                str(r.off_cycle) == "True",
+                r.coverage,
+                r.registered,
+                r.valid_votes,
+                r.rejected_votes,
+                r.total_votes,
+                r.sum_check,
+                r.source,
+            )
+        )
+
+    results = [
+        (f"pres-{r.year}", "state", r.state_code, r.candidate, r.party, r.party, int(r.votes), r.source)
+        for r in pres_votes.itertuples()
+    ] + [
+        (r.election_id, "state", r.state_code, r.candidate, r.party, r.party_label, int(r.votes), r.source)
+        for r in gov_res.itertuples()
+    ]
+
+    area_totals = [
+        (f"pres-{r.year}", "state", r.state_code, r.valid_votes, r.rejected_votes, r.total_votes, r.registered)
+        for r in pres_sum.itertuples()
+    ]
+    registers = [(int(r.year), r.state_code, int(r.registered), r.note, r.source) for r in reg.itertuples()] + [
+        (int(r.year), None, int(r.registered), "", r.source) for r in reg_nat.itertuples()
+    ]
+
+    global LAST_PAYLOAD
+    LAST_PAYLOAD = {
+        "zones": [{"code": c, "name": n} for c, n in ZONES.items()],
+        "states": [{"code": c, "name": n, "zone": z} for c, (n, z) in STATES.items()],
+        "parties": [dict(zip(["code", "name", "lineage"], r, strict=True)) for r in parties],
+        "sources": [
+            dict(zip(["key", "title", "url", "revision", "retrieved_at", "sha256", "license"], r, strict=True)) for r in sources
+        ],
+        "elections": [
+            dict(
+                zip(
+                    [
+                        "id",
+                        "type",
+                        "year",
+                        "state_code",
+                        "off_cycle",
+                        "coverage",
+                        "registered",
+                        "valid_votes",
+                        "rejected_votes",
+                        "total_votes",
+                        "sum_check",
+                        "source_key",
+                    ],
+                    r,
+                    strict=True,
+                )
+            )
+            for r in elections
+        ],
+        "results": [
+            dict(
+                zip(
+                    ["election_id", "area_type", "area_code", "candidate", "party", "party_label", "votes", "source_key"],
+                    r,
+                    strict=True,
+                )
+            )
+            for r in results
+        ],
+        "area_totals": [
+            dict(
+                zip(
+                    ["election_id", "area_type", "area_code", "valid_votes", "rejected_votes", "total_votes", "registered"],
+                    r,
+                    strict=True,
+                )
+            )
+            for r in area_totals
+        ],
+        "registered_voters": [
+            dict(zip(["year", "state_code", "registered", "note", "source_key"], r, strict=True)) for r in registers
+        ],
+    }
+
+    sql = [
+        "-- Generated by neli_pipeline.export_sql from data/processed. Do not edit by hand.",
+        "begin;",
+        "truncate public.results, public.area_totals, public.registered_voters, public.elections, public.parties, public.sources, public.states, public.zones restart identity cascade;",
+        *insert("zones", ["code", "name"], list(ZONES.items())),
+        *insert("states", ["code", "name", "zone"], [(c, n, z) for c, (n, z) in STATES.items()]),
+        *insert("parties", ["code", "name", "lineage"], parties),
+        *insert("sources", ["key", "title", "url", "revision", "retrieved_at", "sha256", "license"], sources),
+        *insert(
+            "elections",
+            [
+                "id",
+                "type",
+                "year",
+                "state_code",
+                "off_cycle",
+                "coverage",
+                "registered",
+                "valid_votes",
+                "rejected_votes",
+                "total_votes",
+                "sum_check",
+                "source_key",
+            ],
+            elections,
+        ),
+        *insert(
+            "results",
+            ["election_id", "area_type", "area_code", "candidate", "party", "party_label", "votes", "source_key"],
+            results,
+        ),
+        *insert(
+            "area_totals",
+            ["election_id", "area_type", "area_code", "valid_votes", "rejected_votes", "total_votes", "registered"],
+            area_totals,
+        ),
+        *insert("registered_voters", ["year", "state_code", "registered", "note", "source_key"], registers),
+        "commit;",
+    ]
+    # Party registry for the web app (names + family), so the UI can label all 100+ parties
+    (ROOT / "lib" / "party-registry.json").write_text(
+        json.dumps({c: {"name": n, "lineage": lin} for c, n, lin in parties}, indent=1, ensure_ascii=False) + "\n"
+    )
+    SEED.parent.mkdir(parents=True, exist_ok=True)
+    SEED.write_text("\n".join(sql) + "\n")
+    print(
+        f"{SEED.relative_to(ROOT)}: {len(parties)} parties, {len(sources)} sources, {len(elections)} elections, "
+        f"{len(results)} results, {len(area_totals)} area totals, {len(registers)} registers ({SEED.stat().st_size:,} bytes)"
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(build())

@@ -31,7 +31,7 @@ const SORTERS: Record<SortKey, (a: ResultRow, b: ResultRow) => number> = {
 };
 
 const fmt = (n: number) => n.toLocaleString('en-NG');
-const pct = (x: number) => `${(x * 100).toFixed(1)}%`;
+const pct = (x: number) => (Number.isFinite(x) ? `${(x * 100).toFixed(1)}%` : '—');
 
 /** "Results by state/district/LGA" with a sort dropdown in the header. */
 export function ResultsTable({

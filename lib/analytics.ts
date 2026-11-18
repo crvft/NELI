@@ -40,9 +40,14 @@ export function tally(e: Election, areaCodes?: string[]): Tally[] {
 
 export const totalVotes = (t: Tally[]) => t.reduce((a, b) => a + b.votes, 0);
 
+/** Registered voters for the whole election; 0 when unknown. */
 export function registeredTotal(e: Election) {
-  return e.areas.reduce((a, b) => a + b.registered, 0);
+  if (e.areas.every((a) => a.registered > 0)) return e.areas.reduce((a, b) => a + b.registered, 0);
+  return e.registered ?? 0;
 }
+
+/** Turnout, or NaN when the register is unknown (shown as a dash, never estimated). */
+export const turnoutOf = (votes: number, registered: number) => (registered > 0 ? votes / registered : NaN);
 
 export function areaLeader(e: Election, areaCode: string): { personId: string; party: PartyCode; share: number } | null {
   const v = countedVotes(e, areaCode);
@@ -183,7 +188,7 @@ export function reportingSnapshots(e: Election, steps = 12) {
     const start = r() * 0.55;
     return { code: a.code, start, dur: 0.25 + r() * 0.45, final: e.reported?.[a.code] ?? 1 };
   });
-  const base = new Date(e.updatedAt ?? e.date).getTime() - 16 * 3600_000;
+  const base = new Date(e.updatedAt ?? e.date ?? Date.UTC(e.year, 1, 25)).getTime() - 16 * 3600_000;
   return Array.from({ length: steps }, (_, i) => {
     const t = 0.18 + (0.82 * (i + 1)) / steps;
     const rep: Record<string, number> = {};
@@ -234,7 +239,7 @@ export function areaSummary(e: Election, areaCode: string) {
     registered: area.registered,
     reported,
     total,
-    turnout: reported > 0 ? total / (area.registered * reported) : 0,
+    turnout: reported > 0 ? turnoutOf(total, area.registered * reported) : 0,
     margin: t.length > 1 && total ? t[0].share - t[1].share : 0,
     tally: t,
   };
@@ -304,7 +309,7 @@ function officeFor(t: Election['type']) {
 export function electionsFor(personId: string, all: Election[]) {
   return all.filter((e) => e.candidates.some((c) => c.personId === personId))
     .filter((e) => e.status !== 'upcoming' || true)
-    .sort((a, b) => b.year - a.year || b.date.localeCompare(a.date));
+    .sort((a, b) => b.year - a.year || (b.date ?? '').localeCompare(a.date ?? ''));
 }
 
 export function personRecord(personId: string, all: Election[]) {
@@ -344,4 +349,4 @@ export function zoneOfState(code: string): ZoneCode | undefined {
 export const fmt = (n: number) => n.toLocaleString('en-NG');
 export const fmtCompact = (n: number) =>
   n >= 1_000_000 ? `${(n / 1_000_000).toFixed(n >= 10_000_000 ? 1 : 2)}M` : n >= 1000 ? `${(n / 1000).toFixed(n >= 100_000 ? 0 : 1)}K` : String(n);
-export const pct = (x: number, d = 1) => `${(x * 100).toFixed(d)}%`;
+export const pct = (x: number, d = 1) => (Number.isFinite(x) ? `${(x * 100).toFixed(d)}%` : '—');

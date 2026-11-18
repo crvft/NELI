@@ -1,8 +1,8 @@
-import { ELECTION_TYPE_LABEL } from '@/lib/domain';
+import { ELECTION_TYPE_LABEL, dateKey } from '@/lib/domain';
 import { listElections, listPeople } from '@/lib/repo';
 import { stateByCode } from '@/lib/geo';
 import { forecast, tally, totalVotes } from '@/lib/analytics';
-import { PageContainer, PageHeader, SampleBadge } from '@/components/neli/page-header';
+import { PageContainer, PageHeader } from '@/components/neli/page-header';
 import { ElectionBrowser, type ElectionSummary } from '@/components/neli/election-browser';
 
 export const metadata = { title: 'Elections' };
@@ -26,12 +26,11 @@ export default async function ElectionsPage() {
       tally: t.slice(0, 4).map((x) => ({ personId: x.personId, name: x.name, party: x.party, votes: x.votes, share: x.share })),
       top: top ? { personId: top.personId, party: top.party, value: 'prob' in top ? top.prob : top.share } : undefined,
     };
-  }).sort((a, b) => (a.status === 'live' ? -1 : b.status === 'live' ? 1 : b.date.localeCompare(a.date)));
+  }).sort((a, b) => (a.status === 'live' ? -1 : b.status === 'live' ? 1 : dateKey(b).localeCompare(dateKey(a))));
 
   return (
     <PageContainer className='flex flex-col gap-6'>
       <PageHeader
-        badges={<SampleBadge />}
         title='Elections'
         description='Every election from local government to the presidency: live, past and upcoming.'
       />

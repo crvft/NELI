@@ -5,7 +5,7 @@ import type { Route } from 'next';
 export type NavItem = { href: Route; label: string; short: string; icon: IconComponent; live?: boolean };
 
 export const NAV: NavItem[] = [
-  { href: '/', label: 'Live results', short: 'Live', icon: IconLive, live: true },
+  { href: '/', label: 'Latest results', short: 'Latest', icon: IconLive, live: false },
   { href: '/elections', label: 'Elections', short: 'Elections', icon: IconElections },
   { href: '/politicians', label: 'Politicians', short: 'People', icon: IconPeople },
   { href: '/forecasts', label: 'Forecasts', short: 'Forecasts', icon: IconForecast },

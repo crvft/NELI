@@ -23,7 +23,7 @@ export type ElectionSummary = {
   type: ElectionType;
   typeLabel: string;
   year: number;
-  date: string;
+  date?: string;
   status: 'live' | 'concluded' | 'upcoming';
   place: string;
   totalVotes: number;

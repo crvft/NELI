@@ -32,7 +32,7 @@ const S = shapes as unknown as Shapes;
 
 const strength = (m: number) =>
   m >= 0.2 ? 'strong' : m >= 0.08 ? 'clear' : 'narrow';
-const pct = (x: number, d = 1) => `${(x * 100).toFixed(d)}%`;
+const pct = (x: number, d = 1) => (Number.isFinite(x) ? `${(x * 100).toFixed(d)}%` : '—');
 const fmt = (n: number) => n.toLocaleString('en-NG');
 const compact = (n: number) =>
   n >= 1e6
@@ -886,7 +886,7 @@ function StateTooltip({ s, live }: { s: MapState; live: boolean }) {
             {live ? (
               <span>{pct(s.reported, 0)} reported</span>
             ) : (
-              <span>{pct(s.turnout, 0)} turnout</span>
+              Number.isFinite(s.turnout) && <span>{pct(s.turnout, 0)} turnout</span>
             )}
           </div>
           <div className='text-paragraph-xs text-text-sub-600 mt-1.5'>
@@ -1061,7 +1061,7 @@ function StatePanel({
 
         <dl className='mt-5 grid grid-cols-2 gap-x-4 gap-y-4'>
           <Fact label='Votes counted' value={fmt(s.total)} />
-          <Fact label='Registered voters' value={compact(s.registered)} />
+          <Fact label='Registered voters' value={s.registered ? compact(s.registered) : '—'} />
           <Fact
             label={live ? 'Polling units reported' : 'Reported'}
             value={pct(s.reported, 0)}
@@ -1099,6 +1099,9 @@ function StatePanel({
                     {live ? 'leads' : 'won'} {n}
                   </span>
                 ))}
+            </p>
+            <p className='text-paragraph-xs text-text-soft-400 mt-1'>
+              Estimated from the state result. INEC LGA tables are not loaded yet.
             </p>
             <div className='mt-3 flex items-center justify-between gap-2'>
               <span className='text-paragraph-xs text-text-sub-600'>

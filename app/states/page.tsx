@@ -10,7 +10,7 @@ import { FluidHover } from '@/components/motion/fluid-hover';
 import { Card } from '@/components/neli/card';
 import { MapGuide } from '@/components/neli/map-guide';
 import { NigeriaMap } from '@/components/neli/nigeria-map';
-import { PageContainer, PageHeader, SampleBadge } from '@/components/neli/page-header';
+import { PageContainer, PageHeader } from '@/components/neli/page-header';
 import { PartyTag } from '@/components/neli/party';
 
 export const metadata = { title: 'States' };
@@ -23,7 +23,7 @@ export default async function StatesPage() {
 
   return (
     <PageContainer className='flex flex-col gap-6'>
-      <PageHeader badges={<SampleBadge />} title='States' description='All 36 states and the FCT, grouped by geopolitical zone. Open a zone or a state for its trends across elections.' />
+      <PageHeader title='States' description='All 36 states and the FCT, grouped by geopolitical zone. Open a zone or a state for its trends across elections.' />
       <Card className='overflow-hidden'>
         <NigeriaMap
           data={map}
