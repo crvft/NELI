@@ -1,0 +1,39 @@
+import { ELECTIONS, ELECTION_TYPE_LABEL } from '@/lib/data';
+import { stateByCode } from '@/lib/geo';
+import { forecast, tally, totalVotes } from '@/lib/analytics';
+import { PageContainer, PageHeader, SampleBadge } from '@/components/neli/page-header';
+import { ElectionBrowser, type ElectionSummary } from '@/components/neli/election-browser';
+
+export const metadata = { title: 'Elections' };
+
+export default function ElectionsPage() {
+  const items: ElectionSummary[] = ELECTIONS.map((e) => {
+    const t = e.status === 'upcoming' ? [] : tally(e);
+    const f = e.status === 'upcoming' ? forecast(e) : [];
+    const top = e.status === 'upcoming' ? f[0] : t[0];
+    return {
+      id: e.id,
+      title: e.title,
+      type: e.type,
+      typeLabel: ELECTION_TYPE_LABEL[e.type],
+      year: e.year,
+      date: e.date,
+      status: e.status,
+      place: e.stateCode ? stateByCode(e.stateCode).name : 'Nationwide',
+      totalVotes: totalVotes(t),
+      tally: t.slice(0, 4).map((x) => ({ personId: x.personId, name: x.name, party: x.party, votes: x.votes, share: x.share })),
+      top: top ? { personId: top.personId, party: top.party, value: 'prob' in top ? top.prob : top.share } : undefined,
+    };
+  }).sort((a, b) => (a.status === 'live' ? -1 : b.status === 'live' ? 1 : b.date.localeCompare(a.date)));
+
+  return (
+    <PageContainer className='flex flex-col gap-6'>
+      <PageHeader
+        eyebrow={<SampleBadge />}
+        title='Elections'
+        description='Every election from local government to the presidency: live, past and upcoming.'
+      />
+      <ElectionBrowser items={items} />
+    </PageContainer>
+  );
+}

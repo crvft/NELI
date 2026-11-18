@@ -1,0 +1,150 @@
+'use client';
+
+import * as React from 'react';
+import Link from 'next/link';
+import { RiArrowRightSLine, RiSearch2Line } from '@remixicon/react';
+import * as SegmentedControl from '@/components/ui/segmented-control';
+import type { ElectionType } from '@/lib/data';
+import type { PartyCode } from '@/lib/parties';
+import { PARTIES } from '@/lib/parties';
+import type { Tally } from '@/lib/analytics';
+import { Card } from './card';
+import { ShareBar } from './share-bar';
+import { LiveDot } from './live-dot';
+import { PersonAvatar } from './avatar';
+import { FilterChips } from './filter-chips';
+import { cn } from '@/utils/cn';
+
+export type ElectionSummary = {
+  id: string;
+  title: string;
+  type: ElectionType;
+  typeLabel: string;
+  year: number;
+  date: string;
+  status: 'live' | 'concluded' | 'upcoming';
+  place: string;
+  totalVotes: number;
+  tally: Tally[];
+  top?: { personId: string; party: PartyCode; value: number };
+};
+
+const TYPES: { value: ElectionType | 'all'; label: string }[] = [
+  { value: 'all', label: 'All' },
+  { value: 'presidential', label: 'Presidential' },
+  { value: 'governorship', label: 'Governorship' },
+  { value: 'senate', label: 'Senate' },
+  { value: 'reps', label: 'House of Reps' },
+  { value: 'assembly', label: 'State Assembly' },
+  { value: 'lga', label: 'Local Govt' },
+];
+
+export function ElectionBrowser({ items }: { items: ElectionSummary[] }) {
+  const [status, setStatus] = React.useState<'all' | 'live' | 'concluded' | 'upcoming'>('all');
+  const [type, setType] = React.useState<ElectionType | 'all'>('all');
+  const [q, setQ] = React.useState('');
+  const filtered = items.filter(
+    (i) =>
+      (status === 'all' || i.status === status) &&
+      (type === 'all' || i.type === type) &&
+      (!q || `${i.title} ${i.place} ${i.tally.map((t) => t.name).join(' ')}`.toLowerCase().includes(q.toLowerCase())),
+  );
+  const years = Array.from(new Set(filtered.map((i) => i.year))).sort((a, b) => b - a);
+
+  return (
+    <div className='flex flex-col gap-5'>
+      <div className='flex flex-col gap-3 lg:flex-row lg:items-center'>
+        <SegmentedControl.Root value={status} onValueChange={(v) => setStatus(v as typeof status)} className='lg:w-[360px]'>
+          <SegmentedControl.List>
+            <SegmentedControl.Trigger value='all'>All</SegmentedControl.Trigger>
+            <SegmentedControl.Trigger value='live'>Live</SegmentedControl.Trigger>
+            <SegmentedControl.Trigger value='concluded'>Past</SegmentedControl.Trigger>
+            <SegmentedControl.Trigger value='upcoming'>Upcoming</SegmentedControl.Trigger>
+          </SegmentedControl.List>
+        </SegmentedControl.Root>
+        <SearchField value={q} onChange={setQ} placeholder='Search elections, states or candidates' className='lg:ml-auto lg:w-80' />
+      </div>
+      <FilterChips options={TYPES} value={type} onChange={setType} />
+
+      {years.length === 0 && (
+        <Card className='p-8 text-center'>
+          <p className='text-label-sm text-text-strong-950'>No elections match these filters</p>
+          <p className='mt-1 text-paragraph-sm text-text-sub-600'>Try a different type or clear the search.</p>
+        </Card>
+      )}
+
+      {years.map((y) => (
+        <section key={y} className='flex flex-col gap-3'>
+          <h2 className='text-subheading-xs uppercase text-text-soft-400'>{y}</h2>
+          <div className='grid grid-cols-1 gap-3 md:grid-cols-2'>
+            {filtered
+              .filter((i) => i.year === y)
+              .map((i) => (
+                <ElectionCard key={i.id} i={i} />
+              ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  );
+}
+
+function ElectionCard({ i }: { i: ElectionSummary }) {
+  return (
+    <Link href={i.id === 'pres-2027' ? '/' : `/elections/${i.id}`} className='group'>
+      <Card className='flex h-full flex-col gap-3 p-4 transition group-hover:ring-stroke-sub-300 sm:p-5'>
+        <div className='flex items-start justify-between gap-3'>
+          <div className='min-w-0'>
+            <div className='flex items-center gap-2 text-paragraph-xs text-text-sub-600'>
+              {i.status === 'live' && <LiveDot label />}
+              {i.status === 'upcoming' && <span className='text-label-xs text-information-base'>Upcoming</span>}
+              <span>{i.typeLabel}</span>
+              <span className='text-text-soft-400'>·</span>
+              <span>{i.place}</span>
+            </div>
+            <h3 className='mt-1 text-label-md text-text-strong-950'>{i.title}</h3>
+          </div>
+          <RiArrowRightSLine className='size-5 shrink-0 text-text-soft-400 transition group-hover:translate-x-0.5 group-hover:text-text-strong-950' />
+        </div>
+        {i.status === 'upcoming' ? (
+          i.top && (
+            <div className='mt-auto flex items-center gap-2 text-paragraph-sm text-text-sub-600'>
+              <span className='size-2 rounded-full' style={{ background: PARTIES[i.top.party].color }} />
+              Favourite: <span className='text-text-strong-950'>{i.top.party}</span>
+              <span className='tabular ml-auto text-label-sm text-text-strong-950'>{Math.round(i.top.value * 100)}% to win</span>
+            </div>
+          )
+        ) : (
+          <div className='mt-auto flex flex-col gap-2.5'>
+            <ShareBar tally={i.tally} height='h-2' />
+            <div className='flex items-center gap-2'>
+              <PersonAvatar name={i.tally[0].name} party={i.tally[0].party} size='sm' />
+              <div className='min-w-0 flex-1'>
+                <div className='truncate text-label-sm text-text-strong-950'>{i.tally[0].name}</div>
+                <div className='text-paragraph-xs text-text-sub-600'>
+                  {i.status === 'live' ? 'Leading' : 'Won'} · {i.tally[0].party}
+                </div>
+              </div>
+              <span className='tabular text-label-md text-text-strong-950'>{(i.tally[0].share * 100).toFixed(1)}%</span>
+            </div>
+          </div>
+        )}
+      </Card>
+    </Link>
+  );
+}
+
+export function SearchField({ value, onChange, placeholder, className }: { value: string; onChange: (v: string) => void; placeholder: string; className?: string }) {
+  return (
+    <label className={cn('flex h-10 items-center gap-2 rounded-10 bg-bg-white-0 px-3 shadow-regular-xs ring-1 ring-inset ring-stroke-soft-200 transition focus-within:ring-stroke-strong-950', className)}>
+      <RiSearch2Line className='size-5 shrink-0 text-text-soft-400' />
+      <input
+        type='search'
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        placeholder={placeholder}
+        className='w-full bg-transparent text-paragraph-sm text-text-strong-950 outline-none placeholder:text-text-soft-400'
+      />
+    </label>
+  );
+}
