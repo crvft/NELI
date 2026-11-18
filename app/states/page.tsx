@@ -30,7 +30,7 @@ export default async function StatesPage() {
           title={
             <div className='mb-2'>
               <h2 className='text-title-h6 tracking-tight text-text-strong-950 sm:text-title-h5'>Who won each state</h2>
-              <p className='mt-1 text-paragraph-sm text-text-sub-600'>2023 presidential election. Click a state for its breakdown.</p>
+              <p className='mt-1 text-paragraph-sm text-text-sub-600'>2023 presidential election. Click a state to zoom in to its local government areas.</p>
             </div>
           }
           overview={<MapGuide data={map} spread={spreadCount(pres)} names={t} isPresidential />}

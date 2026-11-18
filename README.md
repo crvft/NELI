@@ -47,7 +47,7 @@ npm run build
 
 | Route | What it shows |
 |---|---|
-| `/` | Live election: heat map of Nigeria (hover for details, click for a state breakdown), leaders, win probability, vote-share timeline, zones, state table |
+| `/` | Live election: heat map of Nigeria (hover for details; click a state to zoom into its LGAs), leaders, win probability, vote-share timeline, zones, state table |
 | `/elections`, `/elections/[id]` | All elections (live / past / upcoming) and their full results or forecast |
 | `/politicians`, `/politicians/[id]` | Directory and profiles: party history, offices, votes per election, where votes came from |
 | `/forecasts` | Upcoming elections with win probabilities and the factors behind them |

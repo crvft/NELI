@@ -31,7 +31,7 @@ export function PageHeader({
 /** Page body. `reveal-product` fades each block in on first paint, 60ms apart, no travel. */
 export function PageContainer({ children, className, ...rest }: React.HTMLAttributes<HTMLDivElement>) {
   return (
-    <div className={cn('reveal-product mx-auto w-full max-w-[1200px] px-4 py-6 sm:px-6 lg:px-8 lg:py-8', className)} {...rest}>
+    <div className={cn('reveal-product mx-auto w-full max-w-[1200px] px-4 py-6 sm:px-6 lg:px-6 lg:py-8', className)} {...rest}>
       {children}
     </div>
   );

@@ -1,9 +1,11 @@
-// Builds lib/map-shapes.json: SVG paths for Nigeria's 36 states + FCT
+// Builds lib/map-shapes.json (states, neighbours) and public/geo/lga/<STATE>.json
+// (local government areas, loaded on demand when a state is opened). SVG paths for
+// Nigeria's 36 states + FCT and 774 LGAs
 // (GRID3 via geoBoundaries, CC BY 4.0) and neighbouring countries
 // (Natural Earth via world-atlas, public domain).
 // Run: node scripts/build-map.mjs
 import fs from 'node:fs';
-import { geoMercator, geoPath, geoArea } from 'd3-geo';
+import { geoMercator, geoPath, geoArea, geoContains, geoCentroid, geoDistance } from 'd3-geo';
 import { feature, mesh } from 'topojson-client';
 import { topology } from 'topojson-server';
 import { presimplify, simplify, quantile } from 'topojson-simplify';
@@ -45,16 +47,20 @@ let wtopo = presimplify(world);
 wtopo = simplify(wtopo, quantile(wtopo, 0.5));
 const countriesSimple = feature(wtopo, wtopo.objects.countries).features;
 
-const projection = geoMercator().fitExtent([[205, 95], [W - 135, H - 75]], nga);
+// Nigeria fills most of the frame; neighbours are pushed to the edges.
+const EXTENT = JSON.parse(process.env.MAP_EXTENT ?? '[[118, 34], [962, 800]]');
+const projection = geoMercator().fitExtent(EXTENT, nga);
 projection.clipExtent([[0, 0], [W, H]]);
-const path = geoPath(projection).digits(0);
+const path = geoPath(projection).digits(1);
+const finePath = geoPath(projection).digits(2);
 
 const states = {};
 for (const f of ngaSimple.features) {
   const code = NAME_TO_CODE[f.properties.shapeName];
   if (!code) throw new Error('Unknown state ' + f.properties.shapeName);
   const [cx, cy] = path.centroid(f);
-  states[code] = { d: path(f), cx: Math.round(cx), cy: Math.round(cy) };
+  const [[x0, y0], [x1, y1]] = path.bounds(f);
+  states[code] = { d: path(f), cx: Math.round(cx), cy: Math.round(cy), box: [x0, y0, x1 - x0, y1 - y0].map((v) => Math.round(v * 10) / 10) };
 }
 
 const neighbours = countriesSimple
@@ -68,4 +74,41 @@ const neighbours = countriesSimple
 const nigeria = path(mesh(topo, topo.objects.states, (a, b) => a === b));
 
 fs.writeFileSync('lib/map-shapes.json', JSON.stringify({ width: W, height: H, states, neighbours, nigeria }));
+
+// ── LGAs ────────────────────────────────────────────────────────────────────
+const adm2 = JSON.parse(fs.readFileSync('data/geo/nga-adm2.geojson', 'utf8'));
+adm2.features.forEach(rewind);
+let ltopo = topology({ lgas: adm2 }, 2e5);
+ltopo = presimplify(ltopo);
+ltopo = simplify(ltopo, quantile(ltopo, 0.3));
+const lgaSimple = feature(ltopo, ltopo.objects.lgas).features;
+lgaSimple.forEach(rewind);
+
+const stateFeatures = nga.features.map((f) => ({ code: NAME_TO_CODE[f.properties.shapeName], f, c: geoCentroid(f) }));
+const byState = {};
+adm2.features.forEach((raw, i) => {
+  const c = geoCentroid(raw);
+  let home = stateFeatures.find((s) => geoContains(s.f, c));
+  if (!home) home = stateFeatures.slice().sort((a, b) => geoDistance(a.c, c) - geoDistance(b.c, c))[0];
+  const simple = lgaSimple[i];
+  const [cx, cy] = finePath.centroid(simple);
+  (byState[home.code] ??= []).push({
+    id: `${home.code}-${String((byState[home.code]?.length ?? 0) + 1).padStart(2, '0')}`,
+    name: raw.properties.shapeName,
+    d: finePath(simple),
+    cx: Math.round(cx * 10) / 10,
+    cy: Math.round(cy * 10) / 10,
+  });
+});
+fs.mkdirSync('public/geo/lga', { recursive: true });
+let total = 0;
+for (const [code, lgas] of Object.entries(byState)) {
+  lgas.sort((a, b) => a.name.localeCompare(b.name));
+  lgas.forEach((l, i) => (l.id = `${code}-${String(i + 1).padStart(2, '0')}`));
+  const file = `public/geo/lga/${code}.json`;
+  fs.writeFileSync(file, JSON.stringify({ state: code, lgas }));
+  total += fs.statSync(file).size;
+}
+console.log('lga states', Object.keys(byState).length, 'lgas', Object.values(byState).reduce((a, b) => a + b.length, 0), 'bytes', total,
+  'per-state', Object.entries(byState).map(([k, v]) => `${k}:${v.length}`).join(' '));
 console.log('states', Object.keys(states).length, 'neighbours', neighbours.map((n) => n.name).join(', '), 'bytes', fs.statSync('lib/map-shapes.json').size);
