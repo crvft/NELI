@@ -17,12 +17,14 @@ export function generateStaticParams() {
   return PEOPLE.map((p) => ({ id: p.id }));
 }
 
-export function generateMetadata({ params }: { params: { id: string } }) {
-  return { title: personById(params.id)?.name ?? 'Politician' };
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  return { title: personById(id)?.name ?? 'Politician' };
 }
 
-export default function PersonPage({ params }: { params: { id: string } }) {
-  const p = personById(params.id);
+export default async function PersonPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const p = personById(id);
   if (!p) notFound();
   const role = currentRole(p);
   const party = currentParty(p);

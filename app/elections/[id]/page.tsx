@@ -6,12 +6,14 @@ export function generateStaticParams() {
   return ELECTIONS.map((e) => ({ id: e.id }));
 }
 
-export function generateMetadata({ params }: { params: { id: string } }) {
-  return { title: electionById(params.id)?.title ?? 'Election' };
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  return { title: electionById(id)?.title ?? 'Election' };
 }
 
-export default function ElectionPage({ params }: { params: { id: string } }) {
-  const e = electionById(params.id);
+export default async function ElectionPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const e = electionById(id);
   if (!e) notFound();
   return <ElectionView e={e} />;
 }

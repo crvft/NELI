@@ -15,12 +15,14 @@ import { personById } from '@/lib/data';
 export function generateStaticParams() {
   return STATES.map((s) => ({ code: s.code }));
 }
-export function generateMetadata({ params }: { params: { code: string } }) {
-  return { title: STATES.find((s) => s.code === params.code)?.name ?? 'State' };
+export async function generateMetadata({ params }: { params: Promise<{ code: string }> }) {
+  const { code } = await params;
+  return { title: STATES.find((s) => s.code === code)?.name ?? 'State' };
 }
 
-export default function StatePage({ params }: { params: { code: string } }) {
-  const s = STATES.find((x) => x.code === params.code);
+export default async function StatePage({ params }: { params: Promise<{ code: string }> }) {
+  const { code } = await params;
+  const s = STATES.find((x) => x.code === code);
   if (!s) notFound();
   const holders = PEOPLE.filter((p) => {
     const r = currentRole(p);

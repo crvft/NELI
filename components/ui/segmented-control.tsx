@@ -4,7 +4,7 @@
 
 import * as React from 'react';
 import * as TabsPrimitive from '@radix-ui/react-tabs';
-import mergeRefs from 'merge-refs';
+import { mergeRefs } from '@/utils/merge-refs';
 import { Slottable } from '@radix-ui/react-slot';
 import { cn } from '@/utils/cn';
 import { useTabObserver } from '@/hooks/use-tab-observer';
