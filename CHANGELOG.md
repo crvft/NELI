@@ -5,6 +5,23 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 
 ---
 
+## State pages by election type, cleaner forecasts
+
+- **State pages: election-type picker.** Presidential, Governorship, Senate and House of Assembly.
+  - The choice is kept in the URL (`?type=governorship`).
+  - Governorship shows the state's full history, including off-cycle years. Years where only the winner is on record are marked and left out of the share chart.
+  - Each view opens with Anyanwụ's 2027 forecast for that state.
+  - Senate and House of Assembly say plainly that their results aren't on record yet. The FCT explains why it has no governorship elections.
+- **Year tabs:** each tab is sized to its label with even padding, the active pill included. On phones the row scrolls and keeps the selected year in view.
+- **Forecasts page:** grouped by election type.
+  - Presidential first.
+  - Then a governorship section with a tally of favourites, compact cards (six at first, then "Show all 28 states") and a sort menu: closest race, most certain, state, zone.
+- **Governorship result pages:**
+  - "About this result" card: coverage, cycle, register and source link.
+  - The one-row "results by state" table is gone.
+  - Winner-only results no longer show "100%" or "ahead of undefined".
+- **State election lists:** upcoming races show Anyanwụ's favourite.
+
 ## Anyanwụ V1 and politician bios
 
 - **Anyanwụ** (`pipeline/anyanwu/`), NELI's forecasting model, with forecasts for the 2027 elections on the site.

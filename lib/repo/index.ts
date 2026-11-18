@@ -8,7 +8,7 @@
 import 'server-only';
 import { cacheLife, cacheTag } from 'next/cache';
 import type { Election, Person } from '@/lib/domain';
-import { regionOverview, type RegionKind, type RegionOverview } from '@/lib/region';
+import { regionOverview, type RegionElectionType, type RegionKind, type RegionOverview } from '@/lib/region';
 import { loadRealData } from './supabase';
 
 /** One cached read of the whole (small) dataset; every getter below derives from it. */
@@ -54,9 +54,9 @@ export async function getPerson(id: string): Promise<Person | undefined> {
   return (await data()).people.find((p) => p.id === id);
 }
 
-export async function getRegionOverview(kind: RegionKind, code: string): Promise<RegionOverview> {
+export async function getRegionOverview(kind: RegionKind, code: string, type: RegionElectionType = 'presidential'): Promise<RegionOverview> {
   'use cache';
   cacheLife('minutes');
-  cacheTag('elections', `region:${kind}:${code}`);
-  return regionOverview((await data()).elections, kind, code);
+  cacheTag('elections', `region:${kind}:${code}:${type}`);
+  return regionOverview((await data()).elections, kind, code, type);
 }

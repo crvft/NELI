@@ -63,6 +63,10 @@ export function ElectionView({
   const spread = national ? spreadCount(e) : undefined;
   const leader = t[0];
   const runnerUp = t[1];
+  // Some 2003 governorship sources give only the winner's figure: no shares, no margin
+  const winnerOnly = e.coverage === 'winner only';
+  const marginValue = winnerOnly || !runnerUp ? '—' : fmtCompact(leader.votes - runnerUp.votes);
+  const marginSub = winnerOnly ? 'Runner-up not on record' : runnerUp ? `${pct(leader.share - runnerUp.share)} ahead of ${runnerUp.party}` : 'Only one candidate on record';
   const declared = live
     ? e.areas.filter((a) => (e.reported?.[a.code] ?? 0) >= 1).length
     : e.areas.length;
@@ -162,14 +166,12 @@ export function ElectionView({
                     live ? `${e.areaLabel}s fully declared` : 'Winning margin'
                   }
                   value={
-                    live
-                      ? `${declared}/${e.areas.length}`
-                      : fmtCompact(leader.votes - (runnerUp?.votes ?? 0))
+                    live ? `${declared}/${e.areas.length}` : marginValue
                   }
                   sub={
                     live
                       ? `${e.areas.filter((a) => !(e.reported?.[a.code] ?? 0)).length} yet to report`
-                      : `${pct(leader.share - (runnerUp?.share ?? 0))} ahead of ${runnerUp?.party}`
+                      : marginSub
                   }
                 />
               </div>
@@ -204,7 +206,7 @@ export function ElectionView({
             <Stat
               label='Winner'
               value={<span className='text-label-lg'>{leader.name}</span>}
-              sub={`${leader.party} · ${pct(leader.share)}`}
+              sub={winnerOnly ? leader.party : `${leader.party} · ${pct(leader.share)}`}
             />
           )}
           <Stat
@@ -220,14 +222,12 @@ export function ElectionView({
           <Stat
             label={live ? `${e.areaLabel}s fully declared` : 'Winning margin'}
             value={
-              live
-                ? `${declared}/${e.areas.length}`
-                : fmtCompact(leader.votes - (runnerUp?.votes ?? 0))
+              live ? `${declared}/${e.areas.length}` : marginValue
             }
             sub={
               live
                 ? `${e.areas.filter((a) => !(e.reported?.[a.code] ?? 0)).length} yet to report`
-                : `${pct(leader.share - (runnerUp?.share ?? 0))} ahead of ${runnerUp?.party}`
+                : marginSub
             }
           />
         </Card>
@@ -248,13 +248,40 @@ export function ElectionView({
               <ShareBar tally={t} className='mt-1 w-28 sm:w-40' height='h-2' />
             }
           />
-          <ResultsList
-            tally={t}
-            probs={probs}
-            winnerId={winnerId}
-            spread={spread}
-          />
+          {winnerOnly ? (
+            <p className='text-paragraph-sm text-text-sub-600 p-4 sm:p-5'>
+              {leader.name} ({leader.party}) won with {fmt(leader.votes)} votes. Only the winner&rsquo;s figure is on record for this election, so vote shares can&rsquo;t be shown.
+            </p>
+          ) : (
+            <ResultsList tally={t} probs={probs} winnerId={winnerId} spread={spread} />
+          )}
         </Card>
+        {!national && !live && (
+          <Card>
+            <CardHeader title='About this result' />
+            <dl className='divide-stroke-soft-200 flex flex-col divide-y'>
+              {[
+                ['Candidates on record', e.coverage === 'top candidates only' ? 'Leading candidates only; minor parties are missing from the source' : e.coverage === 'winner only' ? 'Winner only' : `All ${e.candidates.length}`],
+                ['Election cycle', e.offCycle ? 'Off-cycle (its own date, after a court ruling or rerun)' : 'General election cycle'],
+                ['Registered voters', reg ? fmt(reg) : 'Not on record'],
+              ].map(([k, v]) => (
+                <div key={k} className='grid grid-cols-[132px_minmax(0,1fr)] gap-3 px-4 py-3 sm:px-5'>
+                  <dt className='text-paragraph-xs text-text-sub-600'>{k}</dt>
+                  <dd className='text-paragraph-sm text-text-strong-950'>{v}</dd>
+                </div>
+              ))}
+            </dl>
+            {e.sourceUrl && (
+              <p className='border-stroke-soft-200 text-paragraph-xs text-text-sub-600 border-t px-4 py-3 sm:px-5'>
+                Source:{' '}
+                <a href={e.sourceUrl} target='_blank' rel='noreferrer' className='hover:text-text-strong-950 underline'>
+                  Wikipedia&rsquo;s transcription of INEC&rsquo;s declared result
+                </a>{' '}
+                (exact revision).
+              </p>
+            )}
+          </Card>
+        )}
         {live && probs && timeline && topProb && (
           <Card>
             <CardHeader
@@ -364,7 +391,7 @@ export function ElectionView({
       </div>
 
       {/* Full width so every column (incl. votes) fits without scrolling inside the card */}
-      <AreaTable e={e} />
+      {national && <AreaTable e={e} />}
     </PageContainer>
   );
 }

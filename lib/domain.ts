@@ -91,6 +91,8 @@ export type ModelForecast = {
   notes: string[];
   /** Presidential: expected state results, for a projected map */
   projection?: Election;
+  /** Presidential: each state's expected shares and win chances */
+  areas?: Record<string, { personId: string; share: number; prob: number }[]>;
 };
 
 export type ElectionType = 'presidential' | 'governorship' | 'senate' | 'reps' | 'assembly' | 'lga';

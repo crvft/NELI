@@ -38,10 +38,25 @@ export type CycleSummary = {
   /** Number of areas (states) each party led */
   areasLed: Partial<Record<PartyCode, number>>;
   areas: AreaRow[];
+  /** Governorship history varies: "winner only" cycles have no shares */
+  coverage?: Election['coverage'];
+  offCycle?: boolean;
+};
+
+/** Region elections the dashboard can show (others are listed but not on record yet). */
+export type RegionElectionType = 'presidential' | 'governorship';
+
+export type RegionForecast = {
+  electionId: string;
+  title: string;
+  date?: string;
+  byParty: boolean;
+  rows: { personId: string; name: string; party: PartyCode; share: number; lo?: number; hi?: number; prob: number }[];
 };
 
 export type RegionOverview = {
   kind: RegionKind;
+  type: RegionElectionType;
   code: string;
   name: string;
   /** Zones: the states in it. States: itself. */
@@ -57,6 +72,8 @@ export type RegionOverview = {
     registeredSince?: number;
     swingLatest?: { party: PartyCode; change: number }; // biggest share gain, previous → latest concluded
   };
+  /** Anyanwụ's forecast for the next election of this type here, if published */
+  forecast?: RegionForecast;
 };
 
 function partyShares(e: Election, votes: Record<string, number>): PartyShare[] {
@@ -103,33 +120,43 @@ function cycleSummary(e: Election, codes: string[]): CycleSummary {
   const reportedRegistered = areas.reduce((s, a) => s + a.registered * a.reported, 0);
   const areasLed: Partial<Record<PartyCode, number>> = {};
   for (const a of areas) if (a.lead) areasLed[a.lead.party] = (areasLed[a.lead.party] ?? 0) + 1;
+  const winnerOnly = e.coverage === 'winner only';
+  const parties = partyShares(e, sumVotes(e, codes)).map((x) => (winnerOnly ? { ...x, share: NaN } : x));
   return {
     electionId: e.id,
     year: e.year,
     title: e.title,
+    coverage: e.coverage,
+    offCycle: e.offCycle,
     live: e.status === 'live',
     registered,
     votes,
     turnout: known && reportedRegistered ? votes / reportedRegistered : known ? 0 : NaN,
     reported: e.status !== 'live' ? 1 : registered ? reportedRegistered / registered : 0,
-    parties: partyShares(e, sumVotes(e, codes)),
+    parties,
     areasLed,
     areas: areas.sort((a, b) => b.votes - a.votes),
   };
 }
 
-/** Build the overview for a zone (NW…SS) or a state code from national elections. */
-export function regionOverview(elections: Election[], kind: RegionKind, code: string): RegionOverview {
-  const national = elections.filter((e) => e.level === 'national' && e.status !== 'upcoming').sort((a, b) => a.year - b.year);
+/**
+ * Build the overview for a zone (NW…SS) or a state, from presidential elections or,
+ * for a state, its governorship elections (including off-cycle ones).
+ */
+export function regionOverview(elections: Election[], kind: RegionKind, code: string, type: RegionElectionType = 'presidential'): RegionOverview {
   const areaCodes = kind === 'zone' ? STATES.filter((s) => s.zone === code).map((s) => s.code) : [code];
   const name = kind === 'zone' ? ZONES.find((z) => z.code === code)!.name : stateByCode(code).name;
-  const cycles = national.map((e) => cycleSummary(e, areaCodes));
+  const ofType = (e: Election) =>
+    type === 'presidential' ? e.level === 'national' && e.type === 'presidential' : e.type === 'governorship' && kind === 'state' && e.stateCode === code;
+  const held = elections.filter((e) => ofType(e) && e.status !== 'upcoming').sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
+  const cycles = held.map((e) => cycleSummary(e, areaCodes));
+  const next = elections.filter((e) => ofType(e) && e.status === 'upcoming' && e.forecast).sort((a, b) => (a.date ?? '').localeCompare(b.date ?? ''))[0];
 
   const totals = new Map<PartyCode, number>();
   for (const c of cycles) for (const p of c.parties) totals.set(p.party, (totals.get(p.party) ?? 0) + p.votes);
   const parties = [...totals.entries()].sort((a, b) => b[1] - a[1]).map(([p]) => p);
 
-  const concluded = cycles.filter((c) => !c.live);
+  const concluded = cycles.filter((c) => !c.live && c.coverage !== 'winner only');
   const cyclesLedBy: Partial<Record<PartyCode, number>> = {};
   for (const c of concluded) if (c.parties[0]) cyclesLedBy[c.parties[0].party] = (cyclesLedBy[c.parties[0].party] ?? 0) + 1;
 
@@ -145,6 +172,8 @@ export function regionOverview(elections: Election[], kind: RegionKind, code: st
 
   return {
     kind,
+    type,
+    forecast: next ? regionForecast(next, kind, areaCodes) : undefined,
     code,
     name,
     areaCodes,
@@ -169,6 +198,31 @@ function registerSpan(cycles: CycleSummary[]) {
   return {
     registeredGrowth: first && last && first !== last ? last.registered / first.registered - 1 : NaN,
     registeredSince: first && last && first !== last ? first.year : undefined,
+  };
+}
+
+function regionForecast(e: Election, kind: RegionKind, areaCodes: string[]): RegionForecast | undefined {
+  const f = e.forecast!;
+  const name = (id: string) => e.candidates.find((c) => c.personId === id)?.name ?? id;
+  if (e.level === 'national') {
+    // A state's slice of the presidential forecast
+    if (kind !== 'state') return undefined;
+    const rows = f.areas?.[areaCodes[0]];
+    if (!rows) return undefined;
+    return {
+      electionId: e.id,
+      title: e.title,
+      date: e.date,
+      byParty: false,
+      rows: rows.map((r) => ({ ...r, name: name(r.personId), party: e.candidates.find((c) => c.personId === r.personId)!.party })).sort((a, b) => b.prob - a.prob),
+    };
+  }
+  return {
+    electionId: e.id,
+    title: e.title,
+    date: e.date,
+    byParty: !f.candidatesConfirmed,
+    rows: f.rows.map((r) => ({ personId: r.personId, name: name(r.personId), party: r.party, share: r.share, lo: r.lo, hi: r.hi, prob: r.prob })).sort((a, b) => b.prob - a.prob),
   };
 }
 

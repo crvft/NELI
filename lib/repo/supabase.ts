@@ -284,6 +284,9 @@ function upcomingFromModel(m: ModelPayload, held: Election[], profiles: Map<stri
       ],
     },
   };
+  pres.forecast!.areas = Object.fromEntries(
+    p.states.map((s) => [s.code, s.contestants.map((c, i) => ({ personId: pid[i], share: c.share_mean, prob: c.win_prob }))]),
+  );
   pres.forecast!.projection = { ...pres, id: `${p.key}-projection`, status: 'concluded', results: projResults, forecast: undefined };
   out.push(pres);
 

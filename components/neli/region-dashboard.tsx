@@ -39,13 +39,19 @@ const readCycleParam = () =>
  * "All cycles" shows trends; picking a cycle shows that election in detail.
  * The selection lives in the URL (?cycle=2023) so a view can be shared.
  */
+const TYPE_LABEL = { presidential: 'Presidential', governorship: 'Governorship' } as const;
+
 export function RegionDashboard({
   overview,
   children,
+  typeControl,
 }: {
   overview: RegionOverview;
   children?: React.ReactNode;
+  /** Optional election-type picker shown beside the cycle tabs (state pages) */
+  typeControl?: React.ReactNode;
 }) {
+  const typeLabel = TYPE_LABEL[overview.type];
   const cycles = overview.cycles;
   // The URL (?cycle=2023) seeds the view; after that the user's pick wins.
   const urlYear = React.useSyncExternalStore(
@@ -69,6 +75,16 @@ export function RegionDashboard({
   }
 
   const selected = cycles.find((c) => c.electionId === cycle);
+
+  // Keep the active year visible in the scrollable tab row (horizontal only; never moves the page)
+  const tabsRef = React.useRef<HTMLDivElement>(null);
+  React.useEffect(() => {
+    const row = tabsRef.current;
+    const active = row?.querySelector<HTMLElement>('[data-state="active"]');
+    if (!row || !active) return;
+    const left = active.offsetLeft - row.clientWidth / 2 + active.offsetWidth / 2;
+    row.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
+  }, [cycle]);
   const isZone = overview.kind === 'zone';
 
   // Chart by party family so a line continues through mergers
@@ -86,7 +102,8 @@ export function RegionDashboard({
     }
   const families = [...familyTotals.entries()].sort((a, b) => b[1] - a[1]).slice(0, 4).map(([f]) => f);
   const merged = families.filter((f) => familyMembers.get(f)?.size);
-  const shareData = cycles.map((c) => ({
+  // Years where only the winner's figure is on record have no shares to draw
+  const shareData = cycles.filter((c) => c.coverage !== 'winner only').map((c) => ({
     label: c.live ? `${c.year} (live)` : String(c.year),
     ...Object.fromEntries(families.map((f) => [f, Math.round(familyShare(c, f) * 1000) / 10])),
   }));
@@ -102,37 +119,34 @@ export function RegionDashboard({
 
   return (
     <div className='flex flex-col gap-6'>
-      <div className='flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between'>
-        <p className='text-paragraph-sm text-text-sub-600'>
-          {selected
-            ? `${selected.title}${selected.live ? ', results so far' : ''}.`
-            : `Presidential elections ${cycles[0]?.year}–${cycles[cycles.length - 1]?.year}.`}
-        </p>
-        <SegmentedControl.Root
-          value={cycle}
-          onValueChange={choose}
-          className='sm:w-auto'
-        >
-          <SegmentedControl.List
-            className='sm:w-[420px]'
-            aria-label='Election cycle'
-          >
-            <SegmentedControl.Trigger value='all' className='px-2'>
-              All cycles
-            </SegmentedControl.Trigger>
-            {cycles.map((c) => (
-              <SegmentedControl.Trigger
-                key={c.electionId}
-                value={c.electionId}
-                className='gap-1 px-2'
-              >
-                {c.year}
-                {c.live && <LiveDot />}
+      <div className='flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between'>
+        <div className='flex min-w-0 flex-wrap items-center gap-x-3 gap-y-2'>
+          {typeControl}
+          <p className='text-paragraph-sm text-text-sub-600'>
+            {selected
+              ? `${selected.title}${selected.live ? ', results so far' : ''}${selected.offCycle ? ' (off-cycle)' : ''}.`
+              : `${typeLabel} elections ${cycles[0]?.year}–${cycles[cycles.length - 1]?.year}.`}
+          </p>
+        </div>
+        {/* Tabs size to their labels; the row scrolls sideways when there are many years */}
+        <div ref={tabsRef} className='no-scrollbar -mx-4 max-w-[calc(100%+2rem)] overflow-x-auto px-4 lg:mx-0 lg:max-w-full lg:px-0'>
+          <SegmentedControl.Root value={cycle} onValueChange={choose}>
+            <SegmentedControl.List className='w-max auto-cols-max' aria-label='Election cycle'>
+              <SegmentedControl.Trigger value='all' className='px-3'>
+                All cycles
               </SegmentedControl.Trigger>
-            ))}
-          </SegmentedControl.List>
-        </SegmentedControl.Root>
+              {cycles.map((c) => (
+                <SegmentedControl.Trigger key={c.electionId} value={c.electionId} className='gap-1 px-3'>
+                  {c.year}
+                  {c.live && <LiveDot />}
+                </SegmentedControl.Trigger>
+              ))}
+            </SegmentedControl.List>
+          </SegmentedControl.Root>
+        </div>
       </div>
+
+      {!selected && overview.forecast && <ForecastCard f={overview.forecast} type={overview.type} name={overview.name} />}
 
       <Card className='grid grid-cols-2 gap-x-4 gap-y-5 p-4 sm:p-5 md:grid-cols-4'>
         {(selected ? cycleKpis(selected, isZone) : overallKpis(overview)).map(
@@ -147,7 +161,9 @@ export function RegionDashboard({
         <Card>
           <CardHeader
             title='Party vote share by cycle'
-            description={`Share of valid votes in ${overview.name}, presidential elections${
+            description={`Share of valid votes in ${overview.name}, ${typeLabel.toLowerCase()} elections${
+              cycles.some((c) => c.coverage === 'winner only') ? ' (years with only the winner on record are left out)' : ''
+            }${
               merged.length
                 ? `. ${merged.map((f) => `${f} includes ${[...familyMembers.get(f)!].join(', ')}`).join('; ')}`
                 : ''
@@ -297,9 +313,12 @@ function cycleKpis(c: CycleSummary, isZone: boolean): KpiData[] {
     {
       label: c.live ? 'Leading' : 'Won by',
       value: lead?.party ?? '—',
-      sub: lead
-        ? `${pct(lead.share)}${second ? `, +${((lead.share - second.share) * 100).toFixed(1)} pts` : ''}`
-        : undefined,
+      sub:
+        c.coverage === 'winner only'
+          ? "Only the winner's figure is on record"
+          : lead
+            ? `${pct(lead.share)}${second ? `, +${((lead.share - second.share) * 100).toFixed(1)} pts` : ''}`
+            : undefined,
       party: lead?.party,
     },
     {
@@ -328,12 +347,50 @@ function cycleKpis(c: CycleSummary, isZone: boolean): KpiData[] {
       : {
           label: 'Margin',
           value:
-            lead && second
+            lead && second && Number.isFinite(lead.share)
               ? `${((lead.share - second.share) * 100).toFixed(1)} pts`
               : '—',
           sub: second ? `Over ${second.party}` : undefined,
         },
   ];
+}
+
+function ForecastCard({ f, type, name }: { f: NonNullable<RegionOverview['forecast']>; type: RegionOverview['type']; name: string }) {
+  const when = f.date ? new Date(`${f.date}T12:00:00Z`).toLocaleDateString('en-NG', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+  return (
+    <Card>
+      <CardHeader
+        title={type === 'presidential' ? `2027 forecast in ${name}` : f.title}
+        description={`Anyanwụ · ${when}${type === 'presidential' ? ' · chance of leading the state and expected share' : ' · chance of winning and projected share'}${f.byParty ? ' · by party (nominees not confirmed)' : ''}`}
+        action={
+          <Link href={`/elections/${f.electionId}` as Route} className='text-label-sm text-text-sub-600 hover:text-text-strong-950 inline-flex items-center'>
+            Full forecast <IconChevronRight className='size-4' />
+          </Link>
+        }
+      />
+      <ul className='grid grid-cols-1 gap-x-6 gap-y-3 p-4 sm:grid-cols-2 sm:p-5 xl:grid-cols-3'>
+        {f.rows.slice(0, 6).map((r) => (
+          <li key={r.personId} className='flex min-w-0 flex-col gap-1.5'>
+            <div className='flex items-center justify-between gap-2'>
+              <span className='text-label-sm text-text-strong-950 flex min-w-0 items-center gap-2'>
+                <span className='size-2.5 shrink-0 rounded-full' style={{ background: PARTIES[r.party].color }} aria-hidden />
+                <span className='truncate'>{r.name}</span>
+                <span className='text-paragraph-xs text-text-sub-600 font-normal'>{r.party}</span>
+              </span>
+              <span className='tabular text-label-sm text-text-strong-950'>{pct(r.prob, 0)}</span>
+            </div>
+            <div className='bg-hover h-1.5 overflow-hidden rounded-full'>
+              <div className='h-full rounded-full' style={{ width: `${r.prob * 100}%`, background: PARTIES[r.party].color }} />
+            </div>
+            <span className='tabular text-paragraph-xs text-text-sub-600'>
+              Projected share {pct(r.share, 0)}
+              {r.lo != null && r.hi != null ? ` (likely ${pct(r.lo, 0)}–${pct(r.hi, 0)})` : ''}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </Card>
+  );
 }
 
 function Kpi({ label, value, sub, party }: KpiData) {
@@ -364,12 +421,23 @@ function Kpi({ label, value, sub, party }: KpiData) {
 }
 
 function PartyBars({ c }: { c: CycleSummary }) {
+  if (c.coverage === 'winner only')
+    return (
+      <p className='text-paragraph-sm text-text-sub-600 p-4 sm:p-5'>
+        {c.parties[0]?.party} won. Only the winner&rsquo;s vote count is on record for {c.year}, so there are no shares to compare.
+      </p>
+    );
+  // Long ballots (40+ names in some states): the top six, then everyone else together
+  const top = c.parties.slice(0, 6);
+  const rest = c.parties.slice(6);
+  const restShare = rest.reduce((s, p) => s + p.share, 0);
+  const rows = rest.length ? [...top, { party: 'OTH' as PartyCode, votes: 0, share: restShare, candidate: '' }] : top;
   return (
     <ul
       className='reveal-items flex flex-col gap-3.5 p-4 sm:p-5'
       key={c.electionId}
     >
-      {c.parties.map((p) => (
+      {rows.map((p) => (
         <li key={p.party}>
           <div className='flex items-baseline justify-between gap-2'>
             <span className='text-label-sm text-text-strong-950 flex items-center gap-2'>

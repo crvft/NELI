@@ -1024,3 +1024,11 @@
     animation: none;
   }
 }
+
+/* Horizontal scrollers (tab rows) that shouldn't show a scrollbar track */
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

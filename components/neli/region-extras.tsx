@@ -65,7 +65,11 @@ export function LocalElections({ elections, stateCodes, title }: { elections: El
                 <div className='min-w-0 flex-1'>
                   <div className='truncate text-label-sm text-text-strong-950'>{e.title}</div>
                   <div className='truncate text-paragraph-xs text-text-sub-600'>
-                    {e.status === 'upcoming' ? 'Upcoming' : `Won by ${t[0].name} (${t[0].party}) with ${pct(t[0].share)}`}
+                    {e.status === 'upcoming'
+                      ? upcomingLine(e)
+                      : e.coverage === 'winner only'
+                        ? `Won by ${t[0].name} (${t[0].party}); only the winner's figure is on record`
+                        : `Won by ${t[0].name} (${t[0].party}) with ${pct(t[0].share)}`}
                   </div>
                 </div>
                 <IconChevronRight className='size-4 text-text-sub-600' />
@@ -76,4 +80,11 @@ export function LocalElections({ elections, stateCodes, title }: { elections: El
       </FluidHover>
     </Card>
   );
+}
+
+function upcomingLine(e: Election) {
+  const top = e.forecast?.rows.slice().sort((a, b) => b.prob - a.prob)[0];
+  if (!top) return 'Upcoming';
+  const name = e.candidates.find((c) => c.personId === top.personId)?.name ?? top.party;
+  return `Upcoming · Anyanwụ favourite: ${name}${/ candidate$/.test(name) ? '' : ` (${top.party})`}, ${pct(top.prob, 0)}`;
 }

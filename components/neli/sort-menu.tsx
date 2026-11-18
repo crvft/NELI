@@ -5,7 +5,7 @@ import * as Dropdown from '@radix-ui/react-dropdown-menu';
 import { IconCheck, IconChevronDown, IconSort } from '@/components/icons';
 import { cn } from '@/utils/cn';
 
-export type SortOption<K extends string> = { value: K; label: string };
+export type SortOption<K extends string> = { value: K; label: string; hint?: string };
 
 /**
  * Compact sort dropdown for card headers (28px, the compact control step).
@@ -17,11 +17,20 @@ export function SortMenu<K extends string>({
   onChange,
   options,
   className,
+  prefix = 'Sort:',
+  menuTitle = 'Sort by',
+  icon = true,
+  align = 'end',
 }: {
   value: K;
   onChange: (v: K) => void;
   options: SortOption<K>[];
   className?: string;
+  /** Text before the current value on the trigger ("Sort:"); also used for its label */
+  prefix?: string;
+  menuTitle?: string;
+  icon?: boolean;
+  align?: 'start' | 'end';
 }) {
   const current = options.find((o) => o.value === value) ?? options[0];
   return (
@@ -31,22 +40,22 @@ export function SortMenu<K extends string>({
           'hit bg-surface-2 text-label-xs text-text-sub-600 shadow-surface-2 hover:bg-hover hover:text-text-strong-950 data-[state=open]:bg-hover data-[state=open]:text-text-strong-950 inline-flex h-7 shrink-0 items-center gap-1.5 rounded-lg pr-1.5 pl-2 outline-hidden transition-colors duration-[80ms] focus-visible:shadow-[0_0_0_2px_var(--primary-alpha-24)]',
           className,
         )}
-        aria-label={`Sort by ${current.label}`}
+        aria-label={`${menuTitle}: ${current.label}`}
       >
-        <IconSort className='size-3.5' />
-        <span className='text-text-sub-600'>Sort:</span>
+        {icon && <IconSort className='size-3.5' />}
+        <span className='text-text-sub-600'>{prefix}</span>
         <span className='text-text-strong-950'>{current.label}</span>
         <IconChevronDown className='size-3.5' />
       </Dropdown.Trigger>
       <Dropdown.Portal>
         <Dropdown.Content
-          align='end'
+          align={align}
           sideOffset={6}
           collisionPadding={12}
           className='menu-surface bg-surface-4 shadow-surface-4 z-50 min-w-44 rounded-xl p-1 outline-hidden'
         >
           <Dropdown.Label className='text-paragraph-xs text-text-sub-600 px-2.5 pt-1.5 pb-1'>
-            Sort by
+            {menuTitle}
           </Dropdown.Label>
           <Dropdown.RadioGroup
             value={value}
@@ -56,9 +65,12 @@ export function SortMenu<K extends string>({
               <Dropdown.RadioItem
                 key={o.value}
                 value={o.value}
-                className='hit text-paragraph-sm text-text-strong-950 data-[highlighted]:bg-hover relative flex h-8 cursor-pointer items-center gap-2 rounded-lg pr-8 pl-2.5 outline-hidden transition-colors duration-[80ms] select-none data-[state=checked]:font-[550]'
+                className='hit text-paragraph-sm text-text-strong-950 data-[highlighted]:bg-hover relative flex min-h-8 py-1.5 cursor-pointer items-center gap-2 rounded-lg pr-8 pl-2.5 outline-hidden transition-colors duration-[80ms] select-none data-[state=checked]:font-[550]'
               >
-                {o.label}
+                <span className='flex flex-col'>
+                  {o.label}
+                  {o.hint && <span className='text-paragraph-xs text-text-sub-600 font-normal'>{o.hint}</span>}
+                </span>
                 <Dropdown.ItemIndicator className='absolute right-2.5 inline-flex'>
                   <IconCheck className='text-primary-base size-4' />
                 </Dropdown.ItemIndicator>
