@@ -1,4 +1,2272 @@
 {
+  "wikipedia:governorship:1999:AB": {
+    "key": "wikipedia:governorship:1999:AB",
+    "title": "1999_Abia_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Abia_State_gubernatorial_election&oldid=1367911583",
+    "revision": "1367911583",
+    "retrieved_at": "2026-11-18T14:36:46Z",
+    "sha256": "c0698eb9e2c765d49dd15d27d03f5354eaaf01db7a675de9a4b1c4378d169a3b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:AD": {
+    "key": "wikipedia:governorship:1999:AD",
+    "title": "1999_Adamawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Adamawa_State_gubernatorial_election&oldid=1367912677",
+    "revision": "1367912677",
+    "retrieved_at": "2026-11-18T14:36:46Z",
+    "sha256": "fbcd6cf32fc9baf2d25523b4bc3601f54587fd01d352f20b2a614c1fb1d402b8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:AK": {
+    "key": "wikipedia:governorship:1999:AK",
+    "title": "1999_Akwa_Ibom_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Akwa_Ibom_State_gubernatorial_election&oldid=1367668557",
+    "revision": "1367668557",
+    "retrieved_at": "2026-11-18T14:36:46Z",
+    "sha256": "e7aa19f3ce01d2ca62152e79d90fdf082d1890d62d664c5d7fb23851149016d9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:AN": {
+    "key": "wikipedia:governorship:1999:AN",
+    "title": "1999_Anambra_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Anambra_State_gubernatorial_election&oldid=1367913736",
+    "revision": "1367913736",
+    "retrieved_at": "2026-11-18T14:36:46Z",
+    "sha256": "0c7101d345075fa96a10cbcceb4fdf6b2562b947788502d0dd04c0509e8789d8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:BA": {
+    "key": "wikipedia:governorship:1999:BA",
+    "title": "1999_Bauchi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Bauchi_State_gubernatorial_election&oldid=1367914122",
+    "revision": "1367914122",
+    "retrieved_at": "2026-11-18T14:36:46Z",
+    "sha256": "020d6f3eaed477eaf9c84f0b9026bf77ec4ab1535f71255fc9ccd6dcc0273250",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:BE": {
+    "key": "wikipedia:governorship:1999:BE",
+    "title": "1999_Benue_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Benue_State_gubernatorial_election&oldid=1367915032",
+    "revision": "1367915032",
+    "retrieved_at": "2026-11-18T14:36:46Z",
+    "sha256": "c86a628698b7d7bcf927e138ba12702c762ad3a8c84057e121a254ce9cf70ec0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:BO": {
+    "key": "wikipedia:governorship:1999:BO",
+    "title": "1999_Borno_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Borno_State_gubernatorial_election&oldid=1367915541",
+    "revision": "1367915541",
+    "retrieved_at": "2026-11-18T14:36:46Z",
+    "sha256": "9bc6b3e1f6037a0b55503aee3de6b0c3ad857e6cc46e8e0d7c2c28cad4cab28e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:BY": {
+    "key": "wikipedia:governorship:1999:BY",
+    "title": "1999_Bayelsa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Bayelsa_State_gubernatorial_election&oldid=1367914635",
+    "revision": "1367914635",
+    "retrieved_at": "2026-11-18T14:36:46Z",
+    "sha256": "2f5572d7eacd603253c643fcbf08ee332b36666fc45b8176ee59791d5ba37cc6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:CR": {
+    "key": "wikipedia:governorship:1999:CR",
+    "title": "1999_Cross_River_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Cross_River_State_gubernatorial_election&oldid=1364669373",
+    "revision": "1364669373",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "506e5cad21f41c211d2c988a3571e904ee65dcc8910e12527b9d94e4eeb75bcf",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:DE": {
+    "key": "wikipedia:governorship:1999:DE",
+    "title": "1999_Delta_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Delta_State_gubernatorial_election&oldid=1367917832",
+    "revision": "1367917832",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "12ef84ff48c2f3cbf1c9ef6a8a9427125897b3e05e080f70d7513c0c7a33b0eb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:EB": {
+    "key": "wikipedia:governorship:1999:EB",
+    "title": "1999_Ebonyi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Ebonyi_State_gubernatorial_election&oldid=1367923752",
+    "revision": "1367923752",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "6c7e8675ee4f806332f2c16405641fcb364fe0ec50b2cbe4a503522ffca7927b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:ED": {
+    "key": "wikipedia:governorship:1999:ED",
+    "title": "1999_Edo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Edo_State_gubernatorial_election&oldid=1367926093",
+    "revision": "1367926093",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "7f906f56f7b9dcb15fca62e711342498b51bb44e2ff34cd38c0adc37b3468c11",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:EK": {
+    "key": "wikipedia:governorship:1999:EK",
+    "title": "1999_Ekiti_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Ekiti_State_gubernatorial_election&oldid=1367926545",
+    "revision": "1367926545",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "c3d7a45a2ebef82f07a9bdb476a88309454756f9b7450bbe577f7c0eeebb1592",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:EN": {
+    "key": "wikipedia:governorship:1999:EN",
+    "title": "1999_Enugu_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Enugu_State_gubernatorial_election&oldid=1343798678",
+    "revision": "1343798678",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "9e65f9b20f3b874a05926523f18027163155d7cf6f9acccad1c93458a5e3d6ff",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:GO": {
+    "key": "wikipedia:governorship:1999:GO",
+    "title": "1999_Gombe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Gombe_State_gubernatorial_election&oldid=1367927068",
+    "revision": "1367927068",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "36f6bb2c3045584ad6311e6521b84f4432c581114add8fb422b09ffe1927200e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:IM": {
+    "key": "wikipedia:governorship:1999:IM",
+    "title": "1999_Imo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Imo_State_gubernatorial_election&oldid=1367928209",
+    "revision": "1367928209",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "b06ab4069cd84b7eb6d1219e02ebdf07debed85ec02c0f90e23322bf97057564",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:JI": {
+    "key": "wikipedia:governorship:1999:JI",
+    "title": "1999_Jigawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Jigawa_State_gubernatorial_election&oldid=1367929031",
+    "revision": "1367929031",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "0da3fab51e5ffafaff79cea12210bf02065cd45ae0031c741fe20a35b4331018",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:KD": {
+    "key": "wikipedia:governorship:1999:KD",
+    "title": "1999_Kaduna_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Kaduna_State_gubernatorial_election&oldid=1367929294",
+    "revision": "1367929294",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "3f4ebc26902bb27242b424a22a972f486a607c6c15e86eea9936ba75b0fc6ee1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:KE": {
+    "key": "wikipedia:governorship:1999:KE",
+    "title": "1999_Kebbi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Kebbi_State_gubernatorial_election&oldid=1382687383",
+    "revision": "1382687383",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "f65806ffe7e938aa00925570a03a5b631c2e1ebff261dfecedf3296c4508cfbd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:KN": {
+    "key": "wikipedia:governorship:1999:KN",
+    "title": "1999_Kano_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Kano_State_gubernatorial_election&oldid=1382687378",
+    "revision": "1382687378",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "66c509806b470ec33241962d6765de0b9cad353f4fc6a113ff60c8659d59616a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:KO": {
+    "key": "wikipedia:governorship:1999:KO",
+    "title": "1999_Kogi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Kogi_State_gubernatorial_election&oldid=1367946591",
+    "revision": "1367946591",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "3a3add767a4004a7b93833f246144d4a5577c761d2c02446b9846190fde41c48",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:KT": {
+    "key": "wikipedia:governorship:1999:KT",
+    "title": "1999_Katsina_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Katsina_State_gubernatorial_election&oldid=1367946181",
+    "revision": "1367946181",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "aa2760d218e1436db0ed6c1df026052d804e695c84a650b9b731876a90e44ed7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:KW": {
+    "key": "wikipedia:governorship:1999:KW",
+    "title": "1999_Kwara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Kwara_State_gubernatorial_election&oldid=1367944630",
+    "revision": "1367944630",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "c4b231c54003fcbc976fa203cc5383cb2f6cb5ff548e8a99b06bc0840bc17e26",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:LA": {
+    "key": "wikipedia:governorship:1999:LA",
+    "title": "1999_Lagos_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Lagos_State_gubernatorial_election&oldid=1382413199",
+    "revision": "1382413199",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "1e57447c24fada991cbb5ba5f55fbb7b361ff49fd47c08eecdb27037ec12da4b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:NA": {
+    "key": "wikipedia:governorship:1999:NA",
+    "title": "1999_Nasarawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nasarawa_State_gubernatorial_election&oldid=1367942241",
+    "revision": "1367942241",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "71f0eb723d242b79a42af11e4c4ba67e5b59862e158f7afe758f2897406ca7e8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:NI": {
+    "key": "wikipedia:governorship:1999:NI",
+    "title": "1999_Niger_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Niger_State_gubernatorial_election&oldid=1367944055",
+    "revision": "1367944055",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "948ef17fb6f2a35eef7f02dc7cd3ad3164eb42ff616c882e7024ca1b86f970f7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:OG": {
+    "key": "wikipedia:governorship:1999:OG",
+    "title": "1999_Ogun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Ogun_State_gubernatorial_election&oldid=1355293587",
+    "revision": "1355293587",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "43a64267d7cd04aad3c0478f2d721ca9d3c301250491bff9870f4fe35623355a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:ON": {
+    "key": "wikipedia:governorship:1999:ON",
+    "title": "1999_Ondo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Ondo_State_gubernatorial_election&oldid=1367942770",
+    "revision": "1367942770",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "fff75cd75166545059bbb257d5edbcadc67089f24bfcd7131bebc634c9bd7138",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:OS": {
+    "key": "wikipedia:governorship:1999:OS",
+    "title": "1999_Osun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Osun_State_gubernatorial_election&oldid=1367942442",
+    "revision": "1367942442",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "8d43bdc8aef393a2ecafe78f4acd70fbee3675fdb30c34e0307a6daf65a955c3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:OY": {
+    "key": "wikipedia:governorship:1999:OY",
+    "title": "1999_Oyo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Oyo_State_gubernatorial_election&oldid=1367941685",
+    "revision": "1367941685",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "b91ab822d6e946ce91f7bc837e3997f6c4e2af6fc0e9243131800a8cd24b1ae6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:PL": {
+    "key": "wikipedia:governorship:1999:PL",
+    "title": "1999_Plateau_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Plateau_State_gubernatorial_election&oldid=1367930066",
+    "revision": "1367930066",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "24d277d7e654593e1aa45973cda98097e974fb243a6b9983ba633f9972b08dfc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:RI": {
+    "key": "wikipedia:governorship:1999:RI",
+    "title": "1999_Rivers_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Rivers_State_gubernatorial_election&oldid=1354922732",
+    "revision": "1354922732",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "6da8f42e8841190f1b96c6fed3469f1c0d03e3f68e2b3d32599f0b647cc6384b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:SO": {
+    "key": "wikipedia:governorship:1999:SO",
+    "title": "1999_Sokoto_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Sokoto_State_gubernatorial_election&oldid=1382687463",
+    "revision": "1382687463",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "6f6b02234318fb570de356838166be49f204a011bf818bc76977dad4e2ab3763",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:TA": {
+    "key": "wikipedia:governorship:1999:TA",
+    "title": "1999_Taraba_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Taraba_State_gubernatorial_election&oldid=1382687477",
+    "revision": "1382687477",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "5e8ea3f2b115f6ba1f899673d32e97a6c862e4a5e1ad6f419cccd3ba112dc0c9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:YO": {
+    "key": "wikipedia:governorship:1999:YO",
+    "title": "1999_Yobe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Yobe_State_gubernatorial_election&oldid=1382687498",
+    "revision": "1382687498",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "4f987eaae930fdc9ec2c015164d581b1bd5044f7182cb0a738722ed9699c36b8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:1999:ZA": {
+    "key": "wikipedia:governorship:1999:ZA",
+    "title": "1999_Zamfara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Zamfara_State_gubernatorial_election&oldid=1382687514",
+    "revision": "1382687514",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "c0c921050eb1d6b50ef42c1b7543014cd629bc2eafa8ed6840cabe2932d195e2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:AB": {
+    "key": "wikipedia:governorship:2003:AB",
+    "title": "2003_Abia_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Abia_State_gubernatorial_election&oldid=1368267667",
+    "revision": "1368267667",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "4a2559b730386edafdc61a0bfe07ce30b3adf9233da7b689a0ebe2efbfddf481",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:AD": {
+    "key": "wikipedia:governorship:2003:AD",
+    "title": "2003_Adamawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Adamawa_State_gubernatorial_election&oldid=1368267909",
+    "revision": "1368267909",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "ce66a6fedbb74b299fef8b0f4a11a75b6c866ba0b61562fed76241da1a9f8da5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:AK": {
+    "key": "wikipedia:governorship:2003:AK",
+    "title": "2003_Akwa_Ibom_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Akwa_Ibom_State_gubernatorial_election&oldid=1368268182",
+    "revision": "1368268182",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "d1cfe3b6b6ba967825fa9684c08160feaa8cd2a7d9fe7a8bc7538f27357cb35e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:AN": {
+    "key": "wikipedia:governorship:2003:AN",
+    "title": "2003_Anambra_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Anambra_State_gubernatorial_election&oldid=1368269242",
+    "revision": "1368269242",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "d7bcfb33e438356ac249d61ba8acc60cb97021c0bb6ee49f76b0c75a994cc276",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:BA": {
+    "key": "wikipedia:governorship:2003:BA",
+    "title": "2003_Bauchi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Bauchi_State_gubernatorial_election&oldid=1368279040",
+    "revision": "1368279040",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "f9544aafa98a36fe18e4859fdf5b59a4be036395a51f32ec2e9dce7984145df1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:BE": {
+    "key": "wikipedia:governorship:2003:BE",
+    "title": "2003_Benue_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Benue_State_gubernatorial_election&oldid=1368279197",
+    "revision": "1368279197",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "6c0d21b7e0d44f2ed3cb1033ffa51a7ff9a55215c947b336cd250ed9810134c6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:BO": {
+    "key": "wikipedia:governorship:2003:BO",
+    "title": "2003_Borno_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Borno_State_gubernatorial_election&oldid=1368279443",
+    "revision": "1368279443",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "fa77c9231baf2b403ec1f3f1e799330db003b9234acffadf5240d64b334c061b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:BY": {
+    "key": "wikipedia:governorship:2003:BY",
+    "title": "2003_Bayelsa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Bayelsa_State_gubernatorial_election&oldid=1368279093",
+    "revision": "1368279093",
+    "retrieved_at": "2026-11-18T14:36:47Z",
+    "sha256": "feb7e5d30a1cbe2594becdac58fc7d7570000daf620e3f62d816f3677a7e2764",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:CR": {
+    "key": "wikipedia:governorship:2003:CR",
+    "title": "2003_Cross_River_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Cross_River_State_gubernatorial_election&oldid=1368284898",
+    "revision": "1368284898",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "776d86e7b3005238f80e7643b089ed67ba2fee1acb1f54f45761266ef132004b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:DE": {
+    "key": "wikipedia:governorship:2003:DE",
+    "title": "2003_Delta_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Delta_State_gubernatorial_election&oldid=1368290226",
+    "revision": "1368290226",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "dc2ba2b610c15958687e0884f685570fadd59d9feca2d8fad7b3718b0aee8ef4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:EB": {
+    "key": "wikipedia:governorship:2003:EB",
+    "title": "2003_Ebonyi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Ebonyi_State_gubernatorial_election&oldid=1368291611",
+    "revision": "1368291611",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "3aa06978551ba4a1b19d84103966c203051a81f702aa098db951b623fa23a3e8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:ED": {
+    "key": "wikipedia:governorship:2003:ED",
+    "title": "2003_Edo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Edo_State_gubernatorial_election&oldid=1368291625",
+    "revision": "1368291625",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "43c2274355f218a20da1dc0639ebc4ca3550c3807fcdee306ac8b5c24114f4aa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:EK": {
+    "key": "wikipedia:governorship:2003:EK",
+    "title": "2003_Ekiti_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Ekiti_State_gubernatorial_election&oldid=1368291634",
+    "revision": "1368291634",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "af7e4d5ac430c35a74b887ceb857260d9522878d5ff0478c8789048c99e5b73a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:EN": {
+    "key": "wikipedia:governorship:2003:EN",
+    "title": "2003_Enugu_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Enugu_State_gubernatorial_election&oldid=1368291836",
+    "revision": "1368291836",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "eb16494264c3d6990b23b9ba021a3fe337a196db7855312b88e37b138a842019",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:GO": {
+    "key": "wikipedia:governorship:2003:GO",
+    "title": "2003_Gombe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Gombe_State_gubernatorial_election&oldid=1368296876",
+    "revision": "1368296876",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "28589f438c14c0329230613c78590cd4cfaba3306a9cdb7db29936a2fa30dff6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:IM": {
+    "key": "wikipedia:governorship:2003:IM",
+    "title": "2003_Imo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Imo_State_gubernatorial_election&oldid=1368298077",
+    "revision": "1368298077",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "894c7b24fcdee2ac295aefd90d8764f23887d556d4c411187fe9211a6bfe2c15",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:JI": {
+    "key": "wikipedia:governorship:2003:JI",
+    "title": "2003_Jigawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Jigawa_State_gubernatorial_election&oldid=1368299194",
+    "revision": "1368299194",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "e822eef1e94c64e101c3e65b5423b0138a370c8caee5535f8786b710303b32ec",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:KD": {
+    "key": "wikipedia:governorship:2003:KD",
+    "title": "2003_Kaduna_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Kaduna_State_gubernatorial_election&oldid=1368299361",
+    "revision": "1368299361",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "0e467e7c72c7d749c0772bc3c3fd0859c92090d94f8a4b617bff4fbd93482e50",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:KE": {
+    "key": "wikipedia:governorship:2003:KE",
+    "title": "2003_Kebbi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Kebbi_State_gubernatorial_election&oldid=1368299656",
+    "revision": "1368299656",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "f1503188cc5a483d932bf4766f22c3a090a46922682b382a6d1053d2d0f581be",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:KN": {
+    "key": "wikipedia:governorship:2003:KN",
+    "title": "2003_Kano_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Kano_State_gubernatorial_election&oldid=1382687772",
+    "revision": "1382687772",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "9c1bd9e6a21c12603add540654f36ae31785c96647d7b51d9eed2a5b841eea39",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:KO": {
+    "key": "wikipedia:governorship:2003:KO",
+    "title": "2003_Kogi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Kogi_State_gubernatorial_election&oldid=1368300494",
+    "revision": "1368300494",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "2f326da7bb59efeb72283613a4dbe3ad572a80458a8468bf13a0a979d1a95347",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:KT": {
+    "key": "wikipedia:governorship:2003:KT",
+    "title": "2003_Katsina_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Katsina_State_gubernatorial_election&oldid=1382687786",
+    "revision": "1382687786",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "73e8a0722077771aa12a883955f56f068f6b3c3eb3b5a8547e9dbb493a1230c6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:KW": {
+    "key": "wikipedia:governorship:2003:KW",
+    "title": "2003_Kwara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Kwara_State_gubernatorial_election&oldid=1368301127",
+    "revision": "1368301127",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "7b20b2c3dcce83158d60e12f190681d7f9d3380f6093bcaa83a2901ff54aaab9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:LA": {
+    "key": "wikipedia:governorship:2003:LA",
+    "title": "2003_Lagos_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Lagos_State_gubernatorial_election&oldid=1368301594",
+    "revision": "1368301594",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "57b337643b3ed4ae83ba130c5d6bec4cd0a5ae8d17e855b382de2c7c3b313ab2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:NA": {
+    "key": "wikipedia:governorship:2003:NA",
+    "title": "2003_Nasarawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nasarawa_State_gubernatorial_election&oldid=1368308997",
+    "revision": "1368308997",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "7aa419d345aba0ff60e4a63a91bc2fa6bbc3f269622af4fec664324efc2409d0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:NI": {
+    "key": "wikipedia:governorship:2003:NI",
+    "title": "2003_Niger_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Niger_State_gubernatorial_election&oldid=1368310486",
+    "revision": "1368310486",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "407ad7ae794c9938aa7f3928eb8c9386e5470bc91a374021ee87b72ef1d78bf5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:OG": {
+    "key": "wikipedia:governorship:2003:OG",
+    "title": "2003_Ogun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Ogun_State_gubernatorial_election&oldid=1368312338",
+    "revision": "1368312338",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "ecc3f13dd13d318241baf513c8a7ac259cf4d4fcdac0f6d31168d423acaedf57",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:ON": {
+    "key": "wikipedia:governorship:2003:ON",
+    "title": "2003_Ondo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Ondo_State_gubernatorial_election&oldid=1368312932",
+    "revision": "1368312932",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "d784c0f7c46cb8877113bcd22bd828828ca82cad7ec6ffb26fb617580592d1fe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:OS": {
+    "key": "wikipedia:governorship:2003:OS",
+    "title": "2003_Osun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Osun_State_gubernatorial_election&oldid=1369868884",
+    "revision": "1369868884",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "41ac39cf204e3e74cc099602148fc0e4c7ec85eb36a9c2b9e846c53381061019",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:OY": {
+    "key": "wikipedia:governorship:2003:OY",
+    "title": "2003_Oyo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Oyo_State_gubernatorial_election&oldid=1368314281",
+    "revision": "1368314281",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "0ad439de03b2f54c509630f1fb04bb799ec8a5710403ef5de6874326d218fd2e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:PL": {
+    "key": "wikipedia:governorship:2003:PL",
+    "title": "2003_Plateau_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Plateau_State_gubernatorial_election&oldid=1368318112",
+    "revision": "1368318112",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "96fed62e0be282408940c10eaa85ccac1f010c4291e823a7988d241fae3e871f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:RI": {
+    "key": "wikipedia:governorship:2003:RI",
+    "title": "2003_Rivers_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Rivers_State_gubernatorial_election&oldid=1368320722",
+    "revision": "1368320722",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "d29442c96877059b4d8c0bab0cd7d6588025a93fb682805ef7cacee1fde6c5ed",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:SO": {
+    "key": "wikipedia:governorship:2003:SO",
+    "title": "2003_Sokoto_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Sokoto_State_gubernatorial_election&oldid=1368327379",
+    "revision": "1368327379",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "10b63b8b654acfa80d900213fd0b26fb81a752c37ea81b55c8294d7d12b1b2fe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:TA": {
+    "key": "wikipedia:governorship:2003:TA",
+    "title": "2003_Taraba_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Taraba_State_gubernatorial_election&oldid=1367919678",
+    "revision": "1367919678",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "11d8911127244cb53dc90d05eb98b5c4f3874d1ca4cc8276888f2c210a63a3b7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:YO": {
+    "key": "wikipedia:governorship:2003:YO",
+    "title": "2003_Yobe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Yobe_State_gubernatorial_election&oldid=1367920284",
+    "revision": "1367920284",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "1f56f08a143f36cac886fdbbf0440ccb97edb38899b67463f5d5191b7b2cf7c7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2003:ZA": {
+    "key": "wikipedia:governorship:2003:ZA",
+    "title": "2003_Zamfara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Zamfara_State_gubernatorial_election&oldid=1368345781",
+    "revision": "1368345781",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "d6c251afedb6a3aceb5e4d4ac31f34b74c86052fad056d842e9f167c7746b50c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:AB": {
+    "key": "wikipedia:governorship:2007:AB",
+    "title": "2007_Abia_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Abia_State_gubernatorial_election&oldid=1367912206",
+    "revision": "1367912206",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "cae8cf11849ef74016023c6448587cef85daf1ee27b69b8da259fbdaccd8365b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:AD": {
+    "key": "wikipedia:governorship:2007:AD",
+    "title": "2007_Adamawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Adamawa_State_gubernatorial_election&oldid=1367912764",
+    "revision": "1367912764",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "0035f0c42e632fe7c19e5153c79baa0c4158a4eae99ecfc7d0fdf84c04a4b9dc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:AK": {
+    "key": "wikipedia:governorship:2007:AK",
+    "title": "2007_Akwa_Ibom_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Akwa_Ibom_State_gubernatorial_election&oldid=1353498945",
+    "revision": "1353498945",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "cb043d7da3b8e9b7633d5e5e5a9e705e5d4aa09c8c095e84d8c019b0b1775540",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:AN": {
+    "key": "wikipedia:governorship:2007:AN",
+    "title": "2007_Anambra_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Anambra_State_gubernatorial_election&oldid=1367913838",
+    "revision": "1367913838",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "1ae5b2703bc9fc0a351447d37e78f7250451dfb3d845159a49324d91f6aac739",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:BA": {
+    "key": "wikipedia:governorship:2007:BA",
+    "title": "2007_Bauchi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Bauchi_State_gubernatorial_election&oldid=1367914469",
+    "revision": "1367914469",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "69a68c7b3ca5995a0f5626e5e0551ba599e90d199e48d83bcb734fb3d5d8e493",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:BE": {
+    "key": "wikipedia:governorship:2007:BE",
+    "title": "2007_Benue_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Benue_State_gubernatorial_election&oldid=1385909752",
+    "revision": "1385909752",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "ea98bbd3654a521ecc1188a3c387ebddb9f4e7302febe290b0908c831d8d88b2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:BO": {
+    "key": "wikipedia:governorship:2007:BO",
+    "title": "2007_Borno_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Borno_State_gubernatorial_election&oldid=1373639459",
+    "revision": "1373639459",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "76d210753c7ec4e5a89dea9df6306ced804b572c331b58d614d9e3833e11f761",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:BY": {
+    "key": "wikipedia:governorship:2007:BY",
+    "title": "2007_Bayelsa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Bayelsa_State_gubernatorial_election&oldid=1367914723",
+    "revision": "1367914723",
+    "retrieved_at": "2026-11-18T14:36:48Z",
+    "sha256": "2da65700f6185622f4d19eb7f9646b5d2dea681135fab915068a5103d2986676",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:CR": {
+    "key": "wikipedia:governorship:2007:CR",
+    "title": "2007_Cross_River_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Cross_River_State_gubernatorial_election&oldid=1356601736",
+    "revision": "1356601736",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "f6b1b8285482e386cf56455f353848c7b9a76425e1b35d4ca0fb995a4e6ebce4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:DE": {
+    "key": "wikipedia:governorship:2007:DE",
+    "title": "2007_Delta_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Delta_State_gubernatorial_election&oldid=1367917723",
+    "revision": "1367917723",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "4565cc26b3c4d4bd4427103be9f5301614fd55cd138ca1c1e16b9d446b15b754",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:EB": {
+    "key": "wikipedia:governorship:2007:EB",
+    "title": "2007_Ebonyi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Ebonyi_State_gubernatorial_election&oldid=1368353523",
+    "revision": "1368353523",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "a2ab1d750a278441e7c08e5aaf6c591b965f06d6c28df8ac6ab1bb6b13487f97",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:ED": {
+    "key": "wikipedia:governorship:2007:ED",
+    "title": "2007_Edo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Edo_State_gubernatorial_election&oldid=1383474164",
+    "revision": "1383474164",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "84182f010dfa1c44f9108d77a525b3316b98e7d6a89d8670fc87e91221456427",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:EK": {
+    "key": "wikipedia:governorship:2007:EK",
+    "title": "2007_Ekiti_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Ekiti_State_gubernatorial_election&oldid=1367926609",
+    "revision": "1367926609",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "86825b77d6770b14ba49c5b4c48bf58dc1d4d53737c6f694f4ee4cca0fb97462",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:EN": {
+    "key": "wikipedia:governorship:2007:EN",
+    "title": "2007_Enugu_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Enugu_State_gubernatorial_election&oldid=1363148587",
+    "revision": "1363148587",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "aa2860f6e7480dc25803a5b4e4fe96172f3d689cc6c031bedf6d982e89d0abc5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:GO": {
+    "key": "wikipedia:governorship:2007:GO",
+    "title": "2007_Gombe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Gombe_State_gubernatorial_election&oldid=1367927413",
+    "revision": "1367927413",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "57c7fec3f269a67fe79e19e26429f084a8d9bd824b2b4bd2dd45f7bf42aebfed",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:IM": {
+    "key": "wikipedia:governorship:2007:IM",
+    "title": "2007_Imo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Imo_State_gubernatorial_election&oldid=1367928345",
+    "revision": "1367928345",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "17cc70a41450882dc744c7970ca6ed4fcce27c14e8322f03acdaab781df9c332",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:JI": {
+    "key": "wikipedia:governorship:2007:JI",
+    "title": "2007_Jigawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Jigawa_State_gubernatorial_election&oldid=1367929118",
+    "revision": "1367929118",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "b2d2f2c0adaf482a2dd917b9faafe52d4bf219f9fac3d9f4ece081aeb0cb577c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:KD": {
+    "key": "wikipedia:governorship:2007:KD",
+    "title": "2007_Kaduna_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Kaduna_State_gubernatorial_election&oldid=1367929351",
+    "revision": "1367929351",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "334fc71e475f07658a2180ae869be7b5491c20209924f343c1a5304c0b548e58",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:KE": {
+    "key": "wikipedia:governorship:2007:KE",
+    "title": "2007_Kebbi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Kebbi_State_gubernatorial_election&oldid=1382688140",
+    "revision": "1382688140",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "8ca1e58b7675598fcb5257a8f539de5222f93b6ee747dee02319fda1322e0602",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:KN": {
+    "key": "wikipedia:governorship:2007:KN",
+    "title": "2007_Kano_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Kano_State_gubernatorial_election&oldid=1368938164",
+    "revision": "1368938164",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "834b39adc8914fb928ed277dbc91a038de5d4e9c1c0aa9970865b2b8a13d3f2f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:KO": {
+    "key": "wikipedia:governorship:2007:KO",
+    "title": "2007_Kogi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Kogi_State_gubernatorial_election&oldid=1367946779",
+    "revision": "1367946779",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "cc83447b21c987b7990c75274d04b0c34048341d43ed92b1a8ce03dd7370688f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:KT": {
+    "key": "wikipedia:governorship:2007:KT",
+    "title": "2007_Katsina_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Katsina_State_gubernatorial_election&oldid=1382688126",
+    "revision": "1382688126",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "bd616d325b97f399dc718b49885eff034b8228b0cbf6461a8f4b4d85d59c18db",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:KW": {
+    "key": "wikipedia:governorship:2007:KW",
+    "title": "2007_Kwara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Kwara_State_gubernatorial_election&oldid=1367945181",
+    "revision": "1367945181",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "39065d0270dba86b83a9bb1d402d80aa693b25057abf664d021a2cf9cd265bde",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:LA": {
+    "key": "wikipedia:governorship:2007:LA",
+    "title": "2007_Lagos_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Lagos_State_gubernatorial_election&oldid=1367941240",
+    "revision": "1367941240",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "948d19e45188f3754cab5b06bec486119103d87845f03b2f7b90bf42a3a0ac58",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:NA": {
+    "key": "wikipedia:governorship:2007:NA",
+    "title": "2007_Nasarawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nasarawa_State_gubernatorial_election&oldid=1367942321",
+    "revision": "1367942321",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "d79bde9a56bc32625da374909a16561b2055a8fae7c5a10f4cd97458d3a341f6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:NI": {
+    "key": "wikipedia:governorship:2007:NI",
+    "title": "2007_Niger_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Niger_State_gubernatorial_election&oldid=1367944098",
+    "revision": "1367944098",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "672f69c9ecb66a2ffdf53458f4d9086c272ead4e19581cc6f73ae84f319cd2a8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:OG": {
+    "key": "wikipedia:governorship:2007:OG",
+    "title": "2007_Ogun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Ogun_State_gubernatorial_election&oldid=1367943286",
+    "revision": "1367943286",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "9ce00a4416b00a7b62e9fcc7cbbf0442298bbea574f76593faa9071edc97786c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:ON": {
+    "key": "wikipedia:governorship:2007:ON",
+    "title": "2007_Ondo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Ondo_State_gubernatorial_election&oldid=1367942872",
+    "revision": "1367942872",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "35b5fd9d6bd3c3b6722f50a8797d869b05b7d06ee0909470064505c1d4c12b6a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:OS": {
+    "key": "wikipedia:governorship:2007:OS",
+    "title": "2007_Osun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Osun_State_gubernatorial_election&oldid=1377675238",
+    "revision": "1377675238",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "80958406e5e3785791e2829044ede952c444407a4b8c7c255e164cc7e96df629",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:OY": {
+    "key": "wikipedia:governorship:2007:OY",
+    "title": "2007_Oyo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Oyo_State_gubernatorial_election&oldid=1367941816",
+    "revision": "1367941816",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "ecdda3fb3a8025efe2d11eb0cba02c12f38f65b1980f5866ff02909011d0115f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:PL": {
+    "key": "wikipedia:governorship:2007:PL",
+    "title": "2007_Plateau_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Plateau_State_gubernatorial_election&oldid=1367930269",
+    "revision": "1367930269",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "dbe5b54ebc31e47798e1bba3aa7474cc8ae9d01c0fa5bff647190874a2030af6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:RI": {
+    "key": "wikipedia:governorship:2007:RI",
+    "title": "2007_Rivers_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Rivers_State_gubernatorial_election&oldid=1376027630",
+    "revision": "1376027630",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "8cf332258b98f2b911ae562840ff9dcb01e2c5fae77310716dda27e5e923b8d8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:SO": {
+    "key": "wikipedia:governorship:2007:SO",
+    "title": "2007_Sokoto_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Sokoto_State_gubernatorial_election&oldid=1367919398",
+    "revision": "1367919398",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "7f27c611a1733398f98206fb24af696778d2804b1a31552c5e584bfb2ca4183b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:TA": {
+    "key": "wikipedia:governorship:2007:TA",
+    "title": "2007_Taraba_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Taraba_State_gubernatorial_election&oldid=1367919674",
+    "revision": "1367919674",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "e5743489a2b30e6d0fab9daa76647b9bfd1c6ca3b798f8f5b109b1ee96439479",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:YO": {
+    "key": "wikipedia:governorship:2007:YO",
+    "title": "2007_Yobe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Yobe_State_gubernatorial_election&oldid=1367920339",
+    "revision": "1367920339",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "6d3d1a9d264a1866fb5da71600b920ece1c5d090be042c6421db3fce88eed3eb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2007:ZA": {
+    "key": "wikipedia:governorship:2007:ZA",
+    "title": "2007_Zamfara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Zamfara_State_gubernatorial_election&oldid=1367920683",
+    "revision": "1367920683",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "7eb9936383bfa999ec748aae04ae5b42dc1e68e009b8099cf70524d32d6fc0c0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2010:AN": {
+    "key": "wikipedia:governorship:2010:AN",
+    "title": "2010_Anambra_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2010_Anambra_State_gubernatorial_election&oldid=1371475174",
+    "revision": "1371475174",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "f50ee10945577938e6a4f1383dcc047d2b4b5dac339b430e1081c62e4e00b853",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:AB": {
+    "key": "wikipedia:governorship:2011:AB",
+    "title": "2011_Abia_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Abia_State_gubernatorial_election&oldid=1367912153",
+    "revision": "1367912153",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "992b723b0619a896246b008a46459d1d9e4629dace18ef5523df424b4ac7f28a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:AK": {
+    "key": "wikipedia:governorship:2011:AK",
+    "title": "2011_Akwa_Ibom_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Akwa_Ibom_State_gubernatorial_election&oldid=1370382128",
+    "revision": "1370382128",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "79c32c14156096d55659fb037ded85590e8c3878fe3a66b1d67ac52bd7a27d9d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:BA": {
+    "key": "wikipedia:governorship:2011:BA",
+    "title": "2011_Bauchi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Bauchi_State_gubernatorial_election&oldid=1370399016",
+    "revision": "1370399016",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "367f1e35f4787082d48e06fc236ee5a5d945598953ff589b9e124eff2b7bc0b8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:BE": {
+    "key": "wikipedia:governorship:2011:BE",
+    "title": "2011_Benue_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Benue_State_gubernatorial_election&oldid=1370400174",
+    "revision": "1370400174",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "09e4d87b5abbefdd4fc77486a9a0a8356f74a46df387f78d2b7f5324552e340c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:BO": {
+    "key": "wikipedia:governorship:2011:BO",
+    "title": "2011_Borno_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Borno_State_gubernatorial_election&oldid=1370403200",
+    "revision": "1370403200",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "23dbfae59361bbae736eff27ce89cf8887d2f305990297331fe41a73f67919ea",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:DE": {
+    "key": "wikipedia:governorship:2011:DE",
+    "title": "2011_Delta_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Delta_State_gubernatorial_election&oldid=1370474029",
+    "revision": "1370474029",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "12613de4d4790b23b1ad910676851922b27cb414f8721a21117e432232f55e70",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:EB": {
+    "key": "wikipedia:governorship:2011:EB",
+    "title": "2011_Ebonyi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Ebonyi_State_gubernatorial_election&oldid=1370476930",
+    "revision": "1370476930",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "9f6978ac3213fd47d5fd6aa74234cb993388b9121a1947c37b2aafcb011d7dd2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:EN": {
+    "key": "wikipedia:governorship:2011:EN",
+    "title": "2011_Enugu_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Enugu_State_gubernatorial_election&oldid=1382660297",
+    "revision": "1382660297",
+    "retrieved_at": "2026-11-18T14:36:49Z",
+    "sha256": "bbc8983948a62c46c24299066f37ad73b93efd538cb8798ac35762c0a5f3589e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:GO": {
+    "key": "wikipedia:governorship:2011:GO",
+    "title": "2011_Gombe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Gombe_State_gubernatorial_election&oldid=1370499441",
+    "revision": "1370499441",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "16287584938a5bea311246f9847ba8fdeccf0b3574e69ce76147a17c76f48f2e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:IM": {
+    "key": "wikipedia:governorship:2011:IM",
+    "title": "2011_Imo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Imo_State_gubernatorial_election&oldid=1370550115",
+    "revision": "1370550115",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "23bb4085f7cdd99ef7e17f4aff226737fe4c95cfd51e3d6f3bb71e5382735eef",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:JI": {
+    "key": "wikipedia:governorship:2011:JI",
+    "title": "2011_Jigawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Jigawa_State_gubernatorial_election&oldid=1370562055",
+    "revision": "1370562055",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "4cf0df700839875ddbd9014c74d753ab1e37787dbe6dee2d53bdbf9540fdcbdf",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:KD": {
+    "key": "wikipedia:governorship:2011:KD",
+    "title": "2011_Kaduna_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Kaduna_State_gubernatorial_election&oldid=1370563505",
+    "revision": "1370563505",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "0493505408bebb224f901f35fb7e6c97b5b4e03b001eedf4a6f52972d4fae05d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:KE": {
+    "key": "wikipedia:governorship:2011:KE",
+    "title": "2011_Kebbi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Kebbi_State_gubernatorial_election&oldid=1370577186",
+    "revision": "1370577186",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "fde1958a87234dc54b204fb0073bc802e2b2a11b5eccb6a8beebec0286fb6720",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:KN": {
+    "key": "wikipedia:governorship:2011:KN",
+    "title": "2011_Kano_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Kano_State_gubernatorial_election&oldid=1370563547",
+    "revision": "1370563547",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "695a68bde104678fa4aa64af298ebcd691e413798b4dc45e0d295235d52a88e3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:KO": {
+    "key": "wikipedia:governorship:2011:KO",
+    "title": "2011_Kogi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Kogi_State_gubernatorial_election&oldid=1367947080",
+    "revision": "1367947080",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "899412e4fe0100aca23a1121387eaafdf59f506a9f4b0cf5d61ada2bd1f3bf2f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:KT": {
+    "key": "wikipedia:governorship:2011:KT",
+    "title": "2011_Katsina_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Katsina_State_gubernatorial_election&oldid=1370577018",
+    "revision": "1370577018",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "c692b8f940f1a91df6ae1f2c4e0eaf7792f05aeec6b5614485013ff91632d144",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:KW": {
+    "key": "wikipedia:governorship:2011:KW",
+    "title": "2011_Kwara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Kwara_State_gubernatorial_election&oldid=1370580548",
+    "revision": "1370580548",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "d14c074b4d7db0cac83518db76402c40ea488df786af0214780591def1ff2795",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:LA": {
+    "key": "wikipedia:governorship:2011:LA",
+    "title": "2011_Lagos_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Lagos_State_gubernatorial_election&oldid=1367941255",
+    "revision": "1367941255",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "25bbe4c2a2acdf45c653c0ca3a51bd35070131ab9cc4305f78d2cb7c1b82081f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:NA": {
+    "key": "wikipedia:governorship:2011:NA",
+    "title": "2011_Nasarawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nasarawa_State_gubernatorial_election&oldid=1370615537",
+    "revision": "1370615537",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "8229512d5a1cea314a111ccd5b4a202a284f19a53a5eb3abd622c732574673aa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:NI": {
+    "key": "wikipedia:governorship:2011:NI",
+    "title": "2011_Niger_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Niger_State_gubernatorial_election&oldid=1370629305",
+    "revision": "1370629305",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "25458ee0b54f0d7598337b4300ead171e307bb415a40867d294d1474aff4933d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:OG": {
+    "key": "wikipedia:governorship:2011:OG",
+    "title": "2011_Ogun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Ogun_State_gubernatorial_election&oldid=1370631823",
+    "revision": "1370631823",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "3f9ffd906c757569310762aca13707d2a2ef3b12152b608040505597719c8461",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:OY": {
+    "key": "wikipedia:governorship:2011:OY",
+    "title": "2011_Oyo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Oyo_State_gubernatorial_election&oldid=1370634395",
+    "revision": "1370634395",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "83abf660d8dfe8aee3885b9817837470e380ef5b67f05cb83d23756b3b69a328",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:PL": {
+    "key": "wikipedia:governorship:2011:PL",
+    "title": "2011_Plateau_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Plateau_State_gubernatorial_election&oldid=1370648278",
+    "revision": "1370648278",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "55dc5bbddf700b72c29aec4304908127436dfcbf48401a97f0200330d958bf7d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:RI": {
+    "key": "wikipedia:governorship:2011:RI",
+    "title": "2011_Rivers_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Rivers_State_gubernatorial_election&oldid=1376027412",
+    "revision": "1376027412",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "5fa30e24f3be3b2bdaf586044955f74aa46994b381bc58cc9fb0475d3c148e9a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:TA": {
+    "key": "wikipedia:governorship:2011:TA",
+    "title": "2011_Taraba_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Taraba_State_gubernatorial_election&oldid=1370682537",
+    "revision": "1370682537",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "e63110816bfa74dc55237bc7ca7ec4b96afbfc1e946add7242167b578ff0c9e2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:YO": {
+    "key": "wikipedia:governorship:2011:YO",
+    "title": "2011_Yobe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Yobe_State_gubernatorial_election&oldid=1370736375",
+    "revision": "1370736375",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "260108281a58d7060aa01a522fd4efd398e835290a331709ac36daab7b6296a7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2011:ZA": {
+    "key": "wikipedia:governorship:2011:ZA",
+    "title": "2011_Zamfara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Zamfara_State_gubernatorial_election&oldid=1370737046",
+    "revision": "1370737046",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "5ce1fe0762501f0c026956782800fd0cdd43f7e726b6376c6f06b833e20d6239",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2012:AD": {
+    "key": "wikipedia:governorship:2012:AD",
+    "title": "2012_Adamawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2012_Adamawa_State_gubernatorial_election&oldid=1370895120",
+    "revision": "1370895120",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "3d84565fe18ec35765138cbf8dc2a2e786f66ea1999f8adfc4c05f9a01cda7b2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2012:BY": {
+    "key": "wikipedia:governorship:2012:BY",
+    "title": "2012_Bayelsa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2012_Bayelsa_State_gubernatorial_election&oldid=1370920216",
+    "revision": "1370920216",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "a1ee462493e8f48e2cf3d1fda49d5d4489f520ba1c1567ed8aa3c945b995d585",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2012:CR": {
+    "key": "wikipedia:governorship:2012:CR",
+    "title": "2012_Cross_River_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2012_Cross_River_State_gubernatorial_election&oldid=1370949924",
+    "revision": "1370949924",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "695a76ab7f32410c13f4cc2693e14a377cb7ec8c18842997f04f39ad1a853cbc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2012:ED": {
+    "key": "wikipedia:governorship:2012:ED",
+    "title": "2012_Edo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2012_Edo_State_gubernatorial_election&oldid=1370996161",
+    "revision": "1370996161",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "9ae8fda863c7a2116912a3f4a9e17309b9705bc2394fe818f7a6d313104e9006",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2012:ON": {
+    "key": "wikipedia:governorship:2012:ON",
+    "title": "2012_Ondo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2012_Ondo_State_gubernatorial_election&oldid=1371094176",
+    "revision": "1371094176",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "2ae2ca35c9e0c8cdb96fac64da97e249775c7d0501d8f09485de7a1cf5dd8f81",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2012:SO": {
+    "key": "wikipedia:governorship:2012:SO",
+    "title": "2012_Sokoto_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2012_Sokoto_State_gubernatorial_election&oldid=1367919420",
+    "revision": "1367919420",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "ab3ef1f31ec806873229b5d6e8691a369927086dad48dfb711408666ba0a58e4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2013:AN": {
+    "key": "wikipedia:governorship:2013:AN",
+    "title": "2013_Anambra_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2013_Anambra_State_gubernatorial_election&oldid=1367906170",
+    "revision": "1367906170",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "8a4483170103b8f5237baf9f94c3542f4bf5cbae82fbbbcdadbda4db840146f2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2014:EK": {
+    "key": "wikipedia:governorship:2014:EK",
+    "title": "2014_Ekiti_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2014_Ekiti_State_gubernatorial_election&oldid=1361437091",
+    "revision": "1361437091",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "c8a5e312dbecc20b8c1df5a959f06b4b0198ae7a4f11a38c6fd5616e7df1dd52",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2014:OS": {
+    "key": "wikipedia:governorship:2014:OS",
+    "title": "2014_Osun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2014_Osun_State_gubernatorial_election&oldid=1372037427",
+    "revision": "1372037427",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "a9ba99032a704ed70b2770b1bb2bb7ad549690e925b7f73baeea82541abf410b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:AB": {
+    "key": "wikipedia:governorship:2015:AB",
+    "title": "2015_Abia_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Abia_State_gubernatorial_election&oldid=1367912383",
+    "revision": "1367912383",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "dd1d3b19aa2be173ea71555b9d198a695e16de67a782ba3a383fd18d4897a385",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:AD": {
+    "key": "wikipedia:governorship:2015:AD",
+    "title": "2015_Adamawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Adamawa_State_gubernatorial_election&oldid=1372450986",
+    "revision": "1372450986",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "8259d6f7cc2199204514d629066adc688ac0751ff478e9a0284478e21b63a30a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:AK": {
+    "key": "wikipedia:governorship:2015:AK",
+    "title": "2015_Akwa_Ibom_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Akwa_Ibom_State_gubernatorial_election&oldid=1372452637",
+    "revision": "1372452637",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "0ee65d30def2e38a7e90df29e7e25a00eb54acb2d602bfdba5933591a1bc098f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:BA": {
+    "key": "wikipedia:governorship:2015:BA",
+    "title": "2015_Bauchi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Bauchi_State_gubernatorial_election&oldid=1381336578",
+    "revision": "1381336578",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "de2a03ef3be04ef3e5cffb20196472ecfea22878330441773c75af4fbc9caa8c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:BE": {
+    "key": "wikipedia:governorship:2015:BE",
+    "title": "2015_Benue_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Benue_State_gubernatorial_election&oldid=1372501275",
+    "revision": "1372501275",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "09015502563bca9ea7e6d6717d9b6dbd89828fa52329e29859210ef71966e741",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:BO": {
+    "key": "wikipedia:governorship:2015:BO",
+    "title": "2015_Borno_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Borno_State_gubernatorial_election&oldid=1372508470",
+    "revision": "1372508470",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "cccc860c192e29e1def02117600f231eaaf5f89f6db057d174b0451fce83c3e4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:BY": {
+    "key": "wikipedia:governorship:2015:BY",
+    "title": "2015_Bayelsa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Bayelsa_State_gubernatorial_election&oldid=1367914825",
+    "revision": "1367914825",
+    "retrieved_at": "2026-11-18T14:36:50Z",
+    "sha256": "fba34f47c01fee3c487c4107fffa3bb080fe07a8a5ecac84bb40aeed999c5a43",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:CR": {
+    "key": "wikipedia:governorship:2015:CR",
+    "title": "2015_Cross_River_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Cross_River_State_gubernatorial_election&oldid=1372546156",
+    "revision": "1372546156",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "cfa62124e1ccfd6e830c2db6e376e3d4002f117e81655c5b7c3c7f9179569348",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:DE": {
+    "key": "wikipedia:governorship:2015:DE",
+    "title": "2015_Delta_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Delta_State_gubernatorial_election&oldid=1381069788",
+    "revision": "1381069788",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "2e670638b7cb9265bffbd1434b17a4db9a00381f42572bb54a3dd74dba8ed2b0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:EB": {
+    "key": "wikipedia:governorship:2015:EB",
+    "title": "2015_Ebonyi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Ebonyi_State_gubernatorial_election&oldid=1372562100",
+    "revision": "1372562100",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "1b0f9e0b1f7098bc924182331566110af377e7558fe56331dcf8c1bebad530b0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:EN": {
+    "key": "wikipedia:governorship:2015:EN",
+    "title": "2015_Enugu_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Enugu_State_gubernatorial_election&oldid=1372562929",
+    "revision": "1372562929",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "05e311fa237c852827869afd879bbd42366470dc2b1845cdb45581a0def5e637",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:GO": {
+    "key": "wikipedia:governorship:2015:GO",
+    "title": "2015_Gombe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Gombe_State_gubernatorial_election&oldid=1381336738",
+    "revision": "1381336738",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "511bbaeac96efb44337ffac1eb96c042439ee575b4b0a304fabf6c87a5b1a20e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:IM": {
+    "key": "wikipedia:governorship:2015:IM",
+    "title": "2015_Imo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Imo_State_gubernatorial_election&oldid=1379902194",
+    "revision": "1379902194",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "020c298139e5a82258b2ab00ffc1abea32e7d2500b5ade1fdf2eff3c67cb307a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:JI": {
+    "key": "wikipedia:governorship:2015:JI",
+    "title": "2015_Jigawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Jigawa_State_gubernatorial_election&oldid=1372645654",
+    "revision": "1372645654",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "e84a66ff7985c237232cf205991b9eac8ab5d1463c9331c9f4f9490cee1c1c00",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:KD": {
+    "key": "wikipedia:governorship:2015:KD",
+    "title": "2015_Kaduna_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Kaduna_State_gubernatorial_election&oldid=1372648159",
+    "revision": "1372648159",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "8420cea6ef2bb3497a9308e01b089725d60dd28380797b2f4183687a6bf2b955",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:KE": {
+    "key": "wikipedia:governorship:2015:KE",
+    "title": "2015_Kebbi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Kebbi_State_gubernatorial_election&oldid=1381337040",
+    "revision": "1381337040",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "e31c1ffa1fdb7f47804d4be64a56a23fa8450c2555ae38ca0cb9caf6419e7d14",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:KN": {
+    "key": "wikipedia:governorship:2015:KN",
+    "title": "2015_Kano_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Kano_State_gubernatorial_election&oldid=1372648256",
+    "revision": "1372648256",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "b96a27f4f5b0f2f6ad16f7cdd7930cb788ad34593dbaffc4de384dfd2c133623",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:KO": {
+    "key": "wikipedia:governorship:2015:KO",
+    "title": "2015_Kogi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Kogi_State_gubernatorial_election&oldid=1367947125",
+    "revision": "1367947125",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "9b47b25e99e250a0706b1cbd0747cec1e141ed2351451252ed93aad3d0dd31bc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:KT": {
+    "key": "wikipedia:governorship:2015:KT",
+    "title": "2015_Katsina_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Katsina_State_gubernatorial_election&oldid=1381336847",
+    "revision": "1381336847",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "0f39d083d733cf005e93985c3909e8596802aa511130869abb84b18b9dc10c68",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:KW": {
+    "key": "wikipedia:governorship:2015:KW",
+    "title": "2015_Kwara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Kwara_State_gubernatorial_election&oldid=1372654566",
+    "revision": "1372654566",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "86d736f17214ccab92f55c3c68f2647d702c6fff38d10d7adddbd9f106cfbba0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:LA": {
+    "key": "wikipedia:governorship:2015:LA",
+    "title": "2015_Lagos_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Lagos_State_gubernatorial_election&oldid=1342198667",
+    "revision": "1342198667",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "6094636238d54576e119f0b9f7a9d846043c729283d180eb6c88a5dbd6153277",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:NA": {
+    "key": "wikipedia:governorship:2015:NA",
+    "title": "2015_Nasarawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nasarawa_State_gubernatorial_election&oldid=1372703410",
+    "revision": "1372703410",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "0ad357d34df360ab672fbf3b04acf2ee244945b8fe9dc10be03ccedbbf319feb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:NI": {
+    "key": "wikipedia:governorship:2015:NI",
+    "title": "2015_Niger_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Niger_State_gubernatorial_election&oldid=1381338048",
+    "revision": "1381338048",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "690569f1ff2ea0a716a26b966043958679050551710c7644ae83ff2caecc83c0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:OG": {
+    "key": "wikipedia:governorship:2015:OG",
+    "title": "2015_Ogun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Ogun_State_gubernatorial_election&oldid=1372722335",
+    "revision": "1372722335",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "968e4b24728adb29b3ff90553c20f16399fccfa303eed2e3e5725a1f42314e2b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:OY": {
+    "key": "wikipedia:governorship:2015:OY",
+    "title": "2015_Oyo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Oyo_State_gubernatorial_election&oldid=1384980525",
+    "revision": "1384980525",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "b22e1b8a3c6840343a77aa92f7fac2e2758fe564e2bf18357093969f43d75501",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:PL": {
+    "key": "wikipedia:governorship:2015:PL",
+    "title": "2015_Plateau_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Plateau_State_gubernatorial_election&oldid=1372754588",
+    "revision": "1372754588",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "73d483ab61a942ec321c57690743e0f89da67bebf10d1f15e4090b10cfc123fc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:RI": {
+    "key": "wikipedia:governorship:2015:RI",
+    "title": "2015_Rivers_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Rivers_State_gubernatorial_election&oldid=1376027206",
+    "revision": "1376027206",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "6cbf8e3c8a31e10f1e7f9945c68dd342f0ebec051ccec67ef0172e164b991db9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:SO": {
+    "key": "wikipedia:governorship:2015:SO",
+    "title": "2015_Sokoto_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Sokoto_State_gubernatorial_election&oldid=1372807416",
+    "revision": "1372807416",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "8544d0eebb6502a501d6df0cb9a1143558ac483ad9c634688d10279b9ba689f8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:TA": {
+    "key": "wikipedia:governorship:2015:TA",
+    "title": "2015_Taraba_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Taraba_State_gubernatorial_election&oldid=1381338173",
+    "revision": "1381338173",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "79fd137f6962fb4fce21bf6a46f68f49cc22d7314b5cd14ec8bc191ba06baae4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:YO": {
+    "key": "wikipedia:governorship:2015:YO",
+    "title": "2015_Yobe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Yobe_State_gubernatorial_election&oldid=1372891131",
+    "revision": "1372891131",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "b949a68199868de3ab72e7952d0a9b276cdcb5087d52647cdf59b6c4743b1b45",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2015:ZA": {
+    "key": "wikipedia:governorship:2015:ZA",
+    "title": "2015_Zamfara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Zamfara_State_gubernatorial_election&oldid=1381338632",
+    "revision": "1381338632",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "039cac69c7683a0d814f8f361e335ab7738e6f8a48543dedf3513a37a4b22363",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2016:ED": {
+    "key": "wikipedia:governorship:2016:ED",
+    "title": "2016_Edo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2016_Edo_State_gubernatorial_election&oldid=1373175748",
+    "revision": "1373175748",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "3f7135e8d0ff125f7a385279ce5717cca60f16629ea51ca067fc4b25a7756f51",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2016:ON": {
+    "key": "wikipedia:governorship:2016:ON",
+    "title": "2016_Ondo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2016_Ondo_State_gubernatorial_election&oldid=1367942916",
+    "revision": "1367942916",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "9784ace9a7d76f979cfb1e4b220975bf78b8767ed86949f2ecb629ef4026b174",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2017:AN": {
+    "key": "wikipedia:governorship:2017:AN",
+    "title": "2017_Anambra_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2017_Anambra_State_gubernatorial_election&oldid=1367906238",
+    "revision": "1367906238",
+    "retrieved_at": "2026-11-18T14:36:51Z",
+    "sha256": "4fc2561b21d513acb55ba6bf5af33c1e1c62f4c45a789fedc911452d52784396",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2018:EK": {
+    "key": "wikipedia:governorship:2018:EK",
+    "title": "2018_Ekiti_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2018_Ekiti_State_gubernatorial_election&oldid=1365269469",
+    "revision": "1365269469",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "367caa2ff6b4ebc3f68eb1942d29a4c3950c6cff310d175e0c6af8e32e002444",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2018:OS": {
+    "key": "wikipedia:governorship:2018:OS",
+    "title": "2018_Osun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2018_Osun_State_gubernatorial_election&oldid=1367942523",
+    "revision": "1367942523",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "482d57b1caecca1f8f3210d71ff0e581388e4ba9747439062ba1a95ad15fa1b3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:AB": {
+    "key": "wikipedia:governorship:2019:AB",
+    "title": "2019_Abia_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Abia_State_gubernatorial_election&oldid=1367912294",
+    "revision": "1367912294",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "68e5312a60d202ec59b01f5ab634995a1fce00f05243802312a1d7d87fa80c2f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:AD": {
+    "key": "wikipedia:governorship:2019:AD",
+    "title": "2019_Adamawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Adamawa_State_gubernatorial_election&oldid=1374614470",
+    "revision": "1374614470",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "5993c509abe2e8fd1cecfd3d5bc11df176a542e4c87845a53befeae75889aeba",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:AK": {
+    "key": "wikipedia:governorship:2019:AK",
+    "title": "2019_Akwa_Ibom_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Akwa_Ibom_State_gubernatorial_election&oldid=1377881787",
+    "revision": "1377881787",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "74b61c083d550137718e3650eade117b0e80282344921331898595716906f860",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:BA": {
+    "key": "wikipedia:governorship:2019:BA",
+    "title": "2019_Bauchi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Bauchi_State_gubernatorial_election&oldid=1367914220",
+    "revision": "1367914220",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "442541cec3f9343aa8ff38c0127ace357bd48c29a5e428b8adff258408703160",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:BE": {
+    "key": "wikipedia:governorship:2019:BE",
+    "title": "2019_Benue_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Benue_State_gubernatorial_election&oldid=1374646925",
+    "revision": "1374646925",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "e0964058d3c36e4093ec59f7fe1fe7fe24978fe161d8759caf9137aacd17f9d6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:BO": {
+    "key": "wikipedia:governorship:2019:BO",
+    "title": "2019_Borno_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Borno_State_gubernatorial_election&oldid=1381298339",
+    "revision": "1381298339",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "34627ea454c06bc6ed43a8038aa47dc67661b155d217a9119a2700037cadb119",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:BY": {
+    "key": "wikipedia:governorship:2019:BY",
+    "title": "2019_Bayelsa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Bayelsa_State_gubernatorial_election&oldid=1371301624",
+    "revision": "1371301624",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "c769c970c4ff2215af04348296f84654407d6de67a3e534836a832c28f586793",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:CR": {
+    "key": "wikipedia:governorship:2019:CR",
+    "title": "2019_Cross_River_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Cross_River_State_gubernatorial_election&oldid=1383553727",
+    "revision": "1383553727",
+    "retrieved_at": "2026-11-18T14:36:52Z",
+    "sha256": "ebec707dc67f597609e920803ef2c3976de7d2a58598564ab7e52de129b3dfc4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:DE": {
+    "key": "wikipedia:governorship:2019:DE",
+    "title": "2019_Delta_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Delta_State_gubernatorial_election&oldid=1374687268",
+    "revision": "1374687268",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "f069058960e7fe305072ed71dcdb490a84db9825e97aff5f629ff00b0a0a49ce",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:EB": {
+    "key": "wikipedia:governorship:2019:EB",
+    "title": "2019_Ebonyi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Ebonyi_State_gubernatorial_election&oldid=1374692680",
+    "revision": "1374692680",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "c180d96dbe83f533d8f2c8043f47e724ca33f131277160cfd258110e44518ce5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:EN": {
+    "key": "wikipedia:governorship:2019:EN",
+    "title": "2019_Enugu_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Enugu_State_gubernatorial_election&oldid=1380190162",
+    "revision": "1380190162",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "67939bbd1ec295f92c1228697993bd9935b83a198804ff508fbbf4f258b4afc0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:GO": {
+    "key": "wikipedia:governorship:2019:GO",
+    "title": "2019_Gombe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Gombe_State_gubernatorial_election&oldid=1385039810",
+    "revision": "1385039810",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "d4425d70fd6de93db2ef9113a87848c9e343c7ae7900e9a75b953f7afacc8f97",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:IM": {
+    "key": "wikipedia:governorship:2019:IM",
+    "title": "2019_Imo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Imo_State_gubernatorial_election&oldid=1385471200",
+    "revision": "1385471200",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "d6ad8e8db56f14eac85cf1b2c49dd2aaf5ebd1293a9f6758453c17df3af5e44f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:JI": {
+    "key": "wikipedia:governorship:2019:JI",
+    "title": "2019_Jigawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Jigawa_State_gubernatorial_election&oldid=1381298377",
+    "revision": "1381298377",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "3aa77d7599a917a2d38600877b179b28e89d316813d12066fca2f336226363fc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:KD": {
+    "key": "wikipedia:governorship:2019:KD",
+    "title": "2019_Kaduna_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Kaduna_State_gubernatorial_election&oldid=1378888593",
+    "revision": "1378888593",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "6daa5d47e0a3690da26fb9928999ba115d1e12561d58e2afdab4a92c61c0228f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:KE": {
+    "key": "wikipedia:governorship:2019:KE",
+    "title": "2019_Kebbi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Kebbi_State_gubernatorial_election&oldid=1381298385",
+    "revision": "1381298385",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "a8006914acbf1f84724e4c49f01046cf864b1617948ead03f46f082fe19530d4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:KN": {
+    "key": "wikipedia:governorship:2019:KN",
+    "title": "2019_Kano_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Kano_State_gubernatorial_election&oldid=1367929770",
+    "revision": "1367929770",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "28a1f1b4e635620ee4e5a2a147261b0b383b23b14478a482fe7cb8838875d861",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:KO": {
+    "key": "wikipedia:governorship:2019:KO",
+    "title": "2019_Kogi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Kogi_State_gubernatorial_election&oldid=1374771271",
+    "revision": "1374771271",
+    "retrieved_at": "2026-11-18T14:36:53Z",
+    "sha256": "19f392d49c0ac394da840d8f2ca437b9a563bf7e5b8b420b6b3627174a5eec13",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:KT": {
+    "key": "wikipedia:governorship:2019:KT",
+    "title": "2019_Katsina_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Katsina_State_gubernatorial_election&oldid=1381298380",
+    "revision": "1381298380",
+    "retrieved_at": "2026-11-18T14:36:54Z",
+    "sha256": "9829a491f5058765fa00993362395d1a9614f0d183d985faa6354f1185b4487d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:KW": {
+    "key": "wikipedia:governorship:2019:KW",
+    "title": "2019_Kwara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Kwara_State_gubernatorial_election&oldid=1367945559",
+    "revision": "1367945559",
+    "retrieved_at": "2026-11-18T14:36:54Z",
+    "sha256": "4414138c1fb5fed0d68113e453e282ac315b38747dd2f3774d4e463375aea79e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:LA": {
+    "key": "wikipedia:governorship:2019:LA",
+    "title": "2019_Lagos_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Lagos_State_gubernatorial_election&oldid=1365131930",
+    "revision": "1365131930",
+    "retrieved_at": "2026-11-18T14:36:54Z",
+    "sha256": "7a69f1d82a6070c85918e4e417d81db7222f881c5dfd23067854b60756974297",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:NA": {
+    "key": "wikipedia:governorship:2019:NA",
+    "title": "2019_Nasarawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nasarawa_State_gubernatorial_election&oldid=1381298393",
+    "revision": "1381298393",
+    "retrieved_at": "2026-11-18T14:36:54Z",
+    "sha256": "aa2ac3f40d3d789d53ed13144bdcffb682b20f885705142880aee690248c4ddc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:NI": {
+    "key": "wikipedia:governorship:2019:NI",
+    "title": "2019_Niger_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Niger_State_gubernatorial_election&oldid=1381298407",
+    "revision": "1381298407",
+    "retrieved_at": "2026-11-18T14:36:54Z",
+    "sha256": "d34de403525509efc2b829012a69d6af9f16e09e599f6c94715a17eb7a1babaa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:OG": {
+    "key": "wikipedia:governorship:2019:OG",
+    "title": "2019_Ogun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Ogun_State_gubernatorial_election&oldid=1344679591",
+    "revision": "1344679591",
+    "retrieved_at": "2026-11-18T14:36:54Z",
+    "sha256": "df137e7ce26ab49e7bccce5baee42309300a1f0a202b3814fc858315d0d816ee",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:OY": {
+    "key": "wikipedia:governorship:2019:OY",
+    "title": "2019_Oyo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Oyo_State_gubernatorial_election&oldid=1374853199",
+    "revision": "1374853199",
+    "retrieved_at": "2026-11-18T14:36:54Z",
+    "sha256": "30dae1281c1b22d3f8282e380386b0cdc1e9e2d475c7684fedd967bace7af58d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:PL": {
+    "key": "wikipedia:governorship:2019:PL",
+    "title": "2019_Plateau_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Plateau_State_gubernatorial_election&oldid=1374867459",
+    "revision": "1374867459",
+    "retrieved_at": "2026-11-18T14:36:54Z",
+    "sha256": "f4ab0898c164282e6bef679804795003ba53ccb3b448cfd1e40b4bd5e02286ac",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:RI": {
+    "key": "wikipedia:governorship:2019:RI",
+    "title": "2019_Rivers_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Rivers_State_gubernatorial_election&oldid=1375391484",
+    "revision": "1375391484",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "4e7f27307a08827da3945283a9953e85494abb6bf78ab3dcce4800ea633e3474",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:SO": {
+    "key": "wikipedia:governorship:2019:SO",
+    "title": "2019_Sokoto_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Sokoto_State_gubernatorial_election&oldid=1374897594",
+    "revision": "1374897594",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "cee68f8bbe5eaf66d1917d4fb61ea314069c067feaa69d8ecfd95ee5eba06d8b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:TA": {
+    "key": "wikipedia:governorship:2019:TA",
+    "title": "2019_Taraba_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Taraba_State_gubernatorial_election&oldid=1367919981",
+    "revision": "1367919981",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "a1d456f3dcc591067a2f07a91ea7b1c7f1cce3d9f9108cd6bce2715b40d62224",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:YO": {
+    "key": "wikipedia:governorship:2019:YO",
+    "title": "2019_Yobe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Yobe_State_gubernatorial_election&oldid=1375159523",
+    "revision": "1375159523",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "27fba26fb9b4a2cda95dadaeede979964080440b955b7fafff3695ede36c19df",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2019:ZA": {
+    "key": "wikipedia:governorship:2019:ZA",
+    "title": "2019_Zamfara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Zamfara_State_gubernatorial_election&oldid=1375163034",
+    "revision": "1375163034",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "5610391a3164fc742fd199b4e068cedc83fdcbfde042a29a295788a0420030bb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2020:ED": {
+    "key": "wikipedia:governorship:2020:ED",
+    "title": "2020_Edo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2020_Edo_State_gubernatorial_election&oldid=1367906814",
+    "revision": "1367906814",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "57594225e517a896930b95de69e3e3cb11e15f0a3d42b72d974f1a02d3f448ac",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2020:ON": {
+    "key": "wikipedia:governorship:2020:ON",
+    "title": "2020_Ondo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2020_Ondo_State_gubernatorial_election&oldid=1375562089",
+    "revision": "1375562089",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "c89d0a77a72d03b0f95e51915c510d1d7e71435d7d209911094955efb60fb571",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2021:AN": {
+    "key": "wikipedia:governorship:2021:AN",
+    "title": "2021_Anambra_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2021_Anambra_State_gubernatorial_election&oldid=1366730010",
+    "revision": "1366730010",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "6ef9e8bade1e88a780cf7925c71f95b78c3e28a85bea8feedfc107867b412df7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2022:EK": {
+    "key": "wikipedia:governorship:2022:EK",
+    "title": "2022_Ekiti_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2022_Ekiti_State_gubernatorial_election&oldid=1376445853",
+    "revision": "1376445853",
+    "retrieved_at": "2026-11-18T14:36:55Z",
+    "sha256": "a66bde8ce7710c432cdd31d7de03d9b7205c9eb502c23a10e80c11bec0ccf9e6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2022:OS": {
+    "key": "wikipedia:governorship:2022:OS",
+    "title": "2022_Osun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2022_Osun_State_gubernatorial_election&oldid=1378017360",
+    "revision": "1378017360",
+    "retrieved_at": "2026-11-18T14:36:56Z",
+    "sha256": "4b192a845921a4be00558cf1ead60ebb898de0799cad39e91a7d31a36a9f182e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:AB": {
+    "key": "wikipedia:governorship:2023:AB",
+    "title": "2023_Abia_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Abia_State_gubernatorial_election&oldid=1384396897",
+    "revision": "1384396897",
+    "retrieved_at": "2026-11-18T14:36:56Z",
+    "sha256": "99effba19d5f40d5dc40d0316bbc56d5b9937401cbd42eab0258fb87c239d0b9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:AD": {
+    "key": "wikipedia:governorship:2023:AD",
+    "title": "2023_Adamawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Adamawa_State_gubernatorial_election&oldid=1378524283",
+    "revision": "1378524283",
+    "retrieved_at": "2026-11-18T14:36:56Z",
+    "sha256": "e5d65c42538426d2eea84b61983e4845191ea42a1657dfc31153b7b0bf4001a1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:AK": {
+    "key": "wikipedia:governorship:2023:AK",
+    "title": "2023_Akwa_Ibom_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Akwa_Ibom_State_gubernatorial_election&oldid=1378705902",
+    "revision": "1378705902",
+    "retrieved_at": "2026-11-18T14:36:56Z",
+    "sha256": "87a3aca4b610f8c4a2613469362e203abdb209b7dc36111bfedc52201f49e3eb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:BA": {
+    "key": "wikipedia:governorship:2023:BA",
+    "title": "2023_Bauchi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Bauchi_State_gubernatorial_election&oldid=1376994265",
+    "revision": "1376994265",
+    "retrieved_at": "2026-11-18T14:36:57Z",
+    "sha256": "efea115dc7a70f0126ff3ad18f33bb7f985bd46c1ea96af6ffd15687a848e0ff",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:BE": {
+    "key": "wikipedia:governorship:2023:BE",
+    "title": "2023_Benue_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Benue_State_gubernatorial_election&oldid=1376995368",
+    "revision": "1376995368",
+    "retrieved_at": "2026-11-18T14:36:57Z",
+    "sha256": "a875898518518ba3a174e1aa0cff55a7a4e25800fd12a2cf9d645a840bec4bf0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:BO": {
+    "key": "wikipedia:governorship:2023:BO",
+    "title": "2023_Borno_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Borno_State_gubernatorial_election&oldid=1377805069",
+    "revision": "1377805069",
+    "retrieved_at": "2026-11-18T14:36:57Z",
+    "sha256": "c320f6763bc41ed7c601f0c26793f8f3b2c4e0f33afb9c1eca6b693ca57bdd6f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:BY": {
+    "key": "wikipedia:governorship:2023:BY",
+    "title": "2023_Bayelsa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Bayelsa_State_gubernatorial_election&oldid=1360434618",
+    "revision": "1360434618",
+    "retrieved_at": "2026-11-18T14:36:57Z",
+    "sha256": "38669e34f56f6c13aa51317cb6085b4635011707f97c7466c3d197204d5167b9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:CR": {
+    "key": "wikipedia:governorship:2023:CR",
+    "title": "2023_Cross_River_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Cross_River_State_gubernatorial_election&oldid=1378705933",
+    "revision": "1378705933",
+    "retrieved_at": "2026-11-18T14:36:57Z",
+    "sha256": "8d274fd4d859da577964a14962c483311354496d244189a14a73217afb8acaab",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:DE": {
+    "key": "wikipedia:governorship:2023:DE",
+    "title": "2023_Delta_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Delta_State_gubernatorial_election&oldid=1380863556",
+    "revision": "1380863556",
+    "retrieved_at": "2026-11-18T14:36:57Z",
+    "sha256": "378bf3c9e8c17e63bd9cf49bd27cf90a204866dd91790fc51d49749345615bed",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:EB": {
+    "key": "wikipedia:governorship:2023:EB",
+    "title": "2023_Ebonyi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Ebonyi_State_gubernatorial_election&oldid=1377045801",
+    "revision": "1377045801",
+    "retrieved_at": "2026-11-18T14:36:57Z",
+    "sha256": "778d5bc0b88c2c3d7936fc53bcc22858112006bbc3367015be609fc6c42823c4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:EN": {
+    "key": "wikipedia:governorship:2023:EN",
+    "title": "2023_Enugu_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Enugu_State_gubernatorial_election&oldid=1385116735",
+    "revision": "1385116735",
+    "retrieved_at": "2026-11-18T14:36:58Z",
+    "sha256": "0d44f41b0e35f4fd655d679444b611f799b3f276516e6d85d76649cc5bb720b3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:GO": {
+    "key": "wikipedia:governorship:2023:GO",
+    "title": "2023_Gombe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Gombe_State_gubernatorial_election&oldid=1377097652",
+    "revision": "1377097652",
+    "retrieved_at": "2026-11-18T14:36:58Z",
+    "sha256": "559db9f06ca3491d081aa4f9bf8012c62982a85b9afb45cf2f3358e3310ee378",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:IM": {
+    "key": "wikipedia:governorship:2023:IM",
+    "title": "2023_Imo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Imo_State_gubernatorial_election&oldid=1345878986",
+    "revision": "1345878986",
+    "retrieved_at": "2026-11-18T14:36:58Z",
+    "sha256": "2b7f29eaafa53c9fd52c04d5a4ce523e3bc4120273480d16519320136df0ca8b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:JI": {
+    "key": "wikipedia:governorship:2023:JI",
+    "title": "2023_Jigawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Jigawa_State_gubernatorial_election&oldid=1377133452",
+    "revision": "1377133452",
+    "retrieved_at": "2026-11-18T14:36:58Z",
+    "sha256": "7cf2b386ea18a1140601019fa624f4727a974d5feeb21165a9b09726fb91e2fb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:KD": {
+    "key": "wikipedia:governorship:2023:KD",
+    "title": "2023_Kaduna_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Kaduna_State_gubernatorial_election&oldid=1379398437",
+    "revision": "1379398437",
+    "retrieved_at": "2026-11-18T14:36:58Z",
+    "sha256": "b6b9c456151ec4fdead81bd11599b07f9ad86120855261ea4c21daa39f79bfa4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:KE": {
+    "key": "wikipedia:governorship:2023:KE",
+    "title": "2023_Kebbi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Kebbi_State_gubernatorial_election&oldid=1377141385",
+    "revision": "1377141385",
+    "retrieved_at": "2026-11-18T14:36:58Z",
+    "sha256": "7a98c76cdb8757ebd0261ee881d17982a51ea3cbd992efb4fb67fb12a1f0896d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:KN": {
+    "key": "wikipedia:governorship:2023:KN",
+    "title": "2023_Kano_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Kano_State_gubernatorial_election&oldid=1385025083",
+    "revision": "1385025083",
+    "retrieved_at": "2026-11-18T14:36:59Z",
+    "sha256": "efc802b10d919704366b802012e4a6a4c1ec4f6d73c935c749460b06cc661b88",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:KO": {
+    "key": "wikipedia:governorship:2023:KO",
+    "title": "2023_Kogi_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Kogi_State_gubernatorial_election&oldid=1379341372",
+    "revision": "1379341372",
+    "retrieved_at": "2026-11-18T14:36:59Z",
+    "sha256": "336daa35b56da767355edcef0ddf6e1b54607e5543901cfd4e3d3ed85e315a71",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:KT": {
+    "key": "wikipedia:governorship:2023:KT",
+    "title": "2023_Katsina_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Katsina_State_gubernatorial_election&oldid=1377139182",
+    "revision": "1377139182",
+    "retrieved_at": "2026-11-18T14:36:59Z",
+    "sha256": "68db722700891b052fcd40031832510aa12f2ab4600a0555ac53d060c9309716",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:KW": {
+    "key": "wikipedia:governorship:2023:KW",
+    "title": "2023_Kwara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Kwara_State_gubernatorial_election&oldid=1377684247",
+    "revision": "1377684247",
+    "retrieved_at": "2026-11-18T14:36:59Z",
+    "sha256": "f17797b9bd78e2f58f5061da4555418bb3a84b992f2fc31e9c160d8d10f44f54",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:LA": {
+    "key": "wikipedia:governorship:2023:LA",
+    "title": "2023_Lagos_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Lagos_State_gubernatorial_election&oldid=1385018107",
+    "revision": "1385018107",
+    "retrieved_at": "2026-11-18T14:36:59Z",
+    "sha256": "5b33b20a7bfd020b5e2994455414a77dbfc7e71c7f3fbffb0af04b6f107985a3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:NA": {
+    "key": "wikipedia:governorship:2023:NA",
+    "title": "2023_Nasarawa_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nasarawa_State_gubernatorial_election&oldid=1377202491",
+    "revision": "1377202491",
+    "retrieved_at": "2026-11-18T14:36:59Z",
+    "sha256": "c2e9e966f82bc1de7f9b5f13fa21a986b17bf7922d85e3a8c43298de44d3d5e2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:NI": {
+    "key": "wikipedia:governorship:2023:NI",
+    "title": "2023_Niger_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Niger_State_gubernatorial_election&oldid=1379385451",
+    "revision": "1379385451",
+    "retrieved_at": "2026-11-18T14:36:59Z",
+    "sha256": "3ecf47a1dbabf91a72a4f3240c7372ef64494767bd7feb8d504e1f1b454136cc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:OG": {
+    "key": "wikipedia:governorship:2023:OG",
+    "title": "2023_Ogun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Ogun_State_gubernatorial_election&oldid=1382685106",
+    "revision": "1382685106",
+    "retrieved_at": "2026-11-18T14:37:00Z",
+    "sha256": "0b1c7f24be93dc3c2c58192c2d7ab975db155f9ac7d53b9341f2d1835d8d6f54",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:OY": {
+    "key": "wikipedia:governorship:2023:OY",
+    "title": "2023_Oyo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Oyo_State_gubernatorial_election&oldid=1377225120",
+    "revision": "1377225120",
+    "retrieved_at": "2026-11-18T14:37:00Z",
+    "sha256": "49f1090bb751ba500890012ea444acce79fc7f8f80b4cf921fe370fa9e1e63d8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:PL": {
+    "key": "wikipedia:governorship:2023:PL",
+    "title": "2023_Plateau_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Plateau_State_gubernatorial_election&oldid=1377238595",
+    "revision": "1377238595",
+    "retrieved_at": "2026-11-18T14:37:00Z",
+    "sha256": "49fd0fafe6ccb223feb7f4aad8d2f1ee343f3b49dfb3bc807107876325534874",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:RI": {
+    "key": "wikipedia:governorship:2023:RI",
+    "title": "2023_Rivers_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Rivers_State_gubernatorial_election&oldid=1377248414",
+    "revision": "1377248414",
+    "retrieved_at": "2026-11-18T14:37:00Z",
+    "sha256": "7b45ad2543377a353446e75618b5d3b2f65ad842e5ccb1d451a0b1e700e5c6a5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:SO": {
+    "key": "wikipedia:governorship:2023:SO",
+    "title": "2023_Sokoto_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Sokoto_State_gubernatorial_election&oldid=1377269235",
+    "revision": "1377269235",
+    "retrieved_at": "2026-11-18T14:37:00Z",
+    "sha256": "d8aed55f08d190bbc3f5a4855a4efe643759fa3abf783ff96e1026f53a4bfe08",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:TA": {
+    "key": "wikipedia:governorship:2023:TA",
+    "title": "2023_Taraba_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Taraba_State_gubernatorial_election&oldid=1377290860",
+    "revision": "1377290860",
+    "retrieved_at": "2026-11-18T14:37:00Z",
+    "sha256": "e958ae507b832bb21874c33c60abc789969295955ea9699e603c997f7ee55318",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:YO": {
+    "key": "wikipedia:governorship:2023:YO",
+    "title": "2023_Yobe_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Yobe_State_gubernatorial_election&oldid=1382617423",
+    "revision": "1382617423",
+    "retrieved_at": "2026-11-18T14:37:01Z",
+    "sha256": "fb869acc204a9d80592918bc0fef4d41be28f045f00e5b78d95b377a52f2c7a0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2023:ZA": {
+    "key": "wikipedia:governorship:2023:ZA",
+    "title": "2023_Zamfara_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Zamfara_State_gubernatorial_election&oldid=1377363717",
+    "revision": "1377363717",
+    "retrieved_at": "2026-11-18T14:37:01Z",
+    "sha256": "f41e2eb0e497f56c8698c95ba4619bc32d2cc016b9e80009c9d514ef1bb410d8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2024:ED": {
+    "key": "wikipedia:governorship:2024:ED",
+    "title": "2024_Edo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2024_Edo_State_gubernatorial_election&oldid=1367926197",
+    "revision": "1367926197",
+    "retrieved_at": "2026-11-18T14:37:01Z",
+    "sha256": "f1379d316f88576222367c3596af57e67c735abef9a39b3679d1a7f608ba4e2d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2024:ON": {
+    "key": "wikipedia:governorship:2024:ON",
+    "title": "2024_Ondo_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2024_Ondo_State_gubernatorial_election&oldid=1367943124",
+    "revision": "1367943124",
+    "retrieved_at": "2026-11-18T14:37:01Z",
+    "sha256": "b2f41c04dbe1038a8daf9afe976c79bd2a8be593eb0d91278ffb85570c22f838",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2026:EK": {
+    "key": "wikipedia:governorship:2026:EK",
+    "title": "2026_Ekiti_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Ekiti_State_gubernatorial_election&oldid=1378888493",
+    "revision": "1378888493",
+    "retrieved_at": "2026-11-18T14:37:01Z",
+    "sha256": "9500463bb10c4cf3c043c7770fc0b529fe526feae271c19261b66bfc31cb42da",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:governorship:2026:OS": {
+    "key": "wikipedia:governorship:2026:OS",
+    "title": "2026_Osun_State_gubernatorial_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2026_Osun_State_gubernatorial_election&oldid=1378706189",
+    "revision": "1378706189",
+    "retrieved_at": "2026-11-18T14:37:01Z",
+    "sha256": "73776c7e708d4584eaff0c371a20327c97e68295b8d4644437af76924296b7c2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
   "wikipedia:presidential:1999": {
     "key": "wikipedia:presidential:1999",
     "title": "1999_Nigerian_presidential_election",

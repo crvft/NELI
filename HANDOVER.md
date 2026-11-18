@@ -123,6 +123,23 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
   - 2019 national register per Wikipedia is 82,344,107, versus the ~84.0M INEC figure commonly quoted. Recorded as sourced; verify against INEC when possible.
   - **Gap:** by-state registers for 1999, 2015 and 2019 (the 2019 per-state article series doesn't exist).
   - Useful later: HDX has UNFPA population by state and LGA (`cod-ps-nga`), for model inputs such as youth share.
+- **Governorship** (`uv run python -m neli_pipeline.build_governorship`; add `--discover` to re-list articles):
+  - Articles are discovered from Wikipedia's per-state "gubernatorial elections" categories: **252 held elections**, 1999–2026, all 36 states, incl. off-cycle (Anambra, Edo, Ondo, Ekiti, Osun, Kogi, Bayelsa, Imo).
+  - **249 extracted** → `governorship_results.csv` (election × candidate) and `governorship_summary.csv` (one row per election).
+  - Coverage per election:
+    - **all candidates: 174**
+    - **top candidates only (infobox): 59**, minor parties missing
+    - **winner only: 16**, mostly 2003, where Wikipedia has only the winner's figure: usable for who won, **never for shares**
+  - **No results: 3** (Abia 2007, Yobe 2015, Bauchi 2019; Bauchi's figures exist only in prose).
+  - `sum_check` records whether the candidate votes add up to the article's own valid/total figure.
+  - **Lessons built into the extractor** (`extract/results_table.py`):
+    - Party primaries appear in the same articles and can be bigger than the real result, so a general-election table must contain ≥2 parties.
+    - Infoboxes nest tables, so only the innermost rows are read.
+    - 1999 APP+AD joint tickets are listed twice in the source and are merged into `AD-APP`.
+    - "A" is the real code for **Accord** (Gov. Adeleke won Osun 2026 on Accord).
+    - Honorifics like "(Esq)" are not parties.
+  - Spot-checked against known results (Lagos 2023, Kano 2019, Osun 2022, Anambra 2021, Edo 2024, Kaduna 2023); these are now tests.
+  - **Later:** several articles carry LGA-level tables (e.g. Edo 2024). Extract them for LGA-level modelling and the map.
 - **Gotcha:** the state code `NA` (Nasarawa) is read as "missing" by pandas; always `keep_default_na=False`.
 - IReV (inecelectionresults.ng) is an Angular app over an API. Its result data is polling-unit **sheet images** (EC8A), for live and polling-unit-level work later. Its backend host refused connections from this environment.
 - Wikipedia's REST API rate-limits shared cloud egress heavily; the regular `/wiki/<title>` page works and embeds the revision ID (`wgRevisionId`). 2007/2015/2019 presidential titles redirect to the "general election" articles.
@@ -200,4 +217,5 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 - 2026-11-18: Data pipeline started (Python, `pipeline/`). Presidential by state done for 1999, 2003, 2015, 2019, 2023; 2007/2011 are gaps (see §6.1).
 - 2026-11-18: 2007/2011 presidential gap: **option 3 now** (proceed without them; backtest folds 1999→2003→2015→2019→2023), **option 2 later** (when convenient, the user attaches their own computer via Remote Control so the Internet Archive copy of the African Elections Database can be fetched from there). The user has no INEC PDFs.
   - Plug-in path: add an extractor for the archived page, add 2007/2011 to `YEARS` in `build_presidential.py`, rebuild. The tests and validation report cover them automatically, and Anyanwụ's backtest picks up whatever years exist in `data/processed` (no code change), adding the 2003→2007, 2007→2011 and 2011→2015 folds.
-- Next: registered voters by state; governorship results (incl. off-cycle); then load into Supabase and start Anyanwụ.
+- 2026-11-18: Registered voters done (national 1999–2023; by state 2003, 2023). Governorship results done (249 of 252 held elections, 1999–2026, with coverage labels).
+- Next: load presidential + governorship + registers into Supabase (schema, generated types), switch `lib/repo` from sample data to Supabase, then start Anyanwụ.

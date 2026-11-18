@@ -1,0 +1,1115 @@
+election_id,year,state_code,candidate,party,party_label,lineage,votes,source
+gov-ab-1999,1999,AB,Orji Uzor Kalu,PDP,People's Democratic Party (PDP),PDP,370025,wikipedia:governorship:1999:AB
+gov-ab-1999,1999,AB,,AD-APP,"All People's Party (APP) + Alliance for Democracy (AD) (joint ticket, listed twice in source)",APC,173873,wikipedia:governorship:1999:AB
+gov-ad-1999,1999,AD,Boni Haruna,PDP,People's Democratic Party (PDP),PDP,329595,wikipedia:governorship:1999:AD
+gov-ad-1999,1999,AD,,APP,All People's Party (APP),APC,283962,wikipedia:governorship:1999:AD
+gov-ad-1999,1999,AD,,AD,All People's Party (AD),APC,7103,wikipedia:governorship:1999:AD
+gov-ak-1999,1999,AK,Obong Victor Attah,PDP,People's Democratic Party (PDP),PDP,843360,wikipedia:governorship:1999:AK
+gov-ak-1999,1999,AK,,APP,All People's Party (APP),APC,317373,wikipedia:governorship:1999:AK
+gov-ak-1999,1999,AK,,AD,Alliance for Democracy (AD),APC,7254,wikipedia:governorship:1999:AK
+gov-an-1999,1999,AN,Chinwoke Mbadinuju,PDP,People's Democratic Party (PDP),PDP,879690,wikipedia:governorship:1999:AN
+gov-an-1999,1999,AN,ABC Nwosu,APP,All People's Party (APP),APC,141326,wikipedia:governorship:1999:AN
+gov-an-1999,1999,AN,,AD,Alliance for Democracy (AD),APC,8799,wikipedia:governorship:1999:AN
+gov-ba-1999,1999,BA,Adamu Mu'azu,PDP,People's Democratic Party (PDP),PDP,503447,wikipedia:governorship:1999:BA
+gov-ba-1999,1999,BA,,APP,All People's Party (APP),APC,386174,wikipedia:governorship:1999:BA
+gov-ba-1999,1999,BA,,AD,Alliance for Democracy (AD),APC,15168,wikipedia:governorship:1999:BA
+gov-be-1999,1999,BE,George Akume,PDP,People's Democratic Party (PDP),PDP,584530,wikipedia:governorship:1999:BE
+gov-be-1999,1999,BE,,APP,All People's Party (APP),APC,399728,wikipedia:governorship:1999:BE
+gov-be-1999,1999,BE,,AD,Alliance for Democracy (AD),APC,3683,wikipedia:governorship:1999:BE
+gov-bo-1999,1999,BO,Mala Kachalla,APP,All People's Party,APC,388058,wikipedia:governorship:1999:BO
+gov-bo-1999,1999,BO,Baba Ahmad Jidda,PDP,People's Democratic Party,PDP,348800,wikipedia:governorship:1999:BO
+gov-by-1999,1999,BY,Diepreye Solomon Peter Alamieyeseigha,PDP,People's Democratic Party (PDP),PDP,324463,wikipedia:governorship:1999:BY
+gov-by-1999,1999,BY,Francis Doukpola,APP,All People's Party (APP),APC,269233,wikipedia:governorship:1999:BY
+gov-by-1999,1999,BY,,AD,Alliance for Democracy (AD),APC,2089,wikipedia:governorship:1999:BY
+gov-cr-1999,1999,CR,Donald Duke,PDP,People's Democratic Party,PDP,529335,wikipedia:governorship:1999:CR
+gov-cr-1999,1999,CR,,APP,All People's Party,APC,457660,wikipedia:governorship:1999:CR
+gov-de-1999,1999,DE,James Ibori,PDP,People's Democratic Party,PDP,558332,wikipedia:governorship:1999:DE
+gov-de-1999,1999,DE,,APP,All People's Party,APC,296902,wikipedia:governorship:1999:DE
+gov-eb-1999,1999,EB,Sam Egwu,PDP,People's Democratic Party,PDP,272559,wikipedia:governorship:1999:EB
+gov-eb-1999,1999,EB,,APP,All People's Party,APC,213106,wikipedia:governorship:1999:EB
+gov-ed-1999,1999,ED,Lucky Igbinedion,PDP,People's Democratic Party,PDP,556871,wikipedia:governorship:1999:ED
+gov-ed-1999,1999,ED,Lucky Imasuen,APP,All People's Party,APC,249688,wikipedia:governorship:1999:ED
+gov-ek-1999,1999,EK,Niyi Adebayo,AD,Alliance for Democracy,APC,300118,wikipedia:governorship:1999:EK
+gov-ek-1999,1999,EK,,PDP,People's Democratic Party,PDP,112606,wikipedia:governorship:1999:EK
+gov-en-1999,1999,EN,Adebayo,PDP,People's Democratic Party,PDP,602960,wikipedia:governorship:1999:EN
+gov-en-1999,1999,EN,,APP,All People's Party,APC,235000,wikipedia:governorship:1999:EN
+gov-go-1999,1999,GO,Abubakar Habu Hashidu,APP,All People's Party,APC,349284,wikipedia:governorship:1999:GO
+gov-go-1999,1999,GO,,PDP,People's Democratic Party,PDP,267043,wikipedia:governorship:1999:GO
+gov-im-1999,1999,IM,Achike Udenwa,PDP,People's Democratic Party,PDP,388680,wikipedia:governorship:1999:IM
+gov-im-1999,1999,IM,,APP,All People's Party,APC,379491,wikipedia:governorship:1999:IM
+gov-ji-1999,1999,JI,Ibrahim Saminu Turaki,AD,AD,APC,279591,wikipedia:governorship:1999:JI
+gov-ji-1999,1999,JI,Sule Lamido,PDP,People's Democratic Party,PDP,255773,wikipedia:governorship:1999:JI
+gov-kd-1999,1999,KD,Ahmed Makarfi,PDP,People's Democratic Party (PDP),PDP,844525,wikipedia:governorship:1999:KD
+gov-kd-1999,1999,KD,Suleiman Zuntu,APP,All People's Party (APP),APC,512544,wikipedia:governorship:1999:KD
+gov-kd-1999,1999,KD,Wakili Kadima,AD,Alliance for Democracy (AD),APC,183728,wikipedia:governorship:1999:KD
+gov-ke-1999,1999,KE,Adamu Aliero,APP,All People's Party (Nigeria),APC,259498,wikipedia:governorship:1999:KE
+gov-ke-1999,1999,KE,Mohammed Kaliel,PDP,PDP,PDP,208552,wikipedia:governorship:1999:KE
+gov-kn-1999,1999,KN,Rabiu Kwankwaso,PDP,PDP,PDP,587619,wikipedia:governorship:1999:KN
+gov-kn-1999,1999,KN,Magaji Abdullahi,APP,All People's Party (Nigeria),APC,311218,wikipedia:governorship:1999:KN
+gov-ko-1999,1999,KO,Abubakar Audu,APP,All People's Party,APC,608329,wikipedia:governorship:1999:KO
+gov-ko-1999,1999,KO,,PDP,People's Democratic Party,PDP,349055,wikipedia:governorship:1999:KO
+gov-kt-1999,1999,KT,Umaru Musa Yar'Adua,PDP,PDP,PDP,586681,wikipedia:governorship:1999:KT
+gov-kt-1999,1999,KT,Junaidu Mamuda Yantumaki,APP,APP,APC,286945,wikipedia:governorship:1999:KT
+gov-kw-1999,1999,KW,Mohammed Lawal,APP,All People's Party,APC,283136,wikipedia:governorship:1999:KW
+gov-kw-1999,1999,KW,,PDP,People's Democratic Party,PDP,174205,wikipedia:governorship:1999:KW
+gov-la-1999,1999,LA,Bola Tinubu,AD,Alliance for Democracy,APC,841732,wikipedia:governorship:1999:LA
+gov-la-1999,1999,LA,Dapo Sarumi,PDP,People's Democratic Party,PDP,184900,wikipedia:governorship:1999:LA
+gov-na-1999,1999,NA,Abdullahi Adamu,PDP,People's Democratic Party,PDP,321319,wikipedia:governorship:1999:NA
+gov-na-1999,1999,NA,,APP,All People's Party,APC,290736,wikipedia:governorship:1999:NA
+gov-ni-1999,1999,NI,Abdulkadir Kure,PDP,People's Democratic Party,PDP,600695,wikipedia:governorship:1999:NI
+gov-ni-1999,1999,NI,,APP,All People's Party,APC,158549,wikipedia:governorship:1999:NI
+gov-og-1999,1999,OG,Olusegun Osoba,AD,AD,APC,247154,wikipedia:governorship:1999:OG
+gov-og-1999,1999,OG,,PDP,People's Democratic Party,PDP,122139,wikipedia:governorship:1999:OG
+gov-on-1999,1999,ON,Adebayo Adefarati,AD,Alliance for Democracy,APC,328053,wikipedia:governorship:1999:ON
+gov-on-1999,1999,ON,,PDP,People's Democratic Party,PDP,195682,wikipedia:governorship:1999:ON
+gov-os-1999,1999,OS,Adebisi Akande,AD,Alliance for Democracy,APC,295557,wikipedia:governorship:1999:OS
+gov-os-1999,1999,OS,,APP,All People's Party,APC,136105,wikipedia:governorship:1999:OS
+gov-oy-1999,1999,OY,Lam Adesina,AD,AD,APC,454680,wikipedia:governorship:1999:OY
+gov-oy-1999,1999,OY,,PDP,People's Democratic Party,PDP,219200,wikipedia:governorship:1999:OY
+gov-pl-1999,1999,PL,Joshua Dariye,PDP,People's Democratic Party,PDP,484280,wikipedia:governorship:1999:PL
+gov-pl-1999,1999,PL,,APP,All People's Party,APC,200016,wikipedia:governorship:1999:PL
+gov-ri-1999,1999,RI,Peter Odili,PDP,People's Democratic Party,PDP,770074,wikipedia:governorship:1999:RI
+gov-ri-1999,1999,RI,,APP,All People's Party,APC,710280,wikipedia:governorship:1999:RI
+gov-so-1999,1999,SO,Attahiru Bafarawa,APP,All People's Party (Nigeria),APC,249205,wikipedia:governorship:1999:SO
+gov-so-1999,1999,SO,Muhammadu Modi Yabo,PDP,PDP,PDP,182655,wikipedia:governorship:1999:SO
+gov-ta-1999,1999,TA,Jolly Nyame,PDP,PDP,PDP,467025,wikipedia:governorship:1999:TA
+gov-ta-1999,1999,TA,Ahmed Jalingo,APP,APP,APC,343898,wikipedia:governorship:1999:TA
+gov-yo-1999,1999,YO,Bukar Ibrahim,APP,All People's Party (Nigeria),APC,150688,wikipedia:governorship:1999:YO
+gov-yo-1999,1999,YO,Baba Goni Machina,PDP,PDP,PDP,140948,wikipedia:governorship:1999:YO
+gov-za-1999,1999,ZA,Ahmad Sani Yerima,APP,All People's Party (Nigeria),APC,265529,wikipedia:governorship:1999:ZA
+gov-za-1999,1999,ZA,Yushau Anka,PDP,PDP,PDP,161904,wikipedia:governorship:1999:ZA
+gov-ab-2003,2003,AB,Orji Uzor Kalu,PDP,People's Democratic Party (PDP),PDP,540983,wikipedia:governorship:2003:AB
+gov-ad-2003,2003,AD,Boni Haruna,PDP,People's Democratic Party (PDP),PDP,375000,wikipedia:governorship:2003:AD
+gov-ak-2003,2003,AK,Obong Victor Attah,PDP,People's Democratic Party (PDP),PDP,1028722,wikipedia:governorship:2003:AK
+gov-an-2003,2003,AN,Chris Ngige,PDP,People's Democratic Party (PDP),PDP,452820,wikipedia:governorship:2003:AN
+gov-ba-2003,2003,BA,Adamu Mu'azu,PDP,People's Democratic Party (PDP),PDP,1198130,wikipedia:governorship:2003:BA
+gov-be-2003,2003,BE,George Akume,PDP,People's Democratic Party (PDP),PDP,681717,wikipedia:governorship:2003:BE
+gov-bo-2003,2003,BO,Ali Modu Sheriff,ANPP,All Nigeria Peoples Party (ANPP),APC,581880,wikipedia:governorship:2003:BO
+gov-by-2003,2003,BY,Diepreye S. P. Alamieyesiegha,PDP,People's Democratic Party (PDP)),PDP,698644,wikipedia:governorship:2003:BY
+gov-cr-2003,2003,CR,Donald Duke,PDP,People's Democratic Party (PDP),PDP,1193290,wikipedia:governorship:2003:CR
+gov-de-2003,2003,DE,James Ibori,PDP,People's Democratic Party (PDP),PDP,1038607,wikipedia:governorship:2003:DE
+gov-eb-2003,2003,EB,Sam Egwu,PDP,People's Democratic Party (PDP),PDP,768674,wikipedia:governorship:2003:EB
+gov-ed-2003,2003,ED,Lucky Igbinedion,PDP,Peoples Democratic Party (PDP),PDP,969747,wikipedia:governorship:2003:ED
+gov-ek-2003,2003,EK,Ayo Fayose,PDP,People's Democratic Party (PDP),PDP,219906,wikipedia:governorship:2003:EK
+gov-ek-2003,2003,EK,Niyi Adebayo,AD,Alliance for Democracy (AD),APC,168391,wikipedia:governorship:2003:EK
+gov-en-2003,2003,EN,Chimaroke Nnamani,PDP,People's Democratic Party,PDP,1072173,wikipedia:governorship:2003:EN
+gov-en-2003,2003,EN,Onu Solomon,NRP,National Reformation Party,OTHER,59144,wikipedia:governorship:2003:EN
+gov-go-2003,2003,GO,Mohammed Danjuma Goje,PDP,People's Democratic Party,PDP,495562,wikipedia:governorship:2003:GO
+gov-go-2003,2003,GO,Abubakar Habu Hashidu,ANPP,All Nigeria Peoples Party,APC,468223,wikipedia:governorship:2003:GO
+gov-im-2003,2003,IM,Achike Udenwa,PDP,People's Democratic Party,PDP,695405,wikipedia:governorship:2003:IM
+gov-im-2003,2003,IM,Ezekiel Izogu,APGA,All Progressives Grand Alliance,APGA,142942,wikipedia:governorship:2003:IM
+gov-ji-2003,2003,JI,Ibrahim Saminu Turaki,ANPP,All Nigeria People's Party,APC,816383,wikipedia:governorship:2003:JI
+gov-ji-2003,2003,JI,Mohammed Alkali,PDP,People's Democratic Party,PDP,265494,wikipedia:governorship:2003:JI
+gov-kd-2003,2003,KD,Ahmed Makarfi,PDP,People's Democratic Party (PDP),PDP,1143890,wikipedia:governorship:2003:KD
+gov-kd-2003,2003,KD,Suleiman Hunkuyi,ANPP,All Nigeria Peoples Party (ANPP),APC,668446,wikipedia:governorship:2003:KD
+gov-ke-2003,2003,KE,Adamu Aliero,ANPP,ANPP,APC,502903,wikipedia:governorship:2003:KE
+gov-ke-2003,2003,KE,Saidu Samaila Sambawa,PDP,PDP,PDP,299120,wikipedia:governorship:2003:KE
+gov-kn-2003,2003,KN,Ibrahim Shekarau,ANPP,ANPP,APC,1082457,wikipedia:governorship:2003:KN
+gov-kn-2003,2003,KN,Rabiu Kwankwaso,PDP,PDP,PDP,888494,wikipedia:governorship:2003:KN
+gov-ko-2003,2003,KO,Ibrahim Idris,PDP,People's Democratic Party,PDP,481264,wikipedia:governorship:2003:KO
+gov-ko-2003,2003,KO,Abubakar Audu,ANPP,All Nigeria Peoples Party,APC,293089,wikipedia:governorship:2003:KO
+gov-kt-2003,2003,KT,Umaru Musa Yar'Adua,PDP,PDP,PDP,892340,wikipedia:governorship:2003:KT
+gov-kt-2003,2003,KT,Nura Khalil,ANPP,ANPP,APC,742582,wikipedia:governorship:2003:KT
+gov-kw-2003,2003,KW,Bukola Saraki,PDP,People's Democratic Party,PDP,322242,wikipedia:governorship:2003:KW
+gov-kw-2003,2003,KW,Mohammed Lawal,ANPP,All Nigeria Peoples Party,APC,199855,wikipedia:governorship:2003:KW
+gov-la-2003,2003,LA,Bola Tinubu,AD,AD,APC,911613,wikipedia:governorship:2003:LA
+gov-la-2003,2003,LA,Funsho Williams,PDP,PDP,PDP,740506,wikipedia:governorship:2003:LA
+gov-na-2003,2003,NA,Abdullahi Adamu,PDP,People's Democratic Party,PDP,505893,wikipedia:governorship:2003:NA
+gov-na-2003,2003,NA,Aliyu Doma,ANPP,All Nigeria Peoples Party,APC,108588,wikipedia:governorship:2003:NA
+gov-ni-2003,2003,NI,Abdulkadir Kure,PDP,People's Democratic Party,PDP,561929,wikipedia:governorship:2003:NI
+gov-ni-2003,2003,NI,Mustafa Bello,PRP,People's Redemption Party,OTHER,247695,wikipedia:governorship:2003:NI
+gov-og-2003,2003,OG,Gbenga Daniel,PDP,People's Democratic Party,PDP,449335,wikipedia:governorship:2003:OG
+gov-og-2003,2003,OG,Olusegun Osoba,AD,Alliance for Democracy,APC,231982,wikipedia:governorship:2003:OG
+gov-on-2003,2003,ON,Olusegun Agagu,PDP,People's Democratic Party (PDP),PDP,655968,wikipedia:governorship:2003:ON
+gov-on-2003,2003,ON,Adebayo Adefarati,AD,Alliance for Democracy (AD),APC,233900,wikipedia:governorship:2003:ON
+gov-os-2003,2003,OS,Olagunsoye Oyinlola,PDP,People's Democratic Party (PDP),PDP,493509,wikipedia:governorship:2003:OS
+gov-os-2003,2003,OS,Adebisi Akande,AD,Alliance for Democracy (AD),APC,237041,wikipedia:governorship:2003:OS
+gov-oy-2003,2003,OY,Rashidi Ladoja,PDP,People's Democratic Party (PDP),PDP,636212,wikipedia:governorship:2003:OY
+gov-oy-2003,2003,OY,Lam Adesina,AD,Alliance for Democracy (AD),APC,381310,wikipedia:governorship:2003:OY
+gov-pl-2003,2003,PL,Joshua Dariye,PDP,People's Democratic Party (PDP),PDP,364903,wikipedia:governorship:2003:PL
+gov-ri-2003,2003,RI,Peter Odili,PDP,People's Democratic Party (PDP),PDP,2098692,wikipedia:governorship:2003:RI
+gov-so-2003,2003,SO,Attahiru Bafarawa,ANPP,ANPP,APC,665545,wikipedia:governorship:2003:SO
+gov-so-2003,2003,SO,Abdallah Wali,PDP,PDP,PDP,245047,wikipedia:governorship:2003:SO
+gov-ta-2003,2003,TA,Jolly Nyame,PDP,PDP,PDP,784013,wikipedia:governorship:2003:TA
+gov-ta-2003,2003,TA,Abubakar Saad,ANPP,ANPP,APC,102879,wikipedia:governorship:2003:TA
+gov-yo-2003,2003,YO,Bukar Ibrahim,ANPP,ANPP,APC,368806,wikipedia:governorship:2003:YO
+gov-yo-2003,2003,YO,Adamu Waziri,PDP,PDP,PDP,188262,wikipedia:governorship:2003:YO
+gov-za-2003,2003,ZA,Ahmad Sani Yerima,ANPP,ANPP,APC,829954,wikipedia:governorship:2003:ZA
+gov-za-2003,2003,ZA,Bala Mande,PDP,PDP,PDP,210143,wikipedia:governorship:2003:ZA
+gov-ad-2007,2007,AD,Murtala Nyako,PDP,PDP,PDP,336892,wikipedia:governorship:2007:AD
+gov-ad-2007,2007,AD,Joel Madaki,LP,LP,LP,86684,wikipedia:governorship:2007:AD
+gov-ak-2007,2007,AK,Godswill Akpabio,PDP,PDP,PDP,1044566,wikipedia:governorship:2007:AK
+gov-ak-2007,2007,AK,James Iniama,ACN,ACN,APC,19865,wikipedia:governorship:2007:AK
+gov-an-2007,2007,AN,Emmanuel Nnamdi Uba,PDP,PDP,PDP,1093004,wikipedia:governorship:2007:AN
+gov-an-2007,2007,AN,Virginia Etiaba,APGA,APGA,APGA,71296,wikipedia:governorship:2007:AN
+gov-ba-2007,2007,BA,Isa Yuguda,ANPP,ANPP,APC,550251,wikipedia:governorship:2007:BA
+gov-ba-2007,2007,BA,Mohammed Nadada Umar,PDP,PDP,PDP,474233,wikipedia:governorship:2007:BA
+gov-be-2007,2007,BE,Gabriel Suswam,PDP,PDP,PDP,1086489,wikipedia:governorship:2007:BE
+gov-be-2007,2007,BE,Daniel Saror,ANPP,ANPP,APC,276618,wikipedia:governorship:2007:BE
+gov-bo-2007,2007,BO,Ali Modu Sheriff,ANPP,ANPP,APC,688763,wikipedia:governorship:2007:BO
+gov-bo-2007,2007,BO,Kashim Ibrahim-Imam,PDP,PDP,PDP,307764,wikipedia:governorship:2007:BO
+gov-by-2007,2007,BY,Timipre Sylva,PDP,PDP,PDP,776715,wikipedia:governorship:2007:BY
+gov-by-2007,2007,BY,Ebitimi Amgbare,ACN,ACN,APC,10789,wikipedia:governorship:2007:BY
+gov-cr-2007,2007,CR,Liyel Imoke,PDP,PDP,PDP,836207,wikipedia:governorship:2007:CR
+gov-cr-2007,2007,CR,Eyo Etim Nyong,DPP,DPP,OTHER,14067,wikipedia:governorship:2007:CR
+gov-de-2007,2007,DE,Emmanuel Uduaghan,PDP,PDP,PDP,1004043,wikipedia:governorship:2007:DE
+gov-de-2007,2007,DE,Great Ogboru,DPP,DPP,OTHER,46809,wikipedia:governorship:2007:DE
+gov-eb-2007,2007,EB,Martin Elechi,PDP,PDP,PDP,506444,wikipedia:governorship:2007:EB
+gov-eb-2007,2007,EB,Ogbonnaya Onu,ANPP,ANPP,APC,28579,wikipedia:governorship:2007:EB
+gov-ed-2007,2007,ED,Oserheimen Osunbor,PDP,PDP,PDP,329740,wikipedia:governorship:2007:ED
+gov-ed-2007,2007,ED,Adams Oshiomole,ACN,ACN,APC,197472,wikipedia:governorship:2007:ED
+gov-ek-2007,2007,EK,Olusegun Oni,PDP,PDP,PDP,177689,wikipedia:governorship:2007:EK
+gov-ek-2007,2007,EK,Kayode Fayemi,ACN,ACN,APC,108305,wikipedia:governorship:2007:EK
+gov-en-2007,2007,EN,Sullivan Chime,PDP,PDP,PDP,787306,wikipedia:governorship:2007:EN
+gov-en-2007,2007,EN,Ugochukwu Agballa,A,Accord,OTHER,25103,wikipedia:governorship:2007:EN
+gov-go-2007,2007,GO,Mohammed Danjuma Goje,PDP,PDP,PDP,985013,wikipedia:governorship:2007:GO
+gov-go-2007,2007,GO,Abubakar Habu Hashidu,DPP,DPP,OTHER,38303,wikipedia:governorship:2007:GO
+gov-im-2007,2007,IM,Ikedi Ohakim,PPA,PPA,OTHER,749800,wikipedia:governorship:2007:IM
+gov-im-2007,2007,IM,Ifeanyi Ararume,PDP,PDP,PDP,309273,wikipedia:governorship:2007:IM
+gov-ji-2007,2007,JI,Sule Lamido,PDP,PDP,PDP,523940,wikipedia:governorship:2007:JI
+gov-ji-2007,2007,JI,Mohammed Ibrahim,ANPP,ANPP,APC,260055,wikipedia:governorship:2007:JI
+gov-kd-2007,2007,KD,Mohammed Namadi Sambo,PDP,PDP,PDP,1326632,wikipedia:governorship:2007:KD
+gov-kd-2007,2007,KD,Sani Muhammed Sha'aban,ANPP,ANPP,APC,478725,wikipedia:governorship:2007:KD
+gov-ke-2007,2007,KE,Usman Saidu Nasamu Dakingari,PDP,PDP,PDP,469595,wikipedia:governorship:2007:KE
+gov-ke-2007,2007,KE,Farouk Bello Bunza,ANPP,ANPP,APC,134553,wikipedia:governorship:2007:KE
+gov-kn-2007,2007,KN,Ibrahim Shekarau,ANPP,ANPP,APC,671184,wikipedia:governorship:2007:KN
+gov-kn-2007,2007,KN,Ahmed Bichi,PDP,PDP,PDP,629868,wikipedia:governorship:2007:KN
+gov-ko-2007,2007,KO,Ibrahim Idris,PDP,PDP,PDP,724839,wikipedia:governorship:2007:KO
+gov-ko-2007,2007,KO,Mohammed Abdulsalami Ohiare,ACN,ACN,APC,304335,wikipedia:governorship:2007:KO
+gov-kt-2007,2007,KT,Ibrahim Shema,PDP,PDP,PDP,1185489,wikipedia:governorship:2007:KT
+gov-kt-2007,2007,KT,Abu Ibrahim,ANPP,ANPP,APC,218302,wikipedia:governorship:2007:KT
+gov-kw-2007,2007,KW,Bukola Saraki,PDP,PDP,PDP,572938,wikipedia:governorship:2007:KW
+gov-kw-2007,2007,KW,Gbenga Olawepo-Hashim,DPP,DPP,OTHER,63743,wikipedia:governorship:2007:KW
+gov-la-2007,2007,LA,Babatunde Raji Fashola,AC,Action Congress (AC),APC,599300,wikipedia:governorship:2007:LA
+gov-la-2007,2007,LA,Musiliu Olatunde Obanikoro,PDP,People's Democratic Party (PDP),PDP,383956,wikipedia:governorship:2007:LA
+gov-la-2007,2007,LA,Jimi Agbaje,DPA,DPA,OTHER,114557,wikipedia:governorship:2007:LA
+gov-la-2007,2007,LA,Tokunbo Afikuyomi,ANPP,All Nigeria Peoples Party (ANPP),APC,66411,wikipedia:governorship:2007:LA
+gov-na-2007,2007,NA,Aliyu Doma,PDP,PDP,PDP,467302,wikipedia:governorship:2007:NA
+gov-na-2007,2007,NA,Solomon Sunday Akku,ANPP,ANPP,APC,232709,wikipedia:governorship:2007:NA
+gov-ni-2007,2007,NI,Mu'azu Babangida Aliyu,PDP,PDP,PDP,443764,wikipedia:governorship:2007:NI
+gov-ni-2007,2007,NI,David Umaru,ANPP,ANPP,APC,210359,wikipedia:governorship:2007:NI
+gov-og-2007,2007,OG,Gbenga Daniel,PDP,PDP,PDP,426132,wikipedia:governorship:2007:OG
+gov-og-2007,2007,OG,Ibikunle Amosun,ANPP,ANPP,APC,135149,wikipedia:governorship:2007:OG
+gov-on-2007,2007,ON,Olusegun Agagu,PDP,PDP,PDP,349258,wikipedia:governorship:2007:ON
+gov-on-2007,2007,ON,Olusegun Mimiko,LP,LP,LP,226051,wikipedia:governorship:2007:ON
+gov-os-2007,2007,OS,Olagunsoye Oyinlola,PDP,PDP,PDP,426669,wikipedia:governorship:2007:OS
+gov-os-2007,2007,OS,Rauf Aregbesola,ACN,ACN,APC,240722,wikipedia:governorship:2007:OS
+gov-oy-2007,2007,OY,Christopher Alao-Akala,PDP,PDP,PDP,357972,wikipedia:governorship:2007:OY
+gov-oy-2007,2007,OY,Abiola Ajimobi,ANPP,ANPP,APC,239189,wikipedia:governorship:2007:OY
+gov-pl-2007,2007,PL,Jonah David Jang,PDP,PDP,PDP,465364,wikipedia:governorship:2007:PL
+gov-pl-2007,2007,PL,Pam Dung Gyang,ACN,ACN,APC,269273,wikipedia:governorship:2007:PL
+gov-ri-2007,2007,RI,Celestine Omehia,PDP,PDP,PDP,1853127,wikipedia:governorship:2007:RI
+gov-ri-2007,2007,RI,Ashley Emenike,LP,LP,LP,101347,wikipedia:governorship:2007:RI
+gov-so-2007,2007,SO,Aliyu Magatakarda Wamakko,PDP,PDP,PDP,392258,wikipedia:governorship:2007:SO
+gov-so-2007,2007,SO,Muhammed Dingyadi,DPP,DPP,OTHER,296419,wikipedia:governorship:2007:SO
+gov-ta-2007,2007,TA,Danbaba Suntai,PDP,PDP,PDP,515016,wikipedia:governorship:2007:TA
+gov-ta-2007,2007,TA,Ahmed Yusuf,ACN,ACN,APC,119720,wikipedia:governorship:2007:TA
+gov-yo-2007,2007,YO,Mamman Bello Ali,ANPP,ANPP,APC,210166,wikipedia:governorship:2007:YO
+gov-yo-2007,2007,YO,Adamu Waziri,PDP,PDP,PDP,186399,wikipedia:governorship:2007:YO
+gov-za-2007,2007,ZA,Mahmud Shinkafi,ANPP,ANPP,APC,415455,wikipedia:governorship:2007:ZA
+gov-za-2007,2007,ZA,Yahaya Abdulkarim,PDP,PDP,PDP,122351,wikipedia:governorship:2007:ZA
+gov-an-2010,2010,AN,Peter Obi,APGA,All Progressives Grand Alliance,APGA,97843,wikipedia:governorship:2010:AN
+gov-an-2010,2010,AN,Chris Ngige,ACN,Action Congress of Nigeria,APC,60240,wikipedia:governorship:2010:AN
+gov-an-2010,2010,AN,Charles Chukwuma Soludo,PDP,People's Democratic Party,PDP,59355,wikipedia:governorship:2010:AN
+gov-an-2010,2010,AN,Andy Uba,LP,Labour Party,LP,26106,wikipedia:governorship:2010:AN
+gov-an-2010,2010,AN,Nicholas Ukachukwu,HDP,Hope Democratic Party,OTHER,20777,wikipedia:governorship:2010:AN
+gov-an-2010,2010,AN,Uche Ekwunife,PPA,Progressive Peoples Alliance,OTHER,9595,wikipedia:governorship:2010:AN
+gov-ab-2011,2011,AB,Theodore Orji,PDP,PDP,PDP,641158,wikipedia:governorship:2011:AB
+gov-ab-2011,2011,AB,Reagan Ufomba,APGA,APGA,APGA,49421,wikipedia:governorship:2011:AB
+gov-ak-2011,2011,AK,Godswill Akpabio,PDP,PDP,PDP,957585,wikipedia:governorship:2011:AK
+gov-ak-2011,2011,AK,John James Akpan Udo-Edehe,ACN,ACN,APC,163449,wikipedia:governorship:2011:AK
+gov-ba-2011,2011,BA,Isa Yuguda,PDP,PDP,PDP,771503,wikipedia:governorship:2011:BA
+gov-ba-2011,2011,BA,Yusuf Tuggar,CPC,CPC,APC,238426,wikipedia:governorship:2011:BA
+gov-be-2011,2011,BE,Gabriel Suswam,PDP,PDP,PDP,590756,wikipedia:governorship:2011:BE
+gov-be-2011,2011,BE,Steven Ugbah,ACN,ACN,APC,499319,wikipedia:governorship:2011:BE
+gov-bo-2011,2011,BO,Kashim Shettima,ANPP,ANPP,APC,531147,wikipedia:governorship:2011:BO
+gov-bo-2011,2011,BO,Mohammed Goni,PDP,PDP,PDP,450140,wikipedia:governorship:2011:BO
+gov-de-2011,2011,DE,Emmanuel Uduaghan,PDP,PDP,PDP,525793,wikipedia:governorship:2011:DE
+gov-de-2011,2011,DE,Great Ogboru,DPP,DPP,OTHER,433834,wikipedia:governorship:2011:DE
+gov-eb-2011,2011,EB,Martin Elechi,PDP,PDP,PDP,287217,wikipedia:governorship:2011:EB
+gov-eb-2011,2011,EB,Julius Ucha,ANPP,ANPP,APC,125248,wikipedia:governorship:2011:EB
+gov-en-2011,2011,EN,Sullivan Chime,PDP,PDP,PDP,419790,wikipedia:governorship:2011:EN
+gov-en-2011,2011,EN,Okey Ezea,LP,LP,LP,30135,wikipedia:governorship:2011:EN
+gov-go-2011,2011,GO,Ibrahim Hassan Dankwambo,PDP,PDP,PDP,596481,wikipedia:governorship:2011:GO
+gov-go-2011,2011,GO,Abubakar Aliyu,CPC,CPC,APC,91781,wikipedia:governorship:2011:GO
+gov-im-2011,2011,IM,Rochas Okorocha,APGA,APGA,APGA,336859,wikipedia:governorship:2011:IM
+gov-im-2011,2011,IM,Ikedi Ohakim,PDP,PDP,PDP,290496,wikipedia:governorship:2011:IM
+gov-ji-2011,2011,JI,Sule Lamido,PDP,PDP,PDP,676307,wikipedia:governorship:2011:JI
+gov-ji-2011,2011,JI,Mohammed Badaru Abubakar,ACN,ACN,APC,343177,wikipedia:governorship:2011:JI
+gov-kd-2011,2011,KD,Patrick Ibrahim Yakowa,PDP,People's Democratic Party (PDP),PDP,1334319,wikipedia:governorship:2011:KD
+gov-kd-2011,2011,KD,Haruna Saeed Kajuru,CPC,Congress for Progressive Change (CPC),APC,1133564,wikipedia:governorship:2011:KD
+gov-kd-2011,2011,KD,Muhammed Muktar Aruwa,ANPP,All Nigeria Peoples Party (ANPP),APC,33142,wikipedia:governorship:2011:KD
+gov-kd-2011,2011,KD,Abdulkadir Balarabe Musa,PRP,People's Redemption Party (PRP),OTHER,21200,wikipedia:governorship:2011:KD
+gov-kd-2011,2011,KD,Sani Mohammed Sha'aban,ACN,Action Congress of Nigeria (ACN),APC,20094,wikipedia:governorship:2011:KD
+gov-ke-2011,2011,KE,Usman Saidu Nasamu Dakingari,PDP,PDP,PDP,559424,wikipedia:governorship:2011:KE
+gov-ke-2011,2011,KE,Abubakar Abubakar,CPC,CPC,APC,326482,wikipedia:governorship:2011:KE
+gov-kn-2011,2011,KN,Rabiu Kwankwaso,PDP,PDP,PDP,1108345,wikipedia:governorship:2011:KN
+gov-kn-2011,2011,KN,Salihu Sagir Takai,ANPP,ANPP,APC,1048317,wikipedia:governorship:2011:KN
+gov-ko-2011,2011,KO,Idris Wada,PDP,PDP,PDP,300372,wikipedia:governorship:2011:KO
+gov-ko-2011,2011,KO,Abubakar Audu,ACN,ACN,APC,159913,wikipedia:governorship:2011:KO
+gov-kt-2011,2011,KT,Ibrahim Shema,PDP,PDP,PDP,1029912,wikipedia:governorship:2011:KT
+gov-kt-2011,2011,KT,Aminu Bello Masari,CPC,CPC,APC,555769,wikipedia:governorship:2011:KT
+gov-kw-2011,2011,KW,Abdulfatah Ahmed,PDP,PDP,PDP,254969,wikipedia:governorship:2011:KW
+gov-kw-2011,2011,KW,Dele Belgore,ACN,ACN,APC,152580,wikipedia:governorship:2011:KW
+gov-la-2011,2011,LA,Babatunde Fashola,ACN,ACN,APC,1509113,wikipedia:governorship:2011:LA
+gov-la-2011,2011,LA,Shamsideen Adegboye,PDP,PDP,PDP,300450,wikipedia:governorship:2011:LA
+gov-na-2011,2011,NA,Umaru Tanko Al-Makura,CPC,CPC,APC,324823,wikipedia:governorship:2011:NA
+gov-na-2011,2011,NA,Aliyu Doma,PDP,PDP,PDP,320398,wikipedia:governorship:2011:NA
+gov-ni-2011,2011,NI,Mu'azu Babangida Aliyu,PDP,PDP,PDP,543205,wikipedia:governorship:2011:NI
+gov-ni-2011,2011,NI,Ibrahim Bako Shettima,CPC,CPC,APC,244770,wikipedia:governorship:2011:NI
+gov-og-2011,2011,OG,Ibikunle Amosun,ACN,ACN,APC,514962,wikipedia:governorship:2011:OG
+gov-og-2011,2011,OG,Tunji Olurin,PDP,PDP,PDP,377487,wikipedia:governorship:2011:OG
+gov-oy-2011,2011,OY,Abiola Ajimobi,ACN,ACN,APC,420852,wikipedia:governorship:2011:OY
+gov-oy-2011,2011,OY,Christopher Alao-Akala,PDP,PDP,PDP,387132,wikipedia:governorship:2011:OY
+gov-pl-2011,2011,PL,Jonah David Jang,PDP,PDP,PDP,823536,wikipedia:governorship:2011:PL
+gov-pl-2011,2011,PL,Pauline Tallen,LP,LP,LP,494975,wikipedia:governorship:2011:PL
+gov-ri-2011,2011,RI,Rotimi Amaechi,PDP,PDP,PDP,1178529,wikipedia:governorship:2011:RI
+gov-ri-2011,2011,RI,Celestine Omehia,APGA,APGA,APGA,112528,wikipedia:governorship:2011:RI
+gov-ta-2011,2011,TA,Danbaba Suntai,PDP,PDP,PDP,361176,wikipedia:governorship:2011:TA
+gov-ta-2011,2011,TA,Ahmed Yusuf,CPC,CPC,APC,176342,wikipedia:governorship:2011:TA
+gov-yo-2011,2011,YO,Ibrahim Gaidam,ANPP,ANPP,APC,436998,wikipedia:governorship:2011:YO
+gov-yo-2011,2011,YO,Usman Albishir,PDP,PDP,PDP,195449,wikipedia:governorship:2011:YO
+gov-za-2011,2011,ZA,Abdul'aziz Abubakar Yari,ANPP,ANPP,APC,514962,wikipedia:governorship:2011:ZA
+gov-za-2011,2011,ZA,Mahmud Shinkafi,PDP,PDP,PDP,460656,wikipedia:governorship:2011:ZA
+gov-ad-2012,2012,AD,Murtala Nyako,PDP,People's Democratic Party,PDP,302953,wikipedia:governorship:2012:AD
+gov-ad-2012,2012,AD,Markus Gundiri,ACN,Action Congress of Nigeria,APC,241023,wikipedia:governorship:2012:AD
+gov-by-2012,2012,BY,Seriake Dickson,PDP,People's Democratic Party,PDP,417500,wikipedia:governorship:2012:BY
+gov-cr-2012,2012,CR,Liyel Imoke,PDP,People's Democratic Party,PDP,451544,wikipedia:governorship:2012:CR
+gov-cr-2012,2012,CR,Usani Uguru Usani,ACN,Action Congress of Nigeria,APC,31026,wikipedia:governorship:2012:CR
+gov-ed-2012,2012,ED,Adams Oshiomhole,ACN,Action Congress of Nigeria,APC,477478,wikipedia:governorship:2012:ED
+gov-ed-2012,2012,ED,Charles Airhiavbere,PDP,People's Democratic Party,PDP,144255,wikipedia:governorship:2012:ED
+gov-ed-2012,2012,ED,Solomon Edebiri,ANPP,All Nigeria People's Party,APC,3642,wikipedia:governorship:2012:ED
+gov-ed-2012,2012,ED,Izevbuwa Roland,CPC,Congress for Progressive Change,APC,2793,wikipedia:governorship:2012:ED
+gov-ed-2012,2012,ED,Frank Ukonga,SDMP,Social Democratic Mega party,OTHER,807,wikipedia:governorship:2012:ED
+gov-ed-2012,2012,ED,Andrew Igwemoh,LP,Labour Party,LP,604,wikipedia:governorship:2012:ED
+gov-ed-2012,2012,ED,Paul Orumwense,NCP,National Conscience Party,OTHER,540,wikipedia:governorship:2012:ED
+gov-on-2012,2012,ON,Olusegun Rahman Mimiko,LP,Labour Party (Nigeria) (LP),LP,260199,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Olusola Alex Oke,PDP,People's Democratic Party,PDP,155961,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Oluwarotimi Odunayo Akeredolu,ACN,Action Congress of Nigeria (ACN),APC,143512,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Victor O. Adetusin,PDC,PDC,OTHER,21361,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Ola G. Festus,BNPP,Better Nigeria People's Party (BNPP),OTHER,2949,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Ehinlawo Olusola,CPC,Congress for Progressive Change (CPC),APC,1931,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Adeuti S. Taiyo,ACPN,ACPN,OTHER,1806,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Omoregha O. Kris,PPA,PPA,OTHER,1651,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Ade Bolarinwa,ANPP,All Nigeria Peoples Party (ANPP),APC,1461,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Abikanlu J. Olusola,NSDP,NSDP,OTHER,1103,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Oladapo B. Lawrence,NCP,NCP,OTHER,823,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Ola T. Adegoroye,APS,APS,OTHER,751,wikipedia:governorship:2012:ON
+gov-on-2012,2012,ON,Omoyele A. Olorinmiga,CAP,CAP,OTHER,735,wikipedia:governorship:2012:ON
+gov-so-2012,2012,SO,Aliyu Magatakarda Wamakko,PDP,PDP,PDP,518247,wikipedia:governorship:2012:SO
+gov-so-2012,2012,SO,Yusha'u Ahmed,ANPP,ANPP,APC,131048,wikipedia:governorship:2012:SO
+gov-an-2013,2013,AN,Willie Obiano,APGA,All Progressives Grand Alliance,APGA,180178,wikipedia:governorship:2013:AN
+gov-an-2013,2013,AN,Tony Nwoye,PDP,People's Democratic Party,PDP,97700,wikipedia:governorship:2013:AN
+gov-an-2013,2013,AN,Chris Ngige,APC,All Progressives Congress,APC,95963,wikipedia:governorship:2013:AN
+gov-an-2013,2013,AN,Ifeanyi Ubah,LP,Labour Party (Nigeria),LP,37495,wikipedia:governorship:2013:AN
+gov-an-2013,2013,AN,Godwin Ezeemo,PPA,Progressives Peoples Alliance,OTHER,5120,wikipedia:governorship:2013:AN
+gov-ek-2014,2014,EK,Ayo Fayose,PDP,People's Democratic Party,PDP,203090,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,Kayode Fayemi,APC,All Progressives Congress,APC,120433,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,Bamidele Michael Opeyemi,LP,Labour Party,LP,18135,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,PPA,Progressive Peoples Alliance,OTHER,1050,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,CPP,Convention People's Party,OTHER,967,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,PDC,People For Democratic Change,OTHER,921,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,AD,Alliance for Democracy,APC,843,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,NCP,National Conscience Party,OTHER,322,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,A,Accord,OTHER,268,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,KP,KOWA Party,OTHER,222,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,AA,Action Alliance,OTHER,146,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,MPPP,MPPP,OTHER,137,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,UDP,United Democratic Party,OTHER,67,wikipedia:governorship:2014:EK
+gov-ek-2014,2014,EK,,SDP,Social Democratic Party,SDP,65,wikipedia:governorship:2014:EK
+gov-os-2014,2014,OS,Rauf Aregbesola,APC,All Progressives Congress,APC,394684,wikipedia:governorship:2014:OS
+gov-os-2014,2014,OS,Iyiola Omisore,PDP,People's Democratic Party,PDP,292747,wikipedia:governorship:2014:OS
+gov-os-2014,2014,OS,,LP,Labour Party,LP,8898,wikipedia:governorship:2014:OS
+gov-ab-2015,2015,AB,Okezie Ikpeazu,PDP,PDP,PDP,264713,wikipedia:governorship:2015:AB
+gov-ab-2015,2015,AB,Alex Otti,APGA,APGA,APGA,180882,wikipedia:governorship:2015:AB
+gov-ad-2015,2015,AD,Bindo Jibrilla,APC,All Progressives Congress,APC,362329,wikipedia:governorship:2015:AD
+gov-ad-2015,2015,AD,Markus Gundiri,SDP,Social Democratic Party,SDP,181806,wikipedia:governorship:2015:AD
+gov-ad-2015,2015,AD,Nuhu Ribadu,PDP,People's Democratic Party,PDP,98917,wikipedia:governorship:2015:AD
+gov-ad-2015,2015,AD,Ahmed Modibbo,PDM,People's Democratic Movement,OTHER,32985,wikipedia:governorship:2015:AD
+gov-ak-2015,2015,AK,Udom Gabriel Emmanuel,PDP,People's Democratic Party,PDP,996071,wikipedia:governorship:2015:AK
+gov-ak-2015,2015,AK,Umana Umana,APC,All Progressives Congress,APC,89865,wikipedia:governorship:2015:AK
+gov-ba-2015,2015,BA,Mohammed Abdullahi Abubakar,APC,APC,APC,654934,wikipedia:governorship:2015:BA
+gov-ba-2015,2015,BA,Mohammed Jatau,PDP,PDP,PDP,282650,wikipedia:governorship:2015:BA
+gov-be-2015,2015,BE,Samuel Ortom,APC,APC,APC,422932,wikipedia:governorship:2015:BE
+gov-be-2015,2015,BE,Terhemen Tarzoor,PDP,PDP,PDP,313878,wikipedia:governorship:2015:BE
+gov-bo-2015,2015,BO,Kashim Shettima,APC,All Progressives Congress (APC),APC,649913,wikipedia:governorship:2015:BO
+gov-bo-2015,2015,BO,Gambo Lawan,PDP,People's Democratic Party (PDP),PDP,34731,wikipedia:governorship:2015:BO
+gov-by-2015,2015,BY,Henry Seriake Dickson,PDP,People's Democratic Party,PDP,134998,wikipedia:governorship:2015:BY
+gov-by-2015,2015,BY,Timipre Sylva,APC,All Progressives Congress,APC,86852,wikipedia:governorship:2015:BY
+gov-by-2015,2015,BY,Moses Siasia,PDM,People's Democratic Movement,OTHER,1572,wikipedia:governorship:2015:BY
+gov-cr-2015,2015,CR,Benedict Ayade,PDP,PDP,PDP,342016,wikipedia:governorship:2015:CR
+gov-cr-2015,2015,CR,Odey Ochicha,APC,APC,APC,53983,wikipedia:governorship:2015:CR
+gov-de-2015,2015,DE,Ifeanyi Okowa,PDP,PDP,PDP,724680,wikipedia:governorship:2015:DE
+gov-de-2015,2015,DE,Great Ogboru,LP,LP,LP,130028,wikipedia:governorship:2015:DE
+gov-eb-2015,2015,EB,Dave Umahi,PDP,PDP,PDP,289867,wikipedia:governorship:2015:EB
+gov-eb-2015,2015,EB,Edward Nkwegu,LP,LP,LP,124817,wikipedia:governorship:2015:EB
+gov-en-2015,2015,EN,Ifeanyi Ugwuanyi,PDP,PDP,PDP,482277,wikipedia:governorship:2015:EN
+gov-en-2015,2015,EN,Okey Ezea,APC,APC,APC,43839,wikipedia:governorship:2015:EN
+gov-go-2015,2015,GO,Ibrahim Hassan Dankwambo,PDP,PDP,PDP,285369,wikipedia:governorship:2015:GO
+gov-go-2015,2015,GO,Muhammad Inuwa Yahaya,APC,APC,APC,205132,wikipedia:governorship:2015:GO
+gov-im-2015,2015,IM,Rochas Okorocha,APC,APC,APC,416996,wikipedia:governorship:2015:IM
+gov-im-2015,2015,IM,Emeka Ihedioha,PDP,PDP,PDP,320705,wikipedia:governorship:2015:IM
+gov-ji-2015,2015,JI,Mohammed Badaru Abubakar,APC,APC,APC,648045,wikipedia:governorship:2015:JI
+gov-ji-2015,2015,JI,Aminu Ibrahim Ringim,PDP,PDP,PDP,479447,wikipedia:governorship:2015:JI
+gov-ji-2015,2015,JI,Sardauna Yanleman,APGA,APGA,APGA,1997,wikipedia:governorship:2015:JI
+gov-ji-2015,2015,JI,Musa Galamawa,NCP,NCP,OTHER,1394,wikipedia:governorship:2015:JI
+gov-kd-2015,2015,KD,Nasir el-Rufai,APC,All Progressives Congress (APC),APC,1117635,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Mukhtar Ramalan Yero,PDP,People's Democratic Party (PDP),PDP,485833,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Polycarp Danladi Gankon,APGA,All Progressives Grand Alliance (APGA),APGA,20140,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Muhammadu Ribadu,APA,African Peoples Alliance (APA),OTHER,2621,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Alhaji Kabir Ahmed Jibril,PPA,Progressive Peoples Alliance (PPA),OTHER,966,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Alhaji Nayaya Mohammed Lawal,PDC,People for Democratic Change (PDC),OTHER,923,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Bala Mohammed Yunusa,ADC,African Democratic Congress (ADC),ADC,676,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Isa Adamu Abdullahi,NCP,National Conscience Party (NCP),OTHER,321,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Garba Muhammed Suleiman,ACPN,Allied Congress Party of Nigeria (ACPN),OTHER,281,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Nehemiah Sunday,UDP,United Democratic Party (UDP),OTHER,187,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Sani Abdulkadir,NNPP,New Nigeria Peoples Party (NNPP),NNPP,170,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Abdul Ahmed Isiaq,SDP,Social Democratic Party (SDP),SDP,123,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Alhaji Lawal Yusuf,UPN,United Party of Nigeria (UPN),OTHER,109,wikipedia:governorship:2015:KD
+gov-kd-2015,2015,KD,Mohammed Sani Ahmed,PPN,Peoples Party of Nigeria (PPN),OTHER,95,wikipedia:governorship:2015:KD
+gov-ke-2015,2015,KE,Abubakar Atiku Bagudu,APC,APC,APC,477376,wikipedia:governorship:2015:KE
+gov-ke-2015,2015,KE,Bello Sarkin Yaki,PDP,PDP,PDP,293443,wikipedia:governorship:2015:KE
+gov-kn-2015,2015,KN,Abdullahi Umar Ganduje,APC,APC,APC,1546434,wikipedia:governorship:2015:KN
+gov-kn-2015,2015,KN,Salihu Sagir Takai,PDP,PDP,PDP,509726,wikipedia:governorship:2015:KN
+gov-ko-2015,2015,KO,Idris Wada,PDP,People's Democratic Party,PDP,199514,wikipedia:governorship:2015:KO
+gov-ko-2015,2015,KO,Prince Abubakar Audu,APC,All Progressives Congress,APC,240867,wikipedia:governorship:2015:KO
+gov-kt-2015,2015,KT,Aminu Bello Masari,APC,APC,APC,943085,wikipedia:governorship:2015:KT
+gov-kt-2015,2015,KT,Musa Nashuni,PDP,PDP,PDP,476768,wikipedia:governorship:2015:KT
+gov-kw-2015,2015,KW,Abdulfatah Ahmed,APC,All Progressives Congress,APC,295832,wikipedia:governorship:2015:KW
+gov-kw-2015,2015,KW,Simon Ajibola,PDP,People's Democratic Party,PDP,115220,wikipedia:governorship:2015:KW
+gov-la-2015,2015,LA,Akinwunmi Ambode,APC,APC,APC,811994,wikipedia:governorship:2015:LA
+gov-la-2015,2015,LA,Jimi Agbaje,PDP,PDP,PDP,659788,wikipedia:governorship:2015:LA
+gov-la-2015,2015,LA,Bolaji Ogunseye,AD,Alliance for Democracy (Nigeria),APC,6087,wikipedia:governorship:2015:LA
+gov-na-2015,2015,NA,Umaru Tanko Al-Makura,APC,All Progressives Congress,APC,309746,wikipedia:governorship:2015:NA
+gov-na-2015,2015,NA,Labaran Maku,APGA,All Progressives Grand Alliance,APGA,178983,wikipedia:governorship:2015:NA
+gov-na-2015,2015,NA,Yusuf Agabi,PDP,People's Democratic Party,PDP,119782,wikipedia:governorship:2015:NA
+gov-ni-2015,2015,NI,Abubakar Sani Bello,APC,APC,APC,593702,wikipedia:governorship:2015:NI
+gov-ni-2015,2015,NI,Umar Nasko,PDP,PDP,PDP,239772,wikipedia:governorship:2015:NI
+gov-og-2015,2015,OG,Ibikunle Amosun,APC,All Progressives Congress (APC),APC,306988,wikipedia:governorship:2015:OG
+gov-og-2015,2015,OG,Adegboyega Isiaka,PDP,People's Democratic Party,PDP,201440,wikipedia:governorship:2015:OG
+gov-og-2015,2015,OG,Kamar Babalola Akin-Odunsi,SDP,Social Democratic Party (SDP),SDP,25826,wikipedia:governorship:2015:OG
+gov-oy-2015,2015,OY,Abiola Ajimobi,APC,All Progressives Congress,APC,327310,wikipedia:governorship:2015:OY
+gov-oy-2015,2015,OY,Rasheed Ladoja,A,Accord,OTHER,254520,wikipedia:governorship:2015:OY
+gov-oy-2015,2015,OY,Adebayo Alao-Akala,LP,Labour party,LP,184111,wikipedia:governorship:2015:OY
+gov-oy-2015,2015,OY,Teslim Folarin,PDP,People's Democratic Party,PDP,79019,wikipedia:governorship:2015:OY
+gov-oy-2015,2015,OY,Seyi Makinde,SDP,Social Democratic Party,SDP,54740,wikipedia:governorship:2015:OY
+gov-pl-2015,2015,PL,Simon Lalong,APC,All Progressives Congress (APC),APC,564913,wikipedia:governorship:2015:PL
+gov-pl-2015,2015,PL,Gyang Pwajok,PDP,People's Democratic Party (PDP),PDP,520627,wikipedia:governorship:2015:PL
+gov-pl-2015,2015,PL,Bagudu Hirse,LP,Labour Party (LP),LP,1770,wikipedia:governorship:2015:PL
+gov-pl-2015,2015,PL,Samson Adamu,APGA,All Progressives Grand Alliance (APGA),APGA,1408,wikipedia:governorship:2015:PL
+gov-pl-2015,2015,PL,Elizabeth Yirse,MPPP,Mega Progressive Peoples Party (MPPP),OTHER,1035,wikipedia:governorship:2015:PL
+gov-pl-2015,2015,PL,Anuma Agudu,SDP,Social Democratic Party (SDP),SDP,260,wikipedia:governorship:2015:PL
+gov-ri-2015,2015,RI,Ezenwo Wike,PDP,PDP,PDP,1029102,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Dakuku Peterside,APC,APC,APC,124896,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Tonye Princewill,LP,LP,LP,10142,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Priye Harry,APGA,APGA,APGA,3146,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Boma Jacks,PPA,PPA,OTHER,868,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Minaibim Harry,SDP,SDP,SDP,843,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Akuro Parker,UPP,UPP,OTHER,792,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Nelson Amieye,ID,ID,OTHER,604,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Livingstone Nodi,APA,APA,OTHER,370,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Nsirim Chima,DPP,DPP,OTHER,324,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Senabo Jaja,AA,AA,OTHER,285,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Okechukwu Ehogwo,HDP,HDP,OTHER,266,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Godwin David,NNPP,NNPP,NNPP,261,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Kemka Elenwo,KOWA,KOWA,OTHER,187,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Uchechukwu Ichenwo,AD,AD,APC,125,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Enyida Udo,CPP,CPP,OTHER,119,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Anatasia Tepikor,NCP,NCP,OTHER,104,wikipedia:governorship:2015:RI
+gov-ri-2015,2015,RI,Chinemike Orgwu,ACPN,ACPN,OTHER,101,wikipedia:governorship:2015:RI
+gov-so-2015,2015,SO,Aminu Tambuwal,APC,APC,APC,647609,wikipedia:governorship:2015:SO
+gov-so-2015,2015,SO,Abdallah Wali,PDP,PDP,PDP,269074,wikipedia:governorship:2015:SO
+gov-ta-2015,2015,TA,Darius Ishaku,PDP,PDP,PDP,369318,wikipedia:governorship:2015:TA
+gov-ta-2015,2015,TA,Aisha Alhassan,APC,APC,APC,275984,wikipedia:governorship:2015:TA
+gov-za-2015,2015,ZA,Abdul'aziz Abubakar Yari,APC,APC,APC,716964,wikipedia:governorship:2015:ZA
+gov-za-2015,2015,ZA,Mamuda Aliyu Shinkafi,PDP,PDP,PDP,201938,wikipedia:governorship:2015:ZA
+gov-ed-2016,2016,ED,Godwin Obaseki,APC,APC,APC,319483,wikipedia:governorship:2016:ED
+gov-ed-2016,2016,ED,Osagie Ize-Iyamu,PDP,PDP,PDP,253173,wikipedia:governorship:2016:ED
+gov-ed-2016,2016,ED,Osaro Onaiwu,APGA,APGA,APGA,876,wikipedia:governorship:2016:ED
+gov-on-2016,2016,ON,Rotimi Akeredolu,APC,All Progressives Congress,APC,224842,wikipedia:governorship:2016:ON
+gov-on-2016,2016,ON,Eyitayo Jegede,PDP,People's Democratic Party,PDP,150380,wikipedia:governorship:2016:ON
+gov-on-2016,2016,ON,Olusola Alex,AD,Alliance for Democracy,APC,126889,wikipedia:governorship:2016:ON
+gov-an-2017,2017,AN,Willie Obiano,APGA,All Progressives Grand Alliance,APGA,234071,wikipedia:governorship:2017:AN
+gov-an-2017,2017,AN,Tony Nwoye,APC,All Progressives Congress,APC,98752,wikipedia:governorship:2017:AN
+gov-an-2017,2017,AN,Obaze Oseloka,PDP,Peoples Democratic Party,PDP,70293,wikipedia:governorship:2017:AN
+gov-an-2017,2017,AN,Osita Chidoka,UPP,United Progressive Party,OTHER,7903,wikipedia:governorship:2017:AN
+gov-an-2017,2017,AN,Godwin Ezemo,PPA,Progressive Peoples Alliance,OTHER,2787,wikipedia:governorship:2017:AN
+gov-ek-2018,2018,EK,Kayode Fayemi,APC,All Progressives Congress,APC,197462,wikipedia:governorship:2018:EK
+gov-ek-2018,2018,EK,Kolapo Olushola,PDP,People's Democratic Party,PDP,177927,wikipedia:governorship:2018:EK
+gov-os-2018,2018,OS,Gboyega Oyetola,APC,All Progressives Congress,APC,255505,wikipedia:governorship:2018:OS
+gov-os-2018,2018,OS,Ademola Adeleke,PDP,People's Democratic Party,PDP,255023,wikipedia:governorship:2018:OS
+gov-os-2018,2018,OS,Iyiola Omisore,SDP,Social Democratic Party,SDP,128053,wikipedia:governorship:2018:OS
+gov-os-2018,2018,OS,Moshood Adeoti,ADP,Action Democratic Party,OTHER,49745,wikipedia:governorship:2018:OS
+gov-os-2018,2018,OS,Fatai Akinade Akinbade,ADC,African Democratic Congress,ADC,7681,wikipedia:governorship:2018:OS
+gov-ab-2019,2019,AB,Okezie Victor Ikpeazu,PDP,People's Democratic Party (PDP),PDP,261127,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Uchechukwu Sampson Ogah,APC,All Progressives Congress (APC),APC,99574,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Alex Otti,APGA,All Progressives Grand Alliance (APGA),APGA,64366,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Hon. (Mrs) Blessing Nwagba,SDP,Social Democratic Party (SDP),SDP,2191,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Okoronkwo Fortunes Paul,PPC,Providence People's Congress (PPC),OTHER,1044,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Chukwudi Nnabugwu,PPN,People's Party of Nigeria (PPN),OTHER,624,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Okey Okoro Udo,ADP,Action Democratic Party (ADP),OTHER,522,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Igara Ceekay Kalu,LP,Labour Party (LP),LP,520,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Madu Anthony Chukwuonye,PDC,People for Democratic Change (PDC),OTHER,442,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Obinna Kelenna,ADC,African Democratic Congress (ADC),ADC,333,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Igwo Nnanna Okpan,AGA,All Grassroots Alliance (AGA),OTHER,293,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Orji Kingsley,ZLP,Zenith Labour Party (ZLP),OTHER,291,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Ulunwa Utokannandu Morgan,ANP,Alliance National Party (ANP),OTHER,289,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Ubani Vincent Anthony,AAC,African Action Congress (AAC),OTHER,254,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Onuoha Uko Igwe,AGAP,All Grand Alliance Party (AGAP),OTHER,247,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Opara Alphonsius Obinna,ACD,Advanced Congress of Democrats (ACD),OTHER,166,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Francis Onugu Ukwu,UPP,United Progressive Party (UPP),OTHER,151,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Umeh Charles Okezi,APP,Action Peoples Party (APP),APC,138,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Udeagha Rose Uzoaru,MPN,Mega Party of Nigeria (MPN),OTHER,124,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Benson Chibunna Onyekachi,KP,Kowa Party (KP),OTHER,102,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Nkoro Joseph Ngozi,YPP,Young Progressive Party (YPP),OTHER,100,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Ahaiwe Udochukwu Elvis,RP,Restoration Party of Nigeria (RP),OTHER,89,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Awa Ezekiel Anya,PT,People's Trust (PT),OTHER,53,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Emeka Uwakolam,A,Accord (A),OTHER,43,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Charles Okechukwu Okereke,JMPP,Justice Must Prevail Party (JMPP),OTHER,40,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Gilbert Chikezie Chris,ID,Independent Democrats (ID),OTHER,38,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Chijioke Owanta,ASD,Alliance of Social Democrats (ASD),OTHER,35,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Annyalewachi Nwaozuru,GPN,Green Party of Nigeria (GPN),OTHER,33,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Michael Imojo Ndu,AUN,Alliance for a United Nigeria (AUN),OTHER,29,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Paul Chinedu Emmanuel,FRESH,Fresh Democratic Party (FRESH),OTHER,22,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Chinwuba Queen Edith Asikaralinoun,CAP,Change Advocacy Party (CAP),OTHER,21,wikipedia:governorship:2019:AB
+gov-ab-2019,2019,AB,Obasi Heavens Ugochukwu,DA,Democratic Alternative (DA),OTHER,14,wikipedia:governorship:2019:AB
+gov-ad-2019,2019,AD,Ahmadu Umaru Fintiri,PDP,People's Democratic Party,PDP,376552,wikipedia:governorship:2019:AD
+gov-ad-2019,2019,AD,Bindo Jibrilla,APC,All Progressives Congress,APC,336386,wikipedia:governorship:2019:AD
+gov-ak-2019,2019,AK,Udom Gabriel Emmanuel,PDP,People's Democratic Party,PDP,519712,wikipedia:governorship:2019:AK
+gov-ak-2019,2019,AK,Nsima Ekere,APC,All Progressives Congress,APC,171978,wikipedia:governorship:2019:AK
+gov-be-2019,2019,BE,Samuel Ortom,PDP,People's Democratic Party,PDP,434473,wikipedia:governorship:2019:BE
+gov-be-2019,2019,BE,Emmanuel Jime,APC,All Progressives Congress,APC,345155,wikipedia:governorship:2019:BE
+gov-bo-2019,2019,BO,Babagana Umara Zulum,APC,All Progressives Congress,APC,1175440,wikipedia:governorship:2019:BO
+gov-bo-2019,2019,BO,Mohammad Imam,PDP,People's Democratic Party,PDP,66115,wikipedia:governorship:2019:BO
+gov-by-2019,2019,BY,David Lyon,APC,All Progressives Congress,APC,352552,wikipedia:governorship:2019:BY
+gov-by-2019,2019,BY,Douye Diri,PDP,People's Democratic Party,PDP,143172,wikipedia:governorship:2019:BY
+gov-cr-2019,2019,CR,Ayade Benedict Bengiousuye,PDP,People's Democratic Party (PDP),PDP,381484,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,John Owan Enoh,APC,All Progressives Congress (APC),APC,131161,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Eyo Ekpo O.,SDP,Social Democratic Party (SDP),SDP,4818,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ntan Ebaye Ekpa,NCP,National Conscience Party (NCP),OTHER,1092,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Edward Eniad Ugbe,ADP,Action Democratic Party (ADP),OTHER,648,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ushie Tony Ashibesibe,ADC,African Democratic Congress (ADC),ADC,490,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Charles Inah Okoi,ASD,Alliance of Social Democrats (ASD),OTHER,360,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Undie Emmanuel Ugbong,YDP,Young Democratic Party (YDP),OTHER,345,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ali Patrick,PPA,Progressive Peoples Alliance (PPA),OTHER,305,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ezama Castro Adoga,YPP,Young Progressive Party (YPP),OTHER,271,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Uzong George Moses,ABP,All Blending Party (ABP),OTHER,262,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ngang Bassey Ngang,DPP,Democratic People's Party (DPP),OTHER,244,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ntami Nkanu Esege,PPN,People's Party of Nigeria (PPN),OTHER,124,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ofem Ubi Oka,MPN,Mega Party of Nigeria (MPN),OTHER,109,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Arit Edet Aikpong,NAC,National Action Council (NAC),OTHER,107,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ebughe Kenneth,AD,Alliance for Democracy (AD),APC,95,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Omari Fredrick Eje,JMPP,Justice Must Prevail Party (JMPP),OTHER,78,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Michael Sunday,ID,Independent Democrats (ID),OTHER,60,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ubi Hossana Ukonu,DPC,Democratic Peoples Congress (DPC),OTHER,52,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Godwin Daniel Pastor,MAJA,Mass Action Joint Alliance (MAJA),OTHER,49,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Eno Eno Enang,A,Accord (A),OTHER,34,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Mkposong Ekete Mkposong,KP,Kowa Party (KP),OTHER,33,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Charles Offiong,DA,Democratic Alternative (DA),OTHER,27,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Inah Thomas Enyi,C4C,Coalition for Change (C4C),OTHER,25,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Ekeng Effiom Effiom,AA,Action Alliance (AA),OTHER,22,wikipedia:governorship:2019:CR
+gov-cr-2019,2019,CR,Morphy Pamela Ubagidi,CAP,Change Advocacy Party (CAP),OTHER,14,wikipedia:governorship:2019:CR
+gov-de-2019,2019,DE,Ifeanyi Arthur Okowa,PDP,People's Democratic Party (PDP),PDP,925274,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Great Ovedje Ogboru,APC,All Progressives Congress (APC),APC,215938,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Chukwu Prince Joe,ADC,African Democratic Congress (ADC),ADC,2032,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Richard Kimeku,DPP,Democratic People's Party (DPP),OTHER,1185,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Akwara John Ogheneovo,SDP,Social Democratic Party (SDP),SDP,1136,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Ashikodi David,A,Accord (A),OTHER,1027,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Mohammed Oluremi Jane Batsone,PDC,People for Democratic Change (PDC),OTHER,1001,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Frank Ufuoma Esanobi,AAC,African Action Congress (AAC),OTHER,914,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Obire Odiakpo Justine,PPA,Progressive Peoples Alliance (PPA),OTHER,549,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Odibo Golly Hannah Atata,ACD,Advanced Congress of Democrats (ACD),OTHER,429,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Edward Okiya,LP,Labour Party (LP),LP,411,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Onikiti Helen,APDA,Advanced Peoples Democratic Alliance (APDA),OTHER,331,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Ajaguogbadim Joshua Patrick Chidinma,UPP,United Progressive Party (UPP),OTHER,321,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Augustine Chukwuemeka Obi,RBNP,Re-build Nigeria Party (RBNP),OTHER,294,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Gabriel Mamuzo,NPC,Nigeria People's Congress (NPC),OTHER,284,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Brando Omu,AGAP,All Grand Alliance Party (AGAP),OTHER,275,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Monu-Olarewaju Theodora Chime,AAP,Advanced Allied Party (AAP),OTHER,258,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Michael Egoh,ADP,Action Democratic Party (ADP),OTHER,228,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Ejumedia Prince Sunny,HDP,Hope Democratic Party (HDP),OTHER,224,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Illoh Awele Onyisi,MPN,Mega Party of Nigeria (MPN),OTHER,183,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Enwose Williams B. N.,FJP,Freedom and Justice Party (FJP),OTHER,180,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Isamade Paul,ACPN,Allied Congress Party of Nigeria (ACPN),OTHER,162,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Victor Egwuenu,PPN,People's Party of Nigeria (PPN),OTHER,134,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Godwin Mojume Asikawali,JMPP,Justice Must Prevail Party (JMPP),OTHER,115,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,America Emmanuel Ogheneochuko,NRM,National Rescue Movement (NRM),OTHER,110,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Gordson Korogha Enhubareh,NCP,National Conscience Party (NCP),OTHER,100,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Bidokwu Emeka,AA,Action Alliance (AA),OTHER,98,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Cosmos Annabel,ABN,Association for Better Nigeria (ABN),OTHER,92,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Umudjane Sylvester Omonigho,BNPP,Better Nigeria Progressive Party (BNPP),OTHER,95,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Lucky Dikadi,PRP,People's Redemption Party (PRP),OTHER,83,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Amaye John Oghenemohwo,APM,Allied Peoples Movement (APM),OTHER,70,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Ossai Edward Olie,GDPN,Grassroots Development Party of Nigeria (GDPN),OTHER,61,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Ejiro Odu Tolbert,NIP,National Interest Party (NIP),OTHER,59,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Friday Udumebraye Togbe,SNP,Sustainable National Party (SNP),OTHER,51,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Jean Chiazor Anishere,PT,People's Trust (PT),OTHER,49,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Olotu Stanley Omohwo,RAP,Reformed Advanced Party (RAP),OTHER,46,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Efetoboh Patricia,NAC,National Action Council (NAC),OTHER,41,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Iselegwu Clement,RP,Restoration Party of Nigeria (RP),OTHER,39,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Nkwoala Emeka Mathias,ZLP,Zenith Labour Party (ZLP),OTHER,38,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Obiodogwu Augustine,DA,Democratic Alternative (DA),OTHER,33,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Okolugbo Gloria,CAP,Change Advocacy Party (CAP),OTHER,30,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Anthony Mejebi Clarke,GPN,Green Party of Nigeria (GPN),OTHER,29,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Edozien Leroy Chuma,ASD,Alliance of Social Democrats (ASD),OTHER,25,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Anyiraodiakaose Nelly,NCMP,Nigeria Community Movement Party (NCMP),OTHER,25,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Enuakpoje Peters Erho,ID,Independent Democrats (ID),OTHER,31,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Oghotevwo Lucky Oyovwi,MRDD,Movement for the Restoration and Defence of Democracy (MRDD),OTHER,25,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Atagbuzia Chibueze Sixtus,KP,Kowa Party (KP),OTHER,22,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Endurance Udubrai Eddy,NDLP,National Democratic Liberty Party (NDLP),OTHER,21,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Okotcha Odinma Eric,MAJA,Mass Action Joint Alliance (MAJA),OTHER,15,wikipedia:governorship:2019:DE
+gov-de-2019,2019,DE,Obichie David Egwebuike,NFD,Nigeria for Democracy (NFD),OTHER,15,wikipedia:governorship:2019:DE
+gov-eb-2019,2019,EB,Dave Umahi,PDP,People's Democratic Party,PDP,393043,wikipedia:governorship:2019:EB
+gov-eb-2019,2019,EB,Sonni Ogbuoji,APC,All Progressives Congress,APC,81703,wikipedia:governorship:2019:EB
+gov-en-2019,2019,EN,Ifeanyi Ugwuanyi,PDP,Peoples Democratic Party,PDP,449935,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ayogu Eze,APC,All Progressives Congress,APC,10423,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Nwankpa Emmanuel Benedict Ebelechukwu,APGA,APGA,APGA,2547,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ozoemena Donatus Madubuike,UDP,UDP,OTHER,1648,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Peter Onwurah Aniagboso,SDP,SDP,SDP,1476,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Uzodinmma Ekene Andrew,UPP,UPP,OTHER,854,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Eze Cajetan,ADC,ADC,ADC,581,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Egbo Emmanuel Maduka,APA,APA,OTHER,554,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Onyeka Chinedu,NUP,NUP,OTHER,463,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Owoh Celestine Chukwudi,PPC,PPC,OTHER,271,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Chidi Cadet Nwanyanwu,AAC,AAC,OTHER,260,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Okolo Louis Ugwu,ID,ID,OTHER,194,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Nnaji Victor Ifeanyi,ADP,ADP,OTHER,175,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Nnamani Obioma N,PPN,PPN,OTHER,174,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Anozie Nnenna Mary,FRESH,FRESH,OTHER,156,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ugwuanyi Celestina Anita,NRM,NRM,OTHER,145,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Chinedu Anuche,KP,KP,OTHER,93,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Prince Onyishi Sunday Chukwuemeka,NNPP,NNPP,NNPP,83,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Okechukwu Slyvanus,AGA,AGA,OTHER,76,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Nweze Hyacinth,RBNP,RBNP,OTHER,75,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Anthonia Nwobodo Nneka,ACD,ACD,OTHER,62,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Gerald Abonyi (Esq),LP,LP,LP,61,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ani Afamefuna Samuel,GPN,GPN,OTHER,59,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ogbonna Joshua Jekwu,ANP,ANP,OTHER,57,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ifeoma Nnoli-udeze,MPN,MPN,OTHER,54,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ozoemene Maureen Onwunta,NIP,NIP,OTHER,53,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Chibueze Francis Onah,SNP,SNP,OTHER,53,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Okonkwo Chigozie Augustine,NEPP,NEPP,OTHER,48,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ifeadigo Ben Ani,ZLP,ZLP,OTHER,37,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ugwu Martins Chiesozib,JMPP,JMPP,OTHER,36,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Franklin Emeka Ugwu,ANDP,ANDP,OTHER,33,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Adjai Robinson Chukwuemeka,CC,CC,OTHER,30,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Chukwuka Ibekwe Carley,GDPN,GDPN,OTHER,30,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Eneani Akachukwu Henry,APP,APP,APC,26,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Egbo Alex Chibuzo,ASD,ASD,OTHER,22,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Amadi Eusebius Tochukwu,DA,DA,OTHER,22,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Christopher Ogbu,DPC,DPC,OTHER,21,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Osita Agu,MMN,MMN,OTHER,10,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Odumejemba Chinonyelum Vicgeaial,NCP,NCP,OTHER,10,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Edwin Egbuaba Ngene,MRDD,MRDD,OTHER,7,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Orji Jide Abraham,NAC,NAC,OTHER,7,wikipedia:governorship:2019:EN
+gov-en-2019,2019,EN,Ugwu John Chukwuweike,CAP,CAP,OTHER,6,wikipedia:governorship:2019:EN
+gov-go-2019,2019,GO,Muhammad Inuwa Yahaya,APC,All Progressives Congress,APC,364179,wikipedia:governorship:2019:GO
+gov-go-2019,2019,GO,Usman Bayero Nafada,PDP,People's Democratic Party,PDP,222868,wikipedia:governorship:2019:GO
+gov-im-2019,2019,IM,Emeka Ihedioha,PDP,People's Democratic Party (PDP),PDP,273404,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Uche Nwosu,AA,Action Alliance (AA),OTHER,190364,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ifeanyi Godwin Araraume,APGA,All Progressives Grand Alliance (APGA),APGA,114676,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Hope Odidika Uzodinma,APC,All Progressives Congress (APC),APC,96458,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ikedi Godson Ohakim,A,Accord (A),OTHER,6846,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Humphrey Anumudu,ZLP,Zenith Labour Party (ZLP),OTHER,3999,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Nwosu Brady Chijioke,APDA,Advanced Peoples Democratic Alliance (APDA),OTHER,2491,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Okechukwu Theodore Ezeh,SDP,Social Democratic Party (SDP),SDP,2253,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Nnaemeka Lawrence Nwankwo,PPA,Progressive Peoples Alliance (PPA),OTHER,1979,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ukaegbu Joseph Ikechukwu,LP,Labour Party (LP),LP,1658,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Aguocha Chidiebere,AAP,Advanced Allied Party (AAP),OTHER,1657,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Omeogu-Ogbuta Chidiebere,AAC,African Action Congress (AAC),OTHER,1628,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Nwulu-Onyeulo Anthony Chinedu,UPP,United Progressive Party (UPP),OTHER,1466,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Okonya Edward Chukwuka,AGAP,All Grand Alliance Party (AGAP),OTHER,1345,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Agwu Justin Ifeanyi,PDC,People for Democratic Change (PDC),OTHER,1064,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ekwerike Alphonsus I. N.,ANRP,Abundant Nigeria Renewal Party (ANRP),OTHER,981,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Nwadigo Chris C.,PPN,People's Party of Nigeria (PPN),OTHER,919,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ibe Kyrian Uchenna,DPC,Democratic People's Congress (DPC),OTHER,798,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Daniel Nwabueze Osuegbu,PCP,Peoples Coalition Party (PCP),OTHER,762,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Chukwu Ejike Lucky,ADC,African Democratic Congress (ADC),ADC,738,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Edoziem Clinton Chibuike,APM,Allied Peoples Movement (APM),OTHER,688,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Anuchauka Godswill Ikemefula,NRM,National Rescue Movement (NRM),OTHER,673,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Osuji Aloysius Osondu,MAJA,Mass Action Joint Alliance (MAJA),OTHER,570,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Okorie Linus Chinedu,YPP,Young Progressive Party (YPP),OTHER,527,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Obioma Success Akagburuonye,ADP,Action Democratic Party (ADP),OTHER,413,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ofoegbu Godwin Chidi,PPC,Privodence People's Congress (PPC),OTHER,335,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Olehi Ngozi Chido,AGA,All Grassroots Alliance (AGA),OTHER,318,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ibe Mercy Adaku,DPP,Democratic People's Party (DPP),OTHER,271,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Francis Beluchukwu,NUP,National Unity Party (NUP),OTHER,269,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Francis Chike Ugorji,RP,Restoration Party of Nigeria (RP),OTHER,255,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Oparaocha Bruno Chidiebere,APP,Action People's Party (APP),APC,244,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Tony Onyerugbulem,FJP,Freedom and Justice Party (FJP),OTHER,243,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Stephen N. Ohiri,ACPN,Allied Congress Party of Nigeria (ACPN),OTHER,242,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Uwakwe Elvis,NCP,National Conscience Party (NCP),OTHER,221,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Friday Odinaka Emereonwu,ACD,Advanced Congress of Democrats (ACD),OTHER,204,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Nwaiwu Henry Chinemere,UP,United Patriots (UP),OTHER,190,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Mba Anthony Onyegbula,ASD,Alliance of Social Democrats (ASD),OTHER,183,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Paschal Ejiogu,ANN,Alliance for New Nigeria (ANN),OTHER,171,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Munonye Ikechukwu Obinna,SNP,Sustainable National Party (SNP),OTHER,173,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Tony Kelvin Obinna,NPM,New Progressive Movement (NPM),OTHER,166,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Clifford Okechukwu E.,DA,Democratic Alternative (DA),OTHER,163,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Daniel Ahizechukwu Okorojiaku,NNPP,New Nigeria Peoples Party (NNPP),NNPP,157,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ike Ibe C.,ID,Independent Democrats (ID),OTHER,144,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Chigozie Jerry Iheanacho,MMN,Masses Movement of Nigeria (MMN),OTHER,132,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ikenna Chukwunenye Emmanuel,CAP,Change Advocacy Party (CAP),OTHER,125,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Osuagwu Chigozie Chigozie,YES,Yes Electorates Solidarity (YES),OTHER,116,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ben Diribe Eberechukwu,GDPN,Grassroots Development Party of Nigeria (GDPN),OTHER,112,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Nwokorie Donald C.,NAC,National Action Council (NAC),OTHER,108,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Edwin Chigozie Uche,AD,Alliance for Democracy (AD),APC,97,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ekeh Nosike Collins,ANDP,Advanced Nigeria Democratic Party (ANDP),OTHER,86,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ubah Nathaniel C.,PRP,People's Redemption Party (PRP),OTHER,84,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Jeffrey Chinedu Uzor,ABN,Association for Better Nigeria (ABN),OTHER,83,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Duru Benneth Onyekachi,NEPP,Nigeria Elements Progressive Party (NEPP),OTHER,68,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ononogbo Emeka Emmanuel,GPN,Green Party of Nigeria (GPN),OTHER,66,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Adrian Chijioke Achodo,MPN,Mega Party of Nigeria (MPN),OTHER,59,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Mbanefo Chris Ezuma,AUN,Alliance for a United Nigeria (AUN),OTHER,55,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Okere Kingdom Nnamdi,RAP,Reformed Advanced Party (RAP),OTHER,53,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Nnamdi Iwuanyanwu Isaac,NPC,Nigeria People's Congress (NPC),OTHER,53,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ikoku Michael Obinna,YDP,Young Democratic Party (YDP),OTHER,50,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Prince Obumneme K. Nwaigbo,WTPN,We The People Nigeria (WTPN),OTHER,47,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Okechukwu Kingsley Okoroafor,KP,Kowa Party (KP),OTHER,45,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Igbokwe Marvin Chigozie,NCMP,Nigeria Community Movement Party (NCMP),OTHER,43,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ochiama Otibe Excel,FRESH,Fresh Democratic Party (FRESH),OTHER,40,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Njoku Anne Philips,RBNP,Re-build Nigeria Party (RBNP),OTHER,39,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ekegu Chigozie John,SNC,Save Nigeria Congress (SNC),OTHER,37,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Abednego Elias Chukwuemeka,NIP,National Interest Party (NIP),OTHER,37,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Onwubuariri Ijeoma,NDLP,National Democratic Liberty Party (NDLP),OTHER,34,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Canice Chukwuemeka Asonye,JMPP,Justice Must Prevail Party (JMPP),OTHER,30,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Abanno Barnabas Chibuzor,C4C,Coalition for Change (C4C),OTHER,26,wikipedia:governorship:2019:IM
+gov-im-2019,2019,IM,Ikechukwu Nwaopara,MRDD,Movement for the Restoration and Defence of Democracy (MRDD),OTHER,24,wikipedia:governorship:2019:IM
+gov-ji-2019,2019,JI,Mohammed Badaru Abubakar,APC,All Progressives Congress,APC,810933,wikipedia:governorship:2019:JI
+gov-ji-2019,2019,JI,Aminu Ibrahim Ringim,PDP,People's Democratic Party,PDP,288356,wikipedia:governorship:2019:JI
+gov-kd-2019,2019,KD,Nasir Ahmad el-Rufai,APC,All Progressives Congress (APC),APC,1045427,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Isah Ashiru,PDP,People's Democratic Party (PDP),PDP,814168,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Haruna Saeed,SDP,Social Democratic Party (SDP),SDP,9828,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Ahmad Tijjani Omar,PRP,People's Redemption Party (PRP),OTHER,5626,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Polycarp Danladi Gankon,APGA,All Progressives Grand Alliance (APGA),APGA,2405,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Sani Abdulkadir,NNPP,New Nigeria People's Party (NNPP),NNPP,2025,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Othman Mustapha Bakano,APA,African Peoples Alliance (APA),OTHER,1987,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Muhammad Kabir Uthman,MPN,Mega Party of Nigeria (MPN),OTHER,1533,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Muhammed Aliyu Galadima,NRM,National Rescue Movement (NRM),OTHER,1151,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Ibrahim Suleiman,ADA,African Democratic Congress (ADA),OTHER,1011,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Abubakar Aliyu,CAP,Change Advocacy Party (CAP),OTHER,663,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Kabir Ahmed Jibril,PPA,Progressive Peoples Party (PPA),OTHER,594,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Solomon Yahaya Ikagwu,NPC,Nigeria People's Congress (NPC),OTHER,449,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Metoh H. Yakubu,AGA,All Grassroots Party (AGA),OTHER,324,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Abdullahi Awwal Aliyu,UDP,United Democratic Party (UDP),OTHER,316,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Ahmad Muhammad,GPN,Green Party of Nigeria (GPN),OTHER,238,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Salim Muhammad,APP,African Peoples Party (APP),APC,162,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Emmanuel Parah Bako,NCP,National Conscience Party (NCP),OTHER,162,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Adamu Idris Chado,DPC,Democratic Peoples Congress (DPC),OTHER,157,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Shehu Abubakar,PPN,People's Party of Nigeria (PPN),OTHER,147,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Aminu Sabo,ANN,Alliance for New Nigeria (ANN),OTHER,133,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Umar Ibrahim Farouk,LP,Labour Party (LP),LP,125,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Mansur Suleiman,NEPP,Nigeria Elements Progressive Party (NEPP),OTHER,121,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Umar Uba,NIP,National Interest Party (NIP),OTHER,102,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Yahaya Alhassan Marafa,UPN,Unity Party of Nigeria (UPN),OTHER,99,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Jamilu Mohammad,A,Accord (A),OTHER,97,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Shika Rabiatu Sulaiman,NAC,National Action Council (NAC),OTHER,88,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Muhammad Fatima Binta,RP,Restoration Party of Nigeria (RP),OTHER,86,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Umar Suleiman,DA,Democratic Alternative (DA),OTHER,74,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Suleiman Abdulrasheed,MMN,Masses Movement of Nigeria (MMN),OTHER,68,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Abubakar Abdullahi,ZLP,Zenith Labour Party (ZLP),OTHER,67,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Ahmad Rabiu Bello,HDP,Hope Democratic Party (HDP),OTHER,66,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Muhammed Jibrin Muntaka,ID,Independent Democrats (ID),OTHER,58,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Halliru Tafida Abdullahi,MRDD,Movement for the Restoration and Defence of Democracy (MRDD),OTHER,52,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Ezekiel Habila,LM,Liberation Movement (LM),OTHER,36,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Iliyasu Aminu Mustapha,AA,Action Alliance (AA),OTHER,32,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Yusuf Abdulfatai,WTPN,We The People Nigeria (WTPN),OTHER,23,wikipedia:governorship:2019:KD
+gov-kd-2019,2019,KD,Muhammed Umar,JMPP,Justice Must Prevail Party (JMPP),OTHER,14,wikipedia:governorship:2019:KD
+gov-ke-2019,2019,KE,Abubakar Atiku Bagudu,APC,All Progressives Congress,APC,673717,wikipedia:governorship:2019:KE
+gov-ke-2019,2019,KE,Isa Mohammed Galaudu,PDP,People's Democratic Party,PDP,106633,wikipedia:governorship:2019:KE
+gov-kn-2019,2019,KN,Abdullahi Umar Ganduje,APC,APC,APC,1033695,wikipedia:governorship:2019:KN
+gov-kn-2019,2019,KN,Abba Kabir Yusuf,PDP,PDP,PDP,1024713,wikipedia:governorship:2019:KN
+gov-ko-2019,2019,KO,Yahaya Bello,APC,All Progressives Congress,APC,406222,wikipedia:governorship:2019:KO
+gov-ko-2019,2019,KO,Musa Wada,PDP,People's Democratic Party,PDP,189704,wikipedia:governorship:2019:KO
+gov-kt-2019,2019,KT,Aminu Bello Masari,APC,All Progressives Congress,APC,1178864,wikipedia:governorship:2019:KT
+gov-kt-2019,2019,KT,Garba Yakubu Lado,PDP,People's Democratic Party,PDP,488621,wikipedia:governorship:2019:KT
+gov-kw-2019,2019,KW,AbdulRahman AbdulRazaq,APC,All Progressives Congress (APC),APC,331546,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Razak Atunwa,PDP,People's Democratic Party (PDP),PDP,114754,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Tiamiyu Kolapo Kamorudeen,PPA,Progressive Peoples Alliance (PPA),OTHER,1482,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Sharafadeen A. Kolawole Aderemmy,APA,African Peoples Alliance (APA),OTHER,1163,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Ayorinde O. Adedoyin,A,Accord (A),OTHER,860,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Aransiola Ezekiel,PDC,People for Democratic Change (PDC),OTHER,432,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Manzuma Issa,ADC,African Democratic Congress (ADC),ADC,391,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Adisa Ismail Abayomi,AA,Action Alliance (AA),OTHER,378,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Mohammed Abubakar Mohammed,APM,Allied Peoples Movement (APM),OTHER,293,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Tunde Muritala O.,ACPN,Allied Congress Party of Nigeria (ACPN),OTHER,272,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Olajide Joseph Adebola,SDP,Social Democratic Party (SDP),SDP,209,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Oniye Shina Hammed,ADP,Action Democratic Party (ADP),OTHER,179,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Abdulazeez Yinka Oniyangi,NPM,New Progressive Movement (NPM),OTHER,148,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Mohammad Liman Abdullahi,ANP,Alliance Network Party (ANP),OTHER,134,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Abdulmumin Yinka Ajia,ANRP,Abundant Nigeria Renewal Party (ANRP),OTHER,115,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Tosho Babatunde Omotosho A.,NEPP,Nigeria Elements Progressive Party (NEPP),OTHER,108,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Belgore Ahmad Kawu,JMPP,Justice Must Prevail Party (JMPP),OTHER,105,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Ibrahim Abdullahi Anifowoshe,MRDD,Movement for the Restoration and Defence of Democracy (MRDD),OTHER,86,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Aina Ayodeji Adetunji,ABP,All Blending Party (ABP),OTHER,83,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Ayinla John Oloruntoba,NCP,National Conscience Party (NCP),OTHER,74,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Popoola Kehinde Adeyemi,NRM,National Rescue Movement (NRM),OTHER,74,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Paul Ajiroba,PPN,People's Party of Nigeria (PPN),OTHER,67,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Soladoye Samuel Sunday,UPN,Unity Party of Nigeria (UPN),OTHER,61,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Yahaya Kale Saádu,MAJA,Mass Action Joint Alliance (MAJA),OTHER,57,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Rukayat Toyin Tijani,MPN,Mega Party of Nigeria (MPN),OTHER,53,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Alabi Morankinyo,KP,Kowa Party (KP),OTHER,48,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Issa Aremu Obalowu,LP,Labour Party (LP),LP,45,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Adekunle Kehinde,CAP,Change Advocacy Party (CAP),OTHER,40,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Oyabambi Adetunji,UDP,United Democratic Party (UDP),OTHER,40,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Babatunde Omotosho Tayo,BNPP,Better Nigeria Progressive Party (BNPP),OTHER,34,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Abdullahi Mohammed,DA,Democratic Alternative (DA),OTHER,28,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Comfort Yinka Kayode,UPP,United Progressive Party (UPP),OTHER,24,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Omotosho Bamidele Olaitan,GPN,Green Party of Nigeria (GPN),OTHER,21,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,Oshin Bayo David Alaba,WTPN,We The People Nigeria (WTPN),OTHER,15,wikipedia:governorship:2019:KW
+gov-kw-2019,2019,KW,35 Bada Abullahi Yekini,YDP,Young Democratic Party (YDP),OTHER,14,wikipedia:governorship:2019:KW
+gov-la-2019,2019,LA,Babajide Sanwoolu,APC,APC,APC,739445,wikipedia:governorship:2019:LA
+gov-la-2019,2019,LA,Jimi Agbaje,PDP,PDP,PDP,206141,wikipedia:governorship:2019:LA
+gov-la-2019,2019,LA,Babatunde Gbadamosi,ADP,ADP,OTHER,4780,wikipedia:governorship:2019:LA
+gov-la-2019,2019,LA,Joseph Beckley,A,A,OTHER,4122,wikipedia:governorship:2019:LA
+gov-la-2019,2019,LA,Olumuyiwa Fafowora,ADC,ADC,ADC,3544,wikipedia:governorship:2019:LA
+gov-la-2019,2019,LA,Princess Adebisi Ogunsanya,YPP,YPP,OTHER,1604,wikipedia:governorship:2019:LA
+gov-na-2019,2019,NA,Abdullahi Sule,APC,All Progressives Congress,APC,327229,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,David Ombugadu,PDP,People's Democratic Party,PDP,184281,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Labaran Maku,APGA,All Progressives Grand Alliance,APGA,132784,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Ibio Umar Aliyu Doma,ZLP,Zenith Labour Party,OTHER,13307,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Ishaq Ahmed Kana,SDP,Social Democratic Party,SDP,7442,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Suleiman Umaru Ajaja,ADP,Action Democratic Party,OTHER,1355,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Zaggi Rabo Zakka,ADC,African Democratic Congress,ADC,1319,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Mustapha Momammed Alfa,APM,Allied Peoples Movement,OTHER,773,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Tanko Malam,PPA,Progressive Peoples Alliance,OTHER,679,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Animiku Anthony Kukumah,AGA,All Grassroots Alliance,OTHER,526,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Mohammed Ahmadu Adamu,PPN,Peoples Party Of Nigeria,OTHER,186,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Ombugadu Victor,ACD,Advanced Congress of Democrats,OTHER,97,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Sale Yahaya Alaji,PPC,Providence Peoples Congress,OTHER,85,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Anjugu Abimku Moses,JMPP,Justice Must Prevail Party,OTHER,82,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Mohammed Awwal Suleiman,KP,KOWA Party,OTHER,49,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Nyam Mark Maida,PT,People's Trust,OTHER,46,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Ismalia Taofiq,DPC,Democratic People's Congress,OTHER,38,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Peter Helen,MMN,Masses Movement of Nigeria,OTHER,38,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Kreni Danju Mantani,YPP,Young Progressives Party,OTHER,33,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Aba Joseph R.,ASD,Alliance of Social Democrats,OTHER,28,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Theohius Gyado Madaki,CAP,Change Advocacy Party,OTHER,16,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Mohammed Nazir Adamu,GPN,Green Party of Nigeria,OTHER,12,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Cerrone Solo Waziri,MAJAP,Mass Action Joint Alliance Party,OTHER,12,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Sale Yahaya Alaji,PRP,People's Redemption Party,OTHER,12,wikipedia:governorship:2019:NA
+gov-na-2019,2019,NA,Khalid Shuaibu Mairiga,DA,Democratic Alternative,OTHER,7,wikipedia:governorship:2019:NA
+gov-ni-2019,2019,NI,Abubakar Sani Bello,APC,All Progressives Congress,APC,526412,wikipedia:governorship:2019:NI
+gov-ni-2019,2019,NI,Umar Nasko,PDP,People's Democratic Party,PDP,298065,wikipedia:governorship:2019:NI
+gov-og-2019,2019,OG,Dapo Abiodun,APC,APC,APC,241670,wikipedia:governorship:2019:OG
+gov-og-2019,2019,OG,Adekunle Akinlade,APM,Allied Peoples Movement,OTHER,222153,wikipedia:governorship:2019:OG
+gov-og-2019,2019,OG,Gboyega Nasir Isiaka,ADC,African Democratic Congress,ADC,110422,wikipedia:governorship:2019:OG
+gov-og-2019,2019,OG,Buruji Kashamu,PDP,People's Democratic Party,PDP,70290,wikipedia:governorship:2019:OG
+gov-og-2019,2019,OG,Dimeji Bankole,ADP,Action Democratic Party,OTHER,9666,wikipedia:governorship:2019:OG
+gov-oy-2019,2019,OY,Seyi Makinde,PDP,People's Democratic Party,PDP,515621,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Adebayo Adelabu,APC,All Progressives Congress,APC,357982,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Olufemi Lanlehin,ADC,African Democratic Congress,ADC,12375,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Christopher Alao-Akala,ADP,Action Democratic Party,OTHER,8664,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Sarafadeen Abiodun Alli,ZLP,Zenith Labour Party,OTHER,3650,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Akinde Akin S,PDC,People For Democratic Change,OTHER,1759,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Saheed Adegboyega Ajadi,A,Accord,OTHER,1514,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Alao Oyedeleh Oyebode,AD,Alliance for Democracy,APC,1425,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Omobosola Owolabi Golohor,DPP,Democratic People's Party,OTHER,1401,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Rotimi Akande,UPP,United Progressive Party,OTHER,1064,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Taiwo Obiyemi Otegbeye,PPC,Providence People's Congress,OTHER,1025,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Tolulope Adeyeye Adedoyin,APA,African People Alliance,OTHER,1007,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Akinboye Tijani Ismaila,HDP,Hope Democratic Party,OTHER,926,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Akinwale Babatunde Laosun,AAC,African Action Congress,OTHER,814,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Akande Taiwo Risikat,ACD,Advanced Congress of Democrats,OTHER,780,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Olalekan Oladotun Ayorinde,ANRP,Abundant Nigeria Renewal Party,OTHER,663,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Mobolaji Ayorinde,SDP,Social Democratic Party,SDP,660,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Ojo Olayinka Kayode,MPN,Mega Party of Nigeria,OTHER,602,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Victor-Tade Adenike Morenike,AAP,Advanced Allied Party,OTHER,574,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,David Oluwafemi Okunlola,AGA,All Grassroots Alliance,OTHER,564,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Sarumi-Aliyu Ashabi Bolanle,NIP,National Interest Party,OTHER,382,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Olatunji Adigun Sadiq,LP,Labour Party,LP,336,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Yinusa Kazeem Ayandoye,NRM,National Rescue Movement,OTHER,316,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Ayoade Belawu Adebola,NEPP,Nigeria Elements Progressive Party,OTHER,267,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Gbadamosi Basiru Alagbe,PPN,People's Party of Nigeria,OTHER,243,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Babarinde Oye Ademola,DPC,Democratic People's Congress,OTHER,230,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Edward Olufeyisanyo Ladoye,NPM,New Progressive Movement,OTHER,206,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Oladdunni Ariyo Olaitan,BNPP,Better Nigeria Progressive Party,OTHER,205,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Adegboyega A. Adeeu,DA,Democratic Alternative,OTHER,192,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Okemakinde Ramota Fumilayo,ABP,All Blended Party,OTHER,182,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Olabode Ayodele Johnson,ANN,Alliance for New Nigeria,OTHER,169,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Oluwole Ladipo,GDPN,Grassroots Development Party Of Nigeria,OTHER,152,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Oloyade Ayobami Michael,NCP,National Conscience Party,OTHER,135,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Bamigboye Abiodun E.,SPN,Socialist Party of Nigeria,OTHER,114,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Omotosho Paul Adeboye,C4C,Coalition for Change,OTHER,96,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Aderoju Ismail Balogun,MAJA,Mass Action Joint Alliance,OTHER,75,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Awolusi Olusegun Gaskin,SNC,Save Nigeria Congress,OTHER,75,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Paul Oluseye Smith,JMPP,Justice Must Prevail Party,OTHER,72,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Mayoress Abiodun Olayinka O,CAP,Change Advocacy Party,OTHER,46,wikipedia:governorship:2019:OY
+gov-oy-2019,2019,OY,Olaide Olayinola,KP,KOWA Party,OTHER,46,wikipedia:governorship:2019:OY
+gov-pl-2019,2019,PL,Simon Lalong,APC,All Progressives Congress,APC,595582,wikipedia:governorship:2019:PL
+gov-pl-2019,2019,PL,Jerry Useni,PDP,People's Democratic Party,PDP,546813,wikipedia:governorship:2019:PL
+gov-ri-2019,2019,RI,Ezenwo Nyesom Wike,PDP,PDP,PDP,886264,wikipedia:governorship:2019:RI
+gov-ri-2019,2019,RI,Biokpomabo Awara,AAC,AAC,OTHER,173859,wikipedia:governorship:2019:RI
+gov-so-2019,2019,SO,Aminu Tambuwal,APC,All Progressives Congress,APC,512002,wikipedia:governorship:2019:SO
+gov-so-2019,2019,SO,Ahmad Aliyu,PDP,People's Democratic Party,PDP,511660,wikipedia:governorship:2019:SO
+gov-ta-2019,2019,TA,Darius Dickson Ishaku,PDP,People's Democratic Party (PDP),PDP,520433,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Sani Abubakar Danladi,APC,All Progressives Congress (APC),APC,362735,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Aisha Jummai Alhassan,UDP,United Democratic Party (UDP),OTHER,16289,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Adamu Danbako Ibrahim,APGA,All Progressives Grand Alliance (APGA),APGA,4098,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Musa Bah Kanawa,YDP,Young Democratic Party (YDP),OTHER,1208,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Stephen Bishi,SDP,Social Democratic Party (SDP),SDP,743,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Danjuma Umaru,NRM,National Rescue Movement (NRM),OTHER,730,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Sani Saidi,AGA,All Grassroots Alliance (AGA),OTHER,594,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Bello Mohammed,PPA,Progressive Peoples Alliance (PPA),OTHER,564,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Kwaghkar Julius Mberga,AA,Action Alliance (AA),OTHER,471,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Faruk Alhaji Muhammed,DPP,Democratic People's Party (DPP),OTHER,265,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Ahmadu Umaru Salim,YPP,Young Progressive Party (YPP),OTHER,249,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Kefas Sule,ABP,ABP,OTHER,194,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Ibrahim Manzo Mohammed,ADC,African Democratic Congress (ADC),ADC,168,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Ahmed Bala Gassol,PPN,People's Party of Nigeria (PPN),OTHER,153,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Japhet Magdalene Tobbi,NAC,National Action Council (NAC),OTHER,91,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Banti Henry Haniel,APP,Action People's Party (APP),APC,89,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Umar Abubakar,ACD,Advanced Congress of Democrats (ACD),OTHER,85,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Dahiru Yunusa Shagarda,A,Accord (A),OTHER,77,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Ahmad Murtala Isah,NDLP,National Democratic Liberty Party (NDLP),OTHER,77,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Bala Kabiru,ACPN,Allied Congress Party of Nigeria (ACPN),OTHER,69,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Phillip Soje Shin,MPN,Mega Party of Nigeria (MPN),OTHER,69,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Bagarmi Kamaludeen Muhammed Soje,MRDD,Movement for the Restoration and Defence of Democracy (MRDD),OTHER,49,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Issa Musa,ZLP,Zenith Labour Party (ZLP),OTHER,45,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Bala Danlami Adi,LP,Labour Party (LP),LP,44,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Paul Jamasuru Tankwa,MAJA,Mass Action Joint Alliance (MAJA),OTHER,37,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Bello A. Ahmed,DA,Democratic Alternative (DA),OTHER,32,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Utsumiu-Nyen Akin Ishaya Missa,CAP,Change Advocacy Party (CAP),OTHER,21,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Abdullahi Rabsanjani,GDPN,Grassroots Development Party of Nigeria (GDPN),OTHER,20,wikipedia:governorship:2019:TA
+gov-ta-2019,2019,TA,Sanusi A. T. Hamza,FJP,Freedom and Justice Party (FJP),OTHER,17,wikipedia:governorship:2019:TA
+gov-yo-2019,2019,YO,Mai Mala Buni,APC,All Progressives Congress,APC,444013,wikipedia:governorship:2019:YO
+gov-yo-2019,2019,YO,Umar Iliya Damagum,PDP,People's Democratic Party,PDP,95703,wikipedia:governorship:2019:YO
+gov-za-2019,2019,ZA,Mukhtar Shehu Idris,APC,All Progressives Congress (APC),APC,534541,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Bello Matawalle,PDP,People's Democratic Party (PDP),PDP,189452,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Bala Bello Maru,A,Accord (A),OTHER,43691,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Saidu Mohammed Dansadau,NRM,National Rescue Movement (NRM),OTHER,15177,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Sani Abdullahi Shinkafi,APGA,All Progressives Grand Alliance (APGA),APGA,3865,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Takori Mohammed Sani,APDA,Advanced Peoples Democratic Alliance (APDA),OTHER,807,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Sule Garba,PPA,Progressive Peoples Alliance (PPA),OTHER,695,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Bashir Yusuf Sani,AGAP,All Grand Alliance Party (AGAP),OTHER,577,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Iliyasu Sulaiman,DA,Democratic Alternative (DA),OTHER,546,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Haruna Aminu,ACD,Advanced Congress of Democrats (ACD),OTHER,402,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Badamasi Bello,ADC,African Democratic Congress (ADC),ADC,344,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Umar Mande,MMN,Masses Movement of Nigeria (MMN),OTHER,292,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Aminu Mainasara,DPP,Democratic People's Party (DPP),OTHER,263,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,All People's Party (APP),HASKE,Zayyanu Salisu (Haske),OTHER,191,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Bashiru Adamu Gusau,PPN,People's Party of Nigeria (PPN),OTHER,168,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Shehu Mus Maigoroa,MPN,Mega Party of Nigeria (MPN),OTHER,163,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Yusuf Mustapha,ABP,All Blending Party (ABP),OTHER,135,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Sani Yusuf,GPN,Green Party of Nigeria (GPN),OTHER,127,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Garba Ali,BNPP,Better Nigeria Progressive Party (BNPP),OTHER,119,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Kabiru Yahaya Mohammed,SDP,Social Democratic Party (SDP),SDP,108,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Musa Yahaya,YPP,Young Progressive Party (YPP),OTHER,103,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Bala Aliyu Gusau,PRP,People's Redemption Party (PRP),OTHER,102,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Abulmajid Shehu,ADP,Action Democratic Party (ADP),OTHER,100,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Kamilu Musa,AD,Alliance for Democracy (AD),APC,99,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Abala Debora,SNP,Sustainable National Party (SNP),OTHER,88,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Muhammed Nura,C4C,Coalition for Change (C4C),OTHER,87,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Kabiru Iliyasu A. Gusau,DPC,Democratic People's Congress (DPC),OTHER,77,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Dadi Abdullahi O.,PDC,People for Democratic Change (PDC),OTHER,70,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Lawali Ibrahim,ACPN,Allied Congress Party of Nigeria (ACPN),OTHER,63,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Mustapha Muhammed,RBNP,Re-build Nigeria Party (RBNP),OTHER,57,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Umar Sani,NEPP,Nigeria Elements Progressive Party (NEPP),OTHER,48,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Aminu Ab Muazu,UPP,United Progressive Party (UPP),OTHER,43,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Dahiru Aliyu Gusau,CAP,Change Advocacy Party (CAP),OTHER,42,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Sani Umar,RP,Restoration Party of Nigeria (RP),OTHER,41,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Abba Sani A.,UPN,Unity Party of Nigeria (UPN),OTHER,41,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Sani Abdullahi,LP,Labour Party (LP),LP,38,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Mohammed Bala,NCP,National Conscience Party (NCP),OTHER,38,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Kucheri Shehu Hussaini,HDP,Hope Democratic Party (HDP),OTHER,36,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Hamisu Yahuza,JMPP,Justice Must Prevail Party (JMPP),OTHER,34,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Kabiru Garbba,NCMP,Nigeria Community Movement Party (NCMP),OTHER,28,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Usman Hadiza Usman,ZLP,Zenith Labour Party (ZLP),OTHER,25,wikipedia:governorship:2019:ZA
+gov-za-2019,2019,ZA,Mansur Saleh Maigwanjo,WTPN,We The People Nigeria (WTPN),OTHER,15,wikipedia:governorship:2019:ZA
+gov-ed-2020,2020,ED,Godwin Obaseki,PDP,People's Democratic Party,PDP,307955,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Osagie Ize-Iyamu,APC,All Progressives Congress,APC,223619,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Ibio Lucky Emmanuel,ADP,Action Democratic Party,OTHER,2374,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Mabel Oboh,ADC,African Democratic Congress,ADC,1370,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Stevie Nash Ozono,NRM,National Rescue Movement,OTHER,573,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Felix Izekor Obayangbon,SDP,Social Democratic Party,SDP,323,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Osifo Uhun-Ekpenma Isaiah,LP,Labour Party,LP,267,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Agol Ebun Tracy,NNPP,New Nigeria Peoples Party,NNPP,258,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Lucky Osagie Idehen,APGA,All Progressives Grand Alliance,APGA,177,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Jones Osagiobare,YPP,Young Progressives Party,OTHER,132,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Jones Osagiobare,ZLP,Zenith Labour Party,OTHER,117,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Edemakhiota Godwin Osaimiamia,AA,Action Alliance,OTHER,107,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Amos Osalumese Areloegbe,APP,Action Peoples Party,APC,78,wikipedia:governorship:2020:ED
+gov-ed-2020,2020,ED,Igbineweka Osamuede,APM,Allied Peoples Movement,OTHER,57,wikipedia:governorship:2020:ED
+gov-on-2020,2020,ON,Rotimi Akeredolu,APC,All Progressives Congress,APC,292830,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Eyitayo Jegede,PDP,People's Democratic Party,PDP,195791,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Agboola Ajayi,ZLP,Zenith Labour Party,OTHER,69127,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Martin Kunle Olateru-Olagbegi,ADP,Action Democratic Party,OTHER,3464,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Fasua Peter Oyeleye,SDP,Social Democratic Party,SDP,3053,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Adelegan Adedapo Oluwaseyi,ADC,African Democratic Congress,ADC,2440,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Okunade Taiwo,LP,Labour Party,LP,1977,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Adeleye Adekunle Peter,AAC,African Action Congress,OTHER,814,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Babatunde Francis Alli,PRP,People's Redemption Party,OTHER,669,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Adesanya Olaoluwa,APP,Action Peoples Party,APC,527,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Funmilayo Jenyo Ataunoko,NRM,National Rescue Movement,OTHER,468,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Ojon Dotun,YPP,Young Progressives Party,OTHER,398,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Aminu Akeem Olarenwaju,APM,Allied Peoples Movement,OTHER,309,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Rotimi Adeleye Akindejoye,A,Accord,OTHER,292,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Olowoloba Dele,APGA,All Progressives Grand Alliance,APGA,271,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Ojajuni Joseph Eniola,NNPP,New Nigeria Peoples Party,NNPP,222,wikipedia:governorship:2020:ON
+gov-on-2020,2020,ON,Joshua Oluwafemi Adewole,AA,Action Alliance,OTHER,93,wikipedia:governorship:2020:ON
+gov-an-2021,2021,AN,Charles Chukwuma Soludo,APGA,APGA,APGA,112229,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Valentine Ozigbo,PDP,PDP,PDP,53807,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Andy Uba,APC,APC,APC,43285,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Ifeanyi Ubah,YPP,YPP,OTHER,21261,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Obiora Agbasimalo,LP,LP,LP,2802,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Obiora Okonkwo,ZLP,ZLP,OTHER,2082,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Godwin Maduka,A,A,OTHER,2054,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Obinna Uzoh,SDP,SDP,SDP,842,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Afam Ume-Ezeoke,ADP,ADP,OTHER,773,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Chidozie Nwankwo,AAC,AAC,OTHER,588,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Nnamdi Nwawuo,PRP,PRP,OTHER,437,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Akachukwu Sullivan Nwankpo,ADC,ADC,ADC,324,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Geoffrey Onyejegbu,APM,APM,OTHER,301,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Afam Ezenwaofor,NRM,NRM,OTHER,213,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Chika Jerry Okeke,BP,BP,OTHER,186,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Azubuike Echetebu,APP,APP,APC,139,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Leonard Emeka Ohajimkpo,NNPP,New Nigeria Peoples Party,NNPP,117,wikipedia:governorship:2021:AN
+gov-an-2021,2021,AN,Ben Etiaba,AA,AA,OTHER,83,wikipedia:governorship:2021:AN
+gov-ek-2022,2022,EK,Abiodun Oyebanji,APC,APC,APC,187057,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Olusegun Oni,SDP,SDP,SDP,82211,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Bisi Kolawole,PDP,PDP,PDP,67457,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Oluwole Oluyede,ADC,ADC,ADC,5597,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Kemi Josephine Elebute-Halle,ADP,ADP,OTHER,3495,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Christiana Modupe Olatawura,APP,APP,APC,1980,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Olaniyi Ben Agboola,PRP,PRP,OTHER,856,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Adebowale Oluranti Ajayi,YPP,YPP,OTHER,618,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Oladosu Abiodun Fatomilola,NNPP,New Nigeria Peoples Party,NNPP,529,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Moses Olajide Ajagunigbala,AAC,AAC,OTHER,409,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Benjamin Olufemi Obidoyin,APGA,APGA,APGA,376,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Ifedayo Iyaniwura,NRM,NRM,OTHER,347,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Peter Adegbenro Fagbemi,APM,APM,OTHER,290,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Kolade Akinyemi Adeolu,ZLP,ZLP,OTHER,282,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Olugbenga Daramola,LP,LP,LP,195,wikipedia:governorship:2022:EK
+gov-ek-2022,2022,EK,Reuben Famuyibo,A,A,OTHER,166,wikipedia:governorship:2022:EK
+gov-os-2022,2022,OS,Ademola Adeleke,PDP,PDP,PDP,403371,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Gboyega Oyetola,APC,APC,APC,375027,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Kehinde Munirudeen Atanda,ADP,ADP,OTHER,10104,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Akin Ogunbiyi,A,A,OTHER,4514,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Yusuf Sulaimon Lasun,LP,LP,LP,2729,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Peter Segun Awojide,AAC,AAC,OTHER,2148,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Ademola Bayonle Adeseye,YPP,YPP,OTHER,1303,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Awoyemi Oluwatayo Lukuman,APM,APM,OTHER,1222,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Busuyi Ayowole,PRP,PRP,OTHER,1007,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Samuel Adetona Abede,NRM,NRM,OTHER,777,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Adebayo Adeolu Elisha,APP,APP,APC,601,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Akinrinola Oyegoke Omigbodun,SDP,SDP,SDP,515,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Rasaq Oyelami Saliu,NNPP,New Nigeria Peoples Party,NNPP,393,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,Adeleke Adedapo,BP,BP,OTHER,374,wikipedia:governorship:2022:OS
+gov-os-2022,2022,OS,John Olufemi Adesuyi,ZLP,ZLP,OTHER,364,wikipedia:governorship:2022:OS
+gov-ab-2023,2023,AB,Emeka Michael Nwankpa,A,A,OTHER,1528,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Wilson Kalu Akuma,AA,AA,OTHER,474,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Bond Ohuche,AAC,AAC,OTHER,298,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Sunday Onuoha,ADC,ADC,ADC,2529,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Chibuike Jonas,ADP,ADP,OTHER,601,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Ikechi Emenike,APC,APC,APC,24091,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Anyim Uguru Chikezie,APM,APM,OTHER,572,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Mascot Kalu,APP,APP,APC,11728,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Gregory Ibe,APGA,APGA,APGA,18119,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Lucky Achinihu Ekeji,BP,BP,OTHER,1141,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Alex Otti,LP,LP,LP,175467,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Ukpai Iro Ukpai,NNPP,New Nigeria Peoples Party,NNPP,2068,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Ijeoma Kalu,NRM,NRM,OTHER,472,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Okey Ahiwe,PDP,PDP,PDP,88529,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Nnenna Ngwa'Mma Lancaster-Okoro,PRP,PRP,OTHER,168,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Gladys Ikonnaya Ngozi Johnson-Ogbuneke,SDP,SDP,SDP,773,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Enyinnaya Nwafor,YPP,YPP,OTHER,28972,wikipedia:governorship:2023:AB
+gov-ab-2023,2023,AB,Prince Chibunna Onukwu,ZLP,ZLP,OTHER,1011,wikipedia:governorship:2023:AB
+gov-ad-2023,2023,AD,Ahmadu Umaru Fintiri,PDP,PDP,PDP,430861,wikipedia:governorship:2023:AD
+gov-ad-2023,2023,AD,Aishatu Dahiru Ahmed,APC,APC,APC,398788,wikipedia:governorship:2023:AD
+gov-ak-2023,2023,AK,Umo Eno,PDP,PDP,PDP,354348,wikipedia:governorship:2023:AK
+gov-ak-2023,2023,AK,Bassey Albert Akpan,YPP,YPP,OTHER,136262,wikipedia:governorship:2023:AK
+gov-ak-2023,2023,AK,Akanimo Udofia,APC,APC,APC,129602,wikipedia:governorship:2023:AK
+gov-ba-2023,2023,BA,Bala Mohammed,PDP,PDP,PDP,525280,wikipedia:governorship:2023:BA
+gov-ba-2023,2023,BA,Sadique Abubakar,APC,APC,APC,432272,wikipedia:governorship:2023:BA
+gov-ba-2023,2023,BA,Halliru Dauda Jika,NNPP,NNPP,NNPP,60496,wikipedia:governorship:2023:BA
+gov-be-2023,2023,BE,Hyacinth Alia,APC,APC,APC,473933,wikipedia:governorship:2023:BE
+gov-be-2023,2023,BE,Titus Uba,PDP,PDP,PDP,223913,wikipedia:governorship:2023:BE
+gov-be-2023,2023,BE,Herman Hembe,LP,LP,LP,41881,wikipedia:governorship:2023:BE
+gov-bo-2023,2023,BO,Babagana Umara Zulum,APC,APC,APC,545543,wikipedia:governorship:2023:BO
+gov-bo-2023,2023,BO,Mohammed Ali Jajari,PDP,PDP,PDP,82147,wikipedia:governorship:2023:BO
+gov-by-2023,2023,BY,Douye Diri,PDP,PDP,PDP,175196,wikipedia:governorship:2023:BY
+gov-by-2023,2023,BY,Timipre Sylva,APC,APC,APC,110108,wikipedia:governorship:2023:BY
+gov-cr-2023,2023,CR,Bassey Otu,APC,APC,APC,258619,wikipedia:governorship:2023:CR
+gov-cr-2023,2023,CR,Sandy Ojang Onor,PDP,PDP,PDP,179636,wikipedia:governorship:2023:CR
+gov-de-2023,2023,DE,Ovie Omo-Agege,APC,APC,APC,1190,wikipedia:governorship:2023:DE
+gov-eb-2023,2023,EB,Francis Nwifuru,APC,APC,APC,199131,wikipedia:governorship:2023:EB
+gov-eb-2023,2023,EB,Ifeanyi Odii,PDP,PDP,PDP,80191,wikipedia:governorship:2023:EB
+gov-eb-2023,2023,EB,Bernard Odoh,APGA,APGA,APGA,52189,wikipedia:governorship:2023:EB
+gov-en-2023,2023,EN,Peter Mbah,PDP,PDP,PDP,160895,wikipedia:governorship:2023:EN
+gov-en-2023,2023,EN,Chijioke Edeoga,LP,LP,LP,157552,wikipedia:governorship:2023:EN
+gov-go-2023,2023,GO,Muhammad Inuwa Yahaya,APC,APC,APC,342821,wikipedia:governorship:2023:GO
+gov-go-2023,2023,GO,Mohammed Jibrin Barde,PDP,PDP,PDP,233131,wikipedia:governorship:2023:GO
+gov-im-2023,2023,IM,Hope Uzodinma,APC,APC,APC,540308,wikipedia:governorship:2023:IM
+gov-im-2023,2023,IM,Samuel Anyanwu,PDP,PDP,PDP,71503,wikipedia:governorship:2023:IM
+gov-im-2023,2023,IM,Athan Achonu,LP,LP,LP,64081,wikipedia:governorship:2023:IM
+gov-ji-2023,2023,JI,Umar Namadi,APC,APC,APC,618449,wikipedia:governorship:2023:JI
+gov-ji-2023,2023,JI,Mustapha Sule Lamido,PDP,PDP,PDP,368726,wikipedia:governorship:2023:JI
+gov-kd-2023,2023,KD,Uba Sani,APC,APC,APC,730002,wikipedia:governorship:2023:KD
+gov-kd-2023,2023,KD,Isa Ashiru,PDP,PDP,PDP,719196,wikipedia:governorship:2023:KD
+gov-kd-2023,2023,KD,Jonathan Asake,LP,LP,LP,58283,wikipedia:governorship:2023:KD
+gov-ke-2023,2023,KE,Nasir Idris,APC,APC,APC,409225,wikipedia:governorship:2023:KE
+gov-ke-2023,2023,KE,Aminu Bande,PDP,PDP,PDP,360940,wikipedia:governorship:2023:KE
+gov-kn-2023,2023,KN,Sha'aban Ibrahim Sharada,ADP,ADP,OTHER,12832,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Ibrahim Muhammad,APP,APP,APC,430,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Mahmud Sani,AAC,AAC,OTHER,955,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Khalid Ibrahim Idris,ADC,ADC,ADC,9500,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Ibrahim Sani,APM,APM,OTHER,4955,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Nasir Yusuf Gawuna,APC,APC,APC,890705,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Umar Yakasai Sulenkuka,APGA,APGA,APGA,1360,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Furera Ahmad Yakubu,BP,BP,OTHER,533,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Mohammed Raji Abdullahi,LP,LP,LP,5409,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Abba Kabir Yusuf,NNPP,New Nigeria Peoples Party,NNPP,1019602,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Aishatu Mahmud,NRM,NRM,OTHER,862,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Sadiq Wali,PDP,PDP,PDP,15957,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Salihu Tanko Yakasai,PRP,PRP,OTHER,2183,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Mohammed G. Bala,SDP,SDP,SDP,759,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Ahmed Isa Muhammad,YPP,YPP,OTHER,9835,wikipedia:governorship:2023:KN
+gov-kn-2023,2023,KN,Isa Nuhu,ZLP,ZLP,OTHER,1882,wikipedia:governorship:2023:KN
+gov-ko-2023,2023,KO,Ahmed Usman Ododo,APC,APC,APC,446237,wikipedia:governorship:2023:KO
+gov-ko-2023,2023,KO,Murtala Ajaka,SDP,SDP,SDP,259052,wikipedia:governorship:2023:KO
+gov-ko-2023,2023,KO,Dino Melaye,PDP,PDP,PDP,46362,wikipedia:governorship:2023:KO
+gov-kt-2023,2023,KT,Dikko Umaru Radda,APC,APC,APC,859892,wikipedia:governorship:2023:KT
+gov-kt-2023,2023,KT,Garba Yakubu Lado,PDP,PDP,PDP,486620,wikipedia:governorship:2023:KT
+gov-kw-2023,2023,KW,AbdulRahman AbdulRazaq,APC,APC,APC,273424,wikipedia:governorship:2023:KW
+gov-kw-2023,2023,KW,Shuaib Yaman Abdullahi,PDP,PDP,PDP,155490,wikipedia:governorship:2023:KW
+gov-kw-2023,2023,KW,Hakeem Lawal,SDP,SDP,SDP,18922,wikipedia:governorship:2023:KW
+gov-la-2023,2023,LA,Babajide Sanwo-Olu,APC,APC,APC,762134,wikipedia:governorship:2023:LA
+gov-la-2023,2023,LA,Gbadebo Rhodes-Vivour,LP,LP,LP,312329,wikipedia:governorship:2023:LA
+gov-la-2023,2023,LA,Abdul-Azeez Olajide Adediran,PDP,PDP,PDP,62449,wikipedia:governorship:2023:LA
+gov-na-2023,2023,NA,Abdullahi Sule,APC,APC,APC,347209,wikipedia:governorship:2023:NA
+gov-na-2023,2023,NA,David Ombugadu,PDP,PDP,PDP,283016,wikipedia:governorship:2023:NA
+gov-ni-2023,2023,NI,Mohammed Umar Bago,APC,APC,APC,469896,wikipedia:governorship:2023:NI
+gov-ni-2023,2023,NI,Isah Liman Kantigi,PDP,PDP,PDP,387476,wikipedia:governorship:2023:NI
+gov-og-2023,2023,OG,Olubiyi Otegbeye,ADC,ADC,ADC,94754,wikipedia:governorship:2023:OG
+gov-og-2023,2023,OG,Dapo Abiodun,APC,APC,APC,276298,wikipedia:governorship:2023:OG
+gov-og-2023,2023,OG,Ladi Adebutu,PDP,PDP,PDP,262383,wikipedia:governorship:2023:OG
+gov-oy-2023,2023,OY,Seyi Makinde,PDP,PDP,PDP,563756,wikipedia:governorship:2023:OY
+gov-oy-2023,2023,OY,Teslim Folarin,APC,APC,APC,256685,wikipedia:governorship:2023:OY
+gov-oy-2023,2023,OY,Adebayo Adelabu,A,A,OTHER,38357,wikipedia:governorship:2023:OY
+gov-pl-2023,2023,PL,Caleb Mutfwang,PDP,PDP,PDP,525299,wikipedia:governorship:2023:PL
+gov-pl-2023,2023,PL,Nentawe Yilwatda,APC,APC,APC,481400,wikipedia:governorship:2023:PL
+gov-pl-2023,2023,PL,Patrick Dakum,LP,LP,LP,60310,wikipedia:governorship:2023:PL
+gov-ri-2023,2023,RI,Tonye Cole,APC,APC,APC,95274,wikipedia:governorship:2023:RI
+gov-ri-2023,2023,RI,Beatrice Itubo,LP,LP,LP,22224,wikipedia:governorship:2023:RI
+gov-ri-2023,2023,RI,Sam Agwor,NNPP,New Nigeria Peoples Party,NNPP,335,wikipedia:governorship:2023:RI
+gov-ri-2023,2023,RI,Siminalayi Fubara,PDP,PDP,PDP,302614,wikipedia:governorship:2023:RI
+gov-so-2023,2023,SO,Ahmad Aliyu,APC,APC,APC,453661,wikipedia:governorship:2023:SO
+gov-so-2023,2023,SO,Saidu Umar,PDP,PDP,PDP,404632,wikipedia:governorship:2023:SO
+gov-ta-2023,2023,TA,Kefas Agbu,PDP,PDP,PDP,302614,wikipedia:governorship:2023:TA
+gov-ta-2023,2023,TA,Muhammad Sani Yahaya,NNPP,NNPP,NNPP,202277,wikipedia:governorship:2023:TA
+gov-ta-2023,2023,TA,Emmanuel Bwacha,APC,APC,APC,142502,wikipedia:governorship:2023:TA
+gov-yo-2023,2023,YO,Mai Mala Buni,APC,APC,APC,317113,wikipedia:governorship:2023:YO
+gov-yo-2023,2023,YO,Sharif Abdullahi,PDP,PDP,PDP,124259,wikipedia:governorship:2023:YO
+gov-za-2023,2023,ZA,Dauda Lawal,PDP,PDP,PDP,377726,wikipedia:governorship:2023:ZA
+gov-za-2023,2023,ZA,Bello Matawalle,APC,APC,APC,311976,wikipedia:governorship:2023:ZA
+gov-ed-2024,2024,ED,Monday Okpebholo,APC,APC,APC,291667,wikipedia:governorship:2024:ED
+gov-ed-2024,2024,ED,Asue Ighodalo,PDP,PDP,PDP,247274,wikipedia:governorship:2024:ED
+gov-ed-2024,2024,ED,Olumide Akpata,LP,LP,LP,22763,wikipedia:governorship:2024:ED
+gov-on-2024,2024,ON,Lucky Aiyedatiwa,APC,APC,APC,366781,wikipedia:governorship:2024:ON
+gov-on-2024,2024,ON,Agboola Ajayi,PDP,PDP,PDP,117845,wikipedia:governorship:2024:ON
+gov-ek-2026,2026,EK,,APC,APC,APC,319224,wikipedia:governorship:2026:EK
+gov-ek-2026,2026,EK,,PDP,PDP,PDP,40543,wikipedia:governorship:2026:EK
+gov-ek-2026,2026,EK,,ADC,ADC,ADC,12872,wikipedia:governorship:2026:EK
+gov-os-2026,2026,OS,Ademola Adeleke,A,A,OTHER,511067,wikipedia:governorship:2026:OS
+gov-os-2026,2026,OS,Bola Oyebamiji,APC,APC,APC,444815,wikipedia:governorship:2026:OS
+gov-os-2026,2026,OS,Najeem Salaam,ADC,ADC,ADC,17180,wikipedia:governorship:2026:OS

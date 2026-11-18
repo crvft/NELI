@@ -44,6 +44,10 @@ _PARTY_ALIASES = {
     "progressive peoples alliance": "PPA",
     "ypp": "YPP",
     "aac": "AAC",
+    "accord": "A",
+    "a": "A",
+    "c4c": "C4C",
+    "coalition for change": "C4C",
     "ad–app": "AD-APP",
     "ad-app": "AD-APP",
     "app–ad": "AD-APP",
@@ -69,8 +73,17 @@ LINEAGE = {
 }
 
 
+HONORIFICS = {"esq", "jnr", "jr", "snr", "sr", "rtd", "phd", "dr", "mrs", "mni", "san", "con", "ofr"}
+
+
 def normalise_party(raw: object) -> str:
     s = re.sub(r"\[[^\]]*\]", "", str(raw)).strip()
+    s = re.sub(r"\s*\(Nigeria\)\s*$", "", s)  # Wikipedia disambiguation, e.g. "Labour Party (Nigeria)"
+    s = re.sub(r"\)+", ")", s)
+    m = re.search(r"\(([A-Za-z0-9][A-Za-z0-9\-–/]*)\)\s*$", s)
+    if m and m.group(1).lower() not in HONORIFICS:
+        inner = m.group(1)
+        return _PARTY_ALIASES.get(inner.lower(), inner.upper())
     key = s.lower()
     if key in _PARTY_ALIASES:
         return _PARTY_ALIASES[key]

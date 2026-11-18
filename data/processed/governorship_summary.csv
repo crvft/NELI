@@ -1,0 +1,250 @@
+election_id,year,state_code,off_cycle,coverage,candidates,candidate_sum,valid_votes,rejected_votes,total_votes,registered,accredited,sum_check,source
+gov-ab-1999,1999,AB,False,all candidates,3,717771,,,717771.0,1321895.0,,0.0,wikipedia:governorship:1999:AB
+gov-ad-1999,1999,AD,False,all candidates,3,620660,,,620660.0,1260956.0,,0.0,wikipedia:governorship:1999:AD
+gov-ak-1999,1999,AK,False,all candidates,3,1167987,,,1167987.0,1450367.0,,0.0,wikipedia:governorship:1999:AK
+gov-an-1999,1999,AN,False,all candidates,3,1029815,,,1029815.0,2221384.0,,0.0,wikipedia:governorship:1999:AN
+gov-ba-1999,1999,BA,False,all candidates,3,904789,,,904789.0,1941913.0,,0.0,wikipedia:governorship:1999:BA
+gov-be-1999,1999,BE,False,all candidates,3,987941,,,987941.0,1806121.0,,0.0,wikipedia:governorship:1999:BE
+gov-bo-1999,1999,BO,False,all candidates,2,736858,736858.0,23288.0,760146.0,1690943.0,,0.0,wikipedia:governorship:1999:BO
+gov-by-1999,1999,BY,False,all candidates,3,595785,,,595785.0,873000.0,,0.0,wikipedia:governorship:1999:BY
+gov-cr-1999,1999,CR,False,all candidates,2,986995,986995.0,7780.0,994775.0,1091930.0,,0.0,wikipedia:governorship:1999:CR
+gov-de-1999,1999,DE,False,all candidates,2,855234,855234.0,12318.0,867552.0,1547685.0,,0.0,wikipedia:governorship:1999:DE
+gov-eb-1999,1999,EB,False,all candidates,2,485665,485665.0,12031.0,497696.0,902327.0,,0.0,wikipedia:governorship:1999:EB
+gov-ed-1999,1999,ED,False,all candidates,2,806559,806559.0,12009.0,818568.0,1414511.0,,0.0,wikipedia:governorship:1999:ED
+gov-ek-1999,1999,EK,False,all candidates,2,412724,412724.0,9995.0,422719.0,1075278.0,,0.0,wikipedia:governorship:1999:EK
+gov-en-1999,1999,EN,False,all candidates,2,837960,837960.0,3005.0,840965.0,1466472.0,,0.0,wikipedia:governorship:1999:EN
+gov-go-1999,1999,GO,False,all candidates,2,616327,616327.0,22317.0,638644.0,1113734.0,,0.0,wikipedia:governorship:1999:GO
+gov-im-1999,1999,IM,False,all candidates,2,768171,768171.0,16197.0,784368.0,1627939.0,,0.0,wikipedia:governorship:1999:IM
+gov-ji-1999,1999,JI,False,all candidates,2,535364,535364.0,0.0,535364.0,1568423.0,,0.0,wikipedia:governorship:1999:JI
+gov-kd-1999,1999,KD,False,all candidates,3,1540797,,,1540797.0,2536702.0,,0.0,wikipedia:governorship:1999:KD
+gov-ke-1999,1999,KE,False,top candidates only,2,468050,,,,,,,wikipedia:governorship:1999:KE
+gov-kn-1999,1999,KN,False,top candidates only,2,898837,,,,,,,wikipedia:governorship:1999:KN
+gov-ko-1999,1999,KO,False,all candidates,2,957384,957384.0,13686.0,971070.0,1265442.0,,0.0,wikipedia:governorship:1999:KO
+gov-kt-1999,1999,KT,False,top candidates only,2,873626,,,,,,,wikipedia:governorship:1999:KT
+gov-kw-1999,1999,KW,False,all candidates,2,457341,457341.0,17900.0,475241.0,940425.0,,0.0,wikipedia:governorship:1999:KW
+gov-la-1999,1999,LA,False,all candidates,2,1026632,1026632.0,34997.0,1061629.0,4093143.0,,0.0,wikipedia:governorship:1999:LA
+gov-na-1999,1999,NA,False,all candidates,2,612055,612055.0,21065.0,633120.0,702021.0,,0.0,wikipedia:governorship:1999:NA
+gov-ni-1999,1999,NI,False,all candidates,2,759244,759244.0,22334.0,781578.0,1553303.0,,0.0,wikipedia:governorship:1999:NI
+gov-og-1999,1999,OG,False,all candidates,2,369293,369293.0,11865.0,381158.0,1592502.0,,0.0,wikipedia:governorship:1999:OG
+gov-on-1999,1999,ON,False,all candidates,2,523735,523735.0,12849.0,536584.0,1333617.0,,0.0,wikipedia:governorship:1999:ON
+gov-os-1999,1999,OS,False,all candidates,2,431662,431662.0,10825.0,442487.0,1496058.0,,0.0,wikipedia:governorship:1999:OS
+gov-oy-1999,1999,OY,False,all candidates,2,673880,673880.0,20963.0,694843.0,2397270.0,,0.0,wikipedia:governorship:1999:OY
+gov-pl-1999,1999,PL,False,all candidates,2,684296,684296.0,18976.0,703272.0,1313603.0,,0.0,wikipedia:governorship:1999:PL
+gov-ri-1999,1999,RI,False,all candidates,2,1480354,1480354.0,7521.0,1487875.0,2207000.0,,0.0,wikipedia:governorship:1999:RI
+gov-so-1999,1999,SO,False,top candidates only,2,431860,,,,,,,wikipedia:governorship:1999:SO
+gov-ta-1999,1999,TA,False,top candidates only,2,810923,,,,,,,wikipedia:governorship:1999:TA
+gov-yo-1999,1999,YO,False,top candidates only,2,291636,,,,,,,wikipedia:governorship:1999:YO
+gov-za-1999,1999,ZA,False,top candidates only,2,427433,,,,,,,wikipedia:governorship:1999:ZA
+gov-ab-2003,2003,AB,False,winner only,1,540983,,,540983.0,1285428.0,,0.0,wikipedia:governorship:2003:AB
+gov-ad-2003,2003,AD,False,winner only,1,375000,,,375000.0,1280204.0,,0.0,wikipedia:governorship:2003:AD
+gov-ak-2003,2003,AK,False,winner only,1,1028722,,,1028722.0,1624495.0,,0.0,wikipedia:governorship:2003:AK
+gov-an-2003,2003,AN,False,winner only,1,452820,,,452820.0,1859795.0,,0.0,wikipedia:governorship:2003:AN
+gov-ba-2003,2003,BA,False,winner only,1,1198130,,,1198130.0,2130557.0,,0.0,wikipedia:governorship:2003:BA
+gov-be-2003,2003,BE,False,winner only,1,681717,,,681717.0,1755528.0,,0.0,wikipedia:governorship:2003:BE
+gov-bo-2003,2003,BO,False,winner only,1,581880,,,581880.0,2156019.0,,0.0,wikipedia:governorship:2003:BO
+gov-by-2003,2003,BY,False,winner only,1,698644,,,698644.0,765472.0,,0.0,wikipedia:governorship:2003:BY
+gov-cr-2003,2003,CR,False,winner only,1,1193290,,,1193290.0,1289192.0,,0.0,wikipedia:governorship:2003:CR
+gov-de-2003,2003,DE,False,winner only,1,1038607,,,1038607.0,1607337.0,,0.0,wikipedia:governorship:2003:DE
+gov-eb-2003,2003,EB,False,winner only,1,768674,,,768674.0,1002771.0,,0.0,wikipedia:governorship:2003:EB
+gov-ed-2003,2003,ED,False,winner only,1,969747,,,969747.0,1432891.0,,0.0,wikipedia:governorship:2003:ED
+gov-ek-2003,2003,EK,False,all candidates,2,388297,,,388297.0,981753.0,,0.0,wikipedia:governorship:2003:EK
+gov-en-2003,2003,EN,False,all candidates,2,1131317,1131317.0,8695.0,1140012.0,1479542.0,,0.0,wikipedia:governorship:2003:EN
+gov-go-2003,2003,GO,False,all candidates,2,963785,,,963785.0,1263287.0,,0.0,wikipedia:governorship:2003:GO
+gov-im-2003,2003,IM,False,all candidates,2,838347,,,838347.0,1630494.0,,0.0,wikipedia:governorship:2003:IM
+gov-ji-2003,2003,JI,False,all candidates,2,1081877,1081877.0,95982.0,1177859.0,1636657.0,,0.0,wikipedia:governorship:2003:JI
+gov-kd-2003,2003,KD,False,all candidates,2,1812336,,,1812336.0,2620999.0,,0.0,wikipedia:governorship:2003:KD
+gov-ke-2003,2003,KE,False,top candidates only,2,802023,,,,,,,wikipedia:governorship:2003:KE
+gov-kn-2003,2003,KN,False,top candidates only,2,1970951,,,,,,,wikipedia:governorship:2003:KN
+gov-ko-2003,2003,KO,False,all candidates,2,774353,774353.0,32408.0,806761.0,1158343.0,,0.0,wikipedia:governorship:2003:KO
+gov-kt-2003,2003,KT,False,top candidates only,2,1634922,,,,,,,wikipedia:governorship:2003:KT
+gov-kw-2003,2003,KW,False,all candidates,2,522097,522097.0,38080.0,560177.0,995882.0,,0.0,wikipedia:governorship:2003:KW
+gov-la-2003,2003,LA,False,top candidates only,2,1652119,,,,,,,wikipedia:governorship:2003:LA
+gov-na-2003,2003,NA,False,all candidates,2,614481,614481.0,15463.0,629944.0,852626.0,,0.0,wikipedia:governorship:2003:NA
+gov-ni-2003,2003,NI,False,all candidates,2,809624,809624.0,75747.0,885371.0,1607730.0,,0.0,wikipedia:governorship:2003:NI
+gov-og-2003,2003,OG,False,all candidates,2,681317,681317.0,45921.0,727238.0,1576875.0,,0.0,wikipedia:governorship:2003:OG
+gov-on-2003,2003,ON,False,all candidates,2,889868,,,889868.0,1504181.0,,0.0,wikipedia:governorship:2003:ON
+gov-os-2003,2003,OS,False,all candidates,2,730550,,,730550.0,1367627.0,,0.0,wikipedia:governorship:2003:OS
+gov-oy-2003,2003,OY,False,all candidates,2,1017522,,,1017522.0,2209953.0,,0.0,wikipedia:governorship:2003:OY
+gov-pl-2003,2003,PL,False,winner only,1,364903,,,364903.0,1391594.0,,0.0,wikipedia:governorship:2003:PL
+gov-ri-2003,2003,RI,False,winner only,1,2098692,,,2098692.0,2272238.0,,0.0,wikipedia:governorship:2003:RI
+gov-so-2003,2003,SO,False,top candidates only,2,910592,,,,,,,wikipedia:governorship:2003:SO
+gov-ta-2003,2003,TA,False,top candidates only,2,886892,,,,,,,wikipedia:governorship:2003:TA
+gov-yo-2003,2003,YO,False,top candidates only,2,557068,,,,,,,wikipedia:governorship:2003:YO
+gov-za-2003,2003,ZA,False,top candidates only,2,1040097,,,,,,,wikipedia:governorship:2003:ZA
+gov-ad-2007,2007,AD,False,all candidates,2,423576,,,,,,,wikipedia:governorship:2007:AD
+gov-ak-2007,2007,AK,False,all candidates,2,1064431,,,,,,,wikipedia:governorship:2007:AK
+gov-an-2007,2007,AN,False,all candidates,2,1164300,,,,,,,wikipedia:governorship:2007:AN
+gov-ba-2007,2007,BA,False,all candidates,2,1024484,,,,,,,wikipedia:governorship:2007:BA
+gov-be-2007,2007,BE,False,all candidates,2,1363107,,,,,,,wikipedia:governorship:2007:BE
+gov-bo-2007,2007,BO,False,all candidates,2,996527,,,,,,,wikipedia:governorship:2007:BO
+gov-by-2007,2007,BY,False,all candidates,2,787504,,,,,,,wikipedia:governorship:2007:BY
+gov-cr-2007,2007,CR,False,all candidates,2,850274,,,,,,,wikipedia:governorship:2007:CR
+gov-de-2007,2007,DE,False,all candidates,2,1050852,,,,,,,wikipedia:governorship:2007:DE
+gov-eb-2007,2007,EB,False,all candidates,2,535023,,,,,,,wikipedia:governorship:2007:EB
+gov-ed-2007,2007,ED,False,all candidates,2,527212,,,,,,,wikipedia:governorship:2007:ED
+gov-ek-2007,2007,EK,False,all candidates,2,285994,,,,,,,wikipedia:governorship:2007:EK
+gov-en-2007,2007,EN,False,all candidates,2,812409,,,,,,,wikipedia:governorship:2007:EN
+gov-go-2007,2007,GO,False,all candidates,2,1023316,,,,,,,wikipedia:governorship:2007:GO
+gov-im-2007,2007,IM,False,all candidates,2,1059073,,,,,,,wikipedia:governorship:2007:IM
+gov-ji-2007,2007,JI,False,all candidates,2,783995,,,,,,,wikipedia:governorship:2007:JI
+gov-kd-2007,2007,KD,False,top candidates only,2,1805357,,,,,,,wikipedia:governorship:2007:KD
+gov-ke-2007,2007,KE,False,top candidates only,2,604148,,,,,,,wikipedia:governorship:2007:KE
+gov-kn-2007,2007,KN,False,top candidates only,2,1301052,,,,,,,wikipedia:governorship:2007:KN
+gov-ko-2007,2007,KO,False,all candidates,2,1029174,,,,,,,wikipedia:governorship:2007:KO
+gov-kt-2007,2007,KT,False,top candidates only,2,1403791,,,,,,,wikipedia:governorship:2007:KT
+gov-kw-2007,2007,KW,False,all candidates,2,636681,,,,,,,wikipedia:governorship:2007:KW
+gov-la-2007,2007,LA,False,all candidates,4,1164224,,,1164224.0,,,0.0,wikipedia:governorship:2007:LA
+gov-na-2007,2007,NA,False,all candidates,2,700011,,,,,,,wikipedia:governorship:2007:NA
+gov-ni-2007,2007,NI,False,all candidates,2,654123,,,,,,,wikipedia:governorship:2007:NI
+gov-og-2007,2007,OG,False,all candidates,2,561281,,,,,,,wikipedia:governorship:2007:OG
+gov-on-2007,2007,ON,False,all candidates,2,575309,,,,,,,wikipedia:governorship:2007:ON
+gov-os-2007,2007,OS,False,all candidates,2,667391,,,,,,,wikipedia:governorship:2007:OS
+gov-oy-2007,2007,OY,False,all candidates,2,597161,,,,,,,wikipedia:governorship:2007:OY
+gov-pl-2007,2007,PL,False,all candidates,2,734637,,,,,,,wikipedia:governorship:2007:PL
+gov-ri-2007,2007,RI,False,all candidates,2,1954474,,,,,,,wikipedia:governorship:2007:RI
+gov-so-2007,2007,SO,False,top candidates only,2,688677,,,,,,,wikipedia:governorship:2007:SO
+gov-ta-2007,2007,TA,False,all candidates,2,634736,,,,,,,wikipedia:governorship:2007:TA
+gov-yo-2007,2007,YO,False,top candidates only,2,396565,,,,,,,wikipedia:governorship:2007:YO
+gov-za-2007,2007,ZA,False,top candidates only,2,537806,,,,,,,wikipedia:governorship:2007:ZA
+gov-an-2010,2010,AN,True,all candidates,6,273916,284547.0,16685.0,301232.0,1844815.0,,-0.0374,wikipedia:governorship:2010:AN
+gov-ab-2011,2011,AB,False,all candidates,2,690579,,,,,,,wikipedia:governorship:2011:AB
+gov-ak-2011,2011,AK,False,all candidates,2,1121034,,,,,,,wikipedia:governorship:2011:AK
+gov-ba-2011,2011,BA,False,all candidates,2,1009929,,,,,,,wikipedia:governorship:2011:BA
+gov-be-2011,2011,BE,False,all candidates,2,1090075,,,,,,,wikipedia:governorship:2011:BE
+gov-bo-2011,2011,BO,False,all candidates,2,981287,,,,,,,wikipedia:governorship:2011:BO
+gov-de-2011,2011,DE,False,all candidates,2,959627,,,,,,,wikipedia:governorship:2011:DE
+gov-eb-2011,2011,EB,False,all candidates,2,412465,,,,,,,wikipedia:governorship:2011:EB
+gov-en-2011,2011,EN,False,all candidates,2,449925,,,,,,,wikipedia:governorship:2011:EN
+gov-go-2011,2011,GO,False,all candidates,2,688262,,,,,,,wikipedia:governorship:2011:GO
+gov-im-2011,2011,IM,False,all candidates,2,627355,,,,,,,wikipedia:governorship:2011:IM
+gov-ji-2011,2011,JI,False,all candidates,2,1019484,,,,,,,wikipedia:governorship:2011:JI
+gov-kd-2011,2011,KD,False,all candidates,5,2542319,,,2549466.0,,,-0.0028,wikipedia:governorship:2011:KD
+gov-ke-2011,2011,KE,False,top candidates only,2,885906,,,,,,,wikipedia:governorship:2011:KE
+gov-kn-2011,2011,KN,False,top candidates only,2,2156662,,,,,,,wikipedia:governorship:2011:KN
+gov-ko-2011,2011,KO,False,all candidates,2,460285,,,,,,,wikipedia:governorship:2011:KO
+gov-kt-2011,2011,KT,False,top candidates only,2,1585681,,,,,,,wikipedia:governorship:2011:KT
+gov-kw-2011,2011,KW,False,all candidates,2,407549,,,,,,,wikipedia:governorship:2011:KW
+gov-la-2011,2011,LA,False,all candidates,2,1809563,,,,,,,wikipedia:governorship:2011:LA
+gov-na-2011,2011,NA,False,all candidates,2,645221,,,,,,,wikipedia:governorship:2011:NA
+gov-ni-2011,2011,NI,False,all candidates,2,787975,,,,,,,wikipedia:governorship:2011:NI
+gov-og-2011,2011,OG,False,all candidates,2,892449,,,,,,,wikipedia:governorship:2011:OG
+gov-oy-2011,2011,OY,False,all candidates,2,807984,,,,,,,wikipedia:governorship:2011:OY
+gov-pl-2011,2011,PL,False,all candidates,2,1318511,,,,,,,wikipedia:governorship:2011:PL
+gov-ri-2011,2011,RI,False,all candidates,2,1291057,,,,,,,wikipedia:governorship:2011:RI
+gov-ta-2011,2011,TA,False,all candidates,2,537518,,,,,,,wikipedia:governorship:2011:TA
+gov-yo-2011,2011,YO,False,all candidates,2,632447,,,,,,,wikipedia:governorship:2011:YO
+gov-za-2011,2011,ZA,False,all candidates,2,975618,,,,,,,wikipedia:governorship:2011:ZA
+gov-ad-2012,2012,AD,True,all candidates,2,543976,,,543976.0,,,0.0,wikipedia:governorship:2012:AD
+gov-by-2012,2012,BY,True,winner only,1,417500,,,,591870.0,,,wikipedia:governorship:2012:BY
+gov-cr-2012,2012,CR,True,all candidates,2,482570,,,482570.0,,,0.0,wikipedia:governorship:2012:CR
+gov-ed-2012,2012,ED,True,all candidates,7,630119,,,630119.0,,,0.0,wikipedia:governorship:2012:ED
+gov-on-2012,2012,ON,True,all candidates,13,594243,594243.0,30415.0,624658.0,1638597.0,,0.0,wikipedia:governorship:2012:ON
+gov-so-2012,2012,SO,True,top candidates only,2,649295,,,,,,,wikipedia:governorship:2012:SO
+gov-an-2013,2013,AN,True,all candidates,5,416456,563832.0,16988.0,580820.0,1776167.0,,-0.2614,wikipedia:governorship:2013:AN
+gov-ek-2014,2014,EK,True,all candidates,14,346666,,,346666.0,,,0.0,wikipedia:governorship:2014:EK
+gov-os-2014,2014,OS,True,all candidates,3,696329,,,696329.0,1407222.0,,0.0,wikipedia:governorship:2014:OS
+gov-ab-2015,2015,AB,False,all candidates,2,445595,,,,,,,wikipedia:governorship:2015:AB
+gov-ad-2015,2015,AD,False,all candidates,4,676037,815952.0,27790.0,843742.0,,,-0.1715,wikipedia:governorship:2015:AD
+gov-ak-2015,2015,AK,False,all candidates,2,1085936,1110580.0,12256.0,1122836.0,1548531.0,,-0.0222,wikipedia:governorship:2015:AK
+gov-ba-2015,2015,BA,False,all candidates,2,937584,,,,,,,wikipedia:governorship:2015:BA
+gov-be-2015,2015,BE,False,all candidates,2,736810,,,,,,,wikipedia:governorship:2015:BE
+gov-bo-2015,2015,BO,False,all candidates,2,684644,,,684644.0,1407777.0,,0.0,wikipedia:governorship:2015:BO
+gov-by-2015,2015,BY,False,all candidates,3,223422,223422.0,6647.0,230069.0,654493.0,,0.0,wikipedia:governorship:2015:BY
+gov-cr-2015,2015,CR,False,all candidates,2,395999,,,,,,,wikipedia:governorship:2015:CR
+gov-de-2015,2015,DE,False,all candidates,2,854708,,,,,,,wikipedia:governorship:2015:DE
+gov-eb-2015,2015,EB,False,all candidates,2,414684,,,,,,,wikipedia:governorship:2015:EB
+gov-en-2015,2015,EN,False,all candidates,2,526116,,,,,,,wikipedia:governorship:2015:EN
+gov-go-2015,2015,GO,False,all candidates,2,490501,,,,,,,wikipedia:governorship:2015:GO
+gov-im-2015,2015,IM,False,all candidates,2,737701,,,,,,,wikipedia:governorship:2015:IM
+gov-ji-2015,2015,JI,False,all candidates,4,1130883,,,,,,,wikipedia:governorship:2015:JI
+gov-kd-2015,2015,KD,False,all candidates,14,1630080,,,1630080.0,3357469.0,,0.0,wikipedia:governorship:2015:KD
+gov-ke-2015,2015,KE,False,all candidates,2,770819,,,,,,,wikipedia:governorship:2015:KE
+gov-kn-2015,2015,KN,False,top candidates only,2,2056160,,,,,,,wikipedia:governorship:2015:KN
+gov-ko-2015,2015,KO,False,top candidates only,2,440381,,,,,,,wikipedia:governorship:2015:KO
+gov-kt-2015,2015,KT,False,all candidates,2,1419853,,,,,,,wikipedia:governorship:2015:KT
+gov-kw-2015,2015,KW,False,all candidates,2,411052,419633.0,14721.0,434354.0,1171561.0,,-0.0204,wikipedia:governorship:2015:KW
+gov-la-2015,2015,LA,False,all candidates,3,1477869,,,,,,,wikipedia:governorship:2015:LA
+gov-na-2015,2015,NA,False,all candidates,3,608511,608511.0,771.0,609282.0,,,0.0,wikipedia:governorship:2015:NA
+gov-ni-2015,2015,NI,False,all candidates,2,833474,,,,,,,wikipedia:governorship:2015:NI
+gov-og-2015,2015,OG,False,all candidates,3,534254,,,534254.0,,,0.0,wikipedia:governorship:2015:OG
+gov-oy-2015,2015,OY,False,all candidates,5,899700,,,899700.0,,,0.0,wikipedia:governorship:2015:OY
+gov-pl-2015,2015,PL,False,all candidates,6,1090013,,,1090013.0,1508585.0,,0.0,wikipedia:governorship:2015:PL
+gov-ri-2015,2015,RI,False,all candidates,18,1172535,,,,,,,wikipedia:governorship:2015:RI
+gov-so-2015,2015,SO,False,all candidates,2,916683,,,,,,,wikipedia:governorship:2015:SO
+gov-ta-2015,2015,TA,False,all candidates,2,645302,,,,,,,wikipedia:governorship:2015:TA
+gov-za-2015,2015,ZA,False,all candidates,2,918902,,,,,,,wikipedia:governorship:2015:ZA
+gov-ed-2016,2016,ED,True,all candidates,3,573532,,,,,,,wikipedia:governorship:2016:ED
+gov-on-2016,2016,ON,True,all candidates,3,502111,678161.0,29615.0,707776.0,1647973.0,,-0.2596,wikipedia:governorship:2016:ON
+gov-an-2017,2017,AN,True,all candidates,5,413806,413806.0,26457.0,440263.0,2064134.0,,0.0,wikipedia:governorship:2017:AN
+gov-ek-2018,2018,EK,True,all candidates,2,375389,384594.0,18857.0,403451.0,909585.0,,-0.0239,wikipedia:governorship:2018:EK
+gov-os-2018,2018,OS,True,all candidates,5,696007,,,696007.0,696007.0,,0.0,wikipedia:governorship:2018:OS
+gov-ab-2019,2019,AB,False,all candidates,32,433315,433315.0,11061.0,444376.0,1932892.0,,0.0,wikipedia:governorship:2019:AB
+gov-ad-2019,2019,AD,False,all candidates,2,712938,871307.0,27790.0,899097.0,1973083.0,,-0.1818,wikipedia:governorship:2019:AD
+gov-ak-2019,2019,AK,False,all candidates,2,691690,696245.0,15792.0,712037.0,2119727.0,,-0.0065,wikipedia:governorship:2019:AK
+gov-be-2019,2019,BE,False,all candidates,2,779628,830954.0,15268.0,846222.0,2471894.0,,-0.0618,wikipedia:governorship:2019:BE
+gov-bo-2019,2019,BO,False,all candidates,2,1241555,1266967.0,22060.0,1289027.0,2316218.0,,-0.0201,wikipedia:governorship:2019:BO
+gov-by-2019,2019,BY,False,all candidates,2,495724,499551.0,6333.0,505884.0,922562.0,,-0.0077,wikipedia:governorship:2019:BY
+gov-cr-2019,2019,CR,False,all candidates,26,522309,522309.0,11499.0,533808.0,1486026.0,,0.0,wikipedia:governorship:2019:CR
+gov-de-2019,2019,DE,False,all candidates,50,1154188,1154188.0,24147.0,1178335.0,2831205.0,,0.0,wikipedia:governorship:2019:DE
+gov-eb-2019,2019,EB,False,all candidates,2,474746,482018.0,10984.0,493002.0,1432528.0,,-0.0151,wikipedia:governorship:2019:EB
+gov-en-2019,2019,EN,False,all candidates,42,470927,470927.0,7314.0,478241.0,19448803.0,,0.0,wikipedia:governorship:2019:EN
+gov-go-2019,2019,GO,False,all candidates,2,587047,1394386.0,14384.0,1408770.0,1394386.0,,-0.579,wikipedia:governorship:2019:GO
+gov-im-2019,2019,IM,False,all candidates,70,714055,714055.0,25130.0,739185.0,2221008.0,,0.0,wikipedia:governorship:2019:IM
+gov-ji-2019,2019,JI,False,all candidates,2,1099289,1103116.0,24152.0,1127268.0,1163206.0,,-0.0035,wikipedia:governorship:2019:JI
+gov-kd-2019,2019,KD,False,all candidates,38,1889714,,,1889714.0,3932492.0,,0.0,wikipedia:governorship:2019:KD
+gov-ke-2019,2019,KE,False,all candidates,2,780350,793388.0,20696.0,814084.0,1789975.0,,-0.0164,wikipedia:governorship:2019:KE
+gov-kn-2019,2019,KN,False,top candidates only,2,2058408,,,,,,,wikipedia:governorship:2019:KN
+gov-ko-2019,2019,KO,False,all candidates,2,595926,610744.0,13770.0,624514.0,1646350.0,,-0.0243,wikipedia:governorship:2019:KO
+gov-kt-2019,2019,KT,False,all candidates,2,1667485,1683045.0,37593.0,1720638.0,3230230.0,,-0.0092,wikipedia:governorship:2019:KT
+gov-kw-2019,2019,KW,False,all candidates,35,453433,453433.0,9994.0,463427.0,1376372.0,,0.0,wikipedia:governorship:2019:KW
+gov-la-2019,2019,LA,False,all candidates,6,959636,,,,,,,wikipedia:governorship:2019:LA
+gov-na-2019,2019,NA,False,all candidates,25,670436,670878.0,10521.0,681399.0,1617786.0,,-0.0007,wikipedia:governorship:2019:NA
+gov-ni-2019,2019,NI,False,all candidates,2,824477,900871.0,19609.0,920480.0,2377034.0,,-0.0848,wikipedia:governorship:2019:NI
+gov-og-2019,2019,OG,False,all candidates,5,654201,,,,,,,wikipedia:governorship:2019:OG
+gov-oy-2019,2019,OY,False,all candidates,40,916609,916860.0,20689.0,937549.0,2934107.0,,-0.0003,wikipedia:governorship:2019:OY
+gov-pl-2019,2019,PL,False,all candidates,2,1142395,1159954.0,16188.0,1176142.0,2480455.0,,-0.0151,wikipedia:governorship:2019:PL
+gov-ri-2019,2019,RI,False,top candidates only,2,1060123,,,,,,,wikipedia:governorship:2019:RI
+gov-so-2019,2019,SO,False,all candidates,2,1023662,1036336.0,31662.0,1067998.0,1887767.0,,-0.0122,wikipedia:governorship:2019:SO
+gov-ta-2019,2019,TA,False,all candidates,30,909716,909716.0,15604.0,925320.0,1777105.0,,0.0,wikipedia:governorship:2019:TA
+gov-yo-2019,2019,YO,False,all candidates,2,539716,546391.0,14101.0,560492.0,1365913.0,,-0.0122,wikipedia:governorship:2019:YO
+gov-za-2019,2019,ZA,False,all candidates,42,792938,792938.0,17844.0,810782.0,1717128.0,,0.0,wikipedia:governorship:2019:ZA
+gov-ed-2020,2020,ED,True,all candidates,14,537407,537407.0,12835.0,550242.0,2272058.0,,0.0,wikipedia:governorship:2020:ED
+gov-on-2020,2020,ON,True,all candidates,17,572745,572745.0,18448.0,591193.0,1812634.0,,0.0,wikipedia:governorship:2020:ON
+gov-an-2021,2021,AN,True,all candidates,18,241523,,,241523.0,,,0.0,wikipedia:governorship:2021:AN
+gov-ek-2022,2022,EK,True,all candidates,16,351865,,8888.0,351865.0,,,0.0,wikipedia:governorship:2022:EK
+gov-os-2022,2022,OS,True,all candidates,15,804449,,18674.0,804450.0,,,-0.0,wikipedia:governorship:2022:OS
+gov-ab-2023,2023,AB,False,all candidates,18,358541,,34520.0,358541.0,,,0.0,wikipedia:governorship:2023:AB
+gov-ad-2023,2023,AD,False,top candidates only,2,829649,,5.0,663.0,,,1250.356,wikipedia:governorship:2023:AD
+gov-ak-2023,2023,AK,False,top candidates only,3,620212,,,,,,,wikipedia:governorship:2023:AK
+gov-ba-2023,2023,BA,False,top candidates only,3,1018048,,1.0,655.0,,,1553.2718,wikipedia:governorship:2023:BA
+gov-be-2023,2023,BE,False,top candidates only,3,739727,,,,,,,wikipedia:governorship:2023:BE
+gov-bo-2023,2023,BO,False,top candidates only,2,627690,,,1411.0,,,443.8547,wikipedia:governorship:2023:BO
+gov-by-2023,2023,BY,False,top candidates only,2,285304,,,,,,,wikipedia:governorship:2023:BY
+gov-cr-2023,2023,CR,False,top candidates only,2,438255,,,,,,,wikipedia:governorship:2023:CR
+gov-de-2023,2023,DE,False,winner only,1,1190,,45.0,1190.0,,,0.0,wikipedia:governorship:2023:DE
+gov-eb-2023,2023,EB,False,top candidates only,3,331511,,,513.0,,,645.2203,wikipedia:governorship:2023:EB
+gov-en-2023,2023,EN,False,top candidates only,2,318447,,30.0,1070.0,,,296.614,wikipedia:governorship:2023:EN
+gov-go-2023,2023,GO,False,top candidates only,2,575952,,,,,,,wikipedia:governorship:2023:GO
+gov-im-2023,2023,IM,False,top candidates only,3,675892,,,,,,,wikipedia:governorship:2023:IM
+gov-ji-2023,2023,JI,False,top candidates only,2,987175,,,861.0,,,1145.5447,wikipedia:governorship:2023:JI
+gov-kd-2023,2023,KD,False,top candidates only,3,1507481,,,,,,,wikipedia:governorship:2023:KD
+gov-ke-2023,2023,KE,False,top candidates only,2,770165,,,,,,,wikipedia:governorship:2023:KE
+gov-kn-2023,2023,KN,False,all candidates,16,1977759,,,,,,,wikipedia:governorship:2023:KN
+gov-ko-2023,2023,KO,False,top candidates only,3,751651,,,,,,,wikipedia:governorship:2023:KO
+gov-kt-2023,2023,KT,False,top candidates only,2,1346512,,,,,,,wikipedia:governorship:2023:KT
+gov-kw-2023,2023,KW,False,top candidates only,3,447836,,4.0,961.0,,,465.0104,wikipedia:governorship:2023:KW
+gov-la-2023,2023,LA,False,all candidates,3,1136912,,,,,,,wikipedia:governorship:2023:LA
+gov-na-2023,2023,NA,False,top candidates only,2,630225,,,,,,,wikipedia:governorship:2023:NA
+gov-ni-2023,2023,NI,False,top candidates only,2,857372,,,,,,,wikipedia:governorship:2023:NI
+gov-og-2023,2023,OG,False,all candidates,3,633435,,,,,,,wikipedia:governorship:2023:OG
+gov-oy-2023,2023,OY,False,top candidates only,3,858798,,,,,,,wikipedia:governorship:2023:OY
+gov-pl-2023,2023,PL,False,top candidates only,3,1067009,,,,,,,wikipedia:governorship:2023:PL
+gov-ri-2023,2023,RI,False,all candidates,4,420447,,,,,,,wikipedia:governorship:2023:RI
+gov-so-2023,2023,SO,False,top candidates only,2,858293,,60.0,695.0,,,1233.954,wikipedia:governorship:2023:SO
+gov-ta-2023,2023,TA,False,top candidates only,3,647393,,,,,,,wikipedia:governorship:2023:TA
+gov-yo-2023,2023,YO,False,top candidates only,2,441372,,20.0,805.0,,,547.2882,wikipedia:governorship:2023:YO
+gov-za-2023,2023,ZA,False,top candidates only,2,689702,,2.0,733.0,,,939.9304,wikipedia:governorship:2023:ZA
+gov-ed-2024,2024,ED,True,top candidates only,3,561704,,,,,,,wikipedia:governorship:2024:ED
+gov-on-2024,2024,ON,True,top candidates only,2,484626,,,,,,,wikipedia:governorship:2024:ON
+gov-ek-2026,2026,EK,True,top candidates only,3,372639,,,,,,,wikipedia:governorship:2026:EK
+gov-os-2026,2026,OS,True,top candidates only,3,973062,,,,,,,wikipedia:governorship:2026:OS

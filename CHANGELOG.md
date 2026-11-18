@@ -13,6 +13,7 @@ Dates are 2026-11-18 unless stated. Every entry so far uses **fictional sample d
 - Party lineage mapping (AD/APP/ANPP/AC/ACN/CPC → APC) for modelling continuity; ballot labels kept.
 - 2007 and 2011 by-state results not yet available from any reachable source (recorded as gaps). Plan: proceed without them; fetch later via the user's own computer, where they slot in with no model changes.
 - Registered voters: national registers 1999–2023, plus by-state registers for 2003 and 2023, reconciled with the national figures (Anambra 2023 derived, and flagged).
+- Governorship results, 1999–2026: 249 of 252 held elections across all 36 states, including off-cycle races. Each election carries a coverage label: all candidates (174), top candidates only (59), winner only (16). The extractor rejects party primaries, merges joint tickets and reads nested infoboxes; it is spot-checked against known results.
 - CI: a new `pipeline` job (ruff lint + format check + pytest).
 
 - Data import (Supabase), in the order the forecasting model needs it: presidential results 1999–2023, then governorship (including off-cycle races).
