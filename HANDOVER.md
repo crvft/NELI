@@ -107,6 +107,19 @@ Sources discussed (verify access before building each importer):
 
 Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, then Senate, House of Reps and State Assembly.
 
+### 6.1 Data pipeline (started)
+- Python project in `pipeline/` (uv). Run `cd pipeline && uv sync && uv run python -m neli_pipeline.build_presidential`.
+- Sources are cached in `data/raw/` (git-ignored). **Provenance** for every source (exact Wikipedia revision, retrieval time, sha256, licence) is recorded in `data/sources/manifest.json`.
+- **Done:** presidential results by state for **1999, 2003, 2015, 2019, 2023** → `data/processed/presidential_state_votes.csv` (year × state × candidate, with `party` as on the ballot and `lineage` for continuity), `presidential_state_summary.csv`, `presidential_national.csv`, and `VALIDATION_presidential.md`.
+- **Validation:** the sum of state rows equals INEC's declared national totals exactly for 1999, 2003, 2015 and 2019. In 2023 the main candidates are within 0.12% and "Others" within 0.75% (recorded, with tests asserting the bounds).
+- **Gaps:**
+  - **2007 and 2011** state-level presidential results: there is no by-state table on English, French or German Wikipedia; the African Elections Database is offline; the Internet Archive drops connections from the cloud environment.
+  - Options: INEC's official result sheets (if the user has PDFs), fetching from a machine where archive.org works, or another public dataset.
+  - **Registered voters by state:** not in these tables; needed for turnout and for the live model's estimate of votes still to come. Source from INEC registers.
+- **Gotcha:** the state code `NA` (Nasarawa) is read as "missing" by pandas; always `keep_default_na=False`.
+- IReV (inecelectionresults.ng) is an Angular app over an API. Its result data is polling-unit **sheet images** (EC8A), for live and polling-unit-level work later. Its backend host refused connections from this environment.
+- Wikipedia's REST API rate-limits shared cloud egress heavily; the regular `/wiki/<title>` page works and embeds the revision ID (`wgRevisionId`). 2007/2015/2019 presidential titles redirect to the "general election" articles.
+
 ## 7. Anyanwụ: the forecasting model (design agreed, not built)
 
 **Name:** Anyanwụ. **Language:** Python (decided). **Version 1 scope:** presidential and governorship races.
@@ -156,8 +169,11 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 - Tools: PyMC or Stan (Bayesian), scikit-learn (baselines), pandas.
 - Runs offline. Tuned settings and forecasts are stored in Supabase; the Python ingestion worker updates live probabilities; the website only reads.
 
-### 7.5 Social media signals
-Raised by the user. Answered in the session after this file was created; see §9.
+### 7.5 Social media signals (decided)
+- **Low-weight input only.** Online signals are easily distorted (bots, paid engagement), and online Nigeria is not the electorate. In 2023, Obi dominated online and came third.
+- **Free sources only for now** (no paid API budget): **Google Trends** (search interest back to 2004) and **Wikipedia page views** (daily since 2015). They're used as "momentum/surge" features, corrected for the online skew, and **kept only if the backtests show they improve accuracy**, at whatever weight the backtests justify.
+- **Paid sources later, maybe:** X, TikTok, Facebook, YouTube. Start recording from free endpoints where possible, so history accumulates for future elections.
+- Show "online attention" separately on candidate profiles; it must never quietly drive the win probability.
 
 ### 7.6 Deferred
 - Public **"How accurate is NELI?"** page with backtest results and the calibration chart. Agreed for later, once Anyanwụ works.
@@ -173,4 +189,6 @@ Raised by the user. Answered in the session after this file was created; see §9
 ## 9. Open questions and decisions log
 
 - 2026-11-18: Python confirmed for Anyanwụ. Accuracy page deferred. V1 scope: presidential + governorship. Model name: **Anyanwụ**. Combine techniques from The Economist, NYT, finance risk models and spatial "neighbours vote alike" models into one model.
-- Pending: user's response to the social media signals answer (§7.5); then start sourcing data.
+- 2026-11-18: Social media is a low-weight input; free sources only (Google Trends, Wikipedia page views); paid APIs possibly later.
+- 2026-11-18: Data pipeline started (Python, `pipeline/`). Presidential by state done for 1999, 2003, 2015, 2019, 2023; 2007/2011 are gaps (see §6.1).
+- Next: registered voters by state; governorship results (incl. off-cycle); 2007/2011 presidential from another source; then load into Supabase and start Anyanwụ.

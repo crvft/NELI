@@ -1,0 +1,28 @@
+[project]
+name = "neli-pipeline"
+version = "0.1.0"
+description = "NELI data pipeline: source, extract and validate Nigerian election results (and, later, the Anyanwụ model)."
+requires-python = ">=3.12"
+dependencies = [
+  "pandas>=2.2",
+  "lxml>=5.2",
+  "html5lib>=1.1",
+  "beautifulsoup4>=4.12",
+  "requests>=2.32",
+  "tabulate>=0.10.0",
+]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.ruff]
+line-length = 130
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "SIM"]
+ignore = ["E501"]  # the formatter owns line length; long literal strings are fine
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

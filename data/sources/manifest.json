@@ -1,0 +1,47 @@
+{
+  "wikipedia:presidential:1999": {
+    "key": "wikipedia:presidential:1999",
+    "title": "1999_Nigerian_presidential_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_presidential_election&oldid=1383204503",
+    "revision": "1383204503",
+    "retrieved_at": "2026-11-18T13:58:24Z",
+    "sha256": "80ef75239ac8d392f389893ffcd560352a21525ccc83f941b65e06589f0f35df",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2003": {
+    "key": "wikipedia:presidential:2003",
+    "title": "2003_Nigerian_presidential_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_presidential_election&oldid=1377655800",
+    "revision": "1377655800",
+    "retrieved_at": "2026-11-18T13:58:24Z",
+    "sha256": "54718edc760eecab74e7426aefbd509ea5a0e577157f1a5d9e0893aa69a9f312",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2015": {
+    "key": "wikipedia:presidential:2015",
+    "title": "2015_Nigerian_presidential_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_presidential_election&oldid=1385023157",
+    "revision": "1385023157",
+    "retrieved_at": "2026-11-18T13:58:24Z",
+    "sha256": "a93bdda9b98f72f5b291a3138159036b925c0f4f11bc75decf8f7e13cf74b49b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2019": {
+    "key": "wikipedia:presidential:2019",
+    "title": "2019_Nigerian_presidential_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_presidential_election&oldid=1385037235",
+    "revision": "1385037235",
+    "retrieved_at": "2026-11-18T13:58:24Z",
+    "sha256": "4b54ebc99f2b6ef8e52935e16549212a9242de42cbb67dd5d60877cb515607ad",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:presidential:2023": {
+    "key": "wikipedia:presidential:2023",
+    "title": "2023_Nigerian_presidential_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_presidential_election&oldid=1385835335",
+    "revision": "1385835335",
+    "retrieved_at": "2026-11-18T13:58:24Z",
+    "sha256": "727353740b22c7e4f5621bbea9dc383630bac06320e3805bc4dc799cc811d4e4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  }
+}

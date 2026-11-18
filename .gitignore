@@ -11,3 +11,10 @@ npm-debug.log*
 *.tsbuildinfo
 next-env.d.ts
 .env*
+
+# Pipeline caches (re-fetchable; provenance in data/sources/manifest.json)
+/data/raw/
+/pipeline/.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/

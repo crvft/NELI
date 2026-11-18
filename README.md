@@ -55,6 +55,16 @@ npm run build
 | `/zones/[code]` | Geopolitical zone analytics: party share, turnout and register over time, filter by cycle, states table/matrix |
 | `/states/[code]` | Same analytics for one state, plus office holders and local elections |
 
+## Data pipeline (Python)
+
+```bash
+cd pipeline && uv sync
+uv run python -m neli_pipeline.build_presidential   # rebuild data/processed from cached/fetched sources
+uv run pytest -q
+```
+
+Outputs live in `data/processed/`, with sources and exact revisions in `data/sources/manifest.json`. See `HANDOVER.md` §6.1.
+
 ## Data roadmap
 
 1. **2023 general elections**: INEC results and IReV polling-unit sheets → Supabase
