@@ -16,14 +16,21 @@ export function OfficeHolders({ people, stateCodes, title, empty }: { people: Pe
       return r?.stateCode && stateCodes.includes(r.stateCode);
     })
     .sort((a, b) => rank(currentRole(a)!.office) - rank(currentRole(b)!.office));
+  // Governors and senators are listed; House of Reps members are summarised (the
+  // House of Reps view on the state page lists them all)
+  const reps = holders.filter((p) => currentRole(p)!.office === 'rep');
+  const shown = holders.filter((p) => currentRole(p)!.office !== 'rep');
   return (
     <Card>
-      <CardHeader title={title} description={holders.length ? `${holders.length} on NELI` : undefined} />
-      {holders.length === 0 ? (
-        <p className='p-5 text-paragraph-sm text-text-sub-600'>{empty}</p>
+      <CardHeader
+        title={title}
+        description={holders.length ? `${holders.length} on NELI${reps.length ? `, incl. ${reps.length} House of Reps members` : ''}` : undefined}
+      />
+      {shown.length === 0 ? (
+        <p className='p-5 text-paragraph-sm text-text-sub-600'>{holders.length ? 'Only House of Reps members on record: see the House of Reps view above.' : empty}</p>
       ) : (
         <FluidHover as='ul' className='p-1' radius={10} gapClick={4}>
-          {holders.map((p) => {
+          {shown.map((p) => {
             const r = currentRole(p)!;
             return (
               <li key={p.id} data-fluid-item className='relative'>
@@ -51,11 +58,14 @@ const rank = (o: string) => (ORDER.indexOf(o) === -1 ? 99 : ORDER.indexOf(o));
 
 /** Governorship, legislative and LGA races in the given states. */
 export function LocalElections({ elections, stateCodes, title }: { elections: Election[]; stateCodes: string[]; title: string }) {
-  const list = elections.filter((e) => e.stateCode && stateCodes.includes(e.stateCode)).sort((a, b) => dateKey(b).localeCompare(dateKey(a)));
+  // Senate and House of Reps races have their own view on the state page
+  const list = elections
+    .filter((e) => e.stateCode && stateCodes.includes(e.stateCode) && e.type !== 'senate' && e.type !== 'reps')
+    .sort((a, b) => dateKey(b).localeCompare(dateKey(a)));
   if (!list.length) return null;
   return (
     <Card>
-      <CardHeader title={title} description='Governorship, legislative and local government races' />
+      <CardHeader title={title} description='Governorship races (Senate and House of Reps: use the election picker above)' />
       <FluidHover as='ul' className='p-1' radius={10} gapClick={4}>
         {list.map((e) => {
           const t = e.status === 'upcoming' ? [] : tally(e);

@@ -5038,5 +5038,2597 @@
     "retrieved_at": "2026-11-19T15:26:13Z",
     "sha256": "4f23bd56d71e81177604ba526f65f0e208f184d3ff89edaad1a4db816b66beb4",
     "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2015:BY": {
+    "key": "wikipedia:reps:2015:BY",
+    "title": "2015_Nigerian_House_of_Representatives_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_House_of_Representatives_elections_in_Bayelsa_State&oldid=1372713679",
+    "revision": "1372713679",
+    "retrieved_at": "2026-11-19T15:39:57Z",
+    "sha256": "dcc51c335f7fee244bb1771fd3a035f1afd1231cc837ed858ab6574cc651963a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2015:KN": {
+    "key": "wikipedia:reps:2015:KN",
+    "title": "2015_Nigerian_House_of_Representatives_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_House_of_Representatives_elections_in_Kano_State&oldid=1372714740",
+    "revision": "1372714740",
+    "retrieved_at": "2026-11-19T15:40:08Z",
+    "sha256": "7ea768a8aa87c99bc21728d1be9ad466bd371305ceac8eb62c95b665c3a19c2f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2015:KW": {
+    "key": "wikipedia:reps:2015:KW",
+    "title": "2015_Nigerian_House_of_Representatives_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_House_of_Representatives_elections_in_Kwara_State&oldid=1372714807",
+    "revision": "1372714807",
+    "retrieved_at": "2026-11-19T15:40:11Z",
+    "sha256": "8aafb74c9dcef0b139a27ef6c92d91dc2bceec533cd9a657b4b1b27e7284efce",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2015:LA": {
+    "key": "wikipedia:reps:2015:LA",
+    "title": "2015_Nigerian_House_of_Representatives_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_House_of_Representatives_elections_in_Lagos_State&oldid=1381297954",
+    "revision": "1381297954",
+    "retrieved_at": "2026-11-19T15:40:11Z",
+    "sha256": "d51993bcfa4e66435e855dd1ad5829d70561530cda05f8b897b0ad6f89ade71c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2015:NA": {
+    "key": "wikipedia:reps:2015:NA",
+    "title": "2015_Nigerian_House_of_Representatives_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_House_of_Representatives_elections_in_Nasarawa_State&oldid=1372715206",
+    "revision": "1372715206",
+    "retrieved_at": "2026-11-19T15:40:13Z",
+    "sha256": "ca2852523ffe5ca073eaee1ecd6259f6469c3f86cd0a59410cbebdf74bff8407",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2015:TA": {
+    "key": "wikipedia:reps:2015:TA",
+    "title": "2015_Nigerian_House_of_Representatives_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_House_of_Representatives_elections_in_Taraba_State&oldid=1242523465",
+    "revision": "1242523465",
+    "retrieved_at": "2026-11-19T15:40:20Z",
+    "sha256": "e4af5159d8e5be8429e28a40f4a794ee158c55c6873b00e6cf4d462fc8c4a897",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:AB": {
+    "key": "wikipedia:reps:2019:AB",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Abia_State&oldid=1346706614",
+    "revision": "1346706614",
+    "retrieved_at": "2026-11-19T15:40:22Z",
+    "sha256": "3293fb09dc79a70f169952ce91ff61cd176c830af1614f8faa37e59a24d1e0eb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:AD": {
+    "key": "wikipedia:reps:2019:AD",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Adamawa_State&oldid=1345889998",
+    "revision": "1345889998",
+    "retrieved_at": "2026-11-19T15:40:23Z",
+    "sha256": "7e350be5d6e44eb090c0bfa9f5b00be90fdd6904eb8c6ed48db5c5a150ce7545",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:AK": {
+    "key": "wikipedia:reps:2019:AK",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Akwa_Ibom_State&oldid=1374823745",
+    "revision": "1374823745",
+    "retrieved_at": "2026-11-19T15:40:24Z",
+    "sha256": "df4cdecea8fdf87c1d2f8663e256362d565d6159e6264ce37540317d84d29e88",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:AN": {
+    "key": "wikipedia:reps:2019:AN",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Anambra_State&oldid=1319555205",
+    "revision": "1319555205",
+    "retrieved_at": "2026-11-19T15:40:25Z",
+    "sha256": "72a63c48c6217a19c1c22d5349dceae53d0334f10425779baca51de7653f3ecc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:BE": {
+    "key": "wikipedia:reps:2019:BE",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Benue_State&oldid=1272493314",
+    "revision": "1272493314",
+    "retrieved_at": "2026-11-19T15:40:31Z",
+    "sha256": "07d20e3d093f792953d33c31def185f164afd7e46e43176721b2740a26b32c04",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:BY": {
+    "key": "wikipedia:reps:2019:BY",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Bayelsa_State&oldid=1364830887",
+    "revision": "1364830887",
+    "retrieved_at": "2026-11-19T15:40:27Z",
+    "sha256": "61beea69a2d15b4d4da3eb33344b5085d157403b70dbbb142b0c5643455f8730",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:CR": {
+    "key": "wikipedia:reps:2019:CR",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Cross_River_State&oldid=1374825359",
+    "revision": "1374825359",
+    "retrieved_at": "2026-11-19T15:40:32Z",
+    "sha256": "e97f683a13d14f83690bd396435e1269d68afd372389576468b9ccfb84e8fffe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:DE": {
+    "key": "wikipedia:reps:2019:DE",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Delta_State&oldid=1381172538",
+    "revision": "1381172538",
+    "retrieved_at": "2026-11-19T15:40:33Z",
+    "sha256": "a31b4cc87dba285f69404ba0468333c437a0f2175626275eb3c65719e76f61b3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:EB": {
+    "key": "wikipedia:reps:2019:EB",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Ebonyi_State&oldid=1344704147",
+    "revision": "1344704147",
+    "retrieved_at": "2026-11-19T15:40:34Z",
+    "sha256": "87f1b0c1ab3a838e4de9497bbb4a4b3b86457a8283e975436762dc22be3694d1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:EK": {
+    "key": "wikipedia:reps:2019:EK",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Ekiti_State&oldid=1272492893",
+    "revision": "1272492893",
+    "retrieved_at": "2026-11-19T15:40:36Z",
+    "sha256": "ecf4d4deec0adda358a87060ebe54c1d738eb91b65aed08b9317199014c7f8a7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:EN": {
+    "key": "wikipedia:reps:2019:EN",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Enugu_State&oldid=1374827204",
+    "revision": "1374827204",
+    "retrieved_at": "2026-11-19T15:40:37Z",
+    "sha256": "ae0d7b617b1d7343adf1aec335a943d2baeaa614bf6ae2bfdd8f23ac9ff52ca6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:GO": {
+    "key": "wikipedia:reps:2019:GO",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Gombe_State&oldid=1360271871",
+    "revision": "1360271871",
+    "retrieved_at": "2026-11-19T15:40:39Z",
+    "sha256": "f46318960f22760aafa2c33fe9140e9ccdedbc1d1100c2a45eba58d9cebe12b7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:IM": {
+    "key": "wikipedia:reps:2019:IM",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Imo_State&oldid=1353281171",
+    "revision": "1353281171",
+    "retrieved_at": "2026-11-19T15:40:40Z",
+    "sha256": "744c7f80513d177e8801decb056e44b072aae881b13e312733b67c45f92a3557",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:KN": {
+    "key": "wikipedia:reps:2019:KN",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Kano_State&oldid=1381298415",
+    "revision": "1381298415",
+    "retrieved_at": "2026-11-19T15:40:42Z",
+    "sha256": "4d5a174c2a52ed40a8d55678b1a7d62dd09a0051b0bab613e84306edb22e7896",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:KO": {
+    "key": "wikipedia:reps:2019:KO",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Kogi_State&oldid=1374828123",
+    "revision": "1374828123",
+    "retrieved_at": "2026-11-19T15:40:45Z",
+    "sha256": "3f9bcbba5173002951a67454eca239489e66bcfb24a2e8ff5896fa4c49fb3ee5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:KW": {
+    "key": "wikipedia:reps:2019:KW",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Kwara_State&oldid=1344022753",
+    "revision": "1344022753",
+    "retrieved_at": "2026-11-19T15:40:46Z",
+    "sha256": "3b99a269bf9b6557ab3cec7bd1fc4cb501ffbe731ce18500cfc3dbfbe07d4f33",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:LA": {
+    "key": "wikipedia:reps:2019:LA",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Lagos_State&oldid=1346706674",
+    "revision": "1346706674",
+    "retrieved_at": "2026-11-19T15:40:46Z",
+    "sha256": "19b6df52492cc551ad890e2622153d01664b13641a671b5a3d1af83ed98ccb24",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:NA": {
+    "key": "wikipedia:reps:2019:NA",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Nasarawa_State&oldid=1374829070",
+    "revision": "1374829070",
+    "retrieved_at": "2026-11-19T15:40:47Z",
+    "sha256": "6d327e1fe082868054ee66305a6f26fa2fee2cd9edba463e09a849f9195bd872",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:NI": {
+    "key": "wikipedia:reps:2019:NI",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Niger_State&oldid=1374829544",
+    "revision": "1374829544",
+    "retrieved_at": "2026-11-19T15:40:48Z",
+    "sha256": "0994988b4f34319e326d760f1cdd260ba5c0c9ef09e7c37184d8a0cb960cd267",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:OG": {
+    "key": "wikipedia:reps:2019:OG",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Ogun_State&oldid=1342321911",
+    "revision": "1342321911",
+    "retrieved_at": "2026-11-19T15:40:49Z",
+    "sha256": "e15c0d8ad9ab8e7d84932ee4abb6fbfcf32736271ca337f4d1cccff096febc45",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:ON": {
+    "key": "wikipedia:reps:2019:ON",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Ondo_State&oldid=1340643085",
+    "revision": "1340643085",
+    "retrieved_at": "2026-11-19T15:40:50Z",
+    "sha256": "9427931b02d38e7a94df3635f001ecb5b5fd477aef64b079945e26acdfce2ac6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:OS": {
+    "key": "wikipedia:reps:2019:OS",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Osun_State&oldid=1272493275",
+    "revision": "1272493275",
+    "retrieved_at": "2026-11-19T15:40:51Z",
+    "sha256": "b45af07799b7c62e8e19cc16168d466aae806ca21517f2f22a03b3b3d56f9bc4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:OY": {
+    "key": "wikipedia:reps:2019:OY",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Oyo_State&oldid=1306936453",
+    "revision": "1306936453",
+    "retrieved_at": "2026-11-19T15:40:52Z",
+    "sha256": "01d68d03e40c2e7820c99ef04eb077a1e174b037c4d91a2960cd3bf754835f5c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:PL": {
+    "key": "wikipedia:reps:2019:PL",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Plateau_State&oldid=1272493164",
+    "revision": "1272493164",
+    "retrieved_at": "2026-11-19T15:40:53Z",
+    "sha256": "87d33ed9e24bfd34eb5397f7732d549858cc74a4442302707801366f4ffd7b4a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:RI": {
+    "key": "wikipedia:reps:2019:RI",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Rivers_State&oldid=1272493200",
+    "revision": "1272493200",
+    "retrieved_at": "2026-11-19T15:40:54Z",
+    "sha256": "a921e243fc0b0dbfed9a1e7bc481be137286db59a3ce2afd56a135ab421f8e12",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:SO": {
+    "key": "wikipedia:reps:2019:SO",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Sokoto_State&oldid=1379617407",
+    "revision": "1379617407",
+    "retrieved_at": "2026-11-19T15:40:55Z",
+    "sha256": "80ec1ecf69968d38165382d0e43d0d500d679733ba6dc671f843c4253e093d86",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:TA": {
+    "key": "wikipedia:reps:2019:TA",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Taraba_State&oldid=1374831687",
+    "revision": "1374831687",
+    "retrieved_at": "2026-11-19T15:40:56Z",
+    "sha256": "dbb90a645d0a6541e5c9e1aed9accd668e41ca82724b97c8374686e2e7ca07e9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:YO": {
+    "key": "wikipedia:reps:2019:YO",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Yobe_State&oldid=1374832170",
+    "revision": "1374832170",
+    "retrieved_at": "2026-11-19T15:40:57Z",
+    "sha256": "93ae3eedff77dd48db29f6df3fd91255dd430e221b8b8ae6c2e39fb8415dcd39",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2019:ZA": {
+    "key": "wikipedia:reps:2019:ZA",
+    "title": "2019_Nigerian_House_of_Representatives_elections_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_House_of_Representatives_elections_in_Zamfara_State&oldid=1341361102",
+    "revision": "1341361102",
+    "retrieved_at": "2026-11-19T15:40:57Z",
+    "sha256": "629411e780b339f58f3f75d1d13db5df87d60e9ceedaa35ea06dba1e82b8d0a9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:reps:2023:NG": {
+    "key": "wikipedia:reps:2023:NG",
+    "title": "2023_Nigerian_House_of_Representatives_election",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_House_of_Representatives_election&oldid=1374780226",
+    "revision": "1374780226",
+    "retrieved_at": "2026-11-19T15:40:57Z",
+    "sha256": "4cde64c7739d4a6496a818a214c994e91fd4298e6c901cd82316716b7116f081",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:AB": {
+    "key": "wikipedia:senate:1999:AB",
+    "title": "1999_Nigerian_Senate_elections_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Abia_State&oldid=1367718096",
+    "revision": "1367718096",
+    "retrieved_at": "2026-11-19T15:35:19Z",
+    "sha256": "c1c9584ce224a9d1a773341597830ab7e30f12731b61abd0b41700cd467ca84d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:AD": {
+    "key": "wikipedia:senate:1999:AD",
+    "title": "1999_Nigerian_Senate_elections_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Adamawa_State&oldid=1367718099",
+    "revision": "1367718099",
+    "retrieved_at": "2026-11-19T15:35:20Z",
+    "sha256": "018fb650996829bdf0ef347f847e93f63174feff616d6977b2a5c95e2dea22d8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:AK": {
+    "key": "wikipedia:senate:1999:AK",
+    "title": "1999_Nigerian_Senate_elections_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Akwa_Ibom_State&oldid=1367718102",
+    "revision": "1367718102",
+    "retrieved_at": "2026-11-19T15:35:21Z",
+    "sha256": "f4e8e31056b4af3034def291bb8106564393a654da4fcb535f6284891cdec167",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:AN": {
+    "key": "wikipedia:senate:1999:AN",
+    "title": "1999_Nigerian_Senate_elections_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Anambra_State&oldid=1367718111",
+    "revision": "1367718111",
+    "retrieved_at": "2026-11-19T15:35:23Z",
+    "sha256": "1a3fa91366fdcc7cfcc5a3071356be4927fdce0a69adf6b08be4ac100f52e3fb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:BA": {
+    "key": "wikipedia:senate:1999:BA",
+    "title": "1999_Nigerian_Senate_elections_in_Bauchi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Bauchi_State&oldid=1367718116",
+    "revision": "1367718116",
+    "retrieved_at": "2026-11-19T15:35:23Z",
+    "sha256": "dbf28a1d76534ea249011b0c40a326c4cf8a3ef6358d205ba23199fa6a368914",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:BE": {
+    "key": "wikipedia:senate:1999:BE",
+    "title": "1999_Nigerian_Senate_elections_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Benue_State&oldid=1367718131",
+    "revision": "1367718131",
+    "retrieved_at": "2026-11-19T15:35:26Z",
+    "sha256": "acf636236dab19ec91b380a721d25666a474dec9fa58fe4d3f314663a259ed9b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:BO": {
+    "key": "wikipedia:senate:1999:BO",
+    "title": "1999_Nigerian_Senate_elections_in_Borno_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Borno_State&oldid=1367718136",
+    "revision": "1367718136",
+    "retrieved_at": "2026-11-19T15:35:26Z",
+    "sha256": "507f2d86808865b9601145a4d9b6bc88208cd49deec9fde43f4e6ffc9d938a29",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:BY": {
+    "key": "wikipedia:senate:1999:BY",
+    "title": "1999_Nigerian_Senate_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Bayelsa_State&oldid=1367718125",
+    "revision": "1367718125",
+    "retrieved_at": "2026-11-19T15:35:24Z",
+    "sha256": "e20d48516c7da5ccd0393cb09c1b922129a59e5680a49c80a901578fbf465256",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:CR": {
+    "key": "wikipedia:senate:1999:CR",
+    "title": "1999_Nigerian_Senate_elections_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Cross_River_State&oldid=1367718145",
+    "revision": "1367718145",
+    "retrieved_at": "2026-11-19T15:35:28Z",
+    "sha256": "5c9b223c5ae56f4e287c3cd6004777eb0bb47aed0843850f7978f8b0649edfda",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:DE": {
+    "key": "wikipedia:senate:1999:DE",
+    "title": "1999_Nigerian_Senate_elections_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Delta_State&oldid=1367718151",
+    "revision": "1367718151",
+    "retrieved_at": "2026-11-19T15:35:29Z",
+    "sha256": "a7e28d8178f11bb4c2bd345ce3266590083c4053ed5773d3ac5d3fafe581c1e7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:EB": {
+    "key": "wikipedia:senate:1999:EB",
+    "title": "1999_Nigerian_Senate_elections_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Ebonyi_State&oldid=1367718153",
+    "revision": "1367718153",
+    "retrieved_at": "2026-11-19T15:35:29Z",
+    "sha256": "457f952784f53cb834cd1b2d1bfec19c8565cf0a300c4b95423e132474b4cfb3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:ED": {
+    "key": "wikipedia:senate:1999:ED",
+    "title": "1999_Nigerian_Senate_elections_in_Edo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Edo_State&oldid=1367718156",
+    "revision": "1367718156",
+    "retrieved_at": "2026-11-19T15:35:30Z",
+    "sha256": "cf1cfbed0f61068c5b97c9d8b49ab523a2c1f870ff86e837b6ec859311ae4f04",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:EK": {
+    "key": "wikipedia:senate:1999:EK",
+    "title": "1999_Nigerian_Senate_elections_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Ekiti_State&oldid=1367718160",
+    "revision": "1367718160",
+    "retrieved_at": "2026-11-19T15:35:31Z",
+    "sha256": "0296a8e04e619aaf9d861837adcc9451abd4c50a829f4836dc3f75f85ac91edc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:EN": {
+    "key": "wikipedia:senate:1999:EN",
+    "title": "1999_Nigerian_Senate_elections_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Enugu_State&oldid=1367718167",
+    "revision": "1367718167",
+    "retrieved_at": "2026-11-19T15:35:32Z",
+    "sha256": "1e9424ce7119bd6a0f5d0ff4a37413586389284acc506374e4311b38a7a6520e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:GO": {
+    "key": "wikipedia:senate:1999:GO",
+    "title": "1999_Nigerian_Senate_elections_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Gombe_State&oldid=1367718168",
+    "revision": "1367718168",
+    "retrieved_at": "2026-11-19T15:35:34Z",
+    "sha256": "599233cb16c0a676144713da7859e33486bb99c64099508921ffe26ac4cfbd91",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:IM": {
+    "key": "wikipedia:senate:1999:IM",
+    "title": "1999_Nigerian_Senate_elections_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Imo_State&oldid=1367718172",
+    "revision": "1367718172",
+    "retrieved_at": "2026-11-19T15:35:35Z",
+    "sha256": "76fc68c8a2df4196365d26a66f3fbaf5cab997d203a26044b63b9addf5d2eb07",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:JI": {
+    "key": "wikipedia:senate:1999:JI",
+    "title": "1999_Nigerian_Senate_elections_in_Jigawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Jigawa_State&oldid=1367718175",
+    "revision": "1367718175",
+    "retrieved_at": "2026-11-19T15:35:36Z",
+    "sha256": "cca946dc2eeaca7b015c97d66b6eeebdeec654b1222121a02c2891c13d0acea8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:KD": {
+    "key": "wikipedia:senate:1999:KD",
+    "title": "1999_Nigerian_Senate_elections_in_Kaduna_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Kaduna_State&oldid=1367718181",
+    "revision": "1367718181",
+    "retrieved_at": "2026-11-19T15:35:37Z",
+    "sha256": "3f774ead846670d4d7f2e42d555235c50389d557cbb93d816b045cde8f3b14a0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:KE": {
+    "key": "wikipedia:senate:1999:KE",
+    "title": "1999_Nigerian_Senate_elections_in_Kebbi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Kebbi_State&oldid=1367718203",
+    "revision": "1367718203",
+    "retrieved_at": "2026-11-19T15:35:54Z",
+    "sha256": "dfd8085f814aba8bb71af761571fe70966c29c8ae79f1ce5d4ed73e8e62a7649",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:KN": {
+    "key": "wikipedia:senate:1999:KN",
+    "title": "1999_Nigerian_Senate_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Kano_State&oldid=1367718186",
+    "revision": "1367718186",
+    "retrieved_at": "2026-11-19T15:35:37Z",
+    "sha256": "cb54d3d415056e7bae538c4a79f96642412146832feb6d999a17df37724e62df",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:KO": {
+    "key": "wikipedia:senate:1999:KO",
+    "title": "1999_Nigerian_Senate_elections_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Kogi_State&oldid=1367718207",
+    "revision": "1367718207",
+    "retrieved_at": "2026-11-19T15:35:56Z",
+    "sha256": "200fa6efac0e232976d230627f939a08a913177badf4e4a77c039ef97c48231d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:KT": {
+    "key": "wikipedia:senate:1999:KT",
+    "title": "1999_Nigerian_Senate_elections_in_Katsina_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Katsina_State&oldid=1367718194",
+    "revision": "1367718194",
+    "retrieved_at": "2026-11-19T15:35:53Z",
+    "sha256": "fbe8413b6bcbe5b9717aa323507961bb04a7c42d0068acdea1184713c1a016de",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:KW": {
+    "key": "wikipedia:senate:1999:KW",
+    "title": "1999_Nigerian_Senate_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Kwara_State&oldid=1367718215",
+    "revision": "1367718215",
+    "retrieved_at": "2026-11-19T15:35:57Z",
+    "sha256": "4ce00ed8a68c80ef468a03f5ec7b2eb7d58a392d4c101422beba5f34572f4b41",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:LA": {
+    "key": "wikipedia:senate:1999:LA",
+    "title": "1999_Nigerian_Senate_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Lagos_State&oldid=1367718222",
+    "revision": "1367718222",
+    "retrieved_at": "2026-11-19T15:35:57Z",
+    "sha256": "5e2c35add2f2da9719cd0d3ccb9df9e1fafa65fb79ef53939abfefb648ca8d31",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:NA": {
+    "key": "wikipedia:senate:1999:NA",
+    "title": "1999_Nigerian_Senate_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Nasarawa_State&oldid=1367718225",
+    "revision": "1367718225",
+    "retrieved_at": "2026-11-19T15:35:57Z",
+    "sha256": "89b7e280f5c4b509f03837e9e5b25fd73b01db5477e9f105530374a017ee4a09",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:NI": {
+    "key": "wikipedia:senate:1999:NI",
+    "title": "1999_Nigerian_Senate_elections_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Niger_State&oldid=1367718230",
+    "revision": "1367718230",
+    "retrieved_at": "2026-11-19T15:35:59Z",
+    "sha256": "f76b878c420a30bb82ade5c3e536b9db395eebd59e4ffb4d1c4feb1d88317ad6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:OG": {
+    "key": "wikipedia:senate:1999:OG",
+    "title": "1999_Nigerian_Senate_elections_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Ogun_State&oldid=1367718233",
+    "revision": "1367718233",
+    "retrieved_at": "2026-11-19T15:36:00Z",
+    "sha256": "7fa15d1eaa7f7b25cfd73f5563392f887969c2690a6b12cfc2f53552510a281a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:ON": {
+    "key": "wikipedia:senate:1999:ON",
+    "title": "1999_Nigerian_Senate_elections_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Ondo_State&oldid=1367718241",
+    "revision": "1367718241",
+    "retrieved_at": "2026-11-19T15:36:01Z",
+    "sha256": "c5a8642ef5724223f40ee5f32b2a6ea8f0d3af146f77f1bbbdca6dc074f5259f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:OS": {
+    "key": "wikipedia:senate:1999:OS",
+    "title": "1999_Nigerian_Senate_elections_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Osun_State&oldid=1367718244",
+    "revision": "1367718244",
+    "retrieved_at": "2026-11-19T15:36:01Z",
+    "sha256": "7cdcb2851227a9941d7c669748121d1bc33f1c466adb7c724808ed44b082f783",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:OY": {
+    "key": "wikipedia:senate:1999:OY",
+    "title": "1999_Nigerian_Senate_elections_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Oyo_State&oldid=1367718254",
+    "revision": "1367718254",
+    "retrieved_at": "2026-11-19T15:36:02Z",
+    "sha256": "ec232007a80231c9060cdab675ad1ac712a8f8c3a9de2e5e39a88f4af2c3823b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:PL": {
+    "key": "wikipedia:senate:1999:PL",
+    "title": "1999_Nigerian_Senate_elections_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Plateau_State&oldid=1367718258",
+    "revision": "1367718258",
+    "retrieved_at": "2026-11-19T15:36:03Z",
+    "sha256": "00895612234d119262e0ba8fb63835431366d3abdb5c2e16011cde566ea6dc9e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:RI": {
+    "key": "wikipedia:senate:1999:RI",
+    "title": "1999_Nigerian_Senate_elections_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Rivers_State&oldid=1367718284",
+    "revision": "1367718284",
+    "retrieved_at": "2026-11-19T15:36:03Z",
+    "sha256": "a8c460f4ebaf4594557feeb7d7d70f6aad596e91e40388b744cad254c467b061",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:SO": {
+    "key": "wikipedia:senate:1999:SO",
+    "title": "1999_Nigerian_Senate_elections_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Sokoto_State&oldid=1367718293",
+    "revision": "1367718293",
+    "retrieved_at": "2026-11-19T15:36:05Z",
+    "sha256": "3626afe4da713e60979e4a3fd8317e6630d44d4baeb15374f6b3b6d08b8cd365",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:TA": {
+    "key": "wikipedia:senate:1999:TA",
+    "title": "1999_Nigerian_Senate_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Taraba_State&oldid=1367718297",
+    "revision": "1367718297",
+    "retrieved_at": "2026-11-19T15:36:06Z",
+    "sha256": "1a85a2518e2669073f7b772557ab87a57a51d1ca248980d101596b48741f9a9f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:YO": {
+    "key": "wikipedia:senate:1999:YO",
+    "title": "1999_Nigerian_Senate_elections_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Yobe_State&oldid=1367718304",
+    "revision": "1367718304",
+    "retrieved_at": "2026-11-19T15:36:07Z",
+    "sha256": "248e641070661bdbd7e6d742b926d1b6d407b6853eb7e18ac8da306bb7ab67b7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:1999:ZA": {
+    "key": "wikipedia:senate:1999:ZA",
+    "title": "1999_Nigerian_Senate_elections_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=1999_Nigerian_Senate_elections_in_Zamfara_State&oldid=1367718306",
+    "revision": "1367718306",
+    "retrieved_at": "2026-11-19T15:36:08Z",
+    "sha256": "bd70416943b85bc050c17f4e6071560f44269467242163b2e7e0a0ecbb487bd4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:AB": {
+    "key": "wikipedia:senate:2003:AB",
+    "title": "2003_Nigerian_Senate_elections_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Abia_State&oldid=1368310593",
+    "revision": "1368310593",
+    "retrieved_at": "2026-11-19T15:36:10Z",
+    "sha256": "c733ebad936a4b6af108931e43b107825ab4721f3bff7d09cfb0248fc9718056",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:AD": {
+    "key": "wikipedia:senate:2003:AD",
+    "title": "2003_Nigerian_Senate_elections_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Adamawa_State&oldid=1368310703",
+    "revision": "1368310703",
+    "retrieved_at": "2026-11-19T15:36:11Z",
+    "sha256": "3e907107beb2a18b3779b7fbccc890ffe3dac1ba015d34bfc4dcb6736d060a8b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:AK": {
+    "key": "wikipedia:senate:2003:AK",
+    "title": "2003_Nigerian_Senate_elections_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Akwa_Ibom_State&oldid=1368310711",
+    "revision": "1368310711",
+    "retrieved_at": "2026-11-19T15:36:11Z",
+    "sha256": "eb44ad8c3ce1b87794b92b28f02f35e61ddadd3da268011fc7396c1cbfadc225",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:AN": {
+    "key": "wikipedia:senate:2003:AN",
+    "title": "2003_Nigerian_Senate_elections_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Anambra_State&oldid=1368310716",
+    "revision": "1368310716",
+    "retrieved_at": "2026-11-19T15:36:13Z",
+    "sha256": "caf58b3a13f163713e67a02b8577594117f7af20f7616be3689a865ba1b4d9bf",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:BA": {
+    "key": "wikipedia:senate:2003:BA",
+    "title": "2003_Nigerian_Senate_elections_in_Bauchi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Bauchi_State&oldid=1368310720",
+    "revision": "1368310720",
+    "retrieved_at": "2026-11-19T15:36:14Z",
+    "sha256": "93f8e4fe1fc5dddfb704bae3c61661f20a9ff14ca74a107eaaa4fd3b86329371",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:BE": {
+    "key": "wikipedia:senate:2003:BE",
+    "title": "2003_Nigerian_Senate_elections_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Benue_State&oldid=1368310731",
+    "revision": "1368310731",
+    "retrieved_at": "2026-11-19T15:36:16Z",
+    "sha256": "42fe0372cdc614ca9a9114451de09615f14441c7f0c7806cf1e6ea911ce3b663",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:BO": {
+    "key": "wikipedia:senate:2003:BO",
+    "title": "2003_Nigerian_Senate_elections_in_Borno_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Borno_State&oldid=1368310737",
+    "revision": "1368310737",
+    "retrieved_at": "2026-11-19T15:36:17Z",
+    "sha256": "e1f0f0e0fa6039be7482ff470dbac6ee6242dcaa3dedb94e2415e25bbc1f7fce",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:BY": {
+    "key": "wikipedia:senate:2003:BY",
+    "title": "2003_Nigerian_Senate_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Bayelsa_State&oldid=1368310727",
+    "revision": "1368310727",
+    "retrieved_at": "2026-11-19T15:36:15Z",
+    "sha256": "0954fcf4207b2c9f25d836b934ac8a17b328d480ac0cc1da16954ddf16d44ab0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:CR": {
+    "key": "wikipedia:senate:2003:CR",
+    "title": "2003_Nigerian_Senate_elections_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Cross_River_State&oldid=1368310740",
+    "revision": "1368310740",
+    "retrieved_at": "2026-11-19T15:36:17Z",
+    "sha256": "1d45e6b02f5405acc413cf784f7896b825dd932896cb516808b6a299ec81fab1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:DE": {
+    "key": "wikipedia:senate:2003:DE",
+    "title": "2003_Nigerian_Senate_elections_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Delta_State&oldid=1368310744",
+    "revision": "1368310744",
+    "retrieved_at": "2026-11-19T15:36:18Z",
+    "sha256": "c932d7335d99122d4bc836b9f4a15cd8f014937c71653b5bd96b286fb0092d8b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:EB": {
+    "key": "wikipedia:senate:2003:EB",
+    "title": "2003_Nigerian_Senate_elections_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Ebonyi_State&oldid=1368310750",
+    "revision": "1368310750",
+    "retrieved_at": "2026-11-19T15:36:19Z",
+    "sha256": "40f302c37310bdb144bacb9e3964567d0061d62928f4f8746f91273b829a1d3a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:ED": {
+    "key": "wikipedia:senate:2003:ED",
+    "title": "2003_Nigerian_Senate_elections_in_Edo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Edo_State&oldid=1368310758",
+    "revision": "1368310758",
+    "retrieved_at": "2026-11-19T15:36:20Z",
+    "sha256": "574ac64617afdd4f9713b8e09cca6e92119b692d67cd4e9cbc49541f860c9811",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:EK": {
+    "key": "wikipedia:senate:2003:EK",
+    "title": "2003_Nigerian_Senate_elections_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Ekiti_State&oldid=1368310761",
+    "revision": "1368310761",
+    "retrieved_at": "2026-11-19T15:36:21Z",
+    "sha256": "9263ee427c09ea158439b8b84a687bc6818d98053ac17ce2110c636b9436ae23",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:EN": {
+    "key": "wikipedia:senate:2003:EN",
+    "title": "2003_Nigerian_Senate_elections_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Enugu_State&oldid=1368310766",
+    "revision": "1368310766",
+    "retrieved_at": "2026-11-19T15:36:22Z",
+    "sha256": "2d64b799f185ddd9d147f55918f5ea0f282f153f7d2ccb6f1ec7b7ccf3e9d9ef",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:GO": {
+    "key": "wikipedia:senate:2003:GO",
+    "title": "2003_Nigerian_Senate_elections_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Gombe_State&oldid=1368310771",
+    "revision": "1368310771",
+    "retrieved_at": "2026-11-19T15:36:25Z",
+    "sha256": "afe58c108df1bb97b343fc167d825e022a619b78a1c3a36abe76445a45248f36",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:IM": {
+    "key": "wikipedia:senate:2003:IM",
+    "title": "2003_Nigerian_Senate_elections_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Imo_State&oldid=1368310775",
+    "revision": "1368310775",
+    "retrieved_at": "2026-11-19T15:36:25Z",
+    "sha256": "6b756fda89aff09ebe6490f295930a29536e60c9dfbf2650b9a3497e45850fe6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:JI": {
+    "key": "wikipedia:senate:2003:JI",
+    "title": "2003_Nigerian_Senate_elections_in_Jigawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Jigawa_State&oldid=1368310782",
+    "revision": "1368310782",
+    "retrieved_at": "2026-11-19T15:36:26Z",
+    "sha256": "9952a7ef7d8c8b0a16b3894e56495767d0ab8971d14833bae8738ac0a40c7134",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:KD": {
+    "key": "wikipedia:senate:2003:KD",
+    "title": "2003_Nigerian_Senate_elections_in_Kaduna_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Kaduna_State&oldid=1368310789",
+    "revision": "1368310789",
+    "retrieved_at": "2026-11-19T15:36:28Z",
+    "sha256": "19af8fa24248304ae3a312a60c650fecd61a8d3d6c746017ad446eef005d6f26",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:KE": {
+    "key": "wikipedia:senate:2003:KE",
+    "title": "2003_Nigerian_Senate_elections_in_Kebbi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Kebbi_State&oldid=1368310801",
+    "revision": "1368310801",
+    "retrieved_at": "2026-11-19T15:36:30Z",
+    "sha256": "693c3cb39681883a0e0e5ecade78241f7e5476cc9424854b130f7fef375f5796",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:KN": {
+    "key": "wikipedia:senate:2003:KN",
+    "title": "2003_Nigerian_Senate_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Kano_State&oldid=1368310796",
+    "revision": "1368310796",
+    "retrieved_at": "2026-11-19T15:36:28Z",
+    "sha256": "23b2549f233e8ed6e6205953ecfb91e882e8c6f0b8b8dc7e337a08a56d96754f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:KO": {
+    "key": "wikipedia:senate:2003:KO",
+    "title": "2003_Nigerian_Senate_elections_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Kogi_State&oldid=1368310804",
+    "revision": "1368310804",
+    "retrieved_at": "2026-11-19T15:36:31Z",
+    "sha256": "2eed90068a4962f0535505743898c0b939b74425d791e6d308aac4375b761648",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:KT": {
+    "key": "wikipedia:senate:2003:KT",
+    "title": "2003_Nigerian_Senate_elections_in_Katsina_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Katsina_State&oldid=1368310797",
+    "revision": "1368310797",
+    "retrieved_at": "2026-11-19T15:36:29Z",
+    "sha256": "b7ced59a098cf1b9154b663fe160a1165dc7ef6b59685d2b988edd7107ca0ce5",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:KW": {
+    "key": "wikipedia:senate:2003:KW",
+    "title": "2003_Nigerian_Senate_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Kwara_State&oldid=1368310812",
+    "revision": "1368310812",
+    "retrieved_at": "2026-11-19T15:36:32Z",
+    "sha256": "f497ce7f7ed1aaf713e50ec4e492fe58497f493cf8a346b01c9dc1d6e28d2507",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:LA": {
+    "key": "wikipedia:senate:2003:LA",
+    "title": "2003_Nigerian_Senate_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Lagos_State&oldid=1368310815",
+    "revision": "1368310815",
+    "retrieved_at": "2026-11-19T15:36:32Z",
+    "sha256": "6ad5135b5b4331fb6886d50c4d16f0efc606a20a4b378a5fe1a7b3970df80641",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:NA": {
+    "key": "wikipedia:senate:2003:NA",
+    "title": "2003_Nigerian_Senate_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Nasarawa_State&oldid=1368310817",
+    "revision": "1368310817",
+    "retrieved_at": "2026-11-19T15:36:33Z",
+    "sha256": "35eec8d983ea86d4fef23ee9b788142954f6f5d83c7ebac7723763350d0f6a22",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:NI": {
+    "key": "wikipedia:senate:2003:NI",
+    "title": "2003_Nigerian_Senate_elections_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Niger_State&oldid=1368310819",
+    "revision": "1368310819",
+    "retrieved_at": "2026-11-19T15:36:33Z",
+    "sha256": "a31c9442a3e0048fff029713edde9908c859aa4aefd68a7c871e2bdbe20d9460",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:OG": {
+    "key": "wikipedia:senate:2003:OG",
+    "title": "2003_Nigerian_Senate_elections_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Ogun_State&oldid=1368310820",
+    "revision": "1368310820",
+    "retrieved_at": "2026-11-19T15:36:34Z",
+    "sha256": "176d1b8a6ffe99aa55a1792d96e4ec62e70f6702eea17b1086059abda601a02d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:ON": {
+    "key": "wikipedia:senate:2003:ON",
+    "title": "2003_Nigerian_Senate_elections_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Ondo_State&oldid=1368310824",
+    "revision": "1368310824",
+    "retrieved_at": "2026-11-19T15:36:35Z",
+    "sha256": "a98bc03ae525f7dcb5fd9e29f7fd4e3b5672d07d73984db12f74630f1639b8ec",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:OS": {
+    "key": "wikipedia:senate:2003:OS",
+    "title": "2003_Nigerian_Senate_elections_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Osun_State&oldid=1368310830",
+    "revision": "1368310830",
+    "retrieved_at": "2026-11-19T15:36:36Z",
+    "sha256": "c66104aeef4eaa1378eed614a115fa7daf4c259b038e4dc02d5007a8450a573d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:OY": {
+    "key": "wikipedia:senate:2003:OY",
+    "title": "2003_Nigerian_Senate_elections_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Oyo_State&oldid=1368310834",
+    "revision": "1368310834",
+    "retrieved_at": "2026-11-19T15:36:37Z",
+    "sha256": "5dd223b2e89bc830caf5dad3b892f177478a2cdacfcfbe32255df3677a33ab61",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:PL": {
+    "key": "wikipedia:senate:2003:PL",
+    "title": "2003_Nigerian_Senate_elections_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Plateau_State&oldid=1368310840",
+    "revision": "1368310840",
+    "retrieved_at": "2026-11-19T15:36:39Z",
+    "sha256": "e6112f7ab3d3e09f4b788a9a289daaa88766cf197fcb51f92225557b3abcb335",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:RI": {
+    "key": "wikipedia:senate:2003:RI",
+    "title": "2003_Nigerian_Senate_elections_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Rivers_State&oldid=1368310843",
+    "revision": "1368310843",
+    "retrieved_at": "2026-11-19T15:36:39Z",
+    "sha256": "09ed3211f8bc9b90a5db925a9fc8453ace579cc1f0d10e99d233f24897403d75",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:SO": {
+    "key": "wikipedia:senate:2003:SO",
+    "title": "2003_Nigerian_Senate_elections_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Sokoto_State&oldid=1368310853",
+    "revision": "1368310853",
+    "retrieved_at": "2026-11-19T15:36:40Z",
+    "sha256": "15ea0b0bbe47f60ee95195cd5c0bf3242099dee902eba9a5600465c757dd4ea7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:TA": {
+    "key": "wikipedia:senate:2003:TA",
+    "title": "2003_Nigerian_Senate_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Taraba_State&oldid=1368310856",
+    "revision": "1368310856",
+    "retrieved_at": "2026-11-19T15:36:41Z",
+    "sha256": "65d9251c1ef5489b52f8f5e8f5188b2110b0a08816e468f4bd2d2a816b669493",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:YO": {
+    "key": "wikipedia:senate:2003:YO",
+    "title": "2003_Nigerian_Senate_elections_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Yobe_State&oldid=1368310861",
+    "revision": "1368310861",
+    "retrieved_at": "2026-11-19T15:36:42Z",
+    "sha256": "b4ffad3e2cd115ed513ca23e14311f63be91865eb1696f48b42907a2f44f05d1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2003:ZA": {
+    "key": "wikipedia:senate:2003:ZA",
+    "title": "2003_Nigerian_Senate_elections_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2003_Nigerian_Senate_elections_in_Zamfara_State&oldid=1368310865",
+    "revision": "1368310865",
+    "retrieved_at": "2026-11-19T15:36:43Z",
+    "sha256": "6c4b4ac6b88df63bd67bb685dcaa5cea1ea79ddc604fe08629596f286ab5b660",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:AB": {
+    "key": "wikipedia:senate:2007:AB",
+    "title": "2007_Nigerian_Senate_elections_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Abia_State&oldid=1368968133",
+    "revision": "1368968133",
+    "retrieved_at": "2026-11-19T15:36:44Z",
+    "sha256": "852120546de7c8638fe5d186a611e664d5962875504d1f43f80325247ae2b144",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:AD": {
+    "key": "wikipedia:senate:2007:AD",
+    "title": "2007_Nigerian_Senate_elections_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Adamawa_State&oldid=1368968137",
+    "revision": "1368968137",
+    "retrieved_at": "2026-11-19T15:36:45Z",
+    "sha256": "14df61e7f9faefd12bcb422049dde150d70755c706c16a331c23640b511e8a5f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:AK": {
+    "key": "wikipedia:senate:2007:AK",
+    "title": "2007_Nigerian_Senate_elections_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Akwa_Ibom_State&oldid=1368968143",
+    "revision": "1368968143",
+    "retrieved_at": "2026-11-19T15:36:45Z",
+    "sha256": "7547bb2b901d671637ac6cf76e4c82bf2ae75b5e0ff22018ba681dad7f204acf",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:AN": {
+    "key": "wikipedia:senate:2007:AN",
+    "title": "2007_Nigerian_Senate_elections_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Anambra_State&oldid=1368968148",
+    "revision": "1368968148",
+    "retrieved_at": "2026-11-19T15:36:46Z",
+    "sha256": "567d58fda67ef1471b8fa8d76b132e3915fe501f6e61329c18ac5836d62c1ac1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:BA": {
+    "key": "wikipedia:senate:2007:BA",
+    "title": "2007_Nigerian_Senate_elections_in_Bauchi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Bauchi_State&oldid=1368968156",
+    "revision": "1368968156",
+    "retrieved_at": "2026-11-19T15:36:47Z",
+    "sha256": "5d2ab4464ccd673a86928ac37790a34fbbf46550bda8bd094dfbebacf004c7ca",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:BE": {
+    "key": "wikipedia:senate:2007:BE",
+    "title": "2007_Nigerian_Senate_elections_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Benue_State&oldid=1368968163",
+    "revision": "1368968163",
+    "retrieved_at": "2026-11-19T15:36:49Z",
+    "sha256": "d76cf803138706c042e0e3f835086e710f9d52959d444c7bd7b4c4b2861e333c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:BO": {
+    "key": "wikipedia:senate:2007:BO",
+    "title": "2007_Nigerian_Senate_elections_in_Borno_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Borno_State&oldid=1368968165",
+    "revision": "1368968165",
+    "retrieved_at": "2026-11-19T15:36:50Z",
+    "sha256": "4fd23fd800d3cb35de3b452e2a74bba368227f154690ccee08513d67198866e1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:BY": {
+    "key": "wikipedia:senate:2007:BY",
+    "title": "2007_Nigerian_Senate_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Bayelsa_State&oldid=1368968159",
+    "revision": "1368968159",
+    "retrieved_at": "2026-11-19T15:36:48Z",
+    "sha256": "875dc0bbfcc2d51a1a4084aba81e4cdea36628ca18f36c4200b63c3eced0da0e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:CR": {
+    "key": "wikipedia:senate:2007:CR",
+    "title": "2007_Nigerian_Senate_elections_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Cross_River_State&oldid=1368968171",
+    "revision": "1368968171",
+    "retrieved_at": "2026-11-19T15:36:52Z",
+    "sha256": "b189a2ca73eac951527099f1811331bed40052170080341a6b462a59957d7a08",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:DE": {
+    "key": "wikipedia:senate:2007:DE",
+    "title": "2007_Nigerian_Senate_elections_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Delta_State&oldid=1368968177",
+    "revision": "1368968177",
+    "retrieved_at": "2026-11-19T15:36:52Z",
+    "sha256": "f1b6c3e5dd59a7cd49cead064d71de9dff5b323553e2e8eae481bddbf4df4de8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:EB": {
+    "key": "wikipedia:senate:2007:EB",
+    "title": "2007_Nigerian_Senate_elections_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Ebonyi_State&oldid=1368968178",
+    "revision": "1368968178",
+    "retrieved_at": "2026-11-19T15:36:53Z",
+    "sha256": "75d53af15947d9d3511104c3e58146b7c15eae017bc956583c5865f353ec69f4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:ED": {
+    "key": "wikipedia:senate:2007:ED",
+    "title": "2007_Nigerian_Senate_elections_in_Edo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Edo_State&oldid=1383096191",
+    "revision": "1383096191",
+    "retrieved_at": "2026-11-19T15:36:54Z",
+    "sha256": "62f706f3a47d7905d81262474d8cb0f1c3dafbbb941fd854d1fdb333132144fe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:EK": {
+    "key": "wikipedia:senate:2007:EK",
+    "title": "2007_Nigerian_Senate_elections_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Ekiti_State&oldid=1368968186",
+    "revision": "1368968186",
+    "retrieved_at": "2026-11-19T15:36:55Z",
+    "sha256": "d72cf1e4e1e1bd8a8884881c6e73c0cb817a4fb4af350fca52709aef713535fe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:EN": {
+    "key": "wikipedia:senate:2007:EN",
+    "title": "2007_Nigerian_Senate_elections_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Enugu_State&oldid=1368968190",
+    "revision": "1368968190",
+    "retrieved_at": "2026-11-19T15:36:56Z",
+    "sha256": "f2f7f4ffb275657a5fe4144271462de4b0a3857a08eed994ff031e9ba386eb2e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:GO": {
+    "key": "wikipedia:senate:2007:GO",
+    "title": "2007_Nigerian_Senate_elections_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Gombe_State&oldid=1368968195",
+    "revision": "1368968195",
+    "retrieved_at": "2026-11-19T15:36:57Z",
+    "sha256": "2219754082d5218213f657a1532d0f7026c8dbc3e7fb92f25a73d58bb6e4a2fa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:IM": {
+    "key": "wikipedia:senate:2007:IM",
+    "title": "2007_Nigerian_Senate_elections_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Imo_State&oldid=1368968200",
+    "revision": "1368968200",
+    "retrieved_at": "2026-11-19T15:36:58Z",
+    "sha256": "c558c974a14f35baa585c71c333c714418572fe7f82eb7f6510539b154fa6705",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:JI": {
+    "key": "wikipedia:senate:2007:JI",
+    "title": "2007_Nigerian_Senate_elections_in_Jigawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Jigawa_State&oldid=1368968205",
+    "revision": "1368968205",
+    "retrieved_at": "2026-11-19T15:37:00Z",
+    "sha256": "a31ffe990bb3571cc141969b5be6d6161307d06c152a2ef93186b0a70ee9d1c1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:KD": {
+    "key": "wikipedia:senate:2007:KD",
+    "title": "2007_Nigerian_Senate_elections_in_Kaduna_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Kaduna_State&oldid=1368968210",
+    "revision": "1368968210",
+    "retrieved_at": "2026-11-19T15:37:01Z",
+    "sha256": "38e285a411fc36286d1e471d328c530e0ba655f7d8df479bf6161e7549dc2228",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:KE": {
+    "key": "wikipedia:senate:2007:KE",
+    "title": "2007_Nigerian_Senate_elections_in_Kebbi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Kebbi_State&oldid=1368968225",
+    "revision": "1368968225",
+    "retrieved_at": "2026-11-19T15:37:03Z",
+    "sha256": "d2c391400d603cf80076588e9fe1f28c1ae851e79c51d405d518a9aeba1c9709",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:KN": {
+    "key": "wikipedia:senate:2007:KN",
+    "title": "2007_Nigerian_Senate_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Kano_State&oldid=1368968214",
+    "revision": "1368968214",
+    "retrieved_at": "2026-11-19T15:37:01Z",
+    "sha256": "4a161a478025adea51176f2653104533251dad95e085e4afcfaffc90f6a22df2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:KO": {
+    "key": "wikipedia:senate:2007:KO",
+    "title": "2007_Nigerian_Senate_elections_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Kogi_State&oldid=1368968231",
+    "revision": "1368968231",
+    "retrieved_at": "2026-11-19T15:37:04Z",
+    "sha256": "5c34343d4c80f48614daed9730ac8eebce7356643da21ebf8c4d1be83e23e844",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:KT": {
+    "key": "wikipedia:senate:2007:KT",
+    "title": "2007_Nigerian_Senate_elections_in_Katsina_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Katsina_State&oldid=1368968220",
+    "revision": "1368968220",
+    "retrieved_at": "2026-11-19T15:37:02Z",
+    "sha256": "406b0abc4195ce4c68feea847fa89144c94985cfb330e0492c853cde1010239f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:KW": {
+    "key": "wikipedia:senate:2007:KW",
+    "title": "2007_Nigerian_Senate_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Kwara_State&oldid=1368968240",
+    "revision": "1368968240",
+    "retrieved_at": "2026-11-19T15:37:05Z",
+    "sha256": "cb98755e4093584ba655878e90f2d5e5b0b40c97f65b557a1211183199fba5cd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:LA": {
+    "key": "wikipedia:senate:2007:LA",
+    "title": "2007_Nigerian_Senate_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Lagos_State&oldid=1368968244",
+    "revision": "1368968244",
+    "retrieved_at": "2026-11-19T15:37:05Z",
+    "sha256": "b00b5d19a92707ac6d3eda7235a4dde1f33dbb24982d9e3477d5d4f9ee71df9e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:NA": {
+    "key": "wikipedia:senate:2007:NA",
+    "title": "2007_Nigerian_Senate_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Nasarawa_State&oldid=1368968251",
+    "revision": "1368968251",
+    "retrieved_at": "2026-11-19T15:37:06Z",
+    "sha256": "c70fae86ccadd65b14f93ccf13b15601bc3dde9d6f98cc81114ff76962b7dd48",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:NI": {
+    "key": "wikipedia:senate:2007:NI",
+    "title": "2007_Nigerian_Senate_elections_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Niger_State&oldid=1368968255",
+    "revision": "1368968255",
+    "retrieved_at": "2026-11-19T15:37:07Z",
+    "sha256": "006cde6dce8cd6da5b1b62952975ecb89ebce96467a9ecdc069c0fa1d5f74061",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:OG": {
+    "key": "wikipedia:senate:2007:OG",
+    "title": "2007_Nigerian_Senate_elections_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Ogun_State&oldid=1368968259",
+    "revision": "1368968259",
+    "retrieved_at": "2026-11-19T15:37:08Z",
+    "sha256": "214551d81a52d58a3ddcfc964fd640f7c799a0aae23525d925f8cb3e37b79972",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:ON": {
+    "key": "wikipedia:senate:2007:ON",
+    "title": "2007_Nigerian_Senate_elections_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Ondo_State&oldid=1368968265",
+    "revision": "1368968265",
+    "retrieved_at": "2026-11-19T15:37:09Z",
+    "sha256": "af86755a35f2c18df0bb3409644b622404872ce37917dff2b66a602795f189aa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:OS": {
+    "key": "wikipedia:senate:2007:OS",
+    "title": "2007_Nigerian_Senate_elections_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Osun_State&oldid=1368968266",
+    "revision": "1368968266",
+    "retrieved_at": "2026-11-19T15:37:10Z",
+    "sha256": "4cd3a7c1297a4fc4b2cfbec42ee065b81f2f1a17868a302d6d9d8aab68d21a15",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:OY": {
+    "key": "wikipedia:senate:2007:OY",
+    "title": "2007_Nigerian_Senate_elections_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Oyo_State&oldid=1368968269",
+    "revision": "1368968269",
+    "retrieved_at": "2026-11-19T15:37:10Z",
+    "sha256": "0f941529ccd02e44c29aa797bd86d0c070fc27be54ff1abc443a4aafe2e8a27c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:PL": {
+    "key": "wikipedia:senate:2007:PL",
+    "title": "2007_Nigerian_Senate_elections_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Plateau_State&oldid=1368968272",
+    "revision": "1368968272",
+    "retrieved_at": "2026-11-19T15:37:11Z",
+    "sha256": "fdf16e6b628d4ba9301f39956f92c73c52d4b244a4760a138438635a8e1dd3a2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:RI": {
+    "key": "wikipedia:senate:2007:RI",
+    "title": "2007_Nigerian_Senate_elections_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Rivers_State&oldid=1368968280",
+    "revision": "1368968280",
+    "retrieved_at": "2026-11-19T15:37:12Z",
+    "sha256": "a0c20d59dd132fbab9cd9d01c84544ad2bdad6edb219d6c339bf0fcbed525b3a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:SO": {
+    "key": "wikipedia:senate:2007:SO",
+    "title": "2007_Nigerian_Senate_elections_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Sokoto_State&oldid=1368968284",
+    "revision": "1368968284",
+    "retrieved_at": "2026-11-19T15:37:13Z",
+    "sha256": "324d30875e0ba3ba8bfdd4056dc99cc195ce12df08d341baa58b7083e83c0a0a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:TA": {
+    "key": "wikipedia:senate:2007:TA",
+    "title": "2007_Nigerian_Senate_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Taraba_State&oldid=1368968288",
+    "revision": "1368968288",
+    "retrieved_at": "2026-11-19T15:37:14Z",
+    "sha256": "fe3151be5c51881dac6bda48643ed28126b9911d7e51c4a2952445f3616f640f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:YO": {
+    "key": "wikipedia:senate:2007:YO",
+    "title": "2007_Nigerian_Senate_elections_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Yobe_State&oldid=1368968296",
+    "revision": "1368968296",
+    "retrieved_at": "2026-11-19T15:37:15Z",
+    "sha256": "1661f384b9fbc0e548a1e79e08ba6fccbee0dd048ccf52b599cbb576db06bcb9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2007:ZA": {
+    "key": "wikipedia:senate:2007:ZA",
+    "title": "2007_Nigerian_Senate_elections_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2007_Nigerian_Senate_elections_in_Zamfara_State&oldid=1368968298",
+    "revision": "1368968298",
+    "retrieved_at": "2026-11-19T15:37:16Z",
+    "sha256": "2a246bd5a1962ada94c38677776de48442c7e58f04535c5b415de04973f75f49",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:AB": {
+    "key": "wikipedia:senate:2011:AB",
+    "title": "2011_Nigerian_Senate_elections_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Abia_State&oldid=1272808649",
+    "revision": "1272808649",
+    "retrieved_at": "2026-11-19T15:37:17Z",
+    "sha256": "a44b632ae34ff7fff33700b72eb78eb11db51a6feef0b7fd5a4e91bf9163d463",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:AD": {
+    "key": "wikipedia:senate:2011:AD",
+    "title": "2011_Nigerian_Senate_elections_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Adamawa_State&oldid=1272808653",
+    "revision": "1272808653",
+    "retrieved_at": "2026-11-19T15:37:17Z",
+    "sha256": "46f92b94145d48b4e00feb55af7a10b42cfbb14796106024f80a4bb70e8a9258",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:AK": {
+    "key": "wikipedia:senate:2011:AK",
+    "title": "2011_Nigerian_Senate_elections_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Akwa_Ibom_State&oldid=1364700057",
+    "revision": "1364700057",
+    "retrieved_at": "2026-11-19T15:37:18Z",
+    "sha256": "e1561fe908facc2dc250112a1956c94858000775e9bb426fd90277d28ed93f4b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:AN": {
+    "key": "wikipedia:senate:2011:AN",
+    "title": "2011_Nigerian_Senate_elections_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Anambra_State&oldid=1346541142",
+    "revision": "1346541142",
+    "retrieved_at": "2026-11-19T15:37:19Z",
+    "sha256": "f4920bbd63c1e4621eda3c38f7a5841f81394eade761cfd862d89d0a78a56cfe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:BA": {
+    "key": "wikipedia:senate:2011:BA",
+    "title": "2011_Nigerian_Senate_elections_in_Bauchi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Bauchi_State&oldid=1346541151",
+    "revision": "1346541151",
+    "retrieved_at": "2026-11-19T15:37:20Z",
+    "sha256": "7129ca5dc935b97c2de6df6e171ca6f59cd70e5b2708d0a719e4301e5a053f8f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:BE": {
+    "key": "wikipedia:senate:2011:BE",
+    "title": "2011_Nigerian_Senate_elections_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Benue_State&oldid=1346649825",
+    "revision": "1346649825",
+    "retrieved_at": "2026-11-19T15:37:22Z",
+    "sha256": "9a7a3674db9e90bfb66df4c4241146e75bfdc25c460d1fd02f08dd38368d7666",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:BO": {
+    "key": "wikipedia:senate:2011:BO",
+    "title": "2011_Nigerian_Senate_elections_in_Borno_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Borno_State&oldid=1346650528",
+    "revision": "1346650528",
+    "retrieved_at": "2026-11-19T15:37:23Z",
+    "sha256": "a0bc5b8a8e7612901ff3834735a3d96c8ab6e93ebee370c9954688f415ec134e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:BY": {
+    "key": "wikipedia:senate:2011:BY",
+    "title": "2011_Nigerian_Senate_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Bayelsa_State&oldid=1370629698",
+    "revision": "1370629698",
+    "retrieved_at": "2026-11-19T15:37:21Z",
+    "sha256": "1ae295ed827fc6865d83e19dade21fa2ae6c0e2327aac57dc7ac7c55e2efc9cd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:CR": {
+    "key": "wikipedia:senate:2011:CR",
+    "title": "2011_Nigerian_Senate_elections_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Cross_River_State&oldid=1346649360",
+    "revision": "1346649360",
+    "retrieved_at": "2026-11-19T15:37:24Z",
+    "sha256": "b866c8b6b08278b37e0326ad6cd7cc526587315f9f3fdb2c863d8a07c4cbc9d0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:DE": {
+    "key": "wikipedia:senate:2011:DE",
+    "title": "2011_Nigerian_Senate_elections_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Delta_State&oldid=1346647071",
+    "revision": "1346647071",
+    "retrieved_at": "2026-11-19T15:37:25Z",
+    "sha256": "580f8e9966620a6e4ea061fba9ffa12f748f5567288e7f9f85ee84d592b32561",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:EB": {
+    "key": "wikipedia:senate:2011:EB",
+    "title": "2011_Nigerian_Senate_elections_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Ebonyi_State&oldid=1346646590",
+    "revision": "1346646590",
+    "retrieved_at": "2026-11-19T15:37:26Z",
+    "sha256": "5be0cf99f6f3567b6dcde2e0fc94375ee6307d8338df72c4f064253bf2a9e323",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:ED": {
+    "key": "wikipedia:senate:2011:ED",
+    "title": "2011_Nigerian_Senate_elections_in_Edo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Edo_State&oldid=1346646202",
+    "revision": "1346646202",
+    "retrieved_at": "2026-11-19T15:37:27Z",
+    "sha256": "a6564d4e1fa3ef446a4265921a9b81329df08ac94790733ecb26d8804d739071",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:EK": {
+    "key": "wikipedia:senate:2011:EK",
+    "title": "2011_Nigerian_Senate_elections_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Ekiti_State&oldid=1346541218",
+    "revision": "1346541218",
+    "retrieved_at": "2026-11-19T15:37:28Z",
+    "sha256": "715331c485a40c2bccd712a0ea867813dd12a14ff7ce2daed5cedc195d1ecb37",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:EN": {
+    "key": "wikipedia:senate:2011:EN",
+    "title": "2011_Nigerian_Senate_elections_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Enugu_State&oldid=1346647468",
+    "revision": "1346647468",
+    "retrieved_at": "2026-11-19T15:37:29Z",
+    "sha256": "a3ac69c187b20a201ee0aa22c92f3dd8ef7f7b011407f5a092e6fbab05925461",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:GO": {
+    "key": "wikipedia:senate:2011:GO",
+    "title": "2011_Nigerian_Senate_elections_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Gombe_State&oldid=1346649032",
+    "revision": "1346649032",
+    "retrieved_at": "2026-11-19T15:37:31Z",
+    "sha256": "92170fb2a2c80d152473e8880127848870df7350cc17dc3444e61c0f36f36eb6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:IM": {
+    "key": "wikipedia:senate:2011:IM",
+    "title": "2011_Nigerian_Senate_elections_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Imo_State&oldid=1346647133",
+    "revision": "1346647133",
+    "retrieved_at": "2026-11-19T15:37:32Z",
+    "sha256": "275b89f85946694ad6bd3a4531cd97baf57166ad081b6ed02f609b0b76c123fe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:JI": {
+    "key": "wikipedia:senate:2011:JI",
+    "title": "2011_Nigerian_Senate_elections_in_Jigawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Jigawa_State&oldid=1383919790",
+    "revision": "1383919790",
+    "retrieved_at": "2026-11-19T15:37:33Z",
+    "sha256": "a6dc3386d6618a1c6a51ef61feb14bc9e3fd279bc3e35ce34fbf086b798e5b1b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:KD": {
+    "key": "wikipedia:senate:2011:KD",
+    "title": "2011_Nigerian_Senate_elections_in_Kaduna_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Kaduna_State&oldid=1346649299",
+    "revision": "1346649299",
+    "retrieved_at": "2026-11-19T15:37:34Z",
+    "sha256": "91e70f464f8f3123e35963273b56a60bdd12336d9bba61ba6daeb133b5964fcb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:KE": {
+    "key": "wikipedia:senate:2011:KE",
+    "title": "2011_Nigerian_Senate_elections_in_Kebbi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Kebbi_State&oldid=1346648351",
+    "revision": "1346648351",
+    "retrieved_at": "2026-11-19T15:37:36Z",
+    "sha256": "42d1d6055e2f82151b79eecb6b9c1aa2472548ef5d45b2b7d313a670228bd1c4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:KN": {
+    "key": "wikipedia:senate:2011:KN",
+    "title": "2011_Nigerian_Senate_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Kano_State&oldid=1346648417",
+    "revision": "1346648417",
+    "retrieved_at": "2026-11-19T15:37:35Z",
+    "sha256": "4a885707de1ce87b32e5bb9831c062ed5e81a2ec6b3662d5adc7d546907eec8b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:KO": {
+    "key": "wikipedia:senate:2011:KO",
+    "title": "2011_Nigerian_Senate_elections_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Kogi_State&oldid=1346541234",
+    "revision": "1346541234",
+    "retrieved_at": "2026-11-19T15:37:37Z",
+    "sha256": "ebf9f97d43d7daf5fa49ff5d47aa3f361d04a4e179958023166447cc4ae4872e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:KT": {
+    "key": "wikipedia:senate:2011:KT",
+    "title": "2011_Nigerian_Senate_elections_in_Katsina_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Katsina_State&oldid=1342711035",
+    "revision": "1342711035",
+    "retrieved_at": "2026-11-19T15:37:35Z",
+    "sha256": "8bfd772781eb5e9872367ee69472175880661fb6be1ac1534ff66ad66e6e1ad9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:KW": {
+    "key": "wikipedia:senate:2011:KW",
+    "title": "2011_Nigerian_Senate_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Kwara_State&oldid=1342732796",
+    "revision": "1342732796",
+    "retrieved_at": "2026-11-19T15:37:38Z",
+    "sha256": "8d018edd20edce7facb6aaee2a52f3a8a510db77a0288786872d9f25b117fb18",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:LA": {
+    "key": "wikipedia:senate:2011:LA",
+    "title": "2011_Nigerian_Senate_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Lagos_State&oldid=1345533178",
+    "revision": "1345533178",
+    "retrieved_at": "2026-11-19T15:37:38Z",
+    "sha256": "bb7885fe44ef665cc630ccace400402965d757ed478c7f3fa91eb31965855c61",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:NA": {
+    "key": "wikipedia:senate:2011:NA",
+    "title": "2011_Nigerian_Senate_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Nasarawa_State&oldid=1342733118",
+    "revision": "1342733118",
+    "retrieved_at": "2026-11-19T15:37:39Z",
+    "sha256": "2393ef222abcfb25311f3b381534ad341ad0bb49cb387ff84b8332746327e916",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:NI": {
+    "key": "wikipedia:senate:2011:NI",
+    "title": "2011_Nigerian_Senate_elections_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Niger_State&oldid=1346541260",
+    "revision": "1346541260",
+    "retrieved_at": "2026-11-19T15:37:40Z",
+    "sha256": "a4ad8b80d7eeaf6618b731368748e99d185e5e7bdc9809acd19c74cfb5c93835",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:OG": {
+    "key": "wikipedia:senate:2011:OG",
+    "title": "2011_Nigerian_Senate_elections_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Ogun_State&oldid=1342699729",
+    "revision": "1342699729",
+    "retrieved_at": "2026-11-19T15:37:41Z",
+    "sha256": "8974dfffd5a8a048ec275ee3bdc6ce1adea1403ac9afc66f5c0e269e4b9a8416",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:ON": {
+    "key": "wikipedia:senate:2011:ON",
+    "title": "2011_Nigerian_Senate_elections_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Ondo_State&oldid=1342748578",
+    "revision": "1342748578",
+    "retrieved_at": "2026-11-19T15:37:42Z",
+    "sha256": "d21b291a9940cb1ac473a063c80ded969a83461d36a9bf3b150f39d3254a980c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:OS": {
+    "key": "wikipedia:senate:2011:OS",
+    "title": "2011_Nigerian_Senate_elections_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Osun_State&oldid=1346649884",
+    "revision": "1346649884",
+    "retrieved_at": "2026-11-19T15:37:42Z",
+    "sha256": "19806805933198af9faaa509c17ea839ec79f1eac1a3bb5f515b1ea1a309314a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:OY": {
+    "key": "wikipedia:senate:2011:OY",
+    "title": "2011_Nigerian_Senate_elections_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Oyo_State&oldid=1370776520",
+    "revision": "1370776520",
+    "retrieved_at": "2026-11-19T15:37:44Z",
+    "sha256": "63685200389e50f1364279ebcc42078143cc467c11865dcd1c947ad69bdb9360",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:PL": {
+    "key": "wikipedia:senate:2011:PL",
+    "title": "2011_Nigerian_Senate_elections_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Plateau_State&oldid=1346649723",
+    "revision": "1346649723",
+    "retrieved_at": "2026-11-19T15:37:44Z",
+    "sha256": "fd3e962ed1678cfe816d156865f0180a9a495400c010d0c7149a8f286668f97c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:RI": {
+    "key": "wikipedia:senate:2011:RI",
+    "title": "2011_Nigerian_Senate_elections_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Rivers_State&oldid=1346644789",
+    "revision": "1346644789",
+    "retrieved_at": "2026-11-19T15:37:46Z",
+    "sha256": "7138ea73e1ed450a92f299357c884f37a5804b5519ac898d11ba4184cc1df0cc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:SO": {
+    "key": "wikipedia:senate:2011:SO",
+    "title": "2011_Nigerian_Senate_elections_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Sokoto_State&oldid=1346649780",
+    "revision": "1346649780",
+    "retrieved_at": "2026-11-19T15:37:46Z",
+    "sha256": "9fef62a42e02a81721b8d396b689ee70425b196ef4be22cc935743ef298763fa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:TA": {
+    "key": "wikipedia:senate:2011:TA",
+    "title": "2011_Nigerian_Senate_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Taraba_State&oldid=1346649105",
+    "revision": "1346649105",
+    "retrieved_at": "2026-11-19T15:37:47Z",
+    "sha256": "5c6ece877cf059a0fc556b2edc19019117af2f2b1158aa6147357a2c53168c21",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:YO": {
+    "key": "wikipedia:senate:2011:YO",
+    "title": "2011_Nigerian_Senate_elections_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Yobe_State&oldid=1342698396",
+    "revision": "1342698396",
+    "retrieved_at": "2026-11-19T15:37:49Z",
+    "sha256": "090e072dc12c710460082bc4261a7cc8db39ceec81fa6bddc0ad7f89e3785ffb",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2011:ZA": {
+    "key": "wikipedia:senate:2011:ZA",
+    "title": "2011_Nigerian_Senate_elections_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2011_Nigerian_Senate_elections_in_Zamfara_State&oldid=1346541290",
+    "revision": "1346541290",
+    "retrieved_at": "2026-11-19T15:37:49Z",
+    "sha256": "baf67738f1098577b7a07d838532b324d58ecbcf7e4ca41c77f3d00feb5df30d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:AB": {
+    "key": "wikipedia:senate:2015:AB",
+    "title": "2015_Nigerian_Senate_elections_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Abia_State&oldid=1272326104",
+    "revision": "1272326104",
+    "retrieved_at": "2026-11-19T15:37:50Z",
+    "sha256": "53622c09c4ca731c0922cc48ff96f70023088cb9f6374d8835c1183993cab9b3",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:AD": {
+    "key": "wikipedia:senate:2015:AD",
+    "title": "2015_Nigerian_Senate_elections_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Adamawa_State&oldid=1385646694",
+    "revision": "1385646694",
+    "retrieved_at": "2026-11-19T15:37:51Z",
+    "sha256": "ea43ac510d02a35ac355c56d475dae2d9e1060cbebf1f1e62a031403466f6508",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:AK": {
+    "key": "wikipedia:senate:2015:AK",
+    "title": "2015_Nigerian_Senate_elections_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Akwa_Ibom_State&oldid=1372715418",
+    "revision": "1372715418",
+    "retrieved_at": "2026-11-19T15:37:52Z",
+    "sha256": "76fd0a60b35c4fdb2471b6a4f204625cd5e1722513a6393d9fd09414d969d2a8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:AN": {
+    "key": "wikipedia:senate:2015:AN",
+    "title": "2015_Nigerian_Senate_elections_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Anambra_State&oldid=1345531265",
+    "revision": "1345531265",
+    "retrieved_at": "2026-11-19T15:37:53Z",
+    "sha256": "7c5f4362f5cc7910994251fcc809d18d640cfbe5a0f1218566deb60f6b7023fe",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:BA": {
+    "key": "wikipedia:senate:2015:BA",
+    "title": "2015_Nigerian_Senate_elections_in_Bauchi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Bauchi_State&oldid=1372715439",
+    "revision": "1372715439",
+    "retrieved_at": "2026-11-19T15:37:54Z",
+    "sha256": "51bbf82bbb01bca25cfe8d5a800e3c2b3a541fa91007ca51eec3dc52b12a11b7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:BE": {
+    "key": "wikipedia:senate:2015:BE",
+    "title": "2015_Nigerian_Senate_elections_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Benue_State&oldid=1372715496",
+    "revision": "1372715496",
+    "retrieved_at": "2026-11-19T15:37:56Z",
+    "sha256": "ea50f7587bf64b0e5fee9d0b52684a2778425029ba23a6ecf10efe462b5cfadc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:BO": {
+    "key": "wikipedia:senate:2015:BO",
+    "title": "2015_Nigerian_Senate_elections_in_Borno_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Borno_State&oldid=1372715507",
+    "revision": "1372715507",
+    "retrieved_at": "2026-11-19T15:37:57Z",
+    "sha256": "aa625776387f7f9af6ef2d2c3d3ceecf3e26fac7173243aa7b6c7b1c97dbcf1e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:BY": {
+    "key": "wikipedia:senate:2015:BY",
+    "title": "2015_Nigerian_Senate_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Bayelsa_State&oldid=1346541161",
+    "revision": "1346541161",
+    "retrieved_at": "2026-11-19T15:37:55Z",
+    "sha256": "fb66d94e65e76ef8630320886bb06f895391954d8f7f28939e70866454fe1a16",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:CR": {
+    "key": "wikipedia:senate:2015:CR",
+    "title": "2015_Nigerian_Senate_elections_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Cross_River_State&oldid=1346541172",
+    "revision": "1346541172",
+    "retrieved_at": "2026-11-19T15:37:58Z",
+    "sha256": "29110e14f38594e528d00d3c10fec2a8341979b21d9f4eaff7b9d12acdddc814",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:DE": {
+    "key": "wikipedia:senate:2015:DE",
+    "title": "2015_Nigerian_Senate_elections_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Delta_State&oldid=1346541323",
+    "revision": "1346541323",
+    "retrieved_at": "2026-11-19T15:37:59Z",
+    "sha256": "d7b0f0fcf6116fc909df364b964befbd712129e1723275e6a7b0f15d1620bbe1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:EB": {
+    "key": "wikipedia:senate:2015:EB",
+    "title": "2015_Nigerian_Senate_elections_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Ebonyi_State&oldid=1372715522",
+    "revision": "1372715522",
+    "retrieved_at": "2026-11-19T15:38:00Z",
+    "sha256": "490ba2a1f60011caa95b21f093848988d63a9f6f69b7b1e63ae3c58e8bea66fa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:ED": {
+    "key": "wikipedia:senate:2015:ED",
+    "title": "2015_Nigerian_Senate_elections_in_Edo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Edo_State&oldid=1345533201",
+    "revision": "1345533201",
+    "retrieved_at": "2026-11-19T15:38:01Z",
+    "sha256": "a86eed0dfc2fc70740a91f603a2cba4b71dd9982e3802841fc3223e793208a19",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:EK": {
+    "key": "wikipedia:senate:2015:EK",
+    "title": "2015_Nigerian_Senate_elections_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Ekiti_State&oldid=1372715536",
+    "revision": "1372715536",
+    "retrieved_at": "2026-11-19T15:38:02Z",
+    "sha256": "69d22bde068dfab924f0e1aaf9aa2962e952abfff8d6225fd264d12ccd5cdd8a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:EN": {
+    "key": "wikipedia:senate:2015:EN",
+    "title": "2015_Nigerian_Senate_elections_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Enugu_State&oldid=1372715549",
+    "revision": "1372715549",
+    "retrieved_at": "2026-11-19T15:38:03Z",
+    "sha256": "84e4ba3e6239ddd7c2b430b2daa04cb321cb9938ecbff7ab2c340b189b973d2a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:GO": {
+    "key": "wikipedia:senate:2015:GO",
+    "title": "2015_Nigerian_Senate_elections_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Gombe_State&oldid=1372715563",
+    "revision": "1372715563",
+    "retrieved_at": "2026-11-19T15:38:05Z",
+    "sha256": "0ce4e0860f6d7552a0933d8ca530616a26cedf9f5d0fa74cf5d8d3da77f688ba",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:IM": {
+    "key": "wikipedia:senate:2015:IM",
+    "title": "2015_Nigerian_Senate_elections_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Imo_State&oldid=1372715576",
+    "revision": "1372715576",
+    "retrieved_at": "2026-11-19T15:38:05Z",
+    "sha256": "ace7402fa5f872851681379ec995933a101c33950afe2e2a03d84337c3e2d793",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:JI": {
+    "key": "wikipedia:senate:2015:JI",
+    "title": "2015_Nigerian_Senate_elections_in_Jigawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Jigawa_State&oldid=1372715606",
+    "revision": "1372715606",
+    "retrieved_at": "2026-11-19T15:38:06Z",
+    "sha256": "d2cc5e9ef7fea77fb2149be3ef3bdc690705ffbdfc6c7eccd5f3b19a93f04904",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:KD": {
+    "key": "wikipedia:senate:2015:KD",
+    "title": "2015_Nigerian_Senate_elections_in_Kaduna_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Kaduna_State&oldid=1372715622",
+    "revision": "1372715622",
+    "retrieved_at": "2026-11-19T15:38:07Z",
+    "sha256": "8f17ed136326029c08651b6f64e9cabc3b924a2bf5d954cca75c835eea785505",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:KE": {
+    "key": "wikipedia:senate:2015:KE",
+    "title": "2015_Nigerian_Senate_elections_in_Kebbi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Kebbi_State&oldid=1372715662",
+    "revision": "1372715662",
+    "retrieved_at": "2026-11-19T15:38:10Z",
+    "sha256": "18f51d2e74e6dbb5a5f100c61be9abc4c046f13871ca2619c4eb83350947532a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:KN": {
+    "key": "wikipedia:senate:2015:KN",
+    "title": "2015_Nigerian_Senate_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Kano_State&oldid=1372715638",
+    "revision": "1372715638",
+    "retrieved_at": "2026-11-19T15:38:08Z",
+    "sha256": "feff19ed370d1704c37d8c5fee2dab65cb2b329faffb1eae4171b695c5c8dbcd",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:KO": {
+    "key": "wikipedia:senate:2015:KO",
+    "title": "2015_Nigerian_Senate_elections_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Kogi_State&oldid=1385786311",
+    "revision": "1385786311",
+    "retrieved_at": "2026-11-19T15:38:11Z",
+    "sha256": "b2c8a9fde666c894bb1745a4f200bc9f8061ec4c7adfddf7f4835aba0d941abc",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:KT": {
+    "key": "wikipedia:senate:2015:KT",
+    "title": "2015_Nigerian_Senate_elections_in_Katsina_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Katsina_State&oldid=1372715655",
+    "revision": "1372715655",
+    "retrieved_at": "2026-11-19T15:38:09Z",
+    "sha256": "a62dd55775169e9ea666857d6f27de6ca9682f0f822c54ed8e92e1fabc55d739",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:KW": {
+    "key": "wikipedia:senate:2015:KW",
+    "title": "2015_Nigerian_Senate_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Kwara_State&oldid=1372715691",
+    "revision": "1372715691",
+    "retrieved_at": "2026-11-19T15:38:12Z",
+    "sha256": "fdd89128d50403721747b20e976974e7d3a828c98129b38579912cb2b3ac5d5e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:LA": {
+    "key": "wikipedia:senate:2015:LA",
+    "title": "2015_Nigerian_Senate_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Lagos_State&oldid=1372715805",
+    "revision": "1372715805",
+    "retrieved_at": "2026-11-19T15:38:12Z",
+    "sha256": "b8dc5d121f0a04744168421f7d1db7291ed12bdb439d4efbe42808cb3bc8ee71",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:NA": {
+    "key": "wikipedia:senate:2015:NA",
+    "title": "2015_Nigerian_Senate_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Nasarawa_State&oldid=1372715819",
+    "revision": "1372715819",
+    "retrieved_at": "2026-11-19T15:38:13Z",
+    "sha256": "835f72f8f8ddbd38b2b3f0b1a3183426a50e89ec36743be7cf5fb8f571523a71",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:NI": {
+    "key": "wikipedia:senate:2015:NI",
+    "title": "2015_Nigerian_Senate_elections_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Niger_State&oldid=1372715834",
+    "revision": "1372715834",
+    "retrieved_at": "2026-11-19T15:38:13Z",
+    "sha256": "98ba1ada584eb681e285694a17332396c00ed78b0e5de7807c88b88317782e66",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:OG": {
+    "key": "wikipedia:senate:2015:OG",
+    "title": "2015_Nigerian_Senate_elections_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Ogun_State&oldid=1361378548",
+    "revision": "1361378548",
+    "retrieved_at": "2026-11-19T15:38:14Z",
+    "sha256": "d3914d4beae3b0d1ebc1843f128d6592850d3876d289a318843d7658fadb1d5f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:ON": {
+    "key": "wikipedia:senate:2015:ON",
+    "title": "2015_Nigerian_Senate_elections_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Ondo_State&oldid=1372715843",
+    "revision": "1372715843",
+    "retrieved_at": "2026-11-19T15:38:15Z",
+    "sha256": "7477e55778fcbf73c08506ec7e142cefba2143ce89f36c4e0c1c2fb51971af92",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:OS": {
+    "key": "wikipedia:senate:2015:OS",
+    "title": "2015_Nigerian_Senate_elections_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Osun_State&oldid=1372715861",
+    "revision": "1372715861",
+    "retrieved_at": "2026-11-19T15:38:16Z",
+    "sha256": "c8447176467fbbff01ceb0a624e864ba045c1c93c371d3e5d01f2ff177ae9e36",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:OY": {
+    "key": "wikipedia:senate:2015:OY",
+    "title": "2015_Nigerian_Senate_elections_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Oyo_State&oldid=1361380228",
+    "revision": "1361380228",
+    "retrieved_at": "2026-11-19T15:38:18Z",
+    "sha256": "297518a36b10b5735ad00ec0c49df1480b51edfadb66e7e54553f6082c170e40",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:PL": {
+    "key": "wikipedia:senate:2015:PL",
+    "title": "2015_Nigerian_Senate_elections_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Plateau_State&oldid=1372715875",
+    "revision": "1372715875",
+    "retrieved_at": "2026-11-19T15:38:19Z",
+    "sha256": "2533c337994bc99fe495e301ec41d24289eec984cbbd7492bada005c969720c2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:RI": {
+    "key": "wikipedia:senate:2015:RI",
+    "title": "2015_Nigerian_Senate_elections_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Rivers_State&oldid=1372715887",
+    "revision": "1372715887",
+    "retrieved_at": "2026-11-19T15:38:20Z",
+    "sha256": "ca7a6af7bb5e1dfd28cb0621fc7d2dc7506be5897149075f03fed4b86b04f660",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:SO": {
+    "key": "wikipedia:senate:2015:SO",
+    "title": "2015_Nigerian_Senate_elections_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Sokoto_State&oldid=1372715905",
+    "revision": "1372715905",
+    "retrieved_at": "2026-11-19T15:38:20Z",
+    "sha256": "ddbb1a5af972d5dbd219b0bfca3b6f17be4312a3b0e50ff6019f38a70aacebc9",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:TA": {
+    "key": "wikipedia:senate:2015:TA",
+    "title": "2015_Nigerian_Senate_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Taraba_State&oldid=1372715923",
+    "revision": "1372715923",
+    "retrieved_at": "2026-11-19T15:38:21Z",
+    "sha256": "848eab448120fe9ad93525185d590be5c1db13a135fa451d270f3d125170b490",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:YO": {
+    "key": "wikipedia:senate:2015:YO",
+    "title": "2015_Nigerian_Senate_elections_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Yobe_State&oldid=1372715931",
+    "revision": "1372715931",
+    "retrieved_at": "2026-11-19T15:38:22Z",
+    "sha256": "92e6f50a135a18e6ff1f9c77bac4eb9af853e8c33d6119283ad5f7b5c5b41359",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2015:ZA": {
+    "key": "wikipedia:senate:2015:ZA",
+    "title": "2015_Nigerian_Senate_elections_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2015_Nigerian_Senate_elections_in_Zamfara_State&oldid=1372715953",
+    "revision": "1372715953",
+    "retrieved_at": "2026-11-19T15:38:23Z",
+    "sha256": "fc01f801889591d42a4fbc2d736a413bfaa50badd4554e6114a0043f3a1fdd7d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:AB": {
+    "key": "wikipedia:senate:2019:AB",
+    "title": "2019_Nigerian_Senate_elections_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Abia_State&oldid=1345885820",
+    "revision": "1345885820",
+    "retrieved_at": "2026-11-19T15:38:24Z",
+    "sha256": "1af7a8b35d665cfccbbc70a9b84e4cea8ada80c9f241158bad2699654bb9b0ef",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:AD": {
+    "key": "wikipedia:senate:2019:AD",
+    "title": "2019_Nigerian_Senate_elections_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Adamawa_State&oldid=1344013602",
+    "revision": "1344013602",
+    "retrieved_at": "2026-11-19T15:38:24Z",
+    "sha256": "0a2abbd3a3bffcccab8ed4a34ee9d101b868bc20faaab7dc68b397c9d2ca390a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:AK": {
+    "key": "wikipedia:senate:2019:AK",
+    "title": "2019_Nigerian_Senate_elections_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Akwa_Ibom_State&oldid=1364703360",
+    "revision": "1364703360",
+    "retrieved_at": "2026-11-19T15:38:25Z",
+    "sha256": "bbbc519686998287bd941c36968c0a08683b04610d97f6f23db58186e50d3566",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:AN": {
+    "key": "wikipedia:senate:2019:AN",
+    "title": "2019_Nigerian_Senate_elections_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Anambra_State&oldid=1342320589",
+    "revision": "1342320589",
+    "retrieved_at": "2026-11-19T15:38:26Z",
+    "sha256": "a319880d44809e32038ec03429e761a54bbc43122cb753161245f4c6a72fd0e7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:BA": {
+    "key": "wikipedia:senate:2019:BA",
+    "title": "2019_Nigerian_Senate_elections_in_Bauchi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Bauchi_State&oldid=1374832970",
+    "revision": "1374832970",
+    "retrieved_at": "2026-11-19T15:38:27Z",
+    "sha256": "be47ecb589d182f983c81332c23d2d7ad0ea3d8ce62128f7cbabbfaa5ccb5f5a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:BE": {
+    "key": "wikipedia:senate:2019:BE",
+    "title": "2019_Nigerian_Senate_elections_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Benue_State&oldid=1374833279",
+    "revision": "1374833279",
+    "retrieved_at": "2026-11-19T15:38:30Z",
+    "sha256": "8ac7ed0fc1b04dfa0c1f8115c6ae058af157ca4991c9ead4cc88cc741ba3981b",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:BO": {
+    "key": "wikipedia:senate:2019:BO",
+    "title": "2019_Nigerian_Senate_elections_in_Borno_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Borno_State&oldid=1344710910",
+    "revision": "1344710910",
+    "retrieved_at": "2026-11-19T15:38:32Z",
+    "sha256": "6eabd0dee4df7af690d2512027f118142c900bbda62fbf90385253d7709ab088",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:BY": {
+    "key": "wikipedia:senate:2019:BY",
+    "title": "2019_Nigerian_Senate_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Bayelsa_State&oldid=1361366821",
+    "revision": "1361366821",
+    "retrieved_at": "2026-11-19T15:38:28Z",
+    "sha256": "3ec76682b44f7bd18964c79bdbf7b852e69354b9bf412b903b63deadcb60dbd8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:CR": {
+    "key": "wikipedia:senate:2019:CR",
+    "title": "2019_Nigerian_Senate_elections_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Cross_River_State&oldid=1344706326",
+    "revision": "1344706326",
+    "retrieved_at": "2026-11-19T15:38:32Z",
+    "sha256": "a5bf50751b737cd8f9e2e1a69c130be3b5ad96050b60dd4c1b056ea4dbc37ce0",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:DE": {
+    "key": "wikipedia:senate:2019:DE",
+    "title": "2019_Nigerian_Senate_elections_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Delta_State&oldid=1361439721",
+    "revision": "1361439721",
+    "retrieved_at": "2026-11-19T15:38:33Z",
+    "sha256": "9b7855f1e4ca63c5106f383ab6f6c0af9c6301ae920108c933bc92cb53ff94c8",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:EB": {
+    "key": "wikipedia:senate:2019:EB",
+    "title": "2019_Nigerian_Senate_elections_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Ebonyi_State&oldid=1345888921",
+    "revision": "1345888921",
+    "retrieved_at": "2026-11-19T15:38:34Z",
+    "sha256": "badf87d74e71f6d6f9332279baeca249fa7cabd64fff4a09b3906341dd8812ed",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:ED": {
+    "key": "wikipedia:senate:2019:ED",
+    "title": "2019_Nigerian_Senate_elections_in_Edo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Edo_State&oldid=1374834947",
+    "revision": "1374834947",
+    "retrieved_at": "2026-11-19T15:38:35Z",
+    "sha256": "b92bb4ea2a51941d6772a009251139ea150c573acbd5cdf305d8ebd906ba47e6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:EK": {
+    "key": "wikipedia:senate:2019:EK",
+    "title": "2019_Nigerian_Senate_elections_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Ekiti_State&oldid=1378018677",
+    "revision": "1378018677",
+    "retrieved_at": "2026-11-19T15:38:36Z",
+    "sha256": "28744820ab4dd4891e7840ff98b592257d0582f06cb2210fbc1bcb71c5d5579e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:EN": {
+    "key": "wikipedia:senate:2019:EN",
+    "title": "2019_Nigerian_Senate_elections_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Enugu_State&oldid=1345891665",
+    "revision": "1345891665",
+    "retrieved_at": "2026-11-19T15:38:37Z",
+    "sha256": "09bf1778b7df11e6e1b5d29278538ebe1ffcad41f79cf575b1ba2638b1fe6244",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:GO": {
+    "key": "wikipedia:senate:2019:GO",
+    "title": "2019_Nigerian_Senate_elections_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Gombe_State&oldid=1361439805",
+    "revision": "1361439805",
+    "retrieved_at": "2026-11-19T15:38:38Z",
+    "sha256": "062c75f0836ba780445fb84a5dfff19958920295ba7c247e6579eb9585645e0d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:IM": {
+    "key": "wikipedia:senate:2019:IM",
+    "title": "2019_Nigerian_Senate_elections_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Imo_State&oldid=1361367186",
+    "revision": "1361367186",
+    "retrieved_at": "2026-11-19T15:38:39Z",
+    "sha256": "711b63cb581fdc07027356c9b61d4d54040ad341c65766ddfae8f3f16c1ee69e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:JI": {
+    "key": "wikipedia:senate:2019:JI",
+    "title": "2019_Nigerian_Senate_elections_in_Jigawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Jigawa_State&oldid=1374835315",
+    "revision": "1374835315",
+    "retrieved_at": "2026-11-19T15:38:40Z",
+    "sha256": "45a1ee3ec62d756af26e55e3b22884de1bfd71f8977b7ea591dd6094e95f052f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:KD": {
+    "key": "wikipedia:senate:2019:KD",
+    "title": "2019_Nigerian_Senate_elections_in_Kaduna_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Kaduna_State&oldid=1374835646",
+    "revision": "1374835646",
+    "retrieved_at": "2026-11-19T15:38:42Z",
+    "sha256": "d6d47f97fd9e100a334c1980275430bc293e92b76571ed2ea24ca45806a8de28",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:KE": {
+    "key": "wikipedia:senate:2019:KE",
+    "title": "2019_Nigerian_Senate_elections_in_Kebbi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Kebbi_State&oldid=1374836804",
+    "revision": "1374836804",
+    "retrieved_at": "2026-11-19T15:38:45Z",
+    "sha256": "1115fa98211354bb464fcd0336e569536782e18eee178e4e137d7126e35260ad",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:KN": {
+    "key": "wikipedia:senate:2019:KN",
+    "title": "2019_Nigerian_Senate_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Kano_State&oldid=1361374222",
+    "revision": "1361374222",
+    "retrieved_at": "2026-11-19T15:38:44Z",
+    "sha256": "406d57687c93df99fd8d5b4db4b7c4a665bd179475443bad18c1153887d1d7a7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:KO": {
+    "key": "wikipedia:senate:2019:KO",
+    "title": "2019_Nigerian_Senate_elections_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Kogi_State&oldid=1361439911",
+    "revision": "1361439911",
+    "retrieved_at": "2026-11-19T15:38:46Z",
+    "sha256": "d2a6efdb43727fb4226e065b43062fd39e8c300f7bf1be421cbcfcdfd828d67a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:KT": {
+    "key": "wikipedia:senate:2019:KT",
+    "title": "2019_Nigerian_Senate_elections_in_Katsina_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Katsina_State&oldid=1374836800",
+    "revision": "1374836800",
+    "retrieved_at": "2026-11-19T15:38:44Z",
+    "sha256": "237cabcbb769140d2942dac80213fb4ba693884943b2fc0053c6448463471ece",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:KW": {
+    "key": "wikipedia:senate:2019:KW",
+    "title": "2019_Nigerian_Senate_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Kwara_State&oldid=1374837702",
+    "revision": "1374837702",
+    "retrieved_at": "2026-11-19T15:38:47Z",
+    "sha256": "6fc6de09ce2ad64885f46289d39765c8847f91d62a2d148c55d657953c062b27",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:LA": {
+    "key": "wikipedia:senate:2019:LA",
+    "title": "2019_Nigerian_Senate_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Lagos_State&oldid=1344704625",
+    "revision": "1344704625",
+    "retrieved_at": "2026-11-19T15:38:47Z",
+    "sha256": "9b1059c6730467935d02125e4771309ff3499dc04702bd5e4ff20f3409b25068",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:NA": {
+    "key": "wikipedia:senate:2019:NA",
+    "title": "2019_Nigerian_Senate_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Nasarawa_State&oldid=1384466608",
+    "revision": "1384466608",
+    "retrieved_at": "2026-11-19T15:38:48Z",
+    "sha256": "7e96ea3c137d39cb6f07d20c5a35f969f7222b085f07457089f9b849278db493",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:NI": {
+    "key": "wikipedia:senate:2019:NI",
+    "title": "2019_Nigerian_Senate_elections_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Niger_State&oldid=1345709066",
+    "revision": "1345709066",
+    "retrieved_at": "2026-11-19T15:38:49Z",
+    "sha256": "1a1e7b214918b8d6bc5f416fb2a47ef4a48e2e8a78bb0df5c64592bef6a8475f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:OG": {
+    "key": "wikipedia:senate:2019:OG",
+    "title": "2019_Nigerian_Senate_elections_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Ogun_State&oldid=1345711053",
+    "revision": "1345711053",
+    "retrieved_at": "2026-11-19T15:38:50Z",
+    "sha256": "691469ed24ed2875a08ed69590da851bd23a3a51769751058d9873ff66572de4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:ON": {
+    "key": "wikipedia:senate:2019:ON",
+    "title": "2019_Nigerian_Senate_elections_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Ondo_State&oldid=1345711110",
+    "revision": "1345711110",
+    "retrieved_at": "2026-11-19T15:38:51Z",
+    "sha256": "6c310e2eb4f496a1b9f369fdcf006c3ca992e3d2693b6e1632f2ea8e15c14c90",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:OS": {
+    "key": "wikipedia:senate:2019:OS",
+    "title": "2019_Nigerian_Senate_elections_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Osun_State&oldid=1374840494",
+    "revision": "1374840494",
+    "retrieved_at": "2026-11-19T15:38:52Z",
+    "sha256": "87cb21f75ca52fabf413b720c4fc0890d32f3efc43be014e50fe27e01bd9f070",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:OY": {
+    "key": "wikipedia:senate:2019:OY",
+    "title": "2019_Nigerian_Senate_elections_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Oyo_State&oldid=1374840911",
+    "revision": "1374840911",
+    "retrieved_at": "2026-11-19T15:38:53Z",
+    "sha256": "e4f5aa542f3006c8b0d9c924d9bb5da801fc9762f56b13c773a5a14cc74c3a2f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:PL": {
+    "key": "wikipedia:senate:2019:PL",
+    "title": "2019_Nigerian_Senate_elections_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Plateau_State&oldid=1374840913",
+    "revision": "1374840913",
+    "retrieved_at": "2026-11-19T15:38:54Z",
+    "sha256": "59f2135a9b1c1cc3f0875466318e591b9c3f714a76f8dc49b12432e95da7eb2a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:RI": {
+    "key": "wikipedia:senate:2019:RI",
+    "title": "2019_Nigerian_Senate_elections_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Rivers_State&oldid=1374840933",
+    "revision": "1374840933",
+    "retrieved_at": "2026-11-19T15:38:55Z",
+    "sha256": "946436648f07deed0e48000f10714eae34b84cb5e7c2150d7a57df1155d1907c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:SO": {
+    "key": "wikipedia:senate:2019:SO",
+    "title": "2019_Nigerian_Senate_elections_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Sokoto_State&oldid=1374840956",
+    "revision": "1374840956",
+    "retrieved_at": "2026-11-19T15:38:56Z",
+    "sha256": "f4353c719d535909f0b3b7bd19a6074af253e5494d57383f2d18547b127b0bce",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:TA": {
+    "key": "wikipedia:senate:2019:TA",
+    "title": "2019_Nigerian_Senate_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Taraba_State&oldid=1374841126",
+    "revision": "1374841126",
+    "retrieved_at": "2026-11-19T15:38:59Z",
+    "sha256": "aceec42e2d28961b1dc060c67e970e083f668cdf4d8c23781929490690d8f526",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:YO": {
+    "key": "wikipedia:senate:2019:YO",
+    "title": "2019_Nigerian_Senate_elections_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Yobe_State&oldid=1374841174",
+    "revision": "1374841174",
+    "retrieved_at": "2026-11-19T15:39:00Z",
+    "sha256": "2c445e53a98d5940e84c6e7c5ea76112d908773d4a73fa6c211a865a670b5387",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2019:ZA": {
+    "key": "wikipedia:senate:2019:ZA",
+    "title": "2019_Nigerian_Senate_elections_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2019_Nigerian_Senate_elections_in_Zamfara_State&oldid=1381298645",
+    "revision": "1381298645",
+    "retrieved_at": "2026-11-19T15:39:01Z",
+    "sha256": "1313d3cf1b09193b1b64d467e45acd225c52739618c39fbd7f513ba545679a1c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:AB": {
+    "key": "wikipedia:senate:2023:AB",
+    "title": "2023_Nigerian_Senate_elections_in_Abia_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Abia_State&oldid=1376228428",
+    "revision": "1376228428",
+    "retrieved_at": "2026-11-19T15:39:02Z",
+    "sha256": "631370e3948a6927a4b75f79d371abf655d8913e1a5869b26b97ff1f1d0e163c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:AD": {
+    "key": "wikipedia:senate:2023:AD",
+    "title": "2023_Nigerian_Senate_elections_in_Adamawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Adamawa_State&oldid=1345716297",
+    "revision": "1345716297",
+    "retrieved_at": "2026-11-19T15:39:05Z",
+    "sha256": "b35f3614245b7ad74eb61e364755c1f1170302a04977d17fa8fdfccbe70d88b1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:AK": {
+    "key": "wikipedia:senate:2023:AK",
+    "title": "2023_Nigerian_Senate_elections_in_Akwa_Ibom_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Akwa_Ibom_State&oldid=1377212096",
+    "revision": "1377212096",
+    "retrieved_at": "2026-11-19T15:39:07Z",
+    "sha256": "80c1df67212c7c265e8d8648abd3e198fc7b32b87a853396706a9420f79fadb7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:AN": {
+    "key": "wikipedia:senate:2023:AN",
+    "title": "2023_Nigerian_Senate_elections_in_Anambra_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Anambra_State&oldid=1347642321",
+    "revision": "1347642321",
+    "retrieved_at": "2026-11-19T15:39:08Z",
+    "sha256": "f8e64b23481078737c83611419a40a66affa5021c89b43f87132e9104ea0d2ad",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:BA": {
+    "key": "wikipedia:senate:2023:BA",
+    "title": "2023_Nigerian_Senate_elections_in_Bauchi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Bauchi_State&oldid=1377212567",
+    "revision": "1377212567",
+    "retrieved_at": "2026-11-19T15:39:09Z",
+    "sha256": "c95c3e64ef84c810fd053b5b94e1a08cb3e08f6e69b85e494c48eaaea119517c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:BE": {
+    "key": "wikipedia:senate:2023:BE",
+    "title": "2023_Nigerian_Senate_elections_in_Benue_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Benue_State&oldid=1346532495",
+    "revision": "1346532495",
+    "retrieved_at": "2026-11-19T15:39:14Z",
+    "sha256": "2d05c9d4cdcad415f8683e8ecfc1033be05417bb861e5e124d4f7a52cc74f81c",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:BO": {
+    "key": "wikipedia:senate:2023:BO",
+    "title": "2023_Nigerian_Senate_elections_in_Borno_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Borno_State&oldid=1345896371",
+    "revision": "1345896371",
+    "retrieved_at": "2026-11-19T15:39:15Z",
+    "sha256": "b53f809987b54c5f14f447a1f6426fb5b75a043c7c27194ae71e95b569ae12b4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:BY": {
+    "key": "wikipedia:senate:2023:BY",
+    "title": "2023_Nigerian_Senate_elections_in_Bayelsa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Bayelsa_State&oldid=1346633897",
+    "revision": "1346633897",
+    "retrieved_at": "2026-11-19T15:39:13Z",
+    "sha256": "284f73de1e54f6b9b9efc6c5582924b507eaf715df9f15a3794447fa57696237",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:CR": {
+    "key": "wikipedia:senate:2023:CR",
+    "title": "2023_Nigerian_Senate_elections_in_Cross_River_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Cross_River_State&oldid=1346532537",
+    "revision": "1346532537",
+    "retrieved_at": "2026-11-19T15:39:16Z",
+    "sha256": "36afa81c4c1848b348cfadf4660e876cc2704e666c626d12a0ace506ec839750",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:DE": {
+    "key": "wikipedia:senate:2023:DE",
+    "title": "2023_Nigerian_Senate_elections_in_Delta_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Delta_State&oldid=1377212926",
+    "revision": "1377212926",
+    "retrieved_at": "2026-11-19T15:39:16Z",
+    "sha256": "1175563b33edf57fc4d9e849539432b1532e2cec68ecdbfe91aadf7cd5c2fa2d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:EB": {
+    "key": "wikipedia:senate:2023:EB",
+    "title": "2023_Nigerian_Senate_elections_in_Ebonyi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Ebonyi_State&oldid=1361442138",
+    "revision": "1361442138",
+    "retrieved_at": "2026-11-19T15:39:19Z",
+    "sha256": "268e29a90580fe362b66dcac2abc18bf8c4373e4f22d69c6a317aac3a585d484",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:ED": {
+    "key": "wikipedia:senate:2023:ED",
+    "title": "2023_Nigerian_Senate_elections_in_Edo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Edo_State&oldid=1377709131",
+    "revision": "1377709131",
+    "retrieved_at": "2026-11-19T15:39:21Z",
+    "sha256": "02dcfd316da23580dde453dd6ebe9185cfeaf43897848c95e62cb6f0f5e06d3d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:EK": {
+    "key": "wikipedia:senate:2023:EK",
+    "title": "2023_Nigerian_Senate_elections_in_Ekiti_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Ekiti_State&oldid=1377213166",
+    "revision": "1377213166",
+    "retrieved_at": "2026-11-19T15:39:23Z",
+    "sha256": "ac2a16743667d395822b73d4999fcb729aa96e8370d3b6d4532b9731dd9641f2",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:EN": {
+    "key": "wikipedia:senate:2023:EN",
+    "title": "2023_Nigerian_Senate_elections_in_Enugu_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Enugu_State&oldid=1365234552",
+    "revision": "1365234552",
+    "retrieved_at": "2026-11-19T15:39:23Z",
+    "sha256": "867338a6df7e0c904c07881c5eb991970c635d887d931e4ba0478ab8edc1c025",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:GO": {
+    "key": "wikipedia:senate:2023:GO",
+    "title": "2023_Nigerian_Senate_elections_in_Gombe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Gombe_State&oldid=1369378225",
+    "revision": "1369378225",
+    "retrieved_at": "2026-11-19T15:39:25Z",
+    "sha256": "8ab1e5017b72caf8df903199f69e7d5a6e5845eeb991e428721e863aed4627e4",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:IM": {
+    "key": "wikipedia:senate:2023:IM",
+    "title": "2023_Nigerian_Senate_elections_in_Imo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Imo_State&oldid=1377213354",
+    "revision": "1377213354",
+    "retrieved_at": "2026-11-19T15:39:26Z",
+    "sha256": "ccd754e6ba1f0a9c40114f99acad6102a33328b1dea4d250191e1e7a26a6aa54",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:JI": {
+    "key": "wikipedia:senate:2023:JI",
+    "title": "2023_Nigerian_Senate_elections_in_Jigawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Jigawa_State&oldid=1341400799",
+    "revision": "1341400799",
+    "retrieved_at": "2026-11-19T15:39:28Z",
+    "sha256": "b644046e4aacaf01ba8aea263d565102fa83baf203ba72bb14397049ffe5ee13",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:KD": {
+    "key": "wikipedia:senate:2023:KD",
+    "title": "2023_Nigerian_Senate_elections_in_Kaduna_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Kaduna_State&oldid=1347376777",
+    "revision": "1347376777",
+    "retrieved_at": "2026-11-19T15:39:29Z",
+    "sha256": "84535f6845df88eba7f49758edd1a95a583959aa88e6f226df5a173d62eada40",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:KE": {
+    "key": "wikipedia:senate:2023:KE",
+    "title": "2023_Nigerian_Senate_elections_in_Kebbi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Kebbi_State&oldid=1377213592",
+    "revision": "1377213592",
+    "retrieved_at": "2026-11-19T15:39:32Z",
+    "sha256": "9c4254a1c837a53dd532ebbfc3e18911e23e3247332c29d80f7ef4c6dc2d822d",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:KN": {
+    "key": "wikipedia:senate:2023:KN",
+    "title": "2023_Nigerian_Senate_elections_in_Kano_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Kano_State&oldid=1378532794",
+    "revision": "1378532794",
+    "retrieved_at": "2026-11-19T15:39:29Z",
+    "sha256": "7ad9835414819ef3a9689348de42a82209149d5b9bfe65e234bbf00ebabf038f",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:KO": {
+    "key": "wikipedia:senate:2023:KO",
+    "title": "2023_Nigerian_Senate_elections_in_Kogi_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Kogi_State&oldid=1346636127",
+    "revision": "1346636127",
+    "retrieved_at": "2026-11-19T15:39:33Z",
+    "sha256": "690516b3b768b9e7d59e203f3547d8601142ce95609bc6c6c85f104a2c5cb95e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:KT": {
+    "key": "wikipedia:senate:2023:KT",
+    "title": "2023_Nigerian_Senate_elections_in_Katsina_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Katsina_State&oldid=1342384910",
+    "revision": "1342384910",
+    "retrieved_at": "2026-11-19T15:39:30Z",
+    "sha256": "8b633582b82af40be7e8849da891ab5f7656ed9e43794b2e11887c72067ca318",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:KW": {
+    "key": "wikipedia:senate:2023:KW",
+    "title": "2023_Nigerian_Senate_elections_in_Kwara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Kwara_State&oldid=1346636695",
+    "revision": "1346636695",
+    "retrieved_at": "2026-11-19T15:39:34Z",
+    "sha256": "59983aec04c738fbcae5bc646305d05d00d814b510a777a8a5c6331ec9b0f3b6",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:LA": {
+    "key": "wikipedia:senate:2023:LA",
+    "title": "2023_Nigerian_Senate_elections_in_Lagos_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Lagos_State&oldid=1346635078",
+    "revision": "1346635078",
+    "retrieved_at": "2026-11-19T15:39:34Z",
+    "sha256": "560cc30efe90940a26cb4a2a26cb501b731779b6f08c569056cc592ccf9387c7",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:NA": {
+    "key": "wikipedia:senate:2023:NA",
+    "title": "2023_Nigerian_Senate_elections_in_Nasarawa_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Nasarawa_State&oldid=1377213663",
+    "revision": "1377213663",
+    "retrieved_at": "2026-11-19T15:39:40Z",
+    "sha256": "f24d1381ab46e0cc7edce362bd65e23aa6f9d9d8f7d128035e995418017835e1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:NI": {
+    "key": "wikipedia:senate:2023:NI",
+    "title": "2023_Nigerian_Senate_elections_in_Niger_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Niger_State&oldid=1377708764",
+    "revision": "1377708764",
+    "retrieved_at": "2026-11-19T15:39:41Z",
+    "sha256": "b44700338ced6e00e1f4b6710cb7563928199f1e87b93a1ea5fbb0e5f12dcfca",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:OG": {
+    "key": "wikipedia:senate:2023:OG",
+    "title": "2023_Nigerian_Senate_elections_in_Ogun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Ogun_State&oldid=1379259303",
+    "revision": "1379259303",
+    "retrieved_at": "2026-11-19T15:39:42Z",
+    "sha256": "4d3748a791c9811becf6a08618abeba7ba7e874b737ca703b397a855a0416e21",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:ON": {
+    "key": "wikipedia:senate:2023:ON",
+    "title": "2023_Nigerian_Senate_elections_in_Ondo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Ondo_State&oldid=1344902453",
+    "revision": "1344902453",
+    "retrieved_at": "2026-11-19T15:39:43Z",
+    "sha256": "e964eb2cc28ae4e03f69aa2b5c3aae1b65a410aa7f30bd056b5c0c71504c8ece",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:OS": {
+    "key": "wikipedia:senate:2023:OS",
+    "title": "2023_Nigerian_Senate_elections_in_Osun_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Osun_State&oldid=1143181278",
+    "revision": "1143181278",
+    "retrieved_at": "2026-11-19T15:39:44Z",
+    "sha256": "60f0ca94c54aa23b96885bcf4af6c1497066e9dbdf566b2ce84f881b4d68ccaa",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:OY": {
+    "key": "wikipedia:senate:2023:OY",
+    "title": "2023_Nigerian_Senate_elections_in_Oyo_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Oyo_State&oldid=1345324571",
+    "revision": "1345324571",
+    "retrieved_at": "2026-11-19T15:39:44Z",
+    "sha256": "50553c074e6551e4df9f654e12c5a6f1b0555df21269fd897fbb5640f72a9e7a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:PL": {
+    "key": "wikipedia:senate:2023:PL",
+    "title": "2023_Nigerian_Senate_elections_in_Plateau_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Plateau_State&oldid=1344894909",
+    "revision": "1344894909",
+    "retrieved_at": "2026-11-19T15:39:45Z",
+    "sha256": "24587095926ba1c2e7b221c5557fa7f1ecdb70bfaac800e70ce85e48fa44343a",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:RI": {
+    "key": "wikipedia:senate:2023:RI",
+    "title": "2023_Nigerian_Senate_elections_in_Rivers_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Rivers_State&oldid=1143181392",
+    "revision": "1143181392",
+    "retrieved_at": "2026-11-19T15:39:45Z",
+    "sha256": "12ae8d4e8786bc24786bcc44c81472fa9b48de61fdaffe8b3966cbcd73a92407",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:SO": {
+    "key": "wikipedia:senate:2023:SO",
+    "title": "2023_Nigerian_Senate_elections_in_Sokoto_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Sokoto_State&oldid=1248840557",
+    "revision": "1248840557",
+    "retrieved_at": "2026-11-19T15:39:46Z",
+    "sha256": "c60573a8dfb690e8d17f0439b4711b20ce5d9c19361ec84dbcee8352424e819e",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:TA": {
+    "key": "wikipedia:senate:2023:TA",
+    "title": "2023_Nigerian_Senate_elections_in_Taraba_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Taraba_State&oldid=1303127173",
+    "revision": "1303127173",
+    "retrieved_at": "2026-11-19T15:39:51Z",
+    "sha256": "410b18a1982b2f12f677656b406b25d1b65079997af9c5acb9eb1ba2c8d2ed08",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:YO": {
+    "key": "wikipedia:senate:2023:YO",
+    "title": "2023_Nigerian_Senate_elections_in_Yobe_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Yobe_State&oldid=1175888581",
+    "revision": "1175888581",
+    "retrieved_at": "2026-11-19T15:39:52Z",
+    "sha256": "9a8e8fea69da37e8f85cd206a59838571372db93cafe5c42b09698c8bddd7f65",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
+  },
+  "wikipedia:senate:2023:ZA": {
+    "key": "wikipedia:senate:2023:ZA",
+    "title": "2023_Nigerian_Senate_elections_in_Zamfara_State",
+    "url": "https://en.wikipedia.org/w/index.php?title=2023_Nigerian_Senate_elections_in_Zamfara_State&oldid=1248840581",
+    "revision": "1248840581",
+    "retrieved_at": "2026-11-19T15:39:53Z",
+    "sha256": "67715160309d54dc0134c78e8886cdefbedbba33f03ed75c78efe8e55655cfc1",
+    "license": "CC BY-SA 4.0 (Wikipedia contributors); figures cite INEC"
   }
 }

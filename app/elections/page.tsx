@@ -24,7 +24,8 @@ export default async function ElectionsPage() {
       place: e.stateCode ? stateByCode(e.stateCode).name : 'Nationwide',
       totalVotes: totalVotes(t),
       tally: t.slice(0, 4).map((x) => ({ personId: x.personId, name: x.name, party: x.party, votes: x.votes, share: x.share })),
-      top: top ? { personId: top.personId, party: top.party, value: 'prob' in top ? top.prob : top.share } : undefined,
+      // Winner-only races (no vote figures for the others) have no meaningful share
+      top: top ? { personId: top.personId, party: top.party, value: 'prob' in top ? top.prob : e.coverage === 'winner only' ? NaN : top.share } : undefined,
     };
   }).sort((a, b) => (a.status === 'live' ? -1 : b.status === 'live' ? 1 : dateKey(b).localeCompare(dateKey(a))));
 

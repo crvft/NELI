@@ -17,6 +17,8 @@ export type MapState = {
   turnout: number;
   margin: number;
   candidates: MapCandidate[];
+  /** Official LGA results where on record: LGA id -> person -> votes */
+  lga?: Record<string, Record<string, number>>;
 };
 
 export type MapZone = { code: ZoneCode; name: string; total: number; lead?: MapCandidate; second?: MapCandidate; statesLed: Partial<Record<PartyCode, number>> };
@@ -27,6 +29,12 @@ export type MapPayload = {
   states: MapState[];
   zones: MapZone[];
 };
+
+function lgaFor(e: Election, code: string) {
+  if (!e.lga) return undefined;
+  const rows = Object.entries(e.lga).filter(([id]) => id.startsWith(`${code}-`));
+  return rows.length ? Object.fromEntries(rows) : undefined;
+}
 
 /** Serializable data for the national map (client component). */
 export function mapPayload(e: Election): MapPayload {
@@ -45,6 +53,7 @@ export function mapPayload(e: Election): MapPayload {
       turnout: s.turnout,
       margin: s.margin,
       candidates: s.tally.map((t) => ({ personId: t.personId, name: t.name, party: t.party, share: t.share, votes: t.votes })),
+      lga: lgaFor(e, a.code),
     };
   });
   const zones = zoneBreakdown(e).map(({ zone, tally }) => {

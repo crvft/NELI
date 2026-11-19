@@ -11,6 +11,7 @@ import { PARTIES, type PartyCode } from '@/lib/parties';
 import type { MapPayload, MapState } from '@/lib/map-data';
 import {
   lgaResults,
+  officialLgaResults,
   loadLgaShapes,
   type LgaResult,
   type LgaShapes,
@@ -144,7 +145,9 @@ export function NigeriaMap({
   const lgas = React.useMemo<LgaResult[] | null>(
     () =>
       focused && lgaShapesForFocus
-        ? lgaResults(focused, lgaShapesForFocus.lgas, data.electionId)
+        ? focused.lga
+          ? officialLgaResults(focused, lgaShapesForFocus.lgas)
+          : lgaResults(focused, lgaShapesForFocus.lgas, data.electionId)
         : null,
     [focused, lgaShapesForFocus, data.electionId],
   );
@@ -1101,7 +1104,9 @@ function StatePanel({
                 ))}
             </p>
             <p className='text-paragraph-xs text-text-soft-400 mt-1'>
-              Estimated from the state result. INEC LGA tables are not loaded yet.
+              {s.lga
+                ? 'Official results by LGA (INEC figures, as transcribed on Wikipedia).'
+                : 'Estimated from the state result: official LGA figures for this state are not on record.'}
             </p>
             <div className='mt-3 flex items-center justify-between gap-2'>
               <span className='text-paragraph-xs text-text-sub-600'>
@@ -1146,7 +1151,7 @@ function StatePanel({
               })}
             </ul>
             <p className='text-paragraph-xs text-text-sub-600 mt-2'>
-              Sample LGA figures, derived from the state result.
+              {s.lga ? 'Official results by LGA.' : 'Estimated LGA figures, derived from the state result.'}
             </p>
           </>
         )}

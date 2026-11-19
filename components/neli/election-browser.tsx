@@ -31,6 +31,8 @@ export type ElectionSummary = {
   top?: { personId: string; party: PartyCode; value: number };
 };
 
+const PAGE = 60;
+
 const TYPES: { value: ElectionType | 'all'; label: string }[] = [
   { value: 'all', label: 'All' },
   { value: 'presidential', label: 'Presidential' },
@@ -51,7 +53,12 @@ export function ElectionBrowser({ items }: { items: ElectionSummary[] }) {
       (type === 'all' || i.type === type) &&
       (!q || `${i.title} ${i.place} ${i.tally.map((t) => t.name).join(' ')}`.toLowerCase().includes(q.toLowerCase())),
   );
-  const years = Array.from(new Set(filtered.map((i) => i.year))).sort((a, b) => b - a);
+  // Render in pages of 60 so 1,700+ races stay fast; filters start a fresh page
+  const sig = `${status}|${type}|${q}`;
+  const [page, setPage] = React.useState({ sig, n: PAGE });
+  const limit = page.sig === sig ? page.n : PAGE;
+  const shown = filtered.slice(0, limit);
+  const years = Array.from(new Set(shown.map((i) => i.year))).sort((a, b) => b - a);
 
   return (
     <div className='flex flex-col gap-5'>
@@ -79,7 +86,7 @@ export function ElectionBrowser({ items }: { items: ElectionSummary[] }) {
         <section key={y} className='flex flex-col gap-3'>
           <h2 className='text-label-md text-text-strong-950'>{y}</h2>
           <FluidHover layer='over' radius={16} gapClick={16} className='grid grid-cols-1 gap-3 md:grid-cols-2'>
-            {filtered
+            {shown
               .filter((i) => i.year === y)
               .map((i) => (
                 <ElectionCard key={i.id} i={i} />
@@ -87,6 +94,15 @@ export function ElectionBrowser({ items }: { items: ElectionSummary[] }) {
           </FluidHover>
         </section>
       ))}
+      {filtered.length > limit && (
+        <button
+          type='button'
+          onClick={() => setPage({ sig, n: limit + PAGE })}
+          className='hit bg-surface-2 text-label-sm text-text-sub-600 shadow-surface-2 hover:bg-hover hover:text-text-strong-950 mx-auto inline-flex h-9 items-center rounded-10 px-4 transition-colors duration-[80ms]'
+        >
+          Show more ({filtered.length - limit} more)
+        </button>
+      )}
     </div>
   );
 }
@@ -127,7 +143,11 @@ function ElectionCard({ i }: { i: ElectionSummary }) {
                   {i.status === 'live' ? 'Leading' : 'Won'} · {i.tally[0].party}
                 </div>
               </div>
-              <span className='tabular text-label-md text-text-strong-950'>{(i.tally[0].share * 100).toFixed(1)}%</span>
+              {i.top && Number.isFinite(i.top.value) ? (
+                <span className='tabular text-label-md text-text-strong-950'>{(i.tally[0].share * 100).toFixed(1)}%</span>
+              ) : (
+                <span className='text-paragraph-xs text-text-sub-600'>Winner only</span>
+              )}
             </div>
           </div>
         )}

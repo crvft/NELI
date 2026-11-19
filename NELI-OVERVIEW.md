@@ -109,8 +109,9 @@ The full report is in `data/model/BACKTEST.md`.
 | Voter registers by state for 1999, 2015 and 2019 | Not yet found |
 | 149 governorship elections | Missing their voter register |
 | Abia 2007, Yobe 2015 and Bauchi 2019 governorship | No results table in any source found |
-| Senate, House of Reps and State Assembly results | Not loaded yet |
-| Local government results | Estimated, not real results |
+| House of Reps 1999–2011; most Senate vote counts | Winners are on record for every Senate seat 1999–2023 and most House seats 2015–2023; three-quarters of races have the winner only |
+| State Assembly results | Not loaded yet |
+| Local government results | Official for 26 elections (Lagos, Ekiti, Bayelsa 2023 presidential; 23 governorship). Estimated elsewhere |
 
 ---
 

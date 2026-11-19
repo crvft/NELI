@@ -1,0 +1,2047 @@
+election_id,candidate,party,lineage,votes,source
+sen-1999-ab-abia-north,Ike Nwachukwu,PDP,PDP,0,wikipedia:senate:1999:AB
+sen-1999-ab-abia-central,Bob Nwannunu,ANPP,APC,0,wikipedia:senate:1999:AB
+sen-1999-ab-abia-south,Adolphus Wabara,PDP,PDP,0,wikipedia:senate:1999:AB
+sen-1999-ad-adamawa-north,Abubakar Girei,PDP,PDP,0,wikipedia:senate:1999:AD
+sen-1999-ad-adamawa-central,Iya Abubakar,PDP,PDP,0,wikipedia:senate:1999:AD
+sen-1999-ad-adamawa-south,Jonathan Zwingina,PDP,PDP,0,wikipedia:senate:1999:AD
+sen-1999-ak-akwa-ibom-south,Udoma Udo Udoma,PDP,PDP,0,wikipedia:senate:1999:AK
+sen-1999-ak-akwa-ibom-north-east,John James Akpan Udo-Edehe,PDP,PDP,0,wikipedia:senate:1999:AK
+sen-1999-ak-akwa-ibom-north-west,Bob Ittak Ekarika,PDP,PDP,0,wikipedia:senate:1999:AK
+sen-1999-an-anambra-south,Nnamdi Eriobuna,PDP,PDP,0,wikipedia:senate:1999:AN
+sen-1999-an-anambra-north,Chuba Okadigbo,PDP,PDP,0,wikipedia:senate:1999:AN
+sen-1999-an-anambra-central,Michael Ajegbo,PDP,PDP,0,wikipedia:senate:1999:AN
+sen-1999-ba-bauchi-north,Bashir Mustapha,PDP,PDP,0,wikipedia:senate:1999:BA
+sen-1999-ba-bauchi-central,Idi Othman Guda,PDP,PDP,0,wikipedia:senate:1999:BA
+sen-1999-ba-bauchi-south,Salisu Matori,PDP,PDP,0,wikipedia:senate:1999:BA
+sen-1999-by-bayelsa-central,David Brigidi,PDP,PDP,0,wikipedia:senate:1999:BY
+sen-1999-by-bayelsa-east,Melford Okilo,PDP,PDP,0,wikipedia:senate:1999:BY
+sen-1999-by-bayelsa-west,Tupele-Ebi Diffa,AD,APC,0,wikipedia:senate:1999:BY
+sen-1999-be-benue-south,David Mark,PDP,PDP,0,wikipedia:senate:1999:BE
+sen-1999-be-benue-north-west,Joseph Waku,PDP,PDP,0,wikipedia:senate:1999:BE
+sen-1999-be-benue-north-east,Daniel Saror,PDP,PDP,0,wikipedia:senate:1999:BE
+sen-1999-bo-borno-north,Maina Maaji Lawan,PDP,PDP,0,wikipedia:senate:1999:BO
+sen-1999-bo-borno-south,Abubakar Mahdi,PDP,PDP,0,wikipedia:senate:1999:BO
+sen-1999-bo-borno-central,Ali Modu Sheriff,ANPP,APC,0,wikipedia:senate:1999:BO
+sen-1999-cr-cross-river-north,John James Akpan Udo-Edehe,PDP,PDP,0,wikipedia:senate:1999:CR
+sen-1999-cr-cross-river-central,Matthew Mbu,PDP,PDP,0,wikipedia:senate:1999:CR
+sen-1999-cr-cross-river-south,Florence Ita Giwa,ANPP,APC,0,wikipedia:senate:1999:CR
+sen-1999-de-delta-north,Patrick Osakwe,PDP,PDP,0,wikipedia:senate:1999:DE
+sen-1999-de-delta-central,Fred Aghogho Brume,PDP,PDP,0,wikipedia:senate:1999:DE
+sen-1999-de-delta-south,Stella Omu,PDP,PDP,0,wikipedia:senate:1999:DE
+sen-1999-eb-ebonyi-north,Sylvanus Ngele,PDP,PDP,0,wikipedia:senate:1999:EB
+sen-1999-eb-ebonyi-central,Obasi Osulor,PDP,PDP,0,wikipedia:senate:1999:EB
+sen-1999-eb-ebonyi-south,Anyim Pius Anyim,PDP,PDP,0,wikipedia:senate:1999:EB
+sen-1999-ed-edo-north,Victor Oyofo,PDP,PDP,0,wikipedia:senate:1999:ED
+sen-1999-ed-edo-central,Oserheimen Osunbor,PDP,PDP,0,wikipedia:senate:1999:ED
+sen-1999-ed-edo-south,Roland Owie,PDP,PDP,0,wikipedia:senate:1999:ED
+sen-1999-ek-ekiti-north,Joseph Olatunji Ajayi,AD,APC,0,wikipedia:senate:1999:EK
+sen-1999-ek-ekiti-central,Ayo Oni,AD,APC,0,wikipedia:senate:1999:EK
+sen-1999-ek-ekiti-south,Gbenga Aluko,PDP,PDP,0,wikipedia:senate:1999:EK
+sen-1999-en-enugu-north,Fidelis Okoro,PDP,PDP,0,wikipedia:senate:1999:EN
+sen-1999-en-enugu-east,Jim Nwobodo,AD,APC,0,wikipedia:senate:1999:EN
+sen-1999-en-enugu-west,Hyde Onuaguluchi,ANPP,APC,0,wikipedia:senate:1999:EN
+sen-1999-go-gombe-central,Saidu Kumo,PDP,PDP,0,wikipedia:senate:1999:GO
+sen-1999-go-gombe-south,Idris Abubakar,ANPP,APC,0,wikipedia:senate:1999:GO
+sen-1999-go-gombe-north,Umar Usman Dukku,ANPP,APC,0,wikipedia:senate:1999:GO
+sen-1999-im-imo-north,Ifeanyi Ararume,PDP,PDP,0,wikipedia:senate:1999:IM
+sen-1999-im-imo-east,Evan Enwerem,PDP,PDP,0,wikipedia:senate:1999:IM
+sen-1999-im-imo-west,Arthur Nzeribe,ANPP,APC,0,wikipedia:senate:1999:IM
+sen-1999-ji-jigawa-central,Bello Maitama Yusuf,ANPP,APC,0,wikipedia:senate:1999:JI
+sen-1999-ji-jigawa-east,Ibrahim Muhammed Kirikasama,ANPP,APC,0,wikipedia:senate:1999:JI
+sen-1999-ji-jigawa-north-west,Mohammed Alkali,PDP,PDP,0,wikipedia:senate:1999:JI
+sen-1999-kd-kaduna-north,Dalhatu Tafida,PDP,PDP,0,wikipedia:senate:1999:KD
+sen-1999-kd-kaduna-south,Haruna Aziz Zeego,PDP,PDP,0,wikipedia:senate:1999:KD
+sen-1999-kd-kaduna-central,Mohammed Aruwa,ANPP,APC,0,wikipedia:senate:1999:KD
+sen-1999-kn-kano-north,Bello Hayatu Gwarzo,PDP,PDP,0,wikipedia:senate:1999:KN
+sen-1999-kn-kano-central,Ibrahim Kura Mohammed,PDP,PDP,0,wikipedia:senate:1999:KN
+sen-1999-kn-kano-south,Masʽud El-Jibril,PDP,PDP,0,wikipedia:senate:1999:KN
+sen-1999-kt-katsina-north,Abdul Yandoma,PDP,PDP,0,wikipedia:senate:1999:KT
+sen-1999-kt-katsina-central,Samaʼila Mamman,PDP,PDP,0,wikipedia:senate:1999:KT
+sen-1999-kt-katsina-south,Mohammed Tukur Liman,PDP,PDP,0,wikipedia:senate:1999:KT
+sen-1999-ke-kebbi-north,Adamu Augie,ANPP,APC,0,wikipedia:senate:1999:KE
+sen-1999-ke-kebbi-north-2,Yahaya Abubakar Abdullahi,ANPP,APC,0,wikipedia:senate:1999:KE
+sen-1999-ke-kebbi-south,Danladi Bamaiyi,PDP,PDP,0,wikipedia:senate:1999:KE
+sen-1999-ko-kogi-west,Tunde Ogbeha,PDP,PDP,0,wikipedia:senate:1999:KO
+sen-1999-ko-kogi-central,Ahmed Tijani,PDP,PDP,0,wikipedia:senate:1999:KO
+sen-1999-ko-kogi-east,Alex Kadir,PDP,PDP,0,wikipedia:senate:1999:KO
+sen-1999-kw-kwara-south,Suleiman Ajadi,ANPP,APC,0,wikipedia:senate:1999:KW
+sen-1999-kw-kwara-central,Salman Is'haq,ANPP,APC,0,wikipedia:senate:1999:KW
+sen-1999-kw-kwara-north,Ahmed Zuruq,PDP,PDP,0,wikipedia:senate:1999:KW
+sen-1999-la-lagos-central,Wahab Dosunmu,AD,APC,0,wikipedia:senate:1999:LA
+sen-1999-la-lagos-west,Tokunbo Afikuyomi,AD,APC,0,wikipedia:senate:1999:LA
+sen-1999-la-lagos-east,Seye Ogunlewe,AD,APC,0,wikipedia:senate:1999:LA
+sen-1999-na-nasarawa-north,Patrick Aga,PDP,PDP,0,wikipedia:senate:1999:NA
+sen-1999-na-nasarawa-west,Abubakar Sodangi,PDP,PDP,0,wikipedia:senate:1999:NA
+sen-1999-na-nasarawa-south,Haruna Abubakar,PDP,PDP,0,wikipedia:senate:1999:NA
+sen-1999-ni-niger-east,Ibrahim Kuta,PDP,PDP,0,wikipedia:senate:1999:NI
+sen-1999-ni-niger-south,Isa Mohammed Bagudu,PDP,PDP,0,wikipedia:senate:1999:NI
+sen-1999-ni-niger-north,Nuhu Aliyu Labbo,PDP,PDP,0,wikipedia:senate:1999:NI
+sen-1999-og-ogun-west,Afolabi Olabimtan,AD,APC,0,wikipedia:senate:1999:OG
+sen-1999-og-ogun-central,Femi Okurounmu,AD,APC,0,wikipedia:senate:1999:OG
+sen-1999-og-ogun-east,Olabiyi Durojaiye,AD,APC,0,wikipedia:senate:1999:OG
+sen-1999-on-ondo-north,Lawrence Ayo,AD,APC,0,wikipedia:senate:1999:ON
+sen-1999-on-ondo-central,Gbenga Ogunniya,AD,APC,0,wikipedia:senate:1999:ON
+sen-1999-on-ondo-south,Omololu Meroyi,AD,APC,0,wikipedia:senate:1999:ON
+sen-1999-os-osun-east,Moji Akinfenwa,AD,APC,0,wikipedia:senate:1999:OS
+sen-1999-os-osun-west,Sunday Fajinmi,AD,APC,0,wikipedia:senate:1999:OS
+sen-1999-os-osun-central,Adebayo Salami,AD,APC,0,wikipedia:senate:1999:OS
+sen-1999-oy-oyo-north,Brimmo Yusuf,AD,APC,0,wikipedia:senate:1999:OY
+sen-1999-oy-oyo-central,Lekan Balogun,AD,APC,0,wikipedia:senate:1999:OY
+sen-1999-oy-oyo-south,Peter Olawuyi,AD,APC,0,wikipedia:senate:1999:OY
+sen-1999-pl-plateau-south,Silas Janfa,PDP,PDP,0,wikipedia:senate:1999:PL
+sen-1999-pl-plateau-central,Ibrahim Mantu,PDP,PDP,0,wikipedia:senate:1999:PL
+sen-1999-pl-plateau-north,Davou Zang,PDP,PDP,0,wikipedia:senate:1999:PL
+sen-1999-ri-rivers-west,Ibiapuye Martyns-Yellowe,PDP,PDP,0,wikipedia:senate:1999:RI
+sen-1999-ri-rivers-south-east,Adawari Pepple,PDP,PDP,0,wikipedia:senate:1999:RI
+sen-1999-ri-rivers-east,John Azuta-Mbata,PDP,PDP,0,wikipedia:senate:1999:RI
+sen-1999-so-sokoto-north,Aliyu Abubakar,ANPP,APC,0,wikipedia:senate:1999:SO
+sen-1999-so-sokoto-east,Bello Jibrin Gada,ANPP,APC,0,wikipedia:senate:1999:SO
+sen-1999-so-sokoto-south,Abdallah Wali,ANPP,APC,0,wikipedia:senate:1999:SO
+sen-1999-ta-taraba-central,Abdulazeez Ibrahim,PDP,PDP,0,wikipedia:senate:1999:TA
+sen-1999-ta-taraba-south,Dalhatu Umaru Sangari,PDP,PDP,0,wikipedia:senate:1999:TA
+sen-1999-ta-taraba-north,Abdulahi Bala Adamu,ANPP,APC,0,wikipedia:senate:1999:TA
+sen-1999-yo-yobe-south,Mamman Bello Ali,PDP,PDP,0,wikipedia:senate:1999:YO
+sen-1999-yo-yobe-north,Usman Albishir,PDP,PDP,0,wikipedia:senate:1999:YO
+sen-1999-yo-yobe-east,Goni Modu Bura,ANPP,APC,0,wikipedia:senate:1999:YO
+sen-1999-za-zamfara-north,Lawali Shuaibu,ANPP,APC,0,wikipedia:senate:1999:ZA
+sen-1999-za-zamfara-central,Saidu Dansadan,ANPP,APC,0,wikipedia:senate:1999:ZA
+sen-1999-za-zamfara-west,Yushau Anka,ANPP,APC,0,wikipedia:senate:1999:ZA
+sen-2003-ab-abia-north,Uche Chukwumerije,PDP,PDP,0,wikipedia:senate:2003:AB
+sen-2003-ab-abia-central,Chris Adighije,PDP,PDP,0,wikipedia:senate:2003:AB
+sen-2003-ab-abia-south,Adolphus Wabara,PDP,PDP,0,wikipedia:senate:2003:AB
+sen-2003-ad-adamawa-north,Iya Abubakar,PDP,PDP,0,wikipedia:senate:2003:AD
+sen-2003-ad-adamawa-central,Jibril Aminu,PDP,PDP,0,wikipedia:senate:2003:AD
+sen-2003-ad-adamawa-south,Jonathan Zwingina,PDP,PDP,0,wikipedia:senate:2003:AD
+sen-2003-ak-akwa-ibom-south,Udoma Udo Udoma,PDP,PDP,0,wikipedia:senate:2003:AK
+sen-2003-ak-akwa-ibom-north-east,Effiong Dickson Bob,PDP,PDP,0,wikipedia:senate:2003:AK
+sen-2003-ak-akwa-ibom-north-west,Bob Ittak Ekarika,PDP,PDP,0,wikipedia:senate:2003:AK
+sen-2003-an-anambra-south,Ugochukwu Uba,PDP,PDP,0,wikipedia:senate:2003:AN
+sen-2003-an-anambra-north,Emmanuel Anosike,PDP,PDP,0,wikipedia:senate:2003:AN
+sen-2003-an-anambra-central,Ikechukwu Abana,PDP,PDP,0,wikipedia:senate:2003:AN
+sen-2003-ba-bauchi-north,Baba Tela,PDP,PDP,0,wikipedia:senate:2003:BA
+sen-2003-ba-bauchi-central,Bala Adamu,PDP,PDP,0,wikipedia:senate:2003:BA
+sen-2003-ba-bauchi-south,Abubakar Maikafi,PDP,PDP,0,wikipedia:senate:2003:BA
+sen-2003-by-bayelsa-west,John Kojo Brambaifa,PDP,PDP,0,wikipedia:senate:2003:BY
+sen-2003-by-bayelsa-central,David Brigidi,PDP,PDP,0,wikipedia:senate:2003:BY
+sen-2003-by-bayelsa-east,Inatimi Rufus-Spiff,PDP,PDP,0,wikipedia:senate:2003:BY
+sen-2003-be-benue-south,David Mark,PDP,PDP,0,wikipedia:senate:2003:BE
+sen-2003-be-benue-north-west,Joshua Adagba,PDP,PDP,0,wikipedia:senate:2003:BE
+sen-2003-be-benue-north-east,Daniel Saror,ANPP,APC,0,wikipedia:senate:2003:BE
+sen-2003-bo-borno-north,Mohammed Daggash,ANPP,APC,0,wikipedia:senate:2003:BO
+sen-2003-bo-borno-central,Mohammed Abba Aji,ANPP,APC,0,wikipedia:senate:2003:BO
+sen-2003-bo-borno-south,Omar Hambagda,PDP,PDP,0,wikipedia:senate:2003:BO
+sen-2003-cr-cross-river-north,Gregory Ngaji,PDP,PDP,0,wikipedia:senate:2003:CR
+sen-2003-cr-cross-river-central,Victor Ndoma-Egba,PDP,PDP,0,wikipedia:senate:2003:CR
+sen-2003-cr-cross-river-south,Bassey Ewa-Henshaw,PDP,PDP,0,wikipedia:senate:2003:CR
+sen-2003-de-delta-north,Patrick Osakwe,PDP,PDP,0,wikipedia:senate:2003:DE
+sen-2003-de-delta-central,Felix Ibru,PDP,PDP,0,wikipedia:senate:2003:DE
+sen-2003-de-delta-south,James Manager,PDP,PDP,0,wikipedia:senate:2003:DE
+sen-2003-eb-ebonyi-north,Christopher Nshi,PDP,PDP,0,wikipedia:senate:2003:EB
+sen-2003-eb-ebonyi-central,Julius Ucha,PDP,PDP,0,wikipedia:senate:2003:EB
+sen-2003-eb-ebonyi-south,Emmanuel Azu Agboti,PDP,PDP,0,wikipedia:senate:2003:EB
+sen-2003-ed-edo-north,Victor Oyofo,PDP,PDP,0,wikipedia:senate:2003:ED
+sen-2003-ed-edo-central,Oserheimen Osunbor,PDP,PDP,0,wikipedia:senate:2003:ED
+sen-2003-ed-edo-south,Daisy Danjuma,PDP,PDP,0,wikipedia:senate:2003:ED
+sen-2003-ek-ekiti-central,Clement Awoyelu,PDP,PDP,0,wikipedia:senate:2003:EK
+sen-2003-ek-ekiti-south,Bode Olowoporoku,PDP,PDP,0,wikipedia:senate:2003:EK
+sen-2003-ek-ekiti-north,James Kolawole,AD,APC,0,wikipedia:senate:2003:EK
+sen-2003-en-enugu-east,Ken Nnamani,PDP,PDP,0,wikipedia:senate:2003:EN
+sen-2003-en-enugu-west,Ike Ekweremadu,PDP,PDP,0,wikipedia:senate:2003:EN
+sen-2003-en-enugu-north,Fidelis Okoro,PDP,PDP,0,wikipedia:senate:2003:EN
+sen-2003-go-gombe-central,Abubakar Mohammed,PDP,PDP,0,wikipedia:senate:2003:GO
+sen-2003-go-gombe-south,Tawar Umbi Wada,PDP,PDP,0,wikipedia:senate:2003:GO
+sen-2003-go-gombe-north,Haruna Garba,ANPP,APC,0,wikipedia:senate:2003:GO
+sen-2003-im-imo-east,Amah Iwuagwu,PDP,PDP,0,wikipedia:senate:2003:IM
+sen-2003-im-imo-north,Ifeanyi Ararume,PDP,PDP,0,wikipedia:senate:2003:IM
+sen-2003-im-imo-west,Arthur Nzeribe,PDP,PDP,0,wikipedia:senate:2003:IM
+sen-2003-ji-jigawa-south-west,Bello Maitama Yusuf,ANPP,APC,0,wikipedia:senate:2003:JI
+sen-2003-ji-jigawa-north-east,Ibrahim Muhammed Kirikasama,ANPP,APC,0,wikipedia:senate:2003:JI
+sen-2003-ji-jigawa-north-west,Dalha Ahmed Dan-Zalo,ANPP,APC,0,wikipedia:senate:2003:JI
+sen-2003-kd-kaduna-north,Dalhatu Tafida,PDP,PDP,0,wikipedia:senate:2003:KD
+sen-2003-kd-kaduna-south,Isaiah Balat,PDP,PDP,0,wikipedia:senate:2003:KD
+sen-2003-kd-kaduna-central,Mohammed Aruwa,ANPP,APC,0,wikipedia:senate:2003:KD
+sen-2003-kn-kano-north,Bello Hayatu Gwarzo,ANPP,APC,0,wikipedia:senate:2003:KN
+sen-2003-kn-kano-south,Usman Umar Kibiya,ANPP,APC,0,wikipedia:senate:2003:KN
+sen-2003-kn-kano-central,Rufai Sani Hanga,PDP,PDP,0,wikipedia:senate:2003:KN
+sen-2003-kt-katsina-north,Mahmud Kanti Bello,ANPP,APC,0,wikipedia:senate:2003:KT
+sen-2003-kt-katsina-south,Abu Ibrahim,ANPP,APC,0,wikipedia:senate:2003:KT
+sen-2003-kt-katsina-central,Umar Ibrahim Tsauri,PDP,PDP,0,wikipedia:senate:2003:KT
+sen-2003-ke-kebbi-north,Sani Kamba,ANPP,APC,0,wikipedia:senate:2003:KE
+sen-2003-ke-kebbi-central,Farouk Bello Bunza,ANPP,APC,0,wikipedia:senate:2003:KE
+sen-2003-ke-kebbi-south,Usman Sanni Sami,ANPP,APC,0,wikipedia:senate:2003:KE
+sen-2003-ko-kogi-west,Tunde Ogbeha,PDP,PDP,0,wikipedia:senate:2003:KO
+sen-2003-ko-kogi-central,Mohammed Ohiare,PDP,PDP,0,wikipedia:senate:2003:KO
+sen-2003-ko-kogi-east,Nicholas Ugbane,PDP,PDP,0,wikipedia:senate:2003:KO
+sen-2003-kw-kwara-north,Ahmed Mohammed Inuwa,PDP,PDP,0,wikipedia:senate:2003:KW
+sen-2003-kw-kwara-central,Gbemisola Ruqayyah Saraki,PDP,PDP,0,wikipedia:senate:2003:KW
+sen-2003-kw-kwara-south,Suleiman Ajadi,ANPP,APC,0,wikipedia:senate:2003:KW
+sen-2003-la-lagos-central,Musiliu Obanikoro,AD,APC,0,wikipedia:senate:2003:LA
+sen-2003-la-lagos-west,Tokunbo Afikuyomi,AD,APC,0,wikipedia:senate:2003:LA
+sen-2003-la-lagos-east,Adeleke Mamora,AD,APC,0,wikipedia:senate:2003:LA
+sen-2003-na-nasarawa-north,John Danboyi,PDP,PDP,0,wikipedia:senate:2003:NA
+sen-2003-na-nasarawa-west,Abubakar Sodangi,PDP,PDP,0,wikipedia:senate:2003:NA
+sen-2003-na-nasarawa-south,Emmanuel Okpede,PDP,PDP,0,wikipedia:senate:2003:NA
+sen-2003-ni-niger-east,Ibrahim Kuta,PDP,PDP,0,wikipedia:senate:2003:NI
+sen-2003-ni-niger-south,Isa Mohammed Bagudu,PDP,PDP,0,wikipedia:senate:2003:NI
+sen-2003-ni-niger-north,Nuhu Aliyu Labbo,PDP,PDP,0,wikipedia:senate:2003:NI
+sen-2003-og-ogun-central,Ibikunle Amosun,PDP,PDP,0,wikipedia:senate:2003:OG
+sen-2003-og-ogun-east,Olatokunbo Ogunbanjo,PDP,PDP,0,wikipedia:senate:2003:OG
+sen-2003-og-ogun-west,Iyabo Anisulowo,PDP,PDP,0,wikipedia:senate:2003:OG
+sen-2003-on-ondo-central,Gbenga Ogunniya,PDP,PDP,0,wikipedia:senate:2003:ON
+sen-2003-on-ondo-south,Hosea Ehinlanwo,PDP,PDP,0,wikipedia:senate:2003:ON
+sen-2003-on-ondo-north,Titus Olupitan,AD,APC,0,wikipedia:senate:2003:ON
+sen-2003-os-osun-central,Felix Kola Ogunwale,PDP,PDP,0,wikipedia:senate:2003:OS
+sen-2003-os-osun-west,Akinlabi Olasunkanmi,PDP,PDP,0,wikipedia:senate:2003:OS
+sen-2003-os-osun-east,Iyiola Omisore,PDP,PDP,0,wikipedia:senate:2003:OS
+sen-2003-oy-oyo-central,Teslim Folarin,PDP,PDP,0,wikipedia:senate:2003:OY
+sen-2003-oy-oyo-north,Robert Koleoso,PDP,PDP,0,wikipedia:senate:2003:OY
+sen-2003-oy-oyo-south,Abiola Ajimobi,AD,APC,0,wikipedia:senate:2003:OY
+sen-2003-pl-plateau-south,Cosmas Niagwan,PDP,PDP,0,wikipedia:senate:2003:PL
+sen-2003-pl-plateau-central,Ibrahim Mantu,PDP,PDP,0,wikipedia:senate:2003:PL
+sen-2003-pl-plateau-north,Timothy Adudu,ANPP,APC,0,wikipedia:senate:2003:PL
+sen-2003-ri-rivers-west,Ibiapuye Martyns-Yellowe,PDP,PDP,0,wikipedia:senate:2003:RI
+sen-2003-ri-rivers-south-east,Lee Maeba,PDP,PDP,0,wikipedia:senate:2003:RI
+sen-2003-ri-rivers-east,John Azuta-Mbata,PDP,PDP,0,wikipedia:senate:2003:RI
+sen-2003-so-sokoto-north,Badamasi Maccido,ANPP,APC,0,wikipedia:senate:2003:SO
+sen-2003-so-sokoto-east,Sule Yari Gandi,ANPP,APC,0,wikipedia:senate:2003:SO
+sen-2003-so-sokoto-south,Umaru Dahiru,ANPP,APC,0,wikipedia:senate:2003:SO
+sen-2003-ta-taraba-north,Ambuno Zik Sunday,PDP,PDP,0,wikipedia:senate:2003:TA
+sen-2003-ta-taraba-central,Abdulazeez Ibrahim,PDP,PDP,0,wikipedia:senate:2003:TA
+sen-2003-ta-taraba-south,Danboyi Usman,PDP,PDP,0,wikipedia:senate:2003:TA
+sen-2003-yo-yobe-north,Usman Albishir,ANPP,APC,0,wikipedia:senate:2003:YO
+sen-2003-yo-yobe-south,Mamman Bello Ali,ANPP,APC,0,wikipedia:senate:2003:YO
+sen-2003-yo-yobe-east,Usman Adamu,ANPP,APC,0,wikipedia:senate:2003:YO
+sen-2003-za-zamfara-north,Lawali Shuaibu,ANPP,APC,0,wikipedia:senate:2003:ZA
+sen-2003-za-zamfara-central,Saidu Dansadan,ANPP,APC,0,wikipedia:senate:2003:ZA
+sen-2003-za-zamfara-west,Yushau Anka,ANPP,APC,0,wikipedia:senate:2003:ZA
+sen-2007-ab-abia-central,Nkechi Nwaogu,PDP,PDP,0,wikipedia:senate:2007:AB
+sen-2007-ab-abia-south,Eyinnaya Abaribe,PDP,PDP,0,wikipedia:senate:2007:AB
+sen-2007-ab-abia-north,Uche Chukwumerije,PPA,OTHER,0,wikipedia:senate:2007:AB
+sen-2007-ad-adamawa-central,Jibril Aminu,ANPP,APC,0,wikipedia:senate:2007:AD
+sen-2007-ad-adamawa-south,Grace Folashade Bent,PDP,PDP,0,wikipedia:senate:2007:AD
+sen-2007-ad-adamawa-north,Mohammed Mana,AC,APC,0,wikipedia:senate:2007:AD
+sen-2007-ak-akwa-ibom-north-east,Effiong Dickson Bob,PDP,PDP,0,wikipedia:senate:2007:AK
+sen-2007-ak-akwa-ibom-south,Erne Ufot Ekaette,PDP,PDP,0,wikipedia:senate:2007:AK
+sen-2007-ak-akwa-ibom-north-west,Aloysious Akan Etok,PDP,PDP,0,wikipedia:senate:2007:AK
+sen-2007-an-anambra-central,Annie Okonkwo,PDP,PDP,0,wikipedia:senate:2007:AN
+sen-2007-an-adamawa-south,Joy Emodi,PDP,PDP,0,wikipedia:senate:2007:AN
+sen-2007-an-adamawa-north,Ikechukwu Obiorah,PDP,PDP,0,wikipedia:senate:2007:AN
+sen-2007-ba-bauchi-central,Mohammed A. Muhammed,ANPP,APC,0,wikipedia:senate:2007:BA
+sen-2007-ba-bauchi-south,Bala Mohammed,ANPP,APC,0,wikipedia:senate:2007:BA
+sen-2007-ba-bauchi-north,Sulaiman Mohammed Nazif,AC,APC,0,wikipedia:senate:2007:BA
+sen-2007-by-bayelsa-west,Heineken Lokpobiri,PDP,PDP,0,wikipedia:senate:2007:BY
+sen-2007-by-bayelsa-central,Emmanuel Paulker,PDP,PDP,0,wikipedia:senate:2007:BY
+sen-2007-by-bayelsa-east,Nimi Barigha-Amange,PDP,PDP,0,wikipedia:senate:2007:BY
+sen-2007-be-benue-south,David Mark,PDP,PDP,0,wikipedia:senate:2007:BE
+sen-2007-be-benue-north-west,George Akume,PDP,PDP,0,wikipedia:senate:2007:BE
+sen-2007-be-benue-north-east,Joseph Akaagerger,PDP,PDP,0,wikipedia:senate:2007:BE
+sen-2007-bo-borno-south,Omar Hambagda,ANPP,APC,0,wikipedia:senate:2007:BO
+sen-2007-bo-borno-north,Maina Maaji Lawan,ANPP,APC,0,wikipedia:senate:2007:BO
+sen-2007-bo-borno-central,Kaka Mallam Yale,ANPP,APC,0,wikipedia:senate:2007:BO
+sen-2007-cr-taraba-central,Victor Ndoma-Egba,PDP,PDP,0,wikipedia:senate:2007:CR
+sen-2007-cr-cross-river-south,Bassey Ewa-Henshaw,PDP,PDP,0,wikipedia:senate:2007:CR
+sen-2007-cr-cross-river-north,Gregory Ngaji,PDP,PDP,0,wikipedia:senate:2007:CR
+sen-2007-de-delta-south,James Manager,PDP,PDP,0,wikipedia:senate:2007:DE
+sen-2007-de-delta-central,Adego Erhiawarie Eferakeya,PDP,PDP,0,wikipedia:senate:2007:DE
+sen-2007-de-delta-north,Patrick Osakwe,A,OTHER,0,wikipedia:senate:2007:DE
+sen-2007-eb-ebonyi-central,Julius Ucha,PDP,PDP,0,wikipedia:senate:2007:EB
+sen-2007-eb-ebonyi-south,Anyimchukwu Ude,PDP,PDP,0,wikipedia:senate:2007:EB
+sen-2007-eb-ebonyi-north,Anthony Agbo,PDP,PDP,0,wikipedia:senate:2007:EB
+sen-2007-ed-edo-central,Odion Ugbesia,PDP,PDP,0,wikipedia:senate:2007:ED
+sen-2007-ed-edo-north,Yisa Braimoh,PDP,PDP,0,wikipedia:senate:2007:ED
+sen-2007-ed-edo-south,Ehigie Edobor Uzamere,PDP,PDP,0,wikipedia:senate:2007:ED
+sen-2007-ek-ekiti-north,Sylvester Ayodele Arise,PDP,PDP,0,wikipedia:senate:2007:EK
+sen-2007-ek-ekiti-central,Adefemi Kila,PDP,PDP,0,wikipedia:senate:2007:EK
+sen-2007-ek-ekiti-south,Sola Akinyede,PDP,PDP,0,wikipedia:senate:2007:EK
+sen-2007-en-enugu-east,Chimaroke Nnamani,PDP,PDP,0,wikipedia:senate:2007:EN
+sen-2007-en-enugu-north,Ayogu Eze,PDP,PDP,0,wikipedia:senate:2007:EN
+sen-2007-en-enugu-west,Ike Ekweremadu,PDP,PDP,0,wikipedia:senate:2007:EN
+sen-2007-go-gombe-north,Kawu Peto Dukku,PDP,PDP,0,wikipedia:senate:2007:GO
+sen-2007-go-gombe-south,Tawar Umbi Wada,PDP,PDP,0,wikipedia:senate:2007:GO
+sen-2007-go-gombe-central,Audu Idris Umar,PDP,PDP,0,wikipedia:senate:2007:GO
+sen-2007-im-imo-east,Chris Anyanwu,PDP,PDP,0,wikipedia:senate:2007:IM
+sen-2007-im-imo-west,Osita Izunaso,PDP,PDP,0,wikipedia:senate:2007:IM
+sen-2007-im-imo-north,Sylvester Anyanwu,PDP,PDP,0,wikipedia:senate:2007:IM
+sen-2007-ji-jigawa-north-east,Abdulaziz Usman,PDP,PDP,0,wikipedia:senate:2007:JI
+sen-2007-ji-jigawa-north-west,Ibrahim Saminu Turaki,PDP,PDP,0,wikipedia:senate:2007:JI
+sen-2007-ji-jigawa-south-west,Mujitaba Mohammed Mallam,PDP,PDP,0,wikipedia:senate:2007:JI
+sen-2007-kd-kaduna-central,Mohammed Kabir Jibril,PDP,PDP,0,wikipedia:senate:2007:KD
+sen-2007-kd-kaduna-south,Caleb Zagi,PDP,PDP,0,wikipedia:senate:2007:KD
+sen-2007-kd-kaduna-north,Ahmed Makarfi,PDP,PDP,0,wikipedia:senate:2007:KD
+sen-2007-kn-kano-north,Aminu Sule Garo,ANPP,APC,0,wikipedia:senate:2007:KN
+sen-2007-kn-kano-south,Kabiru Ibrahim Gaya,ANPP,APC,0,wikipedia:senate:2007:KN
+sen-2007-kn-kano-central,Mohammed Adamu Bello,ANPP,APC,0,wikipedia:senate:2007:KN
+sen-2007-kt-katsina-central,Ibrahim M. Ida,PDP,PDP,0,wikipedia:senate:2007:KT
+sen-2007-kt-katsina-north,Mahmud Kanti Bello,PDP,PDP,0,wikipedia:senate:2007:KT
+sen-2007-kt-katsina-south,Garba Yakubu Lado,PDP,PDP,0,wikipedia:senate:2007:KT
+sen-2007-ke-kebbi-central,Adamu Aliero,PDP,PDP,0,wikipedia:senate:2007:KE
+sen-2007-ke-kebbi-south,Abubakar Tanko Ayuba,PDP,PDP,0,wikipedia:senate:2007:KE
+sen-2007-ke-kebbi-north,Umaru Argungu,PDP,PDP,0,wikipedia:senate:2007:KE
+sen-2007-ko-kogi-east,Nicholas Ugbane,PDP,PDP,0,wikipedia:senate:2007:KO
+sen-2007-ko-kogi-west,Smart Adeyemi,PDP,PDP,0,wikipedia:senate:2007:KO
+sen-2007-ko-kogi-central,Otaru Salihu Ohize,AC,APC,0,wikipedia:senate:2007:KO
+sen-2007-kw-kwara-south,Simon Ajibola,PDP,PDP,0,wikipedia:senate:2007:KW
+sen-2007-kw-kwara-central,Gbemisola Ruqayyah Saraki,PDP,PDP,0,wikipedia:senate:2007:KW
+sen-2007-kw-kwara-north,Ahmed Mohammed Inuwa,PDP,PDP,0,wikipedia:senate:2007:KW
+sen-2007-la-lagos-central,Munirudeen Adekunle Muse,AC,APC,0,wikipedia:senate:2007:LA
+sen-2007-la-lagos-east,Adeleke Mamora,AC,APC,0,wikipedia:senate:2007:LA
+sen-2007-la-lagos-west,Ganiyu Solomon,AC,APC,0,wikipedia:senate:2007:LA
+sen-2007-na-nasarawa-south,Suleiman Adokwe,PDP,PDP,0,wikipedia:senate:2007:NA
+sen-2007-na-nasarawa-west,Abubakar Sodangi,PDP,PDP,0,wikipedia:senate:2007:NA
+sen-2007-na-nasarawa-north,Patricia Akwashiki,ANPP,APC,0,wikipedia:senate:2007:NA
+sen-2007-ni-niger-east,Dahiru Awaisu Kuta,PDP,PDP,0,wikipedia:senate:2007:NI
+sen-2007-ni-niger-south,Zainab Abdulkadir Kure,PDP,PDP,0,wikipedia:senate:2007:NI
+sen-2007-ni-niger-north,Nuhu Aliyu Labbo,PDP,PDP,0,wikipedia:senate:2007:NI
+sen-2007-og-ogun-central,Iyabo Obasanjo,PDP,PDP,0,wikipedia:senate:2007:OG
+sen-2007-og-ogun-east,Ramoni Mustapha,PDP,PDP,0,wikipedia:senate:2007:OG
+sen-2007-og-ogun-west,Felix Bajomo,AC,APC,0,wikipedia:senate:2007:OG
+sen-2007-on-ondo-central,Gbenga Ogunniya,PDP,PDP,0,wikipedia:senate:2007:ON
+sen-2007-on-ondo-north,Bode Olajumoke,PDP,PDP,0,wikipedia:senate:2007:ON
+sen-2007-on-ondo-south,Hosea Ehinlanwo,PDP,PDP,0,wikipedia:senate:2007:ON
+sen-2007-os-osun-central,Simeon Oduoye,PDP,PDP,0,wikipedia:senate:2007:OS
+sen-2007-os-osun-west,Isiaka Adetunji Adeleke,PDP,PDP,0,wikipedia:senate:2007:OS
+sen-2007-os-osun-east,Iyiola Omisore,PDP,PDP,0,wikipedia:senate:2007:OS
+sen-2007-oy-oyo-central,Teslim Kolawole Folarin,PDP,PDP,0,wikipedia:senate:2007:OY
+sen-2007-oy-oyo-south,Kamorudeen Adedibu,PDP,PDP,0,wikipedia:senate:2007:OY
+sen-2007-oy-oyo-north,Andrew Abidemi Babalola,PDP,PDP,0,wikipedia:senate:2007:OY
+sen-2007-pl-plateau-central,Satty Davies Gogwim,PDP,PDP,0,wikipedia:senate:2007:PL
+sen-2007-pl-taraba-south,John Nanzip Shagaya,PDP,PDP,0,wikipedia:senate:2007:PL
+sen-2007-pl-taraba-north,Gyang Dalyop Datong,PDP,PDP,0,wikipedia:senate:2007:PL
+sen-2007-ri-rivers-east,George Thompson Sekibo,PDP,PDP,0,wikipedia:senate:2007:RI
+sen-2007-ri-rivers-west,Wilson Asinobi Ake,PDP,PDP,0,wikipedia:senate:2007:RI
+sen-2007-ri-rivers-south-east,Lee Maeba,PDP,PDP,0,wikipedia:senate:2007:RI
+sen-2007-so-sokoto-south,Umaru Dahiru,PDP,PDP,0,wikipedia:senate:2007:SO
+sen-2007-so-sokoto-north,Ahmed Muhammad Maccido,PDP,PDP,0,wikipedia:senate:2007:SO
+sen-2007-so-sokoto-east,Abubakar Umar Gada,PDP,PDP,0,wikipedia:senate:2007:SO
+sen-2007-ta-taraba-central,Dahiru Bako,PDP,PDP,0,wikipedia:senate:2007:TA
+sen-2007-ta-taraba-south,Joel Danlami Ikenya,PDP,PDP,0,wikipedia:senate:2007:TA
+sen-2007-ta-taraba-north,Anthony George Manzo,PDP,PDP,0,wikipedia:senate:2007:TA
+sen-2007-yo-yobe-north,Ahmad Lawan,ANPP,APC,0,wikipedia:senate:2007:YO
+sen-2007-yo-yobe-east,Bukar Ibrahim,ANPP,APC,0,wikipedia:senate:2007:YO
+sen-2007-yo-yobe-south,Adamu Garba Talba,PDP,PDP,0,wikipedia:senate:2007:YO
+sen-2007-za-zamfara-central,Hassan Muhammed Gusau,ANPP,APC,0,wikipedia:senate:2007:ZA
+sen-2007-za-zamfara-west,Ahmad Sani Yerima,ANPP,APC,0,wikipedia:senate:2007:ZA
+sen-2007-za-zamfara-north,Sahabi Alhaji Yaú,ANPP,APC,0,wikipedia:senate:2007:ZA
+sen-2011-ab-abia-central,Nwaogu Nkechi Justina,PDP,PDP,0,wikipedia:senate:2011:AB
+sen-2011-ab-abia-south,Enyinnaya Abaribe,PDP,PDP,0,wikipedia:senate:2011:AB
+sen-2011-ab-abia-north,Chukwumerije Uche,PDP,PDP,0,wikipedia:senate:2011:AB
+sen-2011-ad-adamawa-north,Bindo Jibrilla,PDP,PDP,0,wikipedia:senate:2011:AD
+sen-2011-ad-adamawa-south,Ahmed Hassan Barata,PDP,PDP,0,wikipedia:senate:2011:AD
+sen-2011-ad-adamawa-central,Bello Muhammed Tukur,PDP,PDP,0,wikipedia:senate:2011:AD
+sen-2011-ak-akwa-ibom-north-east,Ita Enang,PDP,PDP,0,wikipedia:senate:2011:AK
+sen-2011-ak-akwa-ibom-north-west,Aloysius Akan Etok,PDP,PDP,0,wikipedia:senate:2011:AK
+sen-2011-ak-akwa-ibom-north-south,Helen Esuene,PDP,PDP,0,wikipedia:senate:2011:AK
+sen-2011-an-anambra-central,Chris Ngige,ACN,APC,0,wikipedia:senate:2011:AN
+sen-2011-an-anambra-south,Andy Ubah,PDP,PDP,0,wikipedia:senate:2011:AN
+sen-2011-an-anambra-north,John Emeka Okey,PDP,PDP,0,wikipedia:senate:2011:AN
+sen-2011-ba-bauchi-central,Abdul Ahmed Ningi,PDP,PDP,0,wikipedia:senate:2011:BA
+sen-2011-ba-bauchi-south,Adamu Ibrahim Gumba,PDP,PDP,0,wikipedia:senate:2011:BA
+sen-2011-ba-bauchi-north,Babayo Garba Gamawa,PDP,PDP,0,wikipedia:senate:2011:BA
+sen-2011-by-bayelsa-east,Clever Ikisikpo,PDP,PDP,0,wikipedia:senate:2011:BY
+sen-2011-by-bayelsa-central,Emmanuel Paulker,PDP,PDP,0,wikipedia:senate:2011:BY
+sen-2011-by-bayelsa-west,Heineken Lokpobiri,PDP,PDP,0,wikipedia:senate:2011:BY
+sen-2011-be-benue-north-east,Barnabas Andyar Gemade,PDP,PDP,0,wikipedia:senate:2011:BE
+sen-2011-be-benue-south,David Mark,PDP,PDP,0,wikipedia:senate:2011:BE
+sen-2011-be-benue-north-west,George Akume,ACN,APC,0,wikipedia:senate:2011:BE
+sen-2011-bo-borno-central,Ahmed Zanna,PDP,PDP,0,wikipedia:senate:2011:BO
+sen-2011-bo-borno-south,Mohammed Ali Ndume,PDP,PDP,0,wikipedia:senate:2011:BO
+sen-2011-bo-borno-north,Maina Maaji Lawan,ANPP,APC,0,wikipedia:senate:2011:BO
+sen-2011-cr-cross-river-north,Benedict Ayade,PDP,PDP,0,wikipedia:senate:2011:CR
+sen-2011-cr-cross-river-central,Victor Ndoma-Egba,PDP,PDP,0,wikipedia:senate:2011:CR
+sen-2011-cr-cross-river-south,Bassey Otu,PDP,PDP,0,wikipedia:senate:2011:CR
+sen-2011-de-delta-north,Ifeanyi Okowa,PDP,PDP,0,wikipedia:senate:2011:DE
+sen-2011-de-delta-south,James Manager,PDP,PDP,0,wikipedia:senate:2011:DE
+sen-2011-de-delta-central,Akpor Pius Ewherido,DPP,OTHER,0,wikipedia:senate:2011:DE
+sen-2011-eb-ebonyi-north,Chris Chukwuma Nwankwo,PDP,PDP,0,wikipedia:senate:2011:EB
+sen-2011-eb-ebonyi-central,Paulinus Igwe Nwagu,PDP,PDP,0,wikipedia:senate:2011:EB
+sen-2011-eb-ebonyi-south,Sonni Ogbuoji,PDP,PDP,0,wikipedia:senate:2011:EB
+sen-2011-ed-edo-north,Domingo Alaba Obende,ACN,APC,0,wikipedia:senate:2011:ED
+sen-2011-ed-edo-south,Ehigie Edobor Uzamere,ACN,APC,0,wikipedia:senate:2011:ED
+sen-2011-ed-edo-central,Odion Ugbesia,PDP,PDP,0,wikipedia:senate:2011:ED
+sen-2011-ek-ekiti-central,Babafemi Ojudu,ACN,APC,0,wikipedia:senate:2011:EK
+sen-2011-ek-ekiti-north,Olubunmi Ayodeji Adetunmbi,ACN,APC,0,wikipedia:senate:2011:EK
+sen-2011-ek-ekiti-south,Anthony Adeniyi,ACN,APC,0,wikipedia:senate:2011:EK
+sen-2011-en-enugu-east,Gilbert Nnaji,PDP,PDP,0,wikipedia:senate:2011:EN
+sen-2011-en-enugu-west,Ike Ekweremadu,PDP,PDP,0,wikipedia:senate:2011:EN
+sen-2011-en-enough-north,Ayogu Eze,PDP,PDP,0,wikipedia:senate:2011:EN
+sen-2011-go-gombe-central,Mohammed Danjuma Goje,PDP,PDP,0,wikipedia:senate:2011:GO
+sen-2011-go-gombe-south,Joshua Zidani,PDP,PDP,0,wikipedia:senate:2011:GO
+sen-2011-go-gombe-north,Sa'idu Ahmed Alkali,PDP,PDP,0,wikipedia:senate:2011:GO
+sen-2011-im-imo-west,Hope Uzodinma,PDP,PDP,0,wikipedia:senate:2011:IM
+sen-2011-im-imo-north,Matthew Ifeanyi Nwagwu,PDP,PDP,0,wikipedia:senate:2011:IM
+sen-2011-im-imo-east,Christiana Anyanwu,APGA,APGA,0,wikipedia:senate:2011:IM
+sen-2011-ji-jigawa-south-west,Abdulmumini M. Hassan,PDP,PDP,0,wikipedia:senate:2011:JI
+sen-2011-ji-jigawa-north-east,Abdulaziz Usman,PDP,PDP,0,wikipedia:senate:2011:JI
+sen-2011-ji-jigawa-north-west,Danladi Abdullahi Sankara,PDP,PDP,0,wikipedia:senate:2011:JI
+sen-2011-kd-kaduna-north,Yusuf Datti Baba-Ahmed,CPC,APC,0,wikipedia:senate:2011:KD
+sen-2011-kd-kaduna-central,Mohammed Saleh,CPC,APC,0,wikipedia:senate:2011:KD
+sen-2011-kd-kaduna-south,Nenadi Usman,PDP,PDP,0,wikipedia:senate:2011:KD
+sen-2011-kn-kano-central,Basheer Garba Mohammed,PDP,PDP,0,wikipedia:senate:2011:KN
+sen-2011-kn-kano-north,Bello Hayatu Gwarzo,PDP,PDP,0,wikipedia:senate:2011:KN
+sen-2011-kn-kano-south,Kabiru Ibrahim Gaya,ANPP,APC,0,wikipedia:senate:2011:KN
+sen-2011-kt-katsina-north,Abdul Yandoma,CPC,APC,0,wikipedia:senate:2011:KT
+sen-2011-kt-katsina-south,Abu Ibrahim,CPC,APC,0,wikipedia:senate:2011:KT
+sen-2011-kt-katsina-central,Ahmed Sani Stores,CPC,APC,0,wikipedia:senate:2011:KT
+sen-2011-ke-kebbi-north,Isah Mohammed Galaudu,PDP,PDP,0,wikipedia:senate:2011:KE
+sen-2011-ke-kebbi-central,Abubakar Atiku Bagudu,PDP,PDP,0,wikipedia:senate:2011:KE
+sen-2011-ke-kebbi-south,Mohammed Magoro,PDP,PDP,0,wikipedia:senate:2011:KE
+sen-2011-ko-kogi-east,Nurudeen Usman-Abatemi,PDP,PDP,0,wikipedia:senate:2011:KO
+sen-2011-ko-kogi-central,Emmanuel Dangana Ocheja,PDP,PDP,0,wikipedia:senate:2011:KO
+sen-2011-ko-kogi-west,Smart Adeyemi,PDP,PDP,0,wikipedia:senate:2011:KO
+sen-2011-kw-kwara-north,Mohammed Shaaba Lafiagi,PDP,PDP,0,wikipedia:senate:2011:KW
+sen-2011-kw-kwara-central,Bukola Saraki,PDP,PDP,0,wikipedia:senate:2011:KW
+sen-2011-kw-kwara-south,Simon Ajibola,PDP,PDP,0,wikipedia:senate:2011:KW
+sen-2011-la-lagos-central,Oluremi Tinubu,ACN,APC,0,wikipedia:senate:2011:LA
+sen-2011-la-lagos-west,Ganiyu Solomon,ACN,APC,0,wikipedia:senate:2011:LA
+sen-2011-la-lagos-east,Gbenga Bareehu Ashafa,ACN,APC,0,wikipedia:senate:2011:LA
+sen-2011-na-nasarawa-south,Suleiman Adokwe,PDP,PDP,0,wikipedia:senate:2011:NA
+sen-2011-na-nasarawa-north,Yusuf Musa Nagogo,CPC,APC,0,wikipedia:senate:2011:NA
+sen-2011-na-nasarawa-west,Abdullahi Adamu,PDP,PDP,0,wikipedia:senate:2011:NA
+sen-2011-ni-niger-south,Zainab Abdulkadir Kure,PDP,PDP,0,wikipedia:senate:2011:NI
+sen-2011-ni-niger-north,Ibrahim Musa,CPC,APC,0,wikipedia:senate:2011:NI
+sen-2011-ni-niger-east,Dahiru Awaisu Kuta,PDP,PDP,0,wikipedia:senate:2011:NI
+sen-2011-og-ogun-central,Olugbenga Onaolapo Obadara,ACN,APC,0,wikipedia:senate:2011:OG
+sen-2011-og-ogun-east,Sefiu Adegbenga Kaka,ACN,APC,0,wikipedia:senate:2011:OG
+sen-2011-og-ogun-west,Akin Babalola Kamar Odunsi,ACN,APC,0,wikipedia:senate:2011:OG
+sen-2011-on-ondo-north,Robert Ajayi Boroffice,LP,LP,0,wikipedia:senate:2011:ON
+sen-2011-on-ondo-central,Akinyelure Patrick Ayo,LP,LP,0,wikipedia:senate:2011:ON
+sen-2011-on-ondo-south,Kunle Boluwaji,LP,LP,0,wikipedia:senate:2011:ON
+sen-2011-os-osun-central,Olusola Adeyeye,ACN,APC,0,wikipedia:senate:2011:OS
+sen-2011-os-osun-east,Christopher Omoworare Babajide,ACN,APC,0,wikipedia:senate:2011:OS
+sen-2011-os-osun-west,Mudasiru Oyetunde Hussein,ACN,APC,0,wikipedia:senate:2011:OS
+sen-2011-oy-oyo-central,Ayoade Ademola Adeseun,ACN,APC,0,wikipedia:senate:2011:OY
+sen-2011-oy-oyo-north,Hosea Ayoola Agboola,ACN,APC,0,wikipedia:senate:2011:OY
+sen-2011-oy-oyo-south,Olufemi Lanlehin,PDP,PDP,0,wikipedia:senate:2011:OY
+sen-2011-pl-plateau-south,Victor Lar,PDP,PDP,0,wikipedia:senate:2011:PL
+sen-2011-pl-plateau-north,Gyang Dalyop Datong,PDP,PDP,0,wikipedia:senate:2011:PL
+sen-2011-pl-plateau-central,Joshua Dariye,LP,LP,0,wikipedia:senate:2011:PL
+sen-2011-ri-rivers-east,George Thompson Sekibo,PDP,PDP,0,wikipedia:senate:2011:RI
+sen-2011-ri-rivers-south-east,Magnus Ngei Abe,PDP,PDP,0,wikipedia:senate:2011:RI
+sen-2011-ri-rivers-west,Wilson Asinobi Ake,PDP,PDP,0,wikipedia:senate:2011:RI
+sen-2011-so-sokoto-east,Abdullahi Ibrahim Gobir,PDP,PDP,0,wikipedia:senate:2011:SO
+sen-2011-so-sokoto-north,Ahmed Muhammad Maccido,PDP,PDP,0,wikipedia:senate:2011:SO
+sen-2011-so-sokoto-south,Umaru Dahiru,PDP,PDP,0,wikipedia:senate:2011:SO
+sen-2011-ta-taraba-south,Emmanuel Bwacha,PDP,PDP,0,wikipedia:senate:2011:TA
+sen-2011-ta-taraba-central,Abubakar Umar Tutare,PDP,PDP,0,wikipedia:senate:2011:TA
+sen-2011-ta-taraba-north,Aisha Alhassan,PDP,PDP,0,wikipedia:senate:2011:TA
+sen-2011-yo-yobe-east,Bukar Ibrahim,ANPP,APC,0,wikipedia:senate:2011:YO
+sen-2011-yo-yobe-north,Ahmad Lawan,ANPP,APC,0,wikipedia:senate:2011:YO
+sen-2011-yo-yobe-south,Alkali Abdulkadir Jajere,ANPP,APC,0,wikipedia:senate:2011:YO
+sen-2011-za-zamfara-central,Kabir Garba Marafa,ANPP,APC,0,wikipedia:senate:2011:ZA
+sen-2011-za-zamfara-north,Sahabi Yau,PDP,PDP,0,wikipedia:senate:2011:ZA
+sen-2011-za-zamfara-west,Ahmad Sani Yerima,PDP,PDP,0,wikipedia:senate:2011:ZA
+sen-2015-ab-abia-central,Theodore Orji,PDP,PDP,0,wikipedia:senate:2015:AB
+sen-2015-ab-abia-south,Enyinnaya Abaribe,PDP,PDP,0,wikipedia:senate:2015:AB
+sen-2015-ab-abia-north,Mao Ohuabunwa,PDP,PDP,0,wikipedia:senate:2015:AB
+sen-2015-ad-adamawa-north,Binta Masi Garba,APC,APC,0,wikipedia:senate:2015:AD
+sen-2015-ad-adamawa-south,Ahmad Abubakar,APC,APC,0,wikipedia:senate:2015:AD
+sen-2015-ad-adamawa-central,Abdul-Aziz Nyako,APC,APC,0,wikipedia:senate:2015:AD
+sen-2015-ak-akwa-ibom-north-east,Bassey Albert,PDP,PDP,0,wikipedia:senate:2015:AK
+sen-2015-ak-akwa-ibom-north-west,Godswill Akpabio,PDP,PDP,0,wikipedia:senate:2015:AK
+sen-2015-ak-akwa-ibom-south,Nelson Effiong,PDP,PDP,0,wikipedia:senate:2015:AK
+sen-2015-an-anambra-central,Victor Umeh,APGA,APGA,0,wikipedia:senate:2015:AN
+sen-2015-an-anambra-south,Emmanuel Uba,PDP,PDP,0,wikipedia:senate:2015:AN
+sen-2015-an-anambra-north,Stella Oduah,PDP,PDP,0,wikipedia:senate:2015:AN
+sen-2015-ba-bauchi-central,Isah Hamma,APC,APC,0,wikipedia:senate:2015:BA
+sen-2015-ba-bauchi-south,Malam Wakili,APC,APC,0,wikipedia:senate:2015:BA
+sen-2015-ba-bauchi-north,Sulaiman Mohammed Nazif,APC,APC,0,wikipedia:senate:2015:BA
+sen-2015-by-bayelsa-central,Emmanuel Paulker,PDP,PDP,0,wikipedia:senate:2015:BY
+sen-2015-by-bayelsa-west,Foster Ogala,PDP,PDP,0,wikipedia:senate:2015:BY
+sen-2015-by-bayelsa-east,Ben Murray-Bruce,PDP,PDP,0,wikipedia:senate:2015:BY
+sen-2015-be-benue-north-east,Barnabas Andyar Gemade,APC,APC,0,wikipedia:senate:2015:BE
+sen-2015-be-benue-north-west,George Akume,APC,APC,0,wikipedia:senate:2015:BE
+sen-2015-be-benue-south,David Mark,PDP,PDP,0,wikipedia:senate:2015:BE
+sen-2015-bo-borno-north,Abubakar Kyari,APC,APC,0,wikipedia:senate:2015:BO
+sen-2015-bo-borno-central,Ahmed Zanna,APC,APC,0,wikipedia:senate:2015:BO
+sen-2015-bo-borno-south,Mohammed Ali Ndume,APC,APC,0,wikipedia:senate:2015:BO
+sen-2015-cr-cross-river-central,John Enoh,PDP,PDP,0,wikipedia:senate:2015:CR
+sen-2015-cr-cross-river-south,Gershom Bassey,PDP,PDP,0,wikipedia:senate:2015:CR
+sen-2015-cr-cross-river-north,Rose Oko,PDP,PDP,0,wikipedia:senate:2015:CR
+sen-2015-de-delta-central,Ovie Omo-Agege,LP,LP,0,wikipedia:senate:2015:DE
+sen-2015-de-delta-north,Peter Nwaboshi,PDP,PDP,0,wikipedia:senate:2015:DE
+sen-2015-de-delta-south,James Manager,PDP,PDP,0,wikipedia:senate:2015:DE
+sen-2015-eb-ebonyi-north,Sam Egwu,PDP,PDP,0,wikipedia:senate:2015:EB
+sen-2015-eb-ebonyi-central,Joseph Ogba,PDP,PDP,0,wikipedia:senate:2015:EB
+sen-2015-eb-ebonyi-south,Sonni Ogbuoji,PDP,PDP,0,wikipedia:senate:2015:EB
+sen-2015-ed-edo-central,Clifford Ordia,PDP,PDP,0,wikipedia:senate:2015:ED
+sen-2015-ed-edo-south,Matthew Urhoghide,PDP,PDP,0,wikipedia:senate:2015:ED
+sen-2015-ed-edo-north,Francis Alimikhena,APC,APC,0,wikipedia:senate:2015:ED
+sen-2015-ek-ekiti-central,Fatimat Olufunke Raji-Rasaki,PDP,PDP,0,wikipedia:senate:2015:EK
+sen-2015-ek-ekiti-north,Duro Faseyi,PDP,PDP,0,wikipedia:senate:2015:EK
+sen-2015-ek-ekiti-south,Abiodun Olujimi,PDP,PDP,0,wikipedia:senate:2015:EK
+sen-2015-en-enugu-east,Gilbert Nnaji,PDP,PDP,0,wikipedia:senate:2015:EN
+sen-2015-en-enugu-west,Ike Ekweremadu,PDP,PDP,0,wikipedia:senate:2015:EN
+sen-2015-en-enugu-north,Utazi Chukwuka,PDP,PDP,0,wikipedia:senate:2015:EN
+sen-2015-go-gombe-central,Mohammed Danjuma Goje,APC,APC,0,wikipedia:senate:2015:GO
+sen-2015-go-gombe-north,Usman Bayero Nafada,APC,APC,0,wikipedia:senate:2015:GO
+sen-2015-go-gombe-south,Joshua Moltobok,PDP,PDP,0,wikipedia:senate:2015:GO
+sen-2015-im-imo-east,Samuel Anyanwu,PDP,PDP,0,wikipedia:senate:2015:IM
+sen-2015-im-imo-west,Hope Uzodinma,PDP,PDP,0,wikipedia:senate:2015:IM
+sen-2015-im-imo-north,Benjamin Uwajumogu,APC,APC,0,wikipedia:senate:2015:IM
+sen-2015-ji-jigawa-north-west,Abdullahi Abubakar Gumel,APC,APC,0,wikipedia:senate:2015:JI
+sen-2015-ji-jigawa-north-east,Muhammad Shitu,APC,APC,0,wikipedia:senate:2015:JI
+sen-2015-ji-jigawa-south-west,Mohammed Sabo,APC,APC,0,wikipedia:senate:2015:JI
+sen-2015-kd-kaduna-central,Shehu Sani,APC,APC,0,wikipedia:senate:2015:KD
+sen-2015-kd-kaduna-north,Suleiman Othman Hunkuyi,APC,APC,0,wikipedia:senate:2015:KD
+sen-2015-kd-kaduna-south,Danjuma Laah,PDP,PDP,0,wikipedia:senate:2015:KD
+sen-2015-kn-kano-north,Barau I Jibrin,APC,APC,0,wikipedia:senate:2015:KN
+sen-2015-kn-kano-central,Rabiu Kwankwaso,APC,APC,0,wikipedia:senate:2015:KN
+sen-2015-kn-kano-south,Kabiru Ibrahim Gaya,APC,APC,0,wikipedia:senate:2015:KN
+sen-2015-kt-katsina-north,Mustapha Bukar,APC,APC,0,wikipedia:senate:2015:KT
+sen-2015-kt-katsina-south,Abu Ibrahim,APC,APC,0,wikipedia:senate:2015:KT
+sen-2015-kt-katsina-central,Kurfi Umaru,APC,APC,0,wikipedia:senate:2015:KT
+sen-2015-ke-kebbi-north,Yahaya Abubakar Abdullahi,APC,APC,0,wikipedia:senate:2015:KE
+sen-2015-ke-kebbi-central,Adamu Aliero,APC,APC,0,wikipedia:senate:2015:KE
+sen-2015-ke-kebbi-south,Bala Na'Allah,APC,APC,0,wikipedia:senate:2015:KE
+sen-2015-ko-kogi-east,Atai Aidoko,PDP,PDP,0,wikipedia:senate:2015:KO
+sen-2015-ko-kogi-central,Ogembe Ahmed,PDP,PDP,0,wikipedia:senate:2015:KO
+sen-2015-ko-kogi-west,Dino Melaye,APC,APC,0,wikipedia:senate:2015:KO
+sen-2015-kw-kwara-north,Mohammed Shaaba Lafiagi,APC,APC,0,wikipedia:senate:2015:KW
+sen-2015-kw-kwara-central,Bukola Saraki,APC,APC,0,wikipedia:senate:2015:KW
+sen-2015-kw-kwara-south,Rafiu Adebayo Ibrahim,APC,APC,0,wikipedia:senate:2015:KW
+sen-2015-la-lagos-central,Oluremi Tinubu,APC,APC,0,wikipedia:senate:2015:LA
+sen-2015-la-lagos-west,Solomon Olamilekan Adeola,APC,APC,0,wikipedia:senate:2015:LA
+sen-2015-la-lagos-east,Gbenga Bareehu Ashafa,APC,APC,0,wikipedia:senate:2015:LA
+sen-2015-na-nasarawa-south,Suleiman Adokwe,PDP,PDP,0,wikipedia:senate:2015:NA
+sen-2015-na-nasarawa-north,Philip Aruwa,PDP,PDP,0,wikipedia:senate:2015:NA
+sen-2015-na-nasarawa-west,Abdullahi Adamu,APC,APC,0,wikipedia:senate:2015:NA
+sen-2015-ni-niger-south,Mustapha Sani,APC,APC,0,wikipedia:senate:2015:NI
+sen-2015-ni-niger-north,Aliyu Sabi Abdullahi,APC,APC,0,wikipedia:senate:2015:NI
+sen-2015-ni-niger-east,David Umaru,APC,APC,0,wikipedia:senate:2015:NI
+sen-2015-og-ogun-east,Buruji Kashamu,PDP,PDP,0,wikipedia:senate:2015:OG
+sen-2015-og-ogun-central,Lanre Tejuosho,APC,APC,0,wikipedia:senate:2015:OG
+sen-2015-og-ogun-west,Joseph Dada,APC,APC,0,wikipedia:senate:2015:OG
+sen-2015-on-ondo-central,Omotayo Donald,APC,APC,0,wikipedia:senate:2015:ON
+sen-2015-on-ondo-north,Robert Ajayi Boroffice,APC,APC,0,wikipedia:senate:2015:ON
+sen-2015-on-ondo-south,Yele Omogunwa,PDP,PDP,0,wikipedia:senate:2015:ON
+sen-2015-os-osun-central,Olusola Adeyeye,APC,APC,0,wikipedia:senate:2015:OS
+sen-2015-os-osun-east,Christopher Omoworare Babajide,APC,APC,0,wikipedia:senate:2015:OS
+sen-2015-os-osun-west,Isiaka Adeleke,APC,APC,0,wikipedia:senate:2015:OS
+sen-2015-oy-oyo-central,Monsurat Sunmonu,APC,APC,0,wikipedia:senate:2015:OY
+sen-2015-oy-oyo-south,Rilwan Akanbi,APC,APC,0,wikipedia:senate:2015:OY
+sen-2015-oy-oyo-north,Abdulfatai Buhari,APC,APC,0,wikipedia:senate:2015:OY
+sen-2015-pl-plateau-south,Jeremiah Useni,PDP,PDP,0,wikipedia:senate:2015:PL
+sen-2015-pl-plateau-central,Joshua Dariye,PDP,PDP,0,wikipedia:senate:2015:PL
+sen-2015-pl-plateau-north,Jonah David Jang,PDP,PDP,0,wikipedia:senate:2015:PL
+sen-2015-ri-rivers-east,Andrew Uchendu,APC,APC,0,wikipedia:senate:2015:RI
+sen-2015-ri-rivers-south-east,Magnus Ngei Abe,APC,APC,0,wikipedia:senate:2015:RI
+sen-2015-ri-rivers-west,Otelemaba Amachree,APC,APC,0,wikipedia:senate:2015:RI
+sen-2015-so-sokoto-east,Abdullahi Ibrahim Gobir,APC,APC,0,wikipedia:senate:2015:SO
+sen-2015-so-sokoto-north,Aliyu Magatakarda Wamakko,APC,APC,0,wikipedia:senate:2015:SO
+sen-2015-so-sokoto-south,Ibrahim Abdullahi Danbaba,APC,APC,0,wikipedia:senate:2015:SO
+sen-2015-ta-taraba-south,Emmanuel Bwacha,PDP,PDP,0,wikipedia:senate:2015:TA
+sen-2015-ta-taraba-north,Abubakar Sani Danladi,PDP,PDP,0,wikipedia:senate:2015:TA
+sen-2015-ta-taraba-central,Yusuf Abubakar Yusuf,APC,APC,0,wikipedia:senate:2015:TA
+sen-2015-yo-yobe-east,Bukar Ibrahim,APC,APC,0,wikipedia:senate:2015:YO
+sen-2015-yo-yobe-north,Ahmad Lawan,APC,APC,0,wikipedia:senate:2015:YO
+sen-2015-yo-yobe-south,Mohammed Hasan,PDP,PDP,0,wikipedia:senate:2015:YO
+sen-2015-za-zamfara-central,Kabir Garba Marafa,APC,APC,0,wikipedia:senate:2015:ZA
+sen-2015-za-zamfara-north,Tijjani Yahaya Kaura,APC,APC,0,wikipedia:senate:2015:ZA
+sen-2015-za-zamfara-west,Ahmad Sani Yerima,APC,APC,0,wikipedia:senate:2015:ZA
+sen-2019-ab-abia-south,Enyinnaya Abaribe,PDP,PDP,53086,wikipedia:senate:2019:AB
+sen-2019-ab-abia-south,Chris Nkwota,APC,APC,27998,wikipedia:senate:2019:AB
+sen-2019-ab-abia-central,Theodore Orji,PDP,PDP,55461,wikipedia:senate:2019:AB
+sen-2019-ab-abia-central,Nkechi Nwaogu,APC,APC,29860,wikipedia:senate:2019:AB
+sen-2019-ab-abia-north,Orji Uzor Kalu,APC,APC,31201,wikipedia:senate:2019:AB
+sen-2019-ab-abia-north,Mao Ohuabunwa,PDP,PDP,20801,wikipedia:senate:2019:AB
+sen-2019-ad-adamawa-south,Binos Dauda Yaroe,PDP,PDP,144403,wikipedia:senate:2019:AD
+sen-2019-ad-adamawa-south,Abubakar Ahmad Mdallahyidi,APC,APC,118129,wikipedia:senate:2019:AD
+sen-2019-ad-adamawa-central,Aishatu Dahiru Ahmed,APC,APC,188526,wikipedia:senate:2019:AD
+sen-2019-ad-adamawa-central,Modibbo Murtala Mohammed,PDP,PDP,96530,wikipedia:senate:2019:AD
+sen-2019-ad-adamawa-north,Ishaku Elisha Abbo,PDP,PDP,79337,wikipedia:senate:2019:AD
+sen-2019-ad-adamawa-north,Binta Garba,APC,APC,63219,wikipedia:senate:2019:AD
+sen-2019-ak-akwa-ibom-south,Akon Etim Eyakenyi,PDP,PDP,122412,wikipedia:senate:2019:AK
+sen-2019-ak-akwa-ibom-south,Nelson Effiong,APC,APC,44053,wikipedia:senate:2019:AK
+sen-2019-ak-akwa-ibom-north-east,Bassey Albert,PDP,PDP,0,wikipedia:senate:2019:AK
+sen-2019-ak-akwa-ibom-north-west,Christopher Ekpenyong,PDP,PDP,118215,wikipedia:senate:2019:AK
+sen-2019-ak-akwa-ibom-north-west,Goodswill Akpabio,APC,APC,83158,wikipedia:senate:2019:AK
+sen-2019-an-anambra-south,Ifeanyi Ubah,YPP,OTHER,87081,wikipedia:senate:2019:AN
+sen-2019-an-anambra-south,Chris Ubah,PDP,PDP,52462,wikipedia:senate:2019:AN
+sen-2019-an-anambra-north,Stella Oduah,PDP,PDP,113989,wikipedia:senate:2019:AN
+sen-2019-an-anambra-north,Chinedu Emeka,APGA,APGA,59937,wikipedia:senate:2019:AN
+sen-2019-an-anambra-central,Uche Ekwunife,PDP,PDP,118484,wikipedia:senate:2019:AN
+sen-2019-an-anambra-central,Victor Umeh,APC,APC,81429,wikipedia:senate:2019:AN
+sen-2019-ba-bauchi-south,Lawal Yahaya Gumau,APC,APC,250725,wikipedia:senate:2019:BA
+sen-2019-ba-bauchi-south,Dahiru Garba,PDP,PDP,175527,wikipedia:senate:2019:BA
+sen-2019-ba-bauchi-central,Halliru Dauda Jika,APC,APC,128871,wikipedia:senate:2019:BA
+sen-2019-ba-bauchi-central,Hammah Issah,PDP,PDP,57069,wikipedia:senate:2019:BA
+sen-2019-ba-bauchi-north,Adamu Bulkachuwa,APC,APC,110631,wikipedia:senate:2019:BA
+sen-2019-ba-bauchi-north,Suleiman Nazif,PDP,PDP,56379,wikipedia:senate:2019:BA
+sen-2019-by-bayelsa-central,Douye Diri,PDP,PDP,83978,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-central,Festus Daumiebi,APC,APC,70998,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-central,Others,OTH,OTHER,898,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-west,Lawrence Ewhrudjakpo,PDP,PDP,49912,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-west,Matthew Karimo,APC,APC,20219,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-west,Others,OTH,OTHER,246,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-east,Biobarakuma Degi,APC,APC,43303,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-east,Ipigansi Izagara,PDP,PDP,32363,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-east,Others,OTH,OTHER,19068,wikipedia:senate:2019:BY
+sen-2019-be-benue-south,Patrick Abba Moro,PDP,PDP,0,wikipedia:senate:2019:BE
+sen-2019-be-bauchi-north-east,Gabriel Suswam,PDP,PDP,0,wikipedia:senate:2019:BE
+sen-2019-be-bauchi-north-west,Emmanuel Yisa Orker-Jev,PDP,PDP,0,wikipedia:senate:2019:BE
+sen-2019-bo-bornu-central,Kashim Shettima,APC,APC,342898,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-central,Muhammed Abba-Aji,PDP,PDP,75569,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-central,Others,OTH,OTHER,5360,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-north,Kyari Abubakar Shaib,APC,APC,76963,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-north,Isa Lawan,PDP,PDP,36042,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-north,Others,OTH,OTHER,690,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-south,Ndume Mohammed Ali,APC,APC,300637,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-south,Kudla Milinda Satumari,PDP,PDP,84608,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-south,Others,OTH,OTHER,12773,wikipedia:senate:2019:BO
+sen-2019-cr-cross-river-central,Ndoma Egba,APC,APC,60298,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-central,Sandy Ojang Onoh,PDP,PDP,80134,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-central,Others,OTH,OTHER,1068,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-north,Wabily Nyiam,APC,APC,36129,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-north,Sandy Rose,PDP,PDP,100967,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-north,Others,OTH,OTHER,1209,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-south,Prince Otu,APC,APC,63250,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-south,Bassey Gershom Henry,PDP,PDP,77478,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-south,Others,OTH,OTHER,1406,wikipedia:senate:2019:CR
+sen-2019-de-delta-south,James Manager,PDP,PDP,257812,wikipedia:senate:2019:DE
+sen-2019-de-delta-south,Emmanuel Uduaghan,APC,APC,125752,wikipedia:senate:2019:DE
+sen-2019-de-delta-south,Others,OTH,OTHER,6177,wikipedia:senate:2019:DE
+sen-2019-de-delta-central,Ovie Omo-Agege,APC,APC,111100,wikipedia:senate:2019:DE
+sen-2019-de-delta-central,Evelyn Omavowan Oboro,PDP,PDP,99422,wikipedia:senate:2019:DE
+sen-2019-de-delta-central,Others,OTH,OTHER,5896,wikipedia:senate:2019:DE
+sen-2019-de-delta-north,Peter Nwaoboshi,PDP,PDP,186423,wikipedia:senate:2019:DE
+sen-2019-de-delta-north,Doris Uboh,APC,APC,36350,wikipedia:senate:2019:DE
+sen-2019-de-delta-north,Others,OTH,OTHER,3943,wikipedia:senate:2019:DE
+sen-2019-eb-ebonyi-south,Michael Ama-Nnachi,PDP,PDP,103751,wikipedia:senate:2019:EB
+sen-2019-eb-ebonyi-south,Prince Nwaeze Onu,APC,APC,19663,wikipedia:senate:2019:EB
+sen-2019-eb-ebonyi-central,Joseph Ogba,PDP,PDP,62452,wikipedia:senate:2019:EB
+sen-2019-eb-ebonyi-central,Julius Ucha,APC,APC,46672,wikipedia:senate:2019:EB
+sen-2019-eb-ebonyi-north,Sam Egwu,PDP,PDP,80711,wikipedia:senate:2019:EB
+sen-2019-eb-ebonyi-north,Mathias Adum,APC,APC,38734,wikipedia:senate:2019:EB
+sen-2019-ed-edo-central,Inegbedion John Osagie,APC,APC,49158,wikipedia:senate:2019:ED
+sen-2019-ed-edo-central,Ordia Akhimienmona Clifford,PDP,PDP,56048,wikipedia:senate:2019:ED
+sen-2019-ed-edo-central,Others,OTH,OTHER,831,wikipedia:senate:2019:ED
+sen-2019-ed-edo-south,Uroghide Mathew Aisagbonriodion,PDP,PDP,0,wikipedia:senate:2019:ED
+sen-2019-ed-edo-north,Momoh Abubakar Eshiokpekha,PDP,PDP,80752,wikipedia:senate:2019:ED
+sen-2019-ed-edo-north,Alimikhena Francis Asekhame,APC,APC,117783,wikipedia:senate:2019:ED
+sen-2019-ed-edo-north,Others,OTH,OTHER,1134,wikipedia:senate:2019:ED
+sen-2019-ek-ekiti-central,Michael Bamidele,APC,APC,94279,wikipedia:senate:2019:EK
+sen-2019-ek-ekiti-central,Obafemi Adewale,PDP,PDP,48707,wikipedia:senate:2019:EK
+sen-2019-ek-ekiti-central,Others,OTH,OTHER,1267,wikipedia:senate:2019:EK
+sen-2019-ek-ekiti-north,Adetumbi Olubunmi,APC,APC,60689,wikipedia:senate:2019:EK
+sen-2019-ek-ekiti-north,Duro Faseyi,PDP,PDP,49209,wikipedia:senate:2019:EK
+sen-2019-ek-ekiti-north,Others,OTH,OTHER,1294,wikipedia:senate:2019:EK
+sen-2019-ek-ekiti-south,Abiodun Olujimi,PDP,PDP,0,wikipedia:senate:2019:EK
+sen-2019-en-enugu-west,Ike Ekweremadu,PDP,PDP,103751,wikipedia:senate:2019:EN
+sen-2019-en-enugu-west,Juliet Ibekaku-Nwagwu,APC,APC,19663,wikipedia:senate:2019:EN
+sen-2019-en-enugu-east,Chimaroke Nnamani,PDP,PDP,128853,wikipedia:senate:2019:EN
+sen-2019-en-enugu-east,Lawrence Ozeh,APC,APC,14225,wikipedia:senate:2019:EN
+sen-2019-en-enugu-north,Utazi Chukwuka,PDP,PDP,146458,wikipedia:senate:2019:EN
+sen-2019-en-enugu-north,Ogbonna Odo,APC,APC,22229,wikipedia:senate:2019:EN
+sen-2019-go-gombe-south,Bulus Kilawangs Amos,APC,APC,80549,wikipedia:senate:2019:GO
+sen-2019-go-gombe-south,Binta Bello,PDP,PDP,63312,wikipedia:senate:2019:GO
+sen-2019-go-gombe-central,Mohammed Danjuma Goje,APC,APC,110116,wikipedia:senate:2019:GO
+sen-2019-go-gombe-central,Abubakar Nono,PDP,PDP,39760,wikipedia:senate:2019:GO
+sen-2019-go-gombe-north,Sa'idu Ahmed Alkali,APC,APC,0,wikipedia:senate:2019:GO
+sen-2019-im-imo-west,Rochas Okorocha,APC,APC,0,wikipedia:senate:2019:IM
+sen-2019-im-imo-east,Onyewuchi Francis Ezenwa,PDP,PDP,188526,wikipedia:senate:2019:IM
+sen-2019-im-imo-east,Emmanuel Umunakwe,APC,APC,33729,wikipedia:senate:2019:IM
+sen-2019-im-imo-east,Mike Nwachukwu,APGA,APGA,18854,wikipedia:senate:2019:IM
+sen-2019-im-imo-north,Benjamin Uwajumogu,APC,APC,0,wikipedia:senate:2019:IM
+sen-2019-ji-jigawa-south-west,Mohammed Sabo,APC,APC,144403,wikipedia:senate:2019:JI
+sen-2019-ji-jigawa-south-west,Mustapha Sule Lamide,PDP,PDP,118129,wikipedia:senate:2019:JI
+sen-2019-ji-jigawa-north-west,Danladi Abdullahi Sankara,APC,APC,286655,wikipedia:senate:2019:JI
+sen-2019-ji-jigawa-north-west,Nasiru Umar Roni,PDP,PDP,120314,wikipedia:senate:2019:JI
+sen-2019-ji-jigawa-north-east,Ibrahim Hassan Hadejia,APC,APC,79337,wikipedia:senate:2019:JI
+sen-2019-ji-jigawa-north-east,Binta Garba,PDP,PDP,63219,wikipedia:senate:2019:JI
+sen-2019-kd-kaduna-central,Sani Uba,APC,APC,355242,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-central,Usman Lawal Adamu,PDP,PDP,195497,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-central,Others,OTH,OTHER,86075,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-north,Kwari Suleiman Abdu,APC,APC,411497,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-north,Hunkuyi Othman Suleiman,PDP,PDP,181955,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-north,Others,OTH,OTHER,14499,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-south,Laah Danjuma Tella,PDP,PDP,268923,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-south,Bala Barnabas Yusuf,APC,APC,133287,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-south,Others,OTH,OTHER,15675,wikipedia:senate:2019:KD
+sen-2019-kn-kano-central,Ibrahim Shekarau,APC,APC,506271,wikipedia:senate:2019:KN
+sen-2019-kn-kano-central,Madaki Aliyu Sani,PDP,PDP,276768,wikipedia:senate:2019:KN
+sen-2019-kn-kano-central,Others,OTH,OTHER,38750,wikipedia:senate:2019:KN
+sen-2019-kn-kano-north,Jibrin I Barau,APC,APC,286419,wikipedia:senate:2019:KN
+sen-2019-kn-kano-north,Ahmed Garba Bichi,PDP,PDP,155638,wikipedia:senate:2019:KN
+sen-2019-kn-kano-north,Others,OTH,OTHER,24651,wikipedia:senate:2019:KN
+sen-2019-kn-kano-south,Kabiru Ibrahim Gaya,APC,APC,319004,wikipedia:senate:2019:KN
+sen-2019-kn-kano-south,Abdullahi Sani Rogo,PDP,PDP,217520,wikipedia:senate:2019:KN
+sen-2019-kn-kano-south,Others,OTH,OTHER,39409,wikipedia:senate:2019:KN
+sen-2019-kt-katsina-central,Kabir Barkiya,APC,APC,340800,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-central,Hamisu Gambo,PDP,PDP,124372,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-central,Others,OTH,OTHER,5418,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-south,Bello Mandiya,APC,APC,433139,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-south,Shehu Imam,PDP,PDP,158081,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-south,Others,OTH,OTHER,6982,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-north,Ahmad Babba Kaita,APC,APC,339438,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-north,Usman Mani,PDP,PDP,127592,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-north,Others,OTH,OTHER,15865,wikipedia:senate:2019:KT
+sen-2019-ke-kebbi-south,Bala Ibn Na'allah,APC,APC,136287,wikipedia:senate:2019:KE
+sen-2019-ke-kebbi-south,Benjamin Ezra Dikki,PDP,PDP,62733,wikipedia:senate:2019:KE
+sen-2019-ke-kebbi-central,Adamu Aliero,APC,APC,232000,wikipedia:senate:2019:KE
+sen-2019-ke-kebbi-central,Abubakar Shehu-Abubakar,PDP,PDP,75638,wikipedia:senate:2019:KE
+sen-2019-ke-kebbi-north,Abdullahi Abubakar Yahaya,APC,APC,170624,wikipedia:senate:2019:KE
+sen-2019-ke-kebbi-north,Usman Bello Suru,PDP,PDP,66815,wikipedia:senate:2019:KE
+sen-2019-ko-kogi-west,Smart Adeyemi,APC,APC,88373,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-west,Dino Melaye,PDP,PDP,62133,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-west,Others,OTH,OTHER,10589,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-central,Yakubu Oseni,APC,APC,76183,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-central,Ahmed Ogembe,PDP,PDP,18349,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-central,Natasha Akpoti,SDP,SDP,48056,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-central,Others,OTH,OTHER,1505,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-east,Jibrin Isah,APC,APC,134189,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-east,Ali Atai Aidoko Usman,PDP,PDP,74201,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-east,Others,OTH,OTHER,37830,wikipedia:senate:2019:KO
+sen-2019-kw-kwara-central,Ibrahim Oloriegbe,APC,APC,123808,wikipedia:senate:2019:KW
+sen-2019-kw-kwara-central,Bukola Saraki,PDP,PDP,68994,wikipedia:senate:2019:KW
+sen-2019-kw-kwara-central,Others,OTH,OTHER,3253,wikipedia:senate:2019:KW
+sen-2019-kw-kano-north,Suleiman Sadiq Umar,APC,APC,0,wikipedia:senate:2019:KW
+sen-2019-kw-kwara-south,Lola Ashiru,APC,APC,89704,wikipedia:senate:2019:KW
+sen-2019-kw-kwara-south,Rafiu Adebayo Ibrahim,PDP,PDP,45176,wikipedia:senate:2019:KW
+sen-2019-kw-kwara-south,Others,OTH,OTHER,2007,wikipedia:senate:2019:KW
+sen-2019-la-lagos-west,Solomon Olamilekan Adeola,APC,APC,323817,wikipedia:senate:2019:LA
+sen-2019-la-lagos-west,Gbadebo Rhodes-Vivour,PDP,PDP,243516,wikipedia:senate:2019:LA
+sen-2019-la-lagos-west,Others,OTH,OTHER,40554,wikipedia:senate:2019:LA
+sen-2019-la-lagos-central,Oluremi Tinubu,APC,APC,131725,wikipedia:senate:2019:LA
+sen-2019-la-lagos-central,Onitiri David,PDP,PDP,89107,wikipedia:senate:2019:LA
+sen-2019-la-lagos-central,Others,OTH,OTHER,6165,wikipedia:senate:2019:LA
+sen-2019-la-lagos-east,Osinowo Sikiru Adebayo,APC,APC,145839,wikipedia:senate:2019:LA
+sen-2019-la-lagos-east,Oyefusi Abiodun Adetola,PDP,PDP,90354,wikipedia:senate:2019:LA
+sen-2019-la-lagos-east,Others,OTH,OTHER,10096,wikipedia:senate:2019:LA
+sen-2019-na-nasarawa-south,Umaru Tanko Al-Makura,APC,APC,113156,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-south,Suleiman Adokwe,PDP,PDP,104595,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-south,Others,OTH,OTHER,10369,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-west,Abdullahi Adamu,APC,APC,115298,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-west,Bala Ahmad Aliyu,PDP,PDP,85615,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-west,Others,OTH,OTHER,30981,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-north,Godiya Akwashiki,APC,APC,54104,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-north,John Michael Abdul,PDP,PDP,48133,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-north,Others,OTH,OTHER,28944,wikipedia:senate:2019:NA
+sen-2019-ni-niger-east,Sani Mohammed Musa,APC,APC,229415,wikipedia:senate:2019:NI
+sen-2019-ni-niger-east,Ibrahim Isiyaku,PDP,PDP,116143,wikipedia:senate:2019:NI
+sen-2019-ni-niger-east,Others,OTH,OTHER,6617,wikipedia:senate:2019:NI
+sen-2019-ni-niger-north,Aliyu Sabi Abdullahi,APC,APC,161420,wikipedia:senate:2019:NI
+sen-2019-ni-niger-north,Muhammad Sani Duba,PDP,PDP,77109,wikipedia:senate:2019:NI
+sen-2019-ni-niger-north,Others,OTH,OTHER,9202,wikipedia:senate:2019:NI
+sen-2019-ni-niger-south,Bima Muhammad Enagi,APC,APC,160614,wikipedia:senate:2019:NI
+sen-2019-ni-niger-south,Baba Shehu Agaie,PDP,PDP,90978,wikipedia:senate:2019:NI
+sen-2019-ni-niger-south,Others,OTH,OTHER,9001,wikipedia:senate:2019:NI
+sen-2019-og-ogun-east,Ramoni Olalekan Mustapha,APC,APC,85761,wikipedia:senate:2019:OG
+sen-2019-og-ogun-east,Sosanwo Adeola Ayoola,PDP,PDP,83528,wikipedia:senate:2019:OG
+sen-2019-og-ogun-east,Others,OTH,OTHER,24674,wikipedia:senate:2019:OG
+sen-2019-og-ogun-central,Ibikunle Amosun,APC,APC,88110,wikipedia:senate:2019:OG
+sen-2019-og-ogun-central,Solomon Abiodun Sanyaolu,PDP,PDP,33276,wikipedia:senate:2019:OG
+sen-2019-og-ogun-central,Titilayo Oseni-Gomez,ADC,ADC,37101,wikipedia:senate:2019:OG
+sen-2019-og-ogun-central,Others,OTH,OTHER,23153,wikipedia:senate:2019:OG
+sen-2019-og-ogun-west,Tolu Odebiyi,APC,APC,56452,wikipedia:senate:2019:OG
+sen-2019-og-ogun-west,Abiodun Odunjo,PDP,PDP,43454,wikipedia:senate:2019:OG
+sen-2019-og-ogun-west,Others,OTH,OTHER,92385,wikipedia:senate:2019:OG
+sen-2019-on-ondo-central,Akinyelure Patrick Ayo,PDP,PDP,66978,wikipedia:senate:2019:ON
+sen-2019-on-ondo-central,Tayo Alasoadura,APC,APC,57828,wikipedia:senate:2019:ON
+sen-2019-on-ondo-central,Others,OTH,OTHER,77480,wikipedia:senate:2019:ON
+sen-2019-on-ondo-south,Nicholas Tofowomo,PDP,PDP,81892,wikipedia:senate:2019:ON
+sen-2019-on-ondo-south,Yele Omogunwa,APC,APC,55610,wikipedia:senate:2019:ON
+sen-2019-on-ondo-south,Others,OTH,OTHER,53032,wikipedia:senate:2019:ON
+sen-2019-on-ondo-north,Robert Ajayi Boroffice,APC,APC,53199,wikipedia:senate:2019:ON
+sen-2019-on-ondo-north,Olusegun Philips-Alonge,PDP,PDP,33048,wikipedia:senate:2019:ON
+sen-2019-on-ondo-north,Others,OTH,OTHER,89933,wikipedia:senate:2019:ON
+sen-2019-os-osun-west,Adelere Adeyemi Oriolowo,APC,APC,102157,wikipedia:senate:2019:OS
+sen-2019-os-osun-west,Oyewunmi Kamorudeen Olalere,PDP,PDP,97294,wikipedia:senate:2019:OS
+sen-2019-os-osun-west,Others,OTH,OTHER,47449,wikipedia:senate:2019:OS
+sen-2019-os-osun-central,Ajibola Basiru,APC,APC,132821,wikipedia:senate:2019:OS
+sen-2019-os-osun-central,Olaoluwa Ayobami Ganiyu,PDP,PDP,106779,wikipedia:senate:2019:OS
+sen-2019-os-osun-central,Others,OTH,OTHER,4888,wikipedia:senate:2019:OS
+sen-2019-os-osun-east,Francis Adenigba Fadahunsi,PDP,PDP,114893,wikipedia:senate:2019:OS
+sen-2019-os-osun-east,Famurewa Israel Ajibola,APC,APC,105720,wikipedia:senate:2019:OS
+sen-2019-os-osun-east,Others,OTH,OTHER,6908,wikipedia:senate:2019:OS
+sen-2019-oy-oyo-north,Abdulfatai Buhari,APC,APC,107703,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-north,Mulikat Akande-Adeola,PDP,PDP,89365,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-north,Others,OTH,OTHER,93021,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-central,Teslim Folarin,APC,APC,91080,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-central,Bisi Ilaka,PDP,PDP,83600,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-central,Others,OTH,OTHER,97801,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-south,Kola Balogun,PDP,PDP,105720,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-south,Abiola Ajimobi,APC,APC,92218,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-south,Others,OTH,OTHER,83581,wikipedia:senate:2019:OY
+sen-2019-pl-plateau-south,Ignatius Datong Longjan,APC,APC,140918,wikipedia:senate:2019:PL
+sen-2019-pl-plateau-south,Kefas Peter Dandam,PDP,PDP,132441,wikipedia:senate:2019:PL
+sen-2019-pl-plateau-central,Hezekiah Ayuba Dimka,APC,APC,149457,wikipedia:senate:2019:PL
+sen-2019-pl-plateau-central,David Shikfu Parradang,PDP,PDP,145048,wikipedia:senate:2019:PL
+sen-2019-pl-plateau-north,Istifanus Gyang,APC,APC,269555,wikipedia:senate:2019:PL
+sen-2019-pl-plateau-north,Rufus Bature,PDP,PDP,171233,wikipedia:senate:2019:PL
+sen-2019-ri-rivers-west,Betty Apiafi,PDP,PDP,159215,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-west,Obaghama Dighobo,SDP,SDP,20139,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-west,Others,OTH,OTHER,21618,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-south-east,Barry Mpigi,PDP,PDP,247182,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-south-east,Badey Suage Alexander,A,OTHER,6155,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-south-east,Others,OTH,OTHER,7635,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-east,George Thompson Sekibo,PDP,PDP,283759,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-east,Nwuke Azubuike,A,OTHER,9852,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-east,Others,OTH,OTHER,24740,wikipedia:senate:2019:RI
+sen-2019-so-sokoto-north,Aliyu Magatakarda Wamakko,APC,APC,172980,wikipedia:senate:2019:SO
+sen-2019-so-sokoto-north,Ahmed Muhammad Maccido,PDP,PDP,138922,wikipedia:senate:2019:SO
+sen-2019-so-sokoto-north,Others,OTH,OTHER,5794,wikipedia:senate:2019:SO
+sen-2019-so-sokoto-south,Ibrahim Abdullahi Danbaba,PDP,PDP,0,wikipedia:senate:2019:SO
+sen-2019-so-sokoto-east,Abdullahi Ibrahim Gobir,APC,APC,170665,wikipedia:senate:2019:SO
+sen-2019-so-sokoto-east,Maidaji Salihu,PDP,PDP,140322,wikipedia:senate:2019:SO
+sen-2019-so-sokoto-east,Others,OTH,OTHER,3752,wikipedia:senate:2019:SO
+sen-2019-ta-taraba-south,Emmanuel Bwacha,PDP,PDP,96352,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-south,Bauka Ishaya Gamgum,APC,APC,51921,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-south,Others,OTH,OTHER,77777,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-north,Shuaibu Isa Lau,PDP,PDP,113580,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-north,Yusuf Ahmed Adamu,APC,APC,111412,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-north,Others,OTH,OTHER,37509,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-central,Yusuf Abubakar Yusuf,APC,APC,98860,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-central,Dahiru Bako Gassol,PDP,PDP,95074,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-central,Others,OTH,OTHER,26078,wikipedia:senate:2019:TA
+sen-2019-yo-yobe-south,Ibrahim Mohammed Bomai,APC,APC,118729,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-south,Mohammed Hassan,PDP,PDP,89049,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-south,Others,OTH,OTHER,2466,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-east,Ibrahim Gaidam,APC,APC,139277,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-east,Abba Gana Tata,PDP,PDP,18059,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-east,Others,OTH,OTHER,511,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-north,Ahmad Lawan,APC,APC,144099,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-north,Abdullahi Sharif,PDP,PDP,53443,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-north,Others,OTH,OTHER,1284,wikipedia:senate:2019:YO
+sen-2019-za-zamfara-west,Lawali Hassan Anka,PDP,PDP,0,wikipedia:senate:2019:ZA
+sen-2019-za-zamfara-central,Hassan Muhammed Gusau,PDP,PDP,0,wikipedia:senate:2019:ZA
+sen-2019-za-zamfara-north,Tijjani Yahaya Kaura,PDP,PDP,68027,wikipedia:senate:2019:ZA
+sen-2019-za-zamfara-north,Sahabi Alhaji Yaú,APC,APC,43521,wikipedia:senate:2019:ZA
+sen-2019-za-zamfara-north,Others,OTH,OTHER,11413,wikipedia:senate:2019:ZA
+sen-2023-ab-abia-central,Augustine Akobundu,PDP,PDP,0,wikipedia:senate:2023:AB
+sen-2023-ab-abia-north,Orji Uzor Kalu,APC,APC,30805,wikipedia:senate:2023:AB
+sen-2023-ab-abia-north,Nnamdi Iro Oji,LP,LP,27540,wikipedia:senate:2023:AB
+sen-2023-ab-abia-north,Mao Ohuabunwa,PDP,PDP,15175,wikipedia:senate:2023:AB
+sen-2023-ab-abia-south,Enyinnaya Abaribe,APGA,APGA,49693,wikipedia:senate:2023:AB
+sen-2023-ab-abia-south,Chinedu Onyeizu,LP,LP,43903,wikipedia:senate:2023:AB
+sen-2023-ab-abia-south,Okezie Ikpeazu,PDP,PDP,28422,wikipedia:senate:2023:AB
+sen-2023-ad-adamawa-central,Aminu Iya Abbas,PDP,PDP,0,wikipedia:senate:2023:AD
+sen-2023-ad-adamawa-north,Ishaku Elisha Abbo,APC,APC,0,wikipedia:senate:2023:AD
+sen-2023-ad-adamawa-south,Binos Dauda Yaroe,PDP,PDP,0,wikipedia:senate:2023:AD
+sen-2023-ak-akwa-ibom-north-east,Aniekan Bassey,PDP,PDP,0,wikipedia:senate:2023:AK
+sen-2023-ak-akwa-ibom-north-west,Godswill Akpabio,APC,APC,0,wikipedia:senate:2023:AK
+sen-2023-ak-akwa-ibom-south,Ekong Sampson,PDP,PDP,0,wikipedia:senate:2023:AK
+sen-2023-an-anambra-central,Victor Umeh,LP,LP,0,wikipedia:senate:2023:AN
+sen-2023-an-anambra-north,Tony Nwoye,LP,LP,0,wikipedia:senate:2023:AN
+sen-2023-an-anambra-south,Ifeanyi Ubah,YPP,OTHER,0,wikipedia:senate:2023:AN
+sen-2023-ba-bauchi-central,Uba Ahmed Nana,APC,APC,84621,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-central,Abdul Ahmed Ningi,PDP,PDP,104878,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-north,Siraj Ibrahim Tanko Muhammad,APC,APC,100246,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-north,Sama'ila Dahuwa,PDP,PDP,102043,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,Yahaya Idris,ADP,OTHER,1059,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,Idris Hassan,APP,APC,951,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,Naziru Dahiru Usman,ADC,ADC,1020,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,Shehu Buba Umar,APC,APC,175505,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,Muhammed Chindo,APGA,APGA,1075,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,Sani Ahmad,LP,LP,7130,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,Lawal Yahaya Gumau,NNPP,NNPP,53739,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,Dahiru Garba,PDP,PDP,165727,wikipedia:senate:2023:BA
+sen-2023-by-bayelsa-central,Kombowei Benson,PDP,PDP,0,wikipedia:senate:2023:BY
+sen-2023-by-bayelsa-east,Benson Agadaga,PDP,PDP,0,wikipedia:senate:2023:BY
+sen-2023-by-bayelsa-west,Henry Seriake Dickson,PDP,PDP,0,wikipedia:senate:2023:BY
+sen-2023-be-benue-north-east,Emmanuel Memga Udende,APC,APC,0,wikipedia:senate:2023:BE
+sen-2023-be-benue-north-west,Titus Zam,APC,APC,0,wikipedia:senate:2023:BE
+sen-2023-be-benue-south,Patrick Abba Moro,PDP,PDP,0,wikipedia:senate:2023:BE
+sen-2023-bo-borno-central,Shehu Lawan,APC,APC,0,wikipedia:senate:2023:BO
+sen-2023-bo-borno-north,Mohammed Tahir Monguno,APC,APC,0,wikipedia:senate:2023:BO
+sen-2023-bo-borno-south,Mohammed Ali Ndume,APC,APC,0,wikipedia:senate:2023:BO
+sen-2023-cr-cross-river-central,Eteng Williams,APC,APC,0,wikipedia:senate:2023:CR
+sen-2023-cr-cross-river-north,Agom Jarigbe,PDP,PDP,0,wikipedia:senate:2023:CR
+sen-2023-cr-cross-river-south,Asuquo Ekpenyong,APC,APC,0,wikipedia:senate:2023:CR
+sen-2023-de-delta-central,Ede Dafinone,APC,APC,0,wikipedia:senate:2023:DE
+sen-2023-de-delta-north,Ned Nwoko,PDP,PDP,0,wikipedia:senate:2023:DE
+sen-2023-de-delta-south,Joel-Onowakpo Thomas,APC,APC,0,wikipedia:senate:2023:DE
+sen-2023-eb-ebonyi-central,Kenneth Eze,APC,APC,0,wikipedia:senate:2023:EB
+sen-2023-eb-ebonyi-north,Onyekachi Nwaebonyi,APC,APC,0,wikipedia:senate:2023:EB
+sen-2023-eb-ebonyi-south,Dave Umahi,APC,APC,0,wikipedia:senate:2023:EB
+sen-2023-ed-edo-central,Monday Okpebholo,APC,APC,0,wikipedia:senate:2023:ED
+sen-2023-ed-edo-north,Adams Oshiomhole,APC,APC,0,wikipedia:senate:2023:ED
+sen-2023-ed-edo-south,Neda Imasuen,LP,LP,0,wikipedia:senate:2023:ED
+sen-2023-ek-ekiti-central,Michael Opeyemi Bamidele,APC,APC,0,wikipedia:senate:2023:EK
+sen-2023-ek-ekiti-north,Cyril Fasuyi,APC,APC,0,wikipedia:senate:2023:EK
+sen-2023-ek-ekiti-south,Raphael Adeyemi Adaramodu,APC,APC,0,wikipedia:senate:2023:EK
+sen-2023-go-gombe-central,Mohammed Danjuma Goje,APC,APC,0,wikipedia:senate:2023:GO
+sen-2023-go-gombe-north,Ibrahim Hassan Dankwambo,PDP,PDP,0,wikipedia:senate:2023:GO
+sen-2023-go-gombe-south,Anthony Siyako Yaro,PDP,PDP,0,wikipedia:senate:2023:GO
+sen-2023-im-imo-east,Ezenwa Francis Onyewuchi,LP,LP,0,wikipedia:senate:2023:IM
+sen-2023-im-imo-north,Patrick Ndubueze,APC,APC,0,wikipedia:senate:2023:IM
+sen-2023-im-imo-west,Osita Izunaso,APC,APC,0,wikipedia:senate:2023:IM
+sen-2023-ji-jigawa-north-east,Ahmad Abdulhamid Malam Madori,APC,APC,0,wikipedia:senate:2023:JI
+sen-2023-ji-jigawa-north-west,Babangida Hussaini,APC,APC,0,wikipedia:senate:2023:JI
+sen-2023-ji-jigawa-south-west,Mustapha Khabeeb,PDP,PDP,0,wikipedia:senate:2023:JI
+sen-2023-kd-kaduna-central,Lawal Adamu Usman,PDP,PDP,0,wikipedia:senate:2023:KD
+sen-2023-kd-kaduna-north,Khalid Mustapha,PDP,PDP,0,wikipedia:senate:2023:KD
+sen-2023-kd-kaduna-south,Sunday Marshall Katunɡ,PDP,PDP,0,wikipedia:senate:2023:KD
+sen-2023-kn-kano-central,Abdulkarim Abdulsalam Zaura,APC,APC,168677,wikipedia:senate:2023:KN
+sen-2023-kn-kano-central,Rufai Hanga,NNPP,NNPP,456787,wikipedia:senate:2023:KN
+sen-2023-kn-kano-central,Laila Buhari,PDP,PDP,55237,wikipedia:senate:2023:KN
+sen-2023-kn-kano-north,Barau Jibrin,APC,APC,0,wikipedia:senate:2023:KN
+sen-2023-kn-kano-south,Kabiru Ibrahim Gaya,APC,APC,192518,wikipedia:senate:2023:KN
+sen-2023-kn-kano-south,Suleiman Abdurrahman Kawu Sumaila,NNPP,NNPP,319857,wikipedia:senate:2023:KN
+sen-2023-kn-kano-south,Muhammad Bashir Galadanchi Hussari,PDP,PDP,14880,wikipedia:senate:2023:KN
+sen-2023-kt-katsina-central,Abdul'aziz Musa Yar'adua,APC,APC,0,wikipedia:senate:2023:KT
+sen-2023-kt-katsina-north,Nasiru Sani Zangon Daura,APC,APC,0,wikipedia:senate:2023:KT
+sen-2023-kt-katsina-south,Mohammed Muntari Dandutse,APC,APC,0,wikipedia:senate:2023:KT
+sen-2023-ke-kebbi-central,Adamu Aliero,PDP,PDP,0,wikipedia:senate:2023:KE
+sen-2023-ke-kebbi-south,Garba Musa Maidoki,PDP,PDP,0,wikipedia:senate:2023:KE
+sen-2023-ko-kogi-central,Abubakar Sadiku Ohere,APC,APC,0,wikipedia:senate:2023:KO
+sen-2023-ko-kogi-east,Jibrin Isah,APC,APC,0,wikipedia:senate:2023:KO
+sen-2023-ko-kogi-west,Sunday Karimi,APC,APC,0,wikipedia:senate:2023:KO
+sen-2023-kw-kwara-central,Saliu Mustapha,APC,APC,0,wikipedia:senate:2023:KW
+sen-2023-kw-kwara-north,Suleiman Sadiq Umar,APC,APC,0,wikipedia:senate:2023:KW
+sen-2023-kw-kwara-south,Lola Ashiru,APC,APC,0,wikipedia:senate:2023:KW
+sen-2023-la-lagos-central,Wasiu Eshinlokun Sanni,APC,APC,0,wikipedia:senate:2023:LA
+sen-2023-la-lagos-east,Tokunbo Abiru,APC,APC,0,wikipedia:senate:2023:LA
+sen-2023-la-lagos-west,Oluranti Adebule,APC,APC,0,wikipedia:senate:2023:LA
+sen-2023-na-nasarawa-north,Godiya Akwashiki,SDP,SDP,0,wikipedia:senate:2023:NA
+sen-2023-na-nasarawa-south,Mohammed Ogoshi Onawo,PDP,PDP,0,wikipedia:senate:2023:NA
+sen-2023-na-nasarawa-west,Ahmed Aliyu Wadada,SDP,SDP,0,wikipedia:senate:2023:NA
+sen-2023-ni-niger-east,Sani Musa,APC,APC,0,wikipedia:senate:2023:NI
+sen-2023-ni-niger-north,Abubakar Sani Bello,APC,APC,0,wikipedia:senate:2023:NI
+sen-2023-ni-niger-south,Peter Ndalikali Jiya,PDP,PDP,0,wikipedia:senate:2023:NI
+sen-2023-og-ogun-central,Shuaibu Salisu,APC,APC,0,wikipedia:senate:2023:OG
+sen-2023-og-ogun-east,Gbenga Daniel,APC,APC,0,wikipedia:senate:2023:OG
+sen-2023-og-ogun-west,Solomon Olamilekan Adeola,APC,APC,0,wikipedia:senate:2023:OG
+sen-2023-on-ondo-central,Adeniyi Adegbonmire,APC,APC,0,wikipedia:senate:2023:ON
+sen-2023-on-ondo-north,Jide Ipinsagba,APC,APC,0,wikipedia:senate:2023:ON
+sen-2023-on-ondo-south,Jimoh Ibrahim,APC,APC,0,wikipedia:senate:2023:ON
+sen-2023-os-osun-central,Olubiyi Fadeyi,PDP,PDP,0,wikipedia:senate:2023:OS
+sen-2023-os-osun-east,Francis Adenigba Fadahunsi,PDP,PDP,0,wikipedia:senate:2023:OS
+sen-2023-os-osun-west,Lere Oyewumi,PDP,PDP,0,wikipedia:senate:2023:OS
+sen-2023-oy-oyo-central,Yunus Akintunde,APC,APC,0,wikipedia:senate:2023:OY
+sen-2023-oy-oyo-north,Abdulfatai Buhari,APC,APC,0,wikipedia:senate:2023:OY
+sen-2023-oy-oyo-south,Sharafadeen Alli,APC,APC,0,wikipedia:senate:2023:OY
+sen-2023-pl-plateau-central,Diket Plang,APC,APC,0,wikipedia:senate:2023:PL
+sen-2023-pl-plateau-north,Simon Mwadkwon,PDP,PDP,0,wikipedia:senate:2023:PL
+sen-2023-pl-plateau-south,Napoleon Bali,PDP,PDP,0,wikipedia:senate:2023:PL
+sen-2023-ri-rivers-east,Allwell Onyeso,PDP,PDP,0,wikipedia:senate:2023:RI
+sen-2023-ri-rivers-south-east,Barry Mpigi,PDP,PDP,0,wikipedia:senate:2023:RI
+sen-2023-ri-rivers-west,Ipalibo Banigo,PDP,PDP,0,wikipedia:senate:2023:RI
+sen-2023-so-sokoto-east,Ibrahim Lamido,APC,APC,0,wikipedia:senate:2023:SO
+sen-2023-so-sokoto-north,Aliyu Magatakarda Wamakko,APC,APC,0,wikipedia:senate:2023:SO
+sen-2023-so-sokoto-south,Aminu Waziri Tambuwal,PDP,PDP,0,wikipedia:senate:2023:SO
+sen-2023-ta-taraba-central,Haruna Manu,PDP,PDP,0,wikipedia:senate:2023:TA
+sen-2023-ta-taraba-north,Shuaibu Isa Lau,PDP,PDP,0,wikipedia:senate:2023:TA
+sen-2023-ta-taraba-south,David Jimkuta,APC,APC,0,wikipedia:senate:2023:TA
+sen-2023-yo-yobe-east,Ibrahim Gaidam,APC,APC,0,wikipedia:senate:2023:YO
+sen-2023-yo-yobe-north,Ahmad Lawan,APC,APC,0,wikipedia:senate:2023:YO
+sen-2023-yo-yobe-south,Ibrahim Mohammed Bomai,APC,APC,0,wikipedia:senate:2023:YO
+sen-2023-za-zamfara-central,Ikira Aliyu Bilbis,PDP,PDP,0,wikipedia:senate:2023:ZA
+sen-2023-za-zamfara-north,Sahabi Alhaji Yaú,APC,APC,0,wikipedia:senate:2023:ZA
+sen-2023-za-zamfara-west,Abdul'aziz Abubakar Yari,APC,APC,147346,wikipedia:senate:2023:ZA
+sen-2023-za-zamfara-west,Abdulmalik Adamu,NNPP,NNPP,363,wikipedia:senate:2023:ZA
+sen-2023-za-zamfara-west,Muhammed Bello Sarkin-Fagon,PDP,PDP,5583,wikipedia:senate:2023:ZA
+reps-2015-by-brass-nembe,Jephthah Foingha,PDP,PDP,0,wikipedia:reps:2015:BY
+reps-2015-by-ogbia,Sodaguno Festus Omoni,PDP,PDP,0,wikipedia:reps:2015:BY
+reps-2015-by-sagbama-ekeremor,Agbedi Fredrick,PDP,PDP,0,wikipedia:reps:2015:BY
+reps-2015-by-southern-ijaw,Henry Ofongo,PDP,PDP,0,wikipedia:reps:2015:BY
+reps-2015-by-yenagoa-kolokuna-opokuma,Douye Diri,PDP,PDP,0,wikipedia:reps:2015:BY
+reps-2015-kn-albasu-gaya-ajingi,Abdullahi Mahmud Gaya,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-bebeji-kiru,Abdulmumin Jibrin,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-bichi,Ahmed Garba Bichi,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-dala,Aliyu Sani Madaki,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-danbatta-makoda,Ayuba Badamasi,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-doguwa-tudun-wada,Alhassan Ado Garba D.,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-dawakin-kudu-warawa,Mustapha Dawaki,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-dawakin-tofa-tofa-rimin-gado,Jobe Tijjani Abdulkadir,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-fagge,Sulaiman Aminu,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-gabasawa-gezawa,Musa Ado,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-gwarzo-kabo,Nasiru Garo Sule,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-gwale,Garba Ibrahim Mohammed,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-kumbotso,Dan Agundi Munir Babba,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-kano-municipal,Danburam Abubakar Nuhu,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-kunchi-tsanyawa,Bala Sani Umar,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-karaye-rogo,Shehu Usman Aliyu,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-kura-madobi-garun-malam,Muktar Mohammed Chiromawa,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-minjibir-ungogo,Bashir Baballe,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-nasarawa,Nassir Ali Ahmad,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-rano-bunkure-kibiya,Sani Muhammad Aliyu,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-sumaila-takai,Garba Umar Durbunde,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-shanono-bagwai,Sulaiman Aliyu Romo,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-tarauni,Nasiru Baballe Ila,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kn-wudil-garko,Wudil Muhammad Ali,APC,APC,0,wikipedia:reps:2015:KN
+reps-2015-kw-asa-ilorin-west,Razak Olatunde Atunwa,APC,APC,0,wikipedia:reps:2015:KW
+reps-2015-kw-baruten-kaiama,Zakari Mohammed,APC,APC,0,wikipedia:reps:2015:KW
+reps-2015-kw-edu-moro-patigi,Aliyu Ahman-Pategi,APC,APC,0,wikipedia:reps:2015:KW
+reps-2015-kw-ekiti-isin-irepodun-oke-ero,Olufunke Adedoyin,APC,APC,0,wikipedia:reps:2015:KW
+reps-2015-kw-ilorin-east-south,Abubakar Amuda-Kannike Garba,APC,APC,0,wikipedia:reps:2015:KW
+reps-2015-kw-offa-oyun-ifelodun,Olayonu Olarinoye Tope,APC,APC,0,wikipedia:reps:2015:KW
+reps-2015-la-agege,Taofeek Adaranijo,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-ajeromi-ifelodun,Rita Orji,PDP,PDP,0,wikipedia:reps:2015:LA
+reps-2015-la-alimosho,Olufemi Adebanjo,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-amuwo-odofin,Oghene Egoh,PDP,PDP,0,wikipedia:reps:2015:LA
+reps-2015-la-apapa,Ayodeji Joseph,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-badagry,Bamgbose Joseph,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-epe,Tasir Raji,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-eti-osa,Babajide Hazeez,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-ibeju-lekki,Abayomi Abdul-Kabir Ayeola,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-ifako-ijaiye,Adewale Oluwatayo,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-ikeja,Abiodun Faleke,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-ikorodu,Babajimi Benson,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-kosofe,Agunsoye Oluwarotimi,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-lagos-island-i,Enitan Badru,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-lagos-island-ii,Balogun Yakub Abiodun,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-lagos-mainland,Jimoh Abdul,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-mushin-i,Dauda Kako Are,A,OTHER,0,wikipedia:reps:2015:LA
+reps-2015-la-mushin-ii,Bolaji Ayinla,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-ojo,Tajudeen Obasa,PDP,PDP,0,wikipedia:reps:2015:LA
+reps-2015-la-oshodi-isolo-i,Mutiu Shadimu,PDP,PDP,0,wikipedia:reps:2015:LA
+reps-2015-la-oshodi-isolo-ii,Tony Nwulu,PDP,PDP,0,wikipedia:reps:2015:LA
+reps-2015-la-shomolu,Oyewole Diya,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-surulere-i,Femi Gbajabiamila,APC,APC,0,wikipedia:reps:2015:LA
+reps-2015-la-surulere-ii,Olatunji Soyinka,PDP,PDP,0,wikipedia:reps:2015:LA
+reps-2015-na-nasarawa-toto,Musa Onwana Baba,APC,APC,0,wikipedia:reps:2015:NA
+reps-2015-na-lafia-obi,Abubakar Sarki Dahiru,APC,APC,0,wikipedia:reps:2015:NA
+reps-2015-na-keffi-karu-kokona,Gaza Jonathan Gbefwi,PDP,PDP,0,wikipedia:reps:2015:NA
+reps-2015-na-awe-doma-keana,Mohammed Ogoshi Onawo,PDP,PDP,0,wikipedia:reps:2015:NA
+reps-2015-na-akwanga-nasarawa-eggon-wamba,David Ombugadu,PDP,PDP,0,wikipedia:reps:2015:NA
+reps-2015-ta-bali-gassol,Garba Hamman-Julde Chede,APC,APC,0,wikipedia:reps:2015:TA
+reps-2015-ta-jalingo-yorro-zing,Aminu Ibrahim Malle,APC,APC,0,wikipedia:reps:2015:TA
+reps-2015-ta-karim-lamido-lau-ardo-kola,Baido Danladi Tijos,PDP,PDP,0,wikipedia:reps:2015:TA
+reps-2015-ta-sardauna-gashaka-kurmi,Danasabe Charles Hosea,PDP,PDP,0,wikipedia:reps:2015:TA
+reps-2015-ta-takuma-donga-ussa,Rima M Shawulu Kwewum,PDP,PDP,0,wikipedia:reps:2015:TA
+reps-2015-ta-wukari-ibi,Shiddi Usman Danjuma,APGA,APGA,0,wikipedia:reps:2015:TA
+reps-2019-ab-aba-north-aba-south,Ossy Prestige,APGA,APGA,17496,wikipedia:reps:2019:AB
+reps-2019-ab-aba-north-aba-south,Uzo Azubuike,PDP,PDP,11009,wikipedia:reps:2019:AB
+reps-2019-ab-aba-north-aba-south,Others,OTH,OTHER,3634,wikipedia:reps:2019:AB
+reps-2019-ab-arochukwu-ohafia,Uko Nkole,PDP,PDP,5723,wikipedia:reps:2019:AB
+reps-2019-ab-arochukwu-ohafia,Nnamdi Iro Oji,APC,APC,5496,wikipedia:reps:2019:AB
+reps-2019-ab-arochukwu-ohafia,Others,OTH,OTHER,5287,wikipedia:reps:2019:AB
+reps-2019-ab-bende,Benjamin Kalu,APC,APC,9138,wikipedia:reps:2019:AB
+reps-2019-ab-bende,Anyaso Chimobi Desmond,PDP,PDP,5591,wikipedia:reps:2019:AB
+reps-2019-ab-bende,Others,OTH,OTHER,2919,wikipedia:reps:2019:AB
+reps-2019-ab-isiala-ngwa-north-isiala-ngwa-south,Darlington Nwokocha,PDP,PDP,20627,wikipedia:reps:2019:AB
+reps-2019-ab-isiala-ngwa-north-isiala-ngwa-south,Blessing Uwaoma Nwokonneya,APC,APC,6922,wikipedia:reps:2019:AB
+reps-2019-ab-isiala-ngwa-north-isiala-ngwa-south,Others,OTH,OTHER,6888,wikipedia:reps:2019:AB
+reps-2019-ab-isuikwuato-umunneochi,Nkeiruka Onyejeocha,APC,APC,14712,wikipedia:reps:2019:AB
+reps-2019-ab-isuikwuato-umunneochi,Jude Udeachara,PDP,PDP,10064,wikipedia:reps:2019:AB
+reps-2019-ab-isuikwuato-umunneochi,Others,OTH,OTHER,3412,wikipedia:reps:2019:AB
+reps-2019-ab-obingwa-ugwunagbo-osisioma,Solomon Adaelu,PDP,PDP,41024,wikipedia:reps:2019:AB
+reps-2019-ab-obingwa-ugwunagbo-osisioma,Nwamgwa Charles Lawrence,APGA,APGA,6117,wikipedia:reps:2019:AB
+reps-2019-ab-obingwa-ugwunagbo-osisioma,Others,OTH,OTHER,6478,wikipedia:reps:2019:AB
+reps-2019-ab-ukwa-east-west,Uzoma Nkem-Abonta,PDP,PDP,7007,wikipedia:reps:2019:AB
+reps-2019-ab-ukwa-east-west,Nwoloki Lucy Eze,APGA,APGA,4488,wikipedia:reps:2019:AB
+reps-2019-ab-ukwa-east-west,Others,OTH,OTHER,4646,wikipedia:reps:2019:AB
+reps-2019-ab-umuahia-north-south-ikwuano,Samuel Onuigbo,PDP,PDP,30669,wikipedia:reps:2019:AB
+reps-2019-ab-umuahia-north-south-ikwuano,Apugo Martin Ikechukwu,APC,APC,23279,wikipedia:reps:2019:AB
+reps-2019-ab-umuahia-north-south-ikwuano,Others,OTH,OTHER,12662,wikipedia:reps:2019:AB
+reps-2019-ad-demsa-numan-lamurde,Kwamoti Bitrus Laori,PDP,PDP,69580,wikipedia:reps:2019:AD
+reps-2019-ad-demsa-numan-lamurde,Olvadi Bema Madayi,APC,APC,28546,wikipedia:reps:2019:AD
+reps-2019-ad-demsa-numan-lamurde,Others,OTH,OTHER,3982,wikipedia:reps:2019:AD
+reps-2019-ad-fufore-song,Mohammed M. Saidu,PDP,PDP,36769,wikipedia:reps:2019:AD
+reps-2019-ad-fufore-song,Sadiq Ibrahim,APC,APC,34379,wikipedia:reps:2019:AD
+reps-2019-ad-fufore-song,Others,OTH,OTHER,15171,wikipedia:reps:2019:AD
+reps-2019-ad-gombi-hong,Yusuf Yakub,APC,APC,30424,wikipedia:reps:2019:AD
+reps-2019-ad-gombi-hong,Pukuma James Tartus,PDP,PDP,27922,wikipedia:reps:2019:AD
+reps-2019-ad-gombi-hong,Others,OTH,OTHER,18145,wikipedia:reps:2019:AD
+reps-2019-ad-guyuk-shelleng,Gideon Goroki,PDP,PDP,32688,wikipedia:reps:2019:AD
+reps-2019-ad-guyuk-shelleng,Ahmaou Philip Gutuwa,APC,APC,20988,wikipedia:reps:2019:AD
+reps-2019-ad-guyuk-shelleng,Others,OTH,OTHER,6950,wikipedia:reps:2019:AD
+reps-2019-ad-madagali-michika,Zakaria Dauda Nyampa,PDP,PDP,40332,wikipedia:reps:2019:AD
+reps-2019-ad-madagali-michika,Adamu Usman,APC,APC,19317,wikipedia:reps:2019:AD
+reps-2019-ad-madagali-michika,Others,OTH,OTHER,8782,wikipedia:reps:2019:AD
+reps-2019-ad-maiha-mubi-north-mubi-south,Ja'Afar Abubakar Magaji,APC,APC,43117,wikipedia:reps:2019:AD
+reps-2019-ad-maiha-mubi-north-mubi-south,Umar Babangida Maina,PDP,PDP,31677,wikipedia:reps:2019:AD
+reps-2019-ad-maiha-mubi-north-mubi-south,Others,OTH,OTHER,11723,wikipedia:reps:2019:AD
+reps-2019-ad-mayo-belwa-toungo-jada-ganye,Abdulrazak Namdas,APC,APC,62374,wikipedia:reps:2019:AD
+reps-2019-ad-mayo-belwa-toungo-jada-ganye,Kabiru Muktar,PDP,PDP,61436,wikipedia:reps:2019:AD
+reps-2019-ad-mayo-belwa-toungo-jada-ganye,Others,OTH,OTHER,5195,wikipedia:reps:2019:AD
+reps-2019-ad-yola-north-yola-south-girei,Jafaru Suleiman Ribadu,PDP,PDP,0,wikipedia:reps:2019:AD
+reps-2019-ak-abak-etim-ekpo-ika,Aniekan John Umanah,PDP,PDP,31720,wikipedia:reps:2019:AK
+reps-2019-ak-abak-etim-ekpo-ika,Ekon Emmanuel,APC,APC,13496,wikipedia:reps:2019:AK
+reps-2019-ak-abak-etim-ekpo-ika,Others,OTH,OTHER,101,wikipedia:reps:2019:AK
+reps-2019-ak-eket-onna-esit-eket-ibeno,Ifon Patrick,PDP,PDP,61580,wikipedia:reps:2019:AK
+reps-2019-ak-eket-onna-esit-eket-ibeno,Akpabio Alex Kufre,APC,APC,11263,wikipedia:reps:2019:AK
+reps-2019-ak-eket-onna-esit-eket-ibeno,Others,OTH,OTHER,94,wikipedia:reps:2019:AK
+reps-2019-ak-etinan-nsit-ibom-nsit-ubium,Onofiok Luke,PDP,PDP,44833,wikipedia:reps:2019:AK
+reps-2019-ak-etinan-nsit-ibom-nsit-ubium,Akpan Daniel,APC,APC,15800,wikipedia:reps:2019:AK
+reps-2019-ak-etinan-nsit-ibom-nsit-ubium,Others,OTH,OTHER,171,wikipedia:reps:2019:AK
+reps-2019-ak-ikono-ini,Emmanuel Ukpongudo,PDP,PDP,21622,wikipedia:reps:2019:AK
+reps-2019-ak-ikono-ini,Idiong Effiong,APC,APC,7997,wikipedia:reps:2019:AK
+reps-2019-ak-ikono-ini,Others,OTH,OTHER,23,wikipedia:reps:2019:AK
+reps-2019-ak-ikot-abasi-mkpat-enin-eastern-obolo,Francis Uduyok,PDP,PDP,31465,wikipedia:reps:2019:AK
+reps-2019-ak-ikot-abasi-mkpat-enin-eastern-obolo,Bernard Udoh,APC,APC,11026,wikipedia:reps:2019:AK
+reps-2019-ak-ikot-abasi-mkpat-enin-eastern-obolo,Others,OTH,OTHER,26,wikipedia:reps:2019:AK
+reps-2019-ak-ikot-ekpene-essien-udim-obot-akara,Nsikak Ekong,PDP,PDP,29849,wikipedia:reps:2019:AK
+reps-2019-ak-ikot-ekpene-essien-udim-obot-akara,Emmanuel Akpan,APC,APC,22052,wikipedia:reps:2019:AK
+reps-2019-ak-ikot-ekpene-essien-udim-obot-akara,Others,OTH,OTHER,135,wikipedia:reps:2019:AK
+reps-2019-ak-itu-ibiono-ibom,Henry Archibong,PDP,PDP,41459,wikipedia:reps:2019:AK
+reps-2019-ak-itu-ibiono-ibom,Edet Ikotidem,APC,APC,18638,wikipedia:reps:2019:AK
+reps-2019-ak-itu-ibiono-ibom,Others,OTH,OTHER,60,wikipedia:reps:2019:AK
+reps-2019-ak-oron-mbo-okobo-udung-uko-urue-offong-oruko,Nse Ekpenyong,PDP,PDP,30878,wikipedia:reps:2019:AK
+reps-2019-ak-oron-mbo-okobo-udung-uko-urue-offong-oruko,Victor Antai,APC,APC,27477,wikipedia:reps:2019:AK
+reps-2019-ak-oron-mbo-okobo-udung-uko-urue-offong-oruko,Others,OTH,OTHER,67,wikipedia:reps:2019:AK
+reps-2019-ak-ukanafun-oruk-anam,Unyime Idem,PDP,PDP,57443,wikipedia:reps:2019:AK
+reps-2019-ak-ukanafun-oruk-anam,Emmanuel Ukoette,APC,APC,17190,wikipedia:reps:2019:AK
+reps-2019-ak-ukanafun-oruk-anam,Others,OTH,OTHER,214,wikipedia:reps:2019:AK
+reps-2019-ak-uyo-uruan-nsit-atai-ibesikpo-asutan,Michael Enyong,PDP,PDP,57712,wikipedia:reps:2019:AK
+reps-2019-ak-uyo-uruan-nsit-atai-ibesikpo-asutan,Ekerete Edem Ekpenyong,APC,APC,10995,wikipedia:reps:2019:AK
+reps-2019-ak-uyo-uruan-nsit-atai-ibesikpo-asutan,Others,OTH,OTHER,327,wikipedia:reps:2019:AK
+reps-2019-an-aguata,Umeoji Chukwuma Michael,APGA,APGA,15942,wikipedia:reps:2019:AN
+reps-2019-an-aguata,Azodo Eucharia,PDP,PDP,12440,wikipedia:reps:2019:AN
+reps-2019-an-aguata,Others,OTH,OTHER,8404,wikipedia:reps:2019:AN
+reps-2019-an-anambra-east-west,Obidigwe Chinedu Benjamin,APGA,APGA,28657,wikipedia:reps:2019:AN
+reps-2019-an-anambra-east-west,Nwoye Ernest Anichebe,PDP,PDP,9574,wikipedia:reps:2019:AN
+reps-2019-an-anambra-east-west,Others,OTH,OTHER,5659,wikipedia:reps:2019:AN
+reps-2019-an-awka-north-south,Onwuaso Chinedu,PDP,PDP,32579,wikipedia:reps:2019:AN
+reps-2019-an-awka-north-south,Nnebe Anayo,APGA,APGA,16317,wikipedia:reps:2019:AN
+reps-2019-an-awka-north-south,Others,OTH,OTHER,7772,wikipedia:reps:2019:AN
+reps-2019-an-idemili-north-south,Ibezi Ifeanyi Anthony,APGA,APGA,29566,wikipedia:reps:2019:AN
+reps-2019-an-idemili-north-south,Obinna Chidoka,PDP,PDP,26026,wikipedia:reps:2019:AN
+reps-2019-an-idemili-north-south,Others,OTH,OTHER,12634,wikipedia:reps:2019:AN
+reps-2019-an-ihiala,Ifeanyi Chudy Momah,APGA,APGA,16759,wikipedia:reps:2019:AN
+reps-2019-an-ihiala,,PDP,PDP,11657,wikipedia:reps:2019:AN
+reps-2019-an-ihiala,Others,OTH,OTHER,4821,wikipedia:reps:2019:AN
+reps-2019-an-njikoka-dunukofia-anaocha,,PDP,PDP,41708,wikipedia:reps:2019:AN
+reps-2019-an-njikoka-dunukofia-anaocha,Nwankwo Ferdinand Dozi,APGA,APGA,36355,wikipedia:reps:2019:AN
+reps-2019-an-njikoka-dunukofia-anaocha,Others,OTH,OTHER,9729,wikipedia:reps:2019:AN
+reps-2019-an-nnewi-north-south-ekwusigo,Chris Emeka Azubogu,PDP,PDP,54533,wikipedia:reps:2019:AN
+reps-2019-an-nnewi-north-south-ekwusigo,Nwabunike Anthony Iju,APGA,APGA,18811,wikipedia:reps:2019:AN
+reps-2019-an-nnewi-north-south-ekwusigo,Others,OTH,OTHER,9629,wikipedia:reps:2019:AN
+reps-2019-an-ogbaru,Onyema Chukwuka,PDP,PDP,21077,wikipedia:reps:2019:AN
+reps-2019-an-ogbaru,Nwaebili Chinwe Clare,APGA,APGA,4551,wikipedia:reps:2019:AN
+reps-2019-an-ogbaru,Others,OTH,OTHER,4238,wikipedia:reps:2019:AN
+reps-2019-an-onitsha-north-south,Lynda Chuba Ikpeazu,PDP,PDP,55103,wikipedia:reps:2019:AN
+reps-2019-an-onitsha-north-south,Patrick Obianwu Nwachi,APGA,APGA,12145,wikipedia:reps:2019:AN
+reps-2019-an-onitsha-north-south,Others,OTH,OTHER,2053,wikipedia:reps:2019:AN
+reps-2019-an-orumba-north-south,Ezenwankwo Okwudili Christopher,APGA,APGA,16307,wikipedia:reps:2019:AN
+reps-2019-an-orumba-north-south,Chinwe Nnabuife Clara,YPP,OTHER,14751,wikipedia:reps:2019:AN
+reps-2019-an-orumba-north-south,Others,OTH,OTHER,13504,wikipedia:reps:2019:AN
+reps-2019-an-oyi-ayamelum,Vincent Ofumelu,PDP,PDP,26195,wikipedia:reps:2019:AN
+reps-2019-an-oyi-ayamelum,Ekene Enefe,APGA,APGA,17185,wikipedia:reps:2019:AN
+reps-2019-an-oyi-ayamelum,Chinedu Eluemunoh,APC,APC,4238,wikipedia:reps:2019:AN
+reps-2019-by-brass-nembe,Israel Sunny Goli,APC,APC,41150,wikipedia:reps:2019:BY
+reps-2019-by-brass-nembe,Ebikake Marie Enenimiete,PDP,PDP,19279,wikipedia:reps:2019:BY
+reps-2019-by-brass-nembe,Others,OTH,OTHER,2030,wikipedia:reps:2019:BY
+reps-2019-by-ogbia,Obua Azibapu Fred,PDP,PDP,12048,wikipedia:reps:2019:BY
+reps-2019-by-ogbia,Rex-ogbuku Jude Amiditor,ADC,ADC,9805,wikipedia:reps:2019:BY
+reps-2019-by-ogbia,Others,OTH,OTHER,11370,wikipedia:reps:2019:BY
+reps-2019-by-sagbama-ekeremor,Agbedi Yeitiemone Frederick,PDP,PDP,48068,wikipedia:reps:2019:BY
+reps-2019-by-sagbama-ekeremor,Daunemigha Famous Oroupafebo,APC,APC,19159,wikipedia:reps:2019:BY
+reps-2019-by-sagbama-ekeremor,Others,OTH,OTHER,485,wikipedia:reps:2019:BY
+reps-2019-by-southern-ijaw,Preye Influence Goodluck Oseke,APC,APC,56804,wikipedia:reps:2019:BY
+reps-2019-by-southern-ijaw,Benson Friday Konbowei,PDP,PDP,34105,wikipedia:reps:2019:BY
+reps-2019-by-southern-ijaw,Others,OTH,OTHER,1632,wikipedia:reps:2019:BY
+reps-2019-by-yenagoa-kolokuna-opokuma,Stephen Sinikiem Azaiki,PDP,PDP,51638,wikipedia:reps:2019:BY
+reps-2019-by-yenagoa-kolokuna-opokuma,Blankson Edwin Osomkime,APC,APC,16992,wikipedia:reps:2019:BY
+reps-2019-by-yenagoa-kolokuna-opokuma,Others,OTH,OTHER,952,wikipedia:reps:2019:BY
+reps-2019-be-ado-obadigbo-opkokwu,Francis Agbo,PDP,PDP,29340,wikipedia:reps:2019:BE
+reps-2019-be-ado-obadigbo-opkokwu,Abdulfatai Adeyemi,APC,APC,15371,wikipedia:reps:2019:BE
+reps-2019-be-ado-obadigbo-opkokwu,Others,OTH,OTHER,6181,wikipedia:reps:2019:BE
+reps-2019-be-apa-agatu,Godday Samuel,LP,LP,11109,wikipedia:reps:2019:BE
+reps-2019-be-apa-agatu,Adamu Entonu,PDP,PDP,10867,wikipedia:reps:2019:BE
+reps-2019-be-apa-agatu,Others,OTH,OTHER,9920,wikipedia:reps:2019:BE
+reps-2019-be-buruku,Kpam Sokpo,PDP,PDP,20804,wikipedia:reps:2019:BE
+reps-2019-be-buruku,Joseph Ityav,APC,APC,13664,wikipedia:reps:2019:BE
+reps-2019-be-buruku,Others,OTH,OTHER,6618,wikipedia:reps:2019:BE
+reps-2019-be-gboko-tarka,John Dyegh,APC,APC,48239,wikipedia:reps:2019:BE
+reps-2019-be-gboko-tarka,Bernard Nenger,PDP,PDP,35916,wikipedia:reps:2019:BE
+reps-2019-be-gboko-tarka,Others,OTH,OTHER,623,wikipedia:reps:2019:BE
+reps-2019-be-guma-makurdi,Benjamin Mzondu,PDP,PDP,50454,wikipedia:reps:2019:BE
+reps-2019-be-guma-makurdi,Conrad Utaan,APC,APC,37743,wikipedia:reps:2019:BE
+reps-2019-be-guma-makurdi,Others,OTH,OTHER,11079,wikipedia:reps:2019:BE
+reps-2019-be-gwer-east-gwer-west,Mark Gbillah,PDP,PDP,32249,wikipedia:reps:2019:BE
+reps-2019-be-gwer-east-gwer-west,Ademola Omotoso,APC,APC,17298,wikipedia:reps:2019:BE
+reps-2019-be-gwer-east-gwer-west,Others,OTH,OTHER,2841,wikipedia:reps:2019:BE
+reps-2019-be-katsina-ala-ukum-logo,Richard Gbande,PDP,PDP,54573,wikipedia:reps:2019:BE
+reps-2019-be-katsina-ala-ukum-logo,Solomon Wombo,APC,APC,25524,wikipedia:reps:2019:BE
+reps-2019-be-katsina-ala-ukum-logo,Others,OTH,OTHER,37020,wikipedia:reps:2019:BE
+reps-2019-be-konshisha-vandeikya,Herman Hembe,APGA,APGA,35187,wikipedia:reps:2019:BE
+reps-2019-be-konshisha-vandeikya,Dorathy Mato,APC,APC,29280,wikipedia:reps:2019:BE
+reps-2019-be-konshisha-vandeikya,Others,OTH,OTHER,24074,wikipedia:reps:2019:BE
+reps-2019-be-kwande-ushongo,Robert Tyough,PDP,PDP,34439,wikipedia:reps:2019:BE
+reps-2019-be-kwande-ushongo,Benjamin Wayo,APC,APC,24306,wikipedia:reps:2019:BE
+reps-2019-be-kwande-ushongo,Others,OTH,OTHER,24776,wikipedia:reps:2019:BE
+reps-2019-be-oju-obi,David Ogewu,APGA,APGA,12794,wikipedia:reps:2019:BE
+reps-2019-be-oju-obi,Michael Okunlade,PDP,PDP,6759,wikipedia:reps:2019:BE
+reps-2019-be-oju-obi,Others,OTH,OTHER,6037,wikipedia:reps:2019:BE
+reps-2019-be-otukpo-ohimini,Blessing Onuh,APGA,APGA,24665,wikipedia:reps:2019:BE
+reps-2019-be-otukpo-ohimini,Egli Ahubi,PDP,PDP,16725,wikipedia:reps:2019:BE
+reps-2019-be-otukpo-ohimini,Others,OTH,OTHER,10788,wikipedia:reps:2019:BE
+reps-2019-cr-abi-yakurr,Alex Egbona,APC,APC,29432,wikipedia:reps:2019:CR
+reps-2019-cr-abi-yakurr,John Gaul Lebo,PDP,PDP,26971,wikipedia:reps:2019:CR
+reps-2019-cr-abi-yakurr,Others,OTH,OTHER,453,wikipedia:reps:2019:CR
+reps-2019-cr-akpabuyo-bakassi-calabar-south,Essien Ayi,PDP,PDP,25707,wikipedia:reps:2019:CR
+reps-2019-cr-akpabuyo-bakassi-calabar-south,Dominic Edem,APC,APC,18946,wikipedia:reps:2019:CR
+reps-2019-cr-akpabuyo-bakassi-calabar-south,Others,OTH,OTHER,964,wikipedia:reps:2019:CR
+reps-2019-cr-akamkpa-biase,Daniel Effiong,PDP,PDP,28071,wikipedia:reps:2019:CR
+reps-2019-cr-akamkpa-biase,Mkpanam Obo-bassey Ekpo,APC,APC,18835,wikipedia:reps:2019:CR
+reps-2019-cr-akamkpa-biase,Others,OTH,OTHER,144,wikipedia:reps:2019:CR
+reps-2019-cr-calabar-municipal-odukpani,Edim Eta,PDP,PDP,32769,wikipedia:reps:2019:CR
+reps-2019-cr-calabar-municipal-odukpani,Bassey Ekpenyong Akiba,APC,APC,16788,wikipedia:reps:2019:CR
+reps-2019-cr-calabar-municipal-odukpani,Others,OTH,OTHER,466,wikipedia:reps:2019:CR
+reps-2019-cr-ikom-boki,Ngoro Adigbe,PDP,PDP,38456,wikipedia:reps:2019:CR
+reps-2019-cr-ikom-boki,Victor Abang,APC,APC,29977,wikipedia:reps:2019:CR
+reps-2019-cr-ikom-boki,Others,OTH,OTHER,2127,wikipedia:reps:2019:CR
+reps-2019-cr-obanliku-obudu-bekwarra,Idagbo Ochiglegor,PDP,PDP,60317,wikipedia:reps:2019:CR
+reps-2019-cr-obanliku-obudu-bekwarra,Koko Agaji,APC,APC,17556,wikipedia:reps:2019:CR
+reps-2019-cr-obanliku-obudu-bekwarra,Others,OTH,OTHER,171,wikipedia:reps:2019:CR
+reps-2019-cr-obubra-etung,Michael Irom Etaba,PDP,PDP,7799,wikipedia:reps:2019:CR
+reps-2019-cr-obubra-etung,Egbe Abeng Egbe,APC,APC,7036,wikipedia:reps:2019:CR
+reps-2019-cr-obubra-etung,Others,OTH,OTHER,492,wikipedia:reps:2019:CR
+reps-2019-cr-ogoja-yala,Agom Jarigbe,PDP,PDP,35006,wikipedia:reps:2019:CR
+reps-2019-cr-ogoja-yala,Jude Ogbeche Ngaji,APC,APC,15100,wikipedia:reps:2019:CR
+reps-2019-cr-ogoja-yala,Others,OTH,OTHER,428,wikipedia:reps:2019:CR
+reps-2019-de-aniocha-oshimili,Ndudi Godwin Elumelu,PDP,PDP,84214,wikipedia:reps:2019:DE
+reps-2019-de-aniocha-oshimili,Adingwupu Paul Azukaego,APC,APC,11104,wikipedia:reps:2019:DE
+reps-2019-de-aniocha-oshimili,Others,OTH,OTHER,526,wikipedia:reps:2019:DE
+reps-2019-de-bomadi-patani,Ebomo Nicholas Mutu,PDP,PDP,75836,wikipedia:reps:2019:DE
+reps-2019-de-bomadi-patani,Eselemo Collins Okubokeyei,APC,APC,5958,wikipedia:reps:2019:DE
+reps-2019-de-bomadi-patani,Others,OTH,OTHER,4444,wikipedia:reps:2019:DE
+reps-2019-de-burutu,Julius Gbabojor Pondi,PDP,PDP,36582,wikipedia:reps:2019:DE
+reps-2019-de-burutu,Etonye Karona Ekiokeyerin,APC,APC,8472,wikipedia:reps:2019:DE
+reps-2019-de-burutu,Others,OTH,OTHER,169,wikipedia:reps:2019:DE
+reps-2019-de-ethiope-east-ethiope-west,Ben Roland Igbakpa,PDP,PDP,34745,wikipedia:reps:2019:DE
+reps-2019-de-ethiope-east-ethiope-west,John Agoda,APC,APC,26374,wikipedia:reps:2019:DE
+reps-2019-de-ethiope-east-ethiope-west,Others,OTH,OTHER,623,wikipedia:reps:2019:DE
+reps-2019-de-ika-north-east-ika-south,Victor Onyemaechi Nwokolo,PDP,PDP,47688,wikipedia:reps:2019:DE
+reps-2019-de-ika-north-east-ika-south,Okoh Sebastine Edokpolor,APC,APC,12481,wikipedia:reps:2019:DE
+reps-2019-de-ika-north-east-ika-south,Others,OTH,OTHER,250,wikipedia:reps:2019:DE
+reps-2019-de-isoko-south-isoko-north,Ogor Leonard Okuweh,PDP,PDP,34000,wikipedia:reps:2019:DE
+reps-2019-de-isoko-south-isoko-north,Joel-onowakpo Thomas E.,APC,APC,23553,wikipedia:reps:2019:DE
+reps-2019-de-isoko-south-isoko-north,Others,OTH,OTHER,942,wikipedia:reps:2019:DE
+reps-2019-de-okpe-sapele-uvwie,Oberuakpefe Anthony Afe,PDP,PDP,36815,wikipedia:reps:2019:DE
+reps-2019-de-okpe-sapele-uvwie,Igbuya Monday Ovwigho,APC,APC,26966,wikipedia:reps:2019:DE
+reps-2019-de-nkokwa-east-ndokwa-west-ukwuani,Ossai Nicholas Ossai,PDP,PDP,53934,wikipedia:reps:2019:DE
+reps-2019-de-nkokwa-east-ndokwa-west-ukwuani,Odili Paul,APC,APC,8690,wikipedia:reps:2019:DE
+reps-2019-de-nkokwa-east-ndokwa-west-ukwuani,Others,OTH,OTHER,3049,wikipedia:reps:2019:DE
+reps-2019-de-ughelli-north-ughelli-south-udu,Waive Ejiroghene Francis,APC,APC,41385,wikipedia:reps:2019:DE
+reps-2019-de-ughelli-north-ughelli-south-udu,Samuel Oghenevwogaga Mariere,PDP,PDP,35126,wikipedia:reps:2019:DE
+reps-2019-de-ughelli-north-ughelli-south-udu,Others,OTH,OTHER,604,wikipedia:reps:2019:DE
+reps-2019-de-warri-north-warri-south-warri-south-west,Thomas Ereyitomi,PDP,PDP,152874,wikipedia:reps:2019:DE
+reps-2019-de-warri-north-warri-south-warri-south-west,Daniel Reyenieju Oritsegbubemi,SDP,SDP,25023,wikipedia:reps:2019:DE
+reps-2019-de-warri-north-warri-south-warri-south-west,Others,OTH,OTHER,20118,wikipedia:reps:2019:DE
+reps-2019-eb-abakaliki-izzi,Sylvester Ogbaga,PDP,PDP,40890,wikipedia:reps:2019:EB
+reps-2019-eb-abakaliki-izzi,Nshii Uchenna Mbam,APC,APC,21541,wikipedia:reps:2019:EB
+reps-2019-eb-abakaliki-izzi,Others,OTH,OTHER,320,wikipedia:reps:2019:EB
+reps-2019-eb-afikpo-north-afikpo-south,Iduma Igariwey,PDP,PDP,28691,wikipedia:reps:2019:EB
+reps-2019-eb-afikpo-north-afikpo-south,Anthony Ogbonna Ekoh,APC,APC,9951,wikipedia:reps:2019:EB
+reps-2019-eb-afikpo-north-afikpo-south,Others,OTH,OTHER,9286,wikipedia:reps:2019:EB
+reps-2019-eb-ezza-north-ishielu,Edwin Anayo,PDP,PDP,34373,wikipedia:reps:2019:EB
+reps-2019-eb-ezza-north-ishielu,Micheal .H. Ifere,APC,APC,13372,wikipedia:reps:2019:EB
+reps-2019-eb-ezza-north-ishielu,Others,OTH,OTHER,1195,wikipedia:reps:2019:EB
+reps-2019-eb-ezza-south-ikwo,Lazarus Ogbee,PDP,PDP,31296,wikipedia:reps:2019:EB
+reps-2019-eb-ezza-south-ikwo,Chinedu Ogar Nweke,APC,APC,27695,wikipedia:reps:2019:EB
+reps-2019-eb-ezza-south-ikwo,Others,OTH,OTHER,204,wikipedia:reps:2019:EB
+reps-2019-eb-ebonyi-ohaukwu,Chukwuma Nwazunku,PDP,PDP,39638,wikipedia:reps:2019:EB
+reps-2019-eb-ebonyi-ohaukwu,Peter Oge Ali,APC,APC,18213,wikipedia:reps:2019:EB
+reps-2019-eb-ebonyi-ohaukwu,Others,OTH,OTHER,547,wikipedia:reps:2019:EB
+reps-2019-eb-ivo-ohaozara-onich,Livinus Makwe,PDP,PDP,68136,wikipedia:reps:2019:EB
+reps-2019-eb-ivo-ohaozara-onich,Odii Festus Ifesinachi,APC,APC,10178,wikipedia:reps:2019:EB
+reps-2019-eb-ivo-ohaozara-onich,Others,OTH,OTHER,4565,wikipedia:reps:2019:EB
+reps-2019-ek-ado-ekiti-irepodun-ifelodun,Fatoba Olusola Steve,APC,APC,55483,wikipedia:reps:2019:EK
+reps-2019-ek-ado-ekiti-irepodun-ifelodun,Oladimeji Ayodele,PDP,PDP,27836,wikipedia:reps:2019:EK
+reps-2019-ek-ado-ekiti-irepodun-ifelodun,Others,OTH,OTHER,549,wikipedia:reps:2019:EK
+reps-2019-ek-ekiti-south-west-ikere-ise-orun,Adaramodu Adeyemi Raphael,APC,APC,41864,wikipedia:reps:2019:EK
+reps-2019-ek-ekiti-south-west-ikere-ise-orun,Adekola Segun Alexander,PDP,PDP,25707,wikipedia:reps:2019:EK
+reps-2019-ek-ekiti-south-west-ikere-ise-orun,Others,OTH,OTHER,524,wikipedia:reps:2019:EK
+reps-2019-ek-emure-gbonyin-ekiti-east,Bamisile Olufemi Richard,APC,APC,37271,wikipedia:reps:2019:EK
+reps-2019-ek-emure-gbonyin-ekiti-east,Awodumila Julius Akinyede,PDP,PDP,26101,wikipedia:reps:2019:EK
+reps-2019-ek-emure-gbonyin-ekiti-east,Others,OTH,OTHER,171,wikipedia:reps:2019:EK
+reps-2019-ek-ido-osi-moba-ilejeme,Olanrewaju Ibrahim Kunle,APC,APC,29388,wikipedia:reps:2019:EK
+reps-2019-ek-ido-osi-moba-ilejeme,Omotoso Nicholas Olusola,PDP,PDP,23684,wikipedia:reps:2019:EK
+reps-2019-ek-ido-osi-moba-ilejeme,Others,OTH,OTHER,138,wikipedia:reps:2019:EK
+reps-2019-ek-ijero-ekiti-west-efon,Ogunlola Omowumi Olubunmi,APC,APC,38372,wikipedia:reps:2019:EK
+reps-2019-ek-ijero-ekiti-west-efon,Kolawole Bisi,PDP,PDP,21227,wikipedia:reps:2019:EK
+reps-2019-ek-ijero-ekiti-west-efon,Others,OTH,OTHER,209,wikipedia:reps:2019:EK
+reps-2019-ek-ikole-oye,Owolabi Peter,APC,APC,31532,wikipedia:reps:2019:EK
+reps-2019-ek-ikole-oye,Agboola Emmanuel Kehinde,PDP,PDP,25366,wikipedia:reps:2019:EK
+reps-2019-ek-ikole-oye,Others,OTH,OTHER,933,wikipedia:reps:2019:EK
+reps-2019-en-aninri-awgu-oji-river,Toby Okechukwu,PDP,PDP,50173,wikipedia:reps:2019:EN
+reps-2019-en-aninri-awgu-oji-river,VinMartin Obiora Ilo,APC,APC,8354,wikipedia:reps:2019:EN
+reps-2019-en-aninri-awgu-oji-river,Others,OTH,OTHER,4193,wikipedia:reps:2019:EN
+reps-2019-en-enugu-east-isi-uzo,Prince Cornelius Nnaji,PDP,PDP,36191,wikipedia:reps:2019:EN
+reps-2019-en-enugu-east-isi-uzo,Ebenyi Kingsley,APC,APC,9222,wikipedia:reps:2019:EN
+reps-2019-en-enugu-east-isi-uzo,Others,OTH,OTHER,193,wikipedia:reps:2019:EN
+reps-2019-en-enugu-north-enugu-south,Ofor Gregory Chukwuegbo,PDP,PDP,38603,wikipedia:reps:2019:EN
+reps-2019-en-enugu-north-enugu-south,Maduka Nelson Arum,APC,APC,13921,wikipedia:reps:2019:EN
+reps-2019-en-enugu-north-enugu-south,Others,OTH,OTHER,3323,wikipedia:reps:2019:EN
+reps-2019-en-ezeagu-udi,Dennis Amadi,PDP,PDP,37755,wikipedia:reps:2019:EN
+reps-2019-en-ezeagu-udi,Mmaniel Joseph Onyemadi,APC,APC,5671,wikipedia:reps:2019:EN
+reps-2019-en-ezeagu-udi,Others,OTH,OTHER,2624,wikipedia:reps:2019:EN
+reps-2019-en-igbo-etiti-uzo-uwani,Martins Oke,PDP,PDP,35756,wikipedia:reps:2019:EN
+reps-2019-en-igbo-etiti-uzo-uwani,Jonathan Chukwuma,APC,APC,5799,wikipedia:reps:2019:EN
+reps-2019-en-igbo-etiti-uzo-uwani,Others,OTH,OTHER,1080,wikipedia:reps:2019:EN
+reps-2019-en-igboeze-north-udenu,Simon Chukwuemeka Atigwe,PDP,PDP,45247,wikipedia:reps:2019:EN
+reps-2019-en-igboeze-north-udenu,Kentus Eze,APC,APC,7179,wikipedia:reps:2019:EN
+reps-2019-en-igboeze-north-udenu,Others,OTH,OTHER,218,wikipedia:reps:2019:EN
+reps-2019-en-nkanu-east-nkanu-west,Nnolim Nnaji,PDP,PDP,38460,wikipedia:reps:2019:EN
+reps-2019-en-nkanu-east-nkanu-west,Anthony Okwudili Nwafor,APC,APC,3452,wikipedia:reps:2019:EN
+reps-2019-en-nkanu-east-nkanu-west,Others,OTH,OTHER,3240,wikipedia:reps:2019:EN
+reps-2019-en-nsukka-igbo-eze-south,Patrick Asadu,PDP,PDP,60863,wikipedia:reps:2019:EN
+reps-2019-en-nsukka-igbo-eze-south,Ikechukwu Ugwede,APC,APC,12106,wikipedia:reps:2019:EN
+reps-2019-en-nsukka-igbo-eze-south,Others,OTH,OTHER,273,wikipedia:reps:2019:EN
+reps-2019-go-akko,Bello Usman A Kumo,APC,APC,57490,wikipedia:reps:2019:GO
+reps-2019-go-akko,Ahmad Aishatu,PDP,PDP,28631,wikipedia:reps:2019:GO
+reps-2019-go-akko,Others,OTH,OTHER,2110,wikipedia:reps:2019:GO
+reps-2019-go-balanga-billiri,Mela Victor,APC,APC,45112,wikipedia:reps:2019:GO
+reps-2019-go-balanga-billiri,Isa Ali,PDP,PDP,35385,wikipedia:reps:2019:GO
+reps-2019-go-balanga-billiri,Others,OTH,OTHER,2627,wikipedia:reps:2019:GO
+reps-2019-go-dukku-nafada,Aishatu Jibril Dukku,APC,APC,40122,wikipedia:reps:2019:GO
+reps-2019-go-dukku-nafada,Saidu Adamu Jodoma,PDP,PDP,21474,wikipedia:reps:2019:GO
+reps-2019-go-dukku-nafada,Shehu Tukur Alkali,NNPP,NNPP,1265,wikipedia:reps:2019:GO
+reps-2019-go-gombe-kwami-funakaye,Bauchi Yaya Tango,APC,APC,173416,wikipedia:reps:2019:GO
+reps-2019-go-gombe-kwami-funakaye,Abubakar Shehu Durbi,PDP,PDP,57365,wikipedia:reps:2019:GO
+reps-2019-go-gombe-kwami-funakaye,Others,OTH,OTHER,29169,wikipedia:reps:2019:GO
+reps-2019-go-kaltungo-shongom,Karu Simon Elisha,APC,APC,35316,wikipedia:reps:2019:GO
+reps-2019-go-kaltungo-shongom,Kalba Gora Adamu,PDP,PDP,28661,wikipedia:reps:2019:GO
+reps-2019-go-kaltungo-shongom,Others,OTH,OTHER,987,wikipedia:reps:2019:GO
+reps-2019-go-yamaltu-deba,Abubakar Yunusa Ahmed,APC,APC,45315,wikipedia:reps:2019:GO
+reps-2019-go-yamaltu-deba,Garba Inuwa,PDP,PDP,30420,wikipedia:reps:2019:GO
+reps-2019-go-yamaltu-deba,Others,OTH,OTHER,827,wikipedia:reps:2019:GO
+reps-2019-im-aboh-mbaise-ngor-okpala,Bede Eke,PDP,PDP,0,wikipedia:reps:2019:IM
+reps-2019-im-ahiazu-mbaise-ezinihitte,Emeka Chinedu,PDP,PDP,0,wikipedia:reps:2019:IM
+reps-2019-im-ideato-north-south,Paschal Chigozie Obi,AA,OTHER,0,wikipedia:reps:2019:IM
+reps-2019-im-ikeduru-mbaitoli,Obinna Onwubuariri,PDP,PDP,0,wikipedia:reps:2019:IM
+reps-2019-im-isiala-mbano-okigwe-onuimo,Miriam Onuoha,APC,APC,0,wikipedia:reps:2019:IM
+reps-2019-im-isu-njaba-nkwerre-nwangele,Ugonna Ozurigbo,APC,APC,0,wikipedia:reps:2019:IM
+reps-2019-im-oguta-ohaji-egbema-oru-west,Uju Kingsley Chima,AA,OTHER,0,wikipedia:reps:2019:IM
+reps-2019-im-oru-east-orsu-orlu,Jerry Alagbaoso,PDP,PDP,0,wikipedia:reps:2019:IM
+reps-2019-im-owerri-municipal-owerri-north-owerri-west,Ikenna Elezieanya,PDP,PDP,0,wikipedia:reps:2019:IM
+reps-2019-im-ehimembano-ihitte-uboma-obowo,John Okafor,APC,APC,0,wikipedia:reps:2019:IM
+reps-2019-kn-albasu-gaya-ajingi,Abdullahi Mahmud Gaya,APC,APC,53512,wikipedia:reps:2019:KN
+reps-2019-kn-albasu-gaya-ajingi,Usman Mohammed Adamu,PDP,PDP,39586,wikipedia:reps:2019:KN
+reps-2019-kn-bebeji-kiru,Abdulmumin Jibrin,APC,APC,41070,wikipedia:reps:2019:KN
+reps-2019-kn-bebeji-kiru,Aliyu Datti Yako,PDP,PDP,40385,wikipedia:reps:2019:KN
+reps-2019-kn-bichi,Abubakar Abubakar Kabir,APC,APC,37573,wikipedia:reps:2019:KN
+reps-2019-kn-bichi,Auwalu Muktari,PDP,PDP,16192,wikipedia:reps:2019:KN
+reps-2019-kn-dala,Abdullahi Babangida Alhassan,APC,APC,45531,wikipedia:reps:2019:KN
+reps-2019-kn-dala,Suraj Ibrahim Imam,PDP,PDP,25820,wikipedia:reps:2019:KN
+reps-2019-kn-danbatta-makoda,Ayuba Badamasi,APC,APC,34448,wikipedia:reps:2019:KN
+reps-2019-kn-danbatta-makoda,Yusuf Bello Sulaiman,PDP,PDP,18662,wikipedia:reps:2019:KN
+reps-2019-kn-doguwa-tudun-wada,Alhassan Ado Garba D.,APC,APC,39744,wikipedia:reps:2019:KN
+reps-2019-kn-doguwa-tudun-wada,Salisu Yusha'u,PDP,PDP,36371,wikipedia:reps:2019:KN
+reps-2019-kn-dawakin-kudu-warawa,Mustapha Dawaki,APC,APC,49599,wikipedia:reps:2019:KN
+reps-2019-kn-dawakin-kudu-warawa,Ali Yahuza Gano,PDP,PDP,24736,wikipedia:reps:2019:KN
+reps-2019-kn-dawakin-tofa-tofa-rimin-gado,Jobe Tijjani Abdulkadir,APC,APC,66506,wikipedia:reps:2019:KN
+reps-2019-kn-dawakin-tofa-tofa-rimin-gado,Mannir Dahiru,PDP,PDP,34081,wikipedia:reps:2019:KN
+reps-2019-kn-fagge,Sulaiman Aminu,APC,APC,26813,wikipedia:reps:2019:KN
+reps-2019-kn-fagge,Ibrahim Jibrin,PDP,PDP,20502,wikipedia:reps:2019:KN
+reps-2019-kn-gabasawa-gezawa,Nasiru Abduwa Gabasawa,APC,APC,41029,wikipedia:reps:2019:KN
+reps-2019-kn-gabasawa-gezawa,Musa Ado,PDP,PDP,20973,wikipedia:reps:2019:KN
+reps-2019-kn-gwarzo-kabo,Garo Musa Umar,APC,APC,55717,wikipedia:reps:2019:KN
+reps-2019-kn-gwarzo-kabo,Nasiru Garo Sule,PDP,PDP,25789,wikipedia:reps:2019:KN
+reps-2019-kn-gwale,Ken-Ken Lawan Abdullahi,APC,APC,35276,wikipedia:reps:2019:KN
+reps-2019-kn-gwale,Garba Ibrahim Mohammed,PDP,PDP,18989,wikipedia:reps:2019:KN
+reps-2019-kn-kumbotso,Dan Agundi Munir Babba,APC,APC,31914,wikipedia:reps:2019:KN
+reps-2019-kn-kumbotso,Ibrahim Umar Balla,PDP,PDP,31566,wikipedia:reps:2019:KN
+reps-2019-kn-kano-municipal,Yakasai Mukhtar Ishaq,APC,APC,43049,wikipedia:reps:2019:KN
+reps-2019-kn-kano-municipal,Danburam Abubakar Nuhu,PDP,PDP,24269,wikipedia:reps:2019:KN
+reps-2019-kn-kunchi-tsanyawa,Bala Sani Umar,APC,APC,34735,wikipedia:reps:2019:KN
+reps-2019-kn-kunchi-tsanyawa,Abdussalam Adamu,PDP,PDP,19102,wikipedia:reps:2019:KN
+reps-2019-kn-karaye-rogo,Dederi Haruna Isa,APC,APC,43209,wikipedia:reps:2019:KN
+reps-2019-kn-karaye-rogo,Shehu Usman Aliyu,PDP,PDP,26353,wikipedia:reps:2019:KN
+reps-2019-kn-kura-madobi-garun-malam,Idris Kabiru,APC,APC,66867,wikipedia:reps:2019:KN
+reps-2019-kn-kura-madobi-garun-malam,Muhammad Buhari Sule,PDP,PDP,38293,wikipedia:reps:2019:KN
+reps-2019-kn-minjibir-ungogo,Sani Ma'aruf Nass,APC,APC,55289,wikipedia:reps:2019:KN
+reps-2019-kn-minjibir-ungogo,Tajo Usman Zaura,PDP,PDP,26258,wikipedia:reps:2019:KN
+reps-2019-kn-nasarawa,Nassir Ali Ahmad,APC,APC,54166,wikipedia:reps:2019:KN
+reps-2019-kn-rano-bunkure-kibiya,Kabiru Alhassan Rurum,APC,APC,62455,wikipedia:reps:2019:KN
+reps-2019-kn-rano-bunkure-kibiya,Sani Muhammad Aliyu,PDP,PDP,33296,wikipedia:reps:2019:KN
+reps-2019-kn-sumaila-takai,Kawu Suleiman Abdurrahman,APC,APC,55487,wikipedia:reps:2019:KN
+reps-2019-kn-sumaila-takai,Suraja Idris Kanawa,PDP,PDP,18445,wikipedia:reps:2019:KN
+reps-2019-kn-shanono-bagwai,Badau Yusuf Ahmad,APC,APC,40420,wikipedia:reps:2019:KN
+reps-2019-kn-shanono-bagwai,Faruk Muhammad Lawan,PDP,PDP,24764,wikipedia:reps:2019:KN
+reps-2019-kn-tarauni,Ibrahim Hafiz M. Kawu,APC,APC,34668,wikipedia:reps:2019:KN
+reps-2019-kn-tarauni,Nasiru Isa,PDP,PDP,18206,wikipedia:reps:2019:KN
+reps-2019-kn-wudil-garko,Wudil Muhammad Ali,APC,APC,35702,wikipedia:reps:2019:KN
+reps-2019-kn-wudil-garko,Ibrahim Yakubu Adamu,PDP,PDP,14333,wikipedia:reps:2019:KN
+reps-2019-ko-adavi-okehi,Joseph Bello,APC,APC,40085,wikipedia:reps:2019:KO
+reps-2019-ko-adavi-okehi,Onimisi Itopa,PDP,PDP,19169,wikipedia:reps:2019:KO
+reps-2019-ko-adavi-okehi,Others,OTH,OTHER,8325,wikipedia:reps:2019:KO
+reps-2019-ko-ajaokuta,Idirisu Lawal,APC,APC,12796,wikipedia:reps:2019:KO
+reps-2019-ko-ajaokuta,Okino Adeiza,PDP,PDP,10891,wikipedia:reps:2019:KO
+reps-2019-ko-ajaokuta,Others,OTH,OTHER,115,wikipedia:reps:2019:KO
+reps-2019-ko-ankpa-omala-olamaboro,Ali Abdullahi Ibrahim,APC,APC,38398,wikipedia:reps:2019:KO
+reps-2019-ko-ankpa-omala-olamaboro,Habiba Muhammed Deen,PDP,PDP,26845,wikipedia:reps:2019:KO
+reps-2019-ko-ankpa-omala-olamaboro,Others,OTH,OTHER,13733,wikipedia:reps:2019:KO
+reps-2019-ko-bassa-dekina,Abdullahi Hassan,APC,APC,40735,wikipedia:reps:2019:KO
+reps-2019-ko-bassa-dekina,Benjamin Idani Okolo,PDP,PDP,17738,wikipedia:reps:2019:KO
+reps-2019-ko-bassa-dekina,Others,OTH,OTHER,6574,wikipedia:reps:2019:KO
+reps-2019-ko-ibaji-idah-igalamela-odolu,David Idris Zacharias,APC,APC,44884,wikipedia:reps:2019:KO
+reps-2019-ko-ibaji-idah-igalamela-odolu,Emmanuel Egwu,PDP,PDP,27315,wikipedia:reps:2019:KO
+reps-2019-ko-ibaji-idah-igalamela-odolu,Others,OTH,OTHER,12120,wikipedia:reps:2019:KO
+reps-2019-ko-kogi-lokoja-kogi-k-k,Isah Abdulkareem Usman,APC,APC,37356,wikipedia:reps:2019:KO
+reps-2019-ko-kogi-lokoja-kogi-k-k,Shaba Ibrahim,PDP,PDP,33662,wikipedia:reps:2019:KO
+reps-2019-ko-kogi-lokoja-kogi-k-k,Others,OTH,OTHER,1083,wikipedia:reps:2019:KO
+reps-2019-ko-okene-ogori-magogo,Yusuf Tijani,APC,APC,371997,wikipedia:reps:2019:KO
+reps-2019-ko-okene-ogori-magogo,Isah Suka Mohammad,PDP,PDP,8857,wikipedia:reps:2019:KO
+reps-2019-ko-okene-ogori-magogo,Others,OTH,OTHER,3453,wikipedia:reps:2019:KO
+reps-2019-ko-yagba-east-yagba-west-mopamuro,Leke Joseph Abejide,ADC,ADC,17548,wikipedia:reps:2019:KO
+reps-2019-ko-yagba-east-yagba-west-mopamuro,Henry Abimbola,APC,APC,12399,wikipedia:reps:2019:KO
+reps-2019-ko-yagba-east-yagba-west-mopamuro,Others,OTH,OTHER,12909,wikipedia:reps:2019:KO
+reps-2019-kw-asa-ilorin-west,Alajagusi Abdulyekeen Sadiq,APC,APC,68585,wikipedia:reps:2019:KW
+reps-2019-kw-asa-ilorin-west,Abdulrazaq Mohammed Lawal,PDP,PDP,42068,wikipedia:reps:2019:KW
+reps-2019-kw-asa-ilorin-west,Others,OTH,OTHER,645,wikipedia:reps:2019:KW
+reps-2019-kw-baruten-kaiama,Ahmed Abubakar Ndakenne,APC,APC,37914,wikipedia:reps:2019:KW
+reps-2019-kw-baruten-kaiama,Hassan Mahmud Babako,PDP,PDP,14476,wikipedia:reps:2019:KW
+reps-2019-kw-baruten-kaiama,Others,OTH,OTHER,392,wikipedia:reps:2019:KW
+reps-2019-kw-edu-moro-patigi,Ahmed Abubakar Ndakenne,APC,APC,58045,wikipedia:reps:2019:KW
+reps-2019-kw-edu-moro-patigi,Hassan Mahmud Babako,PDP,PDP,19144,wikipedia:reps:2019:KW
+reps-2019-kw-edu-moro-patigi,Others,OTH,OTHER,1018,wikipedia:reps:2019:KW
+reps-2019-kw-ekiti-isin-irepodun-oke-ero,Olawuyi Abdulraheem Olatunji,APC,APC,33386,wikipedia:reps:2019:KW
+reps-2019-kw-ekiti-isin-irepodun-oke-ero,Dare Bankole,PDP,PDP,26954,wikipedia:reps:2019:KW
+reps-2019-kw-ekiti-isin-irepodun-oke-ero,Others,OTH,OTHER,951,wikipedia:reps:2019:KW
+reps-2019-kw-ilorin-east-south,Olododo Abdulganiyu Saka Cook,APC,APC,56496,wikipedia:reps:2019:KW
+reps-2019-kw-ilorin-east-south,Abdulwahab Oladimeji Issa,PDP,PDP,27737,wikipedia:reps:2019:KW
+reps-2019-kw-ilorin-east-south,Others,OTH,OTHER,1285,wikipedia:reps:2019:KW
+reps-2019-kw-offa-oyun-ifelodun,Tijani Kayode Ismail,APC,APC,54410,wikipedia:reps:2019:KW
+reps-2019-kw-offa-oyun-ifelodun,Olarinoye Tope Olayonu,PDP,PDP,19449,wikipedia:reps:2019:KW
+reps-2019-kw-offa-oyun-ifelodun,Others,OTH,OTHER,1004,wikipedia:reps:2019:KW
+reps-2019-la-agege,Samuel Adejare,APC,APC,32114,wikipedia:reps:2019:LA
+reps-2019-la-agege,Joseph Oluwole,PDP,PDP,13886,wikipedia:reps:2019:LA
+reps-2019-la-agege,Others,OTH,OTHER,6856,wikipedia:reps:2019:LA
+reps-2019-la-ajeromi-ifelodun,Kolawole Taiwo,APC,APC,0,wikipedia:reps:2019:LA
+reps-2019-la-alimosho,Olufemi Adebanjo,APC,APC,55136,wikipedia:reps:2019:LA
+reps-2019-la-alimosho,Akinwale Akinsanya,PDP,PDP,37539,wikipedia:reps:2019:LA
+reps-2019-la-alimosho,Others,OTH,OTHER,7727,wikipedia:reps:2019:LA
+reps-2019-la-amuwo-odofin,Oghene Egoh,PDP,PDP,30467,wikipedia:reps:2019:LA
+reps-2019-la-amuwo-odofin,Risikat Adegeye,APC,APC,17885,wikipedia:reps:2019:LA
+reps-2019-la-amuwo-odofin,Others,OTH,OTHER,4869,wikipedia:reps:2019:LA
+reps-2019-la-apapa,Mufutau Egberongbe,APC,APC,17961,wikipedia:reps:2019:LA
+reps-2019-la-apapa,Adewole Oludare,PDP,PDP,11845,wikipedia:reps:2019:LA
+reps-2019-la-apapa,Others,OTH,OTHER,668,wikipedia:reps:2019:LA
+reps-2019-la-badagry,Babatunde Hunpe,APC,APC,23309,wikipedia:reps:2019:LA
+reps-2019-la-badagry,Seyon Huyinbo,PDP,PDP,15662,wikipedia:reps:2019:LA
+reps-2019-la-badagry,Others,OTH,OTHER,803,wikipedia:reps:2019:LA
+reps-2019-la-epe,Tasir Raji,APC,APC,18327,wikipedia:reps:2019:LA
+reps-2019-la-epe,Oyebolaji Ayodeji,PDP,PDP,13318,wikipedia:reps:2019:LA
+reps-2019-la-epe,Others,OTH,OTHER,241,wikipedia:reps:2019:LA
+reps-2019-la-eti-osa,Ibrahim Obanikoro,APC,APC,22250,wikipedia:reps:2019:LA
+reps-2019-la-eti-osa,Anthony Akala,PDP,PDP,18767,wikipedia:reps:2019:LA
+reps-2019-la-eti-osa,Others,OTH,OTHER,10562,wikipedia:reps:2019:LA
+reps-2019-la-ibeju-lekki,Adebayo Balogun,APC,APC,10673,wikipedia:reps:2019:LA
+reps-2019-la-ibeju-lekki,Olowu Abiola,A,OTHER,7732,wikipedia:reps:2019:LA
+reps-2019-la-ibeju-lekki,Others,OTH,OTHER,6305,wikipedia:reps:2019:LA
+reps-2019-la-ifako-ijaiye,James Owolabi,APC,APC,34204,wikipedia:reps:2019:LA
+reps-2019-la-ifako-ijaiye,Fatimoh Mohammed,PDP,PDP,18271,wikipedia:reps:2019:LA
+reps-2019-la-ifako-ijaiye,Others,OTH,OTHER,1095,wikipedia:reps:2019:LA
+reps-2019-la-ikeja,Abiodun Faleke,APC,APC,25195,wikipedia:reps:2019:LA
+reps-2019-la-ikeja,Mutiu Olakunle,PDP,PDP,21373,wikipedia:reps:2019:LA
+reps-2019-la-ikeja,Others,OTH,OTHER,1955,wikipedia:reps:2019:LA
+reps-2019-la-ikorodu,Babajimi Benson,APC,APC,42563,wikipedia:reps:2019:LA
+reps-2019-la-ikorodu,Ramota Disu,PDP,PDP,19825,wikipedia:reps:2019:LA
+reps-2019-la-ikorodu,Others,OTH,OTHER,919,wikipedia:reps:2019:LA
+reps-2019-la-kosofe,Oluwarotimi Agunsoye,APC,APC,41593,wikipedia:reps:2019:LA
+reps-2019-la-kosofe,Sherifat Olushola-Hassan,PDP,PDP,28087,wikipedia:reps:2019:LA
+reps-2019-la-kosofe,Others,OTH,OTHER,1266,wikipedia:reps:2019:LA
+reps-2019-la-lagos-island-i,Enitan Badru,APC,APC,15245,wikipedia:reps:2019:LA
+reps-2019-la-lagos-island-i,Violet Olaitan Williams,PDP,PDP,3258,wikipedia:reps:2019:LA
+reps-2019-la-lagos-island-i,Others,OTH,OTHER,207,wikipedia:reps:2019:LA
+reps-2019-la-lagos-island-ii,Moshood Kayode Akiolu,APC,APC,12988,wikipedia:reps:2019:LA
+reps-2019-la-lagos-island-ii,Adamoh-faniyan Olagbenga,PDP,PDP,4345,wikipedia:reps:2019:LA
+reps-2019-la-lagos-island-ii,Others,OTH,OTHER,94,wikipedia:reps:2019:LA
+reps-2019-la-lagos-mainland,Jimoh Abdul,APC,APC,22073,wikipedia:reps:2019:LA
+reps-2019-la-lagos-mainland,Tajudeen Jaiyeola Agoro,PDP,PDP,16834,wikipedia:reps:2019:LA
+reps-2019-la-lagos-mainland,Others,OTH,OTHER,466,wikipedia:reps:2019:LA
+reps-2019-la-mushin-i,Adeyemi Taoveeq Alli,APC,APC,14221,wikipedia:reps:2019:LA
+reps-2019-la-mushin-i,Taoreed Akinsanya,A,OTHER,6763,wikipedia:reps:2019:LA
+reps-2019-la-mushin-i,Others,OTH,OTHER,3534,wikipedia:reps:2019:LA
+reps-2019-la-mushin-ii,Bolaji Ayinla,APC,APC,20383,wikipedia:reps:2019:LA
+reps-2019-la-mushin-ii,Jude Obiekwe,PDP,PDP,11185,wikipedia:reps:2019:LA
+reps-2019-la-mushin-ii,Others,OTH,OTHER,11425,wikipedia:reps:2019:LA
+reps-2019-la-ojo,Tajudeen Obasa,PDP,PDP,28839,wikipedia:reps:2019:LA
+reps-2019-la-ojo,Yinka Durosinmi,APC,APC,25804,wikipedia:reps:2019:LA
+reps-2019-la-oshodi-isolo-i,Bashiru Dawodu,APC,APC,14353,wikipedia:reps:2019:LA
+reps-2019-la-oshodi-isolo-i,Mutiu Shadimu,PDP,PDP,10121,wikipedia:reps:2019:LA
+reps-2019-la-oshodi-isolo-i,Others,OTH,OTHER,419,wikipedia:reps:2019:LA
+reps-2019-la-oshodi-isolo-ii,Ganiyu Johnson,APC,APC,21484,wikipedia:reps:2019:LA
+reps-2019-la-oshodi-isolo-ii,Emmanuel Nnodim,PDP,PDP,16817,wikipedia:reps:2019:LA
+reps-2019-la-oshodi-isolo-ii,Others,OTH,OTHER,1436,wikipedia:reps:2019:LA
+reps-2019-la-somolu,Ademorin Kuye,APC,APC,28722,wikipedia:reps:2019:LA
+reps-2019-la-somolu,Oluwaseyi Olowu,PDP,PDP,25202,wikipedia:reps:2019:LA
+reps-2019-la-somolu,Others,OTH,OTHER,615,wikipedia:reps:2019:LA
+reps-2019-la-surulere-i,Femi Gbajabiamila,APC,APC,14617,wikipedia:reps:2019:LA
+reps-2019-la-surulere-i,Mike Adewara,PDP,PDP,8085,wikipedia:reps:2019:LA
+reps-2019-la-surulere-i,Others,OTH,OTHER,322,wikipedia:reps:2019:LA
+reps-2019-la-surulere-ii,Olatunji Shoyinka,PDP,PDP,19950,wikipedia:reps:2019:LA
+reps-2019-la-surulere-ii,Lanre Okunlola,APC,APC,17910,wikipedia:reps:2019:LA
+reps-2019-la-surulere-ii,Others,OTH,OTHER,2174,wikipedia:reps:2019:LA
+reps-2019-na-nasarawa-toto,Ari Muhammed Abdulmumin,APC,APC,33197,wikipedia:reps:2019:NA
+reps-2019-na-nasarawa-toto,Musa Ahmed Mohammed,PDP,PDP,17695,wikipedia:reps:2019:NA
+reps-2019-na-lafia-obi,Abubakar Sarki Dahiru,APC,APC,61992,wikipedia:reps:2019:NA
+reps-2019-na-lafia-obi,Joseph Haruna Kigbu,PDP,PDP,52392,wikipedia:reps:2019:NA
+reps-2019-na-keffi-karu-kokona,Gaza Jonathan Gbefwi,PDP,PDP,92282,wikipedia:reps:2019:NA
+reps-2019-na-keffi-karu-kokona,Jacob Okari Owa,APC,APC,59661,wikipedia:reps:2019:NA
+reps-2019-na-awe-doma-keana,Hassan Abubakar Nalaraba,APC,APC,41535,wikipedia:reps:2019:NA
+reps-2019-na-awe-doma-keana,Abubakar Idris Gani,PDP,PDP,30410,wikipedia:reps:2019:NA
+reps-2019-na-akwanga-nasarawa-eggon-wamba,Abdulkarim Usman,PDP,PDP,57322,wikipedia:reps:2019:NA
+reps-2019-na-akwanga-nasarawa-eggon-wamba,Muhammed Abdullahi Yau,APC,APC,40848,wikipedia:reps:2019:NA
+reps-2019-ni-shiroro-rafi-munya,Umar Saidu Doka,APC,APC,69218,wikipedia:reps:2019:NI
+reps-2019-ni-shiroro-rafi-munya,Abdullahi Ricco Mohammed,PDP,PDP,30275,wikipedia:reps:2019:NI
+reps-2019-ni-shiroro-rafi-munya,Others,OTH,OTHER,2690,wikipedia:reps:2019:NI
+reps-2019-ni-magama-rijau,Shehu Saleh,APC,APC,39889,wikipedia:reps:2019:NI
+reps-2019-ni-magama-rijau,Garba Mohammed Dukku,PDP,PDP,23747,wikipedia:reps:2019:NI
+reps-2019-ni-magama-rijau,Others,OTH,OTHER,512,wikipedia:reps:2019:NI
+reps-2019-ni-lavun-mokwa-edati,Usman Abdullahi,APC,APC,52665,wikipedia:reps:2019:NI
+reps-2019-ni-lavun-mokwa-edati,Abubakar Sulaiman,PDP,PDP,36587,wikipedia:reps:2019:NI
+reps-2019-ni-lavun-mokwa-edati,Others,OTH,OTHER,7473,wikipedia:reps:2019:NI
+reps-2019-ni-kontagora-wushishi-mariga-mashegu,Abdullahi Idris Garba,APC,APC,95454,wikipedia:reps:2019:NI
+reps-2019-ni-kontagora-wushishi-mariga-mashegu,Sa'adatu Kolo Mohammed,PDP,PDP,25182,wikipedia:reps:2019:NI
+reps-2019-ni-kontagora-wushishi-mariga-mashegu,Others,OTH,OTHER,5418,wikipedia:reps:2019:NI
+reps-2019-ni-gurara-suleja-tapa,Abdullahi Abubakar Lado,APC,APC,54224,wikipedia:reps:2019:NI
+reps-2019-ni-gurara-suleja-tapa,Danladi Tekpezhi Iyah,PDP,PDP,38732,wikipedia:reps:2019:NI
+reps-2019-ni-gurara-suleja-tapa,Others,OTH,OTHER,10551,wikipedia:reps:2019:NI
+reps-2019-ni-chanchaga,Mohammed Umar Bago,APC,APC,39391,wikipedia:reps:2019:NI
+reps-2019-ni-chanchaga,Abubakar Abdul Buba,PDP,PDP,17869,wikipedia:reps:2019:NI
+reps-2019-ni-chanchaga,Others,OTH,OTHER,6339,wikipedia:reps:2019:NI
+reps-2019-ni-bosso-paikoro,Shehu Barwa Beji,APC,APC,46512,wikipedia:reps:2019:NI
+reps-2019-ni-bosso-paikoro,Mohammed Dada Abdullahi,PDP,PDP,21578,wikipedia:reps:2019:NI
+reps-2019-ni-bosso-paikoro,Others,OTH,OTHER,9559,wikipedia:reps:2019:NI
+reps-2019-ni-bida-gbako-katcha,Saidu Musa Abdul,APC,APC,57746,wikipedia:reps:2019:NI
+reps-2019-ni-bida-gbako-katcha,Sharu Mohammed Baba,PDP,PDP,37993,wikipedia:reps:2019:NI
+reps-2019-ni-bida-gbako-katcha,Others,OTH,OTHER,3097,wikipedia:reps:2019:NI
+reps-2019-ni-agwara-borgu,Mohammed Jafaru,APC,APC,32840,wikipedia:reps:2019:NI
+reps-2019-ni-agwara-borgu,Abdulrahman Bala Gambo,PDP,PDP,20356,wikipedia:reps:2019:NI
+reps-2019-ni-agwara-borgu,Others,OTH,OTHER,1163,wikipedia:reps:2019:NI
+reps-2019-ni-agaie-lapai,Mamudu Abdullahi,APC,APC,19927,wikipedia:reps:2019:NI
+reps-2019-ni-agaie-lapai,Isah Saidu,PDP,PDP,14496,wikipedia:reps:2019:NI
+reps-2019-ni-agaie-lapai,Others,OTH,OTHER,2033,wikipedia:reps:2019:NI
+reps-2019-og-abeokuta-north-obafemi-owode-odeda,Olumide Osoba,APC,APC,33538,wikipedia:reps:2019:OG
+reps-2019-og-abeokuta-north-obafemi-owode-odeda,Mukaila Kazzim,APM,OTHER,14903,wikipedia:reps:2019:OG
+reps-2019-og-abeokuta-north-obafemi-owode-odeda,Others,OTH,OTHER,30503,wikipedia:reps:2019:OG
+reps-2019-og-abeokuta-south,Lanre Edun,APC,APC,17003,wikipedia:reps:2019:OG
+reps-2019-og-abeokuta-south,Anthony Adeyemi-Showunmi,PDP,PDP,8608,wikipedia:reps:2019:OG
+reps-2019-og-abeokuta-south,Others,OTH,OTHER,22046,wikipedia:reps:2019:OG
+reps-2019-og-ado-odo-ota,Jimoh Ojugbele,APC,APC,24184,wikipedia:reps:2019:OG
+reps-2019-og-ado-odo-ota,Olusegun Sunmonu,PDP,PDP,15880,wikipedia:reps:2019:OG
+reps-2019-og-ado-odo-ota,Others,OTH,OTHER,25457,wikipedia:reps:2019:OG
+reps-2019-og-egbado-north-imeko-afon,Jimoh Aremu,ADC,ADC,19687,wikipedia:reps:2019:OG
+reps-2019-og-egbado-north-imeko-afon,Abiodun Adebayo,APM,OTHER,11403,wikipedia:reps:2019:OG
+reps-2019-og-egbado-north-imeko-afon,Others,OTH,OTHER,24965,wikipedia:reps:2019:OG
+reps-2019-og-egbado-south-and-ipokia,Kolawole Lawal,APM,OTHER,23533,wikipedia:reps:2019:OG
+reps-2019-og-egbado-south-and-ipokia,Olubiyi Otegbeye,APC,APC,19796,wikipedia:reps:2019:OG
+reps-2019-og-egbado-south-and-ipokia,Others,OTH,OTHER,25431,wikipedia:reps:2019:OG
+reps-2019-og-ifo-ewekoro,Ibrahim Isiaka,APC,APC,22835,wikipedia:reps:2019:OG
+reps-2019-og-ifo-ewekoro,Adedamola Abdulateef,PDP,PDP,10718,wikipedia:reps:2019:OG
+reps-2019-og-ifo-ewekoro,Others,OTH,OTHER,15894,wikipedia:reps:2019:OG
+reps-2019-og-ijebu-north-ijebu-east-ogun-waterside,Adekoya Adesegun,PDP,PDP,33629,wikipedia:reps:2019:OG
+reps-2019-og-ijebu-north-ijebu-east-ogun-waterside,Sulaiman Olubiyi,APC,APC,26425,wikipedia:reps:2019:OG
+reps-2019-og-ijebu-north-ijebu-east-ogun-waterside,Others,OTH,OTHER,6759,wikipedia:reps:2019:OG
+reps-2019-og-ijebu-ode-odogbolu-ijebu-north-east,APC,RVBEC,OTHER,0,wikipedia:reps:2019:OG
+reps-2019-og-ikenne-shagamu-remo-north,Adewunmi Onanuga,APC,APC,30605,wikipedia:reps:2019:OG
+reps-2019-og-ikenne-shagamu-remo-north,Isiaka Lawal,PDP,PDP,29858,wikipedia:reps:2019:OG
+reps-2019-og-ikenne-shagamu-remo-north,Others,OTH,OTHER,14632,wikipedia:reps:2019:OG
+reps-2019-on-akoko-north-east-akoko-north-west,Olubunmi Tunji-Ojo,APC,APC,20988,wikipedia:reps:2019:ON
+reps-2019-on-akoko-north-east-akoko-north-west,Olawale Ogunleye,PDP,PDP,12969,wikipedia:reps:2019:ON
+reps-2019-on-akoko-north-east-akoko-north-west,Others,OTH,OTHER,23651,wikipedia:reps:2019:ON
+reps-2019-on-akoko-south-east-akoko-south-west,Adejoro Adeogun,APC,APC,19047,wikipedia:reps:2019:ON
+reps-2019-on-akoko-south-east-akoko-south-west,Olusegun Ategbole,AA,OTHER,14694,wikipedia:reps:2019:ON
+reps-2019-on-akoko-south-east-akoko-south-west,Others,OTH,OTHER,21353,wikipedia:reps:2019:ON
+reps-2019-on-akure-north-south,Adedayo Omolafe,PDP,PDP,48595,wikipedia:reps:2019:ON
+reps-2019-on-akure-north-south,Olowookere Ajisafe,APC,APC,29171,wikipedia:reps:2019:ON
+reps-2019-on-akure-north-south,Others,OTH,OTHER,10045,wikipedia:reps:2019:ON
+reps-2019-on-idanre-ifedore,Tajudeen Adefisoye,SDP,SDP,16186,wikipedia:reps:2019:ON
+reps-2019-on-idanre-ifedore,Kayode Akinmade,PDP,PDP,14191,wikipedia:reps:2019:ON
+reps-2019-on-ilaje-eseodo,Victor Akinjo,PDP,PDP,32082,wikipedia:reps:2019:ON
+reps-2019-on-ilaje-eseodo,Donald Ojogo,APC,APC,20603,wikipedia:reps:2019:ON
+reps-2019-on-ilaje-eseodo,Others,OTH,OTHER,700,wikipedia:reps:2019:ON
+reps-2019-on-ile-oluji-okeigbo-odigbo,Mayowa Akinfolarin,APC,APC,27031,wikipedia:reps:2019:ON
+reps-2019-on-ile-oluji-okeigbo-odigbo,Abayomi Akinfemiwa,PDP,PDP,26859,wikipedia:reps:2019:ON
+reps-2019-on-ile-oluji-okeigbo-odigbo,Others,OTH,OTHER,6269,wikipedia:reps:2019:ON
+reps-2019-on-irele-okitipupa,Gboluga Ikengboju,PDP,PDP,31042,wikipedia:reps:2019:ON
+reps-2019-on-irele-okitipupa,Albert Akintoye,APC,APC,19805,wikipedia:reps:2019:ON
+reps-2019-on-irele-okitipupa,Others,OTH,OTHER,11550,wikipedia:reps:2019:ON
+reps-2019-on-ondo-east-ondo-west,Abiola Makinde,SDP,SDP,19083,wikipedia:reps:2019:ON
+reps-2019-on-ondo-east-ondo-west,Joseph Akinlaja,ZLP,OTHER,14651,wikipedia:reps:2019:ON
+reps-2019-on-ondo-east-ondo-west,Others,OTH,OTHER,26732,wikipedia:reps:2019:ON
+reps-2019-on-owo-ose,Oluwatimehin Adelegbe,APC,APC,0,wikipedia:reps:2019:ON
+reps-2019-os-ayedaade-irewole-isokan,Taiwo Oluga,APC,APC,36876,wikipedia:reps:2019:OS
+reps-2019-os-ayedaade-irewole-isokan,Bukola Adebisi,PDP,PDP,31956,wikipedia:reps:2019:OS
+reps-2019-os-ayedaade-irewole-isokan,Others,OTH,OTHER,6760,wikipedia:reps:2019:OS
+reps-2019-os-ayedire-iwo-ola-oluwa,Yinusa Amobi,APC,APC,29229,wikipedia:reps:2019:OS
+reps-2019-os-ayedire-iwo-ola-oluwa,Lukman Mudashiru,PDP,PDP,21608,wikipedia:reps:2019:OS
+reps-2019-os-ayedire-iwo-ola-oluwa,Others,OTH,OTHER,17416,wikipedia:reps:2019:OS
+reps-2019-os-boluwaduro-ifedayo-illa,Olufemi Fakeye,APC,APC,20371,wikipedia:reps:2019:OS
+reps-2019-os-boluwaduro-ifedayo-illa,Clement Akanni,PDP,PDP,17247,wikipedia:reps:2019:OS
+reps-2019-os-boluwaduro-ifedayo-illa,Others,OTH,OTHER,1648,wikipedia:reps:2019:OS
+reps-2019-os-ede-north-ede-south-egbedero-ejigbo,Bamidele Salam,PDP,PDP,46994,wikipedia:reps:2019:OS
+reps-2019-os-ede-north-ede-south-egbedero-ejigbo,Adejare Bello,APC,APC,44866,wikipedia:reps:2019:OS
+reps-2019-os-ede-north-ede-south-egbedero-ejigbo,Others,OTH,OTHER,9280,wikipedia:reps:2019:OS
+reps-2019-os-ife-central-ife-east-ife-north-ife-south,Taofeek Ajilesoro,PDP,PDP,52801,wikipedia:reps:2019:OS
+reps-2019-os-ife-central-ife-east-ife-north-ife-south,Folorunso Oladoyin,APC,APC,46373,wikipedia:reps:2019:OS
+reps-2019-os-ife-central-ife-east-ife-north-ife-south,Others,OTH,OTHER,5535,wikipedia:reps:2019:OS
+reps-2019-os-atakunmosa-east-atakunmosa-west-ilesa-east-ilesa-west,Lawrence Ayeni,APC,APC,41867,wikipedia:reps:2019:OS
+reps-2019-os-atakunmosa-east-atakunmosa-west-ilesa-east-ilesa-west,Dapo Adelowokan,PDP,PDP,30760,wikipedia:reps:2019:OS
+reps-2019-os-irepodun-olurunda-osogbo-orolu,Olubukola Oyewo,APC,APC,66933,wikipedia:reps:2019:OS
+reps-2019-os-irepodun-olurunda-osogbo-orolu,Morufu Adebayo,PDP,PDP,59551,wikipedia:reps:2019:OS
+reps-2019-os-irepodun-olurunda-osogbo-orolu,Others,OTH,OTHER,1120,wikipedia:reps:2019:OS
+reps-2019-os-obokon-oriade,Oluwole Oke,PDP,PDP,25329,wikipedia:reps:2019:OS
+reps-2019-os-obokon-oriade,Olasiji Akanmu,APC,APC,19725,wikipedia:reps:2019:OS
+reps-2019-os-obokon-oriade,Others,OTH,OTHER,2281,wikipedia:reps:2019:OS
+reps-2019-os-odo-otin-boripe-ifelodun,Olalekan Afolabi,APC,APC,41117,wikipedia:reps:2019:OS
+reps-2019-os-odo-otin-boripe-ifelodun,Adetunji Olusoji,PDP,PDP,32389,wikipedia:reps:2019:OS
+reps-2019-os-odo-otin-boripe-ifelodun,Others,OTH,OTHER,988,wikipedia:reps:2019:OS
+reps-2019-oy-afijio-atiba-oyo-east-oyo-west,Akeem Adeyemi,APC,APC,27649,wikipedia:reps:2019:OY
+reps-2019-oy-afijio-atiba-oyo-east-oyo-west,Abdulfatai Adeyemi,PDP,PDP,23225,wikipedia:reps:2019:OY
+reps-2019-oy-afijio-atiba-oyo-east-oyo-west,Others,OTH,OTHER,35020,wikipedia:reps:2019:OY
+reps-2019-oy-akinyele-lagelu,George Akintola,APC,APC,19280,wikipedia:reps:2019:OY
+reps-2019-oy-akinyele-lagelu,Kunle Yusuf,PDP,PDP,15770,wikipedia:reps:2019:OY
+reps-2019-oy-akinyele-lagelu,Others,OTH,OTHER,23041,wikipedia:reps:2019:OY
+reps-2019-oy-atisbo-saki-east-saki-west,Olajide Olatubosun,APC,APC,27115,wikipedia:reps:2019:OY
+reps-2019-oy-atisbo-saki-east-saki-west,Fasisi Adeagbo,PDP,PDP,24139,wikipedia:reps:2019:OY
+reps-2019-oy-atisbo-saki-east-saki-west,Others,OTH,OTHER,14299,wikipedia:reps:2019:OY
+reps-2019-oy-egbeda-ona-ara,Akinola Alabi,APC,APC,28146,wikipedia:reps:2019:OY
+reps-2019-oy-egbeda-ona-ara,Ayokunle Iyanda,PDP,PDP,17723,wikipedia:reps:2019:OY
+reps-2019-oy-egbeda-ona-ara,Others,OTH,OTHER,10704,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north-east-ibadan-south-east,Abass Adigun,PDP,PDP,24488,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north-east-ibadan-south-east,Adewole Oludare,APC,APC,18853,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north-east-ibadan-south-east,Others,OTH,OTHER,27906,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north,Olaide Akinremi,APC,APC,17048,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north,Ademola Omotoso,PDP,PDP,16237,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north,Others,OTH,OTHER,17041,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north-west-ibadan-south-west,Adedeji Olajide,PDP,PDP,28360,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north-west-ibadan-south-west,Saheed Fijabi,APC,APC,25560,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north-west-ibadan-south-west,Others,OTH,OTHER,22645,wikipedia:reps:2019:OY
+reps-2019-oy-ibarapa-central-ibarapa-north,Ajibola Muraina,PDP,PDP,14773,wikipedia:reps:2019:OY
+reps-2019-oy-ibarapa-central-ibarapa-north,Obafemi Ojo,APC,APC,14359,wikipedia:reps:2019:OY
+reps-2019-oy-ibarapa-central-ibarapa-north,Others,OTH,OTHER,8977,wikipedia:reps:2019:OY
+reps-2019-oy-ibarapa-east-ido,Oluyemi Adewale-Taiwo,PDP,PDP,17426,wikipedia:reps:2019:OY
+reps-2019-oy-ibarapa-east-ido,Adeniyi Olowofela,APC,APC,16209,wikipedia:reps:2019:OY
+reps-2019-oy-ibarapa-east-ido,Others,OTH,OTHER,10940,wikipedia:reps:2019:OY
+reps-2019-oy-irepo-olurunsogo-orelope,Olumide Ojerinde,APC,APC,18178,wikipedia:reps:2019:OY
+reps-2019-oy-irepo-olurunsogo-orelope,Michael Okunlade,PDP,PDP,11251,wikipedia:reps:2019:OY
+reps-2019-oy-irepo-olurunsogo-orelope,Others,OTH,OTHER,17731,wikipedia:reps:2019:OY
+reps-2019-oy-iseyin-kajola-iwajowa-itesiwaju,Shina Peller,APC,APC,44088,wikipedia:reps:2019:OY
+reps-2019-oy-iseyin-kajola-iwajowa-itesiwaju,Oyesina Oyedeji,PDP,PDP,31336,wikipedia:reps:2019:OY
+reps-2019-oy-iseyin-kajola-iwajowa-itesiwaju,Others,OTH,OTHER,17537,wikipedia:reps:2019:OY
+reps-2019-oy-ogbomoso-north-ogbomoso-south-orire,Ajao Adejumo,ADP,OTHER,31640,wikipedia:reps:2019:OY
+reps-2019-oy-ogbomoso-north-ogbomoso-south-orire,Segun Ogunwuyi,PDP,PDP,22754,wikipedia:reps:2019:OY
+reps-2019-oy-ogbomoso-north-ogbomoso-south-orire,Others,OTH,OTHER,27463,wikipedia:reps:2019:OY
+reps-2019-oy-ogo-oluwa-surulere,Olusegun Odebunmi,APC,APC,15463,wikipedia:reps:2019:OY
+reps-2019-oy-ogo-oluwa-surulere,Abiola Alagbe,ADP,OTHER,12766,wikipedia:reps:2019:OY
+reps-2019-oy-ogo-oluwa-surulere,Others,OTH,OTHER,10988,wikipedia:reps:2019:OY
+reps-2019-oy-oluyole,Tolulope Akande-Sadipe,APC,APC,9928,wikipedia:reps:2019:OY
+reps-2019-oy-oluyole,Olawale Mogbonjubola,PDP,PDP,8776,wikipedia:reps:2019:OY
+reps-2019-oy-oluyole,Others,OTH,OTHER,8271,wikipedia:reps:2019:OY
+reps-2019-pl-barkin-ladi-riyom,Simon Mwadkwon,PDP,PDP,64291,wikipedia:reps:2019:PL
+reps-2019-pl-barkin-ladi-riyom,Bitrus Dangwel Tawal,APC,APC,24796,wikipedia:reps:2019:PL
+reps-2019-pl-barkin-ladi-riyom,Others,OTH,OTHER,129,wikipedia:reps:2019:PL
+reps-2019-pl-bokkos-mangu,Solomon Maren,PDP,PDP,71903,wikipedia:reps:2019:PL
+reps-2019-pl-bokkos-mangu,Haruna Danjuma,APC,APC,58964,wikipedia:reps:2019:PL
+reps-2019-pl-bokkos-mangu,Others,OTH,OTHER,13022,wikipedia:reps:2019:PL
+reps-2019-pl-jos-north-bassa,Haruna Maitala,APC,APC,118774,wikipedia:reps:2019:PL
+reps-2019-pl-jos-north-bassa,Jonathan Dabo,PDP,PDP,117175,wikipedia:reps:2019:PL
+reps-2019-pl-jos-north-bassa,Others,OTH,OTHER,8839,wikipedia:reps:2019:PL
+reps-2019-pl-jos-south-jos-east,Dachung Musa Bagos,PDP,PDP,117114,wikipedia:reps:2019:PL
+reps-2019-pl-jos-south-jos-east,Pam Dongs,APC,APC,37617,wikipedia:reps:2019:PL
+reps-2019-pl-jos-south-jos-east,Others,OTH,OTHER,1395,wikipedia:reps:2019:PL
+reps-2019-pl-kanke-pankshin-kanam,Gagdi Adamu Yusuf,APC,APC,80373,wikipedia:reps:2019:PL
+reps-2019-pl-kanke-pankshin-kanam,Timothy Golu,PDP,PDP,78987,wikipedia:reps:2019:PL
+reps-2019-pl-kanke-pankshin-kanam,Others,OTH,OTHER,1891,wikipedia:reps:2019:PL
+reps-2019-pl-langtang-north-langtang-south,Beni Lar,PDP,PDP,53726,wikipedia:reps:2019:PL
+reps-2019-pl-langtang-north-langtang-south,Nandang Bako,APC,APC,27353,wikipedia:reps:2019:PL
+reps-2019-pl-langtang-north-langtang-south,Others,OTH,OTHER,615,wikipedia:reps:2019:PL
+reps-2019-pl-mikang-qua-an-pan-shedam,Komsol Longgap,APC,APC,69546,wikipedia:reps:2019:PL
+reps-2019-pl-mikang-qua-an-pan-shedam,Johnbull Shekarau,PDP,PDP,53321,wikipedia:reps:2019:PL
+reps-2019-pl-mikang-qua-an-pan-shedam,Others,OTH,OTHER,1013,wikipedia:reps:2019:PL
+reps-2019-pl-wase,Ahmed Idris,APC,APC,32445,wikipedia:reps:2019:PL
+reps-2019-pl-wase,Suleiman Umar,PDP,PDP,26335,wikipedia:reps:2019:PL
+reps-2019-pl-wase,Others,OTH,OTHER,278,wikipedia:reps:2019:PL
+reps-2019-ri-abua-odua-ahoada-east,Solomon Bob,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-ahoada-west-ogba-egbema-ndoni,Nnam Obi Prince Uchechuku,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-akuku-toru-asari-toru,Boma Goodhead,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-andoni-opobo-nkoro,Awaji Inomeek Abiante,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-degema-bonny,Dagogo Doctor Festus,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-eleme-oyigbo-tai,Chisom Promise Dike,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-etche-omuma,Ephraim Nwuzu,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-ikwerre-emoha,Emerengwa Boniface Sunday,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-khana-gokana,Dumnmene Robison Dekor,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-obio-akpor,Chinda Kingsley,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-okrika-ogu-bolo,Gogo Bright Tamuno,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-port-harcourt-1,Kenneth Anayo Chikere,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-ri-port-harcourt-2,Igwe Chinyere Emmanuel,PDP,PDP,0,wikipedia:reps:2019:RI
+reps-2019-so-binji-silame,Mani Maishinko,PDP,PDP,0,wikipedia:reps:2019:SO
+reps-2019-so-dange-shuni-bodinga-tureta,Shehu Aliyu,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-so-goronyo-gada,Musa Kaffe,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-so-illela-gwadabawa,Abdullahi Salame,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-so-isa-sabon-birni,Mohammed Bargaja,PDP,PDP,0,wikipedia:reps:2019:SO
+reps-2019-so-kebbe-tambuwal,Bala Kokani,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-so-kware-wamakko,Abdullahi Kalambaina,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-so-sokoto-north-sokoto-south,Hassan Abubakar III,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-so-tangaza-gudu,Yusuf Kurdula,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-so-wurno-rabah,Aliyu Almustapha,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-so-yabo-shagari,Abubakar Yabo,APC,APC,0,wikipedia:reps:2019:SO
+reps-2019-ta-bali-gassol,Garba Hamman-Julde,APC,APC,54739,wikipedia:reps:2019:TA
+reps-2019-ta-bali-gassol,Adamu Maikarfi,PDP,PDP,40050,wikipedia:reps:2019:TA
+reps-2019-ta-bali-gassol,Others,OTH,OTHER,11049,wikipedia:reps:2019:TA
+reps-2019-ta-jalingo-yorro-zing,Aminu Ibrahim Malle,APC,APC,61077,wikipedia:reps:2019:TA
+reps-2019-ta-jalingo-yorro-zing,Hassan Bappa,PDP,PDP,51306,wikipedia:reps:2019:TA
+reps-2019-ta-jalingo-yorro-zing,Others,OTH,OTHER,22581,wikipedia:reps:2019:TA
+reps-2019-ta-karim-lamido-lau-ardo-kola,Danladi Baido,PDP,PDP,60848,wikipedia:reps:2019:TA
+reps-2019-ta-karim-lamido-lau-ardo-kola,Bello Mohammed,APC,APC,54571,wikipedia:reps:2019:TA
+reps-2019-ta-karim-lamido-lau-ardo-kola,Others,OTH,OTHER,11011,wikipedia:reps:2019:TA
+reps-2019-ta-sardauna-gashaka-kurmi,David Fuoh,PDP,PDP,63013,wikipedia:reps:2019:TA
+reps-2019-ta-sardauna-gashaka-kurmi,Abdullateef Abubakar,APC,APC,45137,wikipedia:reps:2019:TA
+reps-2019-ta-sardauna-gashaka-kurmi,Others,OTH,OTHER,2013,wikipedia:reps:2019:TA
+reps-2019-ta-takuma-donga-ussa,Rima Kwewum,PDP,PDP,73258,wikipedia:reps:2019:TA
+reps-2019-ta-takuma-donga-ussa,Alexander Atta,APC,APC,26015,wikipedia:reps:2019:TA
+reps-2019-ta-takuma-donga-ussa,Others,OTH,OTHER,18064,wikipedia:reps:2019:TA
+reps-2019-ta-wukari-ibi,Usman Danjuma Shiddi,APGA,APGA,39312,wikipedia:reps:2019:TA
+reps-2019-ta-wukari-ibi,Naphtali Kefas,PDP,PDP,24575,wikipedia:reps:2019:TA
+reps-2019-ta-wukari-ibi,Yakubu Haruna Aliyara,AA,OTHER,22147,wikipedia:reps:2019:TA
+reps-2019-ta-wukari-ibi,Josiah Sabo Kente,APC,APC,17522,wikipedia:reps:2019:TA
+reps-2019-ta-wukari-ibi,Others,OTH,OTHER,5133,wikipedia:reps:2019:TA
+reps-2019-yo-bade-jakusko,Zakariya'u Galadima,APC,APC,53066,wikipedia:reps:2019:YO
+reps-2019-yo-bade-jakusko,Hassan Kaikaku,PDP,PDP,31155,wikipedia:reps:2019:YO
+reps-2019-yo-bade-jakusko,Others,OTH,OTHER,838,wikipedia:reps:2019:YO
+reps-2019-yo-bursari-geidam-yunusari,Lawan Shettima Ali,APC,APC,59823,wikipedia:reps:2019:YO
+reps-2019-yo-bursari-geidam-yunusari,Hassan Abba,PDP,PDP,7784,wikipedia:reps:2019:YO
+reps-2019-yo-damaturu-gujba-gulani-tarmuwa,Khadija Bukar Abba Ibrahim,APC,APC,78953,wikipedia:reps:2019:YO
+reps-2019-yo-damaturu-gujba-gulani-tarmuwa,Habu Babayo,PDP,PDP,10508,wikipedia:reps:2019:YO
+reps-2019-yo-fika-fune,Abubakar Yerima,APC,APC,64207,wikipedia:reps:2019:YO
+reps-2019-yo-fika-fune,Zainab Boni Haruna,PDP,PDP,35352,wikipedia:reps:2019:YO
+reps-2019-yo-fika-fune,Others,OTH,OTHER,309,wikipedia:reps:2019:YO
+reps-2019-yo-machina-nguru-yusufari-karasuwa,Tijjani Zannah Zakariya,APC,APC,86358,wikipedia:reps:2019:YO
+reps-2019-yo-machina-nguru-yusufari-karasuwa,Ali Garba,PDP,PDP,27145,wikipedia:reps:2019:YO
+reps-2019-yo-nangere-potiskum,Ibrahim-Umar Potiskum,APC,APC,61874,wikipedia:reps:2019:YO
+reps-2019-yo-nangere-potiskum,Sabo Garba,PDP,PDP,39817,wikipedia:reps:2019:YO
+reps-2019-yo-nangere-potiskum,Others,OTH,OTHER,6316,wikipedia:reps:2019:YO
+reps-2019-za-anka-talata-mafara,Kabiru Yahaya,PDP,PDP,17442,wikipedia:reps:2019:ZA
+reps-2019-za-anka-talata-mafara,Husaini Aliyu Mafara,A,OTHER,2288,wikipedia:reps:2019:ZA
+reps-2019-za-anka-talata-mafara,Others,OTH,OTHER,5273,wikipedia:reps:2019:ZA
+reps-2019-za-bakura-maradun,Ahmed Bakura Muhammad,PDP,PDP,27240,wikipedia:reps:2019:ZA
+reps-2019-za-bakura-maradun,Aliyu Sanusi,A,OTHER,2679,wikipedia:reps:2019:ZA
+reps-2019-za-bakura-maradun,Others,OTH,OTHER,2323,wikipedia:reps:2019:ZA
+reps-2019-za-bungudu-maru,Shehu Ahmed,PDP,PDP,17062,wikipedia:reps:2019:ZA
+reps-2019-za-bungudu-maru,Sani Bello,A,OTHER,12643,wikipedia:reps:2019:ZA
+reps-2019-za-bungudu-maru,Others,OTH,OTHER,8022,wikipedia:reps:2019:ZA
+reps-2019-za-gunmi-bukkuyum,Sulaiman Gumi Abubakar,PDP,PDP,23095,wikipedia:reps:2019:ZA
+reps-2019-za-gunmi-bukkuyum,Aliyu Hassan Gummi,A,OTHER,4743,wikipedia:reps:2019:ZA
+reps-2019-za-gunmi-bukkuyum,Others,OTH,OTHER,2550,wikipedia:reps:2019:ZA
+reps-2019-za-gusau-tsafe,Kabiru Amadu,PDP,PDP,35533,wikipedia:reps:2019:ZA
+reps-2019-za-gusau-tsafe,Abdullahi Abubakar,A,OTHER,22217,wikipedia:reps:2019:ZA
+reps-2019-za-gusau-tsafe,Others,OTH,OTHER,6967,wikipedia:reps:2019:ZA
+reps-2019-za-kaura-namoda-birnin-magaji,Sani Umar Dan-Galadima,PDP,PDP,23672,wikipedia:reps:2019:ZA
+reps-2019-za-kaura-namoda-birnin-magaji,Aminu Isah Sakajiki,NRM,OTHER,1383,wikipedia:reps:2019:ZA
+reps-2019-za-kaura-namoda-birnin-magaji,Others,OTH,OTHER,433,wikipedia:reps:2019:ZA
+reps-2019-za-shinkafi-zurmi,Bello Shinkafi,PDP,PDP,16638,wikipedia:reps:2019:ZA
+reps-2019-za-shinkafi-zurmi,Aliyu Jibril Guraguri,APGA,APGA,3231,wikipedia:reps:2019:ZA
+reps-2019-za-shinkafi-zurmi,Others,OTH,OTHER,5171,wikipedia:reps:2019:ZA
+reps-2023-ab-aba-north-aba-south,Emeka Nnamani,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ab-arochukwu-ohafia,Ibe Okwara-Osonwa,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ab-bende,Benjamin Kalu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ab-isiala-ngwa-north-isiala-ngwa-south,Ginger Obinna Onwusibe,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ab-isuikwuato-umunneochi,Amobi Ogah,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ab-obingwa-ugwunagbo-osisioma,Munachim Alozie,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ab-ukwa-east-ukwa-west,Christian Nkwonta,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ab-umuahia-north-umuahia-south-ikwuano,Obinna Aguocha,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ad-demsa-numan-lamurde,Kwamoti Laori,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ad-fufore-song,Aliyu Wakili Boya,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ad-gombi-hong,James Shaibu Barka,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ad-guyuk-shelleng,Kobis Ari Thimnu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ad-madagali-michika,Zakaria Dauda Nyampa,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ad-maiha-mubi-north-mubi-south,Jingi Rufa'i,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ad-mayo-belwa-toungo-jada-ganye,Mohammed Inuwa Bassi,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ad-yola-north-yola-south-girei,Salihu Mohammed Abba Girei,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ak-eket-onna-esit-eket-ibeno,Okpolupm Etteh,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ak-etinan-nsit-ibom-nsit-ubium,Patrick Umoh,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ak-ikono-ini,Glory Edet,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ak-ikot-abasi-mkpat-enin-eastern-obolo,Uduak Odudoh,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ak-ikot-ekpene-essien-udim-obot-akara,Idongesit Ntekpere,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ak-itu-ibiono-ibom,Ime Okon,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ak-ukanafun-oruk-anam,Unyime Idem,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ak-uyo-uruan-nsit-atai-ibesikpo-asutan,Mark Esset,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-an-aguata,Dominic Okafor,APGA,APGA,0,wikipedia:reps:2023:NG
+reps-2023-an-anambra-east-anambra-west,Peter Udeogalanya Aniekwe,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-an-awka-north-awka-south,Lilian Orogbo,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-an-idemili-north-idemili-south,Uchenna Okonkwo,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-an-ihiala,Paschal Agbodike,APGA,APGA,0,wikipedia:reps:2023:NG
+reps-2023-an-njikoka-dunukofia-anaocha,George Ozodinobi,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-an-nnewi-north-nnewi-south-ekwusigo,Uchenna Clement Eleodimmuo,APGA,APGA,0,wikipedia:reps:2023:NG
+reps-2023-an-ogbaru,Afam Ogene,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-an-onitsha-north-onitsha-south,Emeka Idu,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-an-orumba-north-orumba-south,Chinwe Nnabuife,YPP,OTHER,0,wikipedia:reps:2023:NG
+reps-2023-an-oyi-ayamelum,Maureen Gwacham,APGA,APGA,0,wikipedia:reps:2023:NG
+reps-2023-ba-alkaleri-kirfi,Kabiru Yusuf,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ba-bauchi,Aliyu Aminu Garu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ba-darazo-ganjuwa,Mansur Manu Soro,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ba-dass-bogoro-tafawa-balewa,Jafaru Gambo Leko,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ba-gamawa,Adamu Ibrahim Gamawa,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ba-jama-are-itas-gadau,Bala Rabilu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ba-katagum,Auwalu Abdu Gwalabe,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ba-misau-dambam,Bappa Aliyu Misau,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ba-ningi-warji,Adamu Hashimu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ba-shira-glade,Sani Ibrahim Tanko Muhammad,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ba-toro,Ismail Haruna Dabo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ba-zaki,Muhammed Dan Abba Shehu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-by-brass-nembe,Marie Ebikake,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-by-ogbia,Ebiyun Turner,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-by-sagbama-ekeremor,Fred Agbedi,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-by-yenagoa-kolokuna-opokuma,Oforji Oboku,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-be-ado-ogbadibo-opkokwu,Phillip Agbese,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-apa-agatu,Ojotu Ojema,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-be-buruku,Sekav Dzua Iyortyom,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-gboko-tarka,Regina Akume,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-guma-makurdi,Dickson Tarkighir,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-gwer-east-gwer-west,Austin Asema Achado,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-katsina-ala-ukum-logo,Solomon Wombo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-konshisha-vandeikya,Sesoo Ikpacher,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-kwande-ushongo,Terseer Ugbor,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-oju-obi,Peter Oboh Egbodo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-be-otukpo-ohimini,Blessing Onuh,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-bo-askira-uba-hawul,Midala Usman Balami,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-bo-bama-ngala-kala-balge,Zainab Gimba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-bo-biu-kwaya-kusar-shani-bayo,Muktar Aliyu Betara,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-bo-dikwa-mafa-konduga,Muhammad Abuna,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-bo-gubio-kaga-magumeri,Usman Zannah,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-bo-jere,Ahmad Satomi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-bo-kukawa-mobbar-abadam-guzamala,Bukar Gana Kareto,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-bo-maiduguri-metropolitan,Abdulkadir Rahis,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-bo-monguno-marte-nganzai,Bukar Talba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-cr-abi-yakurr,Alex Egbona,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-cr-akamkpa-biase,Emil Inyang,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-cr-akpabuyo-bakassi-calabar-south,Joseph Bassey,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-cr-calabar-municipal-odukpani,Akiba Bassey Ekpenyong,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-cr-ikom-boki,Victor Bisong Abang,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-cr-obanliku-obudu-bekwarra,Peter Akpanke,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-cr-obubra-etung,Michael Etaba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-cr-ogoja-yala,Godwin Offiono,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-de-aniocha-oshimili,Ngozi Okolie,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-de-bomadi-patani,Nicholas Mutu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-de-burutu,Julius Gbabojor Pondi,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-de-ethiope-east-ethiope-west,Erhiatake Ibori-Suenu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-de-ika-north-east-ika-south,Victor Nwokolo,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-de-isoko-south-isoko-north,Jonathan Ukodhiko,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-de-okpe-sapele-uvwie,Benedict Etanabene,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-de-nkokwa-east-ndokwa-west-ukwuani,Nnamdi Ezechi,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-de-ughelli-north-ughelli-south-udu,Francis Waive,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-de-warri-north-warri-south-warri-south-west,Thomas Ereyitomi,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-eb-abakaliki-izzi,Emmanuel Uguru,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-eb-afikpo-north-afikpo-south,Iduma Igariwey,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-eb-ezza-south-ikwo,Chinedu Ogah,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-eb-ebonyi-ohaukwu,Eze Nwachukwu Eze,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-eb-ivo-ohaozara-onicha,Nkemkanma Kama,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ed-akoko-edo,Peter Ohiozojeh Akpatason,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ed-egor-ikpoba-okha,Murphy Osaro Omoruyi,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ed-esan-north-east-esan-south-east,Odianosen Okojie,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ed-etsako-east-etsako-west-etsako-central,Anamero Sunday Dekeri,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ed-oredo,Esosa Iyawe,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ed-ovia-north-east-ovia-south-west,Dennis Idahosa,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ed-owan-east-owan-west,Julius Ihonvbere,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ek-ado-ekiti-irepodun-ifelodun,Olusola Steve Fatoba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ek-ekiti-south-west-ikere-ise-orun,Rufus Adeniyi Ojuawo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ek-emure-gbonyin-ekiti-east,Richard Bamisile,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ek-ido-osi-moba-ilejeme,Akinlayo Kolawole,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ek-ijero-ekiti-west-efon,Biodun Omoleye,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ek-ikole-oye,Akin Rotimi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-en-aninri-awgu-oji-river,Chijioke Okereke,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-en-enugu-east-isi-uzo,Paul Sunday Nnamchi,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-en-enugu-north-enugu-south,Chimaobi Sam Atu,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-en-ezeagu-udi,Sunday Cyriacus Umeha,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-en-igbo-etiti-uzo-uwani,Chijioke Nwodo,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-en-igboeze-north-udenu,Dennis Nnamdi Agbo,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-en-nkanu-east-nkanu-west,Nnolim Nnaji,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-en-nsukka-igbo-eze-south,Chidi Mark Obetta,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-fc-abaji-gwagwalada-kwali-kuje,Abdulrahman Ajiya,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-fc-amac-bwari,Joshua Chinedu Obika,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-go-akko,Usman Bello Kumo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-go-balanga-billiri,Ali Isa,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-go-dukku-nafada,Abdullahi El-Rasheed,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-go-gombe-kwami-funakaye,Yaya Bauchi Tongo,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-go-kaltungo-shongom,Obed Shehu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-go-yamaltu-deba,Inuwa Garba,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-im-aboh-mbaise-ngor-okpala,Mathew Nwogu,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-im-ahiazu-mbaise-ezinihitte,Emeka Chinedu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-im-ehime-mbano-ihitte-uboma-obowo,Jonas Okeke,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-im-ideato-north-ideato-south,Ikenga Ugochinyere,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-im-isiala-mbano-okigwe-onuimo,Miriam Onuoha,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-im-oguta-ohaji-egbema-oru-west,Eugene Okechukwu Dibiagwu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-im-oru-east-orsu-orlu,Canic Moore Chukwugozie Nwachukwu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-im-owerri-municipal-owerri-north-owerri-west,Tochukwu Chinedum Okere,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ji-babura-garki,Isa Dogonyaro,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ji-birnin-kudu-buji,Yakubu Adamu Dan Maliki,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ji-birniwa-guri-kirikasamma,Abubakar Hassan Fulata,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ji-dutse-kiyawa,Dahiru Madaki Katuka,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ji-gwaram,Yusuf Shittu Galambi,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-ji-hadejia-auyo-kafin-hausa,Usman Ibrahim Auyo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ji-kazaure-roni-gwiwa-yankwashi,Muktar Muhammed Zanna,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ji-mallam-madori-kaugama,Makki Abubakar Yalleman,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ji-jahun-miga,Yusuf Sa'idu Miga,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ji-ringim-taura,Sa'ad Wada Taura,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kd-birnin-gwari-giwa,Bashir Zubairu Usman,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kd-chikun-kajuru,Adams Abubakar Ekene,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-kd-igabi,Husseini Muhammad Jallo,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-ikara-kubau,Mustapha Aliyu Abdullahi,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-jema-a-sanga,Dan Amos,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-kachia-kagarko,David Umar Gurara,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-kaduna-north,Bello El-Rufai,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kd-kaduna-south,Hussaini Abdulkarim,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-kaura,Mathew Donatus,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-kd-kauru,Bashir Yusuf,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-lere,Ahmed Munir,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kd-makarfi-kudan,Umar Shehu Ajilo,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-sabon-gari,Sadiq Ango Abdullahi,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-soba,Suleiman Yahaya Richifa,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-zangon-kataf-jaba,Amos Gwamna Magaji,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kd-zaria,Tajudeen Abbas,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kn-albasu-gaya-ajingi,Mustapha Tijjani Ghali,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-bebeji-kiru,Abdulmumin Jibrin,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-bichi,Abubakar Kabir Abubakar,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kn-dala,Aliyu Sani Madaki,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-danbatta-makoda,Hamisu Ibrahim Chidari,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kn-dawakin-kudu-warawa,Mohammed Danjuma Hassan,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-dawakin-tofa-tofa-rimin-gado,Tijjani Abdulkadir Jobe,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-fagge,Muhammad Bello Shehu,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-gabasawa-gezawa,Muhammad Garba Chiroma,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-gwarzo-kabo,Abdullahi Mu'azu Gwarzo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kn-gwale,Garba Ibrahim Mohammed,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-kumbotso,Idris Dankawu,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-kano-municipal,Sagir Ibrahim Koki,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-kunchi-tsanyawa,Sani Umar Bala,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kn-karaye-rogo,Abdullahi Sani Rogo,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-kura-madobi-garun-malam,Yusuf Umar Datti,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-minjibir-ungogo,Sani Adamu,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-nasarawa,Hassan Shehu Hussain,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-rano-bunkure-kibiya,Kabiru Alhassan Rurum,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-sumaila-takai,Rabi'u ibn Yusuf Takai,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-shanono-bagwai,Yusuf Ahmad Badau,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kn-tarauni,Mukhtar Umar Zakari,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kn-wudil-garko,Kamilu Ado Isah,NNPP,NNPP,0,wikipedia:reps:2023:NG
+reps-2023-kt-bakori-danja,Abdullahi Balarabe Dabai,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kt-batagarawa-charanchi-rimi,Usman Banye,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kt-batsari-safana-danmusa,Abubakar Aliyu Iliyasu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kt-bindawa-mani,Ahmed Yusuf Doro,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kt-daura-sandamu-mai-adua,Aminu Jamo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kt-dutsin-ma-kurfi,Aminu Balele,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kt-faskari-kankara-sabuwa,Jamilu Muhammad,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kt-funtua-dandume,Abubakar Ahmad Muhammad,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kt-jibia-kaita,Sada Soli,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kt-katsina,Aminu Ahmad Chindo,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kt-ingawa-kankia-kusada,Ismail Dalha Kusada,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kt-malumfashi-kafur,Aminu Ibrahim Muhammad,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kt-mashi-dutsi,Salisu Yusuf Majigiri,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-kt-matazu-musawa,Abdullahi Aliyu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kt-zango-baure,Sani Lawal,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ke-aliero-gwandu-jega,Mansur Musa Jega,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ke-argungu-augie,Sani Yakubu Noma,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ke-bagudo-suru,Bello Kaoje,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ke-bunza-birnin-kebbi-kalgo,Ibrahim Mohammed,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ke-fakai-sakaba-wasagu-danko-zuru,Kabir Ibrahim Tukura,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ke-ngaski-shanga-yauri,Yusuf Tanko Sununu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ko-adavi-okehi,Abdulmaleek Danga Abdulraheem,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ko-ajaokuta,Sanni Egidi Abdulraheem,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ko-ankpa-omala-olamaboro,Abdullahi Ibrahim Ali,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ko-ibaji-idah-igalamela-odolu,David Idris Zacharias,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ko-kabba-bunu-ijumu,Salman Idris,ADC,ADC,0,wikipedia:reps:2023:NG
+reps-2023-ko-lokoja,Danladi Suleiman Aguye,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ko-okene-ogori-magogo,Tijani Muhammed Ozigi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ko-yagba-east-yagba-west-mopamuro,Leke Abejide,ADC,ADC,0,wikipedia:reps:2023:NG
+reps-2023-kw-asa-ilorin-west,Muktar Tolani Shagaya,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kw-baruten-kaiama,Mohammed Omar Bio,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kw-edu-moro-pategi,Ahmed Saba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kw-ekiti-isin-irepodun-oke-ero,Raheem Olawuyi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kw-ilorin-east-ilorin-south,Yinka Aluko,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-kw-offa-oyun-ifelodun,Ismail Tijani,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-agege,Wale Ahmed,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-ajeromi-ifelodun,Kalejaiye Adeboye Paul,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-alimosho,Ganiyu Adele Ayuba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-amuwo-odofin,George Adegeye,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-la-apapa,Adesola Adedayo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-badagry,Sesi Oluwaseun Whingan,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-epe,Tasir Wale Raji,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-eti-osa,Thaddeus Attah,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-la-ibeju-lekki,Adebayo Olusegun Balogun,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-ifako-ijaiye,Benjamin Adeyemi Olabinjo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-ikeja,Abiodun Faleke,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-ikorodu,Babajimi Benson,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-kosofe,Kafilat Ogbara,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-lagos-island-i,Enitan Badru,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-lagos-island-ii,Kayode Moshood Akiolu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-lagos-mainland,Moshood Olanrewaju Oshun,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-mushin-i,Adeyemi Taofeek Alli,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-mushin-ii,Toyin Fayinka,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-ojo,Oluwaseyi Ayopo Sowumi,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-la-oshodi-isolo-i,Bashiru Dawodu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-oshodi-isolo-ii,Okey-Joe Onuakalusi,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-la-somolu,Ademorin Kuye,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-surulere-i,Femi Gbajabiamila,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-la-surulere-ii,Lanre Okunlola,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-na-akwanga-nasarawa-eggon-wamba,Jeremiah Umaru,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-na-awe-doma-keana,Abubakar Nalaraba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-na-keffi-karu-kokona,Jonathan Gaza Gbefwi,SDP,SDP,0,wikipedia:reps:2023:NG
+reps-2023-na-lafia-obi,Abubakar Sarki Dahiru,SDP,SDP,0,wikipedia:reps:2023:NG
+reps-2023-na-nassarawa-toto,Abdulmumin Muhammed Ari,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ni-agaie-lapai,Abdullahi Mamudu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ni-agwara-borgu,Ja'afaru Mohammed,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ni-bida-gbako-katcha,Saidu Musa Abdullahi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ni-bosso-paikoro,Yusuf Kure Baraje,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ni-chanchaga,Abubakar Abdul Buba,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ni-gurara-suleja-tapa,Adamu Tanko,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ni-kontagora-wushishi-mariga-mashegu,Abdullahi Idris Garba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ni-lavun-mokwa-edati,Joshua Audu Gana,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ni-magama-rijau,Shehu Saleh,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ni-shiroro-rafi-munya,Isma'il Musa Modibo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-abeokuta-north-obafemi-owode-odeda,Olumide Osoba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-abeokuta-south,Afolabi Afuape,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-ado-odo-ota,Tunji Akinosi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-egbado-north-imeko-afon,Gboyega Nasir Isiaka,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-egbado-south-ipokia,Abiodun Isiaq Akinlade,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-ifo-ewekoro,Ibrahim Ayokunle Isiaka,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-ijebu-north-ijebu-east-ogun-waterside,Joseph Folorunsho Adegbesan,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-ijebu-ode-odogbolu-ijebu-north-east,Olufemi Adeleke Ogunbanwo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-og-ikenne-shagamu-remo-north,Adewunmi Onanuga,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-on-akoko-north-east-akoko-north-west,Olubunmi Tunji-Ojo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-on-akure-north-akure-south,Aderin Adesida,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-on-idanre-ifedore,Festus Akingbaso,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-on-ilaje-eseodo,Donald Ojogo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-on-ile-oluji-okeigbo-odigbo,Festus Adefiranye,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-on-irele-okitipupa,Okunjimi Odimayo,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-on-ondo-east-ondo-west,Abiola Makinde,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-on-owo-ose,Oluwatimehin Adelegbe,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-os-atakunmosa-east-atakunmosa-west-ilesa-east-ilesa-west,Sanya Omirin,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-os-ayedaade-irewole-isokan,Sola Arabambi,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-os-ayedire-iwo-ola-oluwa,Lukman Kayode Mudasiru,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-os-boluwaduro-ifedayo-illa,Akanni Clement Olohunwa,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-os-ede-north-ede-south-egbedero-ejigbo,Bamidele Salam,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-os-ife-central-ife-east-ife-north-ife-south,Taofeek Abimbola Ajilesoro,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-os-irepodun-olurunda-osogbo-orolu,Adewale Maruf Adebayo,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-os-obokun-oriade,Oluwole Oke,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-os-odo-otin-boripe-ifelodun,Soji Adetunji,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-oy-afijio-atiba-oyo-east-oyo-west,Akeem Adeniyi Adeyemi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-oy-akinyele-lagelu,Lafisoye Akinmoyede,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-oy-atisbo-saki-east-saki-west,Kareem Tajudeen Abisodun,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-oy-egbeda-ona-ara,Akinola Adekunle Alabi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-oy-ibadan-north,Olaide Adewale Akinremi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-oy-ibadan-north-west-ibadan-south-west,Adedeji Stanley Olajide,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-oy-ibarapa-central-ibarapa-north,Adebayo Anthony Adepoju,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-oy-ibarapa-east-ido,Remi Oseni,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-oy-irepo-olurunsogo-orelope,Olaide Muhammed,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-oy-iseyin-kajola-iwajowa-itesiwaju,Oyejide Oyesina,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-oy-ogbomoso-north-ogbomoso-south-orire,Olamiju Alao Akala,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-oy-ogo-oluwa-surulere,Ojo Makanjuola,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-pl-barkin-ladi-riyom,Peter Gyendeng,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-pl-bokkos-mangu,Ishaya David Lalu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-pl-jos-north-bassa,Musa Agah Avia,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-pl-jos-south-jos-east,Dachung Musa Bagos,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-pl-kanke-pankshin-kanam,Yusuf Adamu Gagdi,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-pl-langtang-north-langtang-south,Beni Lar,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-pl-mikang-qua-an-pan-shedam,Isaac Kyale Kwallu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-pl-wase,Ahmed Idris Wase,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ri-abua-odua-ahoada-east,Solomon Bob,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-ahoada-west-ogba-egbema-ndoni,Victor Obuzor,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-akuku-toru-asari-toru,Boma Goodhead,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-andoni-opobo-nkoro,Awaji-inombek Abiante,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-degema-bonny,Cyril Hart,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-eleme-oyigbo-tai,Felix Nwaeke,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-etche-omuma,Kelechi Nwogu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-ikwerre-emoha,Boniface S. Emerengwa,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-obio-akpor,Kingsley Chinda,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ri-okrika-ogu-bolo,Allison Igbiks Anderson,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ri-port-harcourt-i,Manuchim Umezuruike,LP,LP,0,wikipedia:reps:2023:NG
+reps-2023-ta-bali-gassol,Jaafaru Yakubu,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ta-jalingo-yorro-zing,Mohammed Ismaila Yusha'u,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ta-karim-lamido-lau-ardo-kola,Audu Mohammed,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-ta-sardauna-gashaka-kurmi,David Abel Fuoh,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-ta-wukari-ibi,Ayuba Aboki Zaku Dampar,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-yo-bade-jakusko,Hassan Kaikaku Jakduwa,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-yo-bursari-geidam-yunusari,Lawan Shettima Ali,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-yo-damaturu-gujba-gulani-tarmuwa,Khadija Bukar Abba Ibrahim,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-yo-fika-fune,Mohammad Buba Jajere,PDP,PDP,0,wikipedia:reps:2023:NG
+reps-2023-yo-machina-nguru-yusufari-karasuwa,Tijjani Zannah Zakariya,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-yo-nangere-potiskum,Fatima Talba,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-za-anka-talata-mafara,Isa Muhammad Anka,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-za-bakura-maradun,Muhammad Ahmad Sani,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-za-bungudu-maru,Abdulmalik Zubairu,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-za-kaura-namoda-birnin-magaji,Aminu Jaji,APC,APC,0,wikipedia:reps:2023:NG
+reps-2023-za-shinkafi-zurmi,Bello Hassan Shinkafi,PDP,PDP,0,wikipedia:reps:2023:NG

@@ -74,3 +74,19 @@ export function loadLgaShapes(code: string): Promise<LgaShapes> {
   }
   return p;
 }
+
+/** Official LGA results (where on record), in the same shape as the estimate. */
+export function officialLgaResults(
+  state: StateInput & { lga?: Record<string, Record<string, number>> },
+  lgas: { id: string; name: string }[],
+): LgaResult[] {
+  return lgas.map((l) => {
+    const v = state.lga?.[l.id] ?? {};
+    const sum = Object.values(v).reduce((a, b) => a + b, 0);
+    const candidates = state.candidates
+      .filter((c) => (v[c.personId] ?? 0) > 0)
+      .map((c) => ({ personId: c.personId, name: c.name, party: c.party, votes: v[c.personId], share: sum ? v[c.personId] / sum : 0 }))
+      .sort((a, b) => b.votes - a.votes);
+    return { id: l.id, name: l.name, votes: sum, margin: candidates[1] ? candidates[0].share - candidates[1].share : candidates.length ? 1 : 0, candidates };
+  });
+}

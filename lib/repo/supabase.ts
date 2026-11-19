@@ -17,7 +17,9 @@ const db = createClient(URL, KEY, { auth: { persistSession: false } });
 
 type ElectionRow = {
   id: string;
-  type: 'presidential' | 'governorship';
+  type: 'presidential' | 'governorship' | 'senate' | 'reps';
+  constituency: string | null;
+  conflict: boolean;
   year: number;
   state_code: string | null;
   off_cycle: boolean;
@@ -26,7 +28,7 @@ type ElectionRow = {
   valid_votes: number | null;
   source_key: string | null;
 };
-type ResultRow = { election_id: string; area_code: string; candidate: string; party: string; votes: number; person_id: string | null };
+type ResultRow = { election_id: string; area_type: 'state' | 'lga'; area_code: string; candidate: string; party: string; votes: number; person_id: string | null };
 type RegisterRow = { year: number; state_code: string | null; registered: number };
 type SourceRow = { key: string; url: string };
 type PeopleRow = {
@@ -148,8 +150,8 @@ export type RealData = { elections: Election[]; people: Person[] };
 
 export async function loadRealData(): Promise<RealData> {
   const [elections, results, registers, sources, peopleRows, model] = await Promise.all([
-    all<ElectionRow>('elections', 'id,type,year,state_code,off_cycle,coverage,registered,valid_votes,source_key'),
-    all<ResultRow>('results', 'election_id,area_code,candidate,party,votes,person_id'),
+    all<ElectionRow>('elections', 'id,type,year,state_code,off_cycle,coverage,registered,valid_votes,source_key,constituency,conflict'),
+    all<ResultRow>('results', 'election_id,area_type,area_code,candidate,party,votes,person_id'),
     all<RegisterRow>('registered_voters', 'year,state_code,registered'),
     all<SourceRow>('sources', 'key,url'),
     all<PeopleRow>('people', 'id,name,wiki_title,summary,born,died,birth_place,birth_state,gender,party,education,occupation,offices,source_key'),
@@ -170,8 +172,19 @@ export async function loadRealData(): Promise<RealData> {
     const candidates: Candidate[] = [];
     const seen = new Set<string>();
     const res: Record<string, Record<string, number>> = {};
-    for (const r of rows) {
+    const lga: Record<string, Record<string, number>> = {};
+    // State-level rows first; LGA rows then join the same candidates by party (one
+    // candidate per party per election), since LGA tables spell names differently
+    const ordered = [...rows.filter((r) => r.area_type !== 'lga'), ...rows.filter((r) => r.area_type === 'lga')];
+    const byParty = new Map<string, string>();
+    for (const r of ordered) {
+      if (r.area_type === 'lga') {
+        const pid = byParty.get(r.party) ?? personIdFor(e.id, r.candidate, r.party, r.person_id);
+        (lga[r.area_code] ??= {})[pid] = (lga[r.area_code]?.[pid] ?? 0) + r.votes;
+        continue;
+      }
       const pid = personIdFor(e.id, r.candidate, r.party, r.person_id);
+      if (!byParty.has(r.party)) byParty.set(r.party, pid);
       if (!seen.has(pid)) {
         seen.add(pid);
         candidates.push({ personId: pid, party: r.party as PartyCode, name: r.candidate || `${r.party} candidate` });
@@ -179,6 +192,8 @@ export async function loadRealData(): Promise<RealData> {
       (res[r.area_code] ??= {})[pid] = (res[r.area_code]?.[pid] ?? 0) + r.votes;
     }
     const national = e.type === 'presidential';
+    const legislative = e.type === 'senate' || e.type === 'reps';
+    const seatName = legislative ? `${e.constituency}${e.type === 'senate' ? ' Senatorial District' : ' Federal Constituency'}` : '';
     const areas: Area[] = national
       ? STATES.map((s) => ({ code: s.code, name: s.name, zone: s.zone, registered: reg.get(`${e.year}:${s.code}`) ?? 0 }))
       : [
@@ -191,12 +206,19 @@ export async function loadRealData(): Promise<RealData> {
         ];
     out.push({
       id: e.id,
-      title: national ? `${e.year} Presidential Election` : `${stateByCode(e.state_code!).name} Governorship ${e.year}`,
+      title: national
+        ? `${e.year} Presidential Election`
+        : legislative
+          ? `${seatName} ${e.year}`
+          : `${stateByCode(e.state_code!).name} Governorship ${e.year}`,
       type: e.type,
       year: e.year,
       date: national ? PRESIDENTIAL_DATES[e.year] : undefined,
       status: 'concluded',
-      level: national ? 'national' : 'state',
+      level: national ? 'national' : legislative ? 'constituency' : 'state',
+      constituency: e.constituency ?? undefined,
+      conflict: e.conflict || undefined,
+      lga: Object.keys(lga).length ? lga : undefined,
       stateCode: e.state_code ?? undefined,
       areaLabel: 'State',
       areas,
@@ -365,7 +387,7 @@ function yearsBetween(from: string, to: Date) {
  */
 function derivePeople(elections: Election[], profiles: Map<string, PeopleRow>, srcUrl: Map<string, string>): Person[] {
   const people = new Map<string, Person & { contests: { year: number; party: PartyCode; held: boolean }[] }>();
-  const winners = new Map<string, { seat: string; year: number; office: Role['office']; stateCode?: string; party: PartyCode }[]>();
+  const winners = new Map<string, { seat: string; year: number; office: Role['office']; stateCode?: string; constituency?: string; party: PartyCode }[]>();
   const seatHistory = new Map<string, { year: number; personId: string }[]>();
 
   for (const e of [...elections].sort((a, b) => a.year - b.year)) {
@@ -374,14 +396,16 @@ function derivePeople(elections: Election[], profiles: Map<string, PeopleRow>, s
       const totals = e.candidates
         .map((c) => ({ c, votes: Object.values(e.results).reduce((s, area) => s + (area[c.personId] ?? 0), 0) }))
         .sort((a, b) => b.votes - a.votes);
-      const seat = e.type === 'presidential' ? 'president' : `governor:${e.stateCode}`;
+      const seat =
+        e.type === 'presidential' ? 'president' : e.type === 'governorship' ? `governor:${e.stateCode}` : `${e.type}:${e.stateCode}:${e.constituency}`;
       if (totals[0]) {
         const w = totals[0].c;
         const list = seatHistory.get(seat) ?? [];
         list.push({ year: e.year, personId: w.personId });
         seatHistory.set(seat, list);
         const ws = winners.get(w.personId) ?? [];
-        ws.push({ seat, year: e.year, office: e.type === 'presidential' ? 'president' : 'governor', stateCode: e.stateCode, party: w.party });
+        const office: Role['office'] = e.type === 'presidential' ? 'president' : e.type === 'governorship' ? 'governor' : e.type === 'senate' ? 'senator' : 'rep';
+        ws.push({ seat, year: e.year, office, stateCode: e.stateCode, constituency: e.constituency, party: w.party });
         winners.set(w.personId, ws);
       }
     }
@@ -400,12 +424,20 @@ function derivePeople(elections: Election[], profiles: Map<string, PeopleRow>, s
     for (const w of (winners.get(p.id) ?? []).sort((a, b) => a.year - b.year)) {
       const hist = seatHistory.get(w.seat)!;
       const next = hist.find((h) => h.year > w.year && h.personId !== p.id);
-      const prev = roles.find((r) => r.office === w.office && r.stateCode === w.stateCode && r.to === undefined);
+      const prev = roles.find((r) => r.office === w.office && r.stateCode === w.stateCode && r.constituency === w.constituency && r.to === undefined);
       if (prev) continue; // re-elected: same continuous term
       roles.push({
         office: w.office,
-        title: w.office === 'president' ? 'President of the Federal Republic' : `Governor of ${stateByCode(w.stateCode!).name} State`,
+        title:
+          w.office === 'president'
+            ? 'President of the Federal Republic'
+            : w.office === 'governor'
+              ? `Governor of ${stateByCode(w.stateCode!).name} State`
+              : w.office === 'senator'
+                ? `Senator for ${w.constituency}`
+                : `Member, House of Representatives (${w.constituency})`,
         stateCode: w.stateCode,
+        constituency: w.constituency,
         from: w.year,
         to: next?.year,
         party: w.party,

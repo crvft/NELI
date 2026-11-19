@@ -39,6 +39,9 @@ import { ShareBar, MeterBar } from './share-bar';
 import { PartyTag } from './party';
 import { PersonAvatar } from './avatar';
 import { ResultsTable, type ResultRow } from './results-table';
+import lgaNames from '@/lib/lga-names.json';
+
+const LGA_NAMES = lgaNames as Record<string, string>;
 
 
 /** Election page body. `all` and `people` are passed in by the page (from the data layer). */
@@ -264,6 +267,7 @@ export function ElectionView({
                 ['Candidates on record', e.coverage === 'top candidates only' ? 'Leading candidates only; minor parties are missing from the source' : e.coverage === 'winner only' ? 'Winner only' : `All ${e.candidates.length}`],
                 ['Election cycle', e.offCycle ? 'Off-cycle (its own date, after a court ruling or rerun)' : 'General election cycle'],
                 ['Registered voters', reg ? fmt(reg) : 'Not on record'],
+                ...(e.conflict ? [['Note', "The source's vote figures disagree with the winner it declares; the declared winner is shown."]] : []),
               ].map(([k, v]) => (
                 <div key={k} className='grid grid-cols-[132px_minmax(0,1fr)] gap-3 px-4 py-3 sm:px-5'>
                   <dt className='text-paragraph-xs text-text-sub-600'>{k}</dt>
@@ -392,6 +396,7 @@ export function ElectionView({
 
       {/* Full width so every column (incl. votes) fits without scrolling inside the card */}
       {national && <AreaTable e={e} />}
+      {!national && e.lga && <LgaTable e={e} />}
     </PageContainer>
   );
 }
@@ -414,6 +419,24 @@ function AreaTable({ e }: { e: Election }) {
     };
   });
   return <ResultsTable rows={rows} areaLabel={e.areaLabel} live={live} />;
+}
+
+/** Official results by LGA for a state-level race (where the source has them). */
+function LgaTable({ e }: { e: Election }) {
+  const rows: ResultRow[] = Object.entries(e.lga ?? {}).map(([id, v]) => {
+    const sum = Object.values(v).reduce((x, y) => x + y, 0);
+    const [lead, second] = Object.entries(v).sort((x, y) => y[1] - x[1]);
+    const c = lead && e.candidates.find((x) => x.personId === lead[0]);
+    return {
+      code: id,
+      name: LGA_NAMES[id] ?? id,
+      votes: sum,
+      reported: 1,
+      margin: sum && second ? (lead[1] - second[1]) / sum : 0,
+      lead: sum && c ? { name: c.name ?? c.personId, party: c.party, share: lead[1] / sum } : null,
+    };
+  });
+  return <ResultsTable rows={rows} areaLabel='Local government area' live={false} />;
 }
 
 function UpcomingView({

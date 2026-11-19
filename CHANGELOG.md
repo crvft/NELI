@@ -5,6 +5,23 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 
 ---
 
+## Senate, House of Reps and LGA results
+
+- **Senate:** every senatorial district for 1999–2023 (~108 per year).
+- **House of Reps:** 2015 (some states), 2019 (276 constituencies) and 2023 (327).
+  - **Where it comes from:** Wikipedia's per-state articles and the national 2023 article. The winner comes from each article's summary table; vote counts are attached where the district has a results table.
+  - **How complete:** 1,425 races; 341 have vote counts and 1,084 only the winner.
+  - **Flagged races:** 10 races whose figures contradict the declared winner are kept as winner-only and flagged.
+  - **Where to see it:** state pages now have Senate and House of Reps views (seats by party, every district), and each race has its own page.
+- **Results by local government area:**
+  - **Coverage:** 26 elections pass a quality gate, which requires at least 90% of the state's LGAs matched to the map and LGA totals within 3% of the state result. That's 23 governorship elections and 2023 presidential in Lagos, Ekiti and Bayelsa.
+  - **On the map:** zooming into those states shows **official** LGA results; elsewhere the map still uses labelled estimates.
+  - **Elsewhere:** governorship pages get a "Results by LGA" table.
+  - **The gap:** most 2023 presidential state articles have LGA tables whose cells are still "TBD".
+  - **Validation report:** `data/processed/VALIDATION_lga.md`.
+- **Elections page:** shows 60 races at a time. Winner-only races say so instead of showing 100%.
+- **Faster builds:** only presidential, governorship and upcoming races and major politicians are prerendered. Other pages render on first visit and are cached.
+
 ## Anyanwụ 1.1: candidate signals and polls
 
 - **Governorship candidate signals:** the offices a candidate held *before* the election, from their Wikipedia profile: deputy governor, senator or representative, federal minister, and state executive (commissioner, Secretary to the State Government, chief of staff).

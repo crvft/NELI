@@ -123,6 +123,10 @@
   "name": "Alliance for a United Nigeria",
   "lineage": "OTHER"
  },
+ "AYOGU": {
+  "name": null,
+  "lineage": "OTHER"
+ },
  "BNPP": {
   "name": "Better Nigeria Progressive Party",
   "lineage": "OTHER"
@@ -192,6 +196,10 @@
   "lineage": "OTHER"
  },
  "HP": {
+  "name": null,
+  "lineage": "OTHER"
+ },
+ "I": {
   "name": null,
   "lineage": "OTHER"
  },
@@ -349,6 +357,10 @@
  },
  "RP": {
   "name": "Restoration Party of Nigeria",
+  "lineage": "OTHER"
+ },
+ "RVBEC": {
+  "name": null,
   "lineage": "OTHER"
  },
  "SDMP": {

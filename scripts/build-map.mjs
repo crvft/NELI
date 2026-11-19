@@ -109,6 +109,11 @@ for (const [code, lgas] of Object.entries(byState)) {
   fs.writeFileSync(file, JSON.stringify({ state: code, lgas }));
   total += fs.statSync(file).size;
 }
+// Id -> name lookup for server-rendered tables (election pages); same ids as the shapes
+fs.writeFileSync(
+  'lib/lga-names.json',
+  JSON.stringify(Object.fromEntries(Object.values(byState).flat().map((l) => [l.id, l.name]).sort())),
+);
 console.log('lga states', Object.keys(byState).length, 'lgas', Object.values(byState).reduce((a, b) => a + b.length, 0), 'bytes', total,
   'per-state', Object.entries(byState).map(([k, v]) => `${k}:${v.length}`).join(' '));
 console.log('states', Object.keys(states).length, 'neighbours', neighbours.map((n) => n.name).join(', '), 'bytes', fs.statSync('lib/map-shapes.json').size);

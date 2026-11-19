@@ -14,8 +14,10 @@ import { LineChart } from '@/components/neli/line-chart';
 import { SourceBars } from '@/components/neli/zone-bars';
 import { LiveDot } from '@/components/neli/live-dot';
 
+// People with a Wikipedia profile or an executive office are prerendered; other
+// legislative candidates render on first visit and are then cached.
 export async function generateStaticParams() {
-  return (await listPeople()).map((p) => ({ id: p.id }));
+  return (await listPeople()).filter((p) => p.profile || p.roles.some((r) => r.office === 'president' || r.office === 'governor')).map((p) => ({ id: p.id }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {

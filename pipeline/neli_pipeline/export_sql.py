@@ -66,6 +66,12 @@ def build() -> int:
     reg = read("registered_voters.csv")
     reg["note"] = reg["note"].fillna("")
     reg_nat = read("registered_voters_national.csv")
+    leg_sum = read("legislative_summary.csv") if (PROCESSED / "legislative_summary.csv").exists() else pd.DataFrame()
+    leg_res = read("legislative_results.csv") if (PROCESSED / "legislative_results.csv").exists() else pd.DataFrame()
+    lga_res = read("lga_results.csv") if (PROCESSED / "lga_results.csv").exists() else pd.DataFrame()
+    for df in (leg_sum, leg_res, lga_res):
+        if len(df):
+            df.fillna("", inplace=True)
     manifest = json.loads(MANIFEST.read_text())
     people_df = read("people.csv").fillna("")
     links = read("candidate_people.csv")
@@ -98,7 +104,9 @@ def build() -> int:
         m = re.match(r"(.+?)\s*\(([^)]+)\)\s*$", str(label))
         if m and len(m.group(1)) > 3:
             names.setdefault(code, Counter())[m.group(1).strip()] += 1
-    codes = sorted(set(pres_votes.party) | set(gov_res.party))
+    codes = sorted(
+        (set(pres_votes.party) | set(gov_res.party) | set(leg_res.get("party", [])) | set(lga_res.get("party", []))) - {""}
+    )
     parties = [(c, (names[c].most_common(1)[0][0] if c in names else None), lineage(c)) for c in codes]
 
     sources = [
@@ -124,6 +132,8 @@ def build() -> int:
                 None,
                 None,
                 f"wikipedia:presidential:{year}",
+                None,
+                False,
             )
         )
     for r in gov_sum.itertuples():
@@ -141,6 +151,27 @@ def build() -> int:
                 r.total_votes,
                 r.sum_check,
                 r.source,
+                None,
+                False,
+            )
+        )
+    for r in leg_sum.itertuples():
+        elections.append(
+            (
+                r.election_id,
+                r.chamber,
+                int(r.year),
+                r.state_code,
+                False,
+                r.coverage,
+                None,
+                None,
+                None,
+                None,
+                None,
+                r.source,
+                r.district,
+                str(r.conflict) == "True",
             )
         )
 
@@ -170,6 +201,36 @@ def build() -> int:
             pid.get((r.election_id, r.candidate)),
         )
         for r in gov_res.itertuples()
+    ]
+    # Senate / House of Reps (winner-only races carry the winner with no vote figure)
+    results += [
+        (
+            r.election_id,
+            "state",
+            r.election_id.split("-")[2].upper(),
+            r.candidate,
+            r.party or "OTH",
+            r.party or "",
+            int(r.votes),
+            r.source,
+            None,
+        )
+        for r in leg_res.itertuples()
+    ]
+    # LGA rows (area_code = the map's GRID3 LGA id)
+    results += [
+        (
+            r.election_id,
+            "lga",
+            r.lga_id,
+            r.candidate,
+            r.party,
+            r.party,
+            int(r.votes),
+            r.source,
+            pid.get((r.election_id, r.candidate)),
+        )
+        for r in lga_res.itertuples()
     ]
 
     area_totals = [
@@ -205,6 +266,8 @@ def build() -> int:
                         "total_votes",
                         "sum_check",
                         "source_key",
+                        "constituency",
+                        "conflict",
                     ],
                     r,
                     strict=True,
@@ -271,6 +334,8 @@ def build() -> int:
                 "total_votes",
                 "sum_check",
                 "source_key",
+                "constituency",
+                "conflict",
             ],
             elections,
         ),

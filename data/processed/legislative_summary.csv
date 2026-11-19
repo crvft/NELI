@@ -1,0 +1,1426 @@
+election_id,chamber,year,state_code,district,winner,winner_party,coverage,conflict,source
+sen-1999-ab-abia-north,senate,1999,AB,Abia North,Ike Nwachukwu,PDP,winner only,False,wikipedia:senate:1999:AB
+sen-1999-ab-abia-central,senate,1999,AB,Abia Central,Bob Nwannunu,ANPP,winner only,False,wikipedia:senate:1999:AB
+sen-1999-ab-abia-south,senate,1999,AB,Abia South,Adolphus Wabara,PDP,winner only,False,wikipedia:senate:1999:AB
+sen-1999-ad-adamawa-north,senate,1999,AD,Adamawa North,Abubakar Girei,PDP,winner only,False,wikipedia:senate:1999:AD
+sen-1999-ad-adamawa-central,senate,1999,AD,Adamawa Central,Iya Abubakar,PDP,winner only,False,wikipedia:senate:1999:AD
+sen-1999-ad-adamawa-south,senate,1999,AD,Adamawa South,Jonathan Zwingina,PDP,winner only,False,wikipedia:senate:1999:AD
+sen-1999-ak-akwa-ibom-south,senate,1999,AK,Akwa Ibom South,Udoma Udo Udoma,PDP,winner only,False,wikipedia:senate:1999:AK
+sen-1999-ak-akwa-ibom-north-east,senate,1999,AK,Akwa Ibom North-East,John James Akpan Udo-Edehe,PDP,winner only,False,wikipedia:senate:1999:AK
+sen-1999-ak-akwa-ibom-north-west,senate,1999,AK,Akwa Ibom North-West,Bob Ittak Ekarika,PDP,winner only,False,wikipedia:senate:1999:AK
+sen-1999-an-anambra-south,senate,1999,AN,Anambra South,Nnamdi Eriobuna,PDP,winner only,False,wikipedia:senate:1999:AN
+sen-1999-an-anambra-north,senate,1999,AN,Anambra North,Chuba Okadigbo,PDP,winner only,False,wikipedia:senate:1999:AN
+sen-1999-an-anambra-central,senate,1999,AN,Anambra Central,Michael Ajegbo,PDP,winner only,False,wikipedia:senate:1999:AN
+sen-1999-ba-bauchi-north,senate,1999,BA,Bauchi North,Bashir Mustapha,PDP,winner only,False,wikipedia:senate:1999:BA
+sen-1999-ba-bauchi-central,senate,1999,BA,Bauchi Central,Idi Othman Guda,PDP,winner only,False,wikipedia:senate:1999:BA
+sen-1999-ba-bauchi-south,senate,1999,BA,Bauchi South,Salisu Matori,PDP,winner only,False,wikipedia:senate:1999:BA
+sen-1999-by-bayelsa-central,senate,1999,BY,Bayelsa Central,David Brigidi,PDP,winner only,False,wikipedia:senate:1999:BY
+sen-1999-by-bayelsa-east,senate,1999,BY,Bayelsa East,Melford Okilo,PDP,winner only,False,wikipedia:senate:1999:BY
+sen-1999-by-bayelsa-west,senate,1999,BY,Bayelsa West,Tupele-Ebi Diffa,AD,winner only,False,wikipedia:senate:1999:BY
+sen-1999-be-benue-south,senate,1999,BE,Benue South,David Mark,PDP,winner only,False,wikipedia:senate:1999:BE
+sen-1999-be-benue-north-west,senate,1999,BE,Benue North-West,Joseph Waku,PDP,winner only,False,wikipedia:senate:1999:BE
+sen-1999-be-benue-north-east,senate,1999,BE,Benue North-East,Daniel Saror,PDP,winner only,False,wikipedia:senate:1999:BE
+sen-1999-bo-borno-north,senate,1999,BO,Borno North,Maina Maaji Lawan,PDP,winner only,False,wikipedia:senate:1999:BO
+sen-1999-bo-borno-south,senate,1999,BO,Borno South,Abubakar Mahdi,PDP,winner only,False,wikipedia:senate:1999:BO
+sen-1999-bo-borno-central,senate,1999,BO,Borno Central,Ali Modu Sheriff,ANPP,winner only,False,wikipedia:senate:1999:BO
+sen-1999-cr-cross-river-north,senate,1999,CR,Cross River North,John James Akpan Udo-Edehe,PDP,winner only,False,wikipedia:senate:1999:CR
+sen-1999-cr-cross-river-central,senate,1999,CR,Cross River Central,Matthew Mbu,PDP,winner only,False,wikipedia:senate:1999:CR
+sen-1999-cr-cross-river-south,senate,1999,CR,Cross River South,Florence Ita Giwa,ANPP,winner only,False,wikipedia:senate:1999:CR
+sen-1999-de-delta-north,senate,1999,DE,Delta North,Patrick Osakwe,PDP,winner only,False,wikipedia:senate:1999:DE
+sen-1999-de-delta-central,senate,1999,DE,Delta Central,Fred Aghogho Brume,PDP,winner only,False,wikipedia:senate:1999:DE
+sen-1999-de-delta-south,senate,1999,DE,Delta South,Stella Omu,PDP,winner only,False,wikipedia:senate:1999:DE
+sen-1999-eb-ebonyi-north,senate,1999,EB,Ebonyi North,Sylvanus Ngele,PDP,winner only,False,wikipedia:senate:1999:EB
+sen-1999-eb-ebonyi-central,senate,1999,EB,Ebonyi Central,Obasi Osulor,PDP,winner only,False,wikipedia:senate:1999:EB
+sen-1999-eb-ebonyi-south,senate,1999,EB,Ebonyi South,Anyim Pius Anyim,PDP,winner only,False,wikipedia:senate:1999:EB
+sen-1999-ed-edo-north,senate,1999,ED,Edo North,Victor Oyofo,PDP,winner only,False,wikipedia:senate:1999:ED
+sen-1999-ed-edo-central,senate,1999,ED,Edo Central,Oserheimen Osunbor,PDP,winner only,False,wikipedia:senate:1999:ED
+sen-1999-ed-edo-south,senate,1999,ED,Edo South,Roland Owie,PDP,winner only,False,wikipedia:senate:1999:ED
+sen-1999-ek-ekiti-north,senate,1999,EK,Ekiti North,Joseph Olatunji Ajayi,AD,winner only,False,wikipedia:senate:1999:EK
+sen-1999-ek-ekiti-central,senate,1999,EK,Ekiti Central,Ayo Oni,AD,winner only,False,wikipedia:senate:1999:EK
+sen-1999-ek-ekiti-south,senate,1999,EK,Ekiti South,Gbenga Aluko,PDP,winner only,False,wikipedia:senate:1999:EK
+sen-1999-en-enugu-north,senate,1999,EN,Enugu North,Fidelis Okoro,PDP,winner only,False,wikipedia:senate:1999:EN
+sen-1999-en-enugu-east,senate,1999,EN,Enugu East,Jim Nwobodo,AD,winner only,False,wikipedia:senate:1999:EN
+sen-1999-en-enugu-west,senate,1999,EN,Enugu West,Hyde Onuaguluchi,ANPP,winner only,False,wikipedia:senate:1999:EN
+sen-1999-go-gombe-central,senate,1999,GO,Gombe Central,Saidu Kumo,PDP,winner only,False,wikipedia:senate:1999:GO
+sen-1999-go-gombe-south,senate,1999,GO,Gombe South,Idris Abubakar,ANPP,winner only,False,wikipedia:senate:1999:GO
+sen-1999-go-gombe-north,senate,1999,GO,Gombe North,Umar Usman Dukku,ANPP,winner only,False,wikipedia:senate:1999:GO
+sen-1999-im-imo-north,senate,1999,IM,Imo North,Ifeanyi Ararume,PDP,winner only,False,wikipedia:senate:1999:IM
+sen-1999-im-imo-east,senate,1999,IM,Imo East,Evan Enwerem,PDP,winner only,False,wikipedia:senate:1999:IM
+sen-1999-im-imo-west,senate,1999,IM,Imo West,Arthur Nzeribe,ANPP,winner only,False,wikipedia:senate:1999:IM
+sen-1999-ji-jigawa-central,senate,1999,JI,Jigawa Central,Bello Maitama Yusuf,ANPP,winner only,False,wikipedia:senate:1999:JI
+sen-1999-ji-jigawa-east,senate,1999,JI,Jigawa East,Ibrahim Muhammed Kirikasama,ANPP,winner only,False,wikipedia:senate:1999:JI
+sen-1999-ji-jigawa-north-west,senate,1999,JI,Jigawa North West,Mohammed Alkali,PDP,winner only,False,wikipedia:senate:1999:JI
+sen-1999-kd-kaduna-north,senate,1999,KD,Kaduna North,Dalhatu Tafida,PDP,winner only,False,wikipedia:senate:1999:KD
+sen-1999-kd-kaduna-south,senate,1999,KD,Kaduna South,Haruna Aziz Zeego,PDP,winner only,False,wikipedia:senate:1999:KD
+sen-1999-kd-kaduna-central,senate,1999,KD,Kaduna Central,Mohammed Aruwa,ANPP,winner only,False,wikipedia:senate:1999:KD
+sen-1999-kn-kano-north,senate,1999,KN,Kano North,Bello Hayatu Gwarzo,PDP,winner only,False,wikipedia:senate:1999:KN
+sen-1999-kn-kano-central,senate,1999,KN,Kano Central,Ibrahim Kura Mohammed,PDP,winner only,False,wikipedia:senate:1999:KN
+sen-1999-kn-kano-south,senate,1999,KN,Kano South,Masʽud El-Jibril,PDP,winner only,False,wikipedia:senate:1999:KN
+sen-1999-kt-katsina-north,senate,1999,KT,Katsina North,Abdul Yandoma,PDP,winner only,False,wikipedia:senate:1999:KT
+sen-1999-kt-katsina-central,senate,1999,KT,Katsina Central,Samaʼila Mamman,PDP,winner only,False,wikipedia:senate:1999:KT
+sen-1999-kt-katsina-south,senate,1999,KT,Katsina South,Mohammed Tukur Liman,PDP,winner only,False,wikipedia:senate:1999:KT
+sen-1999-ke-kebbi-north,senate,1999,KE,Kebbi North,Adamu Augie,ANPP,winner only,False,wikipedia:senate:1999:KE
+sen-1999-ke-kebbi-north-2,senate,1999,KE,Kebbi North,Yahaya Abubakar Abdullahi,ANPP,winner only,False,wikipedia:senate:1999:KE
+sen-1999-ke-kebbi-south,senate,1999,KE,Kebbi South,Danladi Bamaiyi,PDP,winner only,False,wikipedia:senate:1999:KE
+sen-1999-ko-kogi-west,senate,1999,KO,Kogi West,Tunde Ogbeha,PDP,winner only,False,wikipedia:senate:1999:KO
+sen-1999-ko-kogi-central,senate,1999,KO,Kogi Central,Ahmed Tijani,PDP,winner only,False,wikipedia:senate:1999:KO
+sen-1999-ko-kogi-east,senate,1999,KO,Kogi East,Alex Kadir,PDP,winner only,False,wikipedia:senate:1999:KO
+sen-1999-kw-kwara-south,senate,1999,KW,Kwara South,Suleiman Ajadi,ANPP,winner only,False,wikipedia:senate:1999:KW
+sen-1999-kw-kwara-central,senate,1999,KW,Kwara Central,Salman Is'haq,ANPP,winner only,False,wikipedia:senate:1999:KW
+sen-1999-kw-kwara-north,senate,1999,KW,Kwara North,Ahmed Zuruq,PDP,winner only,False,wikipedia:senate:1999:KW
+sen-1999-la-lagos-central,senate,1999,LA,Lagos Central,Wahab Dosunmu,AD,winner only,False,wikipedia:senate:1999:LA
+sen-1999-la-lagos-west,senate,1999,LA,Lagos West,Tokunbo Afikuyomi,AD,winner only,False,wikipedia:senate:1999:LA
+sen-1999-la-lagos-east,senate,1999,LA,Lagos East,Seye Ogunlewe,AD,winner only,False,wikipedia:senate:1999:LA
+sen-1999-na-nasarawa-north,senate,1999,NA,Nasarawa North,Patrick Aga,PDP,winner only,False,wikipedia:senate:1999:NA
+sen-1999-na-nasarawa-west,senate,1999,NA,Nasarawa West,Abubakar Sodangi,PDP,winner only,False,wikipedia:senate:1999:NA
+sen-1999-na-nasarawa-south,senate,1999,NA,Nasarawa South,Haruna Abubakar,PDP,winner only,False,wikipedia:senate:1999:NA
+sen-1999-ni-niger-east,senate,1999,NI,Niger East,Ibrahim Kuta,PDP,winner only,False,wikipedia:senate:1999:NI
+sen-1999-ni-niger-south,senate,1999,NI,Niger South,Isa Mohammed Bagudu,PDP,winner only,False,wikipedia:senate:1999:NI
+sen-1999-ni-niger-north,senate,1999,NI,Niger North,Nuhu Aliyu Labbo,PDP,winner only,False,wikipedia:senate:1999:NI
+sen-1999-og-ogun-west,senate,1999,OG,Ogun West,Afolabi Olabimtan,AD,winner only,False,wikipedia:senate:1999:OG
+sen-1999-og-ogun-central,senate,1999,OG,Ogun Central,Femi Okurounmu,AD,winner only,False,wikipedia:senate:1999:OG
+sen-1999-og-ogun-east,senate,1999,OG,Ogun East,Olabiyi Durojaiye,AD,winner only,False,wikipedia:senate:1999:OG
+sen-1999-on-ondo-north,senate,1999,ON,Ondo North,Lawrence Ayo,AD,winner only,False,wikipedia:senate:1999:ON
+sen-1999-on-ondo-central,senate,1999,ON,Ondo Central,Gbenga Ogunniya,AD,winner only,False,wikipedia:senate:1999:ON
+sen-1999-on-ondo-south,senate,1999,ON,Ondo South,Omololu Meroyi,AD,winner only,False,wikipedia:senate:1999:ON
+sen-1999-os-osun-east,senate,1999,OS,Osun East,Moji Akinfenwa,AD,winner only,False,wikipedia:senate:1999:OS
+sen-1999-os-osun-west,senate,1999,OS,Osun West,Sunday Fajinmi,AD,winner only,False,wikipedia:senate:1999:OS
+sen-1999-os-osun-central,senate,1999,OS,Osun Central,Adebayo Salami,AD,winner only,False,wikipedia:senate:1999:OS
+sen-1999-oy-oyo-north,senate,1999,OY,Oyo North,Brimmo Yusuf,AD,winner only,False,wikipedia:senate:1999:OY
+sen-1999-oy-oyo-central,senate,1999,OY,Oyo Central,Lekan Balogun,AD,winner only,False,wikipedia:senate:1999:OY
+sen-1999-oy-oyo-south,senate,1999,OY,Oyo South,Peter Olawuyi,AD,winner only,False,wikipedia:senate:1999:OY
+sen-1999-pl-plateau-south,senate,1999,PL,Plateau South,Silas Janfa,PDP,winner only,False,wikipedia:senate:1999:PL
+sen-1999-pl-plateau-central,senate,1999,PL,Plateau Central,Ibrahim Mantu,PDP,winner only,False,wikipedia:senate:1999:PL
+sen-1999-pl-plateau-north,senate,1999,PL,Plateau North,Davou Zang,PDP,winner only,False,wikipedia:senate:1999:PL
+sen-1999-ri-rivers-west,senate,1999,RI,Rivers West,Ibiapuye Martyns-Yellowe,PDP,winner only,False,wikipedia:senate:1999:RI
+sen-1999-ri-rivers-south-east,senate,1999,RI,Rivers South-East,Adawari Pepple,PDP,winner only,False,wikipedia:senate:1999:RI
+sen-1999-ri-rivers-east,senate,1999,RI,Rivers East,John Azuta-Mbata,PDP,winner only,False,wikipedia:senate:1999:RI
+sen-1999-so-sokoto-north,senate,1999,SO,Sokoto North,Aliyu Abubakar,ANPP,winner only,False,wikipedia:senate:1999:SO
+sen-1999-so-sokoto-east,senate,1999,SO,Sokoto East,Bello Jibrin Gada,ANPP,winner only,False,wikipedia:senate:1999:SO
+sen-1999-so-sokoto-south,senate,1999,SO,Sokoto South,Abdallah Wali,ANPP,winner only,False,wikipedia:senate:1999:SO
+sen-1999-ta-taraba-central,senate,1999,TA,Taraba Central,Abdulazeez Ibrahim,PDP,winner only,False,wikipedia:senate:1999:TA
+sen-1999-ta-taraba-south,senate,1999,TA,Taraba South,Dalhatu Umaru Sangari,PDP,winner only,False,wikipedia:senate:1999:TA
+sen-1999-ta-taraba-north,senate,1999,TA,Taraba North,Abdulahi Bala Adamu,ANPP,winner only,False,wikipedia:senate:1999:TA
+sen-1999-yo-yobe-south,senate,1999,YO,Yobe South,Mamman Bello Ali,PDP,winner only,False,wikipedia:senate:1999:YO
+sen-1999-yo-yobe-north,senate,1999,YO,Yobe North,Usman Albishir,PDP,winner only,False,wikipedia:senate:1999:YO
+sen-1999-yo-yobe-east,senate,1999,YO,Yobe East,Goni Modu Bura,ANPP,winner only,False,wikipedia:senate:1999:YO
+sen-1999-za-zamfara-north,senate,1999,ZA,Zamfara North,Lawali Shuaibu,ANPP,winner only,False,wikipedia:senate:1999:ZA
+sen-1999-za-zamfara-central,senate,1999,ZA,Zamfara Central,Saidu Dansadan,ANPP,winner only,False,wikipedia:senate:1999:ZA
+sen-1999-za-zamfara-west,senate,1999,ZA,Zamfara West,Yushau Anka,ANPP,winner only,False,wikipedia:senate:1999:ZA
+sen-2003-ab-abia-north,senate,2003,AB,Abia North,Uche Chukwumerije,PDP,winner only,False,wikipedia:senate:2003:AB
+sen-2003-ab-abia-central,senate,2003,AB,Abia Central,Chris Adighije,PDP,winner only,False,wikipedia:senate:2003:AB
+sen-2003-ab-abia-south,senate,2003,AB,Abia South,Adolphus Wabara,PDP,winner only,False,wikipedia:senate:2003:AB
+sen-2003-ad-adamawa-north,senate,2003,AD,Adamawa North,Iya Abubakar,PDP,winner only,False,wikipedia:senate:2003:AD
+sen-2003-ad-adamawa-central,senate,2003,AD,Adamawa Central,Jibril Aminu,PDP,winner only,False,wikipedia:senate:2003:AD
+sen-2003-ad-adamawa-south,senate,2003,AD,Adamawa South,Jonathan Zwingina,PDP,winner only,False,wikipedia:senate:2003:AD
+sen-2003-ak-akwa-ibom-south,senate,2003,AK,Akwa Ibom South,Udoma Udo Udoma,PDP,winner only,False,wikipedia:senate:2003:AK
+sen-2003-ak-akwa-ibom-north-east,senate,2003,AK,Akwa Ibom North-East,Effiong Dickson Bob,PDP,winner only,False,wikipedia:senate:2003:AK
+sen-2003-ak-akwa-ibom-north-west,senate,2003,AK,Akwa Ibom North-West,Bob Ittak Ekarika,PDP,winner only,False,wikipedia:senate:2003:AK
+sen-2003-an-anambra-south,senate,2003,AN,Anambra South,Ugochukwu Uba,PDP,winner only,False,wikipedia:senate:2003:AN
+sen-2003-an-anambra-north,senate,2003,AN,Anambra North,Emmanuel Anosike,PDP,winner only,False,wikipedia:senate:2003:AN
+sen-2003-an-anambra-central,senate,2003,AN,Anambra Central,Ikechukwu Abana,PDP,winner only,False,wikipedia:senate:2003:AN
+sen-2003-ba-bauchi-north,senate,2003,BA,Bauchi North,Baba Tela,PDP,winner only,False,wikipedia:senate:2003:BA
+sen-2003-ba-bauchi-central,senate,2003,BA,Bauchi Central,Bala Adamu,PDP,winner only,False,wikipedia:senate:2003:BA
+sen-2003-ba-bauchi-south,senate,2003,BA,Bauchi South,Abubakar Maikafi,PDP,winner only,False,wikipedia:senate:2003:BA
+sen-2003-by-bayelsa-west,senate,2003,BY,Bayelsa West,John Kojo Brambaifa,PDP,winner only,False,wikipedia:senate:2003:BY
+sen-2003-by-bayelsa-central,senate,2003,BY,Bayelsa Central,David Brigidi,PDP,winner only,False,wikipedia:senate:2003:BY
+sen-2003-by-bayelsa-east,senate,2003,BY,Bayelsa East,Inatimi Rufus-Spiff,PDP,winner only,False,wikipedia:senate:2003:BY
+sen-2003-be-benue-south,senate,2003,BE,Benue South,David Mark,PDP,winner only,False,wikipedia:senate:2003:BE
+sen-2003-be-benue-north-west,senate,2003,BE,Benue North-West,Joshua Adagba,PDP,winner only,False,wikipedia:senate:2003:BE
+sen-2003-be-benue-north-east,senate,2003,BE,Benue North-East,Daniel Saror,ANPP,winner only,False,wikipedia:senate:2003:BE
+sen-2003-bo-borno-north,senate,2003,BO,Borno North,Mohammed Daggash,ANPP,winner only,False,wikipedia:senate:2003:BO
+sen-2003-bo-borno-central,senate,2003,BO,Borno Central,Mohammed Abba Aji,ANPP,winner only,False,wikipedia:senate:2003:BO
+sen-2003-bo-borno-south,senate,2003,BO,Borno South,Omar Hambagda,PDP,winner only,False,wikipedia:senate:2003:BO
+sen-2003-cr-cross-river-north,senate,2003,CR,Cross River North,Gregory Ngaji,PDP,winner only,False,wikipedia:senate:2003:CR
+sen-2003-cr-cross-river-central,senate,2003,CR,Cross River Central,Victor Ndoma-Egba,PDP,winner only,False,wikipedia:senate:2003:CR
+sen-2003-cr-cross-river-south,senate,2003,CR,Cross River South,Bassey Ewa-Henshaw,PDP,winner only,False,wikipedia:senate:2003:CR
+sen-2003-de-delta-north,senate,2003,DE,Delta North,Patrick Osakwe,PDP,winner only,False,wikipedia:senate:2003:DE
+sen-2003-de-delta-central,senate,2003,DE,Delta Central,Felix Ibru,PDP,winner only,False,wikipedia:senate:2003:DE
+sen-2003-de-delta-south,senate,2003,DE,Delta South,James Manager,PDP,winner only,False,wikipedia:senate:2003:DE
+sen-2003-eb-ebonyi-north,senate,2003,EB,Ebonyi North,Christopher Nshi,PDP,winner only,False,wikipedia:senate:2003:EB
+sen-2003-eb-ebonyi-central,senate,2003,EB,Ebonyi Central,Julius Ucha,PDP,winner only,False,wikipedia:senate:2003:EB
+sen-2003-eb-ebonyi-south,senate,2003,EB,Ebonyi South,Emmanuel Azu Agboti,PDP,winner only,False,wikipedia:senate:2003:EB
+sen-2003-ed-edo-north,senate,2003,ED,Edo North,Victor Oyofo,PDP,winner only,False,wikipedia:senate:2003:ED
+sen-2003-ed-edo-central,senate,2003,ED,Edo Central,Oserheimen Osunbor,PDP,winner only,False,wikipedia:senate:2003:ED
+sen-2003-ed-edo-south,senate,2003,ED,Edo South,Daisy Danjuma,PDP,winner only,False,wikipedia:senate:2003:ED
+sen-2003-ek-ekiti-central,senate,2003,EK,Ekiti Central,Clement Awoyelu,PDP,winner only,False,wikipedia:senate:2003:EK
+sen-2003-ek-ekiti-south,senate,2003,EK,Ekiti South,Bode Olowoporoku,PDP,winner only,False,wikipedia:senate:2003:EK
+sen-2003-ek-ekiti-north,senate,2003,EK,Ekiti North,James Kolawole,AD,winner only,False,wikipedia:senate:2003:EK
+sen-2003-en-enugu-east,senate,2003,EN,Enugu East,Ken Nnamani,PDP,winner only,False,wikipedia:senate:2003:EN
+sen-2003-en-enugu-west,senate,2003,EN,Enugu West,Ike Ekweremadu,PDP,winner only,False,wikipedia:senate:2003:EN
+sen-2003-en-enugu-north,senate,2003,EN,Enugu North,Fidelis Okoro,PDP,winner only,False,wikipedia:senate:2003:EN
+sen-2003-go-gombe-central,senate,2003,GO,Gombe Central,Abubakar Mohammed,PDP,winner only,False,wikipedia:senate:2003:GO
+sen-2003-go-gombe-south,senate,2003,GO,Gombe South,Tawar Umbi Wada,PDP,winner only,False,wikipedia:senate:2003:GO
+sen-2003-go-gombe-north,senate,2003,GO,Gombe North,Haruna Garba,ANPP,winner only,False,wikipedia:senate:2003:GO
+sen-2003-im-imo-east,senate,2003,IM,Imo East,Amah Iwuagwu,PDP,winner only,False,wikipedia:senate:2003:IM
+sen-2003-im-imo-north,senate,2003,IM,Imo North,Ifeanyi Ararume,PDP,winner only,False,wikipedia:senate:2003:IM
+sen-2003-im-imo-west,senate,2003,IM,Imo West,Arthur Nzeribe,PDP,winner only,False,wikipedia:senate:2003:IM
+sen-2003-ji-jigawa-south-west,senate,2003,JI,Jigawa South-West,Bello Maitama Yusuf,ANPP,winner only,False,wikipedia:senate:2003:JI
+sen-2003-ji-jigawa-north-east,senate,2003,JI,Jigawa North-East,Ibrahim Muhammed Kirikasama,ANPP,winner only,False,wikipedia:senate:2003:JI
+sen-2003-ji-jigawa-north-west,senate,2003,JI,Jigawa North-West,Dalha Ahmed Dan-Zalo,ANPP,winner only,False,wikipedia:senate:2003:JI
+sen-2003-kd-kaduna-north,senate,2003,KD,Kaduna North,Dalhatu Tafida,PDP,winner only,False,wikipedia:senate:2003:KD
+sen-2003-kd-kaduna-south,senate,2003,KD,Kaduna South,Isaiah Balat,PDP,winner only,False,wikipedia:senate:2003:KD
+sen-2003-kd-kaduna-central,senate,2003,KD,Kaduna Central,Mohammed Aruwa,ANPP,winner only,False,wikipedia:senate:2003:KD
+sen-2003-kn-kano-north,senate,2003,KN,Kano North,Bello Hayatu Gwarzo,ANPP,winner only,False,wikipedia:senate:2003:KN
+sen-2003-kn-kano-south,senate,2003,KN,Kano South,Usman Umar Kibiya,ANPP,winner only,False,wikipedia:senate:2003:KN
+sen-2003-kn-kano-central,senate,2003,KN,Kano Central,Rufai Sani Hanga,PDP,winner only,False,wikipedia:senate:2003:KN
+sen-2003-kt-katsina-north,senate,2003,KT,Katsina North,Mahmud Kanti Bello,ANPP,winner only,False,wikipedia:senate:2003:KT
+sen-2003-kt-katsina-south,senate,2003,KT,Katsina South,Abu Ibrahim,ANPP,winner only,False,wikipedia:senate:2003:KT
+sen-2003-kt-katsina-central,senate,2003,KT,Katsina Central,Umar Ibrahim Tsauri,PDP,winner only,False,wikipedia:senate:2003:KT
+sen-2003-ke-kebbi-north,senate,2003,KE,Kebbi North,Sani Kamba,ANPP,winner only,False,wikipedia:senate:2003:KE
+sen-2003-ke-kebbi-central,senate,2003,KE,Kebbi Central,Farouk Bello Bunza,ANPP,winner only,False,wikipedia:senate:2003:KE
+sen-2003-ke-kebbi-south,senate,2003,KE,Kebbi South,Usman Sanni Sami,ANPP,winner only,False,wikipedia:senate:2003:KE
+sen-2003-ko-kogi-west,senate,2003,KO,Kogi West,Tunde Ogbeha,PDP,winner only,False,wikipedia:senate:2003:KO
+sen-2003-ko-kogi-central,senate,2003,KO,Kogi Central,Mohammed Ohiare,PDP,winner only,False,wikipedia:senate:2003:KO
+sen-2003-ko-kogi-east,senate,2003,KO,Kogi East,Nicholas Ugbane,PDP,winner only,False,wikipedia:senate:2003:KO
+sen-2003-kw-kwara-north,senate,2003,KW,Kwara North,Ahmed Mohammed Inuwa,PDP,winner only,False,wikipedia:senate:2003:KW
+sen-2003-kw-kwara-central,senate,2003,KW,Kwara Central,Gbemisola Ruqayyah Saraki,PDP,winner only,False,wikipedia:senate:2003:KW
+sen-2003-kw-kwara-south,senate,2003,KW,Kwara South,Suleiman Ajadi,ANPP,winner only,False,wikipedia:senate:2003:KW
+sen-2003-la-lagos-central,senate,2003,LA,Lagos Central,Musiliu Obanikoro,AD,winner only,False,wikipedia:senate:2003:LA
+sen-2003-la-lagos-west,senate,2003,LA,Lagos West,Tokunbo Afikuyomi,AD,winner only,False,wikipedia:senate:2003:LA
+sen-2003-la-lagos-east,senate,2003,LA,Lagos East,Adeleke Mamora,AD,winner only,False,wikipedia:senate:2003:LA
+sen-2003-na-nasarawa-north,senate,2003,NA,Nasarawa North,John Danboyi,PDP,winner only,False,wikipedia:senate:2003:NA
+sen-2003-na-nasarawa-west,senate,2003,NA,Nasarawa West,Abubakar Sodangi,PDP,winner only,False,wikipedia:senate:2003:NA
+sen-2003-na-nasarawa-south,senate,2003,NA,Nasarawa South,Emmanuel Okpede,PDP,winner only,False,wikipedia:senate:2003:NA
+sen-2003-ni-niger-east,senate,2003,NI,Niger East,Ibrahim Kuta,PDP,winner only,False,wikipedia:senate:2003:NI
+sen-2003-ni-niger-south,senate,2003,NI,Niger South,Isa Mohammed Bagudu,PDP,winner only,False,wikipedia:senate:2003:NI
+sen-2003-ni-niger-north,senate,2003,NI,Niger North,Nuhu Aliyu Labbo,PDP,winner only,False,wikipedia:senate:2003:NI
+sen-2003-og-ogun-central,senate,2003,OG,Ogun Central,Ibikunle Amosun,PDP,winner only,False,wikipedia:senate:2003:OG
+sen-2003-og-ogun-east,senate,2003,OG,Ogun East,Olatokunbo Ogunbanjo,PDP,winner only,False,wikipedia:senate:2003:OG
+sen-2003-og-ogun-west,senate,2003,OG,Ogun West,Iyabo Anisulowo,PDP,winner only,False,wikipedia:senate:2003:OG
+sen-2003-on-ondo-central,senate,2003,ON,Ondo Central,Gbenga Ogunniya,PDP,winner only,False,wikipedia:senate:2003:ON
+sen-2003-on-ondo-south,senate,2003,ON,Ondo South,Hosea Ehinlanwo,PDP,winner only,False,wikipedia:senate:2003:ON
+sen-2003-on-ondo-north,senate,2003,ON,Ondo North,Titus Olupitan,AD,winner only,False,wikipedia:senate:2003:ON
+sen-2003-os-osun-central,senate,2003,OS,Osun Central,Felix Kola Ogunwale,PDP,winner only,False,wikipedia:senate:2003:OS
+sen-2003-os-osun-west,senate,2003,OS,Osun West,Akinlabi Olasunkanmi,PDP,winner only,False,wikipedia:senate:2003:OS
+sen-2003-os-osun-east,senate,2003,OS,Osun East,Iyiola Omisore,PDP,winner only,False,wikipedia:senate:2003:OS
+sen-2003-oy-oyo-central,senate,2003,OY,Oyo Central,Teslim Folarin,PDP,winner only,False,wikipedia:senate:2003:OY
+sen-2003-oy-oyo-north,senate,2003,OY,Oyo North,Robert Koleoso,PDP,winner only,False,wikipedia:senate:2003:OY
+sen-2003-oy-oyo-south,senate,2003,OY,Oyo South,Abiola Ajimobi,AD,winner only,False,wikipedia:senate:2003:OY
+sen-2003-pl-plateau-south,senate,2003,PL,Plateau South,Cosmas Niagwan,PDP,winner only,False,wikipedia:senate:2003:PL
+sen-2003-pl-plateau-central,senate,2003,PL,Plateau Central,Ibrahim Mantu,PDP,winner only,False,wikipedia:senate:2003:PL
+sen-2003-pl-plateau-north,senate,2003,PL,Plateau North,Timothy Adudu,ANPP,winner only,False,wikipedia:senate:2003:PL
+sen-2003-ri-rivers-west,senate,2003,RI,Rivers West,Ibiapuye Martyns-Yellowe,PDP,winner only,False,wikipedia:senate:2003:RI
+sen-2003-ri-rivers-south-east,senate,2003,RI,Rivers South-East,Lee Maeba,PDP,winner only,False,wikipedia:senate:2003:RI
+sen-2003-ri-rivers-east,senate,2003,RI,Rivers East,John Azuta-Mbata,PDP,winner only,False,wikipedia:senate:2003:RI
+sen-2003-so-sokoto-north,senate,2003,SO,Sokoto North,Badamasi Maccido,ANPP,winner only,False,wikipedia:senate:2003:SO
+sen-2003-so-sokoto-east,senate,2003,SO,Sokoto East,Sule Yari Gandi,ANPP,winner only,False,wikipedia:senate:2003:SO
+sen-2003-so-sokoto-south,senate,2003,SO,Sokoto South,Umaru Dahiru,ANPP,winner only,False,wikipedia:senate:2003:SO
+sen-2003-ta-taraba-north,senate,2003,TA,Taraba North,Ambuno Zik Sunday,PDP,winner only,False,wikipedia:senate:2003:TA
+sen-2003-ta-taraba-central,senate,2003,TA,Taraba Central,Abdulazeez Ibrahim,PDP,winner only,False,wikipedia:senate:2003:TA
+sen-2003-ta-taraba-south,senate,2003,TA,Taraba South,Danboyi Usman,PDP,winner only,False,wikipedia:senate:2003:TA
+sen-2003-yo-yobe-north,senate,2003,YO,Yobe North,Usman Albishir,ANPP,winner only,False,wikipedia:senate:2003:YO
+sen-2003-yo-yobe-south,senate,2003,YO,Yobe South,Mamman Bello Ali,ANPP,winner only,False,wikipedia:senate:2003:YO
+sen-2003-yo-yobe-east,senate,2003,YO,Yobe East,Usman Adamu,ANPP,winner only,False,wikipedia:senate:2003:YO
+sen-2003-za-zamfara-north,senate,2003,ZA,Zamfara North,Lawali Shuaibu,ANPP,winner only,False,wikipedia:senate:2003:ZA
+sen-2003-za-zamfara-central,senate,2003,ZA,Zamfara Central,Saidu Dansadan,ANPP,winner only,False,wikipedia:senate:2003:ZA
+sen-2003-za-zamfara-west,senate,2003,ZA,Zamfara West,Yushau Anka,ANPP,winner only,False,wikipedia:senate:2003:ZA
+sen-2007-ab-abia-central,senate,2007,AB,Abia Central,Nkechi Nwaogu,PDP,winner only,False,wikipedia:senate:2007:AB
+sen-2007-ab-abia-south,senate,2007,AB,Abia South,Eyinnaya Abaribe,PDP,winner only,False,wikipedia:senate:2007:AB
+sen-2007-ab-abia-north,senate,2007,AB,Abia North,Uche Chukwumerije,PPA,winner only,False,wikipedia:senate:2007:AB
+sen-2007-ad-adamawa-central,senate,2007,AD,Adamawa Central,Jibril Aminu,ANPP,winner only,False,wikipedia:senate:2007:AD
+sen-2007-ad-adamawa-south,senate,2007,AD,Adamawa South,Grace Folashade Bent,PDP,winner only,False,wikipedia:senate:2007:AD
+sen-2007-ad-adamawa-north,senate,2007,AD,Adamawa North,Mohammed Mana,AC,winner only,False,wikipedia:senate:2007:AD
+sen-2007-ak-akwa-ibom-north-east,senate,2007,AK,Akwa-Ibom North-East,Effiong Dickson Bob,PDP,winner only,False,wikipedia:senate:2007:AK
+sen-2007-ak-akwa-ibom-south,senate,2007,AK,Akwa-Ibom South,Erne Ufot Ekaette,PDP,winner only,False,wikipedia:senate:2007:AK
+sen-2007-ak-akwa-ibom-north-west,senate,2007,AK,Akwa-Ibom North-West,Aloysious Akan Etok,PDP,winner only,False,wikipedia:senate:2007:AK
+sen-2007-an-anambra-central,senate,2007,AN,Anambra Central,Annie Okonkwo,PDP,winner only,False,wikipedia:senate:2007:AN
+sen-2007-an-adamawa-south,senate,2007,AN,Adamawa South,Joy Emodi,PDP,winner only,False,wikipedia:senate:2007:AN
+sen-2007-an-adamawa-north,senate,2007,AN,Adamawa North,Ikechukwu Obiorah,PDP,winner only,False,wikipedia:senate:2007:AN
+sen-2007-ba-bauchi-central,senate,2007,BA,Bauchi Central,Mohammed A. Muhammed,ANPP,winner only,False,wikipedia:senate:2007:BA
+sen-2007-ba-bauchi-south,senate,2007,BA,Bauchi South,Bala Mohammed,ANPP,winner only,False,wikipedia:senate:2007:BA
+sen-2007-ba-bauchi-north,senate,2007,BA,Bauchi North,Sulaiman Mohammed Nazif,AC,winner only,False,wikipedia:senate:2007:BA
+sen-2007-by-bayelsa-west,senate,2007,BY,Bayelsa West,Heineken Lokpobiri,PDP,winner only,False,wikipedia:senate:2007:BY
+sen-2007-by-bayelsa-central,senate,2007,BY,Bayelsa Central,Emmanuel Paulker,PDP,winner only,False,wikipedia:senate:2007:BY
+sen-2007-by-bayelsa-east,senate,2007,BY,Bayelsa East,Nimi Barigha-Amange,PDP,winner only,False,wikipedia:senate:2007:BY
+sen-2007-be-benue-south,senate,2007,BE,Benue South,David Mark,PDP,winner only,False,wikipedia:senate:2007:BE
+sen-2007-be-benue-north-west,senate,2007,BE,Benue North-West,George Akume,PDP,winner only,False,wikipedia:senate:2007:BE
+sen-2007-be-benue-north-east,senate,2007,BE,Benue North-East,Joseph Akaagerger,PDP,winner only,False,wikipedia:senate:2007:BE
+sen-2007-bo-borno-south,senate,2007,BO,Borno South,Omar Hambagda,ANPP,winner only,False,wikipedia:senate:2007:BO
+sen-2007-bo-borno-north,senate,2007,BO,Borno North,Maina Maaji Lawan,ANPP,winner only,False,wikipedia:senate:2007:BO
+sen-2007-bo-borno-central,senate,2007,BO,Borno Central,Kaka Mallam Yale,ANPP,winner only,False,wikipedia:senate:2007:BO
+sen-2007-cr-taraba-central,senate,2007,CR,Taraba Central,Victor Ndoma-Egba,PDP,winner only,False,wikipedia:senate:2007:CR
+sen-2007-cr-cross-river-south,senate,2007,CR,Cross River South,Bassey Ewa-Henshaw,PDP,winner only,False,wikipedia:senate:2007:CR
+sen-2007-cr-cross-river-north,senate,2007,CR,Cross River North,Gregory Ngaji,PDP,winner only,False,wikipedia:senate:2007:CR
+sen-2007-de-delta-south,senate,2007,DE,Delta South,James Manager,PDP,winner only,False,wikipedia:senate:2007:DE
+sen-2007-de-delta-central,senate,2007,DE,Delta Central,Adego Erhiawarie Eferakeya,PDP,winner only,False,wikipedia:senate:2007:DE
+sen-2007-de-delta-north,senate,2007,DE,Delta North,Patrick Osakwe,A,winner only,False,wikipedia:senate:2007:DE
+sen-2007-eb-ebonyi-central,senate,2007,EB,Ebonyi Central,Julius Ucha,PDP,winner only,False,wikipedia:senate:2007:EB
+sen-2007-eb-ebonyi-south,senate,2007,EB,Ebonyi South,Anyimchukwu Ude,PDP,winner only,False,wikipedia:senate:2007:EB
+sen-2007-eb-ebonyi-north,senate,2007,EB,Ebonyi North,Anthony Agbo,PDP,winner only,False,wikipedia:senate:2007:EB
+sen-2007-ed-edo-central,senate,2007,ED,Edo Central,Odion Ugbesia,PDP,winner only,False,wikipedia:senate:2007:ED
+sen-2007-ed-edo-north,senate,2007,ED,Edo North,Yisa Braimoh,PDP,winner only,False,wikipedia:senate:2007:ED
+sen-2007-ed-edo-south,senate,2007,ED,Edo South,Ehigie Edobor Uzamere,PDP,winner only,False,wikipedia:senate:2007:ED
+sen-2007-ek-ekiti-north,senate,2007,EK,Ekiti North,Sylvester Ayodele Arise,PDP,winner only,False,wikipedia:senate:2007:EK
+sen-2007-ek-ekiti-central,senate,2007,EK,Ekiti Central,Adefemi Kila,PDP,winner only,False,wikipedia:senate:2007:EK
+sen-2007-ek-ekiti-south,senate,2007,EK,Ekiti South,Sola Akinyede,PDP,winner only,False,wikipedia:senate:2007:EK
+sen-2007-en-enugu-east,senate,2007,EN,Enugu East,Chimaroke Nnamani,PDP,winner only,False,wikipedia:senate:2007:EN
+sen-2007-en-enugu-north,senate,2007,EN,Enugu North,Ayogu Eze,PDP,winner only,False,wikipedia:senate:2007:EN
+sen-2007-en-enugu-west,senate,2007,EN,Enugu West,Ike Ekweremadu,PDP,winner only,False,wikipedia:senate:2007:EN
+sen-2007-go-gombe-north,senate,2007,GO,Gombe North,Kawu Peto Dukku,PDP,winner only,False,wikipedia:senate:2007:GO
+sen-2007-go-gombe-south,senate,2007,GO,Gombe South,Tawar Umbi Wada,PDP,winner only,False,wikipedia:senate:2007:GO
+sen-2007-go-gombe-central,senate,2007,GO,Gombe Central,Audu Idris Umar,PDP,winner only,False,wikipedia:senate:2007:GO
+sen-2007-im-imo-east,senate,2007,IM,Imo East,Chris Anyanwu,PDP,winner only,False,wikipedia:senate:2007:IM
+sen-2007-im-imo-west,senate,2007,IM,Imo West,Osita Izunaso,PDP,winner only,False,wikipedia:senate:2007:IM
+sen-2007-im-imo-north,senate,2007,IM,Imo North,Sylvester Anyanwu,PDP,winner only,False,wikipedia:senate:2007:IM
+sen-2007-ji-jigawa-north-east,senate,2007,JI,Jigawa North-East,Abdulaziz Usman,PDP,winner only,False,wikipedia:senate:2007:JI
+sen-2007-ji-jigawa-north-west,senate,2007,JI,Jigawa North-West,Ibrahim Saminu Turaki,PDP,winner only,False,wikipedia:senate:2007:JI
+sen-2007-ji-jigawa-south-west,senate,2007,JI,Jigawa South-West,Mujitaba Mohammed Mallam,PDP,winner only,False,wikipedia:senate:2007:JI
+sen-2007-kd-kaduna-central,senate,2007,KD,Kaduna Central,Mohammed Kabir Jibril,PDP,winner only,False,wikipedia:senate:2007:KD
+sen-2007-kd-kaduna-south,senate,2007,KD,Kaduna South,Caleb Zagi,PDP,winner only,False,wikipedia:senate:2007:KD
+sen-2007-kd-kaduna-north,senate,2007,KD,Kaduna North,Ahmed Makarfi,PDP,winner only,False,wikipedia:senate:2007:KD
+sen-2007-kn-kano-north,senate,2007,KN,Kano North,Aminu Sule Garo,ANPP,winner only,False,wikipedia:senate:2007:KN
+sen-2007-kn-kano-south,senate,2007,KN,Kano South,Kabiru Ibrahim Gaya,ANPP,winner only,False,wikipedia:senate:2007:KN
+sen-2007-kn-kano-central,senate,2007,KN,Kano Central,Mohammed Adamu Bello,ANPP,winner only,False,wikipedia:senate:2007:KN
+sen-2007-kt-katsina-central,senate,2007,KT,Katsina Central,Ibrahim M. Ida,PDP,winner only,False,wikipedia:senate:2007:KT
+sen-2007-kt-katsina-north,senate,2007,KT,Katsina North,Mahmud Kanti Bello,PDP,winner only,False,wikipedia:senate:2007:KT
+sen-2007-kt-katsina-south,senate,2007,KT,Katsina South,Garba Yakubu Lado,PDP,winner only,False,wikipedia:senate:2007:KT
+sen-2007-ke-kebbi-central,senate,2007,KE,Kebbi Central,Adamu Aliero,PDP,winner only,False,wikipedia:senate:2007:KE
+sen-2007-ke-kebbi-south,senate,2007,KE,Kebbi South,Abubakar Tanko Ayuba,PDP,winner only,False,wikipedia:senate:2007:KE
+sen-2007-ke-kebbi-north,senate,2007,KE,Kebbi North,Umaru Argungu,PDP,winner only,False,wikipedia:senate:2007:KE
+sen-2007-ko-kogi-east,senate,2007,KO,Kogi East,Nicholas Ugbane,PDP,winner only,False,wikipedia:senate:2007:KO
+sen-2007-ko-kogi-west,senate,2007,KO,Kogi West,Smart Adeyemi,PDP,winner only,False,wikipedia:senate:2007:KO
+sen-2007-ko-kogi-central,senate,2007,KO,Kogi Central,Otaru Salihu Ohize,AC,winner only,False,wikipedia:senate:2007:KO
+sen-2007-kw-kwara-south,senate,2007,KW,Kwara South,Simon Ajibola,PDP,winner only,False,wikipedia:senate:2007:KW
+sen-2007-kw-kwara-central,senate,2007,KW,Kwara Central,Gbemisola Ruqayyah Saraki,PDP,winner only,False,wikipedia:senate:2007:KW
+sen-2007-kw-kwara-north,senate,2007,KW,Kwara North,Ahmed Mohammed Inuwa,PDP,winner only,False,wikipedia:senate:2007:KW
+sen-2007-la-lagos-central,senate,2007,LA,Lagos Central,Munirudeen Adekunle Muse,AC,winner only,False,wikipedia:senate:2007:LA
+sen-2007-la-lagos-east,senate,2007,LA,Lagos East,Adeleke Mamora,AC,winner only,False,wikipedia:senate:2007:LA
+sen-2007-la-lagos-west,senate,2007,LA,Lagos West,Ganiyu Solomon,AC,winner only,False,wikipedia:senate:2007:LA
+sen-2007-na-nasarawa-south,senate,2007,NA,Nasarawa South,Suleiman Adokwe,PDP,winner only,False,wikipedia:senate:2007:NA
+sen-2007-na-nasarawa-west,senate,2007,NA,Nasarawa West,Abubakar Sodangi,PDP,winner only,False,wikipedia:senate:2007:NA
+sen-2007-na-nasarawa-north,senate,2007,NA,Nasarawa North,Patricia Akwashiki,ANPP,winner only,False,wikipedia:senate:2007:NA
+sen-2007-ni-niger-east,senate,2007,NI,Niger East,Dahiru Awaisu Kuta,PDP,winner only,False,wikipedia:senate:2007:NI
+sen-2007-ni-niger-south,senate,2007,NI,Niger South,Zainab Abdulkadir Kure,PDP,winner only,False,wikipedia:senate:2007:NI
+sen-2007-ni-niger-north,senate,2007,NI,Niger North,Nuhu Aliyu Labbo,PDP,winner only,False,wikipedia:senate:2007:NI
+sen-2007-og-ogun-central,senate,2007,OG,Ogun Central,Iyabo Obasanjo,PDP,winner only,False,wikipedia:senate:2007:OG
+sen-2007-og-ogun-east,senate,2007,OG,Ogun East,Ramoni Mustapha,PDP,winner only,False,wikipedia:senate:2007:OG
+sen-2007-og-ogun-west,senate,2007,OG,Ogun West,Felix Bajomo,AC,winner only,False,wikipedia:senate:2007:OG
+sen-2007-on-ondo-central,senate,2007,ON,Ondo Central,Gbenga Ogunniya,PDP,winner only,False,wikipedia:senate:2007:ON
+sen-2007-on-ondo-north,senate,2007,ON,Ondo North,Bode Olajumoke,PDP,winner only,False,wikipedia:senate:2007:ON
+sen-2007-on-ondo-south,senate,2007,ON,Ondo South,Hosea Ehinlanwo,PDP,winner only,False,wikipedia:senate:2007:ON
+sen-2007-os-osun-central,senate,2007,OS,Osun Central,Simeon Oduoye,PDP,winner only,False,wikipedia:senate:2007:OS
+sen-2007-os-osun-west,senate,2007,OS,Osun West,Isiaka Adetunji Adeleke,PDP,winner only,False,wikipedia:senate:2007:OS
+sen-2007-os-osun-east,senate,2007,OS,Osun East,Iyiola Omisore,PDP,winner only,False,wikipedia:senate:2007:OS
+sen-2007-oy-oyo-central,senate,2007,OY,Oyo Central,Teslim Kolawole Folarin,PDP,winner only,False,wikipedia:senate:2007:OY
+sen-2007-oy-oyo-south,senate,2007,OY,Oyo South,Kamorudeen Adedibu,PDP,winner only,False,wikipedia:senate:2007:OY
+sen-2007-oy-oyo-north,senate,2007,OY,Oyo North,Andrew Abidemi Babalola,PDP,winner only,False,wikipedia:senate:2007:OY
+sen-2007-pl-plateau-central,senate,2007,PL,Plateau Central,Satty Davies Gogwim,PDP,winner only,False,wikipedia:senate:2007:PL
+sen-2007-pl-taraba-south,senate,2007,PL,Taraba South,John Nanzip Shagaya,PDP,winner only,False,wikipedia:senate:2007:PL
+sen-2007-pl-taraba-north,senate,2007,PL,Taraba North,Gyang Dalyop Datong,PDP,winner only,False,wikipedia:senate:2007:PL
+sen-2007-ri-rivers-east,senate,2007,RI,Rivers East,George Thompson Sekibo,PDP,winner only,False,wikipedia:senate:2007:RI
+sen-2007-ri-rivers-west,senate,2007,RI,Rivers West,Wilson Asinobi Ake,PDP,winner only,False,wikipedia:senate:2007:RI
+sen-2007-ri-rivers-south-east,senate,2007,RI,Rivers South East,Lee Maeba,PDP,winner only,False,wikipedia:senate:2007:RI
+sen-2007-so-sokoto-south,senate,2007,SO,Sokoto South,Umaru Dahiru,PDP,winner only,False,wikipedia:senate:2007:SO
+sen-2007-so-sokoto-north,senate,2007,SO,Sokoto North,Ahmed Muhammad Maccido,PDP,winner only,False,wikipedia:senate:2007:SO
+sen-2007-so-sokoto-east,senate,2007,SO,Sokoto East,Abubakar Umar Gada,PDP,winner only,False,wikipedia:senate:2007:SO
+sen-2007-ta-taraba-central,senate,2007,TA,Taraba Central,Dahiru Bako,PDP,winner only,False,wikipedia:senate:2007:TA
+sen-2007-ta-taraba-south,senate,2007,TA,Taraba South,Joel Danlami Ikenya,PDP,winner only,False,wikipedia:senate:2007:TA
+sen-2007-ta-taraba-north,senate,2007,TA,Taraba North,Anthony George Manzo,PDP,winner only,False,wikipedia:senate:2007:TA
+sen-2007-yo-yobe-north,senate,2007,YO,Yobe North,Ahmad Lawan,ANPP,winner only,False,wikipedia:senate:2007:YO
+sen-2007-yo-yobe-east,senate,2007,YO,Yobe East,Bukar Ibrahim,ANPP,winner only,False,wikipedia:senate:2007:YO
+sen-2007-yo-yobe-south,senate,2007,YO,Yobe South,Adamu Garba Talba,PDP,winner only,False,wikipedia:senate:2007:YO
+sen-2007-za-zamfara-central,senate,2007,ZA,Zamfara Central,Hassan Muhammed Gusau,ANPP,winner only,False,wikipedia:senate:2007:ZA
+sen-2007-za-zamfara-west,senate,2007,ZA,Zamfara West,Ahmad Sani Yerima,ANPP,winner only,False,wikipedia:senate:2007:ZA
+sen-2007-za-zamfara-north,senate,2007,ZA,Zamfara North,Sahabi Alhaji Yaú,ANPP,winner only,False,wikipedia:senate:2007:ZA
+sen-2011-ab-abia-central,senate,2011,AB,Abia Central,Nwaogu Nkechi Justina,PDP,winner only,False,wikipedia:senate:2011:AB
+sen-2011-ab-abia-south,senate,2011,AB,Abia South,Enyinnaya Abaribe,PDP,winner only,False,wikipedia:senate:2011:AB
+sen-2011-ab-abia-north,senate,2011,AB,Abia North,Chukwumerije Uche,PDP,winner only,False,wikipedia:senate:2011:AB
+sen-2011-ad-adamawa-north,senate,2011,AD,Adamawa North,Bindo Jibrilla,PDP,winner only,False,wikipedia:senate:2011:AD
+sen-2011-ad-adamawa-south,senate,2011,AD,Adamawa South,Ahmed Hassan Barata,PDP,winner only,False,wikipedia:senate:2011:AD
+sen-2011-ad-adamawa-central,senate,2011,AD,Adamawa Central,Bello Muhammed Tukur,PDP,winner only,False,wikipedia:senate:2011:AD
+sen-2011-ak-akwa-ibom-north-east,senate,2011,AK,Akwa Ibom North East,Ita Enang,PDP,winner only,False,wikipedia:senate:2011:AK
+sen-2011-ak-akwa-ibom-north-west,senate,2011,AK,Akwa Ibom North West,Aloysius Akan Etok,PDP,winner only,False,wikipedia:senate:2011:AK
+sen-2011-ak-akwa-ibom-north-south,senate,2011,AK,Akwa Ibom North South,Helen Esuene,PDP,winner only,False,wikipedia:senate:2011:AK
+sen-2011-an-anambra-central,senate,2011,AN,Anambra Central,Chris Ngige,ACN,winner only,False,wikipedia:senate:2011:AN
+sen-2011-an-anambra-south,senate,2011,AN,Anambra South,Andy Ubah,PDP,winner only,False,wikipedia:senate:2011:AN
+sen-2011-an-anambra-north,senate,2011,AN,Anambra North,John Emeka Okey,PDP,winner only,False,wikipedia:senate:2011:AN
+sen-2011-ba-bauchi-central,senate,2011,BA,Bauchi Central,Abdul Ahmed Ningi,PDP,winner only,False,wikipedia:senate:2011:BA
+sen-2011-ba-bauchi-south,senate,2011,BA,Bauchi South,Adamu Ibrahim Gumba,PDP,winner only,False,wikipedia:senate:2011:BA
+sen-2011-ba-bauchi-north,senate,2011,BA,Bauchi North,Babayo Garba Gamawa,PDP,winner only,False,wikipedia:senate:2011:BA
+sen-2011-by-bayelsa-east,senate,2011,BY,Bayelsa East,Clever Ikisikpo,PDP,winner only,False,wikipedia:senate:2011:BY
+sen-2011-by-bayelsa-central,senate,2011,BY,Bayelsa Central,Emmanuel Paulker,PDP,winner only,False,wikipedia:senate:2011:BY
+sen-2011-by-bayelsa-west,senate,2011,BY,Bayelsa West,Heineken Lokpobiri,PDP,winner only,False,wikipedia:senate:2011:BY
+sen-2011-be-benue-north-east,senate,2011,BE,Benue North East,Barnabas Andyar Gemade,PDP,winner only,False,wikipedia:senate:2011:BE
+sen-2011-be-benue-south,senate,2011,BE,Benue South,David Mark,PDP,winner only,False,wikipedia:senate:2011:BE
+sen-2011-be-benue-north-west,senate,2011,BE,Benue North West,George Akume,ACN,winner only,False,wikipedia:senate:2011:BE
+sen-2011-bo-borno-central,senate,2011,BO,Borno Central,Ahmed Zanna,PDP,winner only,False,wikipedia:senate:2011:BO
+sen-2011-bo-borno-south,senate,2011,BO,Borno South,Mohammed Ali Ndume,PDP,winner only,False,wikipedia:senate:2011:BO
+sen-2011-bo-borno-north,senate,2011,BO,Borno North,Maina Maaji Lawan,ANPP,winner only,False,wikipedia:senate:2011:BO
+sen-2011-cr-cross-river-north,senate,2011,CR,Cross River North,Benedict Ayade,PDP,winner only,False,wikipedia:senate:2011:CR
+sen-2011-cr-cross-river-central,senate,2011,CR,Cross River Central,Victor Ndoma-Egba,PDP,winner only,False,wikipedia:senate:2011:CR
+sen-2011-cr-cross-river-south,senate,2011,CR,Cross River South,Bassey Otu,PDP,winner only,False,wikipedia:senate:2011:CR
+sen-2011-de-delta-north,senate,2011,DE,Delta North,Ifeanyi Okowa,PDP,winner only,False,wikipedia:senate:2011:DE
+sen-2011-de-delta-south,senate,2011,DE,Delta South,James Manager,PDP,winner only,False,wikipedia:senate:2011:DE
+sen-2011-de-delta-central,senate,2011,DE,Delta Central,Akpor Pius Ewherido,DPP,winner only,False,wikipedia:senate:2011:DE
+sen-2011-eb-ebonyi-north,senate,2011,EB,Ebonyi North,Chris Chukwuma Nwankwo,PDP,winner only,False,wikipedia:senate:2011:EB
+sen-2011-eb-ebonyi-central,senate,2011,EB,Ebonyi Central,Paulinus Igwe Nwagu,PDP,winner only,False,wikipedia:senate:2011:EB
+sen-2011-eb-ebonyi-south,senate,2011,EB,Ebonyi South,Sonni Ogbuoji,PDP,winner only,False,wikipedia:senate:2011:EB
+sen-2011-ed-edo-north,senate,2011,ED,Edo North,Domingo Alaba Obende,ACN,winner only,False,wikipedia:senate:2011:ED
+sen-2011-ed-edo-south,senate,2011,ED,Edo South,Ehigie Edobor Uzamere,ACN,winner only,False,wikipedia:senate:2011:ED
+sen-2011-ed-edo-central,senate,2011,ED,Edo Central,Odion Ugbesia,PDP,winner only,False,wikipedia:senate:2011:ED
+sen-2011-ek-ekiti-central,senate,2011,EK,Ekiti Central,Babafemi Ojudu,ACN,winner only,False,wikipedia:senate:2011:EK
+sen-2011-ek-ekiti-north,senate,2011,EK,Ekiti North,Olubunmi Ayodeji Adetunmbi,ACN,winner only,False,wikipedia:senate:2011:EK
+sen-2011-ek-ekiti-south,senate,2011,EK,Ekiti South,Anthony Adeniyi,ACN,winner only,False,wikipedia:senate:2011:EK
+sen-2011-en-enugu-east,senate,2011,EN,Enugu East,Gilbert Nnaji,PDP,winner only,False,wikipedia:senate:2011:EN
+sen-2011-en-enugu-west,senate,2011,EN,Enugu West,Ike Ekweremadu,PDP,winner only,False,wikipedia:senate:2011:EN
+sen-2011-en-enough-north,senate,2011,EN,Enough North,Ayogu Eze,PDP,winner only,False,wikipedia:senate:2011:EN
+sen-2011-go-gombe-central,senate,2011,GO,Gombe Central,Mohammed Danjuma Goje,PDP,winner only,False,wikipedia:senate:2011:GO
+sen-2011-go-gombe-south,senate,2011,GO,Gombe South,Joshua Zidani,PDP,winner only,False,wikipedia:senate:2011:GO
+sen-2011-go-gombe-north,senate,2011,GO,Gombe North,Sa'idu Ahmed Alkali,PDP,winner only,False,wikipedia:senate:2011:GO
+sen-2011-im-imo-west,senate,2011,IM,Imo West,Hope Uzodinma,PDP,winner only,False,wikipedia:senate:2011:IM
+sen-2011-im-imo-north,senate,2011,IM,Imo North,Matthew Ifeanyi Nwagwu,PDP,winner only,False,wikipedia:senate:2011:IM
+sen-2011-im-imo-east,senate,2011,IM,Imo East,Christiana Anyanwu,APGA,winner only,False,wikipedia:senate:2011:IM
+sen-2011-ji-jigawa-south-west,senate,2011,JI,Jigawa South-West,Abdulmumini M. Hassan,PDP,winner only,False,wikipedia:senate:2011:JI
+sen-2011-ji-jigawa-north-east,senate,2011,JI,Jigawa North-East,Abdulaziz Usman,PDP,winner only,False,wikipedia:senate:2011:JI
+sen-2011-ji-jigawa-north-west,senate,2011,JI,Jigawa North-West,Danladi Abdullahi Sankara,PDP,winner only,False,wikipedia:senate:2011:JI
+sen-2011-kd-kaduna-north,senate,2011,KD,Kaduna North,Yusuf Datti Baba-Ahmed,CPC,winner only,False,wikipedia:senate:2011:KD
+sen-2011-kd-kaduna-central,senate,2011,KD,Kaduna Central,Mohammed Saleh,CPC,winner only,False,wikipedia:senate:2011:KD
+sen-2011-kd-kaduna-south,senate,2011,KD,Kaduna South,Nenadi Usman,PDP,winner only,False,wikipedia:senate:2011:KD
+sen-2011-kn-kano-central,senate,2011,KN,Kano Central,Basheer Garba Mohammed,PDP,winner only,False,wikipedia:senate:2011:KN
+sen-2011-kn-kano-north,senate,2011,KN,Kano North,Bello Hayatu Gwarzo,PDP,winner only,False,wikipedia:senate:2011:KN
+sen-2011-kn-kano-south,senate,2011,KN,Kano South,Kabiru Ibrahim Gaya,ANPP,winner only,False,wikipedia:senate:2011:KN
+sen-2011-kt-katsina-north,senate,2011,KT,Katsina North,Abdul Yandoma,CPC,winner only,False,wikipedia:senate:2011:KT
+sen-2011-kt-katsina-south,senate,2011,KT,Katsina South,Abu Ibrahim,CPC,winner only,False,wikipedia:senate:2011:KT
+sen-2011-kt-katsina-central,senate,2011,KT,Katsina Central,Ahmed Sani Stores,CPC,winner only,False,wikipedia:senate:2011:KT
+sen-2011-ke-kebbi-north,senate,2011,KE,Kebbi North,Isah Mohammed Galaudu,PDP,winner only,False,wikipedia:senate:2011:KE
+sen-2011-ke-kebbi-central,senate,2011,KE,Kebbi Central,Abubakar Atiku Bagudu,PDP,winner only,False,wikipedia:senate:2011:KE
+sen-2011-ke-kebbi-south,senate,2011,KE,Kebbi South,Mohammed Magoro,PDP,winner only,False,wikipedia:senate:2011:KE
+sen-2011-ko-kogi-east,senate,2011,KO,Kogi East,Nurudeen Usman-Abatemi,PDP,winner only,False,wikipedia:senate:2011:KO
+sen-2011-ko-kogi-central,senate,2011,KO,Kogi Central,Emmanuel Dangana Ocheja,PDP,winner only,False,wikipedia:senate:2011:KO
+sen-2011-ko-kogi-west,senate,2011,KO,Kogi West,Smart Adeyemi,PDP,winner only,False,wikipedia:senate:2011:KO
+sen-2011-kw-kwara-north,senate,2011,KW,Kwara North,Mohammed Shaaba Lafiagi,PDP,winner only,False,wikipedia:senate:2011:KW
+sen-2011-kw-kwara-central,senate,2011,KW,Kwara Central,Bukola Saraki,PDP,winner only,False,wikipedia:senate:2011:KW
+sen-2011-kw-kwara-south,senate,2011,KW,Kwara South,Simon Ajibola,PDP,winner only,False,wikipedia:senate:2011:KW
+sen-2011-la-lagos-central,senate,2011,LA,Lagos Central,Oluremi Tinubu,ACN,winner only,False,wikipedia:senate:2011:LA
+sen-2011-la-lagos-west,senate,2011,LA,Lagos West,Ganiyu Solomon,ACN,winner only,False,wikipedia:senate:2011:LA
+sen-2011-la-lagos-east,senate,2011,LA,Lagos East,Gbenga Bareehu Ashafa,ACN,winner only,False,wikipedia:senate:2011:LA
+sen-2011-na-nasarawa-south,senate,2011,NA,Nasarawa South,Suleiman Adokwe,PDP,winner only,False,wikipedia:senate:2011:NA
+sen-2011-na-nasarawa-north,senate,2011,NA,Nasarawa North,Yusuf Musa Nagogo,CPC,winner only,False,wikipedia:senate:2011:NA
+sen-2011-na-nasarawa-west,senate,2011,NA,Nasarawa West,Abdullahi Adamu,PDP,winner only,False,wikipedia:senate:2011:NA
+sen-2011-ni-niger-south,senate,2011,NI,Niger South,Zainab Abdulkadir Kure,PDP,winner only,False,wikipedia:senate:2011:NI
+sen-2011-ni-niger-north,senate,2011,NI,Niger North,Ibrahim Musa,CPC,winner only,False,wikipedia:senate:2011:NI
+sen-2011-ni-niger-east,senate,2011,NI,Niger East,Dahiru Awaisu Kuta,PDP,winner only,False,wikipedia:senate:2011:NI
+sen-2011-og-ogun-central,senate,2011,OG,Ogun Central,Olugbenga Onaolapo Obadara,ACN,winner only,False,wikipedia:senate:2011:OG
+sen-2011-og-ogun-east,senate,2011,OG,Ogun East,Sefiu Adegbenga Kaka,ACN,winner only,False,wikipedia:senate:2011:OG
+sen-2011-og-ogun-west,senate,2011,OG,Ogun West,Akin Babalola Kamar Odunsi,ACN,winner only,False,wikipedia:senate:2011:OG
+sen-2011-on-ondo-north,senate,2011,ON,Ondo North,Robert Ajayi Boroffice,LP,winner only,False,wikipedia:senate:2011:ON
+sen-2011-on-ondo-central,senate,2011,ON,Ondo Central,Akinyelure Patrick Ayo,LP,winner only,False,wikipedia:senate:2011:ON
+sen-2011-on-ondo-south,senate,2011,ON,Ondo South,Kunle Boluwaji,LP,winner only,False,wikipedia:senate:2011:ON
+sen-2011-os-osun-central,senate,2011,OS,Osun Central,Olusola Adeyeye,ACN,winner only,False,wikipedia:senate:2011:OS
+sen-2011-os-osun-east,senate,2011,OS,Osun East,Christopher Omoworare Babajide,ACN,winner only,False,wikipedia:senate:2011:OS
+sen-2011-os-osun-west,senate,2011,OS,Osun West,Mudasiru Oyetunde Hussein,ACN,winner only,False,wikipedia:senate:2011:OS
+sen-2011-oy-oyo-central,senate,2011,OY,Oyo Central,Ayoade Ademola Adeseun,ACN,winner only,False,wikipedia:senate:2011:OY
+sen-2011-oy-oyo-north,senate,2011,OY,Oyo North,Hosea Ayoola Agboola,ACN,winner only,False,wikipedia:senate:2011:OY
+sen-2011-oy-oyo-south,senate,2011,OY,Oyo South,Olufemi Lanlehin,PDP,winner only,False,wikipedia:senate:2011:OY
+sen-2011-pl-plateau-south,senate,2011,PL,Plateau South,Victor Lar,PDP,winner only,False,wikipedia:senate:2011:PL
+sen-2011-pl-plateau-north,senate,2011,PL,Plateau North,Gyang Dalyop Datong,PDP,winner only,False,wikipedia:senate:2011:PL
+sen-2011-pl-plateau-central,senate,2011,PL,Plateau Central,Joshua Dariye,LP,winner only,False,wikipedia:senate:2011:PL
+sen-2011-ri-rivers-east,senate,2011,RI,Rivers East,George Thompson Sekibo,PDP,winner only,False,wikipedia:senate:2011:RI
+sen-2011-ri-rivers-south-east,senate,2011,RI,Rivers South East,Magnus Ngei Abe,PDP,winner only,False,wikipedia:senate:2011:RI
+sen-2011-ri-rivers-west,senate,2011,RI,Rivers West,Wilson Asinobi Ake,PDP,winner only,False,wikipedia:senate:2011:RI
+sen-2011-so-sokoto-east,senate,2011,SO,Sokoto East,Abdullahi Ibrahim Gobir,PDP,winner only,False,wikipedia:senate:2011:SO
+sen-2011-so-sokoto-north,senate,2011,SO,Sokoto North,Ahmed Muhammad Maccido,PDP,winner only,False,wikipedia:senate:2011:SO
+sen-2011-so-sokoto-south,senate,2011,SO,Sokoto South,Umaru Dahiru,PDP,winner only,False,wikipedia:senate:2011:SO
+sen-2011-ta-taraba-south,senate,2011,TA,Taraba South,Emmanuel Bwacha,PDP,winner only,False,wikipedia:senate:2011:TA
+sen-2011-ta-taraba-central,senate,2011,TA,Taraba Central,Abubakar Umar Tutare,PDP,winner only,False,wikipedia:senate:2011:TA
+sen-2011-ta-taraba-north,senate,2011,TA,Taraba North,Aisha Alhassan,PDP,winner only,False,wikipedia:senate:2011:TA
+sen-2011-yo-yobe-east,senate,2011,YO,Yobe East,Bukar Ibrahim,ANPP,winner only,False,wikipedia:senate:2011:YO
+sen-2011-yo-yobe-north,senate,2011,YO,Yobe North,Ahmad Lawan,ANPP,winner only,False,wikipedia:senate:2011:YO
+sen-2011-yo-yobe-south,senate,2011,YO,Yobe South,Alkali Abdulkadir Jajere,ANPP,winner only,False,wikipedia:senate:2011:YO
+sen-2011-za-zamfara-central,senate,2011,ZA,Zamfara Central,Kabir Garba Marafa,ANPP,winner only,False,wikipedia:senate:2011:ZA
+sen-2011-za-zamfara-north,senate,2011,ZA,Zamfara North,Sahabi Yau,PDP,winner only,False,wikipedia:senate:2011:ZA
+sen-2011-za-zamfara-west,senate,2011,ZA,Zamfara West,Ahmad Sani Yerima,PDP,winner only,False,wikipedia:senate:2011:ZA
+sen-2015-ab-abia-central,senate,2015,AB,Abia Central,Theodore Orji,PDP,winner only,False,wikipedia:senate:2015:AB
+sen-2015-ab-abia-south,senate,2015,AB,Abia South,Enyinnaya Abaribe,PDP,winner only,False,wikipedia:senate:2015:AB
+sen-2015-ab-abia-north,senate,2015,AB,Abia North,Mao Ohuabunwa,PDP,winner only,False,wikipedia:senate:2015:AB
+sen-2015-ad-adamawa-north,senate,2015,AD,Adamawa North,Binta Masi Garba,APC,winner only,False,wikipedia:senate:2015:AD
+sen-2015-ad-adamawa-south,senate,2015,AD,Adamawa South,Ahmad Abubakar,APC,winner only,False,wikipedia:senate:2015:AD
+sen-2015-ad-adamawa-central,senate,2015,AD,Adamawa Central,Abdul-Aziz Nyako,APC,winner only,False,wikipedia:senate:2015:AD
+sen-2015-ak-akwa-ibom-north-east,senate,2015,AK,Akwa Ibom North East,Bassey Albert,PDP,winner only,False,wikipedia:senate:2015:AK
+sen-2015-ak-akwa-ibom-north-west,senate,2015,AK,Akwa Ibom North West,Godswill Akpabio,PDP,winner only,False,wikipedia:senate:2015:AK
+sen-2015-ak-akwa-ibom-south,senate,2015,AK,Akwa Ibom South,Nelson Effiong,PDP,winner only,False,wikipedia:senate:2015:AK
+sen-2015-an-anambra-central,senate,2015,AN,Anambra Central,Victor Umeh,APGA,winner only,False,wikipedia:senate:2015:AN
+sen-2015-an-anambra-south,senate,2015,AN,Anambra South,Emmanuel Uba,PDP,winner only,False,wikipedia:senate:2015:AN
+sen-2015-an-anambra-north,senate,2015,AN,Anambra North,Stella Oduah,PDP,winner only,False,wikipedia:senate:2015:AN
+sen-2015-ba-bauchi-central,senate,2015,BA,Bauchi Central,Isah Hamma,APC,winner only,False,wikipedia:senate:2015:BA
+sen-2015-ba-bauchi-south,senate,2015,BA,Bauchi South,Malam Wakili,APC,winner only,False,wikipedia:senate:2015:BA
+sen-2015-ba-bauchi-north,senate,2015,BA,Bauchi North,Sulaiman Mohammed Nazif,APC,winner only,False,wikipedia:senate:2015:BA
+sen-2015-by-bayelsa-central,senate,2015,BY,Bayelsa Central,Emmanuel Paulker,PDP,winner only,False,wikipedia:senate:2015:BY
+sen-2015-by-bayelsa-west,senate,2015,BY,Bayelsa West,Foster Ogala,PDP,winner only,False,wikipedia:senate:2015:BY
+sen-2015-by-bayelsa-east,senate,2015,BY,Bayelsa East,Ben Murray-Bruce,PDP,winner only,False,wikipedia:senate:2015:BY
+sen-2015-be-benue-north-east,senate,2015,BE,Benue North East,Barnabas Andyar Gemade,APC,winner only,False,wikipedia:senate:2015:BE
+sen-2015-be-benue-north-west,senate,2015,BE,Benue North West,George Akume,APC,winner only,False,wikipedia:senate:2015:BE
+sen-2015-be-benue-south,senate,2015,BE,Benue South,David Mark,PDP,winner only,False,wikipedia:senate:2015:BE
+sen-2015-bo-borno-north,senate,2015,BO,Borno North,Abubakar Kyari,APC,winner only,False,wikipedia:senate:2015:BO
+sen-2015-bo-borno-central,senate,2015,BO,Borno Central,Ahmed Zanna,APC,winner only,False,wikipedia:senate:2015:BO
+sen-2015-bo-borno-south,senate,2015,BO,Borno South,Mohammed Ali Ndume,APC,winner only,False,wikipedia:senate:2015:BO
+sen-2015-cr-cross-river-central,senate,2015,CR,Cross River Central,John Enoh,PDP,winner only,False,wikipedia:senate:2015:CR
+sen-2015-cr-cross-river-south,senate,2015,CR,Cross River South,Gershom Bassey,PDP,winner only,False,wikipedia:senate:2015:CR
+sen-2015-cr-cross-river-north,senate,2015,CR,Cross River North,Rose Oko,PDP,winner only,False,wikipedia:senate:2015:CR
+sen-2015-de-delta-central,senate,2015,DE,Delta Central,Ovie Omo-Agege,LP,winner only,False,wikipedia:senate:2015:DE
+sen-2015-de-delta-north,senate,2015,DE,Delta North,Peter Nwaboshi,PDP,winner only,False,wikipedia:senate:2015:DE
+sen-2015-de-delta-south,senate,2015,DE,Delta South,James Manager,PDP,winner only,False,wikipedia:senate:2015:DE
+sen-2015-eb-ebonyi-north,senate,2015,EB,Ebonyi North,Sam Egwu,PDP,winner only,False,wikipedia:senate:2015:EB
+sen-2015-eb-ebonyi-central,senate,2015,EB,Ebonyi Central,Joseph Ogba,PDP,winner only,False,wikipedia:senate:2015:EB
+sen-2015-eb-ebonyi-south,senate,2015,EB,Ebonyi South,Sonni Ogbuoji,PDP,winner only,False,wikipedia:senate:2015:EB
+sen-2015-ed-edo-central,senate,2015,ED,Edo Central,Clifford Ordia,PDP,winner only,False,wikipedia:senate:2015:ED
+sen-2015-ed-edo-south,senate,2015,ED,Edo South,Matthew Urhoghide,PDP,winner only,False,wikipedia:senate:2015:ED
+sen-2015-ed-edo-north,senate,2015,ED,Edo North,Francis Alimikhena,APC,winner only,False,wikipedia:senate:2015:ED
+sen-2015-ek-ekiti-central,senate,2015,EK,Ekiti Central,Fatimat Olufunke Raji-Rasaki,PDP,winner only,False,wikipedia:senate:2015:EK
+sen-2015-ek-ekiti-north,senate,2015,EK,Ekiti North,Duro Faseyi,PDP,winner only,False,wikipedia:senate:2015:EK
+sen-2015-ek-ekiti-south,senate,2015,EK,Ekiti South,Abiodun Olujimi,PDP,winner only,False,wikipedia:senate:2015:EK
+sen-2015-en-enugu-east,senate,2015,EN,Enugu East,Gilbert Nnaji,PDP,winner only,False,wikipedia:senate:2015:EN
+sen-2015-en-enugu-west,senate,2015,EN,Enugu West,Ike Ekweremadu,PDP,winner only,False,wikipedia:senate:2015:EN
+sen-2015-en-enugu-north,senate,2015,EN,Enugu North,Utazi Chukwuka,PDP,winner only,False,wikipedia:senate:2015:EN
+sen-2015-go-gombe-central,senate,2015,GO,Gombe Central,Mohammed Danjuma Goje,APC,winner only,False,wikipedia:senate:2015:GO
+sen-2015-go-gombe-north,senate,2015,GO,Gombe North,Usman Bayero Nafada,APC,winner only,False,wikipedia:senate:2015:GO
+sen-2015-go-gombe-south,senate,2015,GO,Gombe South,Joshua Moltobok,PDP,winner only,False,wikipedia:senate:2015:GO
+sen-2015-im-imo-east,senate,2015,IM,Imo East,Samuel Anyanwu,PDP,winner only,False,wikipedia:senate:2015:IM
+sen-2015-im-imo-west,senate,2015,IM,Imo West,Hope Uzodinma,PDP,winner only,False,wikipedia:senate:2015:IM
+sen-2015-im-imo-north,senate,2015,IM,Imo North,Benjamin Uwajumogu,APC,winner only,False,wikipedia:senate:2015:IM
+sen-2015-ji-jigawa-north-west,senate,2015,JI,Jigawa North West,Abdullahi Abubakar Gumel,APC,winner only,False,wikipedia:senate:2015:JI
+sen-2015-ji-jigawa-north-east,senate,2015,JI,Jigawa North East,Muhammad Shitu,APC,winner only,False,wikipedia:senate:2015:JI
+sen-2015-ji-jigawa-south-west,senate,2015,JI,Jigawa South West,Mohammed Sabo,APC,winner only,False,wikipedia:senate:2015:JI
+sen-2015-kd-kaduna-central,senate,2015,KD,Kaduna Central,Shehu Sani,APC,winner only,False,wikipedia:senate:2015:KD
+sen-2015-kd-kaduna-north,senate,2015,KD,Kaduna North,Suleiman Othman Hunkuyi,APC,winner only,False,wikipedia:senate:2015:KD
+sen-2015-kd-kaduna-south,senate,2015,KD,Kaduna South,Danjuma Laah,PDP,winner only,False,wikipedia:senate:2015:KD
+sen-2015-kn-kano-north,senate,2015,KN,Kano North,Barau I Jibrin,APC,winner only,False,wikipedia:senate:2015:KN
+sen-2015-kn-kano-central,senate,2015,KN,Kano Central,Rabiu Kwankwaso,APC,winner only,False,wikipedia:senate:2015:KN
+sen-2015-kn-kano-south,senate,2015,KN,Kano South,Kabiru Ibrahim Gaya,APC,winner only,False,wikipedia:senate:2015:KN
+sen-2015-kt-katsina-north,senate,2015,KT,Katsina North,Mustapha Bukar,APC,winner only,False,wikipedia:senate:2015:KT
+sen-2015-kt-katsina-south,senate,2015,KT,Katsina South,Abu Ibrahim,APC,winner only,False,wikipedia:senate:2015:KT
+sen-2015-kt-katsina-central,senate,2015,KT,Katsina Central,Kurfi Umaru,APC,winner only,False,wikipedia:senate:2015:KT
+sen-2015-ke-kebbi-north,senate,2015,KE,Kebbi North,Yahaya Abubakar Abdullahi,APC,winner only,False,wikipedia:senate:2015:KE
+sen-2015-ke-kebbi-central,senate,2015,KE,Kebbi Central,Adamu Aliero,APC,winner only,False,wikipedia:senate:2015:KE
+sen-2015-ke-kebbi-south,senate,2015,KE,Kebbi South,Bala Na'Allah,APC,winner only,False,wikipedia:senate:2015:KE
+sen-2015-ko-kogi-east,senate,2015,KO,Kogi East,Atai Aidoko,PDP,winner only,False,wikipedia:senate:2015:KO
+sen-2015-ko-kogi-central,senate,2015,KO,Kogi Central,Ogembe Ahmed,PDP,winner only,False,wikipedia:senate:2015:KO
+sen-2015-ko-kogi-west,senate,2015,KO,Kogi West,Dino Melaye,APC,winner only,False,wikipedia:senate:2015:KO
+sen-2015-kw-kwara-north,senate,2015,KW,Kwara North,Mohammed Shaaba Lafiagi,APC,winner only,False,wikipedia:senate:2015:KW
+sen-2015-kw-kwara-central,senate,2015,KW,Kwara Central,Bukola Saraki,APC,winner only,False,wikipedia:senate:2015:KW
+sen-2015-kw-kwara-south,senate,2015,KW,Kwara South,Rafiu Adebayo Ibrahim,APC,winner only,False,wikipedia:senate:2015:KW
+sen-2015-la-lagos-central,senate,2015,LA,Lagos Central,Oluremi Tinubu,APC,winner only,False,wikipedia:senate:2015:LA
+sen-2015-la-lagos-west,senate,2015,LA,Lagos West,Solomon Olamilekan Adeola,APC,winner only,False,wikipedia:senate:2015:LA
+sen-2015-la-lagos-east,senate,2015,LA,Lagos East,Gbenga Bareehu Ashafa,APC,winner only,False,wikipedia:senate:2015:LA
+sen-2015-na-nasarawa-south,senate,2015,NA,Nasarawa South,Suleiman Adokwe,PDP,winner only,False,wikipedia:senate:2015:NA
+sen-2015-na-nasarawa-north,senate,2015,NA,Nasarawa North,Philip Aruwa,PDP,winner only,False,wikipedia:senate:2015:NA
+sen-2015-na-nasarawa-west,senate,2015,NA,Nasarawa West,Abdullahi Adamu,APC,winner only,False,wikipedia:senate:2015:NA
+sen-2015-ni-niger-south,senate,2015,NI,Niger South,Mustapha Sani,APC,winner only,False,wikipedia:senate:2015:NI
+sen-2015-ni-niger-north,senate,2015,NI,Niger North,Aliyu Sabi Abdullahi,APC,winner only,False,wikipedia:senate:2015:NI
+sen-2015-ni-niger-east,senate,2015,NI,Niger East,David Umaru,APC,winner only,False,wikipedia:senate:2015:NI
+sen-2015-og-ogun-east,senate,2015,OG,Ogun East,Buruji Kashamu,PDP,winner only,False,wikipedia:senate:2015:OG
+sen-2015-og-ogun-central,senate,2015,OG,Ogun Central,Lanre Tejuosho,APC,winner only,False,wikipedia:senate:2015:OG
+sen-2015-og-ogun-west,senate,2015,OG,Ogun West,Joseph Dada,APC,winner only,False,wikipedia:senate:2015:OG
+sen-2015-on-ondo-central,senate,2015,ON,Ondo Central,Omotayo Donald,APC,winner only,False,wikipedia:senate:2015:ON
+sen-2015-on-ondo-north,senate,2015,ON,Ondo North,Robert Ajayi Boroffice,APC,winner only,False,wikipedia:senate:2015:ON
+sen-2015-on-ondo-south,senate,2015,ON,Ondo South,Yele Omogunwa,PDP,winner only,False,wikipedia:senate:2015:ON
+sen-2015-os-osun-central,senate,2015,OS,Osun Central,Olusola Adeyeye,APC,winner only,False,wikipedia:senate:2015:OS
+sen-2015-os-osun-east,senate,2015,OS,Osun East,Christopher Omoworare Babajide,APC,winner only,False,wikipedia:senate:2015:OS
+sen-2015-os-osun-west,senate,2015,OS,Osun West,Isiaka Adeleke,APC,winner only,False,wikipedia:senate:2015:OS
+sen-2015-oy-oyo-central,senate,2015,OY,Oyo Central,Monsurat Sunmonu,APC,winner only,False,wikipedia:senate:2015:OY
+sen-2015-oy-oyo-south,senate,2015,OY,Oyo South,Rilwan Akanbi,APC,winner only,False,wikipedia:senate:2015:OY
+sen-2015-oy-oyo-north,senate,2015,OY,Oyo North,Abdulfatai Buhari,APC,winner only,False,wikipedia:senate:2015:OY
+sen-2015-pl-plateau-south,senate,2015,PL,Plateau South,Jeremiah Useni,PDP,winner only,False,wikipedia:senate:2015:PL
+sen-2015-pl-plateau-central,senate,2015,PL,Plateau Central,Joshua Dariye,PDP,winner only,False,wikipedia:senate:2015:PL
+sen-2015-pl-plateau-north,senate,2015,PL,Plateau North,Jonah David Jang,PDP,winner only,False,wikipedia:senate:2015:PL
+sen-2015-ri-rivers-east,senate,2015,RI,Rivers East,Andrew Uchendu,APC,winner only,False,wikipedia:senate:2015:RI
+sen-2015-ri-rivers-south-east,senate,2015,RI,Rivers South East,Magnus Ngei Abe,APC,winner only,False,wikipedia:senate:2015:RI
+sen-2015-ri-rivers-west,senate,2015,RI,Rivers West,Otelemaba Amachree,APC,winner only,False,wikipedia:senate:2015:RI
+sen-2015-so-sokoto-east,senate,2015,SO,Sokoto East,Abdullahi Ibrahim Gobir,APC,winner only,False,wikipedia:senate:2015:SO
+sen-2015-so-sokoto-north,senate,2015,SO,Sokoto North,Aliyu Magatakarda Wamakko,APC,winner only,False,wikipedia:senate:2015:SO
+sen-2015-so-sokoto-south,senate,2015,SO,Sokoto South,Ibrahim Abdullahi Danbaba,APC,winner only,False,wikipedia:senate:2015:SO
+sen-2015-ta-taraba-south,senate,2015,TA,Taraba South,Emmanuel Bwacha,PDP,winner only,False,wikipedia:senate:2015:TA
+sen-2015-ta-taraba-north,senate,2015,TA,Taraba North,Abubakar Sani Danladi,PDP,winner only,False,wikipedia:senate:2015:TA
+sen-2015-ta-taraba-central,senate,2015,TA,Taraba Central,Yusuf Abubakar Yusuf,APC,winner only,False,wikipedia:senate:2015:TA
+sen-2015-yo-yobe-east,senate,2015,YO,Yobe East,Bukar Ibrahim,APC,winner only,False,wikipedia:senate:2015:YO
+sen-2015-yo-yobe-north,senate,2015,YO,Yobe North,Ahmad Lawan,APC,winner only,False,wikipedia:senate:2015:YO
+sen-2015-yo-yobe-south,senate,2015,YO,Yobe South,Mohammed Hasan,PDP,winner only,False,wikipedia:senate:2015:YO
+sen-2015-za-zamfara-central,senate,2015,ZA,Zamfara Central,Kabir Garba Marafa,APC,winner only,False,wikipedia:senate:2015:ZA
+sen-2015-za-zamfara-north,senate,2015,ZA,Zamfara North,Tijjani Yahaya Kaura,APC,winner only,False,wikipedia:senate:2015:ZA
+sen-2015-za-zamfara-west,senate,2015,ZA,Zamfara West,Ahmad Sani Yerima,APC,winner only,False,wikipedia:senate:2015:ZA
+sen-2019-ab-abia-south,senate,2019,AB,Abia South,Enyinnaya Abaribe,PDP,top candidates only,False,wikipedia:senate:2019:AB
+sen-2019-ab-abia-central,senate,2019,AB,Abia Central,Theodore Orji,PDP,top candidates only,False,wikipedia:senate:2019:AB
+sen-2019-ab-abia-north,senate,2019,AB,Abia North,Orji Uzor Kalu,APC,top candidates only,False,wikipedia:senate:2019:AB
+sen-2019-ad-adamawa-south,senate,2019,AD,Adamawa South,Binos Dauda Yaroe,PDP,top candidates only,False,wikipedia:senate:2019:AD
+sen-2019-ad-adamawa-central,senate,2019,AD,Adamawa Central,Aishatu Dahiru Ahmed,APC,top candidates only,False,wikipedia:senate:2019:AD
+sen-2019-ad-adamawa-north,senate,2019,AD,Adamawa North,Ishaku Elisha Abbo,PDP,top candidates only,False,wikipedia:senate:2019:AD
+sen-2019-ak-akwa-ibom-south,senate,2019,AK,Akwa Ibom South,Akon Etim Eyakenyi,PDP,top candidates only,False,wikipedia:senate:2019:AK
+sen-2019-ak-akwa-ibom-north-east,senate,2019,AK,Akwa Ibom North-East,Bassey Albert,PDP,winner only,False,wikipedia:senate:2019:AK
+sen-2019-ak-akwa-ibom-north-west,senate,2019,AK,Akwa Ibom North-West,Christopher Stephen Ekpenyong,PDP,top candidates only,False,wikipedia:senate:2019:AK
+sen-2019-an-anambra-south,senate,2019,AN,Anambra South,Ifeanyi Ubah,YPP,top candidates only,False,wikipedia:senate:2019:AN
+sen-2019-an-anambra-north,senate,2019,AN,Anambra North,Stella Oduah-Ogiemwonyi,PDP,top candidates only,False,wikipedia:senate:2019:AN
+sen-2019-an-anambra-central,senate,2019,AN,Anambra Central,Uche Lilian Ekwunife,PDP,top candidates only,False,wikipedia:senate:2019:AN
+sen-2019-ba-bauchi-south,senate,2019,BA,Bauchi South,Lawal Yahaya Gumau,APC,top candidates only,False,wikipedia:senate:2019:BA
+sen-2019-ba-bauchi-central,senate,2019,BA,Bauchi Central,Halliru Dauda Jika,APC,top candidates only,False,wikipedia:senate:2019:BA
+sen-2019-ba-bauchi-north,senate,2019,BA,Bauchi North,Adamu Bulkachuwa,APC,top candidates only,False,wikipedia:senate:2019:BA
+sen-2019-by-bayelsa-central,senate,2019,BY,Bayelsa Central,Douye Diri,PDP,top candidates only,False,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-west,senate,2019,BY,Bayelsa West,Lawrence Ewhrudjakpo,PDP,top candidates only,False,wikipedia:senate:2019:BY
+sen-2019-by-bayelsa-east,senate,2019,BY,Bayelsa East,Biobarakuma Degi,APC,top candidates only,False,wikipedia:senate:2019:BY
+sen-2019-be-benue-south,senate,2019,BE,Benue South,Patrick Abba Moro,PDP,winner only,False,wikipedia:senate:2019:BE
+sen-2019-be-bauchi-north-east,senate,2019,BE,Bauchi North-East,Gabriel Suswam,PDP,winner only,False,wikipedia:senate:2019:BE
+sen-2019-be-bauchi-north-west,senate,2019,BE,Bauchi North-West,Emmanuel Yisa Orker-Jev,PDP,winner only,False,wikipedia:senate:2019:BE
+sen-2019-bo-bornu-central,senate,2019,BO,Bornu Central,Kashim Shettima,APC,top candidates only,False,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-north,senate,2019,BO,Bornu North,Abubakar Kyari,APC,top candidates only,False,wikipedia:senate:2019:BO
+sen-2019-bo-bornu-south,senate,2019,BO,Bornu South,Mohammed Ali Ndume,APC,top candidates only,False,wikipedia:senate:2019:BO
+sen-2019-cr-cross-river-central,senate,2019,CR,Cross River Central,Sandy Ojang Onor,PDP,top candidates only,False,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-north,senate,2019,CR,Cross River North,Rose Oko Okoji,PDP,top candidates only,False,wikipedia:senate:2019:CR
+sen-2019-cr-cross-river-south,senate,2019,CR,Cross River South,Gershom Henry Bassey,PDP,top candidates only,False,wikipedia:senate:2019:CR
+sen-2019-de-delta-south,senate,2019,DE,Delta South,James Manager,PDP,top candidates only,False,wikipedia:senate:2019:DE
+sen-2019-de-delta-central,senate,2019,DE,Delta Central,Ovie Omo-Agege,APC,top candidates only,False,wikipedia:senate:2019:DE
+sen-2019-de-delta-north,senate,2019,DE,Delta North,Peter Nwaoboshi,PDP,top candidates only,False,wikipedia:senate:2019:DE
+sen-2019-eb-ebonyi-south,senate,2019,EB,Ebonyi South,Michael Ama-Nnach,PDP,top candidates only,False,wikipedia:senate:2019:EB
+sen-2019-eb-ebonyi-central,senate,2019,EB,Ebonyi Central,Gabriel Suswam,PDP,top candidates only,False,wikipedia:senate:2019:EB
+sen-2019-eb-ebonyi-north,senate,2019,EB,Ebonyi North,Sam Egwu,PDP,top candidates only,False,wikipedia:senate:2019:EB
+sen-2019-ed-edo-central,senate,2019,ED,Edo Central,Ordia Akhimienmona Clifford,PDP,top candidates only,False,wikipedia:senate:2019:ED
+sen-2019-ed-edo-south,senate,2019,ED,Edo South,Uroghide Mathew Aisagbonriodion,PDP,winner only,True,wikipedia:senate:2019:ED
+sen-2019-ed-edo-north,senate,2019,ED,Edo North,Alimikhena Francis Asekhame,AC,top candidates only,False,wikipedia:senate:2019:ED
+sen-2019-ek-ekiti-central,senate,2019,EK,Ekiti Central,Michael Opeyemi Bamidele,APC,top candidates only,False,wikipedia:senate:2019:EK
+sen-2019-ek-ekiti-north,senate,2019,EK,Ekiti North,Adetumbi Olubunmi,APC,top candidates only,False,wikipedia:senate:2019:EK
+sen-2019-ek-ekiti-south,senate,2019,EK,Ekiti South,Abiodun Olujimi,PDP,winner only,True,wikipedia:senate:2019:EK
+sen-2019-en-enugu-west,senate,2019,EN,Enugu West,Ike Ekweremadu,PDP,top candidates only,False,wikipedia:senate:2019:EN
+sen-2019-en-enugu-east,senate,2019,EN,Enugu East,Chimaroke Ogbonnia Nnamani,PDP,top candidates only,False,wikipedia:senate:2019:EN
+sen-2019-en-enugu-north,senate,2019,EN,Enugu North,Utazi Chukwuka,PDP,top candidates only,False,wikipedia:senate:2019:EN
+sen-2019-go-gombe-south,senate,2019,GO,Gombe South,Amos Bulus Kilawangs,APC,top candidates only,False,wikipedia:senate:2019:GO
+sen-2019-go-gombe-central,senate,2019,GO,Gombe Central,Mohammed Danjuma Goje,APC,top candidates only,False,wikipedia:senate:2019:GO
+sen-2019-go-gombe-north,senate,2019,GO,Gombe North,Sa'idu Ahmed Alkali,APC,winner only,False,wikipedia:senate:2019:GO
+sen-2019-im-imo-west,senate,2019,IM,Imo West,Rochas Okorocha,APC,winner only,False,wikipedia:senate:2019:IM
+sen-2019-im-imo-east,senate,2019,IM,Imo East,Onyewuchi Francis Ezenwa,PDP,all candidates,False,wikipedia:senate:2019:IM
+sen-2019-im-imo-north,senate,2019,IM,Imo North,Benjamin Uwajumogu,APC,winner only,False,wikipedia:senate:2019:IM
+sen-2019-ji-jigawa-south-west,senate,2019,JI,Jigawa South West,Sabo Mohammed,APC,top candidates only,False,wikipedia:senate:2019:JI
+sen-2019-ji-jigawa-north-west,senate,2019,JI,Jigawa North West,Danladi Abdullahi Sankara,APC,top candidates only,False,wikipedia:senate:2019:JI
+sen-2019-ji-jigawa-north-east,senate,2019,JI,Jigawa North East,Ibrahim Hadejia,APC,top candidates only,False,wikipedia:senate:2019:JI
+sen-2019-kd-kaduna-central,senate,2019,KD,Kaduna Central,Sani Uba,APC,top candidates only,False,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-north,senate,2019,KD,Kaduna North,Kwari Suleiman Abdu,APC,top candidates only,False,wikipedia:senate:2019:KD
+sen-2019-kd-kaduna-south,senate,2019,KD,Kaduna South,Laah Danjuma Tella,PDP,top candidates only,False,wikipedia:senate:2019:KD
+sen-2019-kn-kano-central,senate,2019,KN,Kano Central,Ibrahim Shekarau,APC,top candidates only,False,wikipedia:senate:2019:KN
+sen-2019-kn-kano-north,senate,2019,KN,Kano North,Jibrin I Barau,APC,top candidates only,False,wikipedia:senate:2019:KN
+sen-2019-kn-kano-south,senate,2019,KN,Kano South,Kabiru Ibrahim Gaya,APC,top candidates only,False,wikipedia:senate:2019:KN
+sen-2019-kt-katsina-central,senate,2019,KT,Katsina Central,Kabir Barkiya,APC,top candidates only,False,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-south,senate,2019,KT,Katsina South,Bello Mandiya,APC,top candidates only,False,wikipedia:senate:2019:KT
+sen-2019-kt-katsina-north,senate,2019,KT,Katsina North,Ahmad Babba Kaita,APC,top candidates only,False,wikipedia:senate:2019:KT
+sen-2019-ke-kebbi-south,senate,2019,KE,Kebbi South,Bala Ibn Na'allah,APC,top candidates only,False,wikipedia:senate:2019:KE
+sen-2019-ke-kebbi-central,senate,2019,KE,Kebbi Central,Adamu Aliero,APC,top candidates only,False,wikipedia:senate:2019:KE
+sen-2019-ke-kebbi-north,senate,2019,KE,Kebbi North,Abdullahi Abubakar Yahaya,APC,top candidates only,False,wikipedia:senate:2019:KE
+sen-2019-ko-kogi-west,senate,2019,KO,Kogi West,Smart Adeyemi,APC,top candidates only,False,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-central,senate,2019,KO,Kogi Central,Yakubu Oseni,APC,top candidates only,False,wikipedia:senate:2019:KO
+sen-2019-ko-kogi-east,senate,2019,KO,Kogi East,Isah Jibrin,APC,top candidates only,False,wikipedia:senate:2019:KO
+sen-2019-kw-kwara-central,senate,2019,KW,Kwara Central,Ibrahim Oloriegbe,APC,top candidates only,False,wikipedia:senate:2019:KW
+sen-2019-kw-kano-north,senate,2019,KW,Kano North,Suleiman Sadiq Umar,APC,winner only,False,wikipedia:senate:2019:KW
+sen-2019-kw-kwara-south,senate,2019,KW,Kwara South,Lola Ashiru,APC,top candidates only,False,wikipedia:senate:2019:KW
+sen-2019-la-lagos-west,senate,2019,LA,Lagos West,Solomon Olamilekan Adeola,APC,top candidates only,False,wikipedia:senate:2019:LA
+sen-2019-la-lagos-central,senate,2019,LA,Lagos Central,Oluremi Tinubu,APC,top candidates only,False,wikipedia:senate:2019:LA
+sen-2019-la-lagos-east,senate,2019,LA,Lagos East,Osinowo Sikiru Adebayo,APC,top candidates only,False,wikipedia:senate:2019:LA
+sen-2019-na-nasarawa-south,senate,2019,NA,Nasarawa South,Umaru Tanko Al-Makura,APC,top candidates only,False,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-west,senate,2019,NA,Nasarawa West,Abdullahi Adamu,APC,top candidates only,False,wikipedia:senate:2019:NA
+sen-2019-na-nasarawa-north,senate,2019,NA,Nasarawa North,Godiya Akwashiki,APC,top candidates only,False,wikipedia:senate:2019:NA
+sen-2019-ni-niger-east,senate,2019,NI,Niger East,Sani Mohammed Musa,APC,top candidates only,False,wikipedia:senate:2019:NI
+sen-2019-ni-niger-north,senate,2019,NI,Niger North,Aliyu Sabi Abdullahi,APC,top candidates only,False,wikipedia:senate:2019:NI
+sen-2019-ni-niger-south,senate,2019,NI,Niger South,Bima Muhammad Enagi,APC,top candidates only,False,wikipedia:senate:2019:NI
+sen-2019-og-ogun-east,senate,2019,OG,Ogun East,Ramoni Olalekan Mustapha,APC,top candidates only,False,wikipedia:senate:2019:OG
+sen-2019-og-ogun-central,senate,2019,OG,Ogun Central,Ibikunle Amosun,APC,top candidates only,False,wikipedia:senate:2019:OG
+sen-2019-og-ogun-west,senate,2019,OG,Ogun West,Tolulope Akinremi Odebiyi,APC,top candidates only,False,wikipedia:senate:2019:OG
+sen-2019-on-ondo-central,senate,2019,ON,Ondo Central,Akinyelure Patrick Ayo,PDP,top candidates only,False,wikipedia:senate:2019:ON
+sen-2019-on-ondo-south,senate,2019,ON,Ondo South,Nicholas Tofowomo,PDP,top candidates only,False,wikipedia:senate:2019:ON
+sen-2019-on-ondo-north,senate,2019,ON,Ondo North,Robert Ajayi Boroffice,APC,top candidates only,False,wikipedia:senate:2019:ON
+sen-2019-os-osun-west,senate,2019,OS,Osun West,Adelere Adeyemi Oriolowo,APC,top candidates only,False,wikipedia:senate:2019:OS
+sen-2019-os-osun-central,senate,2019,OS,Osun Central,Ajibola Basiru,APC,top candidates only,False,wikipedia:senate:2019:OS
+sen-2019-os-osun-east,senate,2019,OS,Osun East,Francis Adenigba Fadahunsi,PDP,top candidates only,False,wikipedia:senate:2019:OS
+sen-2019-oy-oyo-north,senate,2019,OY,Oyo North,Abdulfatai Buhari,APC,top candidates only,False,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-central,senate,2019,OY,Oyo Central,Teslim Folarin,APC,top candidates only,False,wikipedia:senate:2019:OY
+sen-2019-oy-oyo-south,senate,2019,OY,Oyo South,Kola Balogun,PDP,top candidates only,False,wikipedia:senate:2019:OY
+sen-2019-pl-plateau-south,senate,2019,PL,Plateau South,Ignatius Datong Longjan,APC,top candidates only,False,wikipedia:senate:2019:PL
+sen-2019-pl-plateau-central,senate,2019,PL,Plateau Central,Hezekiah Ayuba Dimka,APC,top candidates only,False,wikipedia:senate:2019:PL
+sen-2019-pl-plateau-north,senate,2019,PL,Plateau North,Istifanus Gyang,PDP,top candidates only,False,wikipedia:senate:2019:PL
+sen-2019-ri-rivers-west,senate,2019,RI,Rivers West,Betty Apiafi,PDP,top candidates only,False,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-south-east,senate,2019,RI,Rivers South East,Barry Mpigi,PDP,top candidates only,False,wikipedia:senate:2019:RI
+sen-2019-ri-rivers-east,senate,2019,RI,Rivers East,George Thompson Sekibo,PDP,top candidates only,False,wikipedia:senate:2019:RI
+sen-2019-so-sokoto-north,senate,2019,SO,Sokoto North,Aliyu Magatakarda Wamakko,APC,top candidates only,False,wikipedia:senate:2019:SO
+sen-2019-so-sokoto-south,senate,2019,SO,Sokoto South,Ibrahim Abdullahi Danbaba,PDP,winner only,True,wikipedia:senate:2019:SO
+sen-2019-so-sokoto-east,senate,2019,SO,Sokoto East,Abdullahi Ibrahim Gobir,APC,top candidates only,False,wikipedia:senate:2019:SO
+sen-2019-ta-taraba-south,senate,2019,TA,Taraba South,Emmanuel Bwacha,PDP,top candidates only,False,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-north,senate,2019,TA,Taraba North,Shuaibu Isa Lau,PDP,top candidates only,False,wikipedia:senate:2019:TA
+sen-2019-ta-taraba-central,senate,2019,TA,Taraba Central,Yusuf Abubakar Yusuf,APC,top candidates only,False,wikipedia:senate:2019:TA
+sen-2019-yo-yobe-south,senate,2019,YO,Yobe South,Ibrahim Mohammed Bomai,APC,top candidates only,False,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-east,senate,2019,YO,Yobe East,Ibrahim Gaidam,APC,top candidates only,False,wikipedia:senate:2019:YO
+sen-2019-yo-yobe-north,senate,2019,YO,Yobe North,Ahmad Lawan,APC,top candidates only,False,wikipedia:senate:2019:YO
+sen-2019-za-zamfara-west,senate,2019,ZA,Zamfara West,Lawali Hassan Anka,PDP,winner only,True,wikipedia:senate:2019:ZA
+sen-2019-za-zamfara-central,senate,2019,ZA,Zamfara Central,Hassan Muhammed Gusau,PDP,winner only,True,wikipedia:senate:2019:ZA
+sen-2019-za-zamfara-north,senate,2019,ZA,Zamfara North,Sahabi Alhaji Yaú,PDP,top candidates only,False,wikipedia:senate:2019:ZA
+sen-2023-ab-abia-central,senate,2023,AB,Abia Central,Augustine Akobundu,PDP,winner only,True,wikipedia:senate:2023:AB
+sen-2023-ab-abia-north,senate,2023,AB,Abia North,Orji Uzor Kalu,APC,all candidates,False,wikipedia:senate:2023:AB
+sen-2023-ab-abia-south,senate,2023,AB,Abia South,Enyinnaya Abaribe,APGA,all candidates,False,wikipedia:senate:2023:AB
+sen-2023-ad-adamawa-central,senate,2023,AD,Adamawa Central,Aminu Iya Abbas,PDP,winner only,False,wikipedia:senate:2023:AD
+sen-2023-ad-adamawa-north,senate,2023,AD,Adamawa North,Ishaku Elisha Abbo,APC,winner only,False,wikipedia:senate:2023:AD
+sen-2023-ad-adamawa-south,senate,2023,AD,Adamawa South,Binos Dauda Yaroe,PDP,winner only,False,wikipedia:senate:2023:AD
+sen-2023-ak-akwa-ibom-north-east,senate,2023,AK,Akwa Ibom North-East,Aniekan Bassey,PDP,winner only,False,wikipedia:senate:2023:AK
+sen-2023-ak-akwa-ibom-north-west,senate,2023,AK,Akwa Ibom North-West,Godswill Akpabio,APC,winner only,False,wikipedia:senate:2023:AK
+sen-2023-ak-akwa-ibom-south,senate,2023,AK,Akwa Ibom South,Ekong Sampson,PDP,winner only,False,wikipedia:senate:2023:AK
+sen-2023-an-anambra-central,senate,2023,AN,Anambra Central,Victor Umeh,LP,winner only,False,wikipedia:senate:2023:AN
+sen-2023-an-anambra-north,senate,2023,AN,Anambra North,Tony Nwoye,LP,winner only,False,wikipedia:senate:2023:AN
+sen-2023-an-anambra-south,senate,2023,AN,Anambra South,Ifeanyi Ubah,YPP,winner only,False,wikipedia:senate:2023:AN
+sen-2023-ba-bauchi-central,senate,2023,BA,Bauchi Central,Abdul Ahmed Ningi,PDP,top candidates only,False,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-north,senate,2023,BA,Bauchi North,Sama'ila Dahuwa,PDP,top candidates only,False,wikipedia:senate:2023:BA
+sen-2023-ba-bauchi-south,senate,2023,BA,Bauchi South,Shehu Buba Umar,APC,all candidates,False,wikipedia:senate:2023:BA
+sen-2023-by-bayelsa-central,senate,2023,BY,Bayelsa Central,Kombowei Benson,PDP,winner only,False,wikipedia:senate:2023:BY
+sen-2023-by-bayelsa-east,senate,2023,BY,Bayelsa East,Benson Agadaga,PDP,winner only,False,wikipedia:senate:2023:BY
+sen-2023-by-bayelsa-west,senate,2023,BY,Bayelsa West,Henry Seriake Dickson,PDP,winner only,False,wikipedia:senate:2023:BY
+sen-2023-be-benue-north-east,senate,2023,BE,Benue North-East,Emmanuel Memga Udende,APC,winner only,False,wikipedia:senate:2023:BE
+sen-2023-be-benue-north-west,senate,2023,BE,Benue North-West,Titus Zam,APC,winner only,False,wikipedia:senate:2023:BE
+sen-2023-be-benue-south,senate,2023,BE,Benue South,Patrick Abba Moro,PDP,winner only,False,wikipedia:senate:2023:BE
+sen-2023-bo-borno-central,senate,2023,BO,Borno Central,Shehu Lawan,APC,winner only,False,wikipedia:senate:2023:BO
+sen-2023-bo-borno-north,senate,2023,BO,Borno North,Mohammed Tahir Monguno,APC,winner only,False,wikipedia:senate:2023:BO
+sen-2023-bo-borno-south,senate,2023,BO,Borno South,Mohammed Ali Ndume,APC,winner only,False,wikipedia:senate:2023:BO
+sen-2023-cr-cross-river-central,senate,2023,CR,Cross River Central,Eteng Williams,APC,winner only,False,wikipedia:senate:2023:CR
+sen-2023-cr-cross-river-north,senate,2023,CR,Cross River North,Agom Jarigbe,PDP,winner only,False,wikipedia:senate:2023:CR
+sen-2023-cr-cross-river-south,senate,2023,CR,Cross River South,Asuquo Ekpenyong,APC,winner only,False,wikipedia:senate:2023:CR
+sen-2023-de-delta-central,senate,2023,DE,Delta Central,Ede Dafinone,APC,winner only,False,wikipedia:senate:2023:DE
+sen-2023-de-delta-north,senate,2023,DE,Delta North,Ned Nwoko,PDP,winner only,False,wikipedia:senate:2023:DE
+sen-2023-de-delta-south,senate,2023,DE,Delta South,Joel-Onowakpo Thomas,APC,winner only,False,wikipedia:senate:2023:DE
+sen-2023-eb-ebonyi-central,senate,2023,EB,Ebonyi Central,Kenneth Eze,APC,winner only,False,wikipedia:senate:2023:EB
+sen-2023-eb-ebonyi-north,senate,2023,EB,Ebonyi North,Onyekachi Nwaebonyi,APC,winner only,False,wikipedia:senate:2023:EB
+sen-2023-eb-ebonyi-south,senate,2023,EB,Ebonyi South,Dave Umahi,APC,winner only,False,wikipedia:senate:2023:EB
+sen-2023-ed-edo-central,senate,2023,ED,Edo Central,Monday Okpebholo,APC,winner only,False,wikipedia:senate:2023:ED
+sen-2023-ed-edo-north,senate,2023,ED,Edo North,Adams Oshiomhole,APC,winner only,False,wikipedia:senate:2023:ED
+sen-2023-ed-edo-south,senate,2023,ED,Edo South,Neda Imasuen,LP,winner only,False,wikipedia:senate:2023:ED
+sen-2023-ek-ekiti-central,senate,2023,EK,Ekiti Central,Michael Opeyemi Bamidele,APC,winner only,False,wikipedia:senate:2023:EK
+sen-2023-ek-ekiti-north,senate,2023,EK,Ekiti North,Cyril Fasuyi,APC,winner only,False,wikipedia:senate:2023:EK
+sen-2023-ek-ekiti-south,senate,2023,EK,Ekiti South,Raphael Adeyemi Adaramodu,APC,winner only,False,wikipedia:senate:2023:EK
+sen-2023-go-gombe-central,senate,2023,GO,Gombe Central,Mohammed Danjuma Goje,APC,winner only,False,wikipedia:senate:2023:GO
+sen-2023-go-gombe-north,senate,2023,GO,Gombe North,Ibrahim Hassan Dankwambo,PDP,winner only,False,wikipedia:senate:2023:GO
+sen-2023-go-gombe-south,senate,2023,GO,Gombe South,Anthony Siyako Yaro,PDP,winner only,False,wikipedia:senate:2023:GO
+sen-2023-im-imo-east,senate,2023,IM,Imo East,Ezenwa Francis Onyewuchi,LP,winner only,False,wikipedia:senate:2023:IM
+sen-2023-im-imo-north,senate,2023,IM,Imo North,Patrick Ndubueze,APC,winner only,False,wikipedia:senate:2023:IM
+sen-2023-im-imo-west,senate,2023,IM,Imo West,Osita Izunaso,APC,winner only,False,wikipedia:senate:2023:IM
+sen-2023-ji-jigawa-north-east,senate,2023,JI,Jigawa North-East,Ahmad Abdulhamid Malam Madori,APC,winner only,False,wikipedia:senate:2023:JI
+sen-2023-ji-jigawa-north-west,senate,2023,JI,Jigawa North-West,Babangida Hussaini,APC,winner only,False,wikipedia:senate:2023:JI
+sen-2023-ji-jigawa-south-west,senate,2023,JI,Jigawa South-West,Mustapha Khabeeb,PDP,winner only,False,wikipedia:senate:2023:JI
+sen-2023-kd-kaduna-central,senate,2023,KD,Kaduna Central,Lawal Adamu Usman,PDP,winner only,False,wikipedia:senate:2023:KD
+sen-2023-kd-kaduna-north,senate,2023,KD,Kaduna North,Khalid Mustapha,PDP,winner only,False,wikipedia:senate:2023:KD
+sen-2023-kd-kaduna-south,senate,2023,KD,Kaduna South,Sunday Marshall Katunɡ,PDP,winner only,False,wikipedia:senate:2023:KD
+sen-2023-kn-kano-central,senate,2023,KN,Kano Central,Rufai Sani Hanga,NNPP,all candidates,False,wikipedia:senate:2023:KN
+sen-2023-kn-kano-north,senate,2023,KN,Kano North,Barau Jibrin,APC,winner only,True,wikipedia:senate:2023:KN
+sen-2023-kn-kano-south,senate,2023,KN,Kano South,Suleiman Abdurrahman Kawu Sumaila,NNPP,all candidates,False,wikipedia:senate:2023:KN
+sen-2023-kt-katsina-central,senate,2023,KT,Katsina Central,Abdul'aziz Musa Yar'adua,APC,winner only,False,wikipedia:senate:2023:KT
+sen-2023-kt-katsina-north,senate,2023,KT,Katsina North,Nasiru Sani Zangon Daura,APC,winner only,False,wikipedia:senate:2023:KT
+sen-2023-kt-katsina-south,senate,2023,KT,Katsina South,Mohammed Muntari Dandutse,APC,winner only,False,wikipedia:senate:2023:KT
+sen-2023-ke-kebbi-central,senate,2023,KE,Kebbi Central,Adamu Aliero,PDP,winner only,False,wikipedia:senate:2023:KE
+sen-2023-ke-kebbi-south,senate,2023,KE,Kebbi South,Garba Musa Maidoki,PDP,winner only,False,wikipedia:senate:2023:KE
+sen-2023-ko-kogi-central,senate,2023,KO,Kogi Central,Abubakar Sadiku Ohere,APC,winner only,False,wikipedia:senate:2023:KO
+sen-2023-ko-kogi-east,senate,2023,KO,Kogi East,Jibrin Isah,APC,winner only,False,wikipedia:senate:2023:KO
+sen-2023-ko-kogi-west,senate,2023,KO,Kogi West,Sunday Karimi,APC,winner only,False,wikipedia:senate:2023:KO
+sen-2023-kw-kwara-central,senate,2023,KW,Kwara Central,Saliu Mustapha,APC,winner only,False,wikipedia:senate:2023:KW
+sen-2023-kw-kwara-north,senate,2023,KW,Kwara North,Suleiman Sadiq Umar,APC,winner only,False,wikipedia:senate:2023:KW
+sen-2023-kw-kwara-south,senate,2023,KW,Kwara South,Lola Ashiru,APC,winner only,False,wikipedia:senate:2023:KW
+sen-2023-la-lagos-central,senate,2023,LA,Lagos Central,Wasiu Eshinlokun Sanni,APC,winner only,False,wikipedia:senate:2023:LA
+sen-2023-la-lagos-east,senate,2023,LA,Lagos East,Tokunbo Abiru,APC,winner only,False,wikipedia:senate:2023:LA
+sen-2023-la-lagos-west,senate,2023,LA,Lagos West,Oluranti Adebule,APC,winner only,False,wikipedia:senate:2023:LA
+sen-2023-na-nasarawa-north,senate,2023,NA,Nasarawa North,Godiya Akwashiki,SDP,winner only,False,wikipedia:senate:2023:NA
+sen-2023-na-nasarawa-south,senate,2023,NA,Nasarawa South,Mohammed Ogoshi Onawo,PDP,winner only,False,wikipedia:senate:2023:NA
+sen-2023-na-nasarawa-west,senate,2023,NA,Nasarawa West,Ahmed Aliyu Wadada,SDP,winner only,False,wikipedia:senate:2023:NA
+sen-2023-ni-niger-east,senate,2023,NI,Niger East,Sani Musa,APC,winner only,False,wikipedia:senate:2023:NI
+sen-2023-ni-niger-north,senate,2023,NI,Niger North,Abubakar Sani Bello,APC,winner only,False,wikipedia:senate:2023:NI
+sen-2023-ni-niger-south,senate,2023,NI,Niger South,Peter Ndalikali Jiya,PDP,winner only,False,wikipedia:senate:2023:NI
+sen-2023-og-ogun-central,senate,2023,OG,Ogun Central,Shuaibu Salisu,APC,winner only,False,wikipedia:senate:2023:OG
+sen-2023-og-ogun-east,senate,2023,OG,Ogun East,Gbenga Daniel,APC,winner only,False,wikipedia:senate:2023:OG
+sen-2023-og-ogun-west,senate,2023,OG,Ogun West,Solomon Olamilekan Adeola,APC,winner only,False,wikipedia:senate:2023:OG
+sen-2023-on-ondo-central,senate,2023,ON,Ondo Central,Adeniyi Adegbonmire,APC,winner only,False,wikipedia:senate:2023:ON
+sen-2023-on-ondo-north,senate,2023,ON,Ondo North,Jide Ipinsagba,APC,winner only,False,wikipedia:senate:2023:ON
+sen-2023-on-ondo-south,senate,2023,ON,Ondo South,Jimoh Ibrahim,APC,winner only,False,wikipedia:senate:2023:ON
+sen-2023-os-osun-central,senate,2023,OS,Osun Central,Olubiyi Fadeyi,PDP,winner only,False,wikipedia:senate:2023:OS
+sen-2023-os-osun-east,senate,2023,OS,Osun East,Francis Adenigba Fadahunsi,PDP,winner only,False,wikipedia:senate:2023:OS
+sen-2023-os-osun-west,senate,2023,OS,Osun West,Lere Oyewumi,PDP,winner only,False,wikipedia:senate:2023:OS
+sen-2023-oy-oyo-central,senate,2023,OY,Oyo Central,Yunus Akintunde,APC,winner only,False,wikipedia:senate:2023:OY
+sen-2023-oy-oyo-north,senate,2023,OY,Oyo North,Abdulfatai Buhari,APC,winner only,False,wikipedia:senate:2023:OY
+sen-2023-oy-oyo-south,senate,2023,OY,Oyo South,Sharafadeen Alli,APC,winner only,False,wikipedia:senate:2023:OY
+sen-2023-pl-plateau-central,senate,2023,PL,Plateau Central,Diket Plang,APC,winner only,False,wikipedia:senate:2023:PL
+sen-2023-pl-plateau-north,senate,2023,PL,Plateau North,Simon Mwadkwon,PDP,winner only,False,wikipedia:senate:2023:PL
+sen-2023-pl-plateau-south,senate,2023,PL,Plateau South,Napoleon Bali,PDP,winner only,False,wikipedia:senate:2023:PL
+sen-2023-ri-rivers-east,senate,2023,RI,Rivers East,Allwell Onyeso,PDP,winner only,False,wikipedia:senate:2023:RI
+sen-2023-ri-rivers-south-east,senate,2023,RI,Rivers South-East,Barry Mpigi,PDP,winner only,False,wikipedia:senate:2023:RI
+sen-2023-ri-rivers-west,senate,2023,RI,Rivers West,Ipalibo Banigo,PDP,winner only,False,wikipedia:senate:2023:RI
+sen-2023-so-sokoto-east,senate,2023,SO,Sokoto East,Ibrahim Lamido,APC,winner only,False,wikipedia:senate:2023:SO
+sen-2023-so-sokoto-north,senate,2023,SO,Sokoto North,Aliyu Magatakarda Wamakko,APC,winner only,False,wikipedia:senate:2023:SO
+sen-2023-so-sokoto-south,senate,2023,SO,Sokoto South,Aminu Waziri Tambuwal,PDP,winner only,False,wikipedia:senate:2023:SO
+sen-2023-ta-taraba-central,senate,2023,TA,Taraba Central,Haruna Manu,PDP,winner only,False,wikipedia:senate:2023:TA
+sen-2023-ta-taraba-north,senate,2023,TA,Taraba North,Shuaibu Isa Lau,PDP,winner only,False,wikipedia:senate:2023:TA
+sen-2023-ta-taraba-south,senate,2023,TA,Taraba South,David Jimkuta,APC,winner only,False,wikipedia:senate:2023:TA
+sen-2023-yo-yobe-east,senate,2023,YO,Yobe East,Ibrahim Gaidam,APC,winner only,False,wikipedia:senate:2023:YO
+sen-2023-yo-yobe-north,senate,2023,YO,Yobe North,Ahmad Lawan,APC,winner only,False,wikipedia:senate:2023:YO
+sen-2023-yo-yobe-south,senate,2023,YO,Yobe South,Ibrahim Mohammed Bomai,APC,winner only,False,wikipedia:senate:2023:YO
+sen-2023-za-zamfara-central,senate,2023,ZA,Zamfara Central,Ikira Aliyu Bilbis,PDP,winner only,False,wikipedia:senate:2023:ZA
+sen-2023-za-zamfara-north,senate,2023,ZA,Zamfara North,Sahabi Alhaji Yaú,APC,winner only,False,wikipedia:senate:2023:ZA
+sen-2023-za-zamfara-west,senate,2023,ZA,Zamfara West,Abdul'aziz Abubakar Yari,APC,all candidates,False,wikipedia:senate:2023:ZA
+reps-2015-by-brass-nembe,reps,2015,BY,Brass/Nembe,Jephthah Foingha,PDP,winner only,False,wikipedia:reps:2015:BY
+reps-2015-by-ogbia,reps,2015,BY,Ogbia,Sodaguno Festus Omoni,PDP,winner only,False,wikipedia:reps:2015:BY
+reps-2015-by-sagbama-ekeremor,reps,2015,BY,Sagbama/Ekeremor,Agbedi Fredrick,PDP,winner only,False,wikipedia:reps:2015:BY
+reps-2015-by-southern-ijaw,reps,2015,BY,Southern Ijaw,Henry Ofongo,PDP,winner only,False,wikipedia:reps:2015:BY
+reps-2015-by-yenagoa-kolokuna-opokuma,reps,2015,BY,Yenagoa/Kolokuna/Opokuma,Douye Diri,PDP,winner only,False,wikipedia:reps:2015:BY
+reps-2015-kn-albasu-gaya-ajingi,reps,2015,KN,Albasu/Gaya/Ajingi,Abdullahi Mahmud Gaya,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-bebeji-kiru,reps,2015,KN,Bebeji/Kiru,Abdulmumin Jibrin,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-bichi,reps,2015,KN,Bichi,Ahmed Garba Bichi,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-dala,reps,2015,KN,Dala,Aliyu Sani Madaki,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-danbatta-makoda,reps,2015,KN,Danbatta/Makoda,Ayuba Badamasi,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-doguwa-tudun-wada,reps,2015,KN,Doguwa/Tudun Wada,Alhassan Ado Garba D.,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-dawakin-kudu-warawa,reps,2015,KN,Dawakin Kudu/Warawa,Mustapha Dawaki,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-dawakin-tofa-tofa-rimin-gado,reps,2015,KN,Dawakin Tofa/Tofa/Rimin Gado,Jobe Tijjani Abdulkadir,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-fagge,reps,2015,KN,Fagge,Sulaiman Aminu,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-gabasawa-gezawa,reps,2015,KN,Gabasawa/Gezawa,Musa Ado,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-gwarzo-kabo,reps,2015,KN,Gwarzo/Kabo,Nasiru Garo Sule,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-gwale,reps,2015,KN,Gwale,Garba Ibrahim Mohammed,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-kumbotso,reps,2015,KN,Kumbotso,Dan Agundi Munir Babba,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-kano-municipal,reps,2015,KN,Kano Municipal,Danburam Abubakar Nuhu,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-kunchi-tsanyawa,reps,2015,KN,Kunchi/Tsanyawa,Bala Sani Umar,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-karaye-rogo,reps,2015,KN,Karaye/Rogo,Shehu Usman Aliyu,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-kura-madobi-garun-malam,reps,2015,KN,Kura/Madobi/Garun Malam,Muktar Mohammed Chiromawa,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-minjibir-ungogo,reps,2015,KN,Minjibir/Ungogo,Bashir Baballe,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-nasarawa,reps,2015,KN,Nasarawa,Nassir Ali Ahmad,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-rano-bunkure-kibiya,reps,2015,KN,Rano/Bunkure/Kibiya,Sani Muhammad Aliyu,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-sumaila-takai,reps,2015,KN,Sumaila/Takai,Garba Umar Durbunde,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-shanono-bagwai,reps,2015,KN,Shanono/Bagwai,Sulaiman Aliyu Romo,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-tarauni,reps,2015,KN,Tarauni,Nasiru Baballe Ila,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kn-wudil-garko,reps,2015,KN,Wudil/Garko,Wudil Muhammad Ali,APC,winner only,False,wikipedia:reps:2015:KN
+reps-2015-kw-asa-ilorin-west,reps,2015,KW,Asa/Ilorin West,Razak Olatunde Atunwa,APC,winner only,False,wikipedia:reps:2015:KW
+reps-2015-kw-baruten-kaiama,reps,2015,KW,Baruten/Kaiama,Zakari Mohammed,APC,winner only,False,wikipedia:reps:2015:KW
+reps-2015-kw-edu-moro-patigi,reps,2015,KW,Edu/Moro/Patigi,Aliyu Ahman-Pategi,APC,winner only,False,wikipedia:reps:2015:KW
+reps-2015-kw-ekiti-isin-irepodun-oke-ero,reps,2015,KW,Ekiti/Isin/Irepodun/Oke-ero,Olufunke Adedoyin,APC,winner only,False,wikipedia:reps:2015:KW
+reps-2015-kw-ilorin-east-south,reps,2015,KW,Ilorin East/South,Abubakar Amuda-Kannike Garba,APC,winner only,False,wikipedia:reps:2015:KW
+reps-2015-kw-offa-oyun-ifelodun,reps,2015,KW,Offa/Oyun/Ifelodun,Olayonu Olarinoye Tope,APC,winner only,False,wikipedia:reps:2015:KW
+reps-2015-la-agege,reps,2015,LA,Agege,Taofeek Adaranijo,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-ajeromi-ifelodun,reps,2015,LA,Ajeromi/Ifelodun,Rita Orji,PDP,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-alimosho,reps,2015,LA,Alimosho,Olufemi Adebanjo,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-amuwo-odofin,reps,2015,LA,Amuwo Odofin,Oghene Egoh,PDP,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-apapa,reps,2015,LA,Apapa,Ayodeji Joseph,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-badagry,reps,2015,LA,Badagry,Bamgbose Joseph,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-epe,reps,2015,LA,Epe,Tasir Raji,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-eti-osa,reps,2015,LA,Eti-Osa,Babajide Hazeez,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-ibeju-lekki,reps,2015,LA,Ibeju-Lekki,Abayomi Abdul-Kabir Ayeola,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-ifako-ijaiye,reps,2015,LA,Ifako/Ijaiye,Adewale Oluwatayo,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-ikeja,reps,2015,LA,Ikeja,Abiodun Faleke,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-ikorodu,reps,2015,LA,Ikorodu,Babajimi Benson,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-kosofe,reps,2015,LA,Kosofe,Agunsoye Oluwarotimi,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-lagos-island-i,reps,2015,LA,Lagos Island I,Enitan Badru,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-lagos-island-ii,reps,2015,LA,Lagos Island II,Balogun Yakub Abiodun,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-lagos-mainland,reps,2015,LA,Lagos Mainland,Jimoh Abdul,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-mushin-i,reps,2015,LA,Mushin I,Dauda Kako Are,A,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-mushin-ii,reps,2015,LA,Mushin II,Bolaji Ayinla,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-ojo,reps,2015,LA,Ojo,Tajudeen Obasa,PDP,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-oshodi-isolo-i,reps,2015,LA,Oshodi/Isolo I,Mutiu Shadimu,PDP,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-oshodi-isolo-ii,reps,2015,LA,Oshodi/Isolo II,Tony Nwulu,PDP,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-shomolu,reps,2015,LA,Shomolu,Oyewole Diya,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-surulere-i,reps,2015,LA,Surulere I,Femi Gbajabiamila,APC,winner only,False,wikipedia:reps:2015:LA
+reps-2015-la-surulere-ii,reps,2015,LA,Surulere II,Olatunji Soyinka,PDP,winner only,False,wikipedia:reps:2015:LA
+reps-2015-na-nasarawa-toto,reps,2015,NA,Nasarawa/Toto,Musa Onwana Baba,APC,winner only,False,wikipedia:reps:2015:NA
+reps-2015-na-lafia-obi,reps,2015,NA,Lafia/Obi,Abubakar Sarki Dahiru,APC,winner only,False,wikipedia:reps:2015:NA
+reps-2015-na-keffi-karu-kokona,reps,2015,NA,Keffi/Karu/Kokona,Gaza Jonathan Gbefwi,PDP,winner only,False,wikipedia:reps:2015:NA
+reps-2015-na-awe-doma-keana,reps,2015,NA,Awe/Doma/Keana,Mohammed Ogoshi Onawo,PDP,winner only,False,wikipedia:reps:2015:NA
+reps-2015-na-akwanga-nasarawa-eggon-wamba,reps,2015,NA,Akwanga/Nasarawa/Eggon/Wamba,David Ombugadu,PDP,winner only,False,wikipedia:reps:2015:NA
+reps-2015-ta-bali-gassol,reps,2015,TA,Bali/Gassol,Garba Hamman-Julde Chede,APC,winner only,False,wikipedia:reps:2015:TA
+reps-2015-ta-jalingo-yorro-zing,reps,2015,TA,Jalingo/Yorro/Zing,Aminu Ibrahim Malle,APC,winner only,False,wikipedia:reps:2015:TA
+reps-2015-ta-karim-lamido-lau-ardo-kola,reps,2015,TA,Karim Lamido/Lau/Ardo-Kola,Baido Danladi Tijos,PDP,winner only,False,wikipedia:reps:2015:TA
+reps-2015-ta-sardauna-gashaka-kurmi,reps,2015,TA,Sardauna/Gashaka/Kurmi,Danasabe Charles Hosea,PDP,winner only,False,wikipedia:reps:2015:TA
+reps-2015-ta-takuma-donga-ussa,reps,2015,TA,Takuma/Donga/Ussa,Rima M Shawulu Kwewum,PDP,winner only,False,wikipedia:reps:2015:TA
+reps-2015-ta-wukari-ibi,reps,2015,TA,Wukari/Ibi,Shiddi Usman Danjuma,APGA,winner only,False,wikipedia:reps:2015:TA
+reps-2019-ab-aba-north-aba-south,reps,2019,AB,Aba North/Aba South,Ossy Prestige,APGA,top candidates only,False,wikipedia:reps:2019:AB
+reps-2019-ab-arochukwu-ohafia,reps,2019,AB,Arochukwu/Ohafia,Uko Nkole,PDP,top candidates only,False,wikipedia:reps:2019:AB
+reps-2019-ab-bende,reps,2019,AB,Bende,Benjamin Kalu,APC,top candidates only,False,wikipedia:reps:2019:AB
+reps-2019-ab-isiala-ngwa-north-isiala-ngwa-south,reps,2019,AB,Isiala Ngwa North/Isiala Ngwa South,Darlington Nwokocha,PDP,top candidates only,False,wikipedia:reps:2019:AB
+reps-2019-ab-isuikwuato-umunneochi,reps,2019,AB,Isuikwuato/Umunneochi,Nkeiruka Onyejeocha,APC,top candidates only,False,wikipedia:reps:2019:AB
+reps-2019-ab-obingwa-ugwunagbo-osisioma,reps,2019,AB,Obingwa/Ugwunagbo/Osisioma,Solomon Adaelu,PDP,top candidates only,False,wikipedia:reps:2019:AB
+reps-2019-ab-ukwa-east-west,reps,2019,AB,Ukwa East/West,Uzoma Nkem-Abonta,PDP,top candidates only,False,wikipedia:reps:2019:AB
+reps-2019-ab-umuahia-north-south-ikwuano,reps,2019,AB,Umuahia North/South/Ikwuano,Samuel Onuigbo,PDP,top candidates only,False,wikipedia:reps:2019:AB
+reps-2019-ad-demsa-numan-lamurde,reps,2019,AD,Demsa/Numan/Lamurde,Kwamoti Bitrus Laori,PDP,top candidates only,False,wikipedia:reps:2019:AD
+reps-2019-ad-fufore-song,reps,2019,AD,Fufore/Song,Mohammed M. Saidu,PDP,top candidates only,False,wikipedia:reps:2019:AD
+reps-2019-ad-gombi-hong,reps,2019,AD,Gombi/Hong,Yusuf Yakub,APC,top candidates only,False,wikipedia:reps:2019:AD
+reps-2019-ad-guyuk-shelleng,reps,2019,AD,Guyuk/Shelleng,Gideon Goroki,PDP,top candidates only,False,wikipedia:reps:2019:AD
+reps-2019-ad-madagali-michika,reps,2019,AD,Madagali/Michika,Zakaria Dauda Nyampa,PDP,top candidates only,False,wikipedia:reps:2019:AD
+reps-2019-ad-maiha-mubi-north-mubi-south,reps,2019,AD,Maiha/Mubi North/Mubi South,Ja'Afar Abubaka Magaji,APC,top candidates only,False,wikipedia:reps:2019:AD
+reps-2019-ad-mayo-belwa-toungo-jada-ganye,reps,2019,AD,Mayo Belwa/Toungo/Jada/Ganye,Abdulrazak Namdas,APC,top candidates only,False,wikipedia:reps:2019:AD
+reps-2019-ad-yola-north-yola-south-girei,reps,2019,AD,Yola North/Yola South/Girei,Jafaru Suleiman Ribadu,PDP,winner only,True,wikipedia:reps:2019:AD
+reps-2019-ak-abak-etim-ekpo-ika,reps,2019,AK,Abak/Etim Ekpo/Ika,Aniekan John Umanah,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-eket-onna-esit-eket-ibeno,reps,2019,AK,Eket/Onna/Esit Eket/Ibeno,Ifon Patrick,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-etinan-nsit-ibom-nsit-ubium,reps,2019,AK,Etinan/Nsit Ibom/Nsit ubium,Onofiok Luke,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-ikono-ini,reps,2019,AK,Ikono/Ini,Emmanuel Ukpongudo,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-ikot-abasi-mkpat-enin-eastern-obolo,reps,2019,AK,Ikot Abasi/Mkpat Enin/Eastern Obolo,Francis Uduyok,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-ikot-ekpene-essien-udim-obot-akara,reps,2019,AK,Ikot Ekpene/Essien Udim/ Obot Akara,Ekong Nsikak,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-itu-ibiono-ibom,reps,2019,AK,Itu/Ibiono Ibom,Henry Archibong,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-oron-mbo-okobo-udung-uko-urue-offong-oruko,reps,2019,AK,Oron/Mbo/Okobo/Udung Uko/Urue Offong/Oruko,Nse Ekpenyong,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-ukanafun-oruk-anam,reps,2019,AK,Ukanafun/Oruk Anam,Unyime Josiah Idem,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-ak-uyo-uruan-nsit-atai-ibesikpo-asutan,reps,2019,AK,Uyo/Uruan/Nsit Atai/ Ibesikpo Asutan,Michael Enyong,PDP,top candidates only,False,wikipedia:reps:2019:AK
+reps-2019-an-aguata,reps,2019,AN,Aguata,Umeoji Chukwuma Michael,APGA,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-anambra-east-west,reps,2019,AN,Anambra East/West,Obidigwe Chinedu Benjamin,APGA,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-awka-north-south,reps,2019,AN,Awka North/South,Onwuaso Chinedu,PDP,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-idemili-north-south,reps,2019,AN,Idemili North/South,Ibezi Ifeanyi Anthony,APGA,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-ihiala,reps,2019,AN,Ihiala,Ifeanyi Chudy Momah,APGA,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-njikoka-dunukofia-anaocha,reps,2019,AN,Njikoka/Dunukofia/Anaocha,PDP,PDP,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-nnewi-north-south-ekwusigo,reps,2019,AN,Nnewi North/South/Ekwusigo,Chris Emeka Azubogu,PDP,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-ogbaru,reps,2019,AN,Ogbaru,Onyema Chukwuka Wilfred,PDP,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-onitsha-north-south,reps,2019,AN,Onitsha North/South,Lynda Chuba Ikpeazu,PDP,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-orumba-north-south,reps,2019,AN,Orumba North/South,Ezenwankwo Okwudili Christopher,APGA,top candidates only,False,wikipedia:reps:2019:AN
+reps-2019-an-oyi-ayamelum,reps,2019,AN,Oyi/Ayamelum,Bar. Vincent Ofumelu,PDP,all candidates,False,wikipedia:reps:2019:AN
+reps-2019-by-brass-nembe,reps,2019,BY,Brass/Nembe,Israel Sunny Goli,APC,top candidates only,False,wikipedia:reps:2019:BY
+reps-2019-by-ogbia,reps,2019,BY,Ogbia,Obua Azibapu Fred,PDP,top candidates only,False,wikipedia:reps:2019:BY
+reps-2019-by-sagbama-ekeremor,reps,2019,BY,Sagbama/Ekeremor,Agbedi Yeitiemone Frederick,PDP,top candidates only,False,wikipedia:reps:2019:BY
+reps-2019-by-southern-ijaw,reps,2019,BY,Southern Ijaw,Preye Influence Goodluck Oseke,APC,top candidates only,False,wikipedia:reps:2019:BY
+reps-2019-by-yenagoa-kolokuna-opokuma,reps,2019,BY,Yenagoa/Kolokuna/Opokuma,Stephen Sinikiem Azaiki,PDP,top candidates only,False,wikipedia:reps:2019:BY
+reps-2019-be-ado-obadigbo-opkokwu,reps,2019,BE,Ado/Obadigbo/Opkokwu,Francis Agbo,PDP,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-apa-agatu,reps,2019,BE,Apa/Agatu,Godday Samuel,LP,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-buruku,reps,2019,BE,Buruku,Kpam Sokpo,PDP,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-gboko-tarka,reps,2019,BE,Gboko/Tarka,John Dyegh,APC,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-guma-makurdi,reps,2019,BE,Guma/Makurdi,Benjamin Mzondu,PDP,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-gwer-east-gwer-west,reps,2019,BE,Gwer East/Gwer West,Mark Gbillah,PDP,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-katsina-ala-ukum-logo,reps,2019,BE,Katsina-Ala/Ukum/Logo,Richard Gbande,PDP,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-konshisha-vandeikya,reps,2019,BE,Konshisha/Vandeikya,Herman Hembe,APGA,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-kwande-ushongo,reps,2019,BE,Kwande/Ushongo,Robert Tyough,PDP,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-oju-obi,reps,2019,BE,Oju/Obi,David Ogewu,APGA,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-be-otukpo-ohimini,reps,2019,BE,Otukpo/Ohimini,Blessing Onuh,APGA,top candidates only,False,wikipedia:reps:2019:BE
+reps-2019-cr-abi-yakurr,reps,2019,CR,Abi/Yakurr,Alex Egbona,APC,top candidates only,False,wikipedia:reps:2019:CR
+reps-2019-cr-akpabuyo-bakassi-calabar-south,reps,2019,CR,Akpabuyo/Bakassi/Calabar South,Essien Ayi,PDP,top candidates only,False,wikipedia:reps:2019:CR
+reps-2019-cr-akamkpa-biase,reps,2019,CR,Akamkpa/Biase,Daniel Effiong,PDP,top candidates only,False,wikipedia:reps:2019:CR
+reps-2019-cr-calabar-municipal-odukpani,reps,2019,CR,Calabar Municipal/Odukpani,Edim Eta,PDP,top candidates only,False,wikipedia:reps:2019:CR
+reps-2019-cr-ikom-boki,reps,2019,CR,Ikom/Boki,Ngoro Adigbe,PDP,top candidates only,False,wikipedia:reps:2019:CR
+reps-2019-cr-obanliku-obudu-bekwarra,reps,2019,CR,Obanliku/Obudu/Bekwarra,Idagbo Ochiglegor,PDP,top candidates only,False,wikipedia:reps:2019:CR
+reps-2019-cr-obubra-etung,reps,2019,CR,Obubra/Etung,Michael Irom Etaba,PDP,top candidates only,False,wikipedia:reps:2019:CR
+reps-2019-cr-ogoja-yala,reps,2019,CR,Ogoja/Yala,Agom Jarigbe,PDP,top candidates only,False,wikipedia:reps:2019:CR
+reps-2019-de-aniocha-oshimili,reps,2019,DE,Aniocha/Oshimili,Ndudi Godwin Elumelu,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-bomadi-patani,reps,2019,DE,Bomadi/Patani,Nicholas Mutu,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-burutu,reps,2019,DE,Burutu,Julius Pondi,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-ethiope-east-ethiope-west,reps,2019,DE,Ethiope East/Ethiope West,Ben Roland Igbakpa,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-ika-north-east-ika-south,reps,2019,DE,Ika North East/Ika South,Nwokolo Victor,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-isoko-south-isoko-north,reps,2019,DE,Isoko South/Isoko North,Ogor Okuweh,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-okpe-sapele-uvwie,reps,2019,DE,Okpe/Sapele/Uvwie,Oberuakpefe Anthony Afe,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-nkokwa-east-ndokwa-west-ukwuani,reps,2019,DE,Nkokwa East/Ndokwa West/ Ukwuani,Nicholas Ossai,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-ughelli-north-ughelli-south-udu,reps,2019,DE,Ughelli North/Ughelli South/Udu,Waive Ejiroghene Francis,APC,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-de-warri-north-warri-south-warri-south-west,reps,2019,DE,Warri North/Warri South/Warri South West,Thomas Ereyitomi,PDP,top candidates only,False,wikipedia:reps:2019:DE
+reps-2019-eb-abakaliki-izzi,reps,2019,EB,Abakaliki/Izzi,Sylvester Ogbaga,PDP,top candidates only,False,wikipedia:reps:2019:EB
+reps-2019-eb-afikpo-north-afikpo-south,reps,2019,EB,Afikpo North/Afikpo South,Iduma Igariwey,PDP,top candidates only,False,wikipedia:reps:2019:EB
+reps-2019-eb-ezza-north-ishielu,reps,2019,EB,Ezza North/Ishielu,Edwin Anayo,PDP,top candidates only,False,wikipedia:reps:2019:EB
+reps-2019-eb-ezza-south-ikwo,reps,2019,EB,Ezza South/Ikwo,Lazarus Ogbee,PDP,top candidates only,False,wikipedia:reps:2019:EB
+reps-2019-eb-ebonyi-ohaukwu,reps,2019,EB,Ebonyi/Ohaukwu,Chukwuma Nwazunku,PDP,top candidates only,False,wikipedia:reps:2019:EB
+reps-2019-eb-ivo-ohaozara-onich,reps,2019,EB,Ivo-Ohaozara/Onich,Livinus Makwe,PDP,top candidates only,False,wikipedia:reps:2019:EB
+reps-2019-ek-ado-ekiti-irepodun-ifelodun,reps,2019,EK,Ado Ekiti/Irepodun-Ifelodun,Fatoba Olusola Steve,APC,top candidates only,False,wikipedia:reps:2019:EK
+reps-2019-ek-ekiti-south-west-ikere-ise-orun,reps,2019,EK,Ekiti South West/Ikere/Ise/Orun,Adaramodu Adeyemi Raphael,APC,top candidates only,False,wikipedia:reps:2019:EK
+reps-2019-ek-emure-gbonyin-ekiti-east,reps,2019,EK,Emure/Gbonyin/Ekiti East,Bamisile Olufemi Richard,APC,top candidates only,False,wikipedia:reps:2019:EK
+reps-2019-ek-ido-osi-moba-ilejeme,reps,2019,EK,"Ido/Osi, Moba/Ilejeme",Olanrewaju Ibrahim Kunle,APC,top candidates only,False,wikipedia:reps:2019:EK
+reps-2019-ek-ijero-ekiti-west-efon,reps,2019,EK,Ijero/Ekiti West/Efon,Ogunlola Omowumi Olubunmi,APC,top candidates only,False,wikipedia:reps:2019:EK
+reps-2019-ek-ikole-oye,reps,2019,EK,Ikole/Oye,Owolabi Peter,APC,top candidates only,False,wikipedia:reps:2019:EK
+reps-2019-en-aninri-awgu-oji-river,reps,2019,EN,Aninri/Awgu/Oji River,Toby Okechukwu,PDP,top candidates only,False,wikipedia:reps:2019:EN
+reps-2019-en-enugu-east-isi-uzo,reps,2019,EN,Enugu East/Isi-Uzo,Prince Cornelius Nnaji,PDP,top candidates only,False,wikipedia:reps:2019:EN
+reps-2019-en-enugu-north-enugu-south,reps,2019,EN,Enugu North/Enugu South,Ofor Gregory Chukwuegbo,PDP,top candidates only,False,wikipedia:reps:2019:EN
+reps-2019-en-ezeagu-udi,reps,2019,EN,Ezeagu/Udi,Dennis Amadi,PDP,top candidates only,False,wikipedia:reps:2019:EN
+reps-2019-en-igbo-etiti-uzo-uwani,reps,2019,EN,Igbo-Etiti/Uzo-Uwani,Martins Oke,PDP,top candidates only,False,wikipedia:reps:2019:EN
+reps-2019-en-igboeze-north-udenu,reps,2019,EN,Igboeze North/Udenu,Kentus Eze,PDP,top candidates only,False,wikipedia:reps:2019:EN
+reps-2019-en-nkanu-east-nkanu-west,reps,2019,EN,Nkanu East/Nkanu West,Nnolim Nnaji,PDP,top candidates only,False,wikipedia:reps:2019:EN
+reps-2019-en-nsukka-igbo-eze-south,reps,2019,EN,Nsukka/Igbo-Eze South,Patrick Asadu,PDP,top candidates only,False,wikipedia:reps:2019:EN
+reps-2019-go-akko,reps,2019,GO,Akko,Usman Bello Kumo,APC,top candidates only,False,wikipedia:reps:2019:GO
+reps-2019-go-balanga-billiri,reps,2019,GO,Balanga/Billiri,Mela Victor,APC,top candidates only,False,wikipedia:reps:2019:GO
+reps-2019-go-dukku-nafada,reps,2019,GO,Dukku/Nafada,Aishatu Jibril Dukku,APC,all candidates,False,wikipedia:reps:2019:GO
+reps-2019-go-gombe-kwami-funakaye,reps,2019,GO,Gombe/kwami/Funakaye,Bauchi Yaya Tango,APC,top candidates only,False,wikipedia:reps:2019:GO
+reps-2019-go-kaltungo-shongom,reps,2019,GO,Kaltungo/Shongom,Karu Simon Elisha,APC,top candidates only,False,wikipedia:reps:2019:GO
+reps-2019-go-yamaltu-deba,reps,2019,GO,Yamaltu/Deba,Abubakar Yunusa Ahmed,APC,top candidates only,False,wikipedia:reps:2019:GO
+reps-2019-im-aboh-mbaise-ngor-okpala,reps,2019,IM,Aboh Mbaise/Ngor Okpala,Bede Eke,PDP,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-ahiazu-mbaise-ezinihitte,reps,2019,IM,Ahiazu Mbaise/Ezinihitte,Emeka Chinedu,PDP,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-ideato-north-south,reps,2019,IM,Ideato North /South,Paschal Chigozie Obi,AA,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-ikeduru-mbaitoli,reps,2019,IM,Ikeduru/Mbaitoli,Obinna Onwubuariri,PDP,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-isiala-mbano-okigwe-onuimo,reps,2019,IM,Isiala Mbano/Okigwe/Onuimo,Miriam Onuoha,APC,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-isu-njaba-nkwerre-nwangele,reps,2019,IM,Isu/Njaba/Nkwerre/Nwangele,Ugonna Ozurigbo,APC,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-oguta-ohaji-egbema-oru-west,reps,2019,IM,Oguta/Ohaji/Egbema/Oru West,Uju Kingsley Chima,AA,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-oru-east-orsu-orlu,reps,2019,IM,Oru East/Orsu/Orlu,Jerry Alagbaoso,PDP,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-owerri-municipal-owerri-north-owerri-west,reps,2019,IM,Owerri Municipal/Owerri North/Owerri West,Ikenna Elezieanya,PDP,winner only,False,wikipedia:reps:2019:IM
+reps-2019-im-ehimembano-ihitte-uboma-obowo,reps,2019,IM,Ehimembano/ihitte Uboma/Obowo,John Okafor,APC,winner only,False,wikipedia:reps:2019:IM
+reps-2019-kn-albasu-gaya-ajingi,reps,2019,KN,Albasu/Gaya/Ajingi,Abdullahi Mahmud Gaya,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-bebeji-kiru,reps,2019,KN,Bebeji/Kiru,Abdulmumin Jibrin,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-bichi,reps,2019,KN,Bichi,Abubakar Abubakar Kabir,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-dala,reps,2019,KN,Dala,Abdullahi Babangida Alhassan,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-danbatta-makoda,reps,2019,KN,Danbatta/Makoda,Ayuba Badamasi,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-doguwa-tudun-wada,reps,2019,KN,Doguwa/Tudun Wada,Alhassan Ado Garba D.,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-dawakin-kudu-warawa,reps,2019,KN,Dawakin Kudu/Warawa,Mustapha Dawaki,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-dawakin-tofa-tofa-rimin-gado,reps,2019,KN,Dawakin Tofa/Tofa/Rimin Gado,Jobe Tijjani Abdulkadir,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-fagge,reps,2019,KN,Fagge,Sulaiman Aminu,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-gabasawa-gezawa,reps,2019,KN,Gabasawa/Gezawa,Nasiru Abduwa Gabasawa,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-gwarzo-kabo,reps,2019,KN,Gwarzo/Kabo,Garo Musa Umar,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-gwale,reps,2019,KN,Gwale,Ken-Ken Lawan Abdullahi,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-kumbotso,reps,2019,KN,Kumbotso,Dan Agundi Munir Babba,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-kano-municipal,reps,2019,KN,Kano Municipal,Yakasai Mukhtar Ishaq,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-kunchi-tsanyawa,reps,2019,KN,Kunchi/Tsanyawa,Bala Sani Umar,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-karaye-rogo,reps,2019,KN,Karaye/Rogo,Dederi Haruna Isa,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-kura-madobi-garun-malam,reps,2019,KN,Kura/Madobi/Garun Malam,Idris Kabiru,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-minjibir-ungogo,reps,2019,KN,Minjibir/Ungogo,Sani Ma'aruf Nass,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-nasarawa,reps,2019,KN,Nasarawa,Nassir Ali Ahmad,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-rano-bunkure-kibiya,reps,2019,KN,Rano/Bunkure/Kibiya,Kabiru Alhassan Rurum,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-sumaila-takai,reps,2019,KN,Sumaila/Takai,Kawu Suleiman Abdurrahman,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-shanono-bagwai,reps,2019,KN,Shanono/Bagwai,Badau Yusuf Ahmad,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-tarauni,reps,2019,KN,Tarauni,Ibrahim Hafiz M. Kawu,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-kn-wudil-garko,reps,2019,KN,Wudil/Garko,Wudil Muhammad Ali,APC,top candidates only,False,wikipedia:reps:2019:KN
+reps-2019-ko-adavi-okehi,reps,2019,KO,Adavi/Okehi,Joseph Bello,APC,top candidates only,False,wikipedia:reps:2019:KO
+reps-2019-ko-ajaokuta,reps,2019,KO,Ajaokuta,Idirisu Lawal,APC,top candidates only,False,wikipedia:reps:2019:KO
+reps-2019-ko-ankpa-omala-olamaboro,reps,2019,KO,Ankpa/Omala/Olamaboro,Ali Abdullahi Ibrahim,APC,top candidates only,False,wikipedia:reps:2019:KO
+reps-2019-ko-bassa-dekina,reps,2019,KO,Bassa/Dekina,Abdullahi Hassan,APC,top candidates only,False,wikipedia:reps:2019:KO
+reps-2019-ko-ibaji-idah-igalamela-odolu,reps,2019,KO,Ibaji/Idah/Igalamela/Odolu,David Idris Zacharias,APC,top candidates only,False,wikipedia:reps:2019:KO
+reps-2019-ko-kogi-lokoja-kogi-k-k,reps,2019,KO,Kogi (Lokoja)/Kogi (K.K.),Isah Abdulkareem Usman,APC,top candidates only,False,wikipedia:reps:2019:KO
+reps-2019-ko-okene-ogori-magogo,reps,2019,KO,Okene/Ogori-Magogo,Yusuf Tijani,APC,top candidates only,False,wikipedia:reps:2019:KO
+reps-2019-ko-yagba-east-yagba-west-mopamuro,reps,2019,KO,Yagba East/Yagba West/ Mopamuro,Leke Joseph Abejide,ADC,top candidates only,False,wikipedia:reps:2019:KO
+reps-2019-kw-asa-ilorin-west,reps,2019,KW,Asa/Ilorin West,Alajagusi Abdulyekeen Sadiq,APC,top candidates only,False,wikipedia:reps:2019:KW
+reps-2019-kw-baruten-kaiama,reps,2019,KW,Baruten/Kaiama,Muhammed Omar Bio,APC,top candidates only,False,wikipedia:reps:2019:KW
+reps-2019-kw-edu-moro-patigi,reps,2019,KW,Edu/Moro/Patigi,Ahmed Abubakar Ndakenne,APC,top candidates only,False,wikipedia:reps:2019:KW
+reps-2019-kw-ekiti-isin-irepodun-oke-ero,reps,2019,KW,Ekiti/Isin/Irepodun/Oke-ero,Olawuyi Abdulraheem Olatunji,APC,top candidates only,False,wikipedia:reps:2019:KW
+reps-2019-kw-ilorin-east-south,reps,2019,KW,Ilorin East/South,Olododo Abdulganiyu Saka Cook,APC,top candidates only,False,wikipedia:reps:2019:KW
+reps-2019-kw-offa-oyun-ifelodun,reps,2019,KW,Offa/Oyun/Ifelodun,Tijani Kayode Ismail,APC,top candidates only,False,wikipedia:reps:2019:KW
+reps-2019-la-agege,reps,2019,LA,Agege,Samuel Adejare,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-ajeromi-ifelodun,reps,2019,LA,Ajeromi/Ifelodun,Kolawole Taiwo,APC,winner only,True,wikipedia:reps:2019:LA
+reps-2019-la-alimosho,reps,2019,LA,Alimosho,Olufemi Adebanjo,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-amuwo-odofin,reps,2019,LA,Amuwo Odofin,Oghene Egoh,PDP,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-apapa,reps,2019,LA,Apapa,Mufutau Egberongbe,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-badagry,reps,2019,LA,Badagry,Babatunde Hunpe,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-epe,reps,2019,LA,Epe,Tasir Raji,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-eti-osa,reps,2019,LA,Eti-Osa,Ibrahim Obanikoro,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-ibeju-lekki,reps,2019,LA,Ibeju-Lekki,Adebayo Balogun,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-ifako-ijaiye,reps,2019,LA,Ifako/Ijaiye,James Owolabi,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-ikeja,reps,2019,LA,Ikeja,Abiodun Faleke,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-ikorodu,reps,2019,LA,Ikorodu,Babajimi Benson,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-kosofe,reps,2019,LA,Kosofe,Agunsoye Oluwarotimi,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-lagos-island-i,reps,2019,LA,Lagos Island I,Enitan Badru,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-lagos-island-ii,reps,2019,LA,Lagos Island II,Moshood Kayode Akiolu,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-lagos-mainland,reps,2019,LA,Lagos Mainland,Jimoh Abdul,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-mushin-i,reps,2019,LA,Mushin I,Adeyemi Taoveeq Alli,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-mushin-ii,reps,2019,LA,Mushin II,Bolaji Ayinla,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-ojo,reps,2019,LA,Ojo,Tajudeen Obasa,PDP,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-oshodi-isolo-i,reps,2019,LA,Oshodi/Isolo I,Bashiru Dawodu,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-oshodi-isolo-ii,reps,2019,LA,Oshodi/Isolo II,Ganiyu Johnson,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-somolu,reps,2019,LA,Somolu,Ademorin Kuye,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-surulere-i,reps,2019,LA,Surulere I,Femi Gbajabiamila,APC,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-la-surulere-ii,reps,2019,LA,Surulere II,Olatunji Shoyinka,PDP,top candidates only,False,wikipedia:reps:2019:LA
+reps-2019-na-nasarawa-toto,reps,2019,NA,Nasarawa/Toto,Ari Muhammed Abdulmumin,APC,top candidates only,False,wikipedia:reps:2019:NA
+reps-2019-na-lafia-obi,reps,2019,NA,Lafia/Obi,Shehu Saleh,APC,top candidates only,False,wikipedia:reps:2019:NA
+reps-2019-na-keffi-karu-kokona,reps,2019,NA,Keffi/Karu/Kokona,Gaza Jonathan Gbefwi,PDP,top candidates only,False,wikipedia:reps:2019:NA
+reps-2019-na-awe-doma-keana,reps,2019,NA,Awe/Doma/Keana,Abubakar Hassan Nalaraba,APC,top candidates only,False,wikipedia:reps:2019:NA
+reps-2019-na-akwanga-nasarawa-eggon-wamba,reps,2019,NA,Akwanga/Nasarawa/Eggon/Wamba,Abdulkarim Usman,PDP,top candidates only,False,wikipedia:reps:2019:NA
+reps-2019-ni-shiroro-rafi-munya,reps,2019,NI,Shiroro/Rafi/Munya,Umar Saidu Doka,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-magama-rijau,reps,2019,NI,Magama/Rijau,Shehu Saleh,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-lavun-mokwa-edati,reps,2019,NI,Lavun/Mokwa/Edati,Usman Abdullahi,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-kontagora-wushishi-mariga-mashegu,reps,2019,NI,Kontagora/Wushishi/Mariga/Mashegu,Abdullahi Idris Garba,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-gurara-suleja-tapa,reps,2019,NI,Gurara/Suleja/Tapa,Abdullahi Abubakar Lado,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-chanchaga,reps,2019,NI,Chanchaga,Mohammed Umar Bago,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-bosso-paikoro,reps,2019,NI,Bosso/Paikoro,Shehu Barwa Beji,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-bida-gbako-katcha,reps,2019,NI,Bida/Gbako/Katcha,Saidu Musa Abdul,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-agwara-borgu,reps,2019,NI,Agwara/Borgu,Mohammed Jafaru,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-ni-agaie-lapai,reps,2019,NI,Agaie/Lapai,Mamudu Abdullahi,APC,top candidates only,False,wikipedia:reps:2019:NI
+reps-2019-og-abeokuta-north-obafemi-owode-odeda,reps,2019,OG,Abeokuta North/Obafemi Owode/Odeda,Olumide Osoba,APC,top candidates only,False,wikipedia:reps:2019:OG
+reps-2019-og-abeokuta-south,reps,2019,OG,Abeokuta South,Lanre Edun,APC,top candidates only,False,wikipedia:reps:2019:OG
+reps-2019-og-ado-odo-ota,reps,2019,OG,Ado-Odo/Ota,Jimoh Ojugbele,APC,top candidates only,False,wikipedia:reps:2019:OG
+reps-2019-og-egbado-north-imeko-afon,reps,2019,OG,Egbado North/Imeko-Afon,Olaifa Jimoh Aremu,ADC,top candidates only,False,wikipedia:reps:2019:OG
+reps-2019-og-egbado-south-and-ipokia,reps,2019,OG,Egbado South and Ipokia,Kolawole Lawal,APM,top candidates only,False,wikipedia:reps:2019:OG
+reps-2019-og-ifo-ewekoro,reps,2019,OG,Ifo/Ewekoro,Ibrahim Isiaka,APC,top candidates only,False,wikipedia:reps:2019:OG
+reps-2019-og-ijebu-north-ijebu-east-ogun-waterside,reps,2019,OG,Ijebu North/Ijebu East/Ogun Waterside,Adekoya Adesegun Abdel-Majid,PDP,top candidates only,False,wikipedia:reps:2019:OG
+reps-2019-og-ijebu-ode-odogbolu-ijebu-north-east,reps,2019,OG,Ijebu Ode/Odogbolu/Ijebu North East,APC,RVBEC,winner only,True,wikipedia:reps:2019:OG
+reps-2019-og-ikenne-shagamu-remo-north,reps,2019,OG,Ikenne/Shagamu/Remo North,Adewunmi Onanuga,APC,top candidates only,False,wikipedia:reps:2019:OG
+reps-2019-on-akoko-north-east-akoko-north-west,reps,2019,ON,Akoko North East/Akoko North West,Olubunmi Tunji-Ojo,APC,top candidates only,False,wikipedia:reps:2019:ON
+reps-2019-on-akoko-south-east-akoko-south-west,reps,2019,ON,Akoko South East/Akoko South West,Adejoro Adeogun,APC,top candidates only,False,wikipedia:reps:2019:ON
+reps-2019-on-akure-north-south,reps,2019,ON,Akure North/South,Adedayo Omolafe,PDP,top candidates only,False,wikipedia:reps:2019:ON
+reps-2019-on-idanre-ifedore,reps,2019,ON,Idanre/Ifedore,Tajudeen Adefisoye,SDP,top candidates only,False,wikipedia:reps:2019:ON
+reps-2019-on-ilaje-eseodo,reps,2019,ON,Ilaje/Eseodo,Victor Akinjo,PDP,top candidates only,False,wikipedia:reps:2019:ON
+reps-2019-on-ile-oluji-okeigbo-odigbo,reps,2019,ON,Ile-oluji/Okeigbo/Odigbo,Mayowa Akinfolarin,APC,top candidates only,False,wikipedia:reps:2019:ON
+reps-2019-on-irele-okitipupa,reps,2019,ON,Irele/Okitipupa,Gboluga Ikengboju,PDP,top candidates only,False,wikipedia:reps:2019:ON
+reps-2019-on-ondo-east-ondo-west,reps,2019,ON,Ondo East/Ondo West,Abiola Makinde,ADC,top candidates only,False,wikipedia:reps:2019:ON
+reps-2019-on-owo-ose,reps,2019,ON,Owo/Ose,Oluwatimehin Adelegbe,APC,winner only,False,wikipedia:reps:2019:ON
+reps-2019-os-ayedaade-irewole-isokan,reps,2019,OS,Ayedaade/Irewole/Isokan,Taiwo Oluga,APC,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-os-ayedire-iwo-ola-oluwa,reps,2019,OS,Ayedire/Iwo/Ola-Oluwa,Yinusa Amobi,APC,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-os-boluwaduro-ifedayo-illa,reps,2019,OS,Boluwaduro/Ifedayo/Illa,Olufemi Fakeye,APC,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-os-ede-north-ede-south-egbedero-ejigbo,reps,2019,OS,Ede North/Ede South/Egbedero/Ejigbo,Bamidele Salam,PDP,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-os-ife-central-ife-east-ife-north-ife-south,reps,2019,OS,Ife Central/Ife East/Ife North/Ife South,Taofeek Ajilesoro,PDP,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-os-atakunmosa-east-atakunmosa-west-ilesa-east-ilesa-west,reps,2019,OS,Atakunmosa East/Atakunmosa West/Ilesa East/Ilesa West,Lawrence Ayeni,APC,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-os-irepodun-olurunda-osogbo-orolu,reps,2019,OS,Irepodun/Olurunda/Osogbo/Orolu,Olubukola Oyewo,APC,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-os-obokon-oriade,reps,2019,OS,Obokon/Oriade,Oluwole Oke,PDP,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-os-odo-otin-boripe-ifelodun,reps,2019,OS,Odo-Otin/Boripe/Ifelodun,Olalekan Afolabi,APC,top candidates only,False,wikipedia:reps:2019:OS
+reps-2019-oy-afijio-atiba-oyo-east-oyo-west,reps,2019,OY,Afijio/Atiba/Oyo East/Oyo West,Akeem Adeyemi,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-akinyele-lagelu,reps,2019,OY,Akinyele/Lagelu,George Akintola,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-atisbo-saki-east-saki-west,reps,2019,OY,Atisbo/Saki East/Saki West,Olajide Olatubosun,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-egbeda-ona-ara,reps,2019,OY,Egbeda/Ona-Ara,Akinola Alabi,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north-east-ibadan-south-east,reps,2019,OY,Ibadan North East/Ibadan South East,Abass Adigun,PDP,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north,reps,2019,OY,Ibadan North,Olaide Akinremi,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-ibadan-north-west-ibadan-south-west,reps,2019,OY,Ibadan North West/Ibadan South West,Adedeji Olajide,PDP,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-ibarapa-central-ibarapa-north,reps,2019,OY,Ibarapa Central/Ibarapa North,Ajibola Muraina,PDP,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-ibarapa-east-ido,reps,2019,OY,Ibarapa East/Ido,Oluyemi Adewale-Taiwo,PDP,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-irepo-olurunsogo-orelope,reps,2019,OY,Irepo/Olurunsogo/Orelope,Olumide Ojerinde,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-iseyin-kajola-iwajowa-itesiwaju,reps,2019,OY,Iseyin/Kajola/Iwajowa/Itesiwaju,Shina Peller,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-ogbomoso-north-ogbomoso-south-orire,reps,2019,OY,Ogbomoso North/Ogbomoso South/Orire,Ajao Adejumo,ADP,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-ogo-oluwa-surulere,reps,2019,OY,Ogo-Oluwa/Surulere,Olusegun Odebunmi,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-oy-oluyole,reps,2019,OY,Oluyole,Tolulope Akande-Sadipe,APC,top candidates only,False,wikipedia:reps:2019:OY
+reps-2019-pl-barkin-ladi-riyom,reps,2019,PL,Barkin Ladi/Riyom,Simon Mwadkwon,PDP,top candidates only,False,wikipedia:reps:2019:PL
+reps-2019-pl-bokkos-mangu,reps,2019,PL,Bokkos/Mangu,Solomon Maren,PDP,top candidates only,False,wikipedia:reps:2019:PL
+reps-2019-pl-jos-north-bassa,reps,2019,PL,Jos North/Bassa,Haruna Maitala,APC,top candidates only,False,wikipedia:reps:2019:PL
+reps-2019-pl-jos-south-jos-east,reps,2019,PL,Jos South/Jos East,Dachung Musa Bagos,PDP,top candidates only,False,wikipedia:reps:2019:PL
+reps-2019-pl-kanke-pankshin-kanam,reps,2019,PL,Kanke/Pankshin/Kanam,Gagdi Adamu Yusuf,APC,top candidates only,False,wikipedia:reps:2019:PL
+reps-2019-pl-langtang-north-langtang-south,reps,2019,PL,Langtang North/Langtang South,Beni Lar,PDP,top candidates only,False,wikipedia:reps:2019:PL
+reps-2019-pl-mikang-qua-an-pan-shedam,reps,2019,PL,Mikang/Qua’an/Pan/Shedam,Komsol Longgap,APC,top candidates only,False,wikipedia:reps:2019:PL
+reps-2019-pl-wase,reps,2019,PL,Wase,Ahmed Idris,APC,top candidates only,False,wikipedia:reps:2019:PL
+reps-2019-ri-abua-odua-ahoada-east,reps,2019,RI,Abua/Odua/Ahoada East,Solomon Bob,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-ahoada-west-ogba-egbema-ndoni,reps,2019,RI,Ahoada West/Ogba/Egbema/Ndoni,Nnam Obi Prince Uchechuku,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-akuku-toru-asari-toru,reps,2019,RI,Akuku Toru/Asari Toru,Boma Goodhead,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-andoni-opobo-nkoro,reps,2019,RI,Andoni Opobo/Nkoro,Awaji Inomeek Abiante,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-degema-bonny,reps,2019,RI,Degema/Bonny,Dagogo Doctor Festus,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-eleme-oyigbo-tai,reps,2019,RI,Eleme/Oyigbo/Tai,Chisom Promise Dike,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-etche-omuma,reps,2019,RI,Etche/Omuma,Ephraim Nwuzu,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-ikwerre-emoha,reps,2019,RI,Ikwerre/Emoha,Emerengwa Boniface Sunday,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-khana-gokana,reps,2019,RI,Khana/Gokana,Dumnmene Robison Dekor,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-obio-akpor,reps,2019,RI,Obio/Akpor,Chinda Kingsley,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-okrika-ogu-bolo,reps,2019,RI,Okrika/Ogu/Bolo,Gogo Bright Tamuno,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-port-harcourt-1,reps,2019,RI,Port Harcourt 1,Kenneth Anayo Chikere,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-ri-port-harcourt-2,reps,2019,RI,Port Harcourt 2,Igwe Chinyere Emmanuel,PDP,winner only,False,wikipedia:reps:2019:RI
+reps-2019-so-binji-silame,reps,2019,SO,Binji/Silame,Mani Maishinko,PDP,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-dange-shuni-bodinga-tureta,reps,2019,SO,Dange-Shuni/Bodinga/Tureta,Shehu Aliyu,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-goronyo-gada,reps,2019,SO,Goronyo/Gada,Musa Kaffe,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-illela-gwadabawa,reps,2019,SO,Illela/Gwadabawa,Abdullahi Salame,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-isa-sabon-birni,reps,2019,SO,Isa/Sabon Birni,Mohammed Bargaja,PDP,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-kebbe-tambuwal,reps,2019,SO,Kebbe/Tambuwal,Bala Kokani,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-kware-wamakko,reps,2019,SO,Kware/Wamakko,Abdullahi Kalambaina,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-sokoto-north-sokoto-south,reps,2019,SO,Sokoto North/Sokoto South,Hassan Abubakar III,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-tangaza-gudu,reps,2019,SO,Tangaza/Gudu,Yusuf Kurdula,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-wurno-rabah,reps,2019,SO,Wurno/Rabah,Aliyu Almustapha,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-so-yabo-shagari,reps,2019,SO,Yabo/Shagari,Abubakar Yabo,APC,winner only,False,wikipedia:reps:2019:SO
+reps-2019-ta-bali-gassol,reps,2019,TA,Bali/Gassol,Garba Hamman-Julde,APC,top candidates only,False,wikipedia:reps:2019:TA
+reps-2019-ta-jalingo-yorro-zing,reps,2019,TA,Jalingo/Yorro/Zing,Aminu Ibrahim Malle,APC,top candidates only,False,wikipedia:reps:2019:TA
+reps-2019-ta-karim-lamido-lau-ardo-kola,reps,2019,TA,Karim Lamido/Lau/Ardo-Kola,Danladi Baido,PDP,top candidates only,False,wikipedia:reps:2019:TA
+reps-2019-ta-sardauna-gashaka-kurmi,reps,2019,TA,Sardauna/Gashaka/Kurmi,David Fuoh,PDP,top candidates only,False,wikipedia:reps:2019:TA
+reps-2019-ta-takuma-donga-ussa,reps,2019,TA,Takuma/Donga/Ussa,Rima Kwewum,PDP,top candidates only,False,wikipedia:reps:2019:TA
+reps-2019-ta-wukari-ibi,reps,2019,TA,Wukari/Ibi,Usman Danjuma Shiddi,APGA,top candidates only,False,wikipedia:reps:2019:TA
+reps-2019-yo-bade-jakusko,reps,2019,YO,Bade/Jakusko,Zakariya'u Galadima,APC,top candidates only,False,wikipedia:reps:2019:YO
+reps-2019-yo-bursari-geidam-yunusari,reps,2019,YO,Bursari/Geidam/Yunusari,Lawan Shettima Ali,APC,top candidates only,False,wikipedia:reps:2019:YO
+reps-2019-yo-damaturu-gujba-gulani-tarmuwa,reps,2019,YO,Damaturu/Gujba/Gulani/Tarmuwa,Khadija Bukar Abba Ibrahim,APC,top candidates only,False,wikipedia:reps:2019:YO
+reps-2019-yo-fika-fune,reps,2019,YO,Fika/Fune,Abubakar Yerima,APC,top candidates only,False,wikipedia:reps:2019:YO
+reps-2019-yo-machina-nguru-yusufari-karasuwa,reps,2019,YO,Machina/Nguru/Yusufari/Karasuwa,Tijjani Zannah Zakariya,APC,top candidates only,False,wikipedia:reps:2019:YO
+reps-2019-yo-nangere-potiskum,reps,2019,YO,Nangere/Potiskum,Ibrahim-Umar Potiskum,APC,top candidates only,False,wikipedia:reps:2019:YO
+reps-2019-za-anka-talata-mafara,reps,2019,ZA,Anka/Talata/Mafara,Kabiru Yahaya,PDP,top candidates only,False,wikipedia:reps:2019:ZA
+reps-2019-za-bakura-maradun,reps,2019,ZA,Bakura/Maradun,Ahmed Bakura Muhammad,PDP,top candidates only,False,wikipedia:reps:2019:ZA
+reps-2019-za-bungudu-maru,reps,2019,ZA,Bungudu/Maru,Shehu Ahmed,PDP,top candidates only,False,wikipedia:reps:2019:ZA
+reps-2019-za-gunmi-bukkuyum,reps,2019,ZA,Gunmi/Bukkuyum,Sulaiman Gumi Abubakar,PDP,top candidates only,False,wikipedia:reps:2019:ZA
+reps-2019-za-gusau-tsafe,reps,2019,ZA,Gusau/Tsafe,Kabiru Amadu,PDP,top candidates only,False,wikipedia:reps:2019:ZA
+reps-2019-za-kaura-namoda-birnin-magaji,reps,2019,ZA,Kaura Namoda/Birnin Magaji,Sani Umar Dan-Galadima,PDP,top candidates only,False,wikipedia:reps:2019:ZA
+reps-2019-za-shinkafi-zurmi,reps,2019,ZA,Shinkafi/Zurmi,Bello Shinkafi,PDP,top candidates only,False,wikipedia:reps:2019:ZA
+reps-2023-ab-aba-north-aba-south,reps,2023,AB,Aba North/Aba South,Emeka Nnamani,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ab-arochukwu-ohafia,reps,2023,AB,Arochukwu/Ohafia,Ibe Okwara-Osonwa,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ab-bende,reps,2023,AB,Bende federal constituency,Benjamin Kalu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ab-isiala-ngwa-north-isiala-ngwa-south,reps,2023,AB,Isiala Ngwa North/Isiala Ngwa South,Ginger Obinna Onwusibe,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ab-isuikwuato-umunneochi,reps,2023,AB,Isuikwuato/Umunneochi,Amobi Ogah,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ab-obingwa-ugwunagbo-osisioma,reps,2023,AB,Obingwa/Ugwunagbo/Osisioma,Munachim Alozie,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ab-ukwa-east-ukwa-west,reps,2023,AB,Ukwa East/Ukwa West,Christian Nkwonta,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ab-umuahia-north-umuahia-south-ikwuano,reps,2023,AB,Umuahia North/Umuahia South/Ikwuano,Obinna Aguocha,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ad-demsa-numan-lamurde,reps,2023,AD,Demsa/Numan/Lamurde,Kwamoti Laori,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ad-fufore-song,reps,2023,AD,Fufore/Song,Aliyu Wakili Boya,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ad-gombi-hong,reps,2023,AD,Gombi/Hong,James Shaibu Barka,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ad-guyuk-shelleng,reps,2023,AD,Guyuk/Shelleng,Kobis Ari Thimnu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ad-madagali-michika,reps,2023,AD,Madagali/Michika,Zakaria Dauda Nyampa,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ad-maiha-mubi-north-mubi-south,reps,2023,AD,Maiha/Mubi North/Mubi South,Jingi Rufa'i,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ad-mayo-belwa-toungo-jada-ganye,reps,2023,AD,Mayo Belwa/Toungo/Jada/Ganye,Mohammed Inuwa Bassi,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ad-yola-north-yola-south-girei,reps,2023,AD,Yola North/Yola South/Girei,Salihu Mohammed Abba Girei,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ak-eket-onna-esit-eket-ibeno,reps,2023,AK,Eket/Onna/Esit Eket/Ibeno,Okpolupm Etteh,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ak-etinan-nsit-ibom-nsit-ubium,reps,2023,AK,Etinan/Nsit Ibom/Nsit Ubium,Patrick Umoh,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ak-ikono-ini,reps,2023,AK,Ikono/Ini,Glory Edet,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ak-ikot-abasi-mkpat-enin-eastern-obolo,reps,2023,AK,Ikot Abasi/Mkpat Enin/Eastern Obolo,Uduak Odudoh,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ak-ikot-ekpene-essien-udim-obot-akara,reps,2023,AK,Ikot Ekpene/Essien Udim/Obot Akara,Idongesit Ntekpere,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ak-itu-ibiono-ibom,reps,2023,AK,Itu/Ibiono Ibom,Ime Okon,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ak-ukanafun-oruk-anam,reps,2023,AK,Ukanafun/Oruk Anam,Unyime Idem,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ak-uyo-uruan-nsit-atai-ibesikpo-asutan,reps,2023,AK,Uyo/Uruan/Nsit Atai/Ibesikpo Asutan,Mark Esset,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-aguata,reps,2023,AN,Aguata,Dominic Okafor,APGA,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-anambra-east-anambra-west,reps,2023,AN,Anambra East/Anambra West,Peter Udeogalanya Aniekwe,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-awka-north-awka-south,reps,2023,AN,Awka North/Awka South,Lilian Orogbo,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-idemili-north-idemili-south,reps,2023,AN,Idemili North/Idemili South,Uchenna Okonkwo,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-ihiala,reps,2023,AN,Ihiala,Paschal Agbodike,APGA,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-njikoka-dunukofia-anaocha,reps,2023,AN,Njikoka/Dunukofia/Anaocha,George Ozodinobi,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-nnewi-north-nnewi-south-ekwusigo,reps,2023,AN,Nnewi North/Nnewi South/Ekwusigo,Uchenna Clement Eleodimmuo,APGA,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-ogbaru,reps,2023,AN,Ogbaru,Afam Ogene,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-onitsha-north-onitsha-south,reps,2023,AN,Onitsha North/Onitsha South,Emeka Idu,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-orumba-north-orumba-south,reps,2023,AN,Orumba North/Orumba South,Chinwe Nnabuife,YPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-an-oyi-ayamelum,reps,2023,AN,Oyi/Ayamelum,Maureen Gwacham,APGA,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-alkaleri-kirfi,reps,2023,BA,Alkaleri/Kirfi,Kabiru Yusuf,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-bauchi,reps,2023,BA,Bauchi,Aliyu Aminu Garu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-darazo-ganjuwa,reps,2023,BA,Darazo/Ganjuwa,Mansur Manu Soro,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-dass-bogoro-tafawa-balewa,reps,2023,BA,Dass/Bogoro/Tafawa Balewa,Jafaru Gambo Leko,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-gamawa,reps,2023,BA,Gamawa,Adamu Ibrahim Gamawa,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-jama-are-itas-gadau,reps,2023,BA,Jama’are/Itas-Gadau,Bala Rabilu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-katagum,reps,2023,BA,Katagum,Auwalu Abdu Gwalabe,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-misau-dambam,reps,2023,BA,Misau/Dambam,Bappa Aliyu Misau,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-ningi-warji,reps,2023,BA,Ningi/Warji,Adamu Hashimu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-shira-glade,reps,2023,BA,Shira/Glade,Sani Ibrahim Tanko Muhammad,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-toro,reps,2023,BA,Toro,Ismail Haruna Dabo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ba-zaki,reps,2023,BA,Zaki,Muhammed Dan Abba Shehu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-by-brass-nembe,reps,2023,BY,Brass/Nembe,Marie Ebikake,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-by-ogbia,reps,2023,BY,Ogbia,Ebiyun Turner,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-by-sagbama-ekeremor,reps,2023,BY,Sagbama/Ekeremor,Fred Agbedi,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-by-yenagoa-kolokuna-opokuma,reps,2023,BY,Yenagoa/Kolokuna/Opokuma,Oforji Oboku,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-ado-ogbadibo-opkokwu,reps,2023,BE,Ado/Ogbadibo/Opkokwu,Phillip Agbese,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-apa-agatu,reps,2023,BE,Apa/Agatu,Ojotu Ojema,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-buruku,reps,2023,BE,Buruku,Sekav Dzua Iyortyom,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-gboko-tarka,reps,2023,BE,Gboko/Tarka,Regina Akume,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-guma-makurdi,reps,2023,BE,Guma/Makurdi,Dickson Tarkighir,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-gwer-east-gwer-west,reps,2023,BE,Gwer East/Gwer West,Austin Asema Achado,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-katsina-ala-ukum-logo,reps,2023,BE,Katsina-Ala/Ukum/Logo,Solomon Wombo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-konshisha-vandeikya,reps,2023,BE,Konshisha/Vandeikya,Sesoo Ikpacher,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-kwande-ushongo,reps,2023,BE,Kwande/Ushongo,Terseer Ugbor,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-oju-obi,reps,2023,BE,Oju/Obi,Peter Oboh Egbodo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-be-otukpo-ohimini,reps,2023,BE,Otukpo/Ohimini,Blessing Onuh,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-askira-uba-hawul,reps,2023,BO,Askira-Uba/Hawul,Midala Usman Balami,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-bama-ngala-kala-balge,reps,2023,BO,Bama/Ngala/Kala-Balge,Zainab Gimba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-biu-kwaya-kusar-shani-bayo,reps,2023,BO,Biu/Kwaya Kusar/Shani/Bayo,Muktar Aliyu Betara,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-dikwa-mafa-konduga,reps,2023,BO,Dikwa/Mafa/Konduga,Muhammad Abuna,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-gubio-kaga-magumeri,reps,2023,BO,Gubio/Kaga/Magumeri,Usman Zannah,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-jere,reps,2023,BO,Jere,Ahmad Satomi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-kukawa-mobbar-abadam-guzamala,reps,2023,BO,Kukawa/Mobbar/Abadam/Guzamala,Bukar Gana Kareto,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-maiduguri-metropolitan,reps,2023,BO,Maiduguri (Metropolitan),Abdulkadir Rahis,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-bo-monguno-marte-nganzai,reps,2023,BO,Monguno/Marte/Nganzai,Bukar Talba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-cr-abi-yakurr,reps,2023,CR,Abi/Yakurr,Alex Egbona,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-cr-akamkpa-biase,reps,2023,CR,Akamkpa/Biase,Emil Inyang,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-cr-akpabuyo-bakassi-calabar-south,reps,2023,CR,Akpabuyo/Bakassi/Calabar South,Joseph Bassey,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-cr-calabar-municipal-odukpani,reps,2023,CR,Calabar Municipal/Odukpani,Akiba Bassey Ekpenyong,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-cr-ikom-boki,reps,2023,CR,Ikom/Boki,Victor Bisong Abang,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-cr-obanliku-obudu-bekwarra,reps,2023,CR,Obanliku/Obudu/Bekwarra,Peter Akpanke,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-cr-obubra-etung,reps,2023,CR,Obubra/Etung,Michael Etaba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-cr-ogoja-yala,reps,2023,CR,Ogoja/Yala,Godwin Offiono,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-aniocha-oshimili,reps,2023,DE,Aniocha/Oshimili,Ngozi Okolie,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-bomadi-patani,reps,2023,DE,Bomadi/Patani,Nicholas Mutu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-burutu,reps,2023,DE,Burutu,Julius Gbabojor Pondi,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-ethiope-east-ethiope-west,reps,2023,DE,Ethiope East/Ethiope West,Erhiatake Ibori-Suenu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-ika-north-east-ika-south,reps,2023,DE,Ika North East/Ika South,Victor Nwokolo,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-isoko-south-isoko-north,reps,2023,DE,Isoko South/Isoko North,Jonathan Ukodhiko,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-okpe-sapele-uvwie,reps,2023,DE,Okpe/Sapele/Uvwie,Benedict Etanabene,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-nkokwa-east-ndokwa-west-ukwuani,reps,2023,DE,Nkokwa East/Ndokwa West/Ukwuani,Nnamdi Ezechi,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-ughelli-north-ughelli-south-udu,reps,2023,DE,Ughelli North/Ughelli South/Udu,Francis Waive,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-de-warri-north-warri-south-warri-south-west,reps,2023,DE,Warri North/Warri South/Warri South West,Thomas Ereyitomi,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-eb-abakaliki-izzi,reps,2023,EB,Abakaliki/Izzi,Emmanuel Uguru,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-eb-afikpo-north-afikpo-south,reps,2023,EB,Afikpo North/Afikpo South,Iduma Igariwey,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-eb-ezza-south-ikwo,reps,2023,EB,Ezza South/Ikwo,Chinedu Ogah,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-eb-ebonyi-ohaukwu,reps,2023,EB,Ebonyi/Ohaukwu,Eze Nwachukwu Eze,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-eb-ivo-ohaozara-onicha,reps,2023,EB,Ivo/Ohaozara/Onicha,Nkemkanma Kama,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ed-akoko-edo,reps,2023,ED,Akoko-Edo,Peter Ohiozojeh Akpatason,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ed-egor-ikpoba-okha,reps,2023,ED,Egor/Ikpoba-Okha,Murphy Osaro Omoruyi,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ed-esan-north-east-esan-south-east,reps,2023,ED,Esan North East/Esan South East,Odianosen Okojie,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ed-etsako-east-etsako-west-etsako-central,reps,2023,ED,Etsako East/Etsako West Etsako Central,Anamero Sunday Dekeri,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ed-oredo,reps,2023,ED,Oredo,Esosa Iyawe,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ed-ovia-north-east-ovia-south-west,reps,2023,ED,Ovia North East/Ovia South West,Dennis Idahosa,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ed-owan-east-owan-west,reps,2023,ED,Owan East/Owan West,Julius Ihonvbere,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ek-ado-ekiti-irepodun-ifelodun,reps,2023,EK,Ado Ekiti/Irepodun-Ifelodun,Olusola Steve Fatoba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ek-ekiti-south-west-ikere-ise-orun,reps,2023,EK,Ekiti South West/Ikere/Ise/Orun,Rufus Adeniyi Ojuawo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ek-emure-gbonyin-ekiti-east,reps,2023,EK,Emure/Gbonyin/Ekiti East,Richard Bamisile,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ek-ido-osi-moba-ilejeme,reps,2023,EK,"Ido/Osi, Moba/Ilejeme",Akinlayo Kolawole,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ek-ijero-ekiti-west-efon,reps,2023,EK,Ijero/Ekiti West/Efon,Biodun Omoleye,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ek-ikole-oye,reps,2023,EK,Ikole/Oye,Akin Rotimi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-en-aninri-awgu-oji-river,reps,2023,EN,Aninri/Awgu/Oji River,Chijioke Okereke,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-en-enugu-east-isi-uzo,reps,2023,EN,Enugu East/Isi-Uzo,Paul Sunday Nnamchi,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-en-enugu-north-enugu-south,reps,2023,EN,Enugu North/Enugu South,Chimaobi Sam Atu,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-en-ezeagu-udi,reps,2023,EN,Ezeagu/Udi,Sunday Cyriacus Umeha,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-en-igbo-etiti-uzo-uwani,reps,2023,EN,Igbo-Etiti/Uzo-Uwani,Chijioke Nwodo,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-en-igboeze-north-udenu,reps,2023,EN,Igboeze North/Udenu,Dennis Nnamdi Agbo,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-en-nkanu-east-nkanu-west,reps,2023,EN,Nkanu East/Nkanu West,Nnolim Nnaji,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-en-nsukka-igbo-eze-south,reps,2023,EN,Nsukka/Igbo-Eze South,Chidi Mark Obetta,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-fc-abaji-gwagwalada-kwali-kuje,reps,2023,FC,Abaji/Gwagwalada/Kwali/Kuje,Abdulrahman Ajiya,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-fc-amac-bwari,reps,2023,FC,AMAC/Bwari,Joshua Chinedu Obika,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-go-akko,reps,2023,GO,Akko,Usman Bello Kumo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-go-balanga-billiri,reps,2023,GO,Balanga/Billiri,Ali Isa,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-go-dukku-nafada,reps,2023,GO,Dukku/Nafada,Abdullahi El-Rasheed,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-go-gombe-kwami-funakaye,reps,2023,GO,Gombe/Kwami/Funakaye,Yaya Bauchi Tongo,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-go-kaltungo-shongom,reps,2023,GO,Kaltungo/Shongom,Obed Shehu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-go-yamaltu-deba,reps,2023,GO,Yamaltu/Deba,Inuwa Garba,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-im-aboh-mbaise-ngor-okpala,reps,2023,IM,Aboh Mbaise/Ngor Okpala,Mathew Nwogu,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-im-ahiazu-mbaise-ezinihitte,reps,2023,IM,Ahiazu Mbaise/Ezinihitte,Emeka Chinedu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-im-ehime-mbano-ihitte-uboma-obowo,reps,2023,IM,Ehime Mbano/Ihitte Uboma/Obowo,Jonas Okeke,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-im-ideato-north-ideato-south,reps,2023,IM,Ideato North/Ideato South,Ikenga Ugochinyere,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-im-isiala-mbano-okigwe-onuimo,reps,2023,IM,Isiala Mbano/Okigwe/Onuimo,Miriam Onuoha,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-im-oguta-ohaji-egbema-oru-west,reps,2023,IM,Oguta/Ohaji/Egbema/Oru West,Eugene Okechukwu Dibiagwu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-im-oru-east-orsu-orlu,reps,2023,IM,Oru East/Orsu/Orlu,Canic Moore Chukwugozie Nwachukwu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-im-owerri-municipal-owerri-north-owerri-west,reps,2023,IM,Owerri Municipal/Owerri North/Owerri West,Tochukwu Chinedum Okere,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-babura-garki,reps,2023,JI,Babura/Garki,Isa Dogonyaro,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-birnin-kudu-buji,reps,2023,JI,Birnin Kudu/Buji,Yakubu Adamu Dan Maliki,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-birniwa-guri-kirikasamma,reps,2023,JI,Birniwa/Guri/Kirikasamma,Abubakar Hassan Fulata,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-dutse-kiyawa,reps,2023,JI,Dutse/Kiyawa,Dahiru Madaki Katuka,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-gwaram,reps,2023,JI,Gwaram,Yusuf Shittu Galambi,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-hadejia-auyo-kafin-hausa,reps,2023,JI,Hadejia/Auyo/Kafin Hausa,Usman Ibrahim Auyo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-kazaure-roni-gwiwa-yankwashi,reps,2023,JI,Kazaure/Roni/Gwiwa/Yankwashi,Muktar Muhammed Zanna,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-mallam-madori-kaugama,reps,2023,JI,Mallam Madori/Kaugama,Makki Abubakar Yalleman,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-jahun-miga,reps,2023,JI,Jahun/Miga,Yusuf Sa'idu Miga,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ji-ringim-taura,reps,2023,JI,Ringim/Taura,Sa'ad Wada Taura,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-birnin-gwari-giwa,reps,2023,KD,Birnin Gwari/Giwa,Bashir Zubairu Usman,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-chikun-kajuru,reps,2023,KD,Chikun/Kajuru,Adams Abubakar Ekene,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-igabi,reps,2023,KD,Igabi,Husseini Muhammad Jallo,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-ikara-kubau,reps,2023,KD,Ikara/Kubau,Mustapha Aliyu Abdullahi,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-jema-a-sanga,reps,2023,KD,Jema’a/Sanga,Dan Amos,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-kachia-kagarko,reps,2023,KD,Kachia/Kagarko,David Umar Gurara,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-kaduna-north,reps,2023,KD,Kaduna North,Bello El-Rufai,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-kaduna-south,reps,2023,KD,Kaduna South,Hussaini Abdulkarim,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-kaura,reps,2023,KD,Kaura,Mathew Donatus,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-kauru,reps,2023,KD,Kauru,Bashir Yusuf,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-lere,reps,2023,KD,Lere,Ahmed Munir,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-makarfi-kudan,reps,2023,KD,Makarfi/Kudan,Umar Shehu Ajilo,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-sabon-gari,reps,2023,KD,Sabon Gari,Sadiq Ango Abdullahi,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-soba,reps,2023,KD,Soba,Suleiman Yahaya Richifa,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-zangon-kataf-jaba,reps,2023,KD,Zangon Kataf/Jaba,Amos Gwamna Magaji,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kd-zaria,reps,2023,KD,Zaria,Tajudeen Abbas,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-albasu-gaya-ajingi,reps,2023,KN,Albasu/Gaya/Ajingi,Mustapha Tijjani Ghali,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-bebeji-kiru,reps,2023,KN,Bebeji/Kiru,Abdulmumin Jibrin,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-bichi,reps,2023,KN,Bichi,Abubakar Kabir Abubakar,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-dala,reps,2023,KN,Dala,Aliyu Sani Madaki,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-danbatta-makoda,reps,2023,KN,Danbatta/Makoda,Hamisu Ibrahim Chidari,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-dawakin-kudu-warawa,reps,2023,KN,Dawakin Kudu/Warawa,Mohammed Danjuma Hassan,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-dawakin-tofa-tofa-rimin-gado,reps,2023,KN,Dawakin Tofa/Tofa/Rimin Gado,Tijjani Abdulkadir Jobe,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-fagge,reps,2023,KN,Fagge,Muhammad Bello Shehu,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-gabasawa-gezawa,reps,2023,KN,Gabasawa/Gezawa,Muhammad Garba Chiroma,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-gwarzo-kabo,reps,2023,KN,Gwarzo/Kabo,Abdullahi Mu'azu Gwarzo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-gwale,reps,2023,KN,Gwale,Garba Ibrahim Mohammed,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-kumbotso,reps,2023,KN,Kumbotso,Idris Dankawu,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-kano-municipal,reps,2023,KN,Kano Municipal,Sagir Ibrahim Koki,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-kunchi-tsanyawa,reps,2023,KN,Kunchi/Tsanyawa,Sani Umar Bala,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-karaye-rogo,reps,2023,KN,Karaye/Rogo,Abdullahi Sani Rogo,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-kura-madobi-garun-malam,reps,2023,KN,Kura/Madobi/Garun Malam,Yusuf Umar Datti,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-minjibir-ungogo,reps,2023,KN,Minjibir/Ungogo,Sani Adamu,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-nasarawa,reps,2023,KN,Nasarawa,Hassan Shehu Hussain,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-rano-bunkure-kibiya,reps,2023,KN,Rano/Bunkure/Kibiya,Kabiru Alhassan Rurum,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-sumaila-takai,reps,2023,KN,Sumaila/Takai,Rabi'u ibn Yusuf Takai,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-shanono-bagwai,reps,2023,KN,Shanono/Bagwai,Yusuf Ahmad Badau,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-tarauni,reps,2023,KN,Tarauni,Mukhtar Umar Zakari,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kn-wudil-garko,reps,2023,KN,Wudil/Garko,Kamilu Ado Isah,NNPP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-bakori-danja,reps,2023,KT,Bakori/Danja,Abdullahi Balarabe Dabai,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-batagarawa-charanchi-rimi,reps,2023,KT,Batagarawa/Charanchi/Rimi,Usman Banye,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-batsari-safana-danmusa,reps,2023,KT,Batsari/Safana/Danmusa,Abubakar Aliyu Iliyasu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-bindawa-mani,reps,2023,KT,Bindawa/Mani,Ahmed Yusuf Doro,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-daura-sandamu-mai-adua,reps,2023,KT,Daura/Sandamu/Mai’adua,Aminu Jamo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-dutsin-ma-kurfi,reps,2023,KT,Dutsin-Ma/Kurfi,Aminu Balele,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-faskari-kankara-sabuwa,reps,2023,KT,Faskari/Kankara/Sabuwa,Jamilu Muhammad,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-funtua-dandume,reps,2023,KT,Funtua/Dandume,Abubakar Ahmad Muhammad,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-jibia-kaita,reps,2023,KT,Jibia/Kaita,Sada Soli,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-katsina,reps,2023,KT,Katsina,Aminu Ahmad Chindo,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-ingawa-kankia-kusada,reps,2023,KT,Ingawa/Kankia/Kusada,Ismail Dalha Kusada,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-malumfashi-kafur,reps,2023,KT,Malumfashi/Kafur,Aminu Ibrahim Muhammad,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-mashi-dutsi,reps,2023,KT,Mashi/Dutsi,Salisu Yusuf Majigiri,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-matazu-musawa,reps,2023,KT,Matazu/Musawa,Abdullahi Aliyu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kt-zango-baure,reps,2023,KT,Zango/Baure,Sani Lawal,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ke-aliero-gwandu-jega,reps,2023,KE,Aliero/Gwandu/Jega,Mansur Musa Jega,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ke-argungu-augie,reps,2023,KE,Argungu/Augie,Sani Yakubu Noma,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ke-bagudo-suru,reps,2023,KE,Bagudo/Suru,Bello Kaoje,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ke-bunza-birnin-kebbi-kalgo,reps,2023,KE,Bunza/Birnin Kebbi/Kalgo,Ibrahim Mohammed,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ke-fakai-sakaba-wasagu-danko-zuru,reps,2023,KE,Fakai/Sakaba/Wasagu/Danko/Zuru,Kabir Ibrahim Tukura,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ke-ngaski-shanga-yauri,reps,2023,KE,Ngaski/Shanga/Yauri,Yusuf Tanko Sununu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ko-adavi-okehi,reps,2023,KO,Adavi/Okehi,Abdulmaleek Danga Abdulraheem,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ko-ajaokuta,reps,2023,KO,Ajaokuta,Sanni Egidi Abdulraheem,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ko-ankpa-omala-olamaboro,reps,2023,KO,Ankpa/Omala/Olamaboro,Abdullahi Ibrahim Ali,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ko-ibaji-idah-igalamela-odolu,reps,2023,KO,Ibaji/Idah/Igalamela/Odolu,David Idris Zacharias,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ko-kabba-bunu-ijumu,reps,2023,KO,Kabba/Bunu/Ijumu,Salman Idris,ADC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ko-lokoja,reps,2023,KO,Lokoja,Danladi Suleiman Aguye,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ko-okene-ogori-magogo,reps,2023,KO,Okene/Ogori-Magogo,Tijani Muhammed Ozigi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ko-yagba-east-yagba-west-mopamuro,reps,2023,KO,Yagba East/Yagba West/Mopamuro,Leke Abejide,ADC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kw-asa-ilorin-west,reps,2023,KW,Asa/Ilorin West,Muktar Tolani Shagaya,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kw-baruten-kaiama,reps,2023,KW,Baruten/Kaiama,Mohammed Omar Bio,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kw-edu-moro-pategi,reps,2023,KW,Edu/Moro/Pategi,Ahmed Saba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kw-ekiti-isin-irepodun-oke-ero,reps,2023,KW,Ekiti/Isin/Irepodun/Oke-ero,Raheem Olawuyi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kw-ilorin-east-ilorin-south,reps,2023,KW,Ilorin East/Ilorin South,Yinka Aluko,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-kw-offa-oyun-ifelodun,reps,2023,KW,Offa/Oyun/Ifelodun,Ismail Tijani,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-agege,reps,2023,LA,Agege,Wale Ahmed,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-ajeromi-ifelodun,reps,2023,LA,Ajeromi/Ifelodun,Kalejaiye Adeboye Paul,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-alimosho,reps,2023,LA,Alimosho,Ganiyu Adele Ayuba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-amuwo-odofin,reps,2023,LA,Amuwo Odofin,George Adegeye,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-apapa,reps,2023,LA,Apapa,Adesola Adedayo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-badagry,reps,2023,LA,Badagry,Sesi Oluwaseun Whingan,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-epe,reps,2023,LA,Epe,Tasir Wale Raji,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-eti-osa,reps,2023,LA,Eti-Osa,Thaddeus Attah,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-ibeju-lekki,reps,2023,LA,Ibeju-Lekki,Adebayo Olusegun Balogun,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-ifako-ijaiye,reps,2023,LA,Ifako/Ijaiye,Benjamin Adeyemi Olabinjo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-ikeja,reps,2023,LA,Ikeja,Abiodun Faleke,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-ikorodu,reps,2023,LA,Ikorodu,Babajimi Benson,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-kosofe,reps,2023,LA,Kosofe,Kafilat Ogbara,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-lagos-island-i,reps,2023,LA,Lagos Island I,Enitan Badru,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-lagos-island-ii,reps,2023,LA,Lagos Island II,Kayode Moshood Akiolu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-lagos-mainland,reps,2023,LA,Lagos Mainland,Moshood Olanrewaju Oshun,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-mushin-i,reps,2023,LA,Mushin I,Adeyemi Taofeek Alli,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-mushin-ii,reps,2023,LA,Mushin II,Toyin Fayinka,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-ojo,reps,2023,LA,Ojo,Oluwaseyi Ayopo Sowumi,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-oshodi-isolo-i,reps,2023,LA,Oshodi/Isolo I,Bashiru Dawodu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-oshodi-isolo-ii,reps,2023,LA,Oshodi/Isolo II,Okey-Joe Onuakalusi,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-somolu,reps,2023,LA,Somolu,Ademorin Kuye,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-surulere-i,reps,2023,LA,Surulere I,Femi Gbajabiamila,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-la-surulere-ii,reps,2023,LA,Surulere II,Lanre Okunlola,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-na-akwanga-nasarawa-eggon-wamba,reps,2023,NA,Akwanga/Nasarawa/Eggon/Wamba,Jeremiah Umaru,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-na-awe-doma-keana,reps,2023,NA,Awe/Doma/Keana,Abubakar Nalaraba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-na-keffi-karu-kokona,reps,2023,NA,Keffi/Karu/Kokona,Jonathan Gaza Gbefwi,SDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-na-lafia-obi,reps,2023,NA,Lafia/Obi,Abubakar Sarki Dahiru,SDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-na-nassarawa-toto,reps,2023,NA,Nassarawa/Toto,Abdulmumin Muhammed Ari,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-agaie-lapai,reps,2023,NI,Agaie/Lapai,Abdullahi Mamudu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-agwara-borgu,reps,2023,NI,Agwara/Borgu,Ja'afaru Mohammed,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-bida-gbako-katcha,reps,2023,NI,Bida/Gbako/Katcha,Saidu Musa Abdullahi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-bosso-paikoro,reps,2023,NI,Bosso/Paikoro,Yusuf Kure Baraje,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-chanchaga,reps,2023,NI,Chanchaga,Abubakar Abdul Buba,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-gurara-suleja-tapa,reps,2023,NI,Gurara/Suleja/Tapa,Adamu Tanko,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-kontagora-wushishi-mariga-mashegu,reps,2023,NI,Kontagora/Wushishi/Mariga/Mashegu,Abdullahi Idris Garba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-lavun-mokwa-edati,reps,2023,NI,Lavun/Mokwa/Edati,Joshua Audu Gana,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-magama-rijau,reps,2023,NI,Magama/Rijau,Shehu Saleh,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ni-shiroro-rafi-munya,reps,2023,NI,Shiroro/Rafi/Munya,Isma'il Musa Modibo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-abeokuta-north-obafemi-owode-odeda,reps,2023,OG,Abeokuta North/Obafemi Owode/Odeda,Olumide Osoba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-abeokuta-south,reps,2023,OG,Abeokuta South,Afolabi Afuape,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-ado-odo-ota,reps,2023,OG,Ado-Odo/Ota,Tunji Akinosi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-egbado-north-imeko-afon,reps,2023,OG,Egbado North/Imeko-Afon,Gboyega Nasir Isiaka,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-egbado-south-ipokia,reps,2023,OG,Egbado South/Ipokia,Abiodun Isiaq Akinlade,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-ifo-ewekoro,reps,2023,OG,Ifo/Ewekoro,Ibrahim Ayokunle Isiaka,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-ijebu-north-ijebu-east-ogun-waterside,reps,2023,OG,Ijebu North/Ijebu East/Ogun Waterside,Joseph Folorunsho Adegbesan,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-ijebu-ode-odogbolu-ijebu-north-east,reps,2023,OG,Ijebu Ode/Odogbolu/Ijebu North East,Olufemi Adeleke Ogunbanwo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-og-ikenne-shagamu-remo-north,reps,2023,OG,Ikenne/Shagamu/Remo North,Adewunmi Onanuga,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-on-akoko-north-east-akoko-north-west,reps,2023,ON,Akoko North East/Akoko North West,Olubunmi Tunji-Ojo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-on-akure-north-akure-south,reps,2023,ON,Akure North/Akure South,Aderin Adesida,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-on-idanre-ifedore,reps,2023,ON,Idanre/Ifedore,Festus Akingbaso,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-on-ilaje-eseodo,reps,2023,ON,Ilaje/Eseodo,Donald Ojogo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-on-ile-oluji-okeigbo-odigbo,reps,2023,ON,Ile-oluji/Okeigbo/Odigbo,Festus Adefiranye,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-on-irele-okitipupa,reps,2023,ON,Irele/Okitipupa,Okunjimi Odimayo,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-on-ondo-east-ondo-west,reps,2023,ON,Ondo East/Ondo West,Abiola Makinde,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-on-owo-ose,reps,2023,ON,Owo/Ose,Oluwatimehin Adelegbe,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-atakunmosa-east-atakunmosa-west-ilesa-east-ilesa-west,reps,2023,OS,Atakunmosa East/Atakunmosa West/Ilesa East/Ilesa West,Sanya Omirin,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-ayedaade-irewole-isokan,reps,2023,OS,Ayedaade/Irewole/Isokan,Sola Arabambi,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-ayedire-iwo-ola-oluwa,reps,2023,OS,Ayedire/Iwo/Ola-Oluwa,Lukman Kayode Mudasiru,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-boluwaduro-ifedayo-illa,reps,2023,OS,Boluwaduro/Ifedayo/Illa,Akanni Clement Olohunwa,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-ede-north-ede-south-egbedero-ejigbo,reps,2023,OS,Ede North/Ede South/Egbedero/Ejigbo,Bamidele Salam,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-ife-central-ife-east-ife-north-ife-south,reps,2023,OS,Ife Central/Ife East/Ife North/Ife South,Taofeek Abimbola Ajilesoro,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-irepodun-olurunda-osogbo-orolu,reps,2023,OS,Irepodun/Olurunda/Osogbo/Orolu,Adewale Maruf Adebayo,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-obokun-oriade,reps,2023,OS,Obokun/Oriade,Oluwole Oke,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-os-odo-otin-boripe-ifelodun,reps,2023,OS,Odo-Otin/Boripe/Ifelodun,Soji Adetunji,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-afijio-atiba-oyo-east-oyo-west,reps,2023,OY,Afijio/Atiba/Oyo East/Oyo West,Akeem Adeniyi Adeyemi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-akinyele-lagelu,reps,2023,OY,Akinyele/Lagelu,Lafisoye Akinmoyede,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-atisbo-saki-east-saki-west,reps,2023,OY,Atisbo/Saki East/Saki West,Kareem Tajudeen Abisodun,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-egbeda-ona-ara,reps,2023,OY,Egbeda/Ona-Ara,Akinola Adekunle Alabi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-ibadan-north,reps,2023,OY,Ibadan North,Olaide Adewale Akinremi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-ibadan-north-west-ibadan-south-west,reps,2023,OY,Ibadan North West/Ibadan South West,Adedeji Stanley Olajide,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-ibarapa-central-ibarapa-north,reps,2023,OY,Ibarapa Central/Ibarapa North,Adebayo Anthony Adepoju,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-ibarapa-east-ido,reps,2023,OY,Ibarapa East/Ido,Remi Oseni,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-irepo-olurunsogo-orelope,reps,2023,OY,Irepo/Olurunsogo/Orelope,Olaide Muhammed,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-iseyin-kajola-iwajowa-itesiwaju,reps,2023,OY,Iseyin/Kajola/Iwajowa/Itesiwaju,Oyejide Oyesina,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-ogbomoso-north-ogbomoso-south-orire,reps,2023,OY,Ogbomoso North/Ogbomoso South/Orire,Olamiju Alao Akala,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-oy-ogo-oluwa-surulere,reps,2023,OY,Ogo-Oluwa/Surulere,Ojo Makanjuola,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-pl-barkin-ladi-riyom,reps,2023,PL,Barkin Ladi/Riyom,Peter Gyendeng,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-pl-bokkos-mangu,reps,2023,PL,Bokkos/Mangu,Ishaya David Lalu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-pl-jos-north-bassa,reps,2023,PL,Jos North/Bassa,Musa Agah Avia,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-pl-jos-south-jos-east,reps,2023,PL,Jos South/Jos East,Dachung Musa Bagos,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-pl-kanke-pankshin-kanam,reps,2023,PL,Kanke/Pankshin/Kanam,Yusuf Adamu Gagdi,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-pl-langtang-north-langtang-south,reps,2023,PL,Langtang North/Langtang South,Beni Lar,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-pl-mikang-qua-an-pan-shedam,reps,2023,PL,Mikang/Qua’an/Pan/Shedam,Isaac Kyale Kwallu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-pl-wase,reps,2023,PL,Wase,Ahmed Idris Wase,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-abua-odua-ahoada-east,reps,2023,RI,Abua/Odua/Ahoada East,Solomon Bob,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-ahoada-west-ogba-egbema-ndoni,reps,2023,RI,Ahoada West/Ogba/Egbema/Ndoni,Victor Obuzor,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-akuku-toru-asari-toru,reps,2023,RI,Akuku Toru/Asari Toru,Boma Goodhead,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-andoni-opobo-nkoro,reps,2023,RI,Andoni/Opobo/Nkoro,Awaji-inombek Abiante,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-degema-bonny,reps,2023,RI,Degema/Bonny,Cyril Hart,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-eleme-oyigbo-tai,reps,2023,RI,Eleme/Oyigbo/Tai,Felix Nwaeke,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-etche-omuma,reps,2023,RI,Etche/Omuma,Kelechi Nwogu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-ikwerre-emoha,reps,2023,RI,Ikwerre/Emoha,Boniface S. Emerengwa,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-obio-akpor,reps,2023,RI,Obio/Akpor,Kingsley Chinda,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-okrika-ogu-bolo,reps,2023,RI,Okrika/Ogu/Bolo,Allison Igbiks Anderson,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ri-port-harcourt-i,reps,2023,RI,Port Harcourt I,Manuchim Umezuruike,LP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ta-bali-gassol,reps,2023,TA,Bali/Gassol,Jaafaru Yakubu,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ta-jalingo-yorro-zing,reps,2023,TA,Jalingo/Yorro/Zing,Mohammed Ismaila Yusha'u,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ta-karim-lamido-lau-ardo-kola,reps,2023,TA,Karim Lamido/Lau/Ardo-Kola,Audu Mohammed,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ta-sardauna-gashaka-kurmi,reps,2023,TA,Sardauna/Gashaka/Kurmi,David Abel Fuoh,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-ta-wukari-ibi,reps,2023,TA,Wukari/Ibi,Ayuba Aboki Zaku Dampar,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-yo-bade-jakusko,reps,2023,YO,Bade/Jakusko,Hassan Kaikaku Jakduwa,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-yo-bursari-geidam-yunusari,reps,2023,YO,Bursari/Geidam/Yunusari,Lawan Shettima Ali,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-yo-damaturu-gujba-gulani-tarmuwa,reps,2023,YO,Damaturu/Gujba/Gulani/Tarmuwa,Khadija Bukar Abba Ibrahim,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-yo-fika-fune,reps,2023,YO,Fika/Fune,Mohammad Buba Jajere,PDP,winner only,False,wikipedia:reps:2023:NG
+reps-2023-yo-machina-nguru-yusufari-karasuwa,reps,2023,YO,Machina/Nguru/Yusufari/Karasuwa,Tijjani Zannah Zakariya,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-yo-nangere-potiskum,reps,2023,YO,Nangere/Potiskum,Fatima Talba,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-za-anka-talata-mafara,reps,2023,ZA,Anka/Talata/Mafara,Isa Muhammad Anka,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-za-bakura-maradun,reps,2023,ZA,Bakura/Maradun,Muhammad Ahmad Sani,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-za-bungudu-maru,reps,2023,ZA,Bungudu/Maru,Abdulmalik Zubairu,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-za-kaura-namoda-birnin-magaji,reps,2023,ZA,Kaura Namoda/Birnin Magaji,Aminu Jaji,APC,winner only,False,wikipedia:reps:2023:NG
+reps-2023-za-shinkafi-zurmi,reps,2023,ZA,Shinkafi/Zurmi,Bello Hassan Shinkafi,PDP,winner only,False,wikipedia:reps:2023:NG

@@ -137,6 +137,10 @@ export type Election = {
   sourceUrl?: string;
   /** Anyanwụ's forecast (upcoming elections) */
   forecast?: ModelForecast;
+  /** Official results by LGA, where on record: LGA id (map) -> person -> votes */
+  lga?: Record<string, Record<string, number>>;
+  /** The source's figures disagree with the winner it declares (declared winner kept) */
+  conflict?: boolean;
 };
 
 

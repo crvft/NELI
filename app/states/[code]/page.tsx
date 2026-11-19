@@ -8,6 +8,9 @@ import { getRegionOverview, listElections, listPeople } from '@/lib/repo';
 import { PageContainer, PageHeader } from '@/components/neli/page-header';
 import { StateElections } from '@/components/neli/state-elections';
 import { LocalElections, OfficeHolders } from '@/components/neli/region-extras';
+import type { LegislativeYear } from '@/components/neli/legislative-view';
+import { tally } from '@/lib/analytics';
+import type { Election } from '@/lib/domain';
 
 export function generateStaticParams() {
   return STATES.map((s) => ({ code: s.code }));
@@ -29,6 +32,8 @@ export default async function StatePage({ params }: { params: Promise<{ code: st
     listPeople(),
   ]);
 
+  const legislative = { senate: legislativeYears(elections, s.code, 'senate'), reps: legislativeYears(elections, s.code, 'reps') };
+
   return (
     <PageContainer className='flex flex-col gap-6'>
       <nav aria-label='Breadcrumb' className='flex items-center gap-1 text-label-sm text-text-sub-600'>
@@ -41,7 +46,7 @@ export default async function StatePage({ params }: { params: Promise<{ code: st
         </Link>
       </nav>
       <PageHeader title={`${s.name}${s.code === 'FC' ? '' : ' State'}`} description={`Capital: ${s.capital} · ${zoneName(s.zone)} zone`} />
-      <StateElections name={s.code === 'FC' ? 'the FCT' : s.name} overviews={{ presidential, governorship }}>
+      <StateElections name={s.code === 'FC' ? 'the FCT' : s.name} overviews={{ presidential, governorship }} legislative={legislative}>
         <div className='grid grid-cols-1 gap-6 lg:grid-cols-2'>
           <OfficeHolders people={people} stateCodes={[s.code]} title='Current office holders' empty={`No office holders from ${s.name} on NELI’s record yet.`} />
           <LocalElections elections={elections} stateCodes={[s.code]} title={`Elections in ${s.name}`} />
@@ -49,4 +54,27 @@ export default async function StatePage({ params }: { params: Promise<{ code: st
       </StateElections>
     </PageContainer>
   );
+}
+
+function legislativeYears(all: Election[], code: string, chamber: 'senate' | 'reps'): LegislativeYear[] {
+  const byYear = new Map<number, LegislativeYear>();
+  for (const e of all) {
+    if (e.type !== chamber || e.stateCode !== code || e.status !== 'concluded') continue;
+    const t = tally(e);
+    if (!t[0]) continue;
+    const hasVotes = e.coverage !== 'winner only' && t[0].votes > 0;
+    const y = byYear.get(e.year) ?? { year: e.year, races: [] };
+    y.races.push({
+      id: e.id,
+      district: e.constituency ?? e.title,
+      winner: t[0].name,
+      party: t[0].party,
+      share: hasVotes ? t[0].share : undefined,
+      margin: hasVotes && t[1] ? t[0].share - t[1].share : undefined,
+      coverage: e.coverage ?? 'winner only',
+      conflict: e.conflict,
+    });
+    byYear.set(e.year, y);
+  }
+  return [...byYear.values()].sort((a, b) => a.year - b.year);
 }

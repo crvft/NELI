@@ -1,0 +1,1326 @@
+election_id,state_code,lga_id,lga_name,candidate,party,votes,source
+pres-2023,BY,BY-01,Brass,Bola Tinubu,APC,3684,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-01,Brass,Atiku Abubakar,PDP,6209,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-01,Brass,Peter Obi,LP,2273,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-01,Brass,Rabiu Kwankwaso,NNPP,25,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-01,Brass,Others,OTH,213,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-02,Ekeremor,Bola Tinubu,APC,4398,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-02,Ekeremor,Atiku Abubakar,PDP,9113,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-02,Ekeremor,Peter Obi,LP,4489,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-02,Ekeremor,Rabiu Kwankwaso,NNPP,16,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-02,Ekeremor,Others,OTH,310,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-03,Kolokuma/Opokuma,Bola Tinubu,APC,4137,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-03,Kolokuma/Opokuma,Atiku Abubakar,PDP,8972,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-03,Kolokuma/Opokuma,Peter Obi,LP,3395,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-03,Kolokuma/Opokuma,Rabiu Kwankwaso,NNPP,34,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-03,Kolokuma/Opokuma,Others,OTH,259,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-04,Nembe,Bola Tinubu,APC,3005,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-04,Nembe,Atiku Abubakar,PDP,2334,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-04,Nembe,Peter Obi,LP,1807,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-04,Nembe,Rabiu Kwankwaso,NNPP,15,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-04,Nembe,Others,OTH,295,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-05,Ogbia,Bola Tinubu,APC,8444,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-05,Ogbia,Atiku Abubakar,PDP,6362,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-05,Ogbia,Peter Obi,LP,6721,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-05,Ogbia,Rabiu Kwankwaso,NNPP,47,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-05,Ogbia,Others,OTH,843,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-06,Sagbama,Bola Tinubu,APC,4603,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-06,Sagbama,Atiku Abubakar,PDP,10240,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-06,Sagbama,Peter Obi,LP,4629,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-06,Sagbama,Rabiu Kwankwaso,NNPP,24,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-06,Sagbama,Others,OTH,320,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-07,Southern Ijaw,Bola Tinubu,APC,7650,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-07,Southern Ijaw,Atiku Abubakar,PDP,11280,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-07,Southern Ijaw,Peter Obi,LP,4400,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-07,Southern Ijaw,Rabiu Kwankwaso,NNPP,190,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-07,Southern Ijaw,Others,OTH,224,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-08,Yenagoa,Bola Tinubu,APC,6651,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-08,Yenagoa,Atiku Abubakar,PDP,14308,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-08,Yenagoa,Peter Obi,LP,22261,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-08,Yenagoa,Rabiu Kwankwaso,NNPP,189,wikipedia:presidential:2023:BY
+pres-2023,BY,BY-08,Yenagoa,Others,OTH,956,wikipedia:presidential:2023:BY
+pres-2023,EK,EK-01,Ado Ekiti,Bola Tinubu,APC,28751,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-01,Ado Ekiti,Atiku Abubakar,PDP,8168,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-01,Ado Ekiti,Peter Obi,LP,4485,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-01,Ado Ekiti,Rabiu Kwankwaso,NNPP,87,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-01,Ado Ekiti,Others,OTH,1282,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-02,Efon,Bola Tinubu,APC,5873,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-02,Efon,Atiku Abubakar,PDP,2521,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-02,Efon,Peter Obi,LP,125,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-02,Efon,Rabiu Kwankwaso,NNPP,3,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-02,Efon,Others,OTH,135,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-03,Ekiti East,Bola Tinubu,APC,12426,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-03,Ekiti East,Atiku Abubakar,PDP,7782,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-03,Ekiti East,Peter Obi,LP,375,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-03,Ekiti East,Rabiu Kwankwaso,NNPP,7,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-03,Ekiti East,Others,OTH,182,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-04,Ekiti South-West,Bola Tinubu,APC,11334,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-04,Ekiti South-West,Atiku Abubakar,PDP,5047,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-04,Ekiti South-West,Peter Obi,LP,440,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-04,Ekiti South-West,Rabiu Kwankwaso,NNPP,9,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-04,Ekiti South-West,Others,OTH,215,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-05,Ekiti West,Bola Tinubu,APC,14516,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-05,Ekiti West,Atiku Abubakar,PDP,4318,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-05,Ekiti West,Peter Obi,LP,391,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-05,Ekiti West,Rabiu Kwankwaso,NNPP,8,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-05,Ekiti West,Others,OTH,525,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-06,Emure,Bola Tinubu,APC,8159,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-06,Emure,Atiku Abubakar,PDP,3035,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-06,Emure,Peter Obi,LP,465,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-06,Emure,Rabiu Kwankwaso,NNPP,14,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-06,Emure,Others,OTH,185,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-07,Gbonyin,Bola Tinubu,APC,11961,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-07,Gbonyin,Atiku Abubakar,PDP,4178,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-07,Gbonyin,Peter Obi,LP,245,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-07,Gbonyin,Rabiu Kwankwaso,NNPP,11,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-07,Gbonyin,Others,OTH,196,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-08,Ido-Osi,Bola Tinubu,APC,11917,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-08,Ido-Osi,Atiku Abubakar,PDP,7476,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-08,Ido-Osi,Peter Obi,LP,782,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-08,Ido-Osi,Rabiu Kwankwaso,NNPP,14,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-08,Ido-Osi,Others,OTH,246,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-09,Ijero Ekiti,Bola Tinubu,APC,12628,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-09,Ijero Ekiti,Atiku Abubakar,PDP,5731,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-09,Ijero Ekiti,Peter Obi,LP,373,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-09,Ijero Ekiti,Rabiu Kwankwaso,NNPP,6,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-09,Ijero Ekiti,Others,OTH,576,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-10,Ikere-Ekiti,Bola Tinubu,APC,11659,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-10,Ikere-Ekiti,Atiku Abubakar,PDP,7198,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-10,Ikere-Ekiti,Peter Obi,LP,910,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-10,Ikere-Ekiti,Rabiu Kwankwaso,NNPP,24,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-10,Ikere-Ekiti,Others,OTH,253,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-11,Ikole,Bola Tinubu,APC,15465,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-11,Ikole,Atiku Abubakar,PDP,10198,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-11,Ikole,Peter Obi,LP,779,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-11,Ikole,Rabiu Kwankwaso,NNPP,11,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-11,Ikole,Others,OTH,509,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-12,Ilejemeje,Bola Tinubu,APC,4599,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-12,Ilejemeje,Atiku Abubakar,PDP,2662,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-12,Ilejemeje,Peter Obi,LP,97,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-12,Ilejemeje,Rabiu Kwankwaso,NNPP,3,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-12,Ilejemeje,Others,OTH,51,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-13,Irepodun/Ifelodun,Bola Tinubu,APC,14265,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-13,Irepodun/Ifelodun,Atiku Abubakar,PDP,5516,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-13,Irepodun/Ifelodun,Peter Obi,LP,544,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-13,Irepodun/Ifelodun,Rabiu Kwankwaso,NNPP,24,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-13,Irepodun/Ifelodun,Others,OTH,368,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-14,Ise/Orun,Bola Tinubu,APC,11415,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-14,Ise/Orun,Atiku Abubakar,PDP,2734,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-14,Ise/Orun,Peter Obi,LP,497,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-14,Ise/Orun,Rabiu Kwankwaso,NNPP,10,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-14,Ise/Orun,Others,OTH,200,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-15,Moba,Bola Tinubu,APC,12046,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-15,Moba,Atiku Abubakar,PDP,5847,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-15,Moba,Peter Obi,LP,246,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-15,Moba,Rabiu Kwankwaso,NNPP,11,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-15,Moba,Others,OTH,85,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-16,Oye,Bola Tinubu,APC,14472,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-16,Oye,Atiku Abubakar,PDP,7143,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-16,Oye,Peter Obi,LP,643,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-16,Oye,Rabiu Kwankwaso,NNPP,20,wikipedia:presidential:2023:EK
+pres-2023,EK,EK-16,Oye,Others,OTH,464,wikipedia:presidential:2023:EK
+pres-2023,LA,LA-01,Agege,Bola Tinubu,APC,29568,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-01,Agege,Atiku Abubakar,PDP,4498,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-01,Agege,Peter Obi,LP,13270,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-01,Agege,Rabiu Kwankwaso,NNPP,1513,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-01,Agege,Others,OTH,2043,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-02,Ajeromi-Ifelodun,Bola Tinubu,APC,25938,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-02,Ajeromi-Ifelodun,Atiku Abubakar,PDP,4680,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-02,Ajeromi-Ifelodun,Peter Obi,LP,35663,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-02,Ajeromi-Ifelodun,Rabiu Kwankwaso,NNPP,436,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-02,Ajeromi-Ifelodun,Others,OTH,1873,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-03,Alimosho,Bola Tinubu,APC,62909,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-03,Alimosho,Atiku Abubakar,PDP,8201,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-03,Alimosho,Peter Obi,LP,71327,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-03,Alimosho,Rabiu Kwankwaso,NNPP,701,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-03,Alimosho,Others,OTH,4732,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-04,Amuwo-Odofin,Bola Tinubu,APC,13318,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-04,Amuwo-Odofin,Atiku Abubakar,PDP,2383,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-04,Amuwo-Odofin,Peter Obi,LP,55547,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-04,Amuwo-Odofin,Rabiu Kwankwaso,NNPP,330,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-04,Amuwo-Odofin,Others,OTH,1429,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-05,Apapa,Bola Tinubu,APC,15471,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-05,Apapa,Atiku Abubakar,PDP,2997,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-05,Apapa,Peter Obi,LP,7566,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-05,Apapa,Rabiu Kwankwaso,NNPP,338,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-05,Apapa,Others,OTH,840,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-06,Badagry,Bola Tinubu,APC,31903,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-06,Badagry,Atiku Abubakar,PDP,6024,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-06,Badagry,Peter Obi,LP,10956,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-06,Badagry,Rabiu Kwankwaso,NNPP,153,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-06,Badagry,Others,OTH,1582,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-07,Epe,Bola Tinubu,APC,19867,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-07,Epe,Atiku Abubakar,PDP,5221,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-07,Epe,Peter Obi,LP,3497,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-07,Epe,Rabiu Kwankwaso,NNPP,76,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-07,Epe,Others,OTH,561,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-08,Eti-Osa,Bola Tinubu,APC,15317,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-08,Eti-Osa,Atiku Abubakar,PDP,3369,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-08,Eti-Osa,Peter Obi,LP,42388,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-08,Eti-Osa,Rabiu Kwankwaso,NNPP,381,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-08,Eti-Osa,Others,OTH,1162,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-09,Ibeju-Lekki,Bola Tinubu,APC,14685,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-09,Ibeju-Lekki,Atiku Abubakar,PDP,2329,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-09,Ibeju-Lekki,Peter Obi,LP,10410,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-09,Ibeju-Lekki,Rabiu Kwankwaso,NNPP,104,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-09,Ibeju-Lekki,Others,OTH,776,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-10,Ifako-Ijaiye,Bola Tinubu,APC,14685,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-10,Ifako-Ijaiye,Atiku Abubakar,PDP,2329,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-10,Ifako-Ijaiye,Peter Obi,LP,10410,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-10,Ifako-Ijaiye,Rabiu Kwankwaso,NNPP,104,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-10,Ifako-Ijaiye,Others,OTH,776,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-11,Ikeja,Bola Tinubu,APC,21276,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-11,Ikeja,Atiku Abubakar,PDP,2280,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-11,Ikeja,Peter Obi,LP,30004,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-11,Ikeja,Rabiu Kwankwaso,NNPP,337,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-11,Ikeja,Others,OTH,1165,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-12,Ikorodu,Bola Tinubu,APC,50353,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-12,Ikorodu,Atiku Abubakar,PDP,4508,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-12,Ikorodu,Peter Obi,LP,28951,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-12,Ikorodu,Rabiu Kwankwaso,NNPP,400,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-12,Ikorodu,Others,OTH,2535,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-13,Kosofe,Bola Tinubu,APC,36883,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-13,Kosofe,Atiku Abubakar,PDP,4058,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-13,Kosofe,Peter Obi,LP,46554,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-13,Kosofe,Rabiu Kwankwaso,NNPP,902,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-13,Kosofe,Others,OTH,1977,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-14,Lagos Island,Bola Tinubu,APC,27760,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-14,Lagos Island,Atiku Abubakar,PDP,2521,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-14,Lagos Island,Peter Obi,LP,3058,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-14,Lagos Island,Rabiu Kwankwaso,NNPP,79,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-14,Lagos Island,Others,OTH,468,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-15,Lagos Mainland,Bola Tinubu,APC,20030,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-15,Lagos Mainland,Atiku Abubakar,PDP,3005,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-15,Lagos Mainland,Peter Obi,LP,18698,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-15,Lagos Mainland,Rabiu Kwankwaso,NNPP,257,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-15,Lagos Mainland,Others,OTH,1153,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-16,Mushin,Bola Tinubu,APC,41907,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-16,Mushin,Atiku Abubakar,PDP,3478,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-16,Mushin,Peter Obi,LP,23390,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-16,Mushin,Rabiu Kwankwaso,NNPP,410,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-16,Mushin,Others,OTH,2030,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-17,Ojo,Bola Tinubu,APC,20603,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-17,Ojo,Atiku Abubakar,PDP,3701,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-17,Ojo,Peter Obi,LP,38859,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-17,Ojo,Rabiu Kwankwaso,NNPP,462,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-17,Ojo,Others,OTH,1543,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-18,Oshodi-Isolo,Bola Tinubu,APC,27181,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-18,Oshodi-Isolo,Atiku Abubakar,PDP,3139,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-18,Oshodi-Isolo,Peter Obi,LP,51020,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-18,Oshodi-Isolo,Rabiu Kwankwaso,NNPP,413,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-18,Oshodi-Isolo,Others,OTH,1623,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-19,Somolu,Bola Tinubu,APC,27879,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-19,Somolu,Atiku Abubakar,PDP,3449,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-19,Somolu,Peter Obi,LP,28936,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-19,Somolu,Rabiu Kwankwaso,NNPP,476,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-19,Somolu,Others,OTH,1263,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-20,Surulere,Bola Tinubu,APC,39002,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-20,Surulere,Atiku Abubakar,PDP,2651,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-20,Surulere,Peter Obi,LP,36923,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-20,Surulere,Rabiu Kwankwaso,NNPP,442,wikipedia:presidential:2023:LA
+pres-2023,LA,LA-20,Surulere,Others,OTH,1991,wikipedia:presidential:2023:LA
+gov-ad-2012,AD,AD-04,Girei,Murtala Nyako,PDP,12920,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-04,Girei,Markus Gundiri,ACN,7962,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-21,Yola South,Murtala Nyako,PDP,20841,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-21,Yola South,Markus Gundiri,ACN,9083,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-18,Song,Murtala Nyako,PDP,15342,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-18,Song,Markus Gundiri,ACN,15160,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-09,Lamurde,Murtala Nyako,PDP,8236,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-09,Lamurde,Markus Gundiri,ACN,12374,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-02,Fufore,Murtala Nyako,PDP,23107,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-02,Fufore,Markus Gundiri,ACN,7963,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-07,Hong,Murtala Nyako,PDP,11562,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-07,Hong,Markus Gundiri,ACN,22747,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-17,Shelleng,Murtala Nyako,PDP,10370,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-17,Shelleng,Markus Gundiri,ACN,6742,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-03,Ganye,Murtala Nyako,PDP,11481,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-03,Ganye,Markus Gundiri,ACN,12227,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-06,Guyuk,Murtala Nyako,PDP,9860,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-06,Guyuk,Markus Gundiri,ACN,15021,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-19,Toungo,Murtala Nyako,PDP,5000,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-19,Toungo,Markus Gundiri,ACN,3829,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-13,Michika,Murtala Nyako,PDP,10477,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-13,Michika,Markus Gundiri,ACN,13655,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-10,Madagali,Murtala Nyako,PDP,16139,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-10,Madagali,Markus Gundiri,ACN,8559,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-16,Numan,Murtala Nyako,PDP,10404,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-16,Numan,Markus Gundiri,ACN,14037,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-14,Mubi North,Murtala Nyako,PDP,17132,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-14,Mubi North,Markus Gundiri,ACN,14340,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-12,Mayo Belwa,Murtala Nyako,PDP,26134,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-12,Mayo Belwa,Markus Gundiri,ACN,14124,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-20,Yola North,Murtala Nyako,PDP,23133,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-20,Yola North,Markus Gundiri,ACN,12103,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-15,Mubi South,Murtala Nyako,PDP,10035,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-15,Mubi South,Markus Gundiri,ACN,5535,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-11,Maiha,Murtala Nyako,PDP,19624,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-11,Maiha,Markus Gundiri,ACN,4688,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-08,Jada,Murtala Nyako,PDP,16893,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-08,Jada,Markus Gundiri,ACN,14650,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-01,Demsa,Murtala Nyako,PDP,14193,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-01,Demsa,Markus Gundiri,ACN,13765,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-05,Gombi,Murtala Nyako,PDP,10080,wikipedia:governorship:2012:AD
+gov-ad-2012,AD,AD-05,Gombi,Markus Gundiri,ACN,12449,wikipedia:governorship:2012:AD
+gov-ed-2012,ED,ED-01,Akoko Edo,Adams Oshiomhole,ACN,29803,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-01,Akoko Edo,Charles Airhiavbere,PDP,13785,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-02,Egor,Adams Oshiomhole,ACN,60623,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-02,Egor,Charles Airhiavbere,PDP,3486,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-04,Esan North-East,Adams Oshiomhole,ACN,13068,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-04,Esan North-East,Charles Airhiavbere,PDP,12478,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-03,Esan Central,Adams Oshiomhole,ACN,9751,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-03,Esan Central,Charles Airhiavbere,PDP,6758,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-05,Esan South-East,Adams Oshiomhole,ACN,14904,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-05,Esan South-East,Charles Airhiavbere,PDP,9634,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-06,Esan West,Adams Oshiomhole,ACN,13499,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-06,Esan West,Charles Airhiavbere,PDP,13282,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-07,Etsako Central,Adams Oshiomhole,ACN,16834,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-07,Etsako Central,Charles Airhiavbere,PDP,5113,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-08,Etsako East,Adams Oshiomhole,ACN,14904,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-08,Etsako East,Charles Airhiavbere,PDP,9634,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-09,Etsako West,Adams Oshiomhole,ACN,44962,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-09,Etsako West,Charles Airhiavbere,PDP,5920,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-10,Igueben,Adams Oshiomhole,ACN,9751,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-10,Igueben,Charles Airhiavbere,PDP,6758,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-11,Ikpoba Okha,Adams Oshiomhole,ACN,58809,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-11,Ikpoba Okha,Charles Airhiavbere,PDP,6505,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-12,Oredo,Adams Oshiomhole,ACN,66552,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-12,Oredo,Charles Airhiavbere,PDP,9081,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-13,Orhionmwon,Adams Oshiomhole,ACN,26163,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-13,Orhionmwon,Charles Airhiavbere,PDP,8716,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-14,Ovia North-East,Adams Oshiomhole,ACN,26835,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-14,Ovia North-East,Charles Airhiavbere,PDP,5427,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-15,Ovia South-West,Adams Oshiomhole,ACN,15150,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-15,Ovia South-West,Charles Airhiavbere,PDP,7229,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-16,Owan East,Adams Oshiomhole,ACN,22483,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-16,Owan East,Charles Airhiavbere,PDP,11709,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-17,Owan West,Adams Oshiomhole,ACN,15150,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-17,Owan West,Charles Airhiavbere,PDP,7229,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-18,Uhunmwonde,Adams Oshiomhole,ACN,17011,wikipedia:governorship:2012:ED
+gov-ed-2012,ED,ED-18,Uhunmwonde,Charles Airhiavbere,PDP,5826,wikipedia:governorship:2012:ED
+gov-os-2014,OS,OS-20,Irepodun,Rauf Aregbesola,APC,13314,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-20,Irepodun,Iyiola Omisore,PDP,7386,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-11,Ife Central,Rauf Aregbesola,APC,9680,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-11,Ife Central,Iyiola Omisore,PDP,24555,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-12,Ife East,Rauf Aregbesola,APC,13821,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-12,Ife East,Iyiola Omisore,PDP,20831,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-26,Ola Oluwa,Rauf Aregbesola,APC,7927,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-26,Ola Oluwa,Iyiola Omisore,PDP,4963,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-13,Ife North,Rauf Aregbesola,APC,8603,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-13,Ife North,Iyiola Omisore,PDP,9841,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-22,Isokan,Rauf Aregbesola,APC,9758,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-22,Isokan,Iyiola Omisore,PDP,10028,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-07,Ede North,Rauf Aregbesola,APC,15403,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-07,Ede North,Iyiola Omisore,PDP,10427,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-16,Ifelodun,Rauf Aregbesola,APC,17447,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-16,Ifelodun,Iyiola Omisore,PDP,12442,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-03,Aiyedaade,Rauf Aregbesola,APC,12801,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-03,Aiyedaade,Iyiola Omisore,PDP,11255,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-24,Obokun,Rauf Aregbesola,APC,11696,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-24,Obokun,Iyiola Omisore,PDP,8618,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-21,Irewole,Rauf Aregbesola,APC,18328,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-21,Irewole,Iyiola Omisore,PDP,10330,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-09,Egbedore,Rauf Aregbesola,APC,10615,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-09,Egbedore,Iyiola Omisore,PDP,7024,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-04,Aiyedire,Rauf Aregbesola,APC,7724,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-04,Aiyedire,Iyiola Omisore,PDP,7813,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-23,Iwo,Rauf Aregbesola,APC,20827,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-23,Iwo,Iyiola Omisore,PDP,15493,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-30,Osogbo,Rauf Aregbesola,APC,39983,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-30,Osogbo,Iyiola Omisore,PDP,11513,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-27,Olorunda,Rauf Aregbesola,APC,26551,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-27,Olorunda,Iyiola Omisore,PDP,8483,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-01,Atakunmosa East,Rauf Aregbesola,APC,9287,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-01,Atakunmosa East,Iyiola Omisore,PDP,6294,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-14,Ife South,Rauf Aregbesola,APC,7325,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-14,Ife South,Iyiola Omisore,PDP,12811,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-10,Ejigbo,Rauf Aregbesola,APC,17700,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-10,Ejigbo,Iyiola Omisore,PDP,12495,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-15,Ifedayo,Rauf Aregbesola,APC,4225,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-15,Ifedayo,Iyiola Omisore,PDP,3982,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-05,Boluwaduro,Rauf Aregbesola,APC,4981,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-05,Boluwaduro,Iyiola Omisore,PDP,5035,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-18,Ilesa East,Rauf Aregbesola,APC,16106,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-18,Ilesa East,Iyiola Omisore,PDP,5913,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-25,Odo Otin,Rauf Aregbesola,APC,11950,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-25,Odo Otin,Iyiola Omisore,PDP,12902,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-19,Ilesa West,Rauf Aregbesola,APC,15427,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-19,Ilesa West,Iyiola Omisore,PDP,5449,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-06,Boripe,Rauf Aregbesola,APC,12723,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-06,Boripe,Iyiola Omisore,PDP,9334,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-29,Orolu,Rauf Aregbesola,APC,8558,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-29,Orolu,Iyiola Omisore,PDP,6786,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-28,Oriade,Rauf Aregbesola,APC,12523,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-28,Oriade,Iyiola Omisore,PDP,10214,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-02,Atakunmosa West,Rauf Aregbesola,APC,6928,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-02,Atakunmosa West,Iyiola Omisore,PDP,5142,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-08,Ede South,Rauf Aregbesola,APC,11738,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-08,Ede South,Iyiola Omisore,PDP,7482,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-17,Ila,Rauf Aregbesola,APC,10825,wikipedia:governorship:2014:OS
+gov-os-2014,OS,OS-17,Ila,Iyiola Omisore,PDP,7916,wikipedia:governorship:2014:OS
+gov-kw-2015,KW,KW-10,Isin,Abdulfatah Ahmed,APC,5525,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-10,Isin,Simon Ajibola,PDP,4202,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-14,Oke Ero,Abdulfatah Ahmed,APC,6631,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-14,Oke Ero,Simon Ajibola,PDP,3815,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-04,Ekiti,Abdulfatah Ahmed,APC,6269,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-04,Ekiti,Simon Ajibola,PDP,4398,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-13,Offa,Abdulfatah Ahmed,APC,18569,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-13,Offa,Simon Ajibola,PDP,4778,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-15,Oyun,Abdulfatah Ahmed,APC,10277,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-15,Oyun,Simon Ajibola,PDP,4916,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-01,Asa,Abdulfatah Ahmed,APC,18363,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-01,Asa,Simon Ajibola,PDP,6186,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-07,Ilorin South,Abdulfatah Ahmed,APC,21220,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-07,Ilorin South,Simon Ajibola,PDP,11439,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-16,Pategi,Abdulfatah Ahmed,APC,16335,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-16,Pategi,Simon Ajibola,PDP,3033,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-09,Irepodun,Abdulfatah Ahmed,APC,14970,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-09,Irepodun,Simon Ajibola,PDP,7380,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-03,Edu,Abdulfatah Ahmed,APC,22963,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-03,Edu,Simon Ajibola,PDP,9229,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-06,Ilorin East,Abdulfatah Ahmed,APC,25700,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-06,Ilorin East,Simon Ajibola,PDP,10923,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-05,Ifelodun,Abdulfatah Ahmed,APC,25528,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-05,Ifelodun,Simon Ajibola,PDP,8086,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-12,Moro,Abdulfatah Ahmed,APC,16614,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-12,Moro,Simon Ajibola,PDP,6330,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-08,Ilorin West,Abdulfatah Ahmed,APC,53284,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-08,Ilorin West,Simon Ajibola,PDP,18196,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-02,Baruten,Abdulfatah Ahmed,APC,18734,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-02,Baruten,Simon Ajibola,PDP,9374,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-11,Kaiama,Abdulfatah Ahmed,APC,14850,wikipedia:governorship:2015:KW
+gov-kw-2015,KW,KW-11,Kaiama,Simon Ajibola,PDP,2935,wikipedia:governorship:2015:KW
+gov-ek-2018,EK,EK-12,Ilejemeje,Kayode Fayemi,APC,4156,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-12,Ilejemeje,Kolapo Olushola,PDP,3937,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-13,Irepodun/Ifelodun,Kayode Fayemi,APC,13869,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-13,Irepodun/Ifelodun,Kolapo Olushola,PDP,11456,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-08,Ido-Osi,Kayode Fayemi,APC,12342,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-08,Ido-Osi,Kolapo Olushola,PDP,11145,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-16,Oye,Kayode Fayemi,APC,14995,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-16,Oye,Kolapo Olushola,PDP,11071,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-02,Efon,Kayode Fayemi,APC,5028,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-02,Efon,Kolapo Olushola,PDP,5192,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-15,Moba,Kayode Fayemi,APC,11837,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-15,Moba,Kolapo Olushola,PDP,8520,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-09,Ijero,Kayode Fayemi,APC,14192,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-09,Ijero,Kolapo Olushola,PDP,11077,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-07,Gbonyin,Kayode Fayemi,APC,11498,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-07,Gbonyin,Kolapo Olushola,PDP,8027,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-06,Emure,Kayode Fayemi,APC,7048,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-06,Emure,Kolapo Olushola,PDP,7121,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-10,Ikere,Kayode Fayemi,APC,17183,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-10,Ikere,Kolapo Olushola,PDP,11515,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-05,Ekiti West,Kayode Fayemi,APC,12648,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-05,Ekiti West,Kolapo Olushola,PDP,10137,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-11,Ikole,Kayode Fayemi,APC,14522,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-11,Ikole,Kolapo Olushola,PDP,13961,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-14,Ise/Orun,Kayode Fayemi,APC,11908,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-14,Ise/Orun,Kolapo Olushola,PDP,6297,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-03,Ekiti East,Kayode Fayemi,APC,12778,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-03,Ekiti East,Kolapo Olushola,PDP,11564,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-04,Ekiti South-West,Kayode Fayemi,APC,11015,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-04,Ekiti South-West,Kolapo Olushola,PDP,8423,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-01,Ado,Kayode Fayemi,APC,32810,wikipedia:governorship:2018:EK
+gov-ek-2018,EK,EK-01,Ado,Kolapo Olushola,PDP,28111,wikipedia:governorship:2018:EK
+gov-ad-2019,AD,AD-04,Girei,Ahmadu Umaru Fintiri,PDP,6938,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-04,Girei,Bindo Jibrilla,APC,15171,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-21,Yola South,Ahmadu Umaru Fintiri,PDP,18257,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-21,Yola South,Bindo Jibrilla,APC,22129,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-18,Song,Ahmadu Umaru Fintiri,PDP,25151,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-18,Song,Bindo Jibrilla,APC,17845,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-09,Lamurde,Ahmadu Umaru Fintiri,PDP,20138,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-09,Lamurde,Bindo Jibrilla,APC,10182,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-02,Fufore,Ahmadu Umaru Fintiri,PDP,17529,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-02,Fufore,Bindo Jibrilla,APC,21972,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-07,Hong,Ahmadu Umaru Fintiri,PDP,26556,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-07,Hong,Bindo Jibrilla,APC,21407,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-17,Shelleng,Ahmadu Umaru Fintiri,PDP,11377,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-17,Shelleng,Bindo Jibrilla,APC,15944,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-03,Ganye,Ahmadu Umaru Fintiri,PDP,17993,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-03,Ganye,Bindo Jibrilla,APC,19151,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-06,Guyuk,Ahmadu Umaru Fintiri,PDP,19022,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-06,Guyuk,Bindo Jibrilla,APC,12504,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-19,Toungo,Ahmadu Umaru Fintiri,PDP,6018,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-19,Toungo,Bindo Jibrilla,APC,6564,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-13,Michika,Ahmadu Umaru Fintiri,PDP,25617,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-13,Michika,Bindo Jibrilla,APC,13511,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-10,Madagali,Ahmadu Umaru Fintiri,PDP,17660,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-10,Madagali,Bindo Jibrilla,APC,9365,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-16,Numan,Ahmadu Umaru Fintiri,PDP,21922,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-16,Numan,Bindo Jibrilla,APC,11642,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-14,Mubi North,Ahmadu Umaru Fintiri,PDP,17567,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-14,Mubi North,Bindo Jibrilla,APC,31805,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-12,Mayo Belwa,Ahmadu Umaru Fintiri,PDP,19897,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-12,Mayo Belwa,Bindo Jibrilla,APC,14198,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-20,Yola North,Ahmadu Umaru Fintiri,PDP,24383,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-20,Yola North,Bindo Jibrilla,APC,20979,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-15,Mubi South,Ahmadu Umaru Fintiri,PDP,10420,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-15,Mubi South,Bindo Jibrilla,APC,19825,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-11,Maiha,Ahmadu Umaru Fintiri,PDP,8745,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-11,Maiha,Bindo Jibrilla,APC,14939,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-08,Jada,Ahmadu Umaru Fintiri,PDP,20076,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-08,Jada,Bindo Jibrilla,APC,18006,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-01,Demsa,Ahmadu Umaru Fintiri,PDP,22037,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-01,Demsa,Bindo Jibrilla,APC,10342,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-05,Gombi,Ahmadu Umaru Fintiri,PDP,12968,wikipedia:governorship:2019:AD
+gov-ad-2019,AD,AD-05,Gombi,Bindo Jibrilla,APC,9347,wikipedia:governorship:2019:AD
+gov-be-2019,BE,BE-17,Oju,Samuel Ortom,PDP,13330,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-17,Oju,Emmanuel Jime,APC,19134,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-14,Obi,Samuel Ortom,PDP,9576,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-14,Obi,Emmanuel Jime,APC,10247,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-08,Gwer West,Samuel Ortom,PDP,14856,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-08,Gwer West,Emmanuel Jime,APC,7429,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-15,Ogbadibo,Samuel Ortom,PDP,8985,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-15,Ogbadibo,Emmanuel Jime,APC,9259,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-07,Gwer East,Samuel Ortom,PDP,19596,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-07,Gwer East,Emmanuel Jime,APC,15291,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-22,Ushongo,Samuel Ortom,PDP,22703,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-22,Ushongo,Emmanuel Jime,APC,14683,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-16,Ohimini,Samuel Ortom,PDP,7577,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-16,Ohimini,Emmanuel Jime,APC,8675,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-02,Agatu,Samuel Ortom,PDP,10079,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-02,Agatu,Emmanuel Jime,APC,7538,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-03,Apa,Samuel Ortom,PDP,8725,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-03,Apa,Emmanuel Jime,APC,8636,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-19,Otukpo,Samuel Ortom,PDP,13153,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-19,Otukpo,Emmanuel Jime,APC,21785,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-20,Tarka,Samuel Ortom,PDP,3177,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-20,Tarka,Emmanuel Jime,APC,16600,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-21,Ukum,Samuel Ortom,PDP,23156,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-21,Ukum,Emmanuel Jime,APC,11790,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-09,Katsina-Ala,Samuel Ortom,PDP,17980,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-09,Katsina-Ala,Emmanuel Jime,APC,21614,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-01,Ado,Samuel Ortom,PDP,10258,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-01,Ado,Emmanuel Jime,APC,10135,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-06,Guma,Samuel Ortom,PDP,29693,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-06,Guma,Emmanuel Jime,APC,12005,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-05,Gboko,Samuel Ortom,PDP,38241,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-05,Gboko,Emmanuel Jime,APC,29802,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-13,Makurdi,Samuel Ortom,PDP,29414,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-13,Makurdi,Emmanuel Jime,APC,36517,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-12,Logo,Samuel Ortom,PDP,30803,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-12,Logo,Emmanuel Jime,APC,4586,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-04,Buruku,Samuel Ortom,PDP,29656,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-04,Buruku,Emmanuel Jime,APC,13404,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-18,Okpokwu,Samuel Ortom,PDP,11957,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-18,Okpokwu,Emmanuel Jime,APC,9641,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-11,Kwande,Samuel Ortom,PDP,29241,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-11,Kwande,Emmanuel Jime,APC,22786,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-23,Vandeikya,Samuel Ortom,PDP,27725,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-23,Vandeikya,Emmanuel Jime,APC,19079,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-10,Konshisha,Samuel Ortom,PDP,21980,wikipedia:governorship:2019:BE
+gov-be-2019,BE,BE-10,Konshisha,Emmanuel Jime,APC,13802,wikipedia:governorship:2019:BE
+gov-bo-2019,BO,BO-01,Abadam,Babagana Umara Zulum,APC,9968,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-01,Abadam,Mohammad Imam,PDP,50,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-02,Askira/Uba,Babagana Umara Zulum,APC,58719,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-02,Askira/Uba,Mohammad Imam,PDP,9800,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-04,Bayo,Babagana Umara Zulum,APC,33752,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-04,Bayo,Mohammad Imam,PDP,1903,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-05,Biu,Babagana Umara Zulum,APC,46794,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-05,Biu,Mohammad Imam,PDP,5597,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-07,Damboa,Babagana Umara Zulum,APC,36617,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-07,Damboa,Mohammad Imam,PDP,721,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-11,Gwoza,Babagana Umara Zulum,APC,120213,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-11,Gwoza,Mohammad Imam,PDP,3118,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-09,Gubio,Babagana Umara Zulum,APC,33203,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-09,Gubio,Mohammad Imam,PDP,419,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-10,Guzamala,Babagana Umara Zulum,APC,28030,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-10,Guzamala,Mohammad Imam,PDP,277,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-08,Dikwa,Babagana Umara Zulum,APC,22138,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-08,Dikwa,Mohammad Imam,PDP,1542,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-14,Kaga,Babagana Umara Zulum,APC,16647,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-14,Kaga,Mohammad Imam,PDP,1166,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-15,Kala/Balge,Babagana Umara Zulum,APC,35780,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-15,Kala/Balge,Mohammad Imam,PDP,497,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-17,Kukawa,Babagana Umara Zulum,APC,29040,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-17,Kukawa,Mohammad Imam,PDP,344,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-18,Kwaya Kusar,Babagana Umara Zulum,APC,19790,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-18,Kwaya Kusar,Mohammad Imam,PDP,6860,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-19,Mafa,Babagana Umara Zulum,APC,53011,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-19,Mafa,Mohammad Imam,PDP,163,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-20,Magumeri,Babagana Umara Zulum,APC,22261,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-20,Magumeri,Mohammad Imam,PDP,123,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-22,Marte,Babagana Umara Zulum,APC,19329,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-22,Marte,Mohammad Imam,PDP,173,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-23,Mobbar,Babagana Umara Zulum,APC,35828,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-23,Mobbar,Mohammad Imam,PDP,622,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-24,Monguno,Babagana Umara Zulum,APC,41999,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-24,Monguno,Mohammad Imam,PDP,493,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-25,Ngala,Babagana Umara Zulum,APC,42301,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-25,Ngala,Mohammad Imam,PDP,1910,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-26,Nganzai,Babagana Umara Zulum,APC,20196,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-26,Nganzai,Mohammad Imam,PDP,907,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-06,Chibok,Babagana Umara Zulum,APC,19370,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-06,Chibok,Mohammad Imam,PDP,1804,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-16,Konduga,Babagana Umara Zulum,APC,31484,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-16,Konduga,Mohammad Imam,PDP,2407,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-13,Jere,Babagana Umara Zulum,APC,122384,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-13,Jere,Mohammad Imam,PDP,3440,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-03,Bama,Babagana Umara Zulum,APC,54783,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-03,Bama,Mohammad Imam,PDP,1036,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-12,Hawul,Babagana Umara Zulum,APC,29845,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-12,Hawul,Mohammad Imam,PDP,7039,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-21,Maiduguri,Babagana Umara Zulum,APC,168952,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-21,Maiduguri,Mohammad Imam,PDP,5493,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-27,Shani,Babagana Umara Zulum,APC,23006,wikipedia:governorship:2019:BO
+gov-bo-2019,BO,BO-27,Shani,Mohammad Imam,PDP,8205,wikipedia:governorship:2019:BO
+gov-by-2019,BY,BY-08,Yenagoa,David Lyon,APC,24607,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-08,Yenagoa,Douye Diri,PDP,19184,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-01,Brass,David Lyon,APC,23831,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-01,Brass,Douye Diri,PDP,10410,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-04,Nembe,David Lyon,APC,83041,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-04,Nembe,Douye Diri,PDP,874,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-06,Sagbama,David Lyon,APC,7831,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-06,Sagbama,Douye Diri,PDP,60339,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-05,Ogbia,David Lyon,APC,58016,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-05,Ogbia,Douye Diri,PDP,13763,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-03,Kolokuma/Opokuma,David Lyon,APC,8934,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-03,Kolokuma/Opokuma,Douye Diri,PDP,15360,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-07,Southern Ijaw,David Lyon,APC,124803,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-07,Southern Ijaw,Douye Diri,PDP,4898,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-02,Ekeremor,David Lyon,APC,21489,wikipedia:governorship:2019:BY
+gov-by-2019,BY,BY-02,Ekeremor,Douye Diri,PDP,18344,wikipedia:governorship:2019:BY
+gov-eb-2019,EB,EB-13,Onicha,Dave Umahi,PDP,52851,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-13,Onicha,Sonni Ogbuoji,APC,2497,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-11,Ohaozara,Dave Umahi,PDP,48256,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-11,Ohaozara,Sonni Ogbuoji,APC,1004,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-07,Ikwo,Dave Umahi,PDP,37947,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-07,Ikwo,Sonni Ogbuoji,APC,11475,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-10,Izzi,Dave Umahi,PDP,34199,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-10,Izzi,Sonni Ogbuoji,APC,13430,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-12,Ohaukwu,Dave Umahi,PDP,30606,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-12,Ohaukwu,Sonni Ogbuoji,APC,9943,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-03,Afikpo South,Dave Umahi,PDP,27720,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-03,Afikpo South,Sonni Ogbuoji,APC,9275,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-06,Ezza South,Dave Umahi,PDP,27583,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-06,Ezza South,Sonni Ogbuoji,APC,3245,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-08,Ishielu,Dave Umahi,PDP,26700,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-08,Ishielu,Sonni Ogbuoji,APC,3105,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-01,Abakaliki,Dave Umahi,PDP,26809,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-01,Abakaliki,Sonni Ogbuoji,APC,9815,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-04,Ebonyi,Dave Umahi,PDP,25830,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-04,Ebonyi,Sonni Ogbuoji,APC,5951,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-02,Afikpo North,Dave Umahi,PDP,21245,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-02,Afikpo North,Sonni Ogbuoji,APC,7446,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-09,Ivo,Dave Umahi,PDP,19166,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-09,Ivo,Sonni Ogbuoji,APC,2055,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-05,Ezza North,Dave Umahi,PDP,14181,wikipedia:governorship:2019:EB
+gov-eb-2019,EB,EB-05,Ezza North,Sonni Ogbuoji,APC,2482,wikipedia:governorship:2019:EB
+gov-en-2019,EN,EN-05,ENUGU-SOUTH,UGWUANYI (PDP),I,17513,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-05,ENUGU-SOUTH,EZE (APC),AYOGU,533,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-01,ANINRI,UGWUANYI (PDP),I,21450,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-01,ANINRI,EZE (APC),AYOGU,496,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-02,AGWU,UGWUANYI (PDP),I,23025,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-02,AGWU,EZE (APC),AYOGU,1232,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-06,EZEAGWU,UGWUANYI (PDP),I,21448,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-06,EZEAGWU,EZE (APC),AYOGU,255,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-10,ISI-UZO,UGWUANYI (PDP),I,19698,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-10,ISI-UZO,EZE (APC),AYOGU,284,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-12,NKANU-WEST,UGWUANYI (PDP),I,30698,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-12,NKANU-WEST,EZE (APC),AYOGU,243,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-07,IGBO-ETITI,UGWUANYI (PDP),I,25557,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-07,IGBO-ETITI,EZE (APC),AYOGU,1223,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-13,NSUKKA,UGWUANYI (PDP),I,51207,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-13,NSUKKA,EZE (APC),AYOGU,572,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-14,OJI RIVER,UGWUANYI (PDP),I,22369,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-14,OJI RIVER,EZE (APC),AYOGU,536,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-15,UDENU,UGWUANYI (PDP),I,39347,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-15,UDENU,EZE (APC),AYOGU,394,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-16,UDI,UGWUANYI (PDP),I,25124,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-16,UDI,EZE (APC),AYOGU,823,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-08,IGBO-EZE NORTH,UGWUANYI (PDP),I,30666,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-08,IGBO-EZE NORTH,EZE (APC),AYOGU,1607,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-04,ENUGU-NORTH,UGWUANYI (PDP),I,15120,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-04,ENUGU-NORTH,EZE (APC),AYOGU,276,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-03,ENUGU-EAST,UGWUANYI (PDP),I,22300,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-03,ENUGU-EAST,EZE (APC),AYOGU,352,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-09,IGBO-EZE SOUTH,UGWUANYI (PDP),I,38326,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-09,IGBO-EZE SOUTH,EZE (APC),AYOGU,705,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-11,NKANU EAST,UGWUANYI (PDP),I,23118,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-11,NKANU EAST,EZE (APC),AYOGU,636,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-17,UZO-UWANI,UGWUANYI (PDP),I,22879,wikipedia:governorship:2019:EN
+gov-en-2019,EN,EN-17,UZO-UWANI,EZE (APC),AYOGU,256,wikipedia:governorship:2019:EN
+gov-go-2019,GO,GO-06,Gombe,Muhammad Inuwa Yahaya,APC,68384,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-06,Gombe,Usman Bayero Nafada,PDP,21673,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-10,Shongom,Muhammad Inuwa Yahaya,APC,13463,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-10,Shongom,Usman Bayero Nafada,PDP,12993,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-11,Yamaltu/Deba,Muhammad Inuwa Yahaya,APC,51521,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-11,Yamaltu/Deba,Usman Bayero Nafada,PDP,25852,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-01,Akko,Muhammad Inuwa Yahaya,APC,58479,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-01,Akko,Usman Bayero Nafada,PDP,30832,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-02,Balanga,Muhammad Inuwa Yahaya,APC,30926,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-02,Balanga,Usman Bayero Nafada,PDP,18192,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-04,Dukku,Muhammad Inuwa Yahaya,APC,27302,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-04,Dukku,Usman Bayero Nafada,PDP,16807,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-08,Kwami,Muhammad Inuwa Yahaya,APC,30539,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-08,Kwami,Usman Bayero Nafada,PDP,18240,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-03,Billiri,Muhammad Inuwa Yahaya,APC,18612,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-03,Billiri,Usman Bayero Nafada,PDP,18063,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-05,Funakaye,Muhammad Inuwa Yahaya,APC,29191,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-05,Funakaye,Usman Bayero Nafada,PDP,22259,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-07,Kaltungo,Muhammad Inuwa Yahaya,APC,26744,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-07,Kaltungo,Usman Bayero Nafada,PDP,22259,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-09,Nafada,Muhammad Inuwa Yahaya,APC,9018,wikipedia:governorship:2019:GO
+gov-go-2019,GO,GO-09,Nafada,Usman Bayero Nafada,PDP,17937,wikipedia:governorship:2019:GO
+gov-ji-2019,JI,JI-07,Gagarawa,Mohammed Badaru Abubakar,APC,15565,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-07,Gagarawa,Aminu Ibrahim Ringim,PDP,8411,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-10,Guri,Mohammed Badaru Abubakar,APC,20953,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-10,Guri,Aminu Ibrahim Ringim,PDP,7410,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-05,Buji,Mohammed Badaru Abubakar,APC,21406,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-05,Buji,Aminu Ibrahim Ringim,PDP,9389,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-12,Gwiwa,Mohammed Badaru Abubakar,APC,24235,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-12,Gwiwa,Aminu Ibrahim Ringim,PDP,7746,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-09,Gumel,Mohammed Badaru Abubakar,APC,15800,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-09,Gumel,Aminu Ibrahim Ringim,PDP,5298,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-01,Auyo,Mohammed Badaru Abubakar,APC,27771,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-01,Auyo,Aminu Ibrahim Ringim,PDP,7879,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-17,Kazaure,Mohammed Badaru Abubakar,APC,22074,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-17,Kazaure,Aminu Ibrahim Ringim,PDP,3216,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-26,Taura,Mohammed Badaru Abubakar,APC,32735,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-26,Taura,Aminu Ibrahim Ringim,PDP,11417,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-13,Hadejia,Mohammed Badaru Abubakar,APC,27240,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-13,Hadejia,Aminu Ibrahim Ringim,PDP,4399,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-22,Miga,Mohammed Badaru Abubakar,APC,22746,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-22,Miga,Aminu Ibrahim Ringim,PDP,9269,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-14,Jahun,Mohammed Badaru Abubakar,APC,41937,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-14,Jahun,Aminu Ibrahim Ringim,PDP,16119,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-08,Garki,Mohammed Badaru Abubakar,APC,33674,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-08,Garki,Aminu Ibrahim Ringim,PDP,15147,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-10,Guri,Mohammed Badaru Abubakar,APC,20953,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-10,Guri,Aminu Ibrahim Ringim,PDP,7410,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-21,Malam Madori,Mohammed Badaru Abubakar,APC,27616,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-21,Malam Madori,Aminu Ibrahim Ringim,PDP,7397,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-16,Kaugama,Mohammed Badaru Abubakar,APC,26025,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-16,Kaugama,Aminu Ibrahim Ringim,PDP,7384,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-25,Sule Tankarkar,Mohammed Badaru Abubakar,APC,32154,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-25,Sule Tankarkar,Aminu Ibrahim Ringim,PDP,12543,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-06,Dutse,Mohammed Badaru Abubakar,APC,43165,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-06,Dutse,Aminu Ibrahim Ringim,PDP,15108,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-02,Babura,Mohammed Badaru Abubakar,APC,43601,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-02,Babura,Aminu Ibrahim Ringim,PDP,9131,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-18,Kiri Kasama,Mohammed Badaru Abubakar,APC,26338,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-18,Kiri Kasama,Aminu Ibrahim Ringim,PDP,9333,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-27,Yankwashi,Mohammed Badaru Abubakar,APC,11880,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-27,Yankwashi,Aminu Ibrahim Ringim,PDP,5677,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-23,Ringim,Mohammed Badaru Abubakar,APC,41481,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-23,Ringim,Aminu Ibrahim Ringim,PDP,28035,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-24,Roni,Mohammed Badaru Abubakar,APC,19516,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-24,Roni,Aminu Ibrahim Ringim,PDP,5013,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-11,Gwaram,Mohammed Badaru Abubakar,APC,58210,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-11,Gwaram,Aminu Ibrahim Ringim,PDP,12538,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-03,Biriniwa,Mohammed Badaru Abubakar,APC,24993,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-03,Biriniwa,Aminu Ibrahim Ringim,PDP,12227,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-19,Kiyawa,Mohammed Badaru Abubakar,APC,36255,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-19,Kiyawa,Aminu Ibrahim Ringim,PDP,12866,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-15,Kafin Hausa,Mohammed Badaru Abubakar,APC,38989,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-15,Kafin Hausa,Aminu Ibrahim Ringim,PDP,10133,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-04,Birnin Kudu,Mohammed Badaru Abubakar,APC,48401,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-04,Birnin Kudu,Aminu Ibrahim Ringim,PDP,22777,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-20,Maigatari,Mohammed Badaru Abubakar,APC,26126,wikipedia:governorship:2019:JI
+gov-ji-2019,JI,JI-20,Maigatari,Aminu Ibrahim Ringim,PDP,12494,wikipedia:governorship:2019:JI
+gov-kt-2019,KT,KT-11,Dutsi,Aminu Bello Masari,APC,22482,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-11,Dutsi,Garba Yakubu Lado,PDP,10564,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-28,Matazu,Aminu Bello Masari,APC,28253,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-28,Matazu,Garba Yakubu Lado,PDP,10327,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-33,Sandamu,Aminu Bello Masari,APC,32193,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-33,Sandamu,Garba Yakubu Lado,PDP,11912,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-23,Kusada,Aminu Bello Masari,APC,20799,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-23,Kusada,Garba Yakubu Lado,PDP,8080,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-34,Zango,Aminu Bello Masari,APC,23193,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-34,Zango,Garba Yakubu Lado,PDP,11662,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-30,Rimi,Aminu Bello Masari,APC,36276,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-30,Rimi,Garba Yakubu Lado,PDP,12496,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-15,Ingawa,Aminu Bello Masari,APC,28905,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-15,Ingawa,Garba Yakubu Lado,PDP,12602,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-04,Baure,Aminu Bello Masari,APC,41076,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-04,Baure,Garba Yakubu Lado,PDP,18012,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-26,Mani,Aminu Bello Masari,APC,34254,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-26,Mani,Garba Yakubu Lado,PDP,16476,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-21,Katsina,Aminu Bello Masari,APC,64709,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-21,Katsina,Garba Yakubu Lado,PDP,16734,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-16,Jibia,Aminu Bello Masari,APC,30538,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-16,Jibia,Garba Yakubu Lado,PDP,12616,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-07,Dan Musa,Aminu Bello Masari,APC,28008,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-07,Dan Musa,Garba Yakubu Lado,PDP,10306,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-02,Batagarawa,Aminu Bello Masari,APC,39420,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-02,Batagarawa,Garba Yakubu Lado,PDP,12512,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-20,Kankia,Aminu Bello Masari,APC,29096,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-20,Kankia,Garba Yakubu Lado,PDP,14706,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-24,Mai'Adua,Aminu Bello Masari,APC,34154,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-24,Mai'Adua,Garba Yakubu Lado,PDP,12904,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-03,Batsari,Aminu Bello Masari,APC,33742,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-03,Batsari,Garba Yakubu Lado,PDP,14142,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-18,Kaita,Aminu Bello Masari,APC,27076,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-18,Kaita,Garba Yakubu Lado,PDP,11479,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-27,Mashi,Aminu Bello Masari,APC,34695,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-27,Mashi,Garba Yakubu Lado,PDP,19255,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-08,Dandume,Aminu Bello Masari,APC,32560,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-08,Dandume,Garba Yakubu Lado,PDP,13533,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-05,Bindawa,Aminu Bello Masari,APC,34659,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-05,Bindawa,Garba Yakubu Lado,PDP,13183,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-12,Dutsin-Ma,Aminu Bello Masari,APC,32568,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-12,Dutsin-Ma,Garba Yakubu Lado,PDP,16246,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-29,Musawa,Aminu Bello Masari,APC,32276,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-29,Musawa,Garba Yakubu Lado,PDP,10151,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-22,Kurfi,Aminu Bello Masari,APC,24994,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-22,Kurfi,Garba Yakubu Lado,PDP,12815,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-32,Safana,Aminu Bello Masari,APC,26807,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-32,Safana,Garba Yakubu Lado,PDP,10657,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-10,Daura,Aminu Bello Masari,APC,31361,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-10,Daura,Garba Yakubu Lado,PDP,8298,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-13,Faskari,Aminu Bello Masari,APC,45777,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-13,Faskari,Garba Yakubu Lado,PDP,20329,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-31,Sabuwa,Aminu Bello Masari,APC,22359,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-31,Sabuwa,Garba Yakubu Lado,PDP,14384,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-09,Danja,Aminu Bello Masari,APC,36467,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-09,Danja,Garba Yakubu Lado,PDP,17845,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-14,Funtua,Aminu Bello Masari,APC,43883,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-14,Funtua,Garba Yakubu Lado,PDP,16597,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-25,Malumfashi,Aminu Bello Masari,APC,56008,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-25,Malumfashi,Garba Yakubu Lado,PDP,21132,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-01,Bakori,Aminu Bello Masari,APC,44143,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-01,Bakori,Garba Yakubu Lado,PDP,20237,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-06,Charanchi,Aminu Bello Masari,APC,24692,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-06,Charanchi,Garba Yakubu Lado,PDP,9781,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-19,Kankara,Aminu Bello Masari,APC,43341,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-19,Kankara,Garba Yakubu Lado,PDP,23856,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-17,Kafur,Aminu Bello Masari,APC,58148,wikipedia:governorship:2019:KT
+gov-kt-2019,KT,KT-17,Kafur,Garba Yakubu Lado,PDP,22792,wikipedia:governorship:2019:KT
+gov-ni-2019,NI,NI-09,Gurara,Abubakar Sani Bello,APC,14649,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-09,Gurara,Umar Nasko,PDP,7798,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-18,Munya,Abubakar Sani Bello,APC,14879,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-18,Munya,Umar Nasko,PDP,8458,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-24,Tafa,Abubakar Sani Bello,APC,13111,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-24,Tafa,Umar Nasko,PDP,8608,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-23,Suleja,Abubakar Sani Bello,APC,19105,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-23,Suleja,Umar Nasko,PDP,14975,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-10,Katcha,Abubakar Sani Bello,APC,20171,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-10,Katcha,Umar Nasko,PDP,9800,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-05,Bosso,Abubakar Sani Bello,APC,19610,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-05,Bosso,Umar Nasko,PDP,11470,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-19,Paikoro,Abubakar Sani Bello,APC,21571,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-19,Paikoro,Umar Nasko,PDP,13600,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-25,Wushishi,Abubakar Sani Bello,APC,13199,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-25,Wushishi,Umar Nasko,PDP,8309,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-13,Lavun,Abubakar Sani Bello,APC,27345,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-13,Lavun,Umar Nasko,PDP,15335,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-21,Rijau,Abubakar Sani Bello,APC,22111,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-21,Rijau,Umar Nasko,PDP,9566,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-07,Edati,Abubakar Sani Bello,APC,19200,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-07,Edati,Umar Nasko,PDP,10200,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-20,Rafi,Abubakar Sani Bello,APC,28289,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-20,Rafi,Umar Nasko,PDP,13372,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-06,Chanchaga,Abubakar Sani Bello,APC,27764,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-06,Chanchaga,Umar Nasko,PDP,21179,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-08,Gbako,Abubakar Sani Bello,APC,24836,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-08,Gbako,Umar Nasko,PDP,10623,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-01,Agaie,Abubakar Sani Bello,APC,19295,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-01,Agaie,Umar Nasko,PDP,16903,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-16,Mashegu,Abubakar Sani Bello,APC,18102,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-16,Mashegu,Umar Nasko,PDP,10988,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-15,Mariga,Abubakar Sani Bello,APC,17890,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-15,Mariga,Umar Nasko,PDP,13433,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-04,Borgu,Abubakar Sani Bello,APC,25211,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-04,Borgu,Umar Nasko,PDP,7206,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-14,Magama,Abubakar Sani Bello,APC,20540,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-14,Magama,Umar Nasko,PDP,17633,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-03,Bida,Abubakar Sani Bello,APC,21493,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-03,Bida,Umar Nasko,PDP,11212,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-02,Agwara,Abubakar Sani Bello,APC,11236,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-02,Agwara,Umar Nasko,PDP,5365,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-12,Lapai,Abubakar Sani Bello,APC,24724,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-12,Lapai,Umar Nasko,PDP,10599,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-22,Shiroro,Abubakar Sani Bello,APC,28285,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-22,Shiroro,Umar Nasko,PDP,16438,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-17,Mokwa,Abubakar Sani Bello,APC,26679,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-17,Mokwa,Umar Nasko,PDP,13155,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-11,Kontagora,Abubakar Sani Bello,APC,27117,wikipedia:governorship:2019:NI
+gov-ni-2019,NI,NI-11,Kontagora,Umar Nasko,PDP,11888,wikipedia:governorship:2019:NI
+gov-so-2019,SO,SO-01,Binji,Aminu Tambuwal,PDP,13406,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-01,Binji,Ahmad Aliyu,APC,11216,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-02,Bodinga,Aminu Tambuwal,PDP,21725,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-02,Bodinga,Ahmad Aliyu,APC,21078,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-03,Dange Shuni,Aminu Tambuwal,PDP,23409,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-03,Dange Shuni,Ahmad Aliyu,APC,23990,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-04,Gada,Aminu Tambuwal,PDP,24598,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-04,Gada,Ahmad Aliyu,APC,30981,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-05,Goronyo,Aminu Tambuwal,PDP,19915,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-05,Goronyo,Ahmad Aliyu,APC,20867,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-06,Gudu,Aminu Tambuwal,PDP,15077,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-06,Gudu,Ahmad Aliyu,APC,12233,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-07,Gwadabawa,Aminu Tambuwal,PDP,21866,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-07,Gwadabawa,Ahmad Aliyu,APC,24928,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-08,Illela,Aminu Tambuwal,PDP,20977,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-08,Illela,Ahmad Aliyu,APC,26540,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-09,Isa,Aminu Tambuwal,PDP,24009,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-09,Isa,Ahmad Aliyu,APC,16830,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-10,Kebbe,Aminu Tambuwal,PDP,9751,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-10,Kebbe,Ahmad Aliyu,APC,11820,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-11,Kware,Aminu Tambuwal,PDP,20197,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-11,Kware,Ahmad Aliyu,APC,19212,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-12,Rabah,Aminu Tambuwal,PDP,14551,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-12,Rabah,Ahmad Aliyu,APC,17946,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-13,Sabon Birni,Aminu Tambuwal,PDP,34282,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-13,Sabon Birni,Ahmad Aliyu,APC,32257,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-14,Shagari,Aminu Tambuwal,PDP,18222,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-14,Shagari,Ahmad Aliyu,APC,19656,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-15,Silame,Aminu Tambuwal,PDP,16757,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-15,Silame,Ahmad Aliyu,APC,12845,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-16,Sokoto North,Aminu Tambuwal,PDP,36813,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-16,Sokoto North,Ahmad Aliyu,APC,33442,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-17,Sokoto South,Aminu Tambuwal,PDP,40337,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-17,Sokoto South,Ahmad Aliyu,APC,36092,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-18,Tambuwal,Aminu Tambuwal,PDP,44474,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-18,Tambuwal,Ahmad Aliyu,APC,30473,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-19,Tangaza,Aminu Tambuwal,PDP,17661,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-19,Tangaza,Ahmad Aliyu,APC,16374,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-20,Tureta,Aminu Tambuwal,PDP,13255,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-20,Tureta,Ahmad Aliyu,APC,11510,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-21,Wamako,Aminu Tambuwal,PDP,26392,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-21,Wamako,Ahmad Aliyu,APC,35251,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-22,Wurno,Aminu Tambuwal,PDP,14201,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-22,Wurno,Ahmad Aliyu,APC,20391,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-23,Yabo,Aminu Tambuwal,PDP,13405,wikipedia:governorship:2019:SO
+gov-so-2019,SO,SO-23,Yabo,Ahmad Aliyu,APC,16122,wikipedia:governorship:2019:SO
+gov-yo-2019,YO,YO-03,Damaturu,Mai Mala Buni,APC,26087,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-03,Damaturu,Umar Iliya Damagum,PDP,3760,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-06,Geidam,Mai Mala Buni,APC,18724,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-06,Geidam,Umar Iliya Damagum,PDP,2760,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-13,Nguru,Mai Mala Buni,APC,28366,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-13,Nguru,Umar Iliya Damagum,PDP,19468,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-01,Bade,Mai Mala Buni,APC,32213,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-01,Bade,Umar Iliya Damagum,PDP,8854,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-16,Yunusari,Mai Mala Buni,APC,28858,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-16,Yunusari,Umar Iliya Damagum,PDP,893,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-10,Karasuwa,Mai Mala Buni,APC,24262,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-10,Karasuwa,Umar Iliya Damagum,PDP,2762,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-17,Yusufari,Mai Mala Buni,APC,22221,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-17,Yusufari,Umar Iliya Damagum,PDP,2964,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-14,Potiskum,Mai Mala Buni,APC,54773,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-14,Potiskum,Umar Iliya Damagum,PDP,5114,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-05,Fune,Mai Mala Buni,APC,36040,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-05,Fune,Umar Iliya Damagum,PDP,14327,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-09,Jakusko,Mai Mala Buni,APC,30828,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-09,Jakusko,Umar Iliya Damagum,PDP,5887,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-02,Bursari,Mai Mala Buni,APC,20657,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-02,Bursari,Umar Iliya Damagum,PDP,2813,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-08,Gulani,Mai Mala Buni,APC,21765,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-08,Gulani,Umar Iliya Damagum,PDP,4576,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-04,Fika,Mai Mala Buni,APC,36519,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-04,Fika,Umar Iliya Damagum,PDP,9552,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-11,Machina,Mai Mala Buni,APC,16950,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-11,Machina,Umar Iliya Damagum,PDP,2164,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-12,Nangere,Mai Mala Buni,APC,25698,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-12,Nangere,Umar Iliya Damagum,PDP,4765,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-15,Tarmuwa,Mai Mala Buni,APC,11338,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-15,Tarmuwa,Umar Iliya Damagum,PDP,3925,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-07,Gujba,Mai Mala Buni,APC,17714,wikipedia:governorship:2019:YO
+gov-yo-2019,YO,YO-07,Gujba,Umar Iliya Damagum,PDP,1119,wikipedia:governorship:2019:YO
+gov-ba-2023,BA,BA-01,Alkaleri,Sadique Abubakar,APC,15798,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-01,Alkaleri,Halliru Dauda Jika,NNPP,2069,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-01,Alkaleri,Bala Mohammed,PDP,34387,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-01,Alkaleri,Others,OTH,598,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-02,Bauchi,Sadique Abubakar,APC,69850,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-02,Bauchi,Halliru Dauda Jika,NNPP,5749,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-02,Bauchi,Bala Mohammed,PDP,80390,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-02,Bauchi,Others,OTH,2920,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-03,Bogoro,Sadique Abubakar,APC,10436,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-03,Bogoro,Halliru Dauda Jika,NNPP,3253,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-03,Bogoro,Bala Mohammed,PDP,16589,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-03,Bogoro,Others,OTH,576,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-04,Damban,Sadique Abubakar,APC,11325,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-04,Damban,Halliru Dauda Jika,NNPP,4395,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-04,Damban,Bala Mohammed,PDP,13307,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-04,Damban,Others,OTH,1362,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-05,Darazo,Sadique Abubakar,APC,23544,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-05,Darazo,Halliru Dauda Jika,NNPP,3359,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-05,Darazo,Bala Mohammed,PDP,19736,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-05,Darazo,Others,OTH,901,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-06,Dass,Sadique Abubakar,APC,11596,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-06,Dass,Halliru Dauda Jika,NNPP,643,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-06,Dass,Bala Mohammed,PDP,14471,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-06,Dass,Others,OTH,1607,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-07,Gamawa,Sadique Abubakar,APC,22565,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-07,Gamawa,Halliru Dauda Jika,NNPP,1841,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-07,Gamawa,Bala Mohammed,PDP,21558,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-07,Gamawa,Others,OTH,272,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-08,Ganjuwa,Sadique Abubakar,APC,17606,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-08,Ganjuwa,Halliru Dauda Jika,NNPP,7387,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-08,Ganjuwa,Bala Mohammed,PDP,20924,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-08,Ganjuwa,Others,OTH,964,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-09,Giade,Sadique Abubakar,APC,18023,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-09,Giade,Halliru Dauda Jika,NNPP,1114,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-09,Giade,Bala Mohammed,PDP,14145,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-09,Giade,Others,OTH,119,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-10,Itas/Gadau,Sadique Abubakar,APC,16206,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-10,Itas/Gadau,Halliru Dauda Jika,NNPP,2913,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-10,Itas/Gadau,Bala Mohammed,PDP,18778,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-10,Itas/Gadau,Others,OTH,156,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-11,Jamaare,Sadique Abubakar,APC,11865,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-11,Jamaare,Halliru Dauda Jika,NNPP,3253,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-11,Jamaare,Bala Mohammed,PDP,13693,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-11,Jamaare,Others,OTH,154,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-12,Katagum,Sadique Abubakar,APC,35774,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-12,Katagum,Halliru Dauda Jika,NNPP,2376,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-12,Katagum,Bala Mohammed,PDP,25218,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-12,Katagum,Others,OTH,1360,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-13,Kirfi,Sadique Abubakar,APC,11631,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-13,Kirfi,Halliru Dauda Jika,NNPP,3571,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-13,Kirfi,Bala Mohammed,PDP,13454,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-13,Kirfi,Others,OTH,161,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-14,Misau,Sadique Abubakar,APC,26448,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-14,Misau,Halliru Dauda Jika,NNPP,1820,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-14,Misau,Bala Mohammed,PDP,16351,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-14,Misau,Others,OTH,1872,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-15,Ningi,Sadique Abubakar,APC,23795,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-15,Ningi,Halliru Dauda Jika,NNPP,4178,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-15,Ningi,Bala Mohammed,PDP,29515,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-15,Ningi,Others,OTH,316,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-16,Shira,Sadique Abubakar,APC,21644,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-16,Shira,Halliru Dauda Jika,NNPP,2536,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-16,Shira,Bala Mohammed,PDP,25373,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-16,Shira,Others,OTH,198,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-17,Tafawa Balewa,Sadique Abubakar,APC,22928,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-17,Tafawa Balewa,Halliru Dauda Jika,NNPP,3166,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-17,Tafawa Balewa,Bala Mohammed,PDP,35100,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-17,Tafawa Balewa,Others,OTH,833,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-18,Toro,Sadique Abubakar,APC,29848,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-18,Toro,Halliru Dauda Jika,NNPP,3634,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-18,Toro,Bala Mohammed,PDP,65456,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-18,Toro,Others,OTH,1517,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-19,Warji,Sadique Abubakar,APC,11783,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-19,Warji,Halliru Dauda Jika,NNPP,1812,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-19,Warji,Bala Mohammed,PDP,20416,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-19,Warji,Others,OTH,335,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-20,Zaki,Sadique Abubakar,APC,19637,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-20,Zaki,Halliru Dauda Jika,NNPP,1415,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-20,Zaki,Bala Mohammed,PDP,26420,wikipedia:governorship:2023:BA
+gov-ba-2023,BA,BA-20,Zaki,Others,OTH,133,wikipedia:governorship:2023:BA
+gov-be-2023,BE,BE-01,Ado,Hyacinth Alia,APC,8662,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-01,Ado,Herman Hembe,LP,308,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-01,Ado,Titus Uba,PDP,4379,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-01,Ado,Others,OTH,1006,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-02,Agatu,Hyacinth Alia,APC,7482,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-02,Agatu,Herman Hembe,LP,216,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-02,Agatu,Titus Uba,PDP,9934,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-02,Agatu,Others,OTH,311,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-03,Apa,Hyacinth Alia,APC,7925,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-03,Apa,Herman Hembe,LP,465,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-03,Apa,Titus Uba,PDP,7806,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-03,Apa,Others,OTH,324,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-04,Buruku,Hyacinth Alia,APC,34713,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-04,Buruku,Herman Hembe,LP,1155,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-04,Buruku,Titus Uba,PDP,9513,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-04,Buruku,Others,OTH,556,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-05,Gboko,Hyacinth Alia,APC,53985,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-05,Gboko,Herman Hembe,LP,1493,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-05,Gboko,Titus Uba,PDP,18773,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-05,Gboko,Others,OTH,1065,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-06,Guma,Hyacinth Alia,APC,15371,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-06,Guma,Herman Hembe,LP,535,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-06,Guma,Titus Uba,PDP,22083,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-06,Guma,Others,OTH,250,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-07,Gwer East,Hyacinth Alia,APC,20083,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-07,Gwer East,Herman Hembe,LP,1272,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-07,Gwer East,Titus Uba,PDP,12085,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-07,Gwer East,Others,OTH,161,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-08,Gwer West,Hyacinth Alia,APC,10947,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-08,Gwer West,Herman Hembe,LP,1509,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-08,Gwer West,Titus Uba,PDP,13609,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-08,Gwer West,Others,OTH,90,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-09,Katsina-Ala,Hyacinth Alia,APC,34347,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-09,Katsina-Ala,Herman Hembe,LP,178,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-09,Katsina-Ala,Titus Uba,PDP,6716,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-09,Katsina-Ala,Others,OTH,428,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-10,Konshisha,Hyacinth Alia,APC,13997,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-10,Konshisha,Herman Hembe,LP,21606,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-10,Konshisha,Titus Uba,PDP,5905,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-10,Konshisha,Others,OTH,1598,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-12,Logo,Hyacinth Alia,APC,15574,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-12,Logo,Herman Hembe,LP,296,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-12,Logo,Titus Uba,PDP,16385,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-12,Logo,Others,OTH,327,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-13,Makurdi,Hyacinth Alia,APC,56432,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-13,Makurdi,Herman Hembe,LP,3792,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-13,Makurdi,Titus Uba,PDP,12329,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-13,Makurdi,Others,OTH,2012,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-14,Obi,Hyacinth Alia,APC,9897,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-14,Obi,Herman Hembe,LP,1185,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-14,Obi,Titus Uba,PDP,6267,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-14,Obi,Others,OTH,170,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-15,Ogbadibo,Hyacinth Alia,APC,7627,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-15,Ogbadibo,Herman Hembe,LP,405,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-15,Ogbadibo,Titus Uba,PDP,6032,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-15,Ogbadibo,Others,OTH,1779,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-16,Ohimini,Hyacinth Alia,APC,7233,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-16,Ohimini,Herman Hembe,LP,973,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-16,Ohimini,Titus Uba,PDP,6785,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-16,Ohimini,Others,OTH,760,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-17,Oju,Hyacinth Alia,APC,17245,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-17,Oju,Herman Hembe,LP,1611,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-17,Oju,Titus Uba,PDP,8811,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-17,Oju,Others,OTH,475,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-18,Okpokwu,Hyacinth Alia,APC,9326,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-18,Okpokwu,Herman Hembe,LP,1039,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-18,Okpokwu,Titus Uba,PDP,8634,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-18,Okpokwu,Others,OTH,304,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-19,Otukpo,Hyacinth Alia,APC,19430,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-19,Otukpo,Herman Hembe,LP,2187,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-19,Otukpo,Titus Uba,PDP,12834,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-19,Otukpo,Others,OTH,2447,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-20,Tarka,Hyacinth Alia,APC,16422,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-20,Tarka,Herman Hembe,LP,175,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-20,Tarka,Titus Uba,PDP,3748,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-20,Tarka,Others,OTH,287,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-21,Ukum,Hyacinth Alia,APC,28503,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-21,Ukum,Herman Hembe,LP,439,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-21,Ukum,Titus Uba,PDP,9418,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-21,Ukum,Others,OTH,280,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-22,Ushongo,Hyacinth Alia,APC,31946,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-22,Ushongo,Herman Hembe,LP,913,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-22,Ushongo,Titus Uba,PDP,8879,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-22,Ushongo,Others,OTH,918,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-23,Vandeikya,Hyacinth Alia,APC,46786,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-23,Vandeikya,Herman Hembe,LP,129,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-23,Vandeikya,Titus Uba,PDP,12988,wikipedia:governorship:2023:BE
+gov-be-2023,BE,BE-23,Vandeikya,Others,OTH,1589,wikipedia:governorship:2023:BE
+gov-by-2023,BY,BY-01,Brass,Timipre Sylva,APC,18431,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-01,Brass,Douye Diri,PDP,12602,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-01,Brass,Others,OTH,178,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-02,Ekeremor,Timipre Sylva,APC,8445,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-02,Ekeremor,Douye Diri,PDP,23172,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-02,Ekeremor,Others,OTH,124,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-03,Kolokuma/Opokuma,Timipre Sylva,APC,5344,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-03,Kolokuma/Opokuma,Douye Diri,PDP,18465,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-03,Kolokuma/Opokuma,Others,OTH,109,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-04,Nembe,Timipre Sylva,APC,22248,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-04,Nembe,Douye Diri,PDP,4556,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-04,Nembe,Others,OTH,232,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-05,Ogbia,Timipre Sylva,APC,16319,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-05,Ogbia,Douye Diri,PDP,18435,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-05,Ogbia,Others,OTH,217,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-06,Sagbama,Timipre Sylva,APC,6608,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-06,Sagbama,Douye Diri,PDP,35504,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-06,Sagbama,Others,OTH,355,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-07,Southern Ijaw,Timipre Sylva,APC,18174,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-07,Southern Ijaw,Douye Diri,PDP,24685,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-07,Southern Ijaw,Others,OTH,299,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-08,Yenagoa,Timipre Sylva,APC,14534,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-08,Yenagoa,Douye Diri,PDP,37777,wikipedia:governorship:2023:BY
+gov-by-2023,BY,BY-08,Yenagoa,Others,OTH,741,wikipedia:governorship:2023:BY
+gov-kt-2023,KT,KT-01,Bakori,Umar Dikko Radda,APC,29892,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-01,Bakori,Garba Yakubu Lado,PDP,19592,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-01,Bakori,Others,OTH,1340,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-02,Batagarawa,Umar Dikko Radda,APC,26326,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-02,Batagarawa,Garba Yakubu Lado,PDP,13510,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-02,Batagarawa,Others,OTH,519,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-03,Batsari,Umar Dikko Radda,APC,20053,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-03,Batsari,Garba Yakubu Lado,PDP,10247,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-03,Batsari,Others,OTH,496,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-04,Baure,Umar Dikko Radda,APC,32802,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-04,Baure,Garba Yakubu Lado,PDP,17888,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-04,Baure,Others,OTH,204,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-05,Bindawa,Umar Dikko Radda,APC,28997,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-05,Bindawa,Garba Yakubu Lado,PDP,12165,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-05,Bindawa,Others,OTH,1143,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-06,Charanchi,Umar Dikko Radda,APC,20782,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-06,Charanchi,Garba Yakubu Lado,PDP,7539,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-06,Charanchi,Others,OTH,154,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-07,Dan Musa,Umar Dikko Radda,APC,20145,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-07,Dan Musa,Garba Yakubu Lado,PDP,12514,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-07,Dan Musa,Others,OTH,96,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-08,Dandume,Umar Dikko Radda,APC,23710,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-08,Dandume,Garba Yakubu Lado,PDP,14792,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-08,Dandume,Others,OTH,613,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-09,Danja,Umar Dikko Radda,APC,28040,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-09,Danja,Garba Yakubu Lado,PDP,16302,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-09,Danja,Others,OTH,236,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-10,Daura,Umar Dikko Radda,APC,26548,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-10,Daura,Garba Yakubu Lado,PDP,10689,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-10,Daura,Others,OTH,312,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-11,Dutsi,Umar Dikko Radda,APC,15631,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-11,Dutsi,Garba Yakubu Lado,PDP,8419,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-11,Dutsi,Others,OTH,69,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-12,Dutsin-Ma,Umar Dikko Radda,APC,14328,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-12,Dutsin-Ma,Garba Yakubu Lado,PDP,14328,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-12,Dutsin-Ma,Others,OTH,1890,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-13,Faskari,Umar Dikko Radda,APC,27366,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-13,Faskari,Garba Yakubu Lado,PDP,22565,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-13,Faskari,Others,OTH,314,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-14,Funtua,Umar Dikko Radda,APC,31924,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-14,Funtua,Garba Yakubu Lado,PDP,19849,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-14,Funtua,Others,OTH,828,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-15,Ingawa,Umar Dikko Radda,APC,22080,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-15,Ingawa,Garba Yakubu Lado,PDP,12255,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-15,Ingawa,Others,OTH,594,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-16,Jibia,Umar Dikko Radda,APC,21216,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-16,Jibia,Garba Yakubu Lado,PDP,13259,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-16,Jibia,Others,OTH,254,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-17,Kafur,Umar Dikko Radda,APC,42660,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-17,Kafur,Garba Yakubu Lado,PDP,18733,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-17,Kafur,Others,OTH,489,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-18,Kaita,Umar Dikko Radda,APC,24121,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-18,Kaita,Garba Yakubu Lado,PDP,9824,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-18,Kaita,Others,OTH,262,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-19,Kankara,Umar Dikko Radda,APC,21652,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-19,Kankara,Garba Yakubu Lado,PDP,27984,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-19,Kankara,Others,OTH,276,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-20,Kankia,Umar Dikko Radda,APC,18249,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-20,Kankia,Garba Yakubu Lado,PDP,14830,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-20,Kankia,Others,OTH,131,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-21,Katsina,Umar Dikko Radda,APC,47241,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-21,Katsina,Garba Yakubu Lado,PDP,28982,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-21,Katsina,Others,OTH,2768,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-22,Kurfi,Umar Dikko Radda,APC,18750,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-22,Kurfi,Garba Yakubu Lado,PDP,10545,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-22,Kurfi,Others,OTH,2254,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-23,Kusada,Umar Dikko Radda,APC,13750,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-23,Kusada,Garba Yakubu Lado,PDP,11151,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-23,Kusada,Others,OTH,83,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-24,Mai'Adua,Umar Dikko Radda,APC,28436,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-24,Mai'Adua,Garba Yakubu Lado,PDP,11506,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-24,Mai'Adua,Others,OTH,188,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-25,Malumfashi,Umar Dikko Radda,APC,43522,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-25,Malumfashi,Garba Yakubu Lado,PDP,24676,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-25,Malumfashi,Others,OTH,1021,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-26,Mani,Umar Dikko Radda,APC,29678,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-26,Mani,Garba Yakubu Lado,PDP,16180,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-26,Mani,Others,OTH,489,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-27,Mashi,Umar Dikko Radda,APC,29678,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-27,Mashi,Garba Yakubu Lado,PDP,16180,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-27,Mashi,Others,OTH,489,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-28,Matazu,Umar Dikko Radda,APC,18363,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-28,Matazu,Garba Yakubu Lado,PDP,10551,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-28,Matazu,Others,OTH,56,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-30,Rimi,Umar Dikko Radda,APC,28202,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-30,Rimi,Garba Yakubu Lado,PDP,13823,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-30,Rimi,Others,OTH,604,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-31,Sabuwa ],Umar Dikko Radda,APC,16224,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-31,Sabuwa ],Garba Yakubu Lado,PDP,11340,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-31,Sabuwa ],Others,OTH,467,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-32,Safana,Umar Dikko Radda,APC,15417,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-32,Safana,Garba Yakubu Lado,PDP,10450,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-32,Safana,Others,OTH,262,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-33,Sandamu,Umar Dikko Radda,APC,21055,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-33,Sandamu,Garba Yakubu Lado,PDP,10641,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-33,Sandamu,Others,OTH,42,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-34,Zango,Umar Dikko Radda,APC,19757,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-34,Zango,Garba Yakubu Lado,PDP,10477,wikipedia:governorship:2023:KT
+gov-kt-2023,KT,KT-34,Zango,Others,OTH,90,wikipedia:governorship:2023:KT
+gov-kw-2023,KW,KW-01,Asa,AbdulRahman AbdulRazaq,APC,14946,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-01,Asa,Shuaib Yaman Abdullahi,PDP,11183,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-01,Asa,Hakeem Lawal,SDP,953,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-01,Asa,Others,OTH,825,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-02,Baruten,AbdulRahman AbdulRazaq,APC,28060,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-02,Baruten,Shuaib Yaman Abdullahi,PDP,7987,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-02,Baruten,Hakeem Lawal,SDP,1492,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-02,Baruten,Others,OTH,335,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-03,Edu,AbdulRahman AbdulRazaq,APC,22485,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-03,Edu,Shuaib Yaman Abdullahi,PDP,17378,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-03,Edu,Hakeem Lawal,SDP,374,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-03,Edu,Others,OTH,1094,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-04,Ekiti,AbdulRahman AbdulRazaq,APC,6836,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-04,Ekiti,Shuaib Yaman Abdullahi,PDP,4273,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-04,Ekiti,Hakeem Lawal,SDP,170,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-04,Ekiti,Others,OTH,319,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-05,Ifelodun,AbdulRahman AbdulRazaq,APC,17599,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-05,Ifelodun,Shuaib Yaman Abdullahi,PDP,9085,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-05,Ifelodun,Hakeem Lawal,SDP,1559,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-05,Ifelodun,Others,OTH,763,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-06,Ilorin East,AbdulRahman AbdulRazaq,APC,23925,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-06,Ilorin East,Shuaib Yaman Abdullahi,PDP,14500,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-06,Ilorin East,Hakeem Lawal,SDP,2645,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-06,Ilorin East,Others,OTH,1100,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-07,Ilorin South,AbdulRahman AbdulRazaq,APC,20148,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-07,Ilorin South,Shuaib Yaman Abdullahi,PDP,12096,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-07,Ilorin South,Hakeem Lawal,SDP,2357,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-07,Ilorin South,Others,OTH,1348,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-08,Ilorin West,AbdulRahman AbdulRazaq,APC,46468,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-08,Ilorin West,Shuaib Yaman Abdullahi,PDP,32372,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-08,Ilorin West,Hakeem Lawal,SDP,1948,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-08,Ilorin West,Others,OTH,2970,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-09,Irepodun,AbdulRahman AbdulRazaq,APC,12860,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-09,Irepodun,Shuaib Yaman Abdullahi,PDP,7614,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-09,Irepodun,Hakeem Lawal,SDP,1693,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-09,Irepodun,Others,OTH,566,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-10,Isin,AbdulRahman AbdulRazaq,APC,5274,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-10,Isin,Shuaib Yaman Abdullahi,PDP,3400,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-10,Isin,Hakeem Lawal,SDP,567,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-10,Isin,Others,OTH,197,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-11,Kaiama,AbdulRahman AbdulRazaq,APC,14431,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-11,Kaiama,Shuaib Yaman Abdullahi,PDP,6297,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-11,Kaiama,Hakeem Lawal,SDP,624,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-11,Kaiama,Others,OTH,421,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-12,Moro,AbdulRahman AbdulRazaq,APC,15161,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-12,Moro,Shuaib Yaman Abdullahi,PDP,6823,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-12,Moro,Hakeem Lawal,SDP,1992,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-12,Moro,Others,OTH,490,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-13,Offa,AbdulRahman AbdulRazaq,APC,14696,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-13,Offa,Shuaib Yaman Abdullahi,PDP,6705,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-13,Offa,Hakeem Lawal,SDP,1289,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-13,Offa,Others,OTH,841,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-14,Oke Ero,AbdulRahman AbdulRazaq,APC,7758,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-14,Oke Ero,Shuaib Yaman Abdullahi,PDP,3768,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-14,Oke Ero,Hakeem Lawal,SDP,149,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-14,Oke Ero,Others,OTH,133,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-15,Oyun,AbdulRahman AbdulRazaq,APC,8991,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-15,Oyun,Shuaib Yaman Abdullahi,PDP,5465,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-15,Oyun,Hakeem Lawal,SDP,1068,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-15,Oyun,Others,OTH,656,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-16,Pategi,AbdulRahman AbdulRazaq,APC,13813,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-16,Pategi,Shuaib Yaman Abdullahi,PDP,6544,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-16,Pategi,Hakeem Lawal,SDP,389,wikipedia:governorship:2023:KW
+gov-kw-2023,KW,KW-16,Pategi,Others,OTH,230,wikipedia:governorship:2023:KW
+gov-ed-2024,ED,ED-10,Igueben,APC,APC,5907,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-10,Igueben,PDP,PDP,8470,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-10,Igueben,LP,LP,68,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-06,Esan West,APC,APC,12952,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-06,Esan West,PDP,PDP,11004,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-06,Esan West,LP,LP,323,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-17,Owan West,APC,APC,12277,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-17,Owan West,PDP,PDP,11284,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-17,Owan West,LP,LP,285,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-18,Uhunmwonde,APC,APC,8776,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-18,Uhunmwonde,PDP,PDP,9339,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-18,Uhunmwonde,LP,LP,490,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-14,Ovia North East,APC,APC,13225,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-14,Ovia North East,PDP,PDP,15311,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-14,Ovia North East,LP,LP,1862,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-05,Esan South East,APC,APC,8398,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-05,Esan South East,PDP,PDP,14199,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-05,Esan South East,LP,LP,133,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-02,Egor,APC,APC,16760,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-02,Egor,PDP,PDP,14658,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-02,Egor,LP,LP,3131,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-01,Akoko Edo,APC,APC,34847,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-01,Akoko Edo,PDP,PDP,15865,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-01,Akoko Edo,LP,LP,2239,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-03,Esan Central,APC,APC,10990,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-03,Esan Central,PDP,PDP,8618,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-03,Esan Central,LP,LP,167,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-04,Esan North East,APC,APC,10648,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-04,Esan North East,PDP,PDP,12522,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-04,Esan North East,LP,LP,194,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-15,Ovia South West,APC,APC,10150,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-15,Ovia South West,PDP,PDP,10260,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-15,Ovia South West,LP,LP,1026,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-13,Orhionmwon,APC,APC,16059,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-13,Orhionmwon,PDP,PDP,14614,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-13,Orhionmwon,LP,LP,866,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-16,Owan East,APC,APC,19380,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-16,Owan East,PDP,PDP,14189,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-16,Owan East,LP,LP,231,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-08,Etsako East,APC,APC,20167,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-08,Etsako East,PDP,PDP,9683,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-08,Etsako East,LP,LP,132,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-07,Etsako Central,APC,APC,11906,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-07,Etsako Central,PDP,PDP,8455,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-07,Etsako Central,LP,LP,285,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-09,Etsako West,APC,APC,32107,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-09,Etsako West,PDP,PDP,17483,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-09,Etsako West,LP,LP,2116,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-12,Oredo,APC,APC,30780,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-12,Oredo,PDP,PDP,24938,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-12,Oredo,LP,LP,5389,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-11,Ikpoba-Okha,APC,APC,16338,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-11,Ikpoba-Okha,PDP,PDP,26382,wikipedia:governorship:2024:ED
+gov-ed-2024,ED,ED-11,Ikpoba-Okha,LP,LP,4026,wikipedia:governorship:2024:ED
