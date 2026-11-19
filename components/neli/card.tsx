@@ -8,7 +8,8 @@ import { AnimatedNumber } from '@/components/motion/animated-number';
  */
 export function Card({ className, children, ...rest }: React.HTMLAttributes<HTMLElement>) {
   return (
-    <section className={cn('rounded-2xl bg-surface-2 shadow-surface-2', className)} {...rest}>
+    // overflow-hidden: row hover fills stay inside the rounded frame
+    <section className={cn('overflow-hidden rounded-2xl bg-surface-2 shadow-surface-2', className)} {...rest}>
       {children}
     </section>
   );

@@ -98,6 +98,8 @@ export function NigeriaMap({
   const [listHover, setListHover] = React.useState<string | null>(null);
   // Desktop: hovering a zone label greys out the states outside that zone.
   const [zoneHover, setZoneHover] = React.useState<string | null>(null);
+  // Hovering a party in the legend dims every state that party doesn't lead
+  const [partyHover, setPartyHover] = React.useState<PartyCode | null>(null);
   // True while the camera is moving; hover is ignored so nothing pops up mid-flight.
   const [moving, setMoving] = React.useState(false);
   React.useEffect(() => {
@@ -415,19 +417,24 @@ export function NigeriaMap({
               })}
             </g>
 
-            {/* zone highlight: states outside the hovered zone fade to grey */}
+            {/* zone / party highlight: states outside the hovered zone, or not led by the
+                hovered party, fade to grey */}
             <g aria-hidden pointerEvents='none'>
               {data.states.map((s) => (
                 <path
                   key={s.code}
                   d={S.states[s.code].d}
-                  fill='var(--map-state-empty)'
+                  fill='var(--map-state-dim)'
                   stroke='var(--map-state-stroke)'
                   strokeWidth={1.2}
                   vectorEffect='non-scaling-stroke'
                   style={{
                     opacity:
-                      !focus && zoneHover && s.zone !== zoneHover ? 0.9 : 0,
+                      !focus &&
+                      ((zoneHover && s.zone !== zoneHover) ||
+                        (partyHover && (!s.total || s.candidates[0]?.party !== partyHover)))
+                        ? 0.9
+                        : 0,
                     transition: `opacity ${reduced ? 0 : 160}ms cubic-bezier(0.32, 0.72, 0, 1)`,
                   }}
                 />
@@ -469,7 +476,11 @@ export function NigeriaMap({
                         strokeLinejoin='round'
                         style={{
                           opacity:
-                            outlineLga && outlineLga !== shape.id ? 0.6 : 1,
+                            partyHover && lead?.party !== partyHover
+                              ? 0.18
+                              : outlineLga && outlineLga !== shape.id
+                                ? 0.6
+                                : 1,
                           transition: 'opacity 80ms linear',
                         }}
                         pointerEvents='all'
@@ -707,7 +718,12 @@ export function NigeriaMap({
             {usedParties.map((p) => (
               <span
                 key={p}
-                className='text-label-xs text-text-sub-600 inline-flex items-center gap-1.5'
+                className={cn(
+                  'text-label-xs text-text-sub-600 inline-flex cursor-default items-center gap-1.5 transition-opacity duration-[160ms]',
+                  partyHover && partyHover !== p && 'opacity-50',
+                )}
+                onPointerEnter={(ev) => ev.pointerType === 'mouse' && setPartyHover(p)}
+                onPointerLeave={() => setPartyHover(null)}
               >
                 <span
                   className='size-3 rounded-sm'

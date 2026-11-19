@@ -662,6 +662,7 @@
     --map-neighbour-stroke: #e4e4e4;
     --map-sea: transparent;
     --map-state-empty: color-mix(in oklab, var(--primary-base) 7%, #ffffff);
+    --map-state-dim: #ececec;
     --map-state-stroke: #ffffff;
     --chart-grid: #d4d4d4;
     --chart-axis: #a3a3a3;
@@ -779,6 +780,7 @@
     --map-neighbour-stroke: #2a2a2a;
     --map-sea: transparent;
     --map-state-empty: color-mix(in oklab, #3f8f3f 10%, #1c1c1c);
+    --map-state-dim: #262626;
     --map-state-stroke: #171717;
     --chart-grid: #3a3a3a;
     --chart-axis: #5c5c5c;

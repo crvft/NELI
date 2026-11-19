@@ -1,6 +1,7 @@
 import { PARTIES } from '@/lib/parties';
 import type { Tally } from '@/lib/analytics';
 import { cn } from '@/utils/cn';
+import { Hint, HintRow } from './hint';
 
 /** Horizontal stacked share bar. 2px surface gaps between segments. */
 export function ShareBar({ tally, className, height = 'h-3' }: { tally: Tally[]; className?: string; height?: string }) {
@@ -11,7 +12,19 @@ export function ShareBar({ tally, className, height = 'h-3' }: { tally: Tally[];
       {tally
         .filter((t) => t.share > 0.003)
         .map((t) => (
-          <div key={t.personId} title={`${t.name} (${t.party}) ${(t.share * 100).toFixed(1)}%`} style={{ width: `${t.share * 100}%`, background: PARTIES[t.party].color }} className='h-full first:rounded-l-full last:rounded-r-full' />
+          <Hint
+            key={t.personId}
+            content={
+              <>
+                <HintRow color={PARTIES[t.party].color} label={t.name} value={`${(t.share * 100).toFixed(1)}%`} />
+                <div className='mt-1'>
+                  {t.party === 'OTH' ? 'Other candidates' : PARTIES[t.party].name} · {t.votes.toLocaleString('en-NG')} votes
+                </div>
+              </>
+            }
+          >
+            <div style={{ width: `${t.share * 100}%`, background: PARTIES[t.party].color }} className='h-full first:rounded-l-full last:rounded-r-full' />
+          </Hint>
         ))}
     </div>
   );

@@ -8,6 +8,8 @@ import { IconChevronRight } from '@/components/icons';
 import { PARTIES, type PartyCode } from '@/lib/parties';
 import { Card, CardHeader } from './card';
 import { PartyTag } from './party';
+import { FluidHover } from '@/components/motion/fluid-hover';
+import { Hint, HintRow } from './hint';
 
 export type LegislativeRace = {
   id: string;
@@ -85,7 +87,9 @@ export function LegislativeView({
               {[...seats.entries()]
                 .sort((a, b) => b[1] - a[1])
                 .map(([p, n]) => (
-                  <div key={p} style={{ width: `${(n / sel.races.length) * 100}%`, background: PARTIES[p].color }} title={`${p}: ${n}`} />
+                  <Hint key={p} content={<HintRow color={PARTIES[p].color} label={PARTIES[p].name} value={`${n} seat${n === 1 ? '' : 's'}`} />}>
+                    <div style={{ width: `${(n / sel.races.length) * 100}%`, background: PARTIES[p].color }} />
+                  </Hint>
                 ))}
             </div>
             <div className='flex flex-wrap gap-x-4 gap-y-1.5'>
@@ -102,13 +106,13 @@ export function LegislativeView({
 
           <Card>
             <CardHeader title={`${label} results, ${sel.year}`} description='Winner in each district; share and margin where the vote count is on record' />
-            <ul className='divide-stroke-soft-200 divide-y'>
+            <FluidHover as='ul' className='p-1' radius={10} gapClick={4}>
               {sel.races
                 .slice()
                 .sort((a, b) => a.district.localeCompare(b.district))
                 .map((r) => (
-                  <li key={r.id}>
-                    <Link href={`/elections/${r.id}` as Route} className='hover:bg-hover flex items-center gap-3 px-4 py-3 transition-colors duration-[80ms] sm:px-5'>
+                  <li key={r.id} data-fluid-item className='relative'>
+                    <Link href={`/elections/${r.id}` as Route} className='flex items-center gap-3 rounded-[10px] px-3 py-3 sm:px-4'>
                       <div className='min-w-0 flex-1'>
                         <div className='text-label-sm text-text-strong-950 truncate'>{r.district}</div>
                         <div className='text-paragraph-xs text-text-sub-600 mt-0.5 flex min-w-0 flex-wrap items-center gap-x-2'>
@@ -131,7 +135,7 @@ export function LegislativeView({
                     </Link>
                   </li>
                 ))}
-            </ul>
+            </FluidHover>
           </Card>
         </>
       )}

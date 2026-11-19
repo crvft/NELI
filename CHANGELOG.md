@@ -5,6 +5,15 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 
 ---
 
+## Interaction polish
+
+- **Cards clip their contents,** so a row's hover fill never spills past the rounded corners.
+- **Politician pages:** the "In office" / "Not in office" chip sits beside the name.
+- **Map legend:** hovering a party dims every state (or LGA, when zoomed) it doesn't lead, like hovering a zone label.
+- **One tooltip style everywhere:** party tags, share bars (incl. "By geopolitical zone") and seat bars use the map's tooltip instead of the browser's.
+- **Fluid hover** on the politician election history, Senate/House lists, and every dropdown menu (incl. the state page's election picker); keyboard moves the same highlight.
+- **Elections page:** when each year has one election (e.g. Presidential), year groups flow in two columns; cards in a row share a height.
+
 ## Map fix: blank states
 
 - **Fix:** close-race states, those inside 8 points that should be striped, rendered pure white and ignored hover.

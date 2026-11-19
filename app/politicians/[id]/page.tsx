@@ -13,6 +13,7 @@ import { PartyTag } from '@/components/neli/party';
 import { LineChart } from '@/components/neli/line-chart';
 import { SourceBars } from '@/components/neli/zone-bars';
 import { LiveDot } from '@/components/neli/live-dot';
+import { FluidHover } from '@/components/motion/fluid-hover';
 
 // People with a Wikipedia profile or an executive office are prerendered; other
 // legislative candidates render on first visit and are then cached.
@@ -53,7 +54,9 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
         <div className='flex flex-col gap-5 sm:flex-row sm:items-center'>
           <PersonAvatar name={p.name} party={party} size='xl' />
           <div className='min-w-0 flex-1'>
-            <div className='mb-2 flex flex-wrap items-center gap-2'>
+            {/* Name with its office status beside it (wraps under on narrow screens) */}
+            <div className='flex flex-wrap items-center gap-x-3 gap-y-1.5'>
+              <h1 className='text-title-h5 tracking-tight text-text-strong-950 sm:text-title-h4'>{p.name}</h1>
               {role ? (
                 <span className='inline-flex h-6 items-center gap-1.5 rounded-md bg-success-lighter px-2 text-label-xs text-success-dark'>
                   <span className='size-1.5 rounded-full bg-success-base' /> In office
@@ -62,7 +65,6 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
                 <span className='inline-flex h-6 items-center rounded-md bg-bg-weak-50 px-2 text-label-xs text-text-sub-600'>Not in office</span>
               )}
             </div>
-            <h1 className='text-title-h5 tracking-tight text-text-strong-950 sm:text-title-h4'>{p.name}</h1>
             <p className='mt-1 text-paragraph-sm text-text-sub-600'>
               {role ? `${role.title}, since ${role.from}` : p.roles[0] ? `Former ${p.roles[0].title}` : 'Candidate'}
             </p>
@@ -127,10 +129,10 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
             {record.length === 0 ? (
               <p className='p-5 text-paragraph-sm text-text-sub-600'>{p.roles.some((r) => r.appointed) ? 'Appointed to office; has not contested an election on record.' : 'No elections on record yet.'}</p>
             ) : (
-              <ul className='divide-y divide-stroke-soft-200'>
+              <FluidHover as='ul' className='p-1' radius={10} gapClick={4}>
                 {record.map((r) => (
-                  <li key={r.election.id}>
-                    <Link href={r.election.status === 'live' ? '/' : `/elections/${r.election.id}`} className='flex items-center gap-3 px-4 py-3.5 transition-colors duration-[80ms] hover:bg-hover sm:px-5'>
+                  <li key={r.election.id} data-fluid-item className='relative'>
+                    <Link href={r.election.status === 'live' ? '/' : `/elections/${r.election.id}`} className='flex items-center gap-3 rounded-[10px] px-3 py-3 sm:px-4'>
                       <span className='grid size-9 shrink-0 place-items-center rounded-full bg-bg-weak-50'>
                         {r.election.status === 'concluded' ? (
                           r.won ? (
@@ -169,7 +171,7 @@ export default async function PersonPage({ params }: { params: Promise<{ id: str
                     </Link>
                   </li>
                 ))}
-              </ul>
+              </FluidHover>
             )}
           </Card>
         </div>

@@ -4,6 +4,8 @@ import * as React from 'react';
 import * as Dropdown from '@radix-ui/react-dropdown-menu';
 import { IconCheck, IconChevronDown, IconSort } from '@/components/icons';
 import { cn } from '@/utils/cn';
+import { motion, useReducedMotion } from 'motion/react';
+import { spring } from '@/lib/motion';
 
 export type SortOption<K extends string> = { value: K; label: string; hint?: string };
 
@@ -33,8 +35,11 @@ export function SortMenu<K extends string>({
   align?: 'start' | 'end';
 }) {
   const current = options.find((o) => o.value === value) ?? options[0];
+  // Fluid highlight: one fill glides to whichever item is highlighted (pointer or keys)
+  const [lit, setLit] = React.useState<{ top: number; height: number } | null>(null);
+  const reduced = useReducedMotion();
   return (
-    <Dropdown.Root modal={false}>
+    <Dropdown.Root modal={false} onOpenChange={(o) => !o && setLit(null)}>
       <Dropdown.Trigger
         className={cn(
           'hit bg-surface-2 text-label-xs text-text-sub-600 shadow-surface-2 hover:bg-hover hover:text-text-strong-950 data-[state=open]:bg-hover data-[state=open]:text-text-strong-950 inline-flex h-7 shrink-0 items-center gap-1.5 rounded-lg pr-1.5 pl-2 outline-hidden transition-colors duration-[80ms] focus-visible:shadow-[0_0_0_2px_var(--primary-alpha-24)]',
@@ -60,12 +65,24 @@ export function SortMenu<K extends string>({
           <Dropdown.RadioGroup
             value={value}
             onValueChange={(v) => onChange(v as K)}
+            onPointerLeave={() => setLit(null)}
+            className='relative isolate'
           >
+            {lit && (
+              <motion.div
+                aria-hidden
+                className='bg-hover absolute inset-x-0 -z-10 rounded-lg'
+                initial={false}
+                animate={{ top: lit.top, height: lit.height }}
+                transition={reduced ? { duration: 0 } : spring.moderate}
+              />
+            )}
             {options.map((o) => (
               <Dropdown.RadioItem
                 key={o.value}
                 value={o.value}
-                className='hit text-paragraph-sm text-text-strong-950 data-[highlighted]:bg-hover relative flex min-h-8 py-1.5 cursor-pointer items-center gap-2 rounded-lg pr-8 pl-2.5 outline-hidden transition-colors duration-[80ms] select-none data-[state=checked]:font-[550]'
+                onFocus={(e) => setLit({ top: e.currentTarget.offsetTop, height: e.currentTarget.offsetHeight })}
+                className='hit text-paragraph-sm text-text-strong-950 relative flex min-h-8 py-1.5 cursor-pointer items-center gap-2 rounded-lg pr-8 pl-2.5 outline-hidden transition-colors duration-[80ms] select-none data-[state=checked]:font-[550]'
               >
                 <span className='flex flex-col'>
                   {o.label}
