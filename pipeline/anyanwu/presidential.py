@@ -280,6 +280,10 @@ def simulate(mean: np.ndarray, totals: np.ndarray, sigma: Sigma, n: int = 8000, 
     return Forecast(cons or [], mean, s, t, sigma)
 
 
-def forecast(prev: Race, cons: list[Contestant], p: Params, sigma: Sigma, attention=None, **kw) -> Forecast:
-    mean = base_shares(prev, cons, p, attention)
+def forecast(
+    prev: Race, cons: list[Contestant], p: Params, sigma: Sigma, attention=None, poll=None, lam: float = 0.0, **kw
+) -> Forecast:
+    from . import polls
+
+    mean = polls.apply(base_shares(prev, cons, p, attention), prev.totals, poll, lam)
     return simulate(mean, prev.totals, sigma, cons=cons, **kw)

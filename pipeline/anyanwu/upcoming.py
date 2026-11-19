@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+from urllib.parse import unquote
 
 from bs4 import BeautifulSoup
 
@@ -19,11 +20,17 @@ GENERAL_CYCLE = [c for c in STATES if c not in OFF_CYCLE and c != "FC"]
 
 def nominees(html: str) -> list[tuple[str, str]]:
     """(candidate, party code) pairs from an election infobox's Nominee/Party rows."""
+    return [(n, p) for n, p, _ in nominees_with_links(html)]
+
+
+def nominees_with_links(html: str) -> list[tuple[str, str, str | None]]:
+    """(candidate, party code, Wikipedia title of the candidate's article or None)."""
     soup = BeautifulSoup(html, "lxml")
     box = soup.select_one("table.infobox")
     if box is None:
         return []
-    out: list[tuple[str, str]] = []
+    out: list[tuple[str, str, str | None]] = []
+    links: list[str | None] = []
     names: list[str] | None = None
     for tr in box.select("tr"):
         th = tr.find("th")
@@ -34,16 +41,23 @@ def nominees(html: str) -> list[tuple[str, str]]:
         cells = [c for c in cells if c]
         if label == "Nominee" and 0 < len(cells) <= 4:
             names = cells
+            tds = [td for td in tr.find_all("td", recursive=False) if td.get_text(strip=True)]
+            links = []
+            for td in tds:
+                a = td.find("a", href=True)
+                href = a["href"] if a and "new" not in (a.get("class") or []) else ""
+                m = re.search(r"/wiki/([^?#]+)$", href)
+                links.append(unquote(m.group(1)) if m and ":" not in m.group(1) else None)
         elif label == "Party" and names and 0 < len(cells) <= 4:
-            for n, p in zip(names, cells, strict=False):
+            for n, p, ln in zip(names, cells, links, strict=False):
                 code = normalise_party(p) or p
-                out.append((re.sub(r"\s+", " ", n), code))
+                out.append((re.sub(r"\s+", " ", n), code, ln))
             names = None
     seen, uniq = set(), []
-    for n, p in out:
+    for n, p, ln in out:
         if n not in seen:
             seen.add(n)
-            uniq.append((n, p))
+            uniq.append((n, p, ln))
     return uniq
 
 
@@ -58,7 +72,14 @@ def governorship_2027() -> dict[str, dict]:
         except Exception:  # noqa: BLE001 - article may not exist yet
             continue
         rec = wikipedia.record(f"wikipedia:governorship:2027:{code}", title, html)
-        out[code] = {"title": title, "date": GOVERNORSHIP_DATE, "nominees": nominees(html), "source_key": rec.key}
+        noms = nominees_with_links(html)
+        out[code] = {
+            "title": title,
+            "date": GOVERNORSHIP_DATE,
+            "nominees": [(n, p) for n, p, _ in noms],
+            "links": {n: ln for n, _, ln in noms},
+            "source_key": rec.key,
+        }
     return out
 
 

@@ -1,0 +1,51 @@
+year,pollster,fieldwork_end,sample,method,candidate,share,source
+2015,Afrobarometer,2014-12-27,2400,face-to-face survey,Muhammadu Buhari,42,wikipedia:presidential:2015
+2015,Afrobarometer,2014-12-27,2400,face-to-face survey,Goodluck Jonathan,42,wikipedia:presidential:2015
+2015,Sahara Reporters,2014-10-15,15435,self-selected online,Muhammadu Buhari,79,wikipedia:presidential:2015
+2015,Sahara Reporters,2014-10-15,15435,self-selected online,Goodluck Jonathan,21,wikipedia:presidential:2015
+2015,NigerianEye,2015-01-20,7043,self-selected online,Muhammadu Buhari,72,wikipedia:presidential:2015
+2015,NigerianEye,2015-01-20,7043,self-selected online,Goodluck Jonathan,25,wikipedia:presidential:2015
+2015,WorldStage Newsonline,2015-03-27,1886,self-selected online,Muhammadu Buhari,35.53,wikipedia:presidential:2015
+2015,WorldStage Newsonline,2015-03-27,1886,self-selected online,Goodluck Jonathan,64.48,wikipedia:presidential:2015
+2019,Seamfix,2019-01-04,2440,unclear,Atiku Abubakar,48,wikipedia:presidential:2019
+2019,Seamfix,2019-01-04,2440,unclear,Muhammadu Buhari,25,wikipedia:presidential:2019
+2019,NigeriaVotes,2019-02-26,11326,unclear,Atiku Abubakar,32,wikipedia:presidential:2019
+2019,NigeriaVotes,2019-02-26,11326,unclear,Muhammadu Buhari,42,wikipedia:presidential:2019
+2023,NOI Polls for Anap Foundation,2022-09-30,1000,phone survey,Bola Tinubu,13,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2022-09-30,1000,phone survey,Peter Obi,21,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2022-09-30,1000,phone survey,Rabiu Kwankwaso,3,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2022-09-30,1000,phone survey,Atiku Abubakar,13,wikipedia:presidential:2023
+2023,Premise Data for Bloomberg,2022-09-20,3027,smartphone app panel,Bola Tinubu,16,wikipedia:presidential:2023
+2023,Premise Data for Bloomberg,2022-09-20,3027,smartphone app panel,Peter Obi,72,wikipedia:presidential:2023
+2023,Premise Data for Bloomberg,2022-09-20,3027,smartphone app panel,Atiku Abubakar,9,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2022-12-31,1000,phone survey,Bola Tinubu,13,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2022-12-31,1000,phone survey,Peter Obi,23,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2022-12-31,1000,phone survey,Rabiu Kwankwaso,2,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2022-12-31,1000,phone survey,Atiku Abubakar,10,wikipedia:presidential:2023
+2023,SBM Intelligence,2022-12-31,7000,survey,Bola Tinubu,36,wikipedia:presidential:2023
+2023,SBM Intelligence,2022-12-31,7000,survey,Peter Obi,22,wikipedia:presidential:2023
+2023,SBM Intelligence,2022-12-31,7000,survey,Rabiu Kwankwaso,3,wikipedia:presidential:2023
+2023,SBM Intelligence,2022-12-31,7000,survey,Atiku Abubakar,33,wikipedia:presidential:2023
+2023,Nextier,2023-01-31,3000,survey,Bola Tinubu,24,wikipedia:presidential:2023
+2023,Nextier,2023-01-31,3000,survey,Peter Obi,37,wikipedia:presidential:2023
+2023,Nextier,2023-01-31,3000,survey,Rabiu Kwankwaso,6,wikipedia:presidential:2023
+2023,Nextier,2023-01-31,3000,survey,Atiku Abubakar,27,wikipedia:presidential:2023
+2023,Stears,2023-01-31,6220,survey,Bola Tinubu,15.5,wikipedia:presidential:2023
+2023,Stears,2023-01-31,6220,survey,Peter Obi,27.4,wikipedia:presidential:2023
+2023,Stears,2023-01-31,6220,survey,Rabiu Kwankwaso,2,wikipedia:presidential:2023
+2023,Stears,2023-01-31,6220,survey,Atiku Abubakar,12.3,wikipedia:presidential:2023
+2023,SBM Intelligence,2023-02-03,11534,survey,Bola Tinubu,18,wikipedia:presidential:2023
+2023,SBM Intelligence,2023-02-03,11534,survey,Peter Obi,36,wikipedia:presidential:2023
+2023,SBM Intelligence,2023-02-03,11534,survey,Rabiu Kwankwaso,1,wikipedia:presidential:2023
+2023,SBM Intelligence,2023-02-03,11534,survey,Atiku Abubakar,24,wikipedia:presidential:2023
+2023,Premise Data for Bloomberg,2023-02-04,2384,smartphone app panel,Bola Tinubu,18,wikipedia:presidential:2023
+2023,Premise Data for Bloomberg,2023-02-04,2384,smartphone app panel,Peter Obi,66,wikipedia:presidential:2023
+2023,Premise Data for Bloomberg,2023-02-04,2384,smartphone app panel,Atiku Abubakar,10,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2023-02-28,2000,phone survey,Bola Tinubu,13,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2023-02-28,2000,phone survey,Peter Obi,21,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2023-02-28,2000,phone survey,Rabiu Kwankwaso,3,wikipedia:presidential:2023
+2023,NOI Polls for Anap Foundation,2023-02-28,2000,phone survey,Atiku Abubakar,10,wikipedia:presidential:2023
+2023,Redfield & Wilton Strategies,2023-02-12,3351,online panel,Bola Tinubu,22,wikipedia:presidential:2023
+2023,Redfield & Wilton Strategies,2023-02-12,3351,online panel,Peter Obi,62,wikipedia:presidential:2023
+2023,Redfield & Wilton Strategies,2023-02-12,3351,online panel,Rabiu Kwankwaso,3,wikipedia:presidential:2023
+2023,Redfield & Wilton Strategies,2023-02-12,3351,online panel,Atiku Abubakar,12,wikipedia:presidential:2023

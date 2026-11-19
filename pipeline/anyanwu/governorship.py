@@ -33,6 +33,11 @@ FEATURES = [
     "log_last_gov",
     "log_last_pres",
     "personal_best",
+    # Offices held before the election (Wikipedia; see offices.py)
+    "was_deputy_governor",
+    "was_legislator",
+    "was_minister",
+    "was_state_executive",
 ]
 EPS = 0.002
 
@@ -92,6 +97,7 @@ def features(
     w_c: float = 1.5,
     w_0: float = 0.1,
     history: list[Race] | None = None,
+    office_flags: list[list[float]] | None = None,
 ) -> np.ndarray:
     g = carry(prev_gov, cons, w_c, w_0)
     p = (
@@ -126,6 +132,7 @@ def features(
                 np.log(g[k] + EPS),
                 np.log(p[k] + EPS),
                 best[k],
+                *(office_flags[k] if office_flags else [0.0, 0.0, 0.0, 0.0]),
             ]
         )
     return np.array(rows)
@@ -134,7 +141,7 @@ def features(
 def group_minor(cons: list[Contestant], X: np.ndarray, y: np.ndarray | None):
     """Fold candidates with no vote base anywhere (and not the incumbent) into one
     "Others" entry, so dozens of minor names don't each take a slice of the softmax."""
-    minor = (X[:, 0] < 0.01) & (X[:, 1] < 0.01) & (X[:, 2] == 0) & (X[:, 9] < 0.05)
+    minor = (X[:, 0] < 0.01) & (X[:, 1] < 0.01) & (X[:, 2] == 0) & (X[:, 9] < 0.05) & (X[:, 10:14].sum(1) == 0)
     if minor.sum() <= 1:
         return cons, X, y, list(range(len(cons)))
     keep = np.nonzero(~minor)[0].tolist()
@@ -143,6 +150,7 @@ def group_minor(cons: list[Contestant], X: np.ndarray, y: np.ndarray | None):
     xo[6] = 1.0
     xo[7:9] = np.log(xo[0:2] + EPS)
     xo[9] = 0.0
+    xo[10:14] = 0.0
     cons2 = [cons[i] for i in keep] + [Contestant("Others", "OTH")]
     X2 = np.vstack([X[keep], xo])
     y2 = None if y is None else np.append(y[keep], y[minor].sum())
@@ -155,13 +163,13 @@ def softmax(z: np.ndarray) -> np.ndarray:
     return e / e.sum()
 
 
-PRIOR = np.array([2.0, 1.5, 0.6, 0.3, 0.2, 0.2, -1.0, 1.0, 0.6, 1.0])
+PRIOR = np.array([2.0, 1.5, 0.6, 0.3, 0.2, 0.2, -1.0, 1.0, 0.6, 1.0, 0.3, 0.2, 0.2, 0.2])
 
 
 # Win probabilities use the shares directly; projected vote shares use their logs
 # (multiplicative), which lets a dominant party reach landslide shares.
-WIN_COLS = [0, 1, 2, 3, 4, 5, 6, 9]
-SHARE_COLS = [2, 3, 4, 5, 6, 7, 8, 9]
+WIN_COLS = [0, 1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13]
+SHARE_COLS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 
 
 def fit(examples: list[Example], ridge: float = 0.5, target: str = "share") -> np.ndarray:

@@ -195,6 +195,10 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
 - **2027 inputs** come from Wikipedia: the 2027 presidential article, and per-state governorship articles (only Lagos and Oyo existed on 2026-11-18).
   - States without nominees are forecast **by party**, assuming eligible governors run again under their current party (from people.csv).
   - Re-run `anyanwu.run` as articles appear. **After 16 January 2027, replace the presidential stand-in with the actual results before the 6 February governorship forecasts.**
+- **V1.1 (2026-11-19):**
+  - **Governorship office signals** (`offices.py`): offices that started before the election year only. Winners have slightly more documented offices than runners-up (71 vs 59 of 198), so the backtest gain may be a little flattered.
+  - **Polls** (`polls.py`, `data/model/presidential_polls.csv`): surveys only, weight λ tuned walk-forward and shrunk as λ̂·n/(n+2); currently 0.25.
+  - **To add a 2027 poll:** append its rows to the CSV (method "survey", "phone survey" or "face-to-face survey"), then re-run and publish.
 - **Not in V1 yet** (from the design below):
   - LGA-level modelling and the governorship 25%-of-LGAs rule (governorship win = plurality)
   - zoning and religion terms; LGA adjacency (zones stand in for "neighbours")

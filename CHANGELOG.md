@@ -5,6 +5,18 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 
 ---
 
+## Anyanwụ 1.1: candidate signals and polls
+
+- **Governorship candidate signals:** the offices a candidate held *before* the election, from their Wikipedia profile: deputy governor, senator or representative, federal minister, and state executive (commissioner, Secretary to the State Government, chief of staff).
+  - For 2027 nominees, profiles come from the links in the election article's infobox.
+  - Backtest: winner accuracy 71% → **76%**, now above both baselines (73–74%). Brier score 0.37 → **0.34**.
+  - Most of the gain comes from former federal ministers.
+- **Light polling input (presidential):** a reviewed poll file, `data/model/presidential_polls.csv`, records each poll with its method.
+  - Only surveys count; online and smartphone panels are excluded.
+  - Polls nudge each candidate's national share by a weight learned walk-forward and shrunk towards zero: currently 25%.
+  - Backtest (2023 test): Brier score 0.79 → 0.71. Across all five tests: 0.42 → **0.41**; log loss 0.76 → **0.69**.
+  - There are no survey polls of the 2027 race yet, and the forecast page says so.
+
 ## State pages by election type, cleaner forecasts
 
 - **State pages: election-type picker.** Presidential, Governorship, Senate and House of Assembly.

@@ -81,15 +81,15 @@ Each past election was forecast using only the results that came before it.
 
 | | Anyanwụ | Baseline: every state votes the same party as last time |
 |---|---|---|
-| Brier score (lower is better) | 0.42 | 0.70 |
-| States where its favourite won | 72% | 68% |
+| Brier score (lower is better) | 0.41 | 0.70 |
+| States where its favourite won | 73% | 68% |
 
 **Governorship** (177 races):
 
 | | Anyanwụ | Baseline |
 |---|---|---|
-| Brier score (lower is better) | 0.37 | about 0.52 |
-| Correct winner | 71% | 73–74% |
+| Brier score (lower is better) | 0.34 | about 0.52 |
+| Correct winner | 76% | 73–74% |
 
 The full report is in `data/model/BACKTEST.md`.
 
@@ -117,8 +117,9 @@ The full report is in `data/model/BACKTEST.md`.
 ## 4. Future capabilities and improvements
 
 ### Model (Anyanwụ)
-- **Governorship candidate signals:** defecting governors bringing their political machine, the strength of the ruling party's nominee, and federal backing in off-cycle races. This is the biggest expected gain.
-- **National mood input:** polls (NOI Polls, Afrobarometer), incumbency fatigue and the economy, all given little weight.
+- **Done in 1.1:** governorship candidate signals from offices held before the election, and survey polls as a light presidential input.
+- **More governorship candidate signals:** defecting governors bringing their political machine. There's no history of defections to learn from yet.
+- **National mood input:** incumbency fatigue and the economy.
 - **Ticket balance:** effects of the North–South zoning convention and the religious balance of the ticket.
 - **Better projected vote shares:** governorship shares are currently too conservative.
 - **Governorship rule:** governors also need 25% of the vote in two-thirds of the state's local government areas.

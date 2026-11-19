@@ -1,6 +1,6 @@
 # Anyanwụ backtest report
 
-Model version 1.0.0, generated 2026-11-18T20:59:12Z. Every number below is **out of sample**: each election
+Model version 1.1.0, generated 2026-11-19T15:27:52Z. Every number below is **out of sample**: each election
 was forecast using only results from before it (walk-forward). Regenerate with `uv run python -m anyanwu.run`.
 
 ## Presidential (state level)
@@ -11,11 +11,13 @@ was forecast using only results from before it (walk-forward). Regenerate with `
 | 2011 | 2003 | 89% | 0.253 | 0.510 | 4.9 | 97% | 78% | 0.703 |
 | 2015 | 2011 | 78% | 0.294 | 0.450 | 10.5 | 24% | 78% | 0.432 |
 | 2019 | 2015 | 84% | 0.232 | 0.394 | 3.7 | 61% | 84% | 0.324 |
-| 2023 | 2019 | 46% | 0.789 | 1.603 | 9.5 | 59% | 32% | 1.351 |
-| **Average** | | **72%** | **0.422** | **0.755** | 6.3 | 67% | 68% | 0.703 |
+| 2023 | 2019 | 49% | 0.705 | 1.276 | 7.2 | 60% | 32% | 1.351 |
+| **Average** | | **73%** | **0.405** | **0.690** | 5.9 | 67% | 68% | 0.703 |
 
 Baseline: every state votes for the same party family as last time. Brier and log loss: lower is better.
-2007 and 2011 are missing by state, so the 2003→2015 fold spans the APC merger and is the hardest.
+2007 by state was never published (no fold); 2011 is estimated from NDI's state percentages (model only).
+
+Opinion polls (surveys only; online and app panels excluded): weight **0.25** (best on 2 elections with polls: 0.5, shrunk towards 0). Weights used in each test (from earlier elections only): 2003: 0.00, 2011: 0.00, 2015: 0.00, 2019: 0.17, 2023: 0.17.
 
 Online attention weight (tuned on 2019 and 2023): **0.0** (losses by weight: 0.0: 0.0911, 0.05: 0.0912, 0.1: 0.0913, 0.15: 0.0915).
 
@@ -32,24 +34,24 @@ States revealed one at a time in five random orders; probability given to the ev
 
 | Year | Races | Winner accuracy | Brier | Log loss | Winner share error (pp) | Governor's party wins | Last result repeats |
 |---|---|---|---|---|---|---|---|
-| 2007 | 35 | 83% | 0.250 | 0.435 | 17.6 | 89% | 86% |
-| 2010 | 1 | 0% | 1.174 | 2.376 | 18.7 | 0% | 0% |
-| 2011 | 27 | 74% | 0.370 | 0.609 | 13.6 | 78% | 74% |
-| 2012 | 6 | 67% | 0.412 | 0.780 | 26.5 | 67% | 67% |
-| 2013 | 1 | 0% | 0.952 | 1.850 | 22.7 | 100% | 100% |
-| 2014 | 2 | 100% | 0.329 | 0.591 | 11.1 | 50% | 50% |
-| 2015 | 30 | 63% | 0.412 | 0.620 | 20.2 | 57% | 60% |
-| 2016 | 2 | 50% | 0.586 | 0.903 | 3.8 | 100% | 100% |
-| 2017 | 1 | 0% | 1.003 | 1.627 | 37.1 | 100% | 100% |
-| 2018 | 2 | 50% | 0.588 | 0.864 | 5.8 | 50% | 50% |
-| 2019 | 30 | 87% | 0.197 | 0.368 | 15.0 | 80% | 83% |
-| 2020 | 2 | 100% | 0.285 | 0.494 | 8.5 | 50% | 100% |
-| 2021 | 1 | 0% | 1.153 | 2.096 | 29.6 | 100% | 100% |
-| 2022 | 2 | 50% | 0.539 | 0.871 | 13.8 | 50% | 50% |
-| 2023 | 31 | 74% | 0.382 | 0.617 | 12.8 | 68% | 68% |
-| 2024 | 2 | 50% | 0.432 | 0.747 | 18.1 | 50% | 50% |
-| 2026 | 2 | 50% | 0.662 | 0.925 | 29.6 | 100% | 100% |
-| **All** | 177 | **73%** | **0.353** | **0.587** | | 73% | 74% |
+| 2007 | 35 | 83% | 0.228 | 0.407 | 17.5 | 89% | 86% |
+| 2010 | 1 | 0% | 1.187 | 2.446 | 19.5 | 0% | 0% |
+| 2011 | 27 | 78% | 0.324 | 0.569 | 14.0 | 78% | 74% |
+| 2012 | 6 | 67% | 0.384 | 0.710 | 23.3 | 67% | 67% |
+| 2013 | 1 | 0% | 0.827 | 1.541 | 20.0 | 100% | 100% |
+| 2014 | 2 | 100% | 0.269 | 0.517 | 7.6 | 50% | 50% |
+| 2015 | 30 | 70% | 0.376 | 0.577 | 19.4 | 57% | 60% |
+| 2016 | 2 | 100% | 0.434 | 0.679 | 6.1 | 100% | 100% |
+| 2017 | 1 | 0% | 0.985 | 1.539 | 35.7 | 100% | 100% |
+| 2018 | 2 | 100% | 0.291 | 0.567 | 9.6 | 50% | 50% |
+| 2019 | 30 | 83% | 0.231 | 0.396 | 15.5 | 80% | 83% |
+| 2020 | 2 | 100% | 0.254 | 0.454 | 10.2 | 50% | 100% |
+| 2021 | 1 | 0% | 1.126 | 1.752 | 27.2 | 100% | 100% |
+| 2022 | 2 | 50% | 0.497 | 0.874 | 16.1 | 50% | 50% |
+| 2023 | 31 | 74% | 0.401 | 0.679 | 12.9 | 68% | 68% |
+| 2024 | 2 | 50% | 0.516 | 0.911 | 19.2 | 50% | 50% |
+| 2026 | 2 | 50% | 0.709 | 1.007 | 29.5 | 100% | 100% |
+| **All** | 177 | **76%** | **0.338** | **0.573** | | 73% | 74% |
 
 The baselines name a winner with certainty, so their Brier score is twice their error rate (≈0.52). Anyanwụ names the winner slightly less often but gives far better
 probabilities. Projected vote shares are deliberately conservative: big upsets by strong candidates on new

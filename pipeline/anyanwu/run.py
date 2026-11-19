@@ -20,7 +20,7 @@ from neli_pipeline.parties import normalise_party
 from neli_pipeline.paths import PROCESSED
 from neli_pipeline.states import STATES
 
-from . import VERSION, attention, backtest, live, upcoming
+from . import VERSION, attention, backtest, live, offices, upcoming
 from . import governorship as G
 from . import presidential as P
 from .data import CODES, MODEL_DIR, Contestant, Race, family, governorship, presidential, same_person, tickets
@@ -58,15 +58,25 @@ def tune_gamma(races: dict[int, Race], params: P.Params, people) -> dict:
     return {"gamma": best, "grid": dict(zip(map(str, grid), losses, strict=True))}
 
 
-def presidential_2027(races, params: P.Params, sigma: P.Sigma, people) -> tuple[dict, P.Forecast]:
+def presidential_2027(races, params: P.Params, sigma: P.Sigma, people, lam: float = 0.0) -> tuple[dict, P.Forecast]:
+    from . import polls
+
     t = tickets()
     cons = [
         Contestant(r.candidate, r.party, r.home_state or None, r.running_mate or None, r.running_mate_home_state or None, 2027)
         for r in t[t.year == 2027].itertuples()
     ] + [Contestant("Others", "OTH", year=2027)]
     att, raw = attention_vector(cons, date.today() - pd.Timedelta(days=1), people, {})
-    fc = P.forecast(races[2023], cons, params, sigma, attention=att, n=10000, seed=2027)
+    poll = polls.average(2027, cons)
+    fc = P.forecast(races[2023], cons, params, sigma, attention=att, poll=poll, lam=lam, n=10000, seed=2027)
     summ = fc.summary()
+    summ["polls"] = {
+        "weight": lam,
+        "available": poll is not None,
+        "average": None
+        if poll is None
+        else {c.candidate: (None if np.isnan(v) else float(v)) for c, v in zip(cons, poll, strict=True)},
+    }
     for row, a in zip(summ["contestants"], raw, strict=True):
         row["attention_share"] = a
     return summ, fc
@@ -130,8 +140,23 @@ def governorship_2027(gov_races: list[Race], pres_fc: P.Forecast, theta, theta_w
         i = CODES.index(code)
         pres_race = Race("pres-2027-forecast", "presidential", 2027, CODES, pres_cons, pres_fc.mean, None)
         incumbent_running_name = None if term_limited else inc.candidate
+        flags = [
+            offices.for_candidate(prev.key, inc.candidate, code, 2027)
+            if same_person(c.candidate, inc.candidate)
+            else nominee_flags((art or {}).get("links", {}).get(c.candidate), code)
+            for c in cons
+        ]
         X = G.features(
-            cons, 2027, False, prev, pres_race, i, incumbent=incumbent_running_name, incumbent_family=inc_fam, history=hist
+            cons,
+            2027,
+            False,
+            prev,
+            pres_race,
+            i,
+            incumbent=incumbent_running_name,
+            incumbent_family=inc_fam,
+            history=hist,
+            office_flags=flags,
         )
         cons2, X2, _y, _keep = G.group_minor(cons, X, None)
         pr = G.predict(X2, theta, tau, seed=hash(code) % 1000)
@@ -164,6 +189,20 @@ def governorship_2027(gov_races: list[Race], pres_fc: P.Forecast, theta, theta_w
             }
         )
     return out
+
+
+def nominee_flags(title: str | None, state: str) -> list[float]:
+    """Office signals for a 2027 nominee, from the article the election infobox links to."""
+    if not title:
+        return [0.0] * len(offices.SIGNALS)
+    from neli_pipeline.build_people import parse_person
+    from neli_pipeline.sources import wikipedia
+
+    try:
+        prof = parse_person(wikipedia.fetch(title.replace("/", "_")), title)
+    except Exception:  # noqa: BLE001 - a missing article just means no signal
+        return [0.0] * len(offices.SIGNALS)
+    return offices.flags(prof.offices if prof else [], state, 2027)
 
 
 def backtest_latest_pres(code: str) -> list[tuple[str, float]]:
@@ -199,7 +238,7 @@ def main(offline: bool = False) -> int:
     }
 
     print("2027 presidential forecast…")
-    pres27, fc27 = presidential_2027(races, params, sigma, people)
+    pres27, fc27 = presidential_2027(races, params, sigma, people, lam=pbt["polls"]["lam"])
     pres27.update(
         {
             "key": "pres-2027",
@@ -263,7 +302,13 @@ def report(p: dict) -> str:
         f"{s['anyanwu']['share_mae_pp']:.1f} | {_pct(s['anyanwu']['national_winner_prob'])} | {_pct(s['baseline']['winner_accuracy'])} | {s['baseline']['brier']:.3f} |",
         "",
         "Baseline: every state votes for the same party family as last time. Brier and log loss: lower is better.",
-        "2007 and 2011 are missing by state, so the 2003→2015 fold spans the APC merger and is the hardest.",
+        "2007 by state was never published (no fold); 2011 is estimated from NDI's state percentages (model only).",
+        "",
+        f"Opinion polls (surveys only; online and app panels excluded): weight **{pb['polls']['lam']:.2f}** "
+        f"(best on {pb['polls']['n']} elections with polls: {pb['polls']['raw']}, shrunk towards 0). "
+        "Weights used in each test (from earlier elections only): "
+        + ", ".join(f"{f['test']}: {f['poll_weight']:.2f}" for f in pb["folds"])
+        + ".",
         "",
         f"Online attention weight (tuned on 2019 and 2023): **{pb['attention']['gamma']}** "
         f"(losses by weight: {', '.join(f'{k}: {v:.4f}' for k, v in pb['attention']['grid'].items())}).",

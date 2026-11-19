@@ -78,3 +78,31 @@ def test_published_output():
     for g in p["governorship"]:
         assert sum(c["win_prob"] for c in g["contestants"]) == pytest.approx(1, abs=0.01)
         assert all(c["share_lo"] <= c["share_mean"] + 1e-9 <= c["share_hi"] + 2e-9 for c in g["contestants"])
+
+
+def test_poll_average_and_apply(races):
+    from anyanwu import polls
+
+    cons = races[2023].contestants
+    avg = polls.average(2023, cons)  # surveys only
+    assert avg is not None and np.nansum(avg) == pytest.approx(1, abs=1e-6)
+    assert avg[2] > avg[0]  # surveys had Obi ahead of Tinubu
+    assert polls.average(2019, races[2019].contestants) is None  # unclear-method polls excluded
+    base = P.base_shares(races[2019], cons, P.Params())
+    moved = polls.apply(base, races[2019].totals, avg, 0.5)
+    w = races[2019].totals / races[2019].totals.sum()
+    assert (w @ moved)[2] > (w @ base)[2] and np.allclose(moved.sum(1), 1)
+    assert polls.tune([])["lam"] == 0.0
+
+
+def test_office_signals():
+    from anyanwu import offices
+
+    assert offices.classify("Deputy Governor of Lagos State", "LA") == "deputy_governor"
+    assert offices.classify("Deputy Governor Operations, Central Bank", "LA") is None
+    assert offices.classify("Senator for Kebbi Central", "KE") == "legislator"
+    assert offices.classify("Federal Minister of Petroleum Resources", "LA") == "minister"
+    f = offices.flags([{"title": "Deputy Governor of Lagos State", "term": "Since 29 May 2019"}], "LA", 2027)
+    assert f == [1.0, 0.0, 0.0, 0.0]
+    # offices that start in or after the election year don't count (no leakage)
+    assert offices.flags([{"title": "Senator for Kano Central", "term": "2023 – present"}], "KN", 2023) == [0.0] * 4

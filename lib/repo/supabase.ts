@@ -70,6 +70,7 @@ type ModelPayload = {
     title: string;
     date: string;
     runoff_prob: number;
+    polls?: { weight: number; available: boolean };
     contestants: PresContestant[];
     states: { code: string; contestants: StateContestant[] }[];
   };
@@ -281,6 +282,13 @@ function upcomingFromModel(m: ModelPayload, held: Election[], profiles: Map<stri
       notes: [
         'To win outright a candidate needs the most votes and at least 25% in 24 of the 37 states (counting the FCT). Otherwise there is a run-off.',
         'Built from the 2023 result in every state: each ticket inherits votes through its candidate, party and running mate, adjusted for home regions.',
+        ...(p.polls
+          ? [
+              p.polls.available
+                ? `Opinion polls (surveys only) count for ${Math.round(p.polls.weight * 100)}% of each candidate's national share.`
+                : `No survey polls of this race have been published yet. When they are, they will count for ${Math.round(p.polls.weight * 100)}% of each candidate's national share, the weight that worked best on past elections.`,
+            ]
+          : []),
       ],
     },
   };

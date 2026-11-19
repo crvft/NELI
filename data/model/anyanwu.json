@@ -1,7 +1,7 @@
 {
  "model": "Anyanwụ",
- "version": "1.0.0",
- "generated_at": "2026-11-18T20:59:12Z",
+ "version": "1.1.0",
+ "generated_at": "2026-11-19T15:27:52Z",
  "presidential": {
   "contestants": [
    {
@@ -15,7 +15,7 @@
     "share_lo": 0.18922800280751498,
     "share_hi": 0.5274271316456748,
     "states_25_mean": 19.5431,
-    "attention_share": 0.5873001263460879
+    "attention_share": 0.5859130789634769
    },
    {
     "candidate": "Atiku Abubakar",
@@ -28,7 +28,7 @@
     "share_lo": 0.11430935065416399,
     "share_hi": 0.3962451562064335,
     "states_25_mean": 13.876,
-    "attention_share": 0.1537322299666145
+    "attention_share": 0.15378086104876557
    },
    {
     "candidate": "Peter Obi",
@@ -41,7 +41,7 @@
     "share_lo": 0.14940296015941154,
     "share_hi": 0.3849170326393987,
     "states_25_mean": 14.3302,
-    "attention_share": 0.17478433308510372
+    "attention_share": 0.17497653540093858
    },
    {
     "candidate": "Seyi Makinde",
@@ -54,7 +54,7 @@
     "share_lo": 0.0027227209561688863,
     "share_hi": 0.022555665829126815,
     "states_25_mean": 0.053,
-    "attention_share": 0.05171822312217081
+    "attention_share": 0.05211997551520098
    },
    {
     "candidate": "Sandy Onor",
@@ -67,7 +67,7 @@
     "share_lo": 0.02454829985207772,
     "share_hi": 0.1424928935440823,
     "states_25_mean": 3.0615,
-    "attention_share": 0.032465087480023094
+    "attention_share": 0.033209549071618036
    },
    {
     "candidate": "Others",
@@ -2047,10 +2047,15 @@
     ]
    }
   ],
+  "polls": {
+   "weight": 0.25,
+   "available": false,
+   "average": null
+  },
   "key": "pres-2027",
   "title": "2027 Presidential Election",
   "date": "2027-01-16",
-  "source_key": null
+  "source_key": "wikipedia:presidential:2027"
  },
  "governorship": [
   {
@@ -2068,50 +2073,50 @@
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.39535957036489977,
-     "share_mean": 0.22688572253052766,
-     "share_lo": 0.10944873089170613,
-     "share_hi": 0.364455689803689
+     "win_prob": 0.3950029514308012,
+     "share_mean": 0.22717875323873543,
+     "share_lo": 0.11342397429082793,
+     "share_hi": 0.3584064472156861
     },
     {
      "candidate": "Alex Otti",
      "party": "LP",
-     "win_prob": 0.35420461552886545,
-     "share_mean": 0.20586574827148704,
-     "share_lo": 0.09627505960523623,
-     "share_hi": 0.33309982651853476
+     "win_prob": 0.37176718595615477,
+     "share_mean": 0.20939505036056177,
+     "share_lo": 0.10446817163318953,
+     "share_hi": 0.33275398477782614
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.0868819111568874,
-     "share_mean": 0.16928455201620418,
-     "share_lo": 0.07664974750465393,
-     "share_hi": 0.2836485154347727
+     "win_prob": 0.08090660592533729,
+     "share_mean": 0.1678942519021898,
+     "share_lo": 0.07915042032949307,
+     "share_hi": 0.2719807507645432
     },
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.0739369581194364,
-     "share_mean": 0.1743278915411872,
-     "share_lo": 0.08083908220492837,
-     "share_hi": 0.2927779370336698
+     "win_prob": 0.06626963809945832,
+     "share_mean": 0.17073479734129696,
+     "share_lo": 0.08238479845881375,
+     "share_hi": 0.27787053832408526
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.062024591508404406,
-     "share_mean": 0.1537719981024747,
-     "share_lo": 0.06976662560628726,
-     "share_hi": 0.26123566823086547
+     "win_prob": 0.060010067640654266,
+     "share_mean": 0.15495704628279125,
+     "share_lo": 0.07373653181520183,
+     "share_hi": 0.25754938201947875
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.027592353321506734,
-     "share_mean": 0.06986408753811926,
-     "share_lo": 0.029008833161648515,
-     "share_hi": 0.12763091804252116
+     "win_prob": 0.026043550947594068,
+     "share_mean": 0.06984010087442474,
+     "share_lo": 0.03164795557161798,
+     "share_hi": 0.12259745455681327
     }
    ]
   },
@@ -2130,42 +2135,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.3704961547528318,
-     "share_mean": 0.3248158854841245,
-     "share_lo": 0.16281290408927118,
-     "share_hi": 0.48472498877600706
+     "win_prob": 0.3286921712740557,
+     "share_mean": 0.3121108598206876,
+     "share_lo": 0.16087740661516453,
+     "share_hi": 0.47107505176983183
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.273348739715597,
-     "share_mean": 0.20832014631021653,
-     "share_lo": 0.09641704016473239,
-     "share_hi": 0.3432976934498026
+     "win_prob": 0.2780488326148496,
+     "share_mean": 0.21026958035075846,
+     "share_lo": 0.10111095986196819,
+     "share_hi": 0.3431511455247646
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.18483903776941862,
-     "share_mean": 0.2184754248712426,
-     "share_lo": 0.10296347649514492,
-     "share_hi": 0.36369306049204725
+     "win_prob": 0.22252894067451348,
+     "share_mean": 0.22657371443425647,
+     "share_lo": 0.11199927764556111,
+     "share_hi": 0.36168845579585834
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.1273338481387179,
-     "share_mean": 0.17133522066873044,
-     "share_lo": 0.0781772584786537,
-     "share_hi": 0.29487418027489604
+     "win_prob": 0.12787639386351393,
+     "share_mean": 0.17388895251192515,
+     "share_lo": 0.08300605914721575,
+     "share_hi": 0.28778103072533257
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.043982219623434654,
-     "share_mean": 0.07705332266568585,
-     "share_lo": 0.032849539189083725,
-     "share_hi": 0.14392060988764196
+     "win_prob": 0.04285366157306727,
+     "share_mean": 0.07715689288237229,
+     "share_lo": 0.035181749705829775,
+     "share_hi": 0.13957411500355513
     }
    ]
   },
@@ -2184,50 +2189,50 @@
     {
      "candidate": "Umo Eno",
      "party": "APC",
-     "win_prob": 0.6236658733208081,
-     "share_mean": 0.36515154057845256,
-     "share_lo": 0.18980874812454254,
-     "share_hi": 0.5255429452273493
+     "win_prob": 0.5286524475928348,
+     "share_mean": 0.4188458165248567,
+     "share_lo": 0.2410605554906053,
+     "share_hi": 0.5847739062634135
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.11000399236002295,
-     "share_mean": 0.206432946095147,
-     "share_lo": 0.09657513001144388,
-     "share_hi": 0.3393954994377954
+     "win_prob": 0.13588463404057075,
+     "share_mean": 0.1857345717526044,
+     "share_lo": 0.08856217575318698,
+     "share_hi": 0.30729757559321547
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.09236232948871194,
-     "share_mean": 0.1397699564283785,
-     "share_lo": 0.062337213004490896,
-     "share_hi": 0.23922698311335505
+     "win_prob": 0.11789181355512737,
+     "share_mean": 0.12933764737877537,
+     "share_lo": 0.059596246559657014,
+     "share_hi": 0.22379465106506485
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.08143924802145831,
-     "share_mean": 0.13434124371162806,
-     "share_lo": 0.058891893287798876,
-     "share_hi": 0.23644216084223824
+     "win_prob": 0.10373060368283893,
+     "share_mean": 0.1244522937665502,
+     "share_lo": 0.057026573825894586,
+     "share_hi": 0.21535700983715786
     },
     {
      "candidate": "YPP candidate",
      "party": "YPP",
-     "win_prob": 0.06764086435711242,
-     "share_mean": 0.09664710540747441,
-     "share_lo": 0.041227894178362354,
-     "share_hi": 0.1787178596141257
+     "win_prob": 0.08314791150621344,
+     "share_mean": 0.08886007975476161,
+     "share_lo": 0.03955157227541196,
+     "share_hi": 0.15799388804989886
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.024887692451886222,
-     "share_mean": 0.05765720777891926,
-     "share_lo": 0.024524771779931228,
-     "share_hi": 0.10879519603962089
+     "win_prob": 0.030692589622414716,
+     "share_mean": 0.052769590822451945,
+     "share_lo": 0.02357961706317677,
+     "share_hi": 0.09753284122561139
     }
    ]
   },
@@ -2244,52 +2249,52 @@
    "source_key": null,
    "contestants": [
     {
-     "candidate": "APC candidate",
-     "party": "APC",
-     "win_prob": 0.33357909625946824,
-     "share_mean": 0.28579630385231203,
-     "share_lo": 0.1403230421125856,
-     "share_hi": 0.43608133929361037
-    },
-    {
      "candidate": "Bala Mohammed",
      "party": "APM",
-     "win_prob": 0.2843156760913222,
-     "share_mean": 0.18826808600012856,
-     "share_lo": 0.08646705885131693,
-     "share_hi": 0.3156605162824291
+     "win_prob": 0.6777334364527033,
+     "share_mean": 0.308626386062215,
+     "share_lo": 0.16581522121395922,
+     "share_hi": 0.4595851827053869
+    },
+    {
+     "candidate": "APC candidate",
+     "party": "APC",
+     "win_prob": 0.14165615612266258,
+     "share_mean": 0.2360244590553673,
+     "share_lo": 0.11690094141528644,
+     "share_hi": 0.37658766722297493
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.16851415611596332,
-     "share_mean": 0.168712683444647,
-     "share_lo": 0.07817315108211774,
-     "share_hi": 0.28543243546439884
+     "win_prob": 0.08099838612964301,
+     "share_mean": 0.1466403260161721,
+     "share_lo": 0.06821583678132753,
+     "share_hi": 0.2444950608838242
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.09612488664359076,
-     "share_mean": 0.16318135378397144,
-     "share_lo": 0.07086537653146141,
-     "share_hi": 0.27433392962284925
+     "win_prob": 0.04422692138719518,
+     "share_mean": 0.13958469236409926,
+     "share_lo": 0.06371685855725447,
+     "share_hi": 0.23309103662213534
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.08492439807311414,
-     "share_mean": 0.13501629551643934,
-     "share_lo": 0.059797028919560166,
-     "share_hi": 0.232254836368516
+     "win_prob": 0.040354069212075835,
+     "share_mean": 0.11808781002751603,
+     "share_lo": 0.05425455840802157,
+     "share_hi": 0.2015826042615172
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.03254178681654147,
-     "share_mean": 0.05902527740250169,
-     "share_lo": 0.024634550748651004,
-     "share_hi": 0.10697145912384329
+     "win_prob": 0.015031030695719963,
+     "share_mean": 0.05103632647463038,
+     "share_lo": 0.02264865517689921,
+     "share_hi": 0.09433188466747498
     }
    ]
   },
@@ -2308,50 +2313,50 @@
     {
      "candidate": "Hyacinth Alia",
      "party": "APC",
-     "win_prob": 0.7521952964968072,
-     "share_mean": 0.42336523917961183,
-     "share_lo": 0.23233970324787387,
-     "share_hi": 0.5890874979984203
+     "win_prob": 0.7548275864474348,
+     "share_mean": 0.41370648963065426,
+     "share_lo": 0.23312594272750375,
+     "share_hi": 0.5699398831436988
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.08631028956083715,
-     "share_mean": 0.15324740418262928,
-     "share_lo": 0.0672563321469463,
-     "share_hi": 0.2656169833732859
+     "win_prob": 0.08710322481612956,
+     "share_mean": 0.15638107773714402,
+     "share_lo": 0.07378767074404764,
+     "share_hi": 0.2656285495010772
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.05787327312922728,
-     "share_mean": 0.1558869813403807,
-     "share_lo": 0.06961258741698054,
-     "share_hi": 0.26693361535526916
+     "win_prob": 0.05548428571666842,
+     "share_mean": 0.15615814262387115,
+     "share_lo": 0.07147786775190677,
+     "share_hi": 0.26689753904529145
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.04777865410146143,
-     "share_mean": 0.12673085426539576,
-     "share_lo": 0.05648791376566574,
-     "share_hi": 0.22776896451426937
+     "win_prob": 0.047742314977510074,
+     "share_mean": 0.13001307835857195,
+     "share_lo": 0.06001631162213813,
+     "share_hi": 0.22454641025325806
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.03817261759098845,
-     "share_mean": 0.08651540381507762,
-     "share_lo": 0.03697835325319659,
-     "share_hi": 0.15991709024889178
+     "win_prob": 0.037689698878480345,
+     "share_mean": 0.08868389054017979,
+     "share_lo": 0.03920743882191983,
+     "share_hi": 0.16002116023020477
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.017669869120678534,
-     "share_mean": 0.0542541172169048,
-     "share_lo": 0.022844492339036876,
-     "share_hi": 0.10482059776114659
+     "win_prob": 0.017152889163776785,
+     "share_mean": 0.05505732110957875,
+     "share_lo": 0.024144766339076154,
+     "share_hi": 0.09901893441519723
     }
    ]
   },
@@ -2370,42 +2375,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.7343998831894203,
-     "share_mean": 0.4431608270815241,
-     "share_lo": 0.24750477531053497,
-     "share_hi": 0.6172764094816429
+     "win_prob": 0.75295886410617,
+     "share_mean": 0.440156394997565,
+     "share_lo": 0.2537287633557009,
+     "share_hi": 0.6089279698893824
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.11579673970855786,
-     "share_mean": 0.1907447451110228,
-     "share_lo": 0.08568963449758461,
-     "share_hi": 0.32990543253277693
+     "win_prob": 0.10916979539024362,
+     "share_mean": 0.19213778885355023,
+     "share_lo": 0.09317368220156229,
+     "share_hi": 0.32738582404806005
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.06733616863838017,
-     "share_mean": 0.17521483414734554,
-     "share_lo": 0.07644883479842662,
-     "share_hi": 0.29926679233753517
+     "win_prob": 0.061669166604776636,
+     "share_mean": 0.17430944485556865,
+     "share_lo": 0.08213058965699299,
+     "share_hi": 0.29086297745094103
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.055969996732210585,
-     "share_mean": 0.12173300364224911,
-     "share_lo": 0.05292605993455939,
-     "share_hi": 0.2269207115145068
+     "win_prob": 0.05212817430180538,
+     "share_mean": 0.12417597818800548,
+     "share_lo": 0.05658043702159769,
+     "share_hi": 0.2148677405155113
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.0264972117314311,
-     "share_mean": 0.06914659001785835,
-     "share_lo": 0.028814040814548324,
-     "share_hi": 0.1288948654289227
+     "win_prob": 0.02407399959700448,
+     "share_mean": 0.06922039310531077,
+     "share_lo": 0.03030117159279106,
+     "share_hi": 0.1263675541108982
     }
    ]
   },
@@ -2424,42 +2429,42 @@
     {
      "candidate": "Bassey Otu",
      "party": "APC",
-     "win_prob": 0.6499955231725018,
-     "share_mean": 0.3987314000982994,
-     "share_lo": 0.20721134793277285,
-     "share_hi": 0.5770699799718392
+     "win_prob": 0.6324315528839826,
+     "share_mean": 0.3927852981568166,
+     "share_lo": 0.21312456158991752,
+     "share_hi": 0.5585865511092029
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.15534429769577862,
-     "share_mean": 0.24675005443797177,
-     "share_lo": 0.11479764884196907,
-     "share_hi": 0.40592454075365636
+     "win_prob": 0.1589196655695082,
+     "share_mean": 0.24453785451429497,
+     "share_lo": 0.11708521541924735,
+     "share_hi": 0.3937491119311027
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.10260298416805473,
-     "share_mean": 0.1568014824389341,
-     "share_lo": 0.0691863717227355,
-     "share_hi": 0.27761217080803435
+     "win_prob": 0.1107459902831444,
+     "share_mean": 0.16043814702216924,
+     "share_lo": 0.07564017461972163,
+     "share_hi": 0.2777315435148468
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.06736974884627144,
-     "share_mean": 0.13517946628162894,
-     "share_lo": 0.05686487862370618,
-     "share_hi": 0.23911433502506613
+     "win_prob": 0.07220589396068705,
+     "share_mean": 0.1388913131801656,
+     "share_lo": 0.06341091418647671,
+     "share_hi": 0.24174058305012242
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.0246874461173935,
-     "share_mean": 0.06253759674316595,
-     "share_lo": 0.026166272171406706,
-     "share_hi": 0.12070029178825775
+     "win_prob": 0.025696897302677765,
+     "share_mean": 0.06334738712655365,
+     "share_lo": 0.027899373419247336,
+     "share_hi": 0.11932199763409222
     }
    ]
   },
@@ -2478,50 +2483,50 @@
     {
      "candidate": "Sheriff Oborevwori",
      "party": "PDP",
-     "win_prob": 0.49629176159588356,
-     "share_mean": 0.33305186288658356,
-     "share_lo": 0.17035805712794902,
-     "share_hi": 0.50204036447115
+     "win_prob": 0.524059471200869,
+     "share_mean": 0.33337799250622274,
+     "share_lo": 0.17841951929876332,
+     "share_hi": 0.488815743285559
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.175518866779296,
-     "share_mean": 0.16352238651030815,
-     "share_lo": 0.07166597545997583,
-     "share_hi": 0.27869007650533617
+     "win_prob": 0.17323167900119837,
+     "share_mean": 0.16557801623829893,
+     "share_lo": 0.07618567256901232,
+     "share_hi": 0.2760599372694482
     },
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.14788603973535155,
-     "share_mean": 0.21849981297226326,
-     "share_lo": 0.10392822563656066,
-     "share_hi": 0.35932070305913594
+     "win_prob": 0.128659305615591,
+     "share_mean": 0.21176827556970465,
+     "share_lo": 0.10393226690435728,
+     "share_hi": 0.3459620440406255
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.08798895906788522,
-     "share_mean": 0.13807400381302284,
-     "share_lo": 0.0615094134298866,
-     "share_hi": 0.23931893284957606
+     "win_prob": 0.08584365123783466,
+     "share_mean": 0.14047445172386816,
+     "share_lo": 0.06490678847269683,
+     "share_hi": 0.23848785421948537
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.06360870205063816,
-     "share_mean": 0.09119054083495913,
-     "share_lo": 0.03907406401868966,
-     "share_hi": 0.16387231157043736
+     "win_prob": 0.061055892683389595,
+     "share_mean": 0.09269010122541728,
+     "share_lo": 0.0407750601279031,
+     "share_hi": 0.16162401567521106
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.02870567077094548,
-     "share_mean": 0.05566139298286309,
-     "share_lo": 0.023316585797260543,
-     "share_hi": 0.10636998354817957
+     "win_prob": 0.027150000261117333,
+     "share_mean": 0.05611116273648816,
+     "share_lo": 0.02538787321591517,
+     "share_hi": 0.09918715400400326
     }
    ]
   },
@@ -2540,50 +2545,50 @@
     {
      "candidate": "Francis Nwifuru",
      "party": "APC",
-     "win_prob": 0.5097622940528359,
-     "share_mean": 0.38168544113377123,
-     "share_lo": 0.19993530195286716,
-     "share_hi": 0.5452621324074598
+     "win_prob": 0.5094483687271869,
+     "share_mean": 0.3742886016794891,
+     "share_lo": 0.20850770584056622,
+     "share_hi": 0.5313511521072677
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.28542951038649333,
-     "share_mean": 0.19477551264334722,
-     "share_lo": 0.09085934389441708,
-     "share_hi": 0.32982609025808624
+     "win_prob": 0.2913092944507617,
+     "share_mean": 0.1969510842510619,
+     "share_lo": 0.09395483541003725,
+     "share_hi": 0.32308141833757714
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.06879816107143946,
-     "share_mean": 0.13744525682430478,
-     "share_lo": 0.0614388714992813,
-     "share_hi": 0.23915711923444052
+     "win_prob": 0.06616021977977839,
+     "share_mean": 0.13795941315508292,
+     "share_lo": 0.06470459668718256,
+     "share_hi": 0.23531748431472718
     },
     {
      "candidate": "APGA candidate",
      "party": "APGA",
-     "win_prob": 0.06013114133770587,
-     "share_mean": 0.10788787303034891,
-     "share_lo": 0.04579090568220547,
-     "share_hi": 0.19138319225640585
+     "win_prob": 0.05842138017338682,
+     "share_mean": 0.10921241085040545,
+     "share_lo": 0.04938312967725068,
+     "share_hi": 0.18949905393158234
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.05168458426531669,
-     "share_mean": 0.11169637229614587,
-     "share_lo": 0.04804825093653807,
-     "share_hi": 0.20215127767160124
+     "win_prob": 0.051260761766754086,
+     "share_mean": 0.11471880708411061,
+     "share_lo": 0.05269351650529934,
+     "share_hi": 0.19607094100217254
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.024194308886208833,
-     "share_mean": 0.06650954407208207,
-     "share_lo": 0.02845797391544676,
-     "share_hi": 0.12305101175961498
+     "win_prob": 0.023399975102131935,
+     "share_mean": 0.06686968297984994,
+     "share_lo": 0.029338413066863148,
+     "share_hi": 0.12065902296518263
     }
    ]
   },
@@ -2602,50 +2607,50 @@
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.4458290697640485,
-     "share_mean": 0.23570801430801375,
-     "share_lo": 0.11001402564726483,
-     "share_hi": 0.3726758992011095
+     "win_prob": 0.45190662093314904,
+     "share_mean": 0.23596752283518607,
+     "share_lo": 0.11463529169561175,
+     "share_hi": 0.36940354090920796
     },
     {
      "candidate": "Peter Mbah",
      "party": "APC",
-     "win_prob": 0.27245793762257187,
-     "share_mean": 0.2660873497801113,
-     "share_lo": 0.1299572311898902,
-     "share_hi": 0.41117161040576183
+     "win_prob": 0.2815715500405912,
+     "share_mean": 0.2647997543660512,
+     "share_lo": 0.1343127682764502,
+     "share_hi": 0.4077351253522476
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.11532858789675127,
-     "share_mean": 0.14290064004500694,
-     "share_lo": 0.06429258243470783,
-     "share_hi": 0.24981602944155404
+     "win_prob": 0.10617756134138051,
+     "share_mean": 0.14221031916318605,
+     "share_lo": 0.06705830955957867,
+     "share_hi": 0.24009388326654357
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.0778381097034626,
-     "share_mean": 0.15587842566052193,
-     "share_lo": 0.0692379531577652,
-     "share_hi": 0.2713137275801442
+     "win_prob": 0.07423574357796037,
+     "share_mean": 0.15525833722144117,
+     "share_lo": 0.0741985287908766,
+     "share_hi": 0.25715309168894546
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.06013855958743048,
-     "share_mean": 0.12749595089845142,
-     "share_lo": 0.05542354395732787,
-     "share_hi": 0.22167563391466732
+     "win_prob": 0.058946747341774464,
+     "share_mean": 0.12985466056663592,
+     "share_lo": 0.06048089271034104,
+     "share_hi": 0.2208057583890902
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.028407735425735214,
-     "share_mean": 0.07192961930789478,
-     "share_lo": 0.03096327364364286,
-     "share_hi": 0.1311857528828284
+     "win_prob": 0.02716177676514426,
+     "share_mean": 0.07190940584749955,
+     "share_lo": 0.031210143161219863,
+     "share_hi": 0.12665355586996085
     }
    ]
   },
@@ -2664,42 +2669,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.39656862109104096,
-     "share_mean": 0.3644719746533647,
-     "share_lo": 0.19096034333019296,
-     "share_hi": 0.5240129869225253
+     "win_prob": 0.43272826464146696,
+     "share_mean": 0.3671588738950248,
+     "share_lo": 0.20039555800093967,
+     "share_hi": 0.533935662948582
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.2580256216782177,
-     "share_mean": 0.19637813939785315,
-     "share_lo": 0.08882843517174334,
-     "share_hi": 0.33737205732684805
+     "win_prob": 0.25421279136276564,
+     "share_mean": 0.19907417691142706,
+     "share_lo": 0.09472969868467992,
+     "share_hi": 0.3313734255720446
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.2168764397019493,
-     "share_mean": 0.23433418709452195,
-     "share_lo": 0.1079786769812024,
-     "share_hi": 0.3907991913160354
+     "win_prob": 0.18960978246245203,
+     "share_mean": 0.22503444813728618,
+     "share_lo": 0.11021151639773458,
+     "share_hi": 0.3601979972512674
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.09032363851187229,
-     "share_mean": 0.13899217241312584,
-     "share_lo": 0.06125778297868337,
-     "share_hi": 0.25545620881701264
+     "win_prob": 0.08743794131961455,
+     "share_mean": 0.14227251772263508,
+     "share_lo": 0.06608436051698569,
+     "share_hi": 0.2497458168456501
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.038205679016919895,
-     "share_mean": 0.06582352644113426,
-     "share_lo": 0.028032700061298786,
-     "share_hi": 0.12195437695624833
+     "win_prob": 0.036011220213700894,
+     "share_mean": 0.06645998333362683,
+     "share_lo": 0.02954480521947625,
+     "share_hi": 0.11866396743224567
     }
    ]
   },
@@ -2718,42 +2723,42 @@
     {
      "candidate": "Umar Namadi",
      "party": "APC",
-     "win_prob": 0.810057758369017,
-     "share_mean": 0.4660112173618131,
-     "share_lo": 0.2607657278878919,
-     "share_hi": 0.6379524844239277
+     "win_prob": 0.772888735966915,
+     "share_mean": 0.4818048757200631,
+     "share_lo": 0.28253206904106803,
+     "share_hi": 0.6468781496484783
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.07300782451472078,
-     "share_mean": 0.16134620803814398,
-     "share_lo": 0.07179967870343633,
-     "share_hi": 0.28091651993281036
+     "win_prob": 0.0894889311833782,
+     "share_mean": 0.15786786606279996,
+     "share_lo": 0.07240482228266563,
+     "share_hi": 0.2796634498894712
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.06568798970204653,
-     "share_mean": 0.20169207415348295,
-     "share_lo": 0.09016228627390797,
-     "share_hi": 0.3482131970521873
+     "win_prob": 0.0760681553971242,
+     "share_mean": 0.19245064746489907,
+     "share_lo": 0.0900298144913364,
+     "share_hi": 0.3239649641133556
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.034974810154961546,
-     "share_mean": 0.10771324519535196,
-     "share_lo": 0.045317911830404296,
-     "share_hi": 0.19966821711968824
+     "win_prob": 0.042344935162539454,
+     "share_mean": 0.10659205140167655,
+     "share_lo": 0.04689872571112329,
+     "share_hi": 0.18753785408038046
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.016271617259254023,
-     "share_mean": 0.06323725525120794,
-     "share_lo": 0.026791417665679596,
-     "share_hi": 0.12155805711537755
+     "win_prob": 0.01920924229004308,
+     "share_mean": 0.06128455935056126,
+     "share_lo": 0.026826688805864946,
+     "share_hi": 0.11458293198319804
     }
    ]
   },
@@ -2772,50 +2777,50 @@
     {
      "candidate": "Uba Sani",
      "party": "APC",
-     "win_prob": 0.6061331539641622,
-     "share_mean": 0.3751136855801737,
-     "share_lo": 0.1975207599969171,
-     "share_hi": 0.5382312904267461
+     "win_prob": 0.594030657062753,
+     "share_mean": 0.3700307579201517,
+     "share_lo": 0.2001865490945672,
+     "share_hi": 0.5266370094723212
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.11873911992339348,
-     "share_mean": 0.1933391548412559,
-     "share_lo": 0.08906874009370817,
-     "share_hi": 0.31841612790970564
+     "win_prob": 0.11718051726445931,
+     "share_mean": 0.19118957319627095,
+     "share_lo": 0.0910707255654508,
+     "share_hi": 0.31647130872359647
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.10914003771660324,
-     "share_mean": 0.15072490645872083,
-     "share_lo": 0.06673961678217373,
-     "share_hi": 0.26477245229364366
+     "win_prob": 0.11547107694750126,
+     "share_mean": 0.15310023815649135,
+     "share_lo": 0.07086534477045717,
+     "share_hi": 0.26321362264557757
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.08716996699319267,
-     "share_mean": 0.14179838628695995,
-     "share_lo": 0.06324828670946249,
-     "share_hi": 0.24801913152343424
+     "win_prob": 0.0918799662216711,
+     "share_mean": 0.14427981524602487,
+     "share_lo": 0.06624764843794005,
+     "share_hi": 0.2460594481888455
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.053446973924958646,
-     "share_mean": 0.08422067732914067,
-     "share_lo": 0.03707459853663199,
-     "share_hi": 0.1531065194402506
+     "win_prob": 0.055562866255124875,
+     "share_mean": 0.08608202690719104,
+     "share_lo": 0.03916470881021135,
+     "share_hi": 0.151439411851746
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.02537074747768958,
-     "share_mean": 0.054803189503748816,
-     "share_lo": 0.024213425151549926,
-     "share_hi": 0.10138176019631677
+     "win_prob": 0.025874916248490386,
+     "share_mean": 0.055317588573870154,
+     "share_lo": 0.02398932418659563,
+     "share_hi": 0.10010034883495862
     }
    ]
   },
@@ -2834,50 +2839,50 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.4631311954612923,
-     "share_mean": 0.32583098916259823,
-     "share_lo": 0.16455523915980133,
-     "share_hi": 0.490315609668124
+     "win_prob": 0.48216250041553055,
+     "share_mean": 0.2973299877556172,
+     "share_lo": 0.1559530736596981,
+     "share_hi": 0.4442955624535186
     },
     {
      "candidate": "Abba Kabir Yusuf",
      "party": "NNPP",
-     "win_prob": 0.3065067657422454,
-     "share_mean": 0.18240120200244123,
-     "share_lo": 0.08346504622911548,
-     "share_hi": 0.30450569778786774
+     "win_prob": 0.2524651291782828,
+     "share_mean": 0.22813009771754447,
+     "share_lo": 0.111567929200969,
+     "share_hi": 0.35927559782640267
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.07815002796180277,
-     "share_mean": 0.1513280802766526,
-     "share_lo": 0.06741312839725025,
-     "share_hi": 0.2639380076172878
+     "win_prob": 0.09054855985061924,
+     "share_mean": 0.14633611194277935,
+     "share_lo": 0.06918601790737476,
+     "share_hi": 0.24675148248428866
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.07004235323686724,
-     "share_mean": 0.1546808982614659,
-     "share_lo": 0.06914058156460015,
-     "share_hi": 0.26267256902968006
+     "win_prob": 0.08096018565218112,
+     "share_mean": 0.14902515721664433,
+     "share_lo": 0.070097615430199,
+     "share_hi": 0.2508095082771848
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.05603756855711169,
-     "share_mean": 0.12402477571448708,
-     "share_lo": 0.05388999477342572,
-     "share_hi": 0.21761241588588212
+     "win_prob": 0.06449876036922396,
+     "share_mean": 0.12004675175482289,
+     "share_lo": 0.05578874196729724,
+     "share_hi": 0.20676625609655086
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.026132089040680585,
-     "share_mean": 0.06173405458235503,
-     "share_lo": 0.026190364896015568,
-     "share_hi": 0.11205215761357984
+     "win_prob": 0.02936486453416241,
+     "share_mean": 0.059131893612591815,
+     "share_lo": 0.026640121253078523,
+     "share_hi": 0.10444383199469955
     }
    ]
   },
@@ -2896,42 +2901,42 @@
     {
      "candidate": "Dikko Umaru Radda",
      "party": "APC",
-     "win_prob": 0.8061024405717504,
-     "share_mean": 0.4693730213642451,
-     "share_lo": 0.26003716627479223,
-     "share_hi": 0.634709170150408
+     "win_prob": 0.8095531938045561,
+     "share_mean": 0.46029000278731813,
+     "share_lo": 0.2649737525709032,
+     "share_hi": 0.6251652459292978
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.0774327319635751,
-     "share_mean": 0.16439539633541947,
-     "share_lo": 0.07273920259668178,
-     "share_hi": 0.29372198637855185
+     "win_prob": 0.077927533152665,
+     "share_mean": 0.16848078470136774,
+     "share_lo": 0.07693347360299586,
+     "share_hi": 0.2895043942273724
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.06572780792833537,
-     "share_mean": 0.2047772545591234,
-     "share_lo": 0.09388520306377993,
-     "share_hi": 0.35334639120230904
+     "win_prob": 0.06254295751715876,
+     "share_mean": 0.20470903077417812,
+     "share_lo": 0.09716027586390602,
+     "share_hi": 0.343419131377342
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.03443098340643804,
-     "share_mean": 0.10295505324524103,
-     "share_lo": 0.044483835314237045,
-     "share_hi": 0.19205890083693325
+     "win_prob": 0.034183764677499624,
+     "share_mean": 0.1069072856496909,
+     "share_lo": 0.04805031395290362,
+     "share_hi": 0.1965427247989742
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.01630603612990112,
-     "share_mean": 0.058499274495971094,
-     "share_lo": 0.02481845770707529,
-     "share_hi": 0.11418877143315441
+     "win_prob": 0.015792550848120517,
+     "share_mean": 0.05961289608744518,
+     "share_lo": 0.026038597596519483,
+     "share_hi": 0.1138541023660832
     }
    ]
   },
@@ -2950,42 +2955,42 @@
     {
      "candidate": "Nasir Idris",
      "party": "APC",
-     "win_prob": 0.7376072193101281,
-     "share_mean": 0.44975411933792675,
-     "share_lo": 0.2538258871194878,
-     "share_hi": 0.6291321131457848
+     "win_prob": 0.747654697332897,
+     "share_mean": 0.44347042962734406,
+     "share_lo": 0.25353307663235763,
+     "share_hi": 0.606247703413643
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.10240192440561428,
-     "share_mean": 0.17032438446872752,
-     "share_lo": 0.07488791882352372,
-     "share_hi": 0.2902826077290405
+     "win_prob": 0.10158412857160633,
+     "share_mean": 0.1737153267160732,
+     "share_lo": 0.08008279637386344,
+     "share_hi": 0.29407583953522215
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.09716462875192759,
-     "share_mean": 0.21791581222825335,
-     "share_lo": 0.10111737411811408,
-     "share_hi": 0.36664265407830293
+     "win_prob": 0.08983160852927702,
+     "share_mean": 0.21640558854115652,
+     "share_lo": 0.10513009544494908,
+     "share_hi": 0.35914213188033095
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.0424900046452452,
-     "share_mean": 0.10206781508622315,
-     "share_lo": 0.04421052068665512,
-     "share_hi": 0.18990067768972946
+     "win_prob": 0.04153415097743231,
+     "share_mean": 0.10560534338671991,
+     "share_lo": 0.04843809033471461,
+     "share_hi": 0.19251767213580628
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.020336222887084882,
-     "share_mean": 0.059937868878869115,
-     "share_lo": 0.02475003973075891,
-     "share_hi": 0.11339098267467038
+     "win_prob": 0.019395414588787196,
+     "share_mean": 0.060803311728706136,
+     "share_lo": 0.026579604945026165,
+     "share_hi": 0.11343437539498762
     }
    ]
   },
@@ -3004,42 +3009,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.6285221879703513,
-     "share_mean": 0.39851899400698126,
-     "share_lo": 0.21459251284747882,
-     "share_hi": 0.5764297594831455
+     "win_prob": 0.6657996861949148,
+     "share_mean": 0.40022168412977555,
+     "share_lo": 0.21938430572819073,
+     "share_hi": 0.5683806725746127
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.16243742467058608,
-     "share_mean": 0.2367400075484206,
-     "share_lo": 0.11085880373406376,
-     "share_hi": 0.38601511610482603
+     "win_prob": 0.1388361412450483,
+     "share_mean": 0.2281317884932222,
+     "share_lo": 0.1115294357318518,
+     "share_hi": 0.37286943802612904
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.10635490332164593,
-     "share_mean": 0.16591335809256486,
-     "share_lo": 0.07378704933834533,
-     "share_hi": 0.28777072522881786
+     "win_prob": 0.10009794037350629,
+     "share_mean": 0.1689257168979041,
+     "share_lo": 0.07873062814593203,
+     "share_hi": 0.2847030403869657
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.07213157707860603,
-     "share_mean": 0.13471032685898882,
-     "share_lo": 0.059880903355351345,
-     "share_hi": 0.2372200560381758
+     "win_prob": 0.06744788270421895,
+     "share_mean": 0.1379597445628726,
+     "share_lo": 0.06393643922638247,
+     "share_hi": 0.23792170045013405
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.0305539069588106,
-     "share_mean": 0.06411731349304466,
-     "share_lo": 0.027603568700415665,
-     "share_hi": 0.12164772627524542
+     "win_prob": 0.027818349482311575,
+     "share_mean": 0.06476106591622546,
+     "share_lo": 0.02795901563747695,
+     "share_hi": 0.1170472055539141
     }
    ]
   },
@@ -3048,60 +3053,52 @@
    "state": "LA",
    "title": "Lagos Governorship 2027",
    "date": "2027-02-06",
-   "candidates_confirmed": false,
+   "candidates_confirmed": true,
    "incumbent": "Babajide Sanwo-Olu",
    "incumbent_party": "APC",
    "incumbent_term_limited": true,
    "open_seat": true,
-   "source_key": null,
+   "source_key": "wikipedia:governorship:2027:LA",
    "contestants": [
     {
-     "candidate": "APC candidate",
+     "candidate": "Kadri Obafemi Hamzat",
      "party": "APC",
-     "win_prob": 0.5303483999762526,
-     "share_mean": 0.3797648540659445,
-     "share_lo": 0.1985488467019843,
-     "share_hi": 0.5507973385365994
+     "win_prob": 0.7725325146684708,
+     "share_mean": 0.4555982943251194,
+     "share_lo": 0.2601409763614463,
+     "share_hi": 0.6214125992589811
     },
     {
-     "candidate": "NDC candidate",
-     "party": "NDC",
-     "win_prob": 0.18714844763086025,
-     "share_mean": 0.18366900052310123,
-     "share_lo": 0.0829848999989561,
-     "share_hi": 0.30755846995962155
-    },
-    {
-     "candidate": "LP candidate",
-     "party": "LP",
-     "win_prob": 0.10040886274995686,
-     "share_mean": 0.11903997387282785,
-     "share_lo": 0.05190975483447827,
-     "share_hi": 0.2146885401937489
-    },
-    {
-     "candidate": "ADC candidate",
+     "candidate": "Gbadebo Rhodes-Vivour",
      "party": "ADC",
-     "win_prob": 0.07445237949405813,
-     "share_mean": 0.12374571304188522,
-     "share_lo": 0.05363687928946447,
-     "share_hi": 0.21971052637398028
+     "win_prob": 0.10261595201803647,
+     "share_mean": 0.22754002599268694,
+     "share_lo": 0.10775590853152704,
+     "share_hi": 0.368046997389172
     },
     {
-     "candidate": "PDP candidate",
+     "candidate": "Adedeji Doherty",
      "party": "PDP",
-     "win_prob": 0.07408591737952744,
-     "share_mean": 0.13027163921445709,
-     "share_lo": 0.05640630730228809,
-     "share_hi": 0.22633372835100865
+     "win_prob": 0.05250594968664544,
+     "share_mean": 0.14097148388340083,
+     "share_lo": 0.0643765143130853,
+     "share_hi": 0.2517427285830136
+    },
+    {
+     "candidate": "Prince Laja Adeoye",
+     "party": "APM",
+     "win_prob": 0.04939171115504949,
+     "share_mean": 0.11052094696616616,
+     "share_lo": 0.04957715466124079,
+     "share_hi": 0.19925947570581903
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.03355599276934473,
-     "share_mean": 0.06350881928178399,
-     "share_lo": 0.027219039635884627,
-     "share_hi": 0.11644051286358813
+     "win_prob": 0.0229538724717976,
+     "share_mean": 0.0653692488326268,
+     "share_lo": 0.029306450501831404,
+     "share_hi": 0.12241315462827561
     }
    ]
   },
@@ -3120,42 +3117,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.4295501099112138,
-     "share_mean": 0.3632953906757113,
-     "share_lo": 0.1880617587631361,
-     "share_hi": 0.5352140725130164
+     "win_prob": 0.464458526417528,
+     "share_mean": 0.36343400548347604,
+     "share_lo": 0.1967732840952747,
+     "share_hi": 0.5232464321026168
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.1994542798109087,
-     "share_mean": 0.18358729287517733,
-     "share_lo": 0.08223237598859315,
-     "share_hi": 0.31768552855216414
+     "win_prob": 0.19229576629010248,
+     "share_mean": 0.18509196509014406,
+     "share_lo": 0.08761250990005058,
+     "share_hi": 0.3078168468985339
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.18610003389476942,
-     "share_mean": 0.21407296605038556,
-     "share_lo": 0.0979513051289766,
-     "share_hi": 0.3558309187146511
+     "win_prob": 0.167327530699539,
+     "share_mean": 0.21071517412140317,
+     "share_lo": 0.10287643843331558,
+     "share_hi": 0.34180008735737666
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.1415117032345164,
-     "share_mean": 0.16731752772608066,
-     "share_lo": 0.07569808447850587,
-     "share_hi": 0.2862725570465884
+     "win_prob": 0.13565068464630622,
+     "share_mean": 0.1691283583231414,
+     "share_lo": 0.07930427910007955,
+     "share_hi": 0.2851217124729412
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.04338387314859163,
-     "share_mean": 0.07172682267264509,
-     "share_lo": 0.030442100449901397,
-     "share_hi": 0.13702104189809225
+     "win_prob": 0.040267491946524445,
+     "share_mean": 0.07163049698183548,
+     "share_lo": 0.03176043268021121,
+     "share_hi": 0.13315831649424117
     }
    ]
   },
@@ -3174,42 +3171,42 @@
     {
      "candidate": "Mohammed Umar Bago",
      "party": "APC",
-     "win_prob": 0.7739203856575009,
-     "share_mean": 0.4470128512681657,
-     "share_lo": 0.24819357244040438,
-     "share_hi": 0.6135618213180619
+     "win_prob": 0.7640249792804972,
+     "share_mean": 0.439983041462677,
+     "share_lo": 0.2419050971003134,
+     "share_hi": 0.6006349951184258
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.08335062299667687,
-     "share_mean": 0.19892642536614555,
-     "share_lo": 0.09172274756274894,
-     "share_hi": 0.33926545773833444
+     "win_prob": 0.08383965606507979,
+     "share_mean": 0.19809978408217832,
+     "share_lo": 0.09711238933261385,
+     "share_hi": 0.3351056982089246
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.07325063409638179,
-     "share_mean": 0.1559023294842599,
-     "share_lo": 0.07030180715912873,
-     "share_hi": 0.27615828661866854
+     "win_prob": 0.07861198050500764,
+     "share_mean": 0.15941477825995656,
+     "share_lo": 0.07496320428641412,
+     "share_hi": 0.27307658147258634
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.050436072173770004,
-     "share_mean": 0.13471606430428026,
-     "share_lo": 0.059109718082380296,
-     "share_hi": 0.2395354550734441
+     "win_prob": 0.05379027866620852,
+     "share_mean": 0.13831651264017628,
+     "share_lo": 0.06625586655491933,
+     "share_hi": 0.2440488532252412
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.0190422850756704,
-     "share_mean": 0.0634423295771487,
-     "share_lo": 0.02756924222222828,
-     "share_hi": 0.12037042000809764
+     "win_prob": 0.019733105483206954,
+     "share_mean": 0.06418588355501181,
+     "share_lo": 0.027979830027045995,
+     "share_hi": 0.12056726798419355
     }
    ]
   },
@@ -3228,42 +3225,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.5495031576244848,
-     "share_mean": 0.3623677156089882,
-     "share_lo": 0.18834364368163273,
-     "share_hi": 0.528010607350565
+     "win_prob": 0.596910865332736,
+     "share_mean": 0.36566375261981054,
+     "share_lo": 0.19264139784593337,
+     "share_hi": 0.5245323038660711
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.18671494388249926,
-     "share_mean": 0.20959566593353424,
-     "share_lo": 0.09705901131089538,
-     "share_hi": 0.3500362663929081
+     "win_prob": 0.15914948533608236,
+     "share_mean": 0.20339045205734632,
+     "share_lo": 0.09893850787911163,
+     "share_hi": 0.33856228729454246
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.12972909060585147,
-     "share_mean": 0.21904529121259325,
-     "share_lo": 0.10087615924874163,
-     "share_hi": 0.36042315240311784
+     "win_prob": 0.11933255829912377,
+     "share_mean": 0.2180699368702547,
+     "share_lo": 0.10344171240778258,
+     "share_hi": 0.3566267728413274
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.09872725598439955,
-     "share_mean": 0.14326354215408893,
-     "share_lo": 0.06322699363822556,
-     "share_hi": 0.2535404243586284
+     "win_prob": 0.09248279434088919,
+     "share_mean": 0.14656777882732178,
+     "share_lo": 0.06640884704603878,
+     "share_hi": 0.2562903492220988
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.03532555190276507,
-     "share_mean": 0.06572778509079538,
-     "share_lo": 0.027912184337008115,
-     "share_hi": 0.12482865850865901
+     "win_prob": 0.032124296691168744,
+     "share_mean": 0.06630807962526664,
+     "share_lo": 0.029473929874031624,
+     "share_hi": 0.11819557635208393
     }
    ]
   },
@@ -3277,55 +3274,55 @@
    "incumbent_party": "APM",
    "incumbent_term_limited": true,
    "open_seat": true,
-   "source_key": null,
+   "source_key": "wikipedia:governorship:2027:OY",
    "contestants": [
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.43819502658242804,
-     "share_mean": 0.2945022097016783,
-     "share_lo": 0.14290498045523248,
-     "share_hi": 0.447308505339478
+     "win_prob": 0.40211518232571536,
+     "share_mean": 0.2839086946945119,
+     "share_lo": 0.1485746152849584,
+     "share_hi": 0.43763992695121856
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.25910271577147376,
-     "share_mean": 0.2511549698446897,
-     "share_lo": 0.12080878926099319,
-     "share_hi": 0.3922043461729389
+     "win_prob": 0.2950282626567233,
+     "share_mean": 0.2531109191785077,
+     "share_lo": 0.12560283742303707,
+     "share_hi": 0.3899263686333452
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.10404041589339215,
-     "share_mean": 0.14563491854361954,
-     "share_lo": 0.06760847500021051,
-     "share_hi": 0.2625155522970154
+     "win_prob": 0.10467440504447638,
+     "share_mean": 0.14829715924590522,
+     "share_lo": 0.06826449596954912,
+     "share_hi": 0.24959590269793552
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.0910631785981324,
-     "share_mean": 0.13631733718213263,
-     "share_lo": 0.06203028965228521,
-     "share_hi": 0.24255838871902174
+     "win_prob": 0.09141385731837869,
+     "share_mean": 0.13906683213826374,
+     "share_lo": 0.06636435452627754,
+     "share_hi": 0.23511383722987544
     },
     {
      "candidate": "APM candidate",
      "party": "APM",
-     "win_prob": 0.07329307360736162,
-     "share_mean": 0.10780288189749082,
-     "share_lo": 0.047111794122226276,
-     "share_hi": 0.18811195207299178
+     "win_prob": 0.07330825738303028,
+     "share_mean": 0.11070333348616092,
+     "share_lo": 0.050354761666145165,
+     "share_hi": 0.19083421008149934
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.03430558954721211,
-     "share_mean": 0.06458768283038895,
-     "share_lo": 0.027385608744240265,
-     "share_hi": 0.11784731926153214
+     "win_prob": 0.03346003527167624,
+     "share_mean": 0.06491306125665043,
+     "share_lo": 0.029498407093415113,
+     "share_hi": 0.11249495325299838
     }
    ]
   },
@@ -3344,50 +3341,50 @@
     {
      "candidate": "Caleb Mutfwang",
      "party": "APC",
-     "win_prob": 0.6974183346432721,
-     "share_mean": 0.3947641141173088,
-     "share_lo": 0.2105093009404544,
-     "share_hi": 0.5515247468839265
+     "win_prob": 0.6995662775914534,
+     "share_mean": 0.3883175773238166,
+     "share_lo": 0.21027682723107924,
+     "share_hi": 0.548944975371305
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.1125569995500069,
-     "share_mean": 0.16028324694131388,
-     "share_lo": 0.07264822616095168,
-     "share_hi": 0.2735872534044735
+     "win_prob": 0.11361658395111633,
+     "share_mean": 0.16252390637659242,
+     "share_lo": 0.07741502056309876,
+     "share_hi": 0.2739254451686989
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.06309346925230824,
-     "share_mean": 0.13755044740333,
-     "share_lo": 0.06215920733359016,
-     "share_hi": 0.2407491457425239
+     "win_prob": 0.0630728802243574,
+     "share_mean": 0.14007277040506094,
+     "share_lo": 0.06543469871301477,
+     "share_hi": 0.23737463220835348
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.061190080283107975,
-     "share_mean": 0.16259140425877866,
-     "share_lo": 0.07465456974370974,
-     "share_hi": 0.28238081465047504
+     "win_prob": 0.059278638260140765,
+     "share_mean": 0.1620881432390245,
+     "share_lo": 0.07635517427008351,
+     "share_hi": 0.2739020692563292
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.04494650881581424,
-     "share_mean": 0.08901143663900403,
-     "share_lo": 0.038145294638294594,
-     "share_hi": 0.16089298074881694
+     "win_prob": 0.044309577189701924,
+     "share_mean": 0.0907046255217697,
+     "share_lo": 0.04165177852798165,
+     "share_hi": 0.1646331679369398
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.020794607455490367,
-     "share_mean": 0.05579935064026476,
-     "share_lo": 0.023333228485619834,
-     "share_hi": 0.10279541227649701
+     "win_prob": 0.020156042783230223,
+     "share_mean": 0.056292977133735905,
+     "share_lo": 0.025136342256259527,
+     "share_hi": 0.10159599726565714
     }
    ]
   },
@@ -3406,50 +3403,50 @@
     {
      "candidate": "Siminalayi Fubara",
      "party": "APC",
-     "win_prob": 0.7781158936029954,
-     "share_mean": 0.4213162856276624,
-     "share_lo": 0.228480074386905,
-     "share_hi": 0.5884234208225552
+     "win_prob": 0.779560366895147,
+     "share_mean": 0.4106366287592545,
+     "share_lo": 0.23303974305507974,
+     "share_hi": 0.5684465820366041
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.06593302302885656,
-     "share_mean": 0.14106431171483125,
-     "share_lo": 0.06152080843036141,
-     "share_hi": 0.2515226832853313
+     "win_prob": 0.0667878750434309,
+     "share_mean": 0.14468089429953077,
+     "share_lo": 0.06621808916422077,
+     "share_hi": 0.24523573647333125
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.061590828293876965,
-     "share_mean": 0.1824085489317456,
-     "share_lo": 0.08157687262585943,
-     "share_hi": 0.3117548461983517
+     "win_prob": 0.059593248373550844,
+     "share_mean": 0.18242094366507025,
+     "share_lo": 0.08691930961659211,
+     "share_hi": 0.3070975633664442
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.043315139848326925,
-     "share_mean": 0.1206219796774183,
-     "share_lo": 0.05469130798382299,
-     "share_hi": 0.21808332545361325
+     "win_prob": 0.04356903523386895,
+     "share_mean": 0.1242587393898968,
+     "share_lo": 0.056552250024041066,
+     "share_hi": 0.21474291076863997
     },
     {
      "candidate": "LP candidate",
      "party": "LP",
-     "win_prob": 0.03483098891117033,
-     "share_mean": 0.08249273629409812,
-     "share_lo": 0.03517163517584584,
-     "share_hi": 0.1540360449363675
+     "win_prob": 0.03464221468599663,
+     "share_mean": 0.08492946153147661,
+     "share_lo": 0.03802285263013218,
+     "share_hi": 0.14887139408101568
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.016214126314774112,
-     "share_mean": 0.052096137754244404,
-     "share_lo": 0.022732552994344648,
-     "share_hi": 0.09856764077645544
+     "win_prob": 0.015847259768005748,
+     "share_mean": 0.05307333235477107,
+     "share_lo": 0.023669019916189644,
+     "share_hi": 0.0955560009915039
     }
    ]
   },
@@ -3468,42 +3465,42 @@
     {
      "candidate": "Ahmad Aliyu",
      "party": "APC",
-     "win_prob": 0.7557671281198247,
-     "share_mean": 0.45869206651120115,
-     "share_lo": 0.2548681480999349,
-     "share_hi": 0.6319839658412815
+     "win_prob": 0.7175456324222621,
+     "share_mean": 0.4768115758533218,
+     "share_lo": 0.2830931793089442,
+     "share_hi": 0.6430576574458848
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.09319702204373136,
-     "share_mean": 0.17006284355091797,
-     "share_lo": 0.07517589346476612,
-     "share_hi": 0.29293751280853736
+     "win_prob": 0.11121454184772368,
+     "share_mean": 0.16574557730525277,
+     "share_lo": 0.07490491633316049,
+     "share_hi": 0.2879739220045016
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.09205314625720461,
-     "share_mean": 0.217748133066965,
-     "share_lo": 0.10030241793808638,
-     "share_hi": 0.3705258080370523
+     "win_prob": 0.10240207984960606,
+     "share_mean": 0.20662636500411088,
+     "share_lo": 0.09911163337762514,
+     "share_hi": 0.34407079087991677
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.039600068011859293,
-     "share_mean": 0.09314925791703486,
-     "share_lo": 0.039378223036652074,
-     "share_hi": 0.17246854921907806
+     "win_prob": 0.04658317438958799,
+     "share_mean": 0.09232991093410914,
+     "share_lo": 0.04211776339406145,
+     "share_hi": 0.16512038134850127
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.019382635567379902,
-     "share_mean": 0.06034769895388098,
-     "share_lo": 0.02511476053353022,
-     "share_hi": 0.11424315862107783
+     "win_prob": 0.022254571490820104,
+     "share_mean": 0.05848657090320545,
+     "share_lo": 0.025395913526596706,
+     "share_hi": 0.1095607944095017
     }
    ]
   },
@@ -3522,50 +3519,50 @@
     {
      "candidate": "Kefas Agbu",
      "party": "PDP",
-     "win_prob": 0.37054858363492976,
-     "share_mean": 0.2454959706550855,
-     "share_lo": 0.11954136800666122,
-     "share_hi": 0.39374890615784963
+     "win_prob": 0.4016102799879137,
+     "share_mean": 0.24938127985232894,
+     "share_lo": 0.12231447546242179,
+     "share_hi": 0.38822326614463065
     },
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.20119061246218173,
-     "share_mean": 0.25331614982588213,
-     "share_lo": 0.12075137687374964,
-     "share_hi": 0.3961015118579168
+     "win_prob": 0.18102427365936374,
+     "share_mean": 0.24485176315539883,
+     "share_lo": 0.124202686401463,
+     "share_hi": 0.38197691340800716
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.1444631467646441,
-     "share_mean": 0.16228044956659135,
-     "share_lo": 0.07272348970078002,
-     "share_hi": 0.26988502919447244
+     "win_prob": 0.14301211069379874,
+     "share_mean": 0.1642605005403332,
+     "share_lo": 0.0785331466192599,
+     "share_hi": 0.2751810844910368
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.14185134952132913,
-     "share_mean": 0.16157123153064515,
-     "share_lo": 0.07303924602619433,
-     "share_hi": 0.276478098131369
+     "win_prob": 0.14038363727551445,
+     "share_mean": 0.16356271536059636,
+     "share_lo": 0.080649410502268,
+     "share_hi": 0.2701606589233486
     },
     {
      "candidate": "NNPP candidate",
      "party": "NNPP",
-     "win_prob": 0.10742654773846863,
-     "share_mean": 0.11260084067126519,
-     "share_lo": 0.049267786005398065,
-     "share_hi": 0.197254152938055
+     "win_prob": 0.10101865378670591,
+     "share_mean": 0.11307518976425122,
+     "share_lo": 0.05195093362936701,
+     "share_hi": 0.19453800819595443
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.03451975987844684,
-     "share_mean": 0.06473535775053067,
-     "share_lo": 0.02701275291696217,
-     "share_hi": 0.11798874250843759
+     "win_prob": 0.03295104459670354,
+     "share_mean": 0.0648685513270913,
+     "share_lo": 0.02804911844656314,
+     "share_hi": 0.11629087060024342
     }
    ]
   },
@@ -3584,42 +3581,42 @@
     {
      "candidate": "APC candidate",
      "party": "APC",
-     "win_prob": 0.5749106573785103,
-     "share_mean": 0.405705195496302,
-     "share_lo": 0.21540749697126232,
-     "share_hi": 0.5794760679614257
+     "win_prob": 0.6025317650021851,
+     "share_mean": 0.40421365452659364,
+     "share_lo": 0.22569811792286654,
+     "share_hi": 0.5734441470995866
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.1948150513076306,
-     "share_mean": 0.1959413779264182,
-     "share_lo": 0.09038562425872741,
-     "share_hi": 0.32653012332768844
+     "win_prob": 0.1858239906318883,
+     "share_mean": 0.1972026022660206,
+     "share_lo": 0.09367983935308011,
+     "share_hi": 0.3288515923506572
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.11440064315911051,
-     "share_mean": 0.19399349691536913,
-     "share_lo": 0.08955891584236969,
-     "share_hi": 0.3316221742851901
+     "win_prob": 0.10359983733331321,
+     "share_mean": 0.19184505184605577,
+     "share_lo": 0.09077000175410888,
+     "share_hi": 0.3172557859295503
     },
     {
      "candidate": "NDC candidate",
      "party": "NDC",
-     "win_prob": 0.0803954621061805,
-     "share_mean": 0.13647354542560547,
-     "share_lo": 0.059175368762799475,
-     "share_hi": 0.24358277246632526
+     "win_prob": 0.0755565179844942,
+     "share_mean": 0.1387520537872436,
+     "share_lo": 0.06236949835191171,
+     "share_hi": 0.24166518917075414
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.03547818604856816,
-     "share_mean": 0.06788638423630527,
-     "share_lo": 0.028700686101390583,
-     "share_hi": 0.12638683152341504
+     "win_prob": 0.032487889048119216,
+     "share_mean": 0.06798663757408648,
+     "share_lo": 0.03054174864352326,
+     "share_hi": 0.12337381748621326
     }
    ]
   },
@@ -3638,34 +3635,34 @@
     {
      "candidate": "Dauda Lawal",
      "party": "APC",
-     "win_prob": 0.8963343805838914,
-     "share_mean": 0.5345973379928771,
-     "share_lo": 0.31530121355551133,
-     "share_hi": 0.7056731461583533
+     "win_prob": 0.8980329245422617,
+     "share_mean": 0.5276082062794315,
+     "share_lo": 0.3236781597721833,
+     "share_hi": 0.6964602233614784
     },
     {
      "candidate": "ADC candidate",
      "party": "ADC",
-     "win_prob": 0.05023653300185721,
-     "share_mean": 0.175502199742294,
-     "share_lo": 0.07922521640652037,
-     "share_hi": 0.3215223935928232
+     "win_prob": 0.05036226953719819,
+     "share_mean": 0.18033122741602114,
+     "share_lo": 0.08128985584740692,
+     "share_hi": 0.31179004142446176
     },
     {
      "candidate": "PDP candidate",
      "party": "PDP",
-     "win_prob": 0.04065896424442375,
-     "share_mean": 0.20915735359818446,
-     "share_lo": 0.09406928702541949,
-     "share_hi": 0.3631209279368167
+     "win_prob": 0.039247704527660056,
+     "share_mean": 0.2102548743219004,
+     "share_lo": 0.0973969519978048,
+     "share_hi": 0.35692732395407645
     },
     {
      "candidate": "Others",
      "party": "OTH",
-     "win_prob": 0.012770122169827723,
-     "share_mean": 0.08074310866664451,
-     "share_lo": 0.033680054211817134,
-     "share_hi": 0.1582622652730199
+     "win_prob": 0.012357101392879911,
+     "share_mean": 0.08180569198264692,
+     "share_lo": 0.03591516788365973,
+     "share_hi": 0.15450622139847078
     }
    ]
   }
@@ -3686,14 +3683,29 @@
    "zone": 0.8457273807039513,
    "state": 0.6079173089782923
   },
-  "governorship_tau": 0.5453087676542142
+  "governorship_tau": 0.5187748186707901
  },
  "backtest": {
   "presidential": {
+   "polls": {
+    "lam": 0.25,
+    "raw": 0.5,
+    "n": 2,
+    "grid": {
+     "0.0": 0.09854828900103427,
+     "0.1": 0.09296767717978341,
+     "0.2": 0.08817756371089969,
+     "0.3": 0.08411357898045607,
+     "0.4": 0.08072729418135174,
+     "0.5": 0.07798276310249087
+    }
+   },
    "folds": [
     {
      "train_until": 1999,
      "test": 2003,
+     "poll_weight": 0.0,
+     "polls_available": false,
      "params": {
       "w_c": 1.5,
       "w_r": 0.5,
@@ -3775,6 +3787,8 @@
     {
      "train_until": 2003,
      "test": 2011,
+     "poll_weight": 0.0,
+     "polls_available": false,
      "params": {
       "w_c": 4.846886432533841,
       "w_r": 0.5,
@@ -3867,6 +3881,8 @@
     {
      "train_until": 2011,
      "test": 2015,
+     "poll_weight": 0.0,
+     "polls_available": true,
      "params": {
       "w_c": 6.0,
       "w_r": 0.5,
@@ -3937,6 +3953,8 @@
     {
      "train_until": 2015,
      "test": 2019,
+     "poll_weight": 0.16666666666666666,
+     "polls_available": false,
      "params": {
       "w_c": 6.0,
       "w_r": 0.5,
@@ -4007,6 +4025,8 @@
     {
      "train_until": 2019,
      "test": 2023,
+     "poll_weight": 0.16666666666666666,
+     "polls_available": true,
      "params": {
       "w_c": 6.0,
       "w_r": 0.5,
@@ -4023,11 +4043,11 @@
       "state": 0.5840459183300049
      },
      "anyanwu": {
-      "winner_accuracy": 0.4594594594594595,
-      "brier": 0.7887524966216215,
-      "log_loss": 1.602843697050243,
-      "share_mae_pp": 9.522064623863207,
-      "national_winner_prob": 0.58775
+      "winner_accuracy": 0.4864864864864865,
+      "brier": 0.7046527939189189,
+      "log_loss": 1.275739052684996,
+      "share_mae_pp": 7.221247235791757,
+      "national_winner_prob": 0.5965
      },
      "baseline": {
       "winner_accuracy": 0.32432432432432434,
@@ -4040,32 +4060,32 @@
       {
        "candidate": "Bola Tinubu",
        "party": "APC",
-       "share": 0.44994288832495344,
-       "first_prob": 0.58775
+       "share": 0.4235888977130403,
+       "first_prob": 0.5965
       },
       {
        "candidate": "Atiku Abubakar",
        "party": "PDP",
-       "share": 0.3947816583287042,
-       "first_prob": 0.411
+       "share": 0.365954142584295,
+       "first_prob": 0.39875
       },
       {
        "candidate": "Peter Obi",
        "party": "LP",
-       "share": 0.056115729436855985,
-       "first_prob": 0.0
+       "share": 0.10919530202344283,
+       "first_prob": 0.00275
       },
       {
        "candidate": "Rabiu Kwankwaso",
        "party": "NNPP",
-       "share": 0.021634597220045692,
+       "share": 0.02607545933524517,
        "first_prob": 0.0
       },
       {
        "candidate": "Others",
        "party": "OTH",
-       "share": 0.07752512668944063,
-       "first_prob": 0.00125
+       "share": 0.07518619834397675,
+       "first_prob": 0.002
       }
      ],
      "actual": [
@@ -4114,11 +4134,11 @@
    },
    "summary": {
     "anyanwu": {
-     "winner_accuracy": 0.7243243243243244,
-     "brier": 0.4218347371621622,
-     "log_loss": 0.7553907715015334,
-     "share_mae_pp": 6.33349190002578,
-     "national_winner_prob": 0.6651
+     "winner_accuracy": 0.7297297297297297,
+     "brier": 0.40501479662162165,
+     "log_loss": 0.6899698426284842,
+     "share_mae_pp": 5.87332842241149,
+     "national_winner_prob": 0.6668499999999999
     },
     "baseline": {
      "winner_accuracy": 0.6756756756756757,
@@ -4176,33 +4196,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.22515837440988198,
-      "governors_party": -0.042849286119948815,
-      "presidents_party": 0.18940541436581185,
+      "incumbent_running": 0.24644556249268126,
+      "governors_party": -0.02058762931790142,
+      "presidents_party": 0.16145653978113786,
       "presidents_party_offcycle": 0.2,
-      "no_base": -0.7691071913539104,
-      "log_last_gov": -0.010571192608873521,
-      "log_last_pres": 0.26880538149934635,
-      "personal_best": 0.6964976496768864
+      "no_base": -0.7924224036624152,
+      "log_last_gov": -0.013070110151950844,
+      "log_last_pres": 0.26563055517439593,
+      "personal_best": 0.7038578070178995,
+      "was_deputy_governor": 0.2874879912721299,
+      "was_legislator": 0.020347636470621485,
+      "was_minister": 0.4527076820897577,
+      "was_state_executive": 0.00038175017207363115
      },
      "theta_winner": {
-      "last_gov": 1.7476381446618605,
-      "last_pres": 2.617492535269199,
-      "incumbent_running": 0.2159677403921679,
-      "governors_party": -0.08147007306126222,
-      "presidents_party": 0.6925278290111873,
+      "last_gov": 1.7127736817180559,
+      "last_pres": 2.6254094938791805,
+      "incumbent_running": 0.2452096059586202,
+      "governors_party": -0.052064198861825915,
+      "presidents_party": 0.623515799274778,
       "presidents_party_offcycle": 0.2,
-      "no_base": -1.0036881464032275,
+      "no_base": -1.0050195552085668,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.7738723921495617
+      "personal_best": 0.775489312833189,
+      "was_deputy_governor": 0.340108535682693,
+      "was_legislator": 0.1599386190170042,
+      "was_minister": 0.6819251167612018,
+      "was_state_executive": -0.2534279665687819
      },
-     "tau": 0.38592094617378275,
+     "tau": 0.3479051949696298,
      "anyanwu": {
       "winner_accuracy": 0.8285714285714286,
-      "brier": 0.24966523397044846,
-      "log_loss": 0.4352597718941194,
-      "winner_share_mae_pp": 17.59936997897961
+      "brier": 0.22831175192837974,
+      "log_loss": 0.4066122632086427,
+      "winner_share_mae_pp": 17.523668796045524
      },
      "baseline_governors_party": 0.8857142857142857,
      "baseline_last_result": 0.8571428571428571
@@ -4213,33 +4241,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.018754962725776158,
-      "governors_party": 0.26540751322551465,
-      "presidents_party": 0.3139652205881811,
+      "incumbent_running": -0.0077307533169168625,
+      "governors_party": 0.25446897094367027,
+      "presidents_party": 0.27706513523660514,
       "presidents_party_offcycle": 0.2,
-      "no_base": -0.24490727318930508,
-      "log_last_gov": 0.027568101753177227,
-      "log_last_pres": 0.1350033048060386,
-      "personal_best": 0.41531262019447246
+      "no_base": -0.26605166824505544,
+      "log_last_gov": 0.04791553318868854,
+      "log_last_pres": 0.12365032232640089,
+      "personal_best": 0.4384238424731724,
+      "was_deputy_governor": -0.18475777800735055,
+      "was_legislator": -0.28088133168206314,
+      "was_minister": 0.7284174803828302,
+      "was_state_executive": 0.13452986416870535
      },
      "theta_winner": {
-      "last_gov": 0.7427984387381741,
-      "last_pres": 1.9540369269096247,
-      "incumbent_running": 0.18039512323920937,
-      "governors_party": 0.20574440729350119,
-      "presidents_party": 0.6800140272098265,
+      "last_gov": 0.927947583729061,
+      "last_pres": 1.940114631817285,
+      "incumbent_running": 0.20482452562125897,
+      "governors_party": 0.2988047489255896,
+      "presidents_party": 0.6127363614225853,
       "presidents_party_offcycle": 0.2,
-      "no_base": -0.2447473607924912,
+      "no_base": -0.23626699736677564,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.8889308259563168
+      "personal_best": 0.8238558421113897,
+      "was_deputy_governor": 0.25686258651736316,
+      "was_legislator": -0.4471910691499552,
+      "was_minister": 1.4836412735695355,
+      "was_state_executive": -0.3148223079126007
      },
-     "tau": 0.6295173227104321,
+     "tau": 0.5511838002979952,
      "anyanwu": {
       "winner_accuracy": 0.0,
-      "brier": 1.173746312232629,
-      "log_loss": 2.376177410289583,
-      "winner_share_mae_pp": 18.654868162843453
+      "brier": 1.1873701244316939,
+      "log_loss": 2.4457447373671113,
+      "winner_share_mae_pp": 19.48386421461703
      },
      "baseline_governors_party": 0.0,
      "baseline_last_result": 0.0
@@ -4250,33 +4286,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.01480317381991397,
-      "governors_party": 0.2515033717778792,
-      "presidents_party": 0.29667741263478564,
-      "presidents_party_offcycle": 0.03998564769716397,
-      "no_base": -0.22879857478296373,
-      "log_last_gov": 0.026833104855608542,
-      "log_last_pres": 0.14126452447796997,
-      "personal_best": 0.4116601365507353
+      "incumbent_running": -0.011270642788435911,
+      "governors_party": 0.2435361781668741,
+      "presidents_party": 0.2588353201579054,
+      "presidents_party_offcycle": 0.06036156107107932,
+      "no_base": -0.26339933324108156,
+      "log_last_gov": 0.045692131934542995,
+      "log_last_pres": 0.13187006257050413,
+      "personal_best": 0.4429704081110214,
+      "was_deputy_governor": -0.19138204328233938,
+      "was_legislator": -0.2827429838716579,
+      "was_minister": 0.7247093033502701,
+      "was_state_executive": 0.13555710207279245
      },
      "theta_winner": {
-      "last_gov": 0.7237902208842111,
-      "last_pres": 1.9538577350090922,
-      "incumbent_running": 0.22052337342449,
-      "governors_party": 0.17194266034820552,
-      "presidents_party": 0.5998498579682163,
-      "presidents_party_offcycle": -0.23233205431674805,
-      "no_base": -0.3088081834213055,
+      "last_gov": 0.906078800570407,
+      "last_pres": 1.935961209645259,
+      "incumbent_running": 0.2388831857761681,
+      "governors_party": 0.259611812539562,
+      "presidents_party": 0.5309086111043855,
+      "presidents_party_offcycle": -0.2339276570753335,
+      "no_base": -0.32074087030213383,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.7127746263965535
+      "personal_best": 0.6637700522802413,
+      "was_deputy_governor": 0.2475064146161524,
+      "was_legislator": -0.4383660141994071,
+      "was_minister": 1.4738468586246314,
+      "was_state_executive": -0.3093713412792594
      },
-     "tau": 0.6291856164204104,
+     "tau": 0.5522867387061575,
      "anyanwu": {
-      "winner_accuracy": 0.7407407407407407,
-      "brier": 0.3700462299294634,
-      "log_loss": 0.6094469096297728,
-      "winner_share_mae_pp": 13.599527064677906
+      "winner_accuracy": 0.7777777777777778,
+      "brier": 0.3244227133334868,
+      "log_loss": 0.5686148384751779,
+      "winner_share_mae_pp": 14.018066586453998
      },
      "baseline_governors_party": 0.7777777777777778,
      "baseline_last_result": 0.7407407407407407
@@ -4287,33 +4331,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.10976724734351397,
-      "governors_party": 0.3363640179428334,
-      "presidents_party": 0.2379926605997976,
-      "presidents_party_offcycle": 0.028154508055379977,
-      "no_base": -0.2318600055929555,
-      "log_last_gov": 0.03211787838290902,
-      "log_last_pres": 0.10765240781635628,
-      "personal_best": 0.2524904231256492
+      "incumbent_running": -0.15946214327013974,
+      "governors_party": 0.3814381820342265,
+      "presidents_party": 0.1704882201722841,
+      "presidents_party_offcycle": 0.041079052431374705,
+      "no_base": -0.26940016536379574,
+      "log_last_gov": 0.04603141645637503,
+      "log_last_pres": 0.10438894803455318,
+      "personal_best": 0.2583656381263497,
+      "was_deputy_governor": -0.06822835146895653,
+      "was_legislator": -0.2644090696349912,
+      "was_minister": 0.7170508175154965,
+      "was_state_executive": 0.10848258394388653
      },
      "theta_winner": {
-      "last_gov": 0.780969994606098,
-      "last_pres": 1.5527391302554332,
-      "incumbent_running": -0.29701689543578513,
-      "governors_party": 0.4244462279905679,
-      "presidents_party": 0.4560821929481756,
-      "presidents_party_offcycle": -0.22716774902436476,
-      "no_base": 0.1335891483673353,
+      "last_gov": 0.8675381000572617,
+      "last_pres": 1.632596213348737,
+      "incumbent_running": -0.36934139889844003,
+      "governors_party": 0.6270662159775319,
+      "presidents_party": 0.26875214244547535,
+      "presidents_party_offcycle": -0.2404065553683389,
+      "no_base": 0.048629099180902635,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.8655607609098523
+      "personal_best": 0.7600830628598761,
+      "was_deputy_governor": -0.05757174805146501,
+      "was_legislator": -0.261369528115689,
+      "was_minister": 1.695334868201162,
+      "was_state_executive": -0.634864783826381
      },
-     "tau": 0.5918476246307072,
+     "tau": 0.5266493629716705,
      "anyanwu": {
       "winner_accuracy": 0.6666666666666666,
-      "brier": 0.41231362096933033,
-      "log_loss": 0.780046189467596,
-      "winner_share_mae_pp": 26.469165955242214
+      "brier": 0.3838894502511952,
+      "log_loss": 0.7103492740085641,
+      "winner_share_mae_pp": 23.274307571462607
      },
      "baseline_governors_party": 0.6666666666666666,
      "baseline_last_result": 0.6666666666666666
@@ -4324,33 +4376,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.1760479005783389,
-      "governors_party": 0.29532287465704504,
-      "presidents_party": 0.21871835134813816,
-      "presidents_party_offcycle": -0.057680969178508776,
-      "no_base": -0.2538401162060116,
-      "log_last_gov": 0.05715480618202316,
-      "log_last_pres": 0.09399811190000801,
-      "personal_best": 0.37848341712298067
+      "incumbent_running": -0.2211152305044642,
+      "governors_party": 0.3551023248379247,
+      "presidents_party": 0.14859774190166,
+      "presidents_party_offcycle": -0.03521096860079886,
+      "no_base": -0.28627035591889216,
+      "log_last_gov": 0.06713221810369248,
+      "log_last_pres": 0.0944489573731399,
+      "personal_best": 0.3591080287952586,
+      "was_deputy_governor": -0.054017740388310746,
+      "was_legislator": -0.2743610530260491,
+      "was_minister": 0.8052495294835135,
+      "was_state_executive": 0.15522603620800857
      },
      "theta_winner": {
-      "last_gov": 0.937972530277189,
-      "last_pres": 1.4684840593109318,
-      "incumbent_running": -0.39116553946081056,
-      "governors_party": 0.3210807445153634,
-      "presidents_party": 0.40843347489746806,
-      "presidents_party_offcycle": -0.5811519756341709,
-      "no_base": 0.02200290442344755,
+      "last_gov": 1.0356111246844388,
+      "last_pres": 1.5363865639399326,
+      "incumbent_running": -0.47380291288157267,
+      "governors_party": 0.528148986542856,
+      "presidents_party": 0.23951991055995603,
+      "presidents_party_offcycle": -0.5228943765606573,
+      "no_base": -0.03661264701486322,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.1340760958433496
+      "personal_best": 1.0076662191489834,
+      "was_deputy_governor": -0.015733329708037758,
+      "was_legislator": -0.2819381289309734,
+      "was_minister": 1.8279316441625844,
+      "was_state_executive": -0.24506567359205159
      },
-     "tau": 0.6007510230993477,
+     "tau": 0.5262029248507059,
      "anyanwu": {
       "winner_accuracy": 0.0,
-      "brier": 0.9517373875487797,
-      "log_loss": 1.849633159768984,
-      "winner_share_mae_pp": 22.716971066407602
+      "brier": 0.8268687668714783,
+      "log_loss": 1.540856373549778,
+      "winner_share_mae_pp": 19.984495121121665
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4361,33 +4421,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.19586667510152964,
-      "governors_party": 0.31954951475535287,
-      "presidents_party": 0.21764589711825602,
-      "presidents_party_offcycle": -0.08668715712822125,
-      "no_base": -0.2617862714060664,
-      "log_last_gov": 0.05871516364812153,
-      "log_last_pres": 0.08830233409984564,
-      "personal_best": 0.3805121151284869
+      "incumbent_running": -0.2500993411002117,
+      "governors_party": 0.37848074188171604,
+      "presidents_party": 0.1463081028985653,
+      "presidents_party_offcycle": -0.06610127518991843,
+      "no_base": -0.2930827513569417,
+      "log_last_gov": 0.06855422893329921,
+      "log_last_pres": 0.08919449478469653,
+      "personal_best": 0.3787027960279454,
+      "was_deputy_governor": -0.052494226691630216,
+      "was_legislator": -0.26650279821626066,
+      "was_minister": 0.8082344273988549,
+      "was_state_executive": 0.14825436387300037
      },
      "theta_winner": {
-      "last_gov": 0.9480370357399559,
-      "last_pres": 1.3464788715372458,
-      "incumbent_running": -0.39127926805235175,
-      "governors_party": 0.4448574994971083,
-      "presidents_party": 0.403322758648065,
-      "presidents_party_offcycle": -0.7634003912700214,
-      "no_base": -0.007720580295579551,
+      "last_gov": 1.04861970278623,
+      "last_pres": 1.4295875621175316,
+      "incumbent_running": -0.4973413028628222,
+      "governors_party": 0.6543930652812894,
+      "presidents_party": 0.22891094893824862,
+      "presidents_party_offcycle": -0.7170360627685648,
+      "no_base": -0.0729777179253539,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.9559548819510888
+      "personal_best": 0.8719140100303403,
+      "was_deputy_governor": -0.04804791476707348,
+      "was_legislator": -0.32631346932702804,
+      "was_minister": 1.8734348037297044,
+      "was_state_executive": -0.26588783103108293
      },
-     "tau": 0.5986761387365371,
+     "tau": 0.5241624869371914,
      "anyanwu": {
       "winner_accuracy": 1.0,
-      "brier": 0.3294339870407541,
-      "log_loss": 0.5910617387822579,
-      "winner_share_mae_pp": 11.109611249445738
+      "brier": 0.2685579735622208,
+      "log_loss": 0.5167637663290419,
+      "winner_share_mae_pp": 7.6084680111654395
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 0.5
@@ -4398,33 +4466,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.21043777335843675,
-      "governors_party": 0.3035708973715515,
-      "presidents_party": 0.2032549624458819,
-      "presidents_party_offcycle": -0.10448658143211695,
-      "no_base": -0.28747292006322595,
-      "log_last_gov": 0.06272790011898323,
-      "log_last_pres": 0.09390804532797961,
-      "personal_best": 0.4140762124213334
+      "incumbent_running": -0.26589503877666354,
+      "governors_party": 0.3690898891323894,
+      "presidents_party": 0.13523063547148897,
+      "presidents_party_offcycle": -0.06240596061156339,
+      "no_base": -0.32562878840578835,
+      "log_last_gov": 0.07157264694115588,
+      "log_last_pres": 0.09295084909139574,
+      "personal_best": 0.40467771955991166,
+      "was_deputy_governor": -0.05594466501199822,
+      "was_legislator": -0.27494908861265704,
+      "was_minister": 0.8127410364396325,
+      "was_state_executive": 0.14930608562111994
      },
      "theta_winner": {
-      "last_gov": 0.9369339555159449,
-      "last_pres": 1.4001050610022228,
-      "incumbent_running": -0.455256834798646,
-      "governors_party": 0.43948159573676143,
-      "presidents_party": 0.3959842965606298,
-      "presidents_party_offcycle": -0.7490965319165587,
-      "no_base": -0.08154734887219035,
+      "last_gov": 1.036785346838165,
+      "last_pres": 1.4730032970237026,
+      "incumbent_running": -0.5749464712674849,
+      "governors_party": 0.6657300633523979,
+      "presidents_party": 0.22378832458566586,
+      "presidents_party_offcycle": -0.6788845415618813,
+      "no_base": -0.14022570903429374,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.0916500992588687
+      "personal_best": 1.000131309450896,
+      "was_deputy_governor": -0.20867785429514385,
+      "was_legislator": -0.416567556781158,
+      "was_minister": 1.9092448014600032,
+      "was_state_executive": -0.2817126396748437
      },
-     "tau": 0.5922465885019909,
+     "tau": 0.517897873264509,
      "anyanwu": {
-      "winner_accuracy": 0.6333333333333333,
-      "brier": 0.4118307993771545,
-      "log_loss": 0.6202947837331523,
-      "winner_share_mae_pp": 20.20185053509777
+      "winner_accuracy": 0.7,
+      "brier": 0.3756524652279467,
+      "log_loss": 0.5769714385815001,
+      "winner_share_mae_pp": 19.376970095047604
      },
      "baseline_governors_party": 0.5666666666666667,
      "baseline_last_result": 0.6
@@ -4435,33 +4511,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.06878358320096892,
-      "governors_party": 0.16232271571446583,
-      "presidents_party": 0.013822221717049584,
-      "presidents_party_offcycle": -0.045195691942214185,
-      "no_base": -0.15778004720881136,
-      "log_last_gov": 0.06854388099582645,
-      "log_last_pres": 0.17972766612125776,
-      "personal_best": 0.4418738442602571
+      "incumbent_running": -0.0863754725100222,
+      "governors_party": 0.23974291865077163,
+      "presidents_party": -0.04084861560757416,
+      "presidents_party_offcycle": -0.03271252282716361,
+      "no_base": -0.17937225933540296,
+      "log_last_gov": 0.06854936340836693,
+      "log_last_pres": 0.1755853512656983,
+      "personal_best": 0.3982037446056728,
+      "was_deputy_governor": 0.06482436050995313,
+      "was_legislator": -0.065201485061157,
+      "was_minister": 0.8449093881629833,
+      "was_state_executive": 0.11771879395298077
      },
      "theta_winner": {
-      "last_gov": 1.1279755932561772,
-      "last_pres": 2.190296710876842,
-      "incumbent_running": 0.12370700625514817,
-      "governors_party": 0.01407723178053687,
-      "presidents_party": -0.05662896815331358,
-      "presidents_party_offcycle": -0.5515442179104955,
-      "no_base": -0.2870857909346347,
+      "last_gov": 1.1140743908466153,
+      "last_pres": 2.255088210915666,
+      "incumbent_running": -0.02258899978626613,
+      "governors_party": 0.3161260637852762,
+      "presidents_party": -0.2289357198372709,
+      "presidents_party_offcycle": -0.5050101824140897,
+      "no_base": -0.34848013787216,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.0884730424121776
+      "personal_best": 1.0394758031082278,
+      "was_deputy_governor": -0.12476955023539782,
+      "was_legislator": -0.21198395580267052,
+      "was_minister": 1.9975505106371394,
+      "was_state_executive": -0.49377334077994417
      },
-     "tau": 0.5877143407983034,
+     "tau": 0.5274134804615749,
      "anyanwu": {
-      "winner_accuracy": 0.5,
-      "brier": 0.5858521298248387,
-      "log_loss": 0.9026886269224602,
-      "winner_share_mae_pp": 3.807358047894274
+      "winner_accuracy": 1.0,
+      "brier": 0.4341901357672741,
+      "log_loss": 0.6790781212935398,
+      "winner_share_mae_pp": 6.088094707709899
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4472,33 +4556,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.07457811827201306,
-      "governors_party": 0.1629780614697014,
-      "presidents_party": 0.012654000598417295,
-      "presidents_party_offcycle": -0.023224997248337823,
-      "no_base": -0.18397516852037868,
-      "log_last_gov": 0.06980730679067737,
-      "log_last_pres": 0.17741298476210493,
-      "personal_best": 0.44456711390940146
+      "incumbent_running": -0.09423854512140825,
+      "governors_party": 0.2401262561527977,
+      "presidents_party": -0.039159338099929226,
+      "presidents_party_offcycle": -0.01665672173216036,
+      "no_base": -0.2131574801053898,
+      "log_last_gov": 0.07039318991885458,
+      "log_last_pres": 0.16974608262895885,
+      "personal_best": 0.40280870912884115,
+      "was_deputy_governor": 0.06963665034733138,
+      "was_legislator": -0.06086424672428737,
+      "was_minister": 0.8104521396001451,
+      "was_state_executive": 0.1134347518963485
      },
      "theta_winner": {
-      "last_gov": 1.1577251357329421,
-      "last_pres": 2.1674706116180995,
-      "incumbent_running": 0.08035160454040943,
-      "governors_party": 0.007289138543220713,
-      "presidents_party": -0.03832429009414798,
-      "presidents_party_offcycle": -0.1817068302549375,
-      "no_base": -0.29669087559799323,
+      "last_gov": 1.14863951755114,
+      "last_pres": 2.234499583406139,
+      "incumbent_running": -0.07910947812997572,
+      "governors_party": 0.3141861853846465,
+      "presidents_party": -0.21848497446236395,
+      "presidents_party_offcycle": -0.19470827490089024,
+      "no_base": -0.3688711616905623,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.1339186767517622
+      "personal_best": 1.1010221618894847,
+      "was_deputy_governor": -0.14937970732467115,
+      "was_legislator": -0.2157445216800307,
+      "was_minister": 2.0107196670782805,
+      "was_state_executive": -0.6083044021138418
      },
-     "tau": 0.5840023372068301,
+     "tau": 0.5263152049640115,
      "anyanwu": {
       "winner_accuracy": 0.0,
-      "brier": 1.0027255227465326,
-      "log_loss": 1.6272700415117174,
-      "winner_share_mae_pp": 37.06744353348411
+      "brier": 0.9845035847835961,
+      "log_loss": 1.5394561413364423,
+      "winner_share_mae_pp": 35.70617564509625
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4509,33 +4601,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.0401377189051053,
-      "governors_party": 0.16786947638229802,
-      "presidents_party": 0.012739988177022332,
-      "presidents_party_offcycle": -0.023863498192263313,
-      "no_base": -0.21858982913787917,
-      "log_last_gov": 0.07429315727749668,
-      "log_last_pres": 0.16647460728003788,
-      "personal_best": 0.4126221259497492
+      "incumbent_running": -0.06090498641865224,
+      "governors_party": 0.24550104935445513,
+      "presidents_party": -0.03921262775289274,
+      "presidents_party_offcycle": -0.016096557855842103,
+      "no_base": -0.24828251914075752,
+      "log_last_gov": 0.074679673879844,
+      "log_last_pres": 0.1587720529876149,
+      "personal_best": 0.3718946926838564,
+      "was_deputy_governor": 0.07303800741591637,
+      "was_legislator": -0.055688300573854266,
+      "was_minister": 0.8157137029101366,
+      "was_state_executive": 0.11033449969522507
      },
      "theta_winner": {
-      "last_gov": 1.144139954058215,
-      "last_pres": 2.088045849818513,
-      "incumbent_running": 0.16396642971957368,
-      "governors_party": 0.04145812686935098,
-      "presidents_party": -0.042056990121921385,
-      "presidents_party_offcycle": -0.22048549685944216,
-      "no_base": -0.3395976983001147,
+      "last_gov": 1.1325903656746832,
+      "last_pres": 2.147927466434134,
+      "incumbent_running": 0.007429297576627447,
+      "governors_party": 0.34957649436074556,
+      "presidents_party": -0.22172330446114513,
+      "presidents_party_offcycle": -0.2269798023681856,
+      "no_base": -0.4068955798169252,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.0657765626103168
+      "personal_best": 1.0340196214666006,
+      "was_deputy_governor": -0.14427342819641048,
+      "was_legislator": -0.19638235852454802,
+      "was_minister": 2.018928857186405,
+      "was_state_executive": -0.6115196630685141
      },
-     "tau": 0.5855899777407825,
+     "tau": 0.5280406242675177,
      "anyanwu": {
-      "winner_accuracy": 0.5,
-      "brier": 0.5880660489837447,
-      "log_loss": 0.8635058375261453,
-      "winner_share_mae_pp": 5.8221398799651265
+      "winner_accuracy": 1.0,
+      "brier": 0.2910550750992007,
+      "log_loss": 0.5669129813508863,
+      "winner_share_mae_pp": 9.64733395582062
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 0.5
@@ -4546,33 +4646,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": -0.03888324633213632,
-      "governors_party": 0.16050605011761587,
-      "presidents_party": 0.0142590024310932,
-      "presidents_party_offcycle": -0.024395310893350997,
-      "no_base": -0.22058465544407582,
-      "log_last_gov": 0.07476097481634052,
-      "log_last_pres": 0.1664024126761496,
-      "personal_best": 0.4186798996397031
+      "incumbent_running": -0.059888555758289726,
+      "governors_party": 0.24664445782063157,
+      "presidents_party": -0.04363454233206458,
+      "presidents_party_offcycle": -0.06264794327975189,
+      "no_base": -0.24750695348964533,
+      "log_last_gov": 0.07628826586462438,
+      "log_last_pres": 0.15858976673593592,
+      "personal_best": 0.36791780605438706,
+      "was_deputy_governor": 0.09793726333261459,
+      "was_legislator": -0.042964076996409355,
+      "was_minister": 0.7968729968547217,
+      "was_state_executive": 0.08383845965213735
      },
      "theta_winner": {
-      "last_gov": 1.0986093862916888,
-      "last_pres": 2.0889996022871697,
-      "incumbent_running": 0.16181014447291206,
-      "governors_party": 0.0053267816392590685,
-      "presidents_party": -0.0052746652301334605,
-      "presidents_party_offcycle": 0.08822776310750642,
-      "no_base": -0.35357477684356964,
+      "last_gov": 1.1024113404754485,
+      "last_pres": 2.1729560946787188,
+      "incumbent_running": 0.01699041634687289,
+      "governors_party": 0.3545357377307953,
+      "presidents_party": -0.20366194601928753,
+      "presidents_party_offcycle": -0.010374835981366733,
+      "no_base": -0.4206910139146162,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.1398675092931767
+      "personal_best": 1.0283796281451494,
+      "was_deputy_governor": -0.2842775354006223,
+      "was_legislator": -0.2756222751800651,
+      "was_minister": 2.123481618330493,
+      "was_state_executive": -0.43576744050373334
      },
-     "tau": 0.5819945220558072,
+     "tau": 0.5250956237570394,
      "anyanwu": {
-      "winner_accuracy": 0.8666666666666667,
-      "brier": 0.19659766050975883,
-      "log_loss": 0.3675492465188677,
-      "winner_share_mae_pp": 14.981312073361968
+      "winner_accuracy": 0.8333333333333334,
+      "brier": 0.2314359351550793,
+      "log_loss": 0.39590725205148763,
+      "winner_share_mae_pp": 15.548743358810402
      },
      "baseline_governors_party": 0.8,
      "baseline_last_result": 0.8333333333333334
@@ -4583,33 +4691,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.0011953259061477954,
-      "governors_party": 0.18718204080799988,
-      "presidents_party": 0.02182685194265282,
-      "presidents_party_offcycle": -0.06248464646447656,
-      "no_base": -0.2603007740876242,
-      "log_last_gov": 0.06588274936996823,
-      "log_last_pres": 0.18992144145858894,
-      "personal_best": 0.4204919446508186
+      "incumbent_running": -0.026218213904753245,
+      "governors_party": 0.2805472938648732,
+      "presidents_party": -0.012094210160669612,
+      "presidents_party_offcycle": -0.10078725932433069,
+      "no_base": -0.28587223989173394,
+      "log_last_gov": 0.0578031025294808,
+      "log_last_pres": 0.1840594978105254,
+      "personal_best": 0.36616125155194895,
+      "was_deputy_governor": 0.027634843961810564,
+      "was_legislator": -0.06186498152777241,
+      "was_minister": 0.7248321316698486,
+      "was_state_executive": 0.1370886568599819
      },
      "theta_winner": {
-      "last_gov": 1.0136169977983769,
-      "last_pres": 2.3334816388964947,
-      "incumbent_running": 0.31494821934223133,
-      "governors_party": 0.02868499785140862,
-      "presidents_party": 0.11646084202922227,
-      "presidents_party_offcycle": -0.04142139287353137,
-      "no_base": -0.559032666236742,
+      "last_gov": 0.9173741019814509,
+      "last_pres": 2.4350244513960497,
+      "incumbent_running": 0.19714703968080222,
+      "governors_party": 0.3693230376649881,
+      "presidents_party": -0.02201288782616428,
+      "presidents_party_offcycle": -0.16635187510951935,
+      "no_base": -0.579756432661571,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.1894032054507
+      "personal_best": 1.1111689381097196,
+      "was_deputy_governor": -0.4591824975337161,
+      "was_legislator": -0.4757662770362229,
+      "was_minister": 1.8748157783802533,
+      "was_state_executive": -0.4512884366216424
      },
-     "tau": 0.5713389804523815,
+     "tau": 0.5314554592573512,
      "anyanwu": {
       "winner_accuracy": 1.0,
-      "brier": 0.2851687235536591,
-      "log_loss": 0.4938132976428888,
-      "winner_share_mae_pp": 8.501933800719186
+      "brier": 0.253664959620072,
+      "log_loss": 0.45378099479825595,
+      "winner_share_mae_pp": 10.213316594428903
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 1.0
@@ -4620,33 +4736,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.023332807907481316,
-      "governors_party": 0.17761069773762506,
-      "presidents_party": 0.02226481401444683,
-      "presidents_party_offcycle": -0.06729449682543473,
-      "no_base": -0.2698391115004059,
-      "log_last_gov": 0.06684180090334359,
-      "log_last_pres": 0.19013688663690964,
-      "personal_best": 0.40659915043985695
+      "incumbent_running": 0.0037178555723738098,
+      "governors_party": 0.2672668496633198,
+      "presidents_party": -0.010051025246661615,
+      "presidents_party_offcycle": -0.11420041803478477,
+      "no_base": -0.2956485488549465,
+      "log_last_gov": 0.05855370745529144,
+      "log_last_pres": 0.18344452934816116,
+      "personal_best": 0.34713696615214823,
+      "was_deputy_governor": 0.046351427912692984,
+      "was_legislator": -0.05344026701825556,
+      "was_minister": 0.7105557185280102,
+      "was_state_executive": 0.12411100211293649
      },
      "theta_winner": {
-      "last_gov": 1.0198865743554497,
-      "last_pres": 2.3408876007377075,
-      "incumbent_running": 0.4652652778102123,
-      "governors_party": -0.015343667898967349,
-      "presidents_party": 0.1274407114724669,
-      "presidents_party_offcycle": -0.04430129449778319,
-      "no_base": -0.578189692637384,
+      "last_gov": 0.9206454088330918,
+      "last_pres": 2.4401700110386333,
+      "incumbent_running": 0.33784715129923776,
+      "governors_party": 0.33258155072203943,
+      "presidents_party": -0.013391297012496766,
+      "presidents_party_offcycle": -0.15042224348084615,
+      "no_base": -0.5949572615509388,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.08663198539661
+      "personal_best": 1.0185810522299121,
+      "was_deputy_governor": -0.4704042579905042,
+      "was_legislator": -0.4801721049523141,
+      "was_minister": 1.8748284716197308,
+      "was_state_executive": -0.529057949957653
      },
-     "tau": 0.5688706748329878,
+     "tau": 0.5300999595453011,
      "anyanwu": {
       "winner_accuracy": 0.0,
-      "brier": 1.1525390780510505,
-      "log_loss": 2.096067424853845,
-      "winner_share_mae_pp": 29.616544611049168
+      "brier": 1.12643840172438,
+      "log_loss": 1.7515649798448707,
+      "winner_share_mae_pp": 27.21994857391866
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4657,33 +4781,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.020694727135385487,
-      "governors_party": 0.196007084865671,
-      "presidents_party": 0.01890978166282758,
-      "presidents_party_offcycle": -0.0923947991409041,
-      "no_base": -0.29824747262133766,
-      "log_last_gov": 0.06914619684486441,
-      "log_last_pres": 0.18121981205495236,
-      "personal_best": 0.38550601015377367
+      "incumbent_running": -0.004017500470910308,
+      "governors_party": 0.2862939791632046,
+      "presidents_party": -0.01330742912194034,
+      "presidents_party_offcycle": -0.1320911356383167,
+      "no_base": -0.3254137060291144,
+      "log_last_gov": 0.0602709720080924,
+      "log_last_pres": 0.17489286730099884,
+      "personal_best": 0.3349479590224898,
+      "was_deputy_governor": 0.040533578050223895,
+      "was_legislator": -0.05719968730950498,
+      "was_minister": 0.7195699492291587,
+      "was_state_executive": 0.11726611437352016
      },
      "theta_winner": {
-      "last_gov": 1.0668194381461942,
-      "last_pres": 2.242232361432275,
-      "incumbent_running": 0.4158580402802684,
-      "governors_party": 0.0462408811413973,
-      "presidents_party": 0.10060054574614913,
-      "presidents_party_offcycle": -0.106936121245734,
-      "no_base": -0.6233322159171327,
+      "last_gov": 0.9583164207730674,
+      "last_pres": 2.340987863800781,
+      "incumbent_running": 0.2666153242541551,
+      "governors_party": 0.3984352633406358,
+      "presidents_party": -0.03801691941503256,
+      "presidents_party_offcycle": -0.18668536567375846,
+      "no_base": -0.6369432742299947,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.041588111626354
+      "personal_best": 1.0150545808655809,
+      "was_deputy_governor": -0.4753563999365227,
+      "was_legislator": -0.4873088745642252,
+      "was_minister": 1.8959810666495287,
+      "was_state_executive": -0.5530711097344964
      },
-     "tau": 0.569447050124511,
+     "tau": 0.5303897002504699,
      "anyanwu": {
       "winner_accuracy": 0.5,
-      "brier": 0.5390960493968807,
-      "log_loss": 0.8714238643874115,
-      "winner_share_mae_pp": 13.837595710531138
+      "brier": 0.4973850464053186,
+      "log_loss": 0.8736838011265673,
+      "winner_share_mae_pp": 16.074795133653566
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 0.5
@@ -4694,33 +4826,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.0002790942411392771,
-      "governors_party": 0.20299800089901968,
-      "presidents_party": 0.018723248975975375,
-      "presidents_party_offcycle": -0.05931553765490073,
-      "no_base": -0.28909767506903933,
-      "log_last_gov": 0.06427086368922626,
-      "log_last_pres": 0.18639309800033774,
-      "personal_best": 0.4289858460848972
+      "incumbent_running": -0.02550202234224399,
+      "governors_party": 0.29075298530434796,
+      "presidents_party": -0.013690683358594337,
+      "presidents_party_offcycle": -0.10103763271089879,
+      "no_base": -0.3201353609087948,
+      "log_last_gov": 0.0560718360486104,
+      "log_last_pres": 0.18028927997413305,
+      "personal_best": 0.38083558124289335,
+      "was_deputy_governor": 0.04454503345880127,
+      "was_legislator": -0.04438590847172293,
+      "was_minister": 0.7154948015423194,
+      "was_state_executive": 0.13146033783232627
      },
      "theta_winner": {
-      "last_gov": 1.115967528219183,
-      "last_pres": 2.265858486765306,
-      "incumbent_running": 0.3036523675463917,
-      "governors_party": 0.05596511576264157,
-      "presidents_party": 0.085885072186127,
-      "presidents_party_offcycle": -0.12274616681984776,
-      "no_base": -0.6693356361635869,
+      "last_gov": 0.9975924284765383,
+      "last_pres": 2.361284849960313,
+      "incumbent_running": 0.1429830855133754,
+      "governors_party": 0.42371585943698736,
+      "presidents_party": -0.05503664811266718,
+      "presidents_party_offcycle": -0.1813615794291554,
+      "no_base": -0.6905776471675011,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 1.1314410965235495
+      "personal_best": 1.1190588673256483,
+      "was_deputy_governor": -0.48633745581351734,
+      "was_legislator": -0.4149735953377965,
+      "was_minister": 1.8803214560959312,
+      "was_state_executive": -0.6957248248943186
      },
-     "tau": 0.5693772912147121,
+     "tau": 0.5314744641250079,
      "anyanwu": {
       "winner_accuracy": 0.7419354838709677,
-      "brier": 0.38174249506905317,
-      "log_loss": 0.6173281810028994,
-      "winner_share_mae_pp": 12.772185440940012
+      "brier": 0.4005414839720054,
+      "log_loss": 0.6786198814730533,
+      "winner_share_mae_pp": 12.883399860827236
      },
      "baseline_governors_party": 0.6774193548387096,
      "baseline_last_result": 0.6774193548387096
@@ -4731,33 +4871,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.038737963580478964,
-      "governors_party": 0.14394155607210984,
-      "presidents_party": 0.036164227531018306,
-      "presidents_party_offcycle": -0.07790346056227829,
-      "no_base": -0.15906738094224604,
-      "log_last_gov": 0.09657900779307294,
-      "log_last_pres": 0.184753223957078,
-      "personal_best": 0.38697220257670795
+      "incumbent_running": 0.05507478151485821,
+      "governors_party": 0.18870124520909717,
+      "presidents_party": 0.017836736620520113,
+      "presidents_party_offcycle": -0.1166528927027666,
+      "no_base": -0.18931109734130136,
+      "log_last_gov": 0.089841627912691,
+      "log_last_pres": 0.17991090373974222,
+      "personal_best": 0.309640291126547,
+      "was_deputy_governor": 0.0980551032888786,
+      "was_legislator": -0.018503861078409952,
+      "was_minister": 0.6307277446690772,
+      "was_state_executive": 0.2567348043342291
      },
      "theta_winner": {
-      "last_gov": 1.4503172241172397,
-      "last_pres": 2.2389856240867143,
-      "incumbent_running": 0.480988897711563,
-      "governors_party": -0.005250618818849854,
-      "presidents_party": 0.11490904392928833,
-      "presidents_party_offcycle": -0.1852521284394528,
-      "no_base": -0.6741076212253747,
+      "last_gov": 1.323770831845351,
+      "last_pres": 2.29929959420351,
+      "incumbent_running": 0.41913867590001597,
+      "governors_party": 0.25781814465764546,
+      "presidents_party": 0.04314000443407912,
+      "presidents_party_offcycle": -0.26054366707084087,
+      "no_base": -0.6999232549866766,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.913047907524388
+      "personal_best": 0.8203009791857392,
+      "was_deputy_governor": -0.2721829409383212,
+      "was_legislator": -0.2559854549329887,
+      "was_minister": 1.6576448250464586,
+      "was_state_executive": -0.44346944118375003
      },
-     "tau": 0.5435938021832707,
+     "tau": 0.5164261499675673,
      "anyanwu": {
       "winner_accuracy": 0.5,
-      "brier": 0.4319614750031352,
-      "log_loss": 0.7470688438438922,
-      "winner_share_mae_pp": 18.066298437008726
+      "brier": 0.5163194599568612,
+      "log_loss": 0.9107659451983031,
+      "winner_share_mae_pp": 19.220126492541755
      },
      "baseline_governors_party": 0.5,
      "baseline_last_result": 0.5
@@ -4768,33 +4916,41 @@
      "theta": {
       "last_gov": 0.0,
       "last_pres": 0.0,
-      "incumbent_running": 0.039611163093380475,
-      "governors_party": 0.14232360457289261,
-      "presidents_party": 0.037072329230875195,
-      "presidents_party_offcycle": -0.017082177024791315,
-      "no_base": -0.14991306475450816,
-      "log_last_gov": 0.10054053295056761,
-      "log_last_pres": 0.18249443518097255,
-      "personal_best": 0.37619140145356733
+      "incumbent_running": 0.056964768752645174,
+      "governors_party": 0.18524699693917807,
+      "presidents_party": 0.01921369980516267,
+      "presidents_party_offcycle": -0.05010172000981071,
+      "no_base": -0.17945899172702368,
+      "log_last_gov": 0.09411753496913833,
+      "log_last_pres": 0.1775807405262506,
+      "personal_best": 0.29838703366158303,
+      "was_deputy_governor": 0.09910412439124756,
+      "was_legislator": -0.017946034251819856,
+      "was_minister": 0.6267294063706146,
+      "was_state_executive": 0.25226951129924124
      },
      "theta_winner": {
-      "last_gov": 1.4815567979661226,
-      "last_pres": 2.2311388378659007,
-      "incumbent_running": 0.49975006161046487,
-      "governors_party": -0.0429528892237564,
-      "presidents_party": 0.12896455726638967,
-      "presidents_party_offcycle": 0.0045737754849846735,
-      "no_base": -0.658620510904705,
+      "last_gov": 1.3632506867245562,
+      "last_pres": 2.276989888184762,
+      "incumbent_running": 0.4475332088560106,
+      "governors_party": 0.20542804037365833,
+      "presidents_party": 0.062006037162788075,
+      "presidents_party_offcycle": -0.04519437195812695,
+      "no_base": -0.6832505203351165,
       "log_last_gov": 0.0,
       "log_last_pres": 0.0,
-      "personal_best": 0.8964774635876546
+      "personal_best": 0.7965138403573185,
+      "was_deputy_governor": -0.2577665343444104,
+      "was_legislator": -0.1941981063482885,
+      "was_minister": 1.6193085679678874,
+      "was_state_executive": -0.44436465321058843
      },
-     "tau": 0.5423157461487927,
+     "tau": 0.5156069018687577,
      "anyanwu": {
       "winner_accuracy": 0.5,
-      "brier": 0.661985738302166,
-      "log_loss": 0.924973360729965,
-      "winner_share_mae_pp": 29.588896660164426
+      "brier": 0.7093094222363956,
+      "log_loss": 1.006990272536254,
+      "winner_share_mae_pp": 29.488016367483343
      },
      "baseline_governors_party": 1.0,
      "baseline_last_result": 1.0
@@ -4803,9 +4959,9 @@
    "summary": {
     "races": 177,
     "anyanwu": {
-     "winner_accuracy": 0.7344632768361582,
-     "brier": 0.3526223778046022,
-     "log_loss": 0.5868934994793689
+     "winner_accuracy": 0.7570621468926554,
+     "brier": 0.33756635207194,
+     "log_loss": 0.5726738787412534
     },
     "baseline_governors_party": 0.7344632768361582,
     "baseline_last_result": 0.7401129943502824
@@ -4813,28 +4969,36 @@
    "final_theta": {
     "last_gov": 0.0,
     "last_pres": 0.0,
-    "incumbent_running": 0.06319097464369768,
-    "governors_party": 0.14228538599074284,
-    "presidents_party": 0.03729327861404947,
-    "presidents_party_offcycle": 0.014786616701128167,
-    "no_base": -0.1672880401972063,
-    "log_last_gov": 0.10268260231733344,
-    "log_last_pres": 0.17818263523264266,
-    "personal_best": 0.34930335252949035
+    "incumbent_running": 0.08019773149018859,
+    "governors_party": 0.1869490956132727,
+    "presidents_party": 0.019419958491965875,
+    "presidents_party_offcycle": -0.01549950390412035,
+    "no_base": -0.19725957085453155,
+    "log_last_gov": 0.09585264193323095,
+    "log_last_pres": 0.17318638952625762,
+    "personal_best": 0.2704625665002344,
+    "was_deputy_governor": 0.09862169259571127,
+    "was_legislator": -0.0007672826670659706,
+    "was_minister": 0.6250161639888805,
+    "was_state_executive": 0.25106418984280593
    },
    "final_theta_winner": {
-    "last_gov": 1.4852021258198365,
-    "last_pres": 2.16721425831832,
-    "incumbent_running": 0.577806590941957,
-    "governors_party": -0.04591690479527461,
-    "presidents_party": 0.12723375030714978,
-    "presidents_party_offcycle": -0.08374468155097498,
-    "no_base": -0.6909951601156437,
+    "last_gov": 1.3562272202978507,
+    "last_pres": 2.203516941011658,
+    "incumbent_running": 0.540396246966541,
+    "governors_party": 0.20777338293824033,
+    "presidents_party": 0.060961754439786756,
+    "presidents_party_offcycle": -0.1477862146497073,
+    "no_base": -0.714840936483144,
     "log_last_gov": 0.0,
     "log_last_pres": 0.0,
-    "personal_best": 0.8525961704810864
+    "personal_best": 0.7407247787612312,
+    "was_deputy_governor": -0.2529520950188588,
+    "was_legislator": -0.10690183438332766,
+    "was_minister": 1.6086878538381595,
+    "was_state_executive": -0.4236122951722294
    },
-   "final_tau": 0.5453087676542142
+   "final_tau": 0.5187748186707901
   }
  }
 }

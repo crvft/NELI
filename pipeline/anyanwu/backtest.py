@@ -48,12 +48,18 @@ def baseline_params() -> P.Params:
 
 def presidential_backtest(races: dict[int, Race]) -> dict:
     folds = presidential_folds(races)
+    from . import polls
+
     out_folds = []
     oos_resid = []  # out-of-sample residual parts, for later folds' sigma
+    poll_cases = []  # (base, actual, totals, poll) from earlier folds, for λ
     for j, (prev, cur) in enumerate(folds):
         params = P.fit(folds[:j])
         sigma = _sigma_from(oos_resid)
-        fc = P.forecast(prev, cur.contestants, params, sigma, n=4000, seed=11 + j)
+        poll = polls.average(cur.year, cur.contestants)
+        lam = polls.tune(poll_cases)["lam"]
+        fc = P.forecast(prev, cur.contestants, params, sigma, poll=poll, lam=lam, n=4000, seed=11 + j)
+        poll_cases.append((P.base_shares(prev, cur.contestants, params), cur.shares, cur.totals, poll))
         summ = fc.summary()
         probs = np.array([[c["win_prob"] for c in s["contestants"]] for s in summ["states"]])
         nat_actual = _national(cur)
@@ -73,6 +79,8 @@ def presidential_backtest(races: dict[int, Race]) -> dict:
             {
                 "train_until": prev.year,
                 "test": cur.year,
+                "poll_weight": lam,
+                "polls_available": poll is not None,
                 "params": asdict(params),
                 "sigma": asdict(sigma),
                 "anyanwu": m,
@@ -89,7 +97,12 @@ def presidential_backtest(races: dict[int, Race]) -> dict:
         )
         oos_resid.append(P.residual_parts(prev, cur, params))
     final_params = P.fit(folds)
+    final_cases = [
+        (P.base_shares(a, b.contestants, final_params), b.shares, b.totals, polls.average(b.year, b.contestants))
+        for a, b in folds
+    ]
     return {
+        "polls": polls.tune(final_cases),
         "folds": out_folds,
         "final_params": asdict(final_params),
         "final_sigma": asdict(_sigma_from(oos_resid)),
@@ -134,7 +147,12 @@ def governorship_examples(races: list[Race], pres: dict[int, Race]):
         pyears = [y for y in pres if y <= r.year]
         prev_pres = pres[max(pyears)] if pyears else None
         if prev is not None:
-            X = G.features(r.contestants, r.year, r.off_cycle, prev, prev_pres, CODES.index(r.state), history=prev_list)
+            from . import offices
+
+            flags = [offices.for_candidate(r.key, c.candidate, r.state, r.year) for c in r.contestants]
+            X = G.features(
+                r.contestants, r.year, r.off_cycle, prev, prev_pres, CODES.index(r.state), history=prev_list, office_flags=flags
+            )
             y = r.shares[0] if r.coverage != "winner only" else None
             cons, X, y, keep = G.group_minor(r.contestants, X, y)
             w = r.winner()
