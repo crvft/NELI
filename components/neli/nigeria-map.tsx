@@ -196,6 +196,8 @@ export function NigeriaMap({
       data.states.filter((s) => s.total > 0).map((s) => s.candidates[0].party),
     ),
   ) as PartyCode[];
+  // One stripe pattern per party that appears on this map
+  const patternParties = Array.from(new Set(data.states.flatMap((s) => s.candidates.map((c) => c.party)))) as PartyCode[];
 
   function track(ev: React.PointerEvent, kind: Hover['kind'], id: string) {
     if (ev.pointerType !== 'mouse' || moving) return;
@@ -247,7 +249,7 @@ export function NigeriaMap({
             }
           >
             <defs>
-              {(Object.keys(PARTIES) as PartyCode[]).map((p) => (
+              {patternParties.map((p) => (
                 <React.Fragment key={p}>
                   <pattern
                     id={`hatch-${p}`}
@@ -372,7 +374,7 @@ export function NigeriaMap({
                     strokeLinejoin='round'
                     tabIndex={focus ? -1 : 0}
                     role='button'
-                    aria-label={`${s.name}: ${s.total ? `${lead.party} leading with ${pct(lead.share)}, ${pct(s.margin)} ahead` : 'awaiting results'}. Open state map.`}
+                    aria-label={`${s.name}, ${s.zoneName}: ${s.total ? `${lead.party} leading with ${pct(lead.share)}, ${pct(s.margin)} ahead` : data.live ? 'awaiting results' : 'data missing'}. Open state map.`}
                     style={{
                       opacity: focus
                         ? isFocus
@@ -384,6 +386,7 @@ export function NigeriaMap({
                           ? 0.6
                           : 1,
                       transition: `opacity ${reduced ? 0 : 240}ms cubic-bezier(0.32, 0.72, 0, 1)`,
+                      pointerEvents: 'all', // hoverable even where nothing is painted
                     }}
                     className='cursor-pointer outline-hidden'
                     onPointerMove={(ev) => !focus && track(ev, 'state', s.code)}
@@ -469,6 +472,7 @@ export function NigeriaMap({
                             outlineLga && outlineLga !== shape.id ? 0.6 : 1,
                           transition: 'opacity 80ms linear',
                         }}
+                        pointerEvents='all'
                         onPointerMove={(ev) => track(ev, 'lga', shape.id)}
                         onPointerEnter={(ev) => track(ev, 'lga', shape.id)}
                       />
@@ -865,6 +869,9 @@ function StateTooltip({ s, live }: { s: MapState; live: boolean }) {
               {pct(a.share)}
             </span>
           </div>
+          {b && s.margin === 0 && (
+            <div className='text-paragraph-xs text-warning-dark mt-1'>Inconclusive: the leading candidates are tied.</div>
+          )}
           <div className='text-paragraph-xs text-text-sub-600 mt-1'>
             {a.party} leads{' '}
             {b ? (
@@ -898,7 +905,7 @@ function StateTooltip({ s, live }: { s: MapState; live: boolean }) {
         </>
       ) : (
         <p className='text-paragraph-xs text-text-sub-600 mt-2'>
-          No polling-unit results uploaded yet.
+          {live ? 'No polling-unit results uploaded yet.' : 'Data missing: results for this state are not on NELI’s record.'}
         </p>
       )}
     </>
@@ -956,7 +963,7 @@ function LgaTooltip({ l, stateName }: { l: LgaResult; stateName: string }) {
         </>
       ) : (
         <p className='text-paragraph-xs text-text-sub-600 mt-2'>
-          No results yet.
+          Data missing: results for this LGA are not on record.
         </p>
       )}
     </>

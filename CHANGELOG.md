@@ -5,6 +5,14 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 
 ---
 
+## Map fix: blank states
+
+- **Fix:** close-race states, those inside 8 points that should be striped, rendered pure white and ignored hover.
+  - **Cause:** the stripe patterns were built from the party list, which became a lookup proxy when 100+ parties were added, so no patterns were created.
+  - **Now:** patterns are built for every party on the map.
+- **Hover works on every state and LGA**, even where nothing is painted.
+- **States or LGAs with no results** get a faint brand tint instead of grey or white. Their tooltip gives the name, the geopolitical zone, and "Data missing" (or "No polling-unit results uploaded yet" during a live count). Tied results say "Inconclusive".
+
 ## Senate, House of Reps and LGA results
 
 - **Senate:** every senatorial district for 1999–2023 (~108 per year).
