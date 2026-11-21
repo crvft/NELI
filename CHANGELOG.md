@@ -5,6 +5,19 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 
 ---
 
+## 3D vote-share terrain (desktop)
+
+- **Toggle:** every presidential map (1999–2023, the 2027 projection, live) has a **View** picker beside its heading: Map / 3D terrain. It is desktop only (wide screen with a mouse).
+- **What it shows:** one party at a time. A field of vertical lines covers Nigeria, each rising with the party's share of the vote; colour runs up the "plasma" scale from deep purple to bright yellow.
+  - Heights blend smoothly between neighbouring states.
+  - Hovering a state lights it, dims the rest and shows a tooltip with the exact figure (share, votes, rank).
+- **Controls:**
+  - Top-down it reads as a heat map; drag to tilt into a side view and rotate.
+  - Scroll to zoom.
+  - **Top / From the south / From the north** buttons.
+- **Side panel:** "How to read" explains heights and colours (with the scale); a **Party** dropdown replaces "States led".
+- **Implementation:** built with three.js (WebGL), loaded only when the 3D view is opened. Zone labels are hidden in this view.
+
 ## Party colours
 
 - APC is now red and PDP green, and NDC takes the blue APC used. Other parties keep their colours. APC's predecessors (AD, ANPP, ACN, CPC) follow APC's red.

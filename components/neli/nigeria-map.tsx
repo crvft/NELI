@@ -17,6 +17,24 @@ import {
   type LgaShapes,
 } from '@/lib/lga';
 import { cn } from '@/utils/cn';
+import dynamic from 'next/dynamic';
+import { PlasmaScale } from './terrain-scale';
+
+// three.js is only loaded when someone opens the 3D view
+const TerrainMap = dynamic(() => import('./terrain-map'), {
+  ssr: false,
+  loading: () => (
+    <div className='skeleton w-full' style={{ aspectRatio: '1000 / 820' }} />
+  ),
+});
+
+const subscribeDesktop = (cb: () => void) => {
+  const mq = window.matchMedia('(min-width: 1024px) and (pointer: fine)');
+  mq.addEventListener('change', cb);
+  return () => mq.removeEventListener('change', cb);
+};
+const readDesktop = () =>
+  window.matchMedia('(min-width: 1024px) and (pointer: fine)').matches;
 import { SortMenu, useSorted, type SortOption } from './sort-menu';
 
 type Shapes = {
@@ -33,7 +51,8 @@ const S = shapes as unknown as Shapes;
 
 const strength = (m: number) =>
   m >= 0.2 ? 'strong' : m >= 0.08 ? 'clear' : 'narrow';
-const pct = (x: number, d = 1) => (Number.isFinite(x) ? `${(x * 100).toFixed(d)}%` : '—');
+const pct = (x: number, d = 1) =>
+  Number.isFinite(x) ? `${(x * 100).toFixed(d)}%` : '—';
 const fmt = (n: number) => n.toLocaleString('en-NG');
 const compact = (n: number) =>
   n >= 1e6
@@ -100,6 +119,31 @@ export function NigeriaMap({
   const [zoneHover, setZoneHover] = React.useState<string | null>(null);
   // Hovering a party in the legend dims every state that party doesn't lead
   const [partyHover, setPartyHover] = React.useState<PartyCode | null>(null);
+  // 3D terrain view (desktop only): one party's vote share as a field of lines
+  const desktop = React.useSyncExternalStore(
+    subscribeDesktop,
+    readDesktop,
+    () => false,
+  );
+  const [viewPick, setView] = React.useState<'map' | 'terrain'>('map');
+  const view = desktop ? viewPick : 'map';
+  const terrainParties = React.useMemo(() => {
+    const tot = new Map<PartyCode, { votes: number; name: string }>();
+    for (const st of data.states)
+      for (const c of st.candidates) {
+        const t = tot.get(c.party) ?? { votes: 0, name: c.name };
+        t.votes += c.votes;
+        tot.set(c.party, t);
+      }
+    const all = [...tot.values()].reduce((a, b) => a + b.votes, 0) || 1;
+    return [...tot.entries()]
+      .sort((a, b) => b[1].votes - a[1].votes)
+      .map(([party, t]) => ({ party, name: t.name, share: t.votes / all }));
+  }, [data]);
+  const [terrainPartyPick, setTerrainParty] = React.useState<PartyCode | null>(
+    null,
+  );
+  const terrainParty = terrainPartyPick ?? terrainParties[0]?.party ?? 'OTH';
   // True while the camera is moving; hover is ignored so nothing pops up mid-flight.
   const [moving, setMoving] = React.useState(false);
   React.useEffect(() => {
@@ -199,7 +243,9 @@ export function NigeriaMap({
     ),
   ) as PartyCode[];
   // One stripe pattern per party that appears on this map
-  const patternParties = Array.from(new Set(data.states.flatMap((s) => s.candidates.map((c) => c.party)))) as PartyCode[];
+  const patternParties = Array.from(
+    new Set(data.states.flatMap((s) => s.candidates.map((c) => c.party))),
+  ) as PartyCode[];
 
   function track(ev: React.PointerEvent, kind: Hover['kind'], id: string) {
     if (ev.pointerType !== 'mouse' || moving) return;
@@ -233,523 +279,595 @@ export function NigeriaMap({
   return (
     <div className='grid grid-cols-1 xl:grid-cols-[minmax(0,1fr)_360px]'>
       <div className='border-stroke-soft-200 relative min-w-0 p-4 sm:p-5 xl:border-r'>
-        {title}
-        <div ref={wrapRef} className='relative'>
-          <motion.svg
-            initial={false}
-            animate={{ viewBox: toViewBox(camera) }}
-            transition={cameraTransition}
-            onAnimationComplete={() => setMoving(false)}
-            viewBox={toViewBox(camera)}
-            className='block h-auto w-full touch-manipulation select-none'
-            style={{ aspectRatio: `${base[2]} / ${base[3]}` }}
-            role='group'
-            aria-label={
-              focused
-                ? `Map of ${focused.name} by local government area`
-                : 'Map of Nigeria showing the leading party in each state'
-            }
-          >
-            <defs>
-              {patternParties.map((p) => (
-                <React.Fragment key={p}>
-                  <pattern
-                    id={`hatch-${p}`}
-                    width='7'
-                    height='7'
-                    patternUnits='userSpaceOnUse'
-                    patternTransform='rotate(45)'
+        {/* Header: title on the left, the view picker at the right edge (desktop only) */}
+        <div className='flex items-start justify-between gap-3'>
+          <div className='min-w-0 flex-1'>
+            {view === 'terrain' ? (
+              <div className='mb-2'>
+                <h2 className='text-title-h6 text-text-strong-950 sm:text-title-h5 tracking-tight'>Vote share terrain</h2>
+                <p className='text-paragraph-sm text-text-sub-600 mt-1'>
+                  {PARTIES[terrainParty].name}&rsquo;s share of the vote in each state, drawn as a field of lines. Taller and brighter means a bigger share.
+                </p>
+              </div>
+            ) : (
+              title
+            )}
+          </div>
+          {desktop && (
+            <SortMenu
+              value={view}
+              onChange={(v) => {
+                setView(v);
+                if (v === 'terrain') {
+                  setFocus(null);
+                  setHover(null);
+                }
+              }}
+              options={[
+                { value: 'map', label: 'Map', hint: 'Who led each state' },
+                {
+                  value: 'terrain',
+                  label: '3D terrain',
+                  hint: 'One party’s vote share, in lines',
+                },
+              ]}
+              prefix='View:'
+              menuTitle='Map view'
+              icon={false}
+              className='h-8'
+            />
+          )}
+        </div>
+        {view === 'terrain' ? (
+          <div className='mt-2'>
+            <TerrainMap
+              states={data.states}
+              party={terrainParty}
+              live={data.live}
+            />
+            <p className='text-paragraph-xs text-text-sub-600 mt-3 flex items-center gap-1.5'>
+              <IconCursor className='size-4' />
+              Drag to tilt and rotate, scroll to zoom. Hover a state to light it
+              up.
+            </p>
+          </div>
+        ) : (
+          <>
+            <div ref={wrapRef} className='relative'>
+              <motion.svg
+                initial={false}
+                animate={{ viewBox: toViewBox(camera) }}
+                transition={cameraTransition}
+                onAnimationComplete={() => setMoving(false)}
+                viewBox={toViewBox(camera)}
+                className='block h-auto w-full touch-manipulation select-none'
+                style={{ aspectRatio: `${base[2]} / ${base[3]}` }}
+                role='group'
+                aria-label={
+                  focused
+                    ? `Map of ${focused.name} by local government area`
+                    : 'Map of Nigeria showing the leading party in each state'
+                }
+              >
+                <defs>
+                  {patternParties.map((p) => (
+                    <React.Fragment key={p}>
+                      <pattern
+                        id={`hatch-${p}`}
+                        width='7'
+                        height='7'
+                        patternUnits='userSpaceOnUse'
+                        patternTransform='rotate(45)'
+                      >
+                        <rect
+                          width='7'
+                          height='7'
+                          fill={`color-mix(in oklab, ${PARTIES[p].color} 14%, var(--bg-white-0))`}
+                        />
+                        <line
+                          x1='0'
+                          y1='0'
+                          x2='0'
+                          y2='7'
+                          stroke={PARTIES[p].color}
+                          strokeWidth='2.6'
+                        />
+                      </pattern>
+                      {/* LGA hatch is drawn at the zoomed scale so stripes keep their on-screen size */}
+                      <pattern
+                        id={`lhatch-${p}`}
+                        width={7 / zoom}
+                        height={7 / zoom}
+                        patternUnits='userSpaceOnUse'
+                        patternTransform='rotate(45)'
+                      >
+                        <rect
+                          width={7 / zoom}
+                          height={7 / zoom}
+                          fill={`color-mix(in oklab, ${PARTIES[p].color} 14%, var(--bg-white-0))`}
+                        />
+                        <line
+                          x1='0'
+                          y1='0'
+                          x2='0'
+                          y2={7 / zoom}
+                          stroke={PARTIES[p].color}
+                          strokeWidth={2.6 / zoom}
+                        />
+                      </pattern>
+                    </React.Fragment>
+                  ))}
+                  <radialGradient id='fade' cx='50%' cy='50%' r='60%'>
+                    <stop offset='58%' stopColor='white' stopOpacity='1' />
+                    <stop offset='100%' stopColor='white' stopOpacity='0.15' />
+                  </radialGradient>
+                  <mask
+                    id='fade-mask'
+                    maskUnits='userSpaceOnUse'
+                    x='0'
+                    y='0'
+                    width={S.width}
+                    height={S.height}
                   >
                     <rect
-                      width='7'
-                      height='7'
-                      fill={`color-mix(in oklab, ${PARTIES[p].color} 14%, var(--bg-white-0))`}
+                      x='0'
+                      y='0'
+                      width={S.width}
+                      height={S.height}
+                      fill='url(#fade)'
                     />
-                    <line
-                      x1='0'
-                      y1='0'
-                      x2='0'
-                      y2='7'
-                      stroke={PARTIES[p].color}
-                      strokeWidth='2.6'
-                    />
-                  </pattern>
-                  {/* LGA hatch is drawn at the zoomed scale so stripes keep their on-screen size */}
+                  </mask>
                   <pattern
-                    id={`lhatch-${p}`}
-                    width={7 / zoom}
-                    height={7 / zoom}
+                    id='empty'
+                    width='6'
+                    height='6'
                     patternUnits='userSpaceOnUse'
-                    patternTransform='rotate(45)'
                   >
-                    <rect
-                      width={7 / zoom}
-                      height={7 / zoom}
-                      fill={`color-mix(in oklab, ${PARTIES[p].color} 14%, var(--bg-white-0))`}
-                    />
-                    <line
-                      x1='0'
-                      y1='0'
-                      x2='0'
-                      y2={7 / zoom}
-                      stroke={PARTIES[p].color}
-                      strokeWidth={2.6 / zoom}
+                    <rect width='6' height='6' fill='var(--map-state-empty)' />
+                    <circle
+                      cx='3'
+                      cy='3'
+                      r='0.8'
+                      fill='var(--text-sub-600)'
+                      opacity='0.5'
                     />
                   </pattern>
-                </React.Fragment>
-              ))}
-              <radialGradient id='fade' cx='50%' cy='50%' r='60%'>
-                <stop offset='58%' stopColor='white' stopOpacity='1' />
-                <stop offset='100%' stopColor='white' stopOpacity='0.15' />
-              </radialGradient>
-              <mask
-                id='fade-mask'
-                maskUnits='userSpaceOnUse'
-                x='0'
-                y='0'
-                width={S.width}
-                height={S.height}
-              >
-                <rect
-                  x='0'
-                  y='0'
-                  width={S.width}
-                  height={S.height}
-                  fill='url(#fade)'
-                />
-              </mask>
-              <pattern
-                id='empty'
-                width='6'
-                height='6'
-                patternUnits='userSpaceOnUse'
-              >
-                <rect width='6' height='6' fill='var(--map-state-empty)' />
-                <circle
-                  cx='3'
-                  cy='3'
-                  r='0.8'
-                  fill='var(--text-sub-600)'
-                  opacity='0.5'
-                />
-              </pattern>
-            </defs>
+                </defs>
 
-            {/* neighbours, washed out */}
-            <motion.g
-              aria-hidden
-              mask='url(#fade-mask)'
-              initial={false}
-              animate={{ opacity: focus ? 0.5 : 1 }}
-              transition={fade}
-            >
-              {S.neighbours.map((n) => (
-                <path
-                  key={n.name}
-                  d={n.d}
-                  fill='var(--map-neighbour)'
-                  stroke='var(--map-neighbour-stroke)'
-                  strokeWidth='1'
-                  vectorEffect='non-scaling-stroke'
-                />
-              ))}
-            </motion.g>
-
-            {/* states; leaving this group (onto neighbours or sea) hides the tooltip */}
-            <g onPointerLeave={() => hover?.kind === 'state' && setHover(null)}>
-              {data.states.map((s) => {
-                const shape = S.states[s.code];
-                const lead = s.candidates[0];
-                const isFocus = focus === s.code;
-                return (
-                  <path
-                    key={s.code}
-                    d={shape.d}
-                    fill={
-                      focus && !isFocus
-                        ? 'var(--map-state-empty)'
-                        : fill(lead?.party, s.margin, s.total, 'hatch')
-                    }
-                    stroke='var(--map-state-stroke)'
-                    strokeWidth={1.2}
-                    vectorEffect='non-scaling-stroke'
-                    strokeLinejoin='round'
-                    tabIndex={focus ? -1 : 0}
-                    role='button'
-                    aria-label={`${s.name}, ${s.zoneName}: ${s.total ? `${lead.party} leading with ${pct(lead.share)}, ${pct(s.margin)} ahead` : data.live ? 'awaiting results' : 'data missing'}. Open state map.`}
-                    style={{
-                      opacity: focus
-                        ? isFocus
-                          ? lgas
-                            ? 0
-                            : 1
-                          : 0.75
-                        : hover?.kind === 'state' && hover.id !== s.code
-                          ? 0.6
-                          : 1,
-                      transition: `opacity ${reduced ? 0 : 240}ms cubic-bezier(0.32, 0.72, 0, 1)`,
-                      pointerEvents: 'all', // hoverable even where nothing is painted
-                    }}
-                    className='cursor-pointer outline-hidden'
-                    onPointerMove={(ev) => !focus && track(ev, 'state', s.code)}
-                    onPointerEnter={(ev) =>
-                      !focus && track(ev, 'state', s.code)
-                    }
-                    onClick={() => (isFocus ? undefined : open(s.code))}
-                    onFocus={() => {
-                      const r = wrapRef.current!.getBoundingClientRect();
-                      setHover({
-                        kind: 'state',
-                        id: s.code,
-                        x: ((shape.cx - camera[0]) / camera[2]) * r.width,
-                        y: ((shape.cy - camera[1]) / camera[3]) * r.height,
-                      });
-                    }}
-                    onBlur={() => setHover(null)}
-                    onKeyDown={(ev) => {
-                      if (ev.key === 'Enter' || ev.key === ' ') {
-                        ev.preventDefault();
-                        open(s.code);
-                      }
-                    }}
-                  />
-                );
-              })}
-            </g>
-
-            {/* zone / party highlight: states outside the hovered zone, or not led by the
-                hovered party, fade to grey */}
-            <g aria-hidden pointerEvents='none'>
-              {data.states.map((s) => (
-                <path
-                  key={s.code}
-                  d={S.states[s.code].d}
-                  fill='var(--map-state-dim)'
-                  stroke='var(--map-state-stroke)'
-                  strokeWidth={1.2}
-                  vectorEffect='non-scaling-stroke'
-                  style={{
-                    opacity:
-                      !focus &&
-                      ((zoneHover && s.zone !== zoneHover) ||
-                        (partyHover && (!s.total || s.candidates[0]?.party !== partyHover)))
-                        ? 0.9
-                        : 0,
-                    transition: `opacity ${reduced ? 0 : 160}ms cubic-bezier(0.32, 0.72, 0, 1)`,
-                  }}
-                />
-              ))}
-            </g>
-
-            {/* LGAs of the focused state fade in as the camera settles */}
-            <AnimatePresence>
-              {focused && lgaShapesForFocus && lgas && (
+                {/* neighbours, washed out */}
                 <motion.g
-                  key={focused.code}
-                  initial={{ opacity: 0 }}
-                  animate={{
-                    opacity: 1,
-                    transition: { ...fade, delay: reduced ? 0 : 0.18 },
-                  }}
-                  exit={{
-                    opacity: 0,
-                    transition: { duration: reduced ? 0 : 0.12 },
-                  }}
-                  onPointerLeave={() => setHover(null)}
+                  aria-hidden
+                  mask='url(#fade-mask)'
+                  initial={false}
+                  animate={{ opacity: focus ? 0.5 : 1 }}
+                  transition={fade}
                 >
-                  {lgaShapesForFocus.lgas.map((shape) => {
-                    const r = lgaById[shape.id];
-                    const lead = r?.candidates[0];
+                  {S.neighbours.map((n) => (
+                    <path
+                      key={n.name}
+                      d={n.d}
+                      fill='var(--map-neighbour)'
+                      stroke='var(--map-neighbour-stroke)'
+                      strokeWidth='1'
+                      vectorEffect='non-scaling-stroke'
+                    />
+                  ))}
+                </motion.g>
+
+                {/* states; leaving this group (onto neighbours or sea) hides the tooltip */}
+                <g
+                  onPointerLeave={() =>
+                    hover?.kind === 'state' && setHover(null)
+                  }
+                >
+                  {data.states.map((s) => {
+                    const shape = S.states[s.code];
+                    const lead = s.candidates[0];
+                    const isFocus = focus === s.code;
                     return (
                       <path
-                        key={shape.id}
+                        key={s.code}
                         d={shape.d}
-                        fill={fill(
-                          lead?.party,
-                          r?.margin ?? 0,
-                          r?.votes ?? 0,
-                          'lhatch',
-                        )}
+                        fill={
+                          focus && !isFocus
+                            ? 'var(--map-state-empty)'
+                            : fill(lead?.party, s.margin, s.total, 'hatch')
+                        }
                         stroke='var(--map-state-stroke)'
-                        strokeWidth={1}
+                        strokeWidth={1.2}
                         vectorEffect='non-scaling-stroke'
                         strokeLinejoin='round'
+                        tabIndex={focus ? -1 : 0}
+                        role='button'
+                        aria-label={`${s.name}, ${s.zoneName}: ${s.total ? `${lead.party} leading with ${pct(lead.share)}, ${pct(s.margin)} ahead` : data.live ? 'awaiting results' : 'data missing'}. Open state map.`}
                         style={{
-                          opacity:
-                            partyHover && lead?.party !== partyHover
-                              ? 0.18
-                              : outlineLga && outlineLga !== shape.id
-                                ? 0.6
-                                : 1,
-                          transition: 'opacity 80ms linear',
+                          opacity: focus
+                            ? isFocus
+                              ? lgas
+                                ? 0
+                                : 1
+                              : 0.75
+                            : hover?.kind === 'state' && hover.id !== s.code
+                              ? 0.6
+                              : 1,
+                          transition: `opacity ${reduced ? 0 : 240}ms cubic-bezier(0.32, 0.72, 0, 1)`,
+                          pointerEvents: 'all', // hoverable even where nothing is painted
                         }}
-                        pointerEvents='all'
-                        onPointerMove={(ev) => track(ev, 'lga', shape.id)}
-                        onPointerEnter={(ev) => track(ev, 'lga', shape.id)}
+                        className='cursor-pointer outline-hidden'
+                        onPointerMove={(ev) =>
+                          !focus && track(ev, 'state', s.code)
+                        }
+                        onPointerEnter={(ev) =>
+                          !focus && track(ev, 'state', s.code)
+                        }
+                        onClick={() => (isFocus ? undefined : open(s.code))}
+                        onFocus={() => {
+                          const r = wrapRef.current!.getBoundingClientRect();
+                          setHover({
+                            kind: 'state',
+                            id: s.code,
+                            x: ((shape.cx - camera[0]) / camera[2]) * r.width,
+                            y: ((shape.cy - camera[1]) / camera[3]) * r.height,
+                          });
+                        }}
+                        onBlur={() => setHover(null)}
+                        onKeyDown={(ev) => {
+                          if (ev.key === 'Enter' || ev.key === ' ') {
+                            ev.preventDefault();
+                            open(s.code);
+                          }
+                        }}
                       />
                     );
                   })}
-                </motion.g>
-              )}
-            </AnimatePresence>
+                </g>
 
-            {/* outlines on top */}
-            <path
-              d={S.nigeria}
-              fill='none'
-              stroke='var(--text-strong-950)'
-              strokeOpacity={focus ? 0.25 : 0.55}
-              strokeWidth='1.4'
-              vectorEffect='non-scaling-stroke'
-              strokeLinejoin='round'
-              pointerEvents='none'
-            />
-            {focus && (
-              <path
-                d={S.states[focus].d}
-                fill='none'
-                stroke='var(--text-strong-950)'
-                strokeWidth='1.6'
-                vectorEffect='non-scaling-stroke'
-                strokeLinejoin='round'
-                pointerEvents='none'
-              />
-            )}
-            {!focus && hover?.kind === 'state' && (
-              <path
-                d={S.states[hover.id].d}
-                fill='none'
-                stroke='var(--text-strong-950)'
-                strokeOpacity='0.85'
-                strokeWidth='1.5'
-                vectorEffect='non-scaling-stroke'
-                strokeLinejoin='round'
-                pointerEvents='none'
-              />
-            )}
-            {focus &&
-              outlineLga &&
-              lgaShapesForFocus?.lgas.find((l) => l.id === outlineLga) && (
+                {/* zone / party highlight: states outside the hovered zone, or not led by the
+                hovered party, fade to grey */}
+                <g aria-hidden pointerEvents='none'>
+                  {data.states.map((s) => (
+                    <path
+                      key={s.code}
+                      d={S.states[s.code].d}
+                      fill='var(--map-state-dim)'
+                      stroke='var(--map-state-stroke)'
+                      strokeWidth={1.2}
+                      vectorEffect='non-scaling-stroke'
+                      style={{
+                        opacity:
+                          !focus &&
+                          ((zoneHover && s.zone !== zoneHover) ||
+                            (partyHover &&
+                              (!s.total ||
+                                s.candidates[0]?.party !== partyHover)))
+                            ? 0.9
+                            : 0,
+                        transition: `opacity ${reduced ? 0 : 160}ms cubic-bezier(0.32, 0.72, 0, 1)`,
+                      }}
+                    />
+                  ))}
+                </g>
+
+                {/* LGAs of the focused state fade in as the camera settles */}
+                <AnimatePresence>
+                  {focused && lgaShapesForFocus && lgas && (
+                    <motion.g
+                      key={focused.code}
+                      initial={{ opacity: 0 }}
+                      animate={{
+                        opacity: 1,
+                        transition: { ...fade, delay: reduced ? 0 : 0.18 },
+                      }}
+                      exit={{
+                        opacity: 0,
+                        transition: { duration: reduced ? 0 : 0.12 },
+                      }}
+                      onPointerLeave={() => setHover(null)}
+                    >
+                      {lgaShapesForFocus.lgas.map((shape) => {
+                        const r = lgaById[shape.id];
+                        const lead = r?.candidates[0];
+                        return (
+                          <path
+                            key={shape.id}
+                            d={shape.d}
+                            fill={fill(
+                              lead?.party,
+                              r?.margin ?? 0,
+                              r?.votes ?? 0,
+                              'lhatch',
+                            )}
+                            stroke='var(--map-state-stroke)'
+                            strokeWidth={1}
+                            vectorEffect='non-scaling-stroke'
+                            strokeLinejoin='round'
+                            style={{
+                              opacity:
+                                partyHover && lead?.party !== partyHover
+                                  ? 0.18
+                                  : outlineLga && outlineLga !== shape.id
+                                    ? 0.6
+                                    : 1,
+                              transition: 'opacity 80ms linear',
+                            }}
+                            pointerEvents='all'
+                            onPointerMove={(ev) => track(ev, 'lga', shape.id)}
+                            onPointerEnter={(ev) => track(ev, 'lga', shape.id)}
+                          />
+                        );
+                      })}
+                    </motion.g>
+                  )}
+                </AnimatePresence>
+
+                {/* outlines on top */}
                 <path
-                  d={lgaShapesForFocus.lgas.find((l) => l.id === outlineLga)!.d}
+                  d={S.nigeria}
                   fill='none'
                   stroke='var(--text-strong-950)'
-                  strokeWidth='1.5'
-                  strokeOpacity='0.85'
+                  strokeOpacity={focus ? 0.25 : 0.55}
+                  strokeWidth='1.4'
                   vectorEffect='non-scaling-stroke'
                   strokeLinejoin='round'
                   pointerEvents='none'
                 />
-              )}
-
-            {/* zone leader lines */}
-            <motion.g
-              className='hidden md:inline'
-              aria-hidden
-              initial={false}
-              animate={{ opacity: focus || moving ? 0 : 1 }}
-              transition={{ duration: reduced ? 0 : 0.16 }}
-            >
-              {data.zones.map((z) => {
-                const [ax, ay] = anchors[z.code];
-                const c = CALLOUTS[z.code];
-                const ruleEnd = c.align === 'left' ? c.lx + 150 : c.lx - 150;
-                return (
-                  <g key={z.code}>
-                    <polyline
-                      points={`${ax},${ay} ${ax},${c.ly} ${ruleEnd},${c.ly}`}
+                {focus && (
+                  <path
+                    d={S.states[focus].d}
+                    fill='none'
+                    stroke='var(--text-strong-950)'
+                    strokeWidth='1.6'
+                    vectorEffect='non-scaling-stroke'
+                    strokeLinejoin='round'
+                    pointerEvents='none'
+                  />
+                )}
+                {!focus && hover?.kind === 'state' && (
+                  <path
+                    d={S.states[hover.id].d}
+                    fill='none'
+                    stroke='var(--text-strong-950)'
+                    strokeOpacity='0.85'
+                    strokeWidth='1.5'
+                    vectorEffect='non-scaling-stroke'
+                    strokeLinejoin='round'
+                    pointerEvents='none'
+                  />
+                )}
+                {focus &&
+                  outlineLga &&
+                  lgaShapesForFocus?.lgas.find((l) => l.id === outlineLga) && (
+                    <path
+                      d={
+                        lgaShapesForFocus.lgas.find((l) => l.id === outlineLga)!
+                          .d
+                      }
                       fill='none'
-                      stroke={
-                        zoneHover === z.code
-                          ? 'var(--text-strong-950)'
-                          : 'var(--text-sub-600)'
-                      }
-                      strokeWidth={zoneHover === z.code ? 1.4 : 0.9}
-                      vectorEffect='non-scaling-stroke'
-                    />
-                    <line
-                      x1={c.lx}
-                      x2={ruleEnd}
-                      y1={c.ly}
-                      y2={c.ly}
-                      stroke={
-                        zoneHover === z.code
-                          ? 'var(--text-strong-950)'
-                          : 'var(--text-sub-600)'
-                      }
-                      strokeWidth={zoneHover === z.code ? 1.4 : 0.9}
-                      vectorEffect='non-scaling-stroke'
-                    />
-                    <circle
-                      cx={ax}
-                      cy={ay}
-                      r='3.2'
-                      fill='var(--bg-white-0)'
                       stroke='var(--text-strong-950)'
-                      strokeWidth='1.4'
+                      strokeWidth='1.5'
+                      strokeOpacity='0.85'
                       vectorEffect='non-scaling-stroke'
+                      strokeLinejoin='round'
+                      pointerEvents='none'
                     />
-                  </g>
-                );
-              })}
-            </motion.g>
-          </motion.svg>
-
-          {/* HTML overlays keep text at real pixel sizes (12px+) at any map width */}
-          <motion.div
-            className={cn(
-              'absolute inset-0 hidden md:block',
-              focus || moving
-                ? 'pointer-events-none'
-                : 'pointer-events-none [&_a]:pointer-events-auto',
-            )}
-            initial={false}
-            animate={{ opacity: focus || moving ? 0 : 1 }}
-            transition={{ duration: reduced ? 0 : 0.16 }}
-            aria-hidden={focus ? true : undefined}
-          >
-            {Object.entries(NEIGHBOUR_LABELS).map(([n, [x, y]]) => (
-              <span
-                key={n}
-                aria-hidden
-                className='text-text-sub-600 absolute -translate-x-1/2 -translate-y-1/2 text-[12px]'
-                style={{
-                  left: `${(x / S.width) * 100}%`,
-                  top: `${(y / S.height) * 100}%`,
-                }}
-              >
-                {n}
-              </span>
-            ))}
-            <span
-              aria-hidden
-              className='text-text-sub-600 absolute text-[12px] italic'
-              style={{ left: '22%', top: '95%' }}
-            >
-              Gulf of Guinea
-            </span>
-            {data.zones.map((z) => {
-              const c = CALLOUTS[z.code];
-              return (
-                <Link
-                  key={z.code}
-                  href={`/zones/${z.code.toLowerCase()}` as Route}
-                  tabIndex={focus ? -1 : undefined}
-                  aria-label={`${z.name} zone analytics`}
-                  onPointerEnter={(ev) =>
-                    ev.pointerType === 'mouse' && setZoneHover(z.code)
-                  }
-                  onPointerLeave={() => setZoneHover(null)}
-                  onFocus={() => setZoneHover(z.code)}
-                  onBlur={() => setZoneHover(null)}
-                  className={cn(
-                    'absolute w-[15%] min-w-[124px] -translate-y-full rounded-md pb-1 transition-opacity duration-[80ms]',
-                    zoneHover && zoneHover !== z.code && 'opacity-50',
-                    c.align === 'right' && '-translate-x-full text-right',
                   )}
-                  style={{
-                    left: `${(c.lx / S.width) * 100}%`,
-                    top: `${(c.ly / S.height) * 100}%`,
-                  }}
+
+                {/* zone leader lines */}
+                <motion.g
+                  className='hidden md:inline'
+                  aria-hidden
+                  initial={false}
+                  animate={{ opacity: focus || moving ? 0 : 1 }}
+                  transition={{ duration: reduced ? 0 : 0.16 }}
                 >
-                  <div
-                    className='text-[12px] leading-4 font-[550]'
+                  {data.zones.map((z) => {
+                    const [ax, ay] = anchors[z.code];
+                    const c = CALLOUTS[z.code];
+                    const ruleEnd =
+                      c.align === 'left' ? c.lx + 150 : c.lx - 150;
+                    return (
+                      <g key={z.code}>
+                        <polyline
+                          points={`${ax},${ay} ${ax},${c.ly} ${ruleEnd},${c.ly}`}
+                          fill='none'
+                          stroke={
+                            zoneHover === z.code
+                              ? 'var(--text-strong-950)'
+                              : 'var(--text-sub-600)'
+                          }
+                          strokeWidth={zoneHover === z.code ? 1.4 : 0.9}
+                          vectorEffect='non-scaling-stroke'
+                        />
+                        <line
+                          x1={c.lx}
+                          x2={ruleEnd}
+                          y1={c.ly}
+                          y2={c.ly}
+                          stroke={
+                            zoneHover === z.code
+                              ? 'var(--text-strong-950)'
+                              : 'var(--text-sub-600)'
+                          }
+                          strokeWidth={zoneHover === z.code ? 1.4 : 0.9}
+                          vectorEffect='non-scaling-stroke'
+                        />
+                        <circle
+                          cx={ax}
+                          cy={ay}
+                          r='3.2'
+                          fill='var(--bg-white-0)'
+                          stroke='var(--text-strong-950)'
+                          strokeWidth='1.4'
+                          vectorEffect='non-scaling-stroke'
+                        />
+                      </g>
+                    );
+                  })}
+                </motion.g>
+              </motion.svg>
+
+              {/* HTML overlays keep text at real pixel sizes (12px+) at any map width */}
+              <motion.div
+                className={cn(
+                  'absolute inset-0 hidden md:block',
+                  focus || moving
+                    ? 'pointer-events-none'
+                    : 'pointer-events-none [&_a]:pointer-events-auto',
+                )}
+                initial={false}
+                animate={{ opacity: focus || moving ? 0 : 1 }}
+                transition={{ duration: reduced ? 0 : 0.16 }}
+                aria-hidden={focus ? true : undefined}
+              >
+                {Object.entries(NEIGHBOUR_LABELS).map(([n, [x, y]]) => (
+                  <span
+                    key={n}
+                    aria-hidden
+                    className='text-text-sub-600 absolute -translate-x-1/2 -translate-y-1/2 text-[12px]'
                     style={{
-                      color: z.lead
-                        ? PARTIES[z.lead.party].text
-                        : 'var(--text-sub-600)',
+                      left: `${(x / S.width) * 100}%`,
+                      top: `${(y / S.height) * 100}%`,
                     }}
                   >
-                    {z.name}
-                  </div>
-                  <div className='tabular text-text-sub-600 text-[12px] leading-4'>
-                    {z.lead
-                      ? `${z.lead.party} ${pct(z.lead.share)} · ${compact(z.total)}`
-                      : 'Awaiting results'}
-                  </div>
-                </Link>
-              );
-            })}
-          </motion.div>
+                    {n}
+                  </span>
+                ))}
+                <span
+                  aria-hidden
+                  className='text-text-sub-600 absolute text-[12px] italic'
+                  style={{ left: '22%', top: '95%' }}
+                >
+                  Gulf of Guinea
+                </span>
+                {data.zones.map((z) => {
+                  const c = CALLOUTS[z.code];
+                  return (
+                    <Link
+                      key={z.code}
+                      href={`/zones/${z.code.toLowerCase()}` as Route}
+                      tabIndex={focus ? -1 : undefined}
+                      aria-label={`${z.name} zone analytics`}
+                      onPointerEnter={(ev) =>
+                        ev.pointerType === 'mouse' && setZoneHover(z.code)
+                      }
+                      onPointerLeave={() => setZoneHover(null)}
+                      onFocus={() => setZoneHover(z.code)}
+                      onBlur={() => setZoneHover(null)}
+                      className={cn(
+                        'absolute w-[15%] min-w-[124px] -translate-y-full rounded-md pb-1 transition-opacity duration-[80ms]',
+                        zoneHover && zoneHover !== z.code && 'opacity-50',
+                        c.align === 'right' && '-translate-x-full text-right',
+                      )}
+                      style={{
+                        left: `${(c.lx / S.width) * 100}%`,
+                        top: `${(c.ly / S.height) * 100}%`,
+                      }}
+                    >
+                      <div
+                        className='text-[12px] leading-4 font-[550]'
+                        style={{
+                          color: z.lead
+                            ? PARTIES[z.lead.party].text
+                            : 'var(--text-sub-600)',
+                        }}
+                      >
+                        {z.name}
+                      </div>
+                      <div className='tabular text-text-sub-600 text-[12px] leading-4'>
+                        {z.lead
+                          ? `${z.lead.party} ${pct(z.lead.share)} · ${compact(z.total)}`
+                          : 'Awaiting results'}
+                      </div>
+                    </Link>
+                  );
+                })}
+              </motion.div>
 
-          {/* compact back control on the map itself, for when the panel is below (narrow screens) */}
-          <AnimatePresence>
-            {focused && (
-              <motion.button
-                type='button'
-                onClick={back}
-                initial={{ opacity: 0, y: -4 }}
-                animate={{
-                  opacity: 1,
-                  y: 0,
-                  transition: { ...spring.moderate, delay: reduced ? 0 : 0.2 },
-                }}
-                exit={{ opacity: 0, transition: spring.moderate.exit }}
-                className='hit bg-surface-4 text-label-xs text-text-strong-950 shadow-surface-4 absolute top-2 left-2 inline-flex h-8 items-center gap-1.5 rounded-full pr-3 pl-2.5 xl:hidden'
-              >
-                <IconBack className='size-3.5' /> Nigeria
-              </motion.button>
-            )}
-          </AnimatePresence>
+              {/* compact back control on the map itself, for when the panel is below (narrow screens) */}
+              <AnimatePresence>
+                {focused && (
+                  <motion.button
+                    type='button'
+                    onClick={back}
+                    initial={{ opacity: 0, y: -4 }}
+                    animate={{
+                      opacity: 1,
+                      y: 0,
+                      transition: {
+                        ...spring.moderate,
+                        delay: reduced ? 0 : 0.2,
+                      },
+                    }}
+                    exit={{ opacity: 0, transition: spring.moderate.exit }}
+                    className='hit bg-surface-4 text-label-xs text-text-strong-950 shadow-surface-4 absolute top-2 left-2 inline-flex h-8 items-center gap-1.5 rounded-full pr-3 pl-2.5 xl:hidden'
+                  >
+                    <IconBack className='size-3.5' /> Nigeria
+                  </motion.button>
+                )}
+              </AnimatePresence>
 
-          {/* tooltip: always below the pointer, so it never covers what you're pointing at */}
-          {hover && (hoveredState || hoveredLga) && (
-            <div
-              className='bg-surface-4 shadow-surface-4 pointer-events-none absolute z-20 w-64 rounded-xl p-3.5'
-              style={{
-                left: `clamp(0px, calc(${hover.x}px - 8rem), calc(100% - 16rem))`,
-                top: hover.y + 22,
-              }}
-              role='tooltip'
-            >
-              {hoveredState && (
-                <StateTooltip s={hoveredState} live={data.live} />
-              )}
-              {hoveredLga && focused && (
-                <LgaTooltip l={hoveredLga} stateName={focused.name} />
+              {/* tooltip: always below the pointer, so it never covers what you're pointing at */}
+              {hover && (hoveredState || hoveredLga) && (
+                <div
+                  className='bg-surface-4 shadow-surface-4 pointer-events-none absolute z-20 w-64 rounded-xl p-3.5'
+                  style={{
+                    left: `clamp(0px, calc(${hover.x}px - 8rem), calc(100% - 16rem))`,
+                    top: hover.y + 22,
+                  }}
+                  role='tooltip'
+                >
+                  {hoveredState && (
+                    <StateTooltip s={hoveredState} live={data.live} />
+                  )}
+                  {hoveredLga && focused && (
+                    <LgaTooltip l={hoveredLga} stateName={focused.name} />
+                  )}
+                </div>
               )}
             </div>
-          )}
-        </div>
 
-        {/* legend */}
-        <div className='border-stroke-soft-200 mt-4 flex flex-wrap items-center gap-x-5 gap-y-3 border-t pt-4'>
-          <div className='flex flex-wrap items-center gap-x-4 gap-y-2'>
-            {usedParties.map((p) => (
-              <span
-                key={p}
-                className={cn(
-                  'text-label-xs text-text-sub-600 inline-flex cursor-default items-center gap-1.5 transition-opacity duration-[160ms]',
-                  partyHover && partyHover !== p && 'opacity-50',
+            {/* legend */}
+            <div className='border-stroke-soft-200 mt-4 flex flex-wrap items-center gap-x-5 gap-y-3 border-t pt-4'>
+              <div className='flex flex-wrap items-center gap-x-4 gap-y-2'>
+                {usedParties.map((p) => (
+                  <span
+                    key={p}
+                    className={cn(
+                      'text-label-xs text-text-sub-600 inline-flex cursor-default items-center gap-1.5 transition-opacity duration-[160ms]',
+                      partyHover && partyHover !== p && 'opacity-50',
+                    )}
+                    onPointerEnter={(ev) =>
+                      ev.pointerType === 'mouse' && setPartyHover(p)
+                    }
+                    onPointerLeave={() => setPartyHover(null)}
+                  >
+                    <span
+                      className='size-3 rounded-sm'
+                      style={{ background: PARTIES[p].color }}
+                    />
+                    {p}
+                  </span>
+                ))}
+              </div>
+              <div className='text-paragraph-xs text-text-sub-600 flex flex-wrap items-center gap-x-4 gap-y-2'>
+                <LegendSwatch kind='strong' /> 20+ pt lead
+                <LegendSwatch kind='clear' /> 8–20 pts
+                <LegendSwatch kind='narrow' /> Under 8 pts
+                {data.live && (
+                  <>
+                    <LegendSwatch kind='empty' /> Awaiting
+                  </>
                 )}
-                onPointerEnter={(ev) => ev.pointerType === 'mouse' && setPartyHover(p)}
-                onPointerLeave={() => setPartyHover(null)}
-              >
-                <span
-                  className='size-3 rounded-sm'
-                  style={{ background: PARTIES[p].color }}
-                />
-                {p}
-              </span>
-            ))}
-          </div>
-          <div className='text-paragraph-xs text-text-sub-600 flex flex-wrap items-center gap-x-4 gap-y-2'>
-            <LegendSwatch kind='strong' /> 20+ pt lead
-            <LegendSwatch kind='clear' /> 8–20 pts
-            <LegendSwatch kind='narrow' /> Under 8 pts
-            {data.live && (
-              <>
-                <LegendSwatch kind='empty' /> Awaiting
-              </>
-            )}
-          </div>
-        </div>
-        <p className='text-paragraph-xs text-text-sub-600 mt-3 flex items-center gap-1.5'>
-          <IconCursor className='size-4' />
-          {focused
-            ? `Showing ${focused.name}'s ${lgas?.length ?? ''} local government areas. Press Esc or use Back to return.`
-            : 'Hover a state for a quick look. Click or tap it to zoom in.'}
-        </p>
+              </div>
+            </div>
+            <p className='text-paragraph-xs text-text-sub-600 mt-3 flex items-center gap-1.5'>
+              <IconCursor className='size-4' />
+              {focused
+                ? `Showing ${focused.name}'s ${lgas?.length ?? ''} local government areas. Press Esc or use Back to return.`
+                : 'Hover a state for a quick look. Click or tap it to zoom in.'}
+            </p>
+          </>
+        )}
         {footer}
       </div>
 
@@ -760,7 +878,13 @@ export function NigeriaMap({
       >
         <AnimatePresence mode='wait' initial={false}>
           <motion.div
-            key={focused ? focused.code : 'overview'}
+            key={
+              focused
+                ? focused.code
+                : view === 'terrain'
+                  ? 'terrain'
+                  : 'overview'
+            }
             initial={{ opacity: 0, x: focused ? 8 : -8 }}
             animate={{ opacity: 1, x: 0, transition: spring.moderate }}
             exit={{ opacity: 0, transition: spring.moderate.exit }}
@@ -774,12 +898,84 @@ export function NigeriaMap({
                 onBack={back}
                 onHoverLga={setListHover}
               />
+            ) : view === 'terrain' ? (
+              <TerrainGuide
+                parties={terrainParties}
+                party={terrainParty}
+                onParty={setTerrainParty}
+              />
             ) : (
               overview
             )}
           </motion.div>
         </AnimatePresence>
       </aside>
+    </div>
+  );
+}
+
+/** Right panel in the 3D view: how to read it, and which party to show. */
+function TerrainGuide({
+  parties,
+  party,
+  onParty,
+}: {
+  parties: { party: PartyCode; name: string; share: number }[];
+  party: PartyCode;
+  onParty: (p: PartyCode) => void;
+}) {
+  return (
+    <div className='flex flex-col'>
+      <section className='border-stroke-soft-200 flex flex-col gap-3 border-b p-4 sm:p-5'>
+        <h3 className='text-label-sm text-text-strong-950'>How to read</h3>
+        <p className='text-paragraph-xs text-text-sub-600'>
+          Each line rises with the selected party&rsquo;s share of the vote.
+          Colour follows height, from deep purple (low) to bright yellow (high).
+        </p>
+        <PlasmaScale />
+        <p className='text-paragraph-xs text-text-sub-600'>
+          Heights blend between neighbouring states so the country reads as
+          terrain; hover a state for its exact figure.
+        </p>
+      </section>
+      <section className='flex flex-col gap-3 p-4 sm:p-5'>
+        <h3 className='text-label-sm text-text-strong-950'>Party</h3>
+        <SortMenu
+          value={party}
+          onChange={onParty}
+          options={parties.map((p) => ({
+            value: p.party,
+            label: `${p.party === 'OTH' ? 'Others' : p.party} · ${p.name}`,
+            hint: `${(p.share * 100).toFixed(1)}% nationally`,
+          }))}
+          prefix='Showing:'
+          menuTitle='Party'
+          icon={false}
+          align='start'
+          className='h-9 w-full justify-between'
+        />
+        <ul className='flex flex-col gap-2'>
+          {parties.slice(0, 6).map((p) => (
+            <li
+              key={p.party}
+              className={cn(
+                'text-paragraph-xs text-text-sub-600 flex items-center gap-2',
+                p.party === party && 'text-text-strong-950',
+              )}
+            >
+              <span
+                className='size-2.5 rounded-full'
+                style={{ background: PARTIES[p.party].color }}
+                aria-hidden
+              />
+              <span className='truncate'>{p.name}</span>
+              <span className='tabular ml-auto'>
+                {(p.share * 100).toFixed(1)}%
+              </span>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }
@@ -886,7 +1082,9 @@ function StateTooltip({ s, live }: { s: MapState; live: boolean }) {
             </span>
           </div>
           {b && s.margin === 0 && (
-            <div className='text-paragraph-xs text-warning-dark mt-1'>Inconclusive: the leading candidates are tied.</div>
+            <div className='text-paragraph-xs text-warning-dark mt-1'>
+              Inconclusive: the leading candidates are tied.
+            </div>
           )}
           <div className='text-paragraph-xs text-text-sub-600 mt-1'>
             {a.party} leads{' '}
@@ -912,7 +1110,9 @@ function StateTooltip({ s, live }: { s: MapState; live: boolean }) {
             {live ? (
               <span>{pct(s.reported, 0)} reported</span>
             ) : (
-              Number.isFinite(s.turnout) && <span>{pct(s.turnout, 0)} turnout</span>
+              Number.isFinite(s.turnout) && (
+                <span>{pct(s.turnout, 0)} turnout</span>
+              )
             )}
           </div>
           <div className='text-paragraph-xs text-text-sub-600 mt-1.5'>
@@ -921,7 +1121,9 @@ function StateTooltip({ s, live }: { s: MapState; live: boolean }) {
         </>
       ) : (
         <p className='text-paragraph-xs text-text-sub-600 mt-2'>
-          {live ? 'No polling-unit results uploaded yet.' : 'Data missing: results for this state are not on NELI’s record.'}
+          {live
+            ? 'No polling-unit results uploaded yet.'
+            : 'Data missing: results for this state are not on NELI’s record.'}
         </p>
       )}
     </>
@@ -1087,7 +1289,10 @@ function StatePanel({
 
         <dl className='mt-5 grid grid-cols-2 gap-x-4 gap-y-4'>
           <Fact label='Votes counted' value={fmt(s.total)} />
-          <Fact label='Registered voters' value={s.registered ? compact(s.registered) : '—'} />
+          <Fact
+            label='Registered voters'
+            value={s.registered ? compact(s.registered) : '—'}
+          />
           <Fact
             label={live ? 'Polling units reported' : 'Reported'}
             value={pct(s.reported, 0)}
@@ -1174,7 +1379,9 @@ function StatePanel({
               })}
             </ul>
             <p className='text-paragraph-xs text-text-sub-600 mt-2'>
-              {s.lga ? 'Official results by LGA.' : 'Estimated LGA figures, derived from the state result.'}
+              {s.lga
+                ? 'Official results by LGA.'
+                : 'Estimated LGA figures, derived from the state result.'}
             </p>
           </>
         )}
