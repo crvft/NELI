@@ -638,23 +638,23 @@
     --primary-alpha-10: #0024001a;
     --primary-lighter: var(--brand-50);
 
-    --party-apc: #2563eb;
-    --party-pdp: #dc2626;
+    --party-apc: #dc2626;
+    --party-pdp: #16a34a;
     --party-lp: #0d9488;
     --party-nnpp: #f59e0b;
     --party-apga: #8b5cf6;
     --party-adc: #65a30d;
-    --party-ndc: #0891b2;
+    --party-ndc: #2563eb;
     --party-sdp: #db2777;
     --party-oth: #a8a29e;
     /* text-safe variants for party names set in colour (>= 4.5:1 on white) */
-    --party-apc-text: #1d4ed8;
-    --party-pdp-text: #b91c1c;
+    --party-apc-text: #b91c1c;
+    --party-pdp-text: #15803d;
     --party-lp-text: #0f766e;
     --party-nnpp-text: #b45309;
     --party-apga-text: #6d28d9;
     --party-adc-text: #4d7c0f;
-    --party-ndc-text: #0e7490;
+    --party-ndc-text: #1d4ed8;
     --party-sdp-text: #be185d;
     --party-oth-text: #57534e;
 
@@ -757,22 +757,22 @@
     --overlay-hover: rgb(255 255 255 / 0.06);
     --overlay-selected: rgb(255 255 255 / 0.1);
     --overlay-loading: rgb(255 255 255 / 0.06);
-    --party-apc: #3b82f6;
-    --party-pdp: #ef4444;
+    --party-apc: #ef4444;
+    --party-pdp: #22c55e;
     --party-lp: #14b8a6;
     --party-nnpp: #f59e0b;
     --party-apga: #a78bfa;
     --party-adc: #84cc16;
-    --party-ndc: #22d3ee;
+    --party-ndc: #3b82f6;
     --party-sdp: #f472b6;
     --party-oth: #78716c;
-    --party-apc-text: #60a5fa;
-    --party-pdp-text: #f87171;
+    --party-apc-text: #f87171;
+    --party-pdp-text: #4ade80;
     --party-lp-text: #2dd4bf;
     --party-nnpp-text: #fbbf24;
     --party-apga-text: #c4b5fd;
     --party-adc-text: #bef264;
-    --party-ndc-text: #67e8f9;
+    --party-ndc-text: #60a5fa;
     --party-sdp-text: #f9a8d4;
     --party-oth-text: #d6d3d1;
 

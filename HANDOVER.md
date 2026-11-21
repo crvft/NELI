@@ -290,7 +290,7 @@ Import order: **presidential 1999–2023 → governorship (incl. off-cycle)**, t
   - `neli_reload` now also loads people
 - Security advisor: no lints.
 - Site party colours are keyed by party code alone, so the reused post-2013 codes "APP"/"AD" still show in APC's family colour. Minor; fix by giving those rows distinct codes if it matters.
-- New colours: ADC olive (#65a30d) and NDC cyan (#0891b2), with dark-mode variants. ADC was slate when it was a minor party.
+- Party colours (2026-11-21, user's choice): APC red #dc2626, PDP green #16a34a, NDC blue #2563eb, LP teal, ADC olive #65a30d, NNPP amber, APGA violet, SDP pink, with dark-mode variants. Historical APC-family parties (AD, ANPP, ACN, CPC) follow APC's red.
 
 ## 8. Working agreements with the user
 

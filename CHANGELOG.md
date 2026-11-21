@@ -5,6 +5,10 @@ Dates are 2026-11-18 unless stated. Entries before "Real data on the site" used 
 
 ---
 
+## Party colours
+
+- APC is now red and PDP green, and NDC takes the blue APC used. Other parties keep their colours. APC's predecessors (AD, ANPP, ACN, CPC) follow APC's red.
+
 ## Interaction polish
 
 - **Cards clip their contents,** so a row's hover fill never spills past the rounded corners.
